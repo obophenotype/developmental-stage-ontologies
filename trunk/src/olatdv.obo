@@ -392,3 +392,9 @@ relationship: preceded_by OlatDv:0000460 ! Stage 43
 id: preceded_by
 name: preceded by
 
+
+[Typedef]
+id: part_of
+name: part of
+is_transitive: true
+xref: BFO:0000050
