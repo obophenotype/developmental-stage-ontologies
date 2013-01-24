@@ -850,5 +850,6 @@ is_a: MmusDv:0000001 ! Mouse developmental stage
 id: part_of
 name: part of
 is_transitive: true
+xref: BFO:0000050
 
 
