@@ -21,6 +21,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 3 min  Stage 1 (3 min) Activated 
 synonym: "Activated egg stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000020 ! Stage 0
+relationship: preceded_by OlatDv:0000020 ! Medaka stage 0
 
 [Term]
 id: OlatDv:0000040
@@ -53,6 +54,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 hr 45 min  Stage 4 (1 hr 45 min
 synonym: "4 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000060 ! Stage 3
+relationship: preceded_by OlatDv:0000060 ! Medaka stage 3
 
 [Term]
 id: OlatDv:0000080
@@ -61,6 +63,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 2 hrs 20 min  Stage 5 (2 hrs 20 m
 synonym: "8 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000070 ! Stage 4
+relationship: preceded_by OlatDv:0000070 ! Medaka stage 4
 
 [Term]
 id: OlatDv:0000090
@@ -69,6 +72,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 2 hrs 55 min  Stage 6 (2 hrs 55 m
 synonym: "16 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000080 ! Stage 5
+relationship: preceded_by OlatDv:0000080 ! Medaka stage 5
 
 [Term]
 id: OlatDv:0000100
@@ -77,6 +81,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 3 hrs 30 min  Stage 7 (3 hrs 30 m
 synonym: "32 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000090 ! Stage 6
+relationship: preceded_by OlatDv:0000090 ! Medaka stage 6
 
 [Term]
 id: OlatDv:0000110
@@ -85,6 +90,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 4 hrs 5 min  Stage 8 (4 hrs 5 min
 synonym: "Early morula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000100 ! Stage 7
+relationship: preceded_by OlatDv:0000100 ! Medaka stage 7
 
 [Term]
 id: OlatDv:0000120
@@ -93,6 +99,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 5 hrs 15 min  Stage 9 (5 hrs 15 m
 synonym: "Late morula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000110 ! Stage 8
+relationship: preceded_by OlatDv:0000110 ! Medaka stage 8
 
 [Term]
 id: OlatDv:0000130
@@ -101,6 +108,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 6 hrs 30 min  Stage 10 (6 hrs 30 
 synonym: "Early blastula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000120 ! Stage 9
+relationship: preceded_by OlatDv:0000120 ! Medaka stage 9
 
 [Term]
 id: OlatDv:0000140
@@ -109,6 +117,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 8 hrs 15 min  Stage 11 (8 hrs 15 
 synonym: "Late blastula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000130 ! Stage 10
+relationship: preceded_by OlatDv:0000130 ! Medaka stage 10
 
 [Term]
 id: OlatDv:0000150
@@ -117,6 +126,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 10 hrs 20 min  Stage 12 (10 hrs 2
 synonym: "Pre-early gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000140 ! Stage 11
+relationship: preceded_by OlatDv:0000140 ! Medaka stage 11
 
 [Term]
 id: OlatDv:0000160
@@ -125,6 +135,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 13 hrs 0 min  Stage 13 (13 hrs 0 
 synonym: "Early gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000150 ! Stage 12
+relationship: preceded_by OlatDv:0000150 ! Medaka stage 12
 
 [Term]
 id: OlatDv:0000170
@@ -133,6 +144,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 15 hrs 0 min  Stage 14 (15 hrs 0 
 synonym: "Pre-mid gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000160 ! Stage 13
+relationship: preceded_by OlatDv:0000160 ! Medaka stage 13
 
 [Term]
 id: OlatDv:0000180
@@ -141,6 +153,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 17 hrs 30 min  Stage 15 (17 hrs 3
 synonym: "Mid gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000170 ! Stage 14
+relationship: preceded_by OlatDv:0000170 ! Medaka stage 14
 
 [Term]
 id: OlatDv:0000190
@@ -149,6 +162,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 21 hrs 0 min  Stage 16 (21 hrs 0 
 synonym: "Late gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000180 ! Stage 15
+relationship: preceded_by OlatDv:0000180 ! Medaka stage 15
 
 [Term]
 id: OlatDv:0000200
@@ -158,6 +172,7 @@ comment: Head formation
 synonym: "Early neurula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000190 ! Stage 16
+relationship: preceded_by OlatDv:0000190 ! Medaka stage 16
 
 [Term]
 id: OlatDv:0000210
@@ -167,6 +182,7 @@ comment: Optic bud formation
 synonym: "Late neurula stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000200 ! Stage 17
+relationship: preceded_by OlatDv:0000200 ! Medaka stage 17
 
 [Term]
 id: OlatDv:0000220
@@ -175,6 +191,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 3 hrs 30 min  Stage 19 (1 d
 synonym: "2 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000210 ! Stage 18
+relationship: preceded_by OlatDv:0000210 ! Medaka stage 18
 
 [Term]
 id: OlatDv:0000230
@@ -183,6 +200,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 7 hrs 30 min  Stage 20 (1 d
 synonym: "4 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000220 ! Stage 19
+relationship: preceded_by OlatDv:0000220 ! Medaka stage 19
 
 [Term]
 id: OlatDv:0000240
@@ -192,6 +210,7 @@ comment: Brain and otic vesicle formation
 synonym: "6 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000230 ! Stage 20
+relationship: preceded_by OlatDv:0000230 ! Medaka stage 20
 
 [Term]
 id: OlatDv:0000250
@@ -201,6 +220,7 @@ comment: Appearance of heart anlage
 synonym: "9 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000240 ! Stage 21
+relationship: preceded_by OlatDv:0000240 ! Medaka stage 21
 
 [Term]
 id: OlatDv:0000260
@@ -210,6 +230,7 @@ comment: Formation of tubular heart
 synonym: "12 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000250 ! Stage 22
+relationship: preceded_by OlatDv:0000250 ! Medaka stage 22
 
 [Term]
 id: OlatDv:0000270
@@ -219,6 +240,7 @@ comment: Start of heart beating
 synonym: "16 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000260 ! Stage 23
+relationship: preceded_by OlatDv:0000260 ! Medaka stage 23
 
 [Term]
 id: OlatDv:0000280
@@ -228,6 +250,7 @@ comment: Onset of blood circulation
 synonym: "18-19 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000270 ! Stage 24
+relationship: preceded_by OlatDv:0000270 ! Medaka stage 24
 
 [Term]
 id: OlatDv:0000290
@@ -237,6 +260,7 @@ comment: Development of guanophores and vacuolization of the notochord
 synonym: "22 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000280 ! Stage 25
+relationship: preceded_by OlatDv:0000280 ! Medaka stage 25
 
 [Term]
 id: OlatDv:0000300
@@ -246,6 +270,7 @@ comment: Appearance of pectoral fin bud
 synonym: "24 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000290 ! Stage 26
+relationship: preceded_by OlatDv:0000290 ! Medaka stage 26
 
 [Term]
 id: OlatDv:0000310
@@ -255,6 +280,7 @@ comment: Onset of retinal pigmentation
 synonym: "30 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000300 ! Stage 27
+relationship: preceded_by OlatDv:0000300 ! Medaka stage 27
 
 [Term]
 id: OlatDv:0000320
@@ -264,6 +290,7 @@ comment: Internal ear formation
 synonym: "34 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000310 ! Stage 28
+relationship: preceded_by OlatDv:0000310 ! Medaka stage 28
 
 [Term]
 id: OlatDv:0000330
@@ -273,6 +300,7 @@ comment: Blood vessel development
 synonym: "35 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000320 ! Stage 29
+relationship: preceded_by OlatDv:0000320 ! Medaka stage 29
 
 [Term]
 id: OlatDv:0000340
@@ -281,6 +309,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 3 days 23 hrs  Stage 31 (3 days 2
 synonym: "Gill blood vessel formation stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000330 ! Stage 30
+relationship: preceded_by OlatDv:0000330 ! Medaka stage 30
 
 [Term]
 id: OlatDv:0000350
@@ -290,6 +319,7 @@ comment: Formation of pronephros and air bladder
 synonym: "Somite completion stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000340 ! Stage 31
+relationship: preceded_by OlatDv:0000340 ! Medaka stage 31
 
 [Term]
 id: OlatDv:0000360
@@ -298,6 +328,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 4 days 10 hrs  Stage 33 (4 days 1
 synonym: "Stage at which notochord vacuolization is completed" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000350 ! Stage 32
+relationship: preceded_by OlatDv:0000350 ! Medaka stage 32
 
 [Term]
 id: OlatDv:0000370
@@ -306,6 +337,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 5 days 1 hr  Stage 34 (5 days 1 h
 synonym: "Pectoral fin blood circulation stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000360 ! Stage 33
+relationship: preceded_by OlatDv:0000360 ! Medaka stage 33
 
 [Term]
 id: OlatDv:0000380
@@ -314,6 +346,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 5 days 12 hrs  Stage 35 (5 days 1
 synonym: "Stage at which visceral blood vessels form" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000370 ! Stage 34
+relationship: preceded_by OlatDv:0000370 ! Medaka stage 34
 
 [Term]
 id: OlatDv:0000390
@@ -322,6 +355,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 6 days  Stage 36 (6 days) Heart d
 synonym: "Heart development stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000380 ! Stage 35
+relationship: preceded_by OlatDv:0000380 ! Medaka stage 35
 
 [Term]
 id: OlatDv:0000400
@@ -330,6 +364,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 7 days  Stage 37 (7 days) Pericar
 synonym: "Pericardial cavity formation stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000390 ! Stage 36
+relationship: preceded_by OlatDv:0000390 ! Medaka stage 36
 
 [Term]
 id: OlatDv:0000410
@@ -339,6 +374,7 @@ comment: Differentiation of caudal fin begins
 synonym: "Spleen development stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000400 ! Stage 37
+relationship: preceded_by OlatDv:0000400 ! Medaka stage 37
 
 [Term]
 id: OlatDv:0000420
@@ -347,6 +383,7 @@ def: "Zoological Science 11\: 825-839 (1994) - 9 days  Stage 39 (9 days) Hatchin
 synonym: "Hatching stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000410 ! Stage 38
+relationship: preceded_by OlatDv:0000410 ! Medaka stage 38
 
 [Term]
 id: OlatDv:0000430
@@ -355,6 +392,7 @@ def: "Zoological Science 11\: 825-839 (1994) -   Stage 40 1st fry stage\: This p
 synonym: "1st fry stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000420 ! Stage 39
+relationship: preceded_by OlatDv:0000420 ! Medaka stage 39
 
 [Term]
 id: OlatDv:0000440
@@ -363,6 +401,7 @@ def: "Zoological Science 11\: 825-839 (1994) -   Stage 41 2nd fry stage\: This p
 synonym: "2nd fry stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000430 ! Stage 40
+relationship: preceded_by OlatDv:0000430 ! Medaka stage 40
 
 [Term]
 id: OlatDv:0000450
@@ -371,6 +410,7 @@ def: "Zoological Science 11\: 825-839 (1994) -   Stage 42 3rd fry stage\: This s
 synonym: "3rd fry stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000440 ! Stage 41
+relationship: preceded_by OlatDv:0000440 ! Medaka stage 41
 
 [Term]
 id: OlatDv:0000460
@@ -379,6 +419,7 @@ def: "Zoological Science 11\: 825-839 (1994) -   Stage 43 1st young fish stage\:
 synonym: "1st young fish stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000450 ! Stage 42
+relationship: preceded_by OlatDv:0000450 ! Medaka stage 42
 
 [Term]
 id: OlatDv:0000470
@@ -387,6 +428,7 @@ def: "Zoological Science 11\: 825-839 (1994) -   Stage 44 2nd young fish stage\:
 synonym: "2nd young fish stage" []
 is_a: OlatDv:0000010 ! developmental stage
 relationship: preceded_by OlatDv:0000460 ! Stage 43
+relationship: preceded_by OlatDv:0000460 ! Medaka stage 43
 
 [Typedef]
 id: preceded_by
