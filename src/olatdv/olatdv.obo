@@ -28,7 +28,6 @@ name: Medaka stage 2a
 def: "Zoological Science 11\: 825-839 (1994) - 30 min  Stage 2a (30 min) Blastodisc stage a\: The male and the female pronuclei migrate toward and associate with each other at the center of the thick cytoplasmic disc at the animal pole. Chromosomes then appear and divide into two groups at the poles of the spindle marking the end of this stage. Oscillatory contractions cause the peripheral cortical cytoplasm to migrate toward the animal pole where it forms a convex\, lens-shaped blastodisc. Meanwhile\, oil droplets migrate toward the vegetal pole and begin coalescing. - 30 min " [OlatDv:curators]
 synonym: "Blastodisc stage a" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000030 ! Stage 1
 
 [Term]
 id: OlatDv:0000050
@@ -36,7 +35,6 @@ name: Medaka stage 2b
 def: "Zoological Science 11\: 825-839 (1994) - 60 min  Stage 2b (60 min) Blastodisc stage b\: The male and the female pronuclei migrate toward and associate with each other at the center of the thick cytoplasmic disc at the animal pole. Chromosomes then appear and divide into two groups at the poles of the spindle marking the end of this stage. The layer of cortical cytoplasm covering the yolk sphere is very thin except where it forms the cap-shaped blastodisc. By the end of this stage\, most of the oil droplets from the animal hemisphere have already migrated to the vegetal hemisphere. Two dimple-like pits on the blastodisc serve as markers to locate the future blastomeres. - 60 min " [OlatDv:curators]
 synonym: "Blastodisc stage b" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000040 ! Stage 2a
 
 [Term]
 id: OlatDv:0000060
@@ -44,7 +42,6 @@ name: Medaka stage 3
 def: "Zoological Science 11\: 825-839 (1994) - 1 hr 5 min  Stage 3 (1 hr 5 min) 2 cell stage\: The first cleavage plane is at a right angle to the axis between the second polar body (meiotic spindle) and the micropyle in 60-79% of eggs. The two blastomeres are highly rounded just after cleavage\, but are comparatively flat just before the second cleavage. - 1 hr 5 min " [OlatDv:curators]
 synonym: "2 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000050 ! Stage 2b
 
 [Term]
 id: OlatDv:0000070
@@ -52,7 +49,6 @@ name: Medaka stage 4
 def: "Zoological Science 11\: 825-839 (1994) - 1 hr 45 min  Stage 4 (1 hr 45 min) 4 cell stage\: The second cleavage furrow develops on the two blastomeres at a right angle to the first cleavage plane. It deepens until each blastomere is divided into 2 of the same size. The oil droplets are larger but fewer and gather toward the vegetal pole. - 1 hr 45 min " [OlatDv:curators]
 synonym: "4 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000060 ! Stage 3
 relationship: preceded_by OlatDv:0000060 ! Medaka stage 3
 
 [Term]
@@ -61,7 +57,6 @@ name: Medaka stage 5
 def: "Zoological Science 11\: 825-839 (1994) - 2 hrs 20 min  Stage 5 (2 hrs 20 min) 8 cell stage\: The third cleavage plane is parallel to the first and divides the 4 blastomeres into 8 blastomeres. The blastoderm has bilaterally symmetrical rows of blastomeres and elongates along the axis of the second cleavage plane. - 2 hrs 20 min " [OlatDv:curators]
 synonym: "8 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000070 ! Stage 4
 relationship: preceded_by OlatDv:0000070 ! Medaka stage 4
 
 [Term]
@@ -70,7 +65,6 @@ name: Medaka stage 6
 def: "Zoological Science 11\: 825-839 (1994) - 2 hrs 55 min  Stage 6 (2 hrs 55 min) 16 cell stage\: The fourth cleavage plane\, which is parallel to the second\, divides the 2 rows of 4 blastomeres into 4 rows of 4 blastomeres. - 2 hrs 55 min " [OlatDv:curators]
 synonym: "16 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000080 ! Stage 5
 relationship: preceded_by OlatDv:0000080 ! Medaka stage 5
 
 [Term]
@@ -79,7 +73,6 @@ name: Medaka stage 7
 def: "Zoological Science 11\: 825-839 (1994) - 3 hrs 30 min  Stage 7 (3 hrs 30 min) 32 cell stage\: The fifth cleavage plane divides the marginal 12blastomeres meridionally into 24\, and the central 4 blastomeres horizontally into 8 thereby forming 2 layers\, an outer and an inner layer\, in the central region. The number of marginal cells is 14. These observations agree with those of Matui \[24\]\, Gamo and Terajima \[4\] and Iwamatsu \[11\] but differ from the earlier reports of Kamito \[21\, cf. 30\] in which cleavage was reported to continue to occur meridionally at least through the 32 cell stage. - 3 hrs 30 min " [OlatDv:curators]
 synonym: "32 cell stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000090 ! Stage 6
 relationship: preceded_by OlatDv:0000090 ! Medaka stage 6
 
 [Term]
@@ -88,7 +81,6 @@ name: Medaka stage 8
 def: "Zoological Science 11\: 825-839 (1994) - 4 hrs 5 min  Stage 8 (4 hrs 5 min) Early morula stage\: The planes of the sixth and later cleavages are difficult to precisely trace. The blastomeres (64-128) have different cleavage planes depending on their positions within the dome-shaped blastoderm and are arranged in 3 layers. The peripheral blastomeres (21-24) are flattened in shape. The cells (30-35 m in diameter) are arranged in 3-4 layers but are still easily dissociated from each other \[31\]. - 4 hrs 5 min " [OlatDv:curators]
 synonym: "Early morula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000100 ! Stage 7
 relationship: preceded_by OlatDv:0000100 ! Medaka stage 7
 
 [Term]
@@ -97,7 +89,6 @@ name: Medaka stage 9
 def: "Zoological Science 11\: 825-839 (1994) - 5 hrs 15 min  Stage 9 (5 hrs 15 min) Late morula stage\: The blastodermal cells (256-512 blastomeres) are smaller than those of the previous stage and the number of marginal cells (30- 40) has increased. The blastodermal cells (central region\, 25- 35 m in diameter) now form 4-5 layers. - 5 hrs 15 min " [OlatDv:curators]
 synonym: "Late morula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000110 ! Stage 8
 relationship: preceded_by OlatDv:0000110 ! Medaka stage 8
 
 [Term]
@@ -106,7 +97,6 @@ name: Medaka stage 10
 def: "Zoological Science 11\: 825-839 (1994) - 6 hrs 30 min  Stage 10 (6 hrs 30 min) Early blastula stage\: The blastoderm (about 1\,000 cells) is still high (thick) as in the late morula stage\, although its inner cells (20-30 m in diameter) are smaller. According to Kageyama \[19\]\, the 11th cleavage still takes place synchronously. Nuclei from the marginal cells (40\, cf.\[19\]) migrate out of the cells and are distributed in a few rows in the periblast (cortical syncytial layer). - 6 hrs 30 min " [OlatDv:curators]
 synonym: "Early blastula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000120 ! Stage 9
 relationship: preceded_by OlatDv:0000120 ! Medaka stage 9
 
 [Term]
@@ -115,7 +105,6 @@ name: Medaka stage 11
 def: "Zoological Science 11\: 825-839 (1994) - 8 hrs 15 min  Stage 11 (8 hrs 15 min) Late blastula stage\: Projection of the underside of the blastoderm (central cells\, about 20 m in diameter) into the yolk sphere is observed. In this stage\, some blastomeres begin to cleave asynchronously and to migrate. Several (5-6) rows of periblast nuclei are visible around the blastoderm. - 8 hrs 15 min " [OlatDv:curators]
 synonym: "Late blastula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000130 ! Stage 10
 relationship: preceded_by OlatDv:0000130 ! Medaka stage 10
 
 [Term]
@@ -124,7 +113,6 @@ name: Medaka stage 12
 def: "Zoological Science 11\: 825-839 (1994) - 10 hrs 20 min  Stage 12 (10 hrs 20 min) Pre-early gastrula stage\: The blastoderm has flattened down onto the yolk sphere so that its outer surface follows the curvature of the yolk sphere. The cell layers are slightly thicker on one side. The diameter of the cells in the central region of the blastoderm remains about 20 m. - 10 hrs 20 min " [OlatDv:curators]
 synonym: "Pre-early gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000140 ! Stage 11
 relationship: preceded_by OlatDv:0000140 ! Medaka stage 11
 
 [Term]
@@ -133,7 +121,6 @@ name: Medaka stage 13
 def: "Zoological Science 11\: 825-839 (1994) - 13 hrs 0 min  Stage 13 (13 hrs 0 min) Early gastrula stage\: The blastoderm begins to expand (epiboly\, about 1/4 of the yolk sphere) over the surface of the yolk sphere\, and the presumptive region of the embryonic shield arises as a thickened margin (dorsal lip) of the blastoderm. It is difficult to recognize the boundaries of the flattened marginal cells. The diameter of the cells in the central region of the blastoderm is 15-20 m. - 13 hrs 0 min " [OlatDv:curators]
 synonym: "Early gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000150 ! Stage 12
 relationship: preceded_by OlatDv:0000150 ! Medaka stage 12
 
 [Term]
@@ -142,7 +129,6 @@ name: Medaka stage 14
 def: "Zoological Science 11\: 825-839 (1994) - 15 hrs 0 min  Stage 14 (15 hrs 0 min) Pre-mid gastrula stage\: Epiboly progressively advances and the blastoderm covers about 1/3 of the yolk sphere. The germ ring is well-defined\, and the embryonic shield increases in size. Weak\, rhythmically undulating movements \[3\,29\] begin to occur on the blastoderm but not on the uncovered yolk sphere. - 15 hrs 0 min " [OlatDv:curators]
 synonym: "Pre-mid gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000160 ! Stage 13
 relationship: preceded_by OlatDv:0000160 ! Medaka stage 13
 
 [Term]
@@ -151,7 +137,6 @@ name: Medaka stage 15
 def: "Zoological Science 11\: 825-839 (1994) - 17 hrs 30 min  Stage 15 (17 hrs 30 min) Mid gastrula stage\: A streak is visible in the midline of the embryonic shield projecting into the germ ring area. The blastoderm covers about 1/2 of the yolk sphere. The nuclei of the marginal periblast are barely visible on the yolk sphere. - 17 hrs 30 min " [OlatDv:curators]
 synonym: "Mid gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000170 ! Stage 14
 relationship: preceded_by OlatDv:0000170 ! Medaka stage 14
 
 [Term]
@@ -160,7 +145,6 @@ name: Medaka stage 16
 def: "Zoological Science 11\: 825-839 (1994) - 21 hrs 0 min  Stage 16 (21 hrs 0 min) Late gastrula stage\: The blastoderm covers 3/4 of the yolk sphere\, and the embryonic shield (body) becomes more clearly visible as a narrow streak. The enveloping layer expands uniformly over the yolk sphere until this stage \[18\]. - 21 hrs 0 min " [OlatDv:curators]
 synonym: "Late gastrula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000180 ! Stage 15
 relationship: preceded_by OlatDv:0000180 ! Medaka stage 15
 
 [Term]
@@ -170,7 +154,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 1 hr  Stage 17 (1 day 1 hr)
 comment: Head formation 
 synonym: "Early neurula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000190 ! Stage 16
 relationship: preceded_by OlatDv:0000190 ! Medaka stage 16
 
 [Term]
@@ -180,7 +163,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 2 hrs  Stage 18 (1 day 2 hr
 comment: Optic bud formation 
 synonym: "Late neurula stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000200 ! Stage 17
 relationship: preceded_by OlatDv:0000200 ! Medaka stage 17
 
 [Term]
@@ -189,7 +171,6 @@ name: Medaka stage 19
 def: "Zoological Science 11\: 825-839 (1994) - 1 day 3 hrs 30 min  Stage 19 (1 day 3 hrs 30 min) 2 somite stage\: A groove appears in the dorsum of each optic lobe. At the end of this stage (3 somites)\, two slight knobs are recognized behind the optic vesicles. The blastopore is completely closed. The expansion of the enveloping layer is accomplished without an accompanying increase in the number of constituent cells \[18\]. - 1 day 3 hrs 30 min " [OlatDv:curators]
 synonym: "2 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000210 ! Stage 18
 relationship: preceded_by OlatDv:0000210 ! Medaka stage 18
 
 [Term]
@@ -198,7 +179,6 @@ name: Medaka stage 20
 def: "Zoological Science 11\: 825-839 (1994) - 1 day 7 hrs 30 min  Stage 20 (1 day 7 hrs 30 min) 4 somite stage\: A paired placode of otic (auditory) vesicles appears at the posterior region of the head. Depressions begin to form at the dorsal surface of the eye vesicles. Three parts of the brain (the fore-\, the mid- and the hind-brain) are discernible. - 1 day 7 hrs 30 min " [OlatDv:curators]
 synonym: "4 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000220 ! Stage 19
 relationship: preceded_by OlatDv:0000220 ! Medaka stage 19
 
 [Term]
@@ -208,7 +188,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 10 hrs  Stage 21 (1 day 10 
 comment: Brain and otic vesicle formation  
 synonym: "6 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000230 ! Stage 20
 relationship: preceded_by OlatDv:0000230 ! Medaka stage 20
 
 [Term]
@@ -218,7 +197,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 14 hrs  Stage 22 (1 day 14 
 comment: Appearance of heart anlage  
 synonym: "9 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000240 ! Stage 21
 relationship: preceded_by OlatDv:0000240 ! Medaka stage 21
 
 [Term]
@@ -228,7 +206,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 17 hrs  Stage 23 (1 day 17 
 comment: Formation of tubular heart 
 synonym: "12 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000250 ! Stage 22
 relationship: preceded_by OlatDv:0000250 ! Medaka stage 22
 
 [Term]
@@ -238,7 +215,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 1 day 20 hrs  Stage 24 (1 day 20 
 comment: Start of heart beating 
 synonym: "16 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000260 ! Stage 23
 relationship: preceded_by OlatDv:0000260 ! Medaka stage 23
 
 [Term]
@@ -248,7 +224,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 2 days 2 hrs  Stage 25 (2 days 2 
 comment: Onset of blood circulation 
 synonym: "18-19 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000270 ! Stage 24
 relationship: preceded_by OlatDv:0000270 ! Medaka stage 24
 
 [Term]
@@ -258,7 +233,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 2 days 6 hrs  Stage 26 (2 days 6 
 comment: Development of guanophores and vacuolization of the notochord 
 synonym: "22 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000280 ! Stage 25
 relationship: preceded_by OlatDv:0000280 ! Medaka stage 25
 
 [Term]
@@ -268,7 +242,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 2 days 10 hrs  Stage 27 (2 days 1
 comment: Appearance of pectoral fin bud 
 synonym: "24 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000290 ! Stage 26
 relationship: preceded_by OlatDv:0000290 ! Medaka stage 26
 
 [Term]
@@ -278,7 +251,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 2 days 16 hrs  Stage 28 (2 days 1
 comment: Onset of retinal pigmentation 
 synonym: "30 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000300 ! Stage 27
 relationship: preceded_by OlatDv:0000300 ! Medaka stage 27
 
 [Term]
@@ -288,7 +260,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 3 days 2 hrs  Stage 29 (3 days 2 
 comment: Internal ear formation 
 synonym: "34 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000310 ! Stage 28
 relationship: preceded_by OlatDv:0000310 ! Medaka stage 28
 
 [Term]
@@ -298,7 +269,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 3 days 10 hrs " [OlatDv:curators]
 comment: Blood vessel development 
 synonym: "35 somite stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000320 ! Stage 29
 relationship: preceded_by OlatDv:0000320 ! Medaka stage 29
 
 [Term]
@@ -307,7 +277,6 @@ name: Medaka stage 31
 def: "Zoological Science 11\: 825-839 (1994) - 3 days 23 hrs  Stage 31 (3 days 23 hrs) Gill blood vessel formation stage\: Large cells of the hatching enzyme gland migrate up to the region under the central part of the eye\, which now has a cornea. Blood circulation is seen in the gill arches. Pigmentation of the melanophores in the choroidea proceeds as a dark network in the eye. The pronephric kidney appears as a bright structure adjacent to the 1st somite. The transparent\, colorless gallbladder first appears at the posterior region of the liver. Four transparent\, membranous protrusions (the structures of the internal ear) are recognized in the otic vesicles. The anterior region of the oral cavity is formed. The tail has 21 somites and a membranous fin which is wider on the ventral side. - 3 days 23 hrs " [OlatDv:curators]
 synonym: "Gill blood vessel formation stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000330 ! Stage 30
 relationship: preceded_by OlatDv:0000330 ! Medaka stage 30
 
 [Term]
@@ -317,7 +286,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 4 days 5 hrs  Stage 32 (4 days 5 
 comment: Formation of pronephros and air bladder 
 synonym: "Somite completion stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000340 ! Stage 31
 relationship: preceded_by OlatDv:0000340 ! Medaka stage 31
 
 [Term]
@@ -326,7 +294,6 @@ name: Medaka stage 33
 def: "Zoological Science 11\: 825-839 (1994) - 4 days 10 hrs  Stage 33 (4 days 10 hrs) Stage at which notochord vacuolization is completed\: The tail tip has not yet reached within inter ocular distance of the eye. Because the eyeball (choroidea) is very dark\, the lenses can be seen only with strong trans illumination. The notochord is completely vacuolized to the end of the tail. The pineal gland is distinct at the dorsal surface of the vascularized forebrain. The tips of the membranous margins of the pectoral fins reach the 4th somite. - 4 days 10 hrs " [OlatDv:curators]
 synonym: "Stage at which notochord vacuolization is completed" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000350 ! Stage 32
 relationship: preceded_by OlatDv:0000350 ! Medaka stage 32
 
 [Term]
@@ -335,7 +302,6 @@ name: Medaka stage 34
 def: "Zoological Science 11\: 825-839 (1994) - 5 days 1 hr  Stage 34 (5 days 1 hr) Pectoral fin blood circulation stage\: The tip of the caudal fin has several melanophores and reaches the eye. Blood circulation is apparent in the pectoral fins\, which frequently move (flutter). The choroidea of the eye becomes so black that it is almost impervious to light. - 5 days 1 hr " [OlatDv:curators]
 synonym: "Pectoral fin blood circulation stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000360 ! Stage 33
 relationship: preceded_by OlatDv:0000360 ! Medaka stage 33
 
 [Term]
@@ -344,7 +310,6 @@ name: Medaka stage 35
 def: "Zoological Science 11\: 825-839 (1994) - 5 days 12 hrs  Stage 35 (5 days 12 hrs) Stage at which visceral blood vessels form\: The tip of the caudal fin reaches beyond the posterior border of the eye. Guanophores are distributed from the head to the vicinity of the tail tip. Blood circulates through the internal tissues of the head and the viscera to Cuvier's ducts. The tubular structure of the spinal cord is revealed. The opening of the oral cavity to the mouth and the presence of several pit organs on the frontal bone can be recognized. - 5 days 12 hrs " [OlatDv:curators]
 synonym: "Stage at which visceral blood vessels form" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000370 ! Stage 34
 relationship: preceded_by OlatDv:0000370 ! Medaka stage 34
 
 [Term]
@@ -353,7 +318,6 @@ name: Medaka stage 36
 def: "Zoological Science 11\: 825-839 (1994) - 6 days  Stage 36 (6 days) Heart development stage\: The tip of the tail reaches the otic vesicle. Guanophores and melanophores are distributed on the dorsal wall (peritoneum) of the peritoneal cavity beneath the 1st to the 4th somites. The extent of flexion of the atrio-ventricular region of the heart increases so that in a lateral view\, the atrium and the ventricle lie adjacent to each other. - 6 days " [OlatDv:curators]
 synonym: "Heart development stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000380 ! Stage 35
 relationship: preceded_by OlatDv:0000380 ! Medaka stage 35
 
 [Term]
@@ -362,7 +326,6 @@ name: Medaka stage 37
 def: "Zoological Science 11\: 825-839 (1994) - 7 days  Stage 37 (7 days) Pericardial cavity formation stage\: The tip of the tail lies just past the otic vesicle (total length ca. 3.1 mm). The pharyngeal teeth are visible in the posterior region of the gills between the otic vesicles. The pericardial cavity (cardiac sac) surrounding the heart is easily observed. The slowly moving gut tube has a narrow lumen. - 7 days " [OlatDv:curators]
 synonym: "Pericardial cavity formation stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000390 ! Stage 36
 relationship: preceded_by OlatDv:0000390 ! Medaka stage 36
 
 [Term]
@@ -372,7 +335,6 @@ def: "Zoological Science 11\: 825-839 (1994) - 8 days  Stage 38 (8 days) Spleen 
 comment: Differentiation of caudal fin begins 
 synonym: "Spleen development stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000400 ! Stage 37
 relationship: preceded_by OlatDv:0000400 ! Medaka stage 37
 
 [Term]
@@ -381,7 +343,6 @@ name: Medaka stage 39
 def: "Zoological Science 11\: 825-839 (1994) - 9 days  Stage 39 (9 days) Hatching stage\: The tip of the tail extends to the base of the pectoral fin or to the posterior region of the swim bladder (total length 3.8- 4.2 mm). After hatching\, the internal wall of the swim bladder expands remarkably. Cells of hatching gland have already disappeared. The embryos dissolve the inner layers of the chorion \[27\]\, tear the single outer layer by moving the body and escape from the chorion tail-first. - 9 days " [OlatDv:curators]
 synonym: "Hatching stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000410 ! Stage 38
 relationship: preceded_by OlatDv:0000410 ! Medaka stage 38
 
 [Term]
@@ -390,7 +351,6 @@ name: Medaka stage 40
 def: "Zoological Science 11\: 825-839 (1994) -   Stage 40 1st fry stage\: This period extends from hatching until fin rays appear in the caudal and pectoral fins (total length about 4.5 mm). -  " [OlatDv:curators]
 synonym: "1st fry stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000420 ! Stage 39
 relationship: preceded_by OlatDv:0000420 ! Medaka stage 39
 
 [Term]
@@ -399,7 +359,6 @@ name: Medaka stage 41
 def: "Zoological Science 11\: 825-839 (1994) -   Stage 41 2nd fry stage\: This period begins after the appearance of jointed rays in the pectoral fins and continues until fin rays appear in the dorsal and anal fins (total length about 5.5 mm). -  " [OlatDv:curators]
 synonym: "2nd fry stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000430 ! Stage 40
 relationship: preceded_by OlatDv:0000430 ! Medaka stage 40
 
 [Term]
@@ -408,7 +367,6 @@ name: Medaka stage 42
 def: "Zoological Science 11\: 825-839 (1994) -   Stage 42 3rd fry stage\: This stage follows the appearance of ventral fin rays and scales in addition and extends to the formation of the jointed fin rays in the dorsal and anal fins (total length about 7 mm). -  " [OlatDv:curators]
 synonym: "3rd fry stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000440 ! Stage 41
 relationship: preceded_by OlatDv:0000440 ! Medaka stage 41
 
 [Term]
@@ -417,7 +375,6 @@ name: Medaka stage 43
 def: "Zoological Science 11\: 825-839 (1994) -   Stage 43 1st young fish stage\: This is the period before the secondary sexual characteristics are manifested (total length about 22 mm). -  " [OlatDv:curators]
 synonym: "1st young fish stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000450 ! Stage 42
 relationship: preceded_by OlatDv:0000450 ! Medaka stage 42
 
 [Term]
@@ -426,7 +383,6 @@ name: Medaka stage 44
 def: "Zoological Science 11\: 825-839 (1994) -   Stage 44 2nd young fish stage\: At this stage the mature fish ejaculate sperm and spawn eggs (total length about 23 mm ). -  " [OlatDv:curators]
 synonym: "2nd young fish stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000460 ! Stage 43
 relationship: preceded_by OlatDv:0000460 ! Medaka stage 43
 
 [Typedef]
