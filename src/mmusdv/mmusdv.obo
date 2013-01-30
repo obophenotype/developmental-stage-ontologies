@@ -55,6 +55,7 @@ comment: Embryonic age 1 dpc (day post-coitum).
 xref: XUO:0000046
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000004 ! cleavage stage
+relationship: preceded_by MmusDv:0000003 ! Theiler stage 01
 
 [Term]
 id: MmusDv:0000006
@@ -65,6 +66,7 @@ comment: Embryonic age 2 dpc (day post-coitum).
 xref: XUO:0000047
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000004 ! cleavage stage
+relationship: preceded_by MmusDv:0000005 ! Theiler stage 02
 
 [Term]
 id: MmusDv:0000007
@@ -84,6 +86,7 @@ comment: Embryonic age 3 dpc (day post-coitum).
 xref: XUO:0000048
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
+relationship: preceded_by MmusDv:0000006 ! Theiler stage 03
 
 [Term]
 id: MmusDv:0000009
@@ -94,6 +97,7 @@ comment: Embryonic age 4 dpc (day post-coitum).
 xref: XUO:0000049
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
+relationship: preceded_by MmusDv:0000008 ! Theiler stage 04
 
 [Term]
 id: MmusDv:0000010
@@ -104,6 +108,7 @@ comment: Embryonic age 4.5 dpc (day post-coitum). Refers to human CarnegieStage0
 xref: XUO:0000050
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
+relationship: preceded_by MmusDv:0000009 ! Theiler stage 05
 
 [Term]
 id: MmusDv:0000011
@@ -114,6 +119,7 @@ comment: Embryonic age 5 dpc (day post-coitum). Refers to human CarnegieStage05.
 xref: XUO:0000051
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
+relationship: preceded_by MmusDv:0000010 ! Theiler stage 06
 
 [Term]
 id: MmusDv:0000012
@@ -124,6 +130,7 @@ comment: Embryonic age 6 dpc (day post-coitum). Refers to human CarnegieStage05.
 xref: XUO:0000052
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
+relationship: preceded_by MmusDv:0000011 ! Theiler stage 07
 
 [Term]
 id: MmusDv:0000013
@@ -142,6 +149,7 @@ comment: Embryonic age 6.5 dpc (day post-coitum).
 xref: XUO:0000053
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000013 ! gastrula stage
+relationship: preceded_by MmusDv:0000012 ! Theiler stage 08
 
 [Term]
 id: MmusDv:0000015
@@ -152,6 +160,7 @@ comment: Embryonic age 7 dpc (day post-coitum), (range 6.5-7.5 dpc). Refers to h
 xref: XUO:0000054
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000013 ! gastrula stage
+relationship: preceded_by MmusDv:0000014 ! Theiler stage 09
 
 [Term]
 id: MmusDv:0000016
@@ -174,6 +183,7 @@ synonym: "neurula stage" RELATED []
 xref: XUO:0000055
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
+relationship: preceded_by MmusDv:0000015 ! Theiler stage 10
 
 [Term]
 id: MmusDv:0000018
@@ -192,6 +202,7 @@ comment: Embryonic age 8 dpc (day post-coitum). Refers to human CarnegieStage09.
 xref: XUO:0000056
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000017 ! Theiler stage 11
 
 [Term]
 id: MmusDv:0000020
@@ -202,6 +213,7 @@ comment: Embryonic age 8.5 dpc (day post-coitum). Refers to human CarnegieStage1
 xref: XUO:0000057
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000019 ! Theiler stage 12
 
 [Term]
 id: MmusDv:0000021
@@ -212,6 +224,7 @@ comment: Embryonic age 9 dpc (day post-coitum). Refers to human CarnegieStage11.
 xref: XUO:0000058
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000020 ! Theiler stage 13
 
 [Term]
 id: MmusDv:0000022
@@ -222,6 +235,7 @@ comment: Embryonic age 9.5 dpc (day post-coitum). Refers to human CarnegieStage1
 xref: XUO:0000059
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000021 ! Theiler stage 14
 
 [Term]
 id: MmusDv:0000023
@@ -232,6 +246,7 @@ comment: Embryonic age 10 dpc (day post-coitum). Refers to human CarnegieStages 
 xref: XUO:0000060
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000022 ! Theiler stage 15
 
 [Term]
 id: MmusDv:0000024
@@ -242,6 +257,7 @@ comment: Embryonic age 10.5 dpc (day post-coitum). Refers to human CarnegieStage
 xref: XUO:0000061
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000023 ! Theiler stage 16
 
 [Term]
 id: MmusDv:0000025
@@ -252,6 +268,7 @@ comment: Embryonic age 11 dpc (day post-coitum). Refers to human CarnegieStages 
 xref: XUO:0000062
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000024 ! Theiler stage 17
 
 [Term]
 id: MmusDv:0000026
@@ -262,6 +279,7 @@ comment: Embryonic age 11.5 dpc (day post-coitum). Refers to human CarnegieStage
 xref: XUO:0000063
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000025 ! Theiler stage 18
 
 [Term]
 id: MmusDv:0000027
@@ -272,6 +290,7 @@ comment: Embryonic age 12 dpc (day post-coitum). Refers to human CarnegieStage17
 xref: XUO:0000064
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000026 ! Theiler stage 19
 
 [Term]
 id: MmusDv:0000028
@@ -282,6 +301,7 @@ comment: Embryonic age 13 dpc (day post-coitum). Refers to human CarnegieStages 
 xref: XUO:0000065
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000027 ! Theiler stage 20
 
 [Term]
 id: MmusDv:0000029
@@ -292,6 +312,7 @@ comment: Embryonic age 14 dpc (day post-coitum). Refers to human CarnegieStages 
 xref: XUO:0000066
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
+relationship: preceded_by MmusDv:0000028 ! Theiler stage 21
 
 [Term]
 id: MmusDv:0000030
@@ -320,6 +341,7 @@ comment: Embryonic age 15 dpc (day post-coitum). Refers to the human fetal perio
 xref: XUO:0000067
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
+relationship: preceded_by MmusDv:0000029 ! Theiler stage 22
 
 [Term]
 id: MmusDv:0000033
@@ -330,6 +352,7 @@ comment: Embryonic age 16 dpc (day post-coitum). Refers to the human fetal perio
 xref: XUO:0000068
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
+relationship: preceded_by MmusDv:0000032 ! Theiler stage 23
 
 [Term]
 id: MmusDv:0000034
@@ -340,6 +363,7 @@ comment: Embryonic age 17 dpc (day post-coitum). Refers to the human fetal perio
 xref: XUO:0000069
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
+relationship: preceded_by MmusDv:0000033 ! Theiler stage 24
 
 [Term]
 id: MmusDv:0000035
@@ -350,6 +374,7 @@ comment: Embryonic age 18 dpc (day post-coitum). Refers to the human fetal perio
 xref: XUO:0000070
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
+relationship: preceded_by MmusDv:0000034 ! Theiler stage 25
 
 [Term]
 id: MmusDv:0000036
@@ -360,6 +385,7 @@ comment: Embryonic age 19-20 dpc (day post-coitum).
 xref: XUO:0000071
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000096 ! early immature stage
+relationship: preceded_by MmusDv:0000035 ! Theiler stage 26
 
 [Term]
 id: MmusDv:0000037
