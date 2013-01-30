@@ -885,6 +885,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the allantoic bud elongates ." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
+relationship: preceded_by MmusDv:0000092 ! Theiler stage 11a
 
 [Term]
 id: MmusDv:0000094
@@ -893,6 +894,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the head folds are formed while the neural groove becomes visible." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
+relationship: preceded_by MmusDv:0000093 ! Theiler stage 11b
 
 [Term]
 id: MmusDv:0000095
@@ -901,6 +903,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the head folds continue to enlarge while the foregut pocket begins to form." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
+relationship: preceded_by MmusDv:0000094 ! Theiler stage 11c
 
 [Term]
 id: MmusDv:0000096
@@ -979,6 +982,7 @@ namespace: mouse_developmental_stage
 def: "Theiler developmental stage 9 defined by advanced endometrial reaction and during which the first mesodermal cells are produced by gastrulation late in this stage." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Stage_9b "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000014 ! Theiler stage 09
+relationship: preceded_by MmusDv:0000103 ! Theiler stage 09a
 
 [Term]
 id: MmusDv:0000105
@@ -997,6 +1001,7 @@ def: "Theiler developmental stage 10 during which small cavities coalesce to for
 comment: Refers to MS-LS (mid-streak to late streak) stage in Downs and Davies staging of gastrulating mouse embryos, 1993 (see http://www.ncbi.nlm.nih.gov/pubmed/8269852).
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000015 ! Theiler stage 10
+relationship: preceded_by MmusDv:0000105 ! Theiler stage 10a
 
 [Term]
 id: MmusDv:0000107
@@ -1006,6 +1011,7 @@ def: "Theiler developmental stage 10 during which the allantoic bud first appear
 comment: Refers to MS-LS (mid-streak to late streak) stage in Downs and Davies staging of gastrulating mouse embryos, 1993 (see http://www.ncbi.nlm.nih.gov/pubmed/8269852).
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000015 ! Theiler stage 10
+relationship: preceded_by MmusDv:0000106 ! Theiler stage 10b
 
 [Term]
 id: MmusDv:0000108
@@ -1024,6 +1030,7 @@ def: "Theiler developmental stage 12 defined by unturned embryo with first appea
 comment: Embryonic age 8 dpc (day post-coitum). Refers to human CarnegieStage09.
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000019 ! Theiler stage 12
+relationship: preceded_by MmusDv:0000108 ! Theiler stage 12a
 
 [Typedef]
 id: part_of
