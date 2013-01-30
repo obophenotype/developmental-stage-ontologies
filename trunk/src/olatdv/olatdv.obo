@@ -20,7 +20,6 @@ name: Medaka stage 1
 def: "Zoological Science 11\: 825-839 (1994) - 3 min  Stage 1 (3 min) Activated egg stage\: When an egg is stimulated by a spermatozoon arriving at the vitelline surface through the micropyle\, a transient wave of increase in cytoplasmic free calcium starts at the point of sperm attachment \[5\,33\]. The cortical alveoli in the vicinity of the micropyle also begin to break down (exocytosis of alveolar contents) about 9 sec after sperm attachment \[17\]. The wave of exocytosis begins to propagate over the whole egg surface and ends at the vegetal pole 154 sec after its beginning. As a result of the exocytosis of cortical alveoli into the narrow space between the chorion and the vitellus\, the chorion thins and hardens \[24\] as it separates from the vitellus to form a wide perivitelline space. Swollen spherical bodies secreted from the cortical alveoli are faintly visible in the perivitelline space. A transient \"contractile wave\" of cortical cytoplasmic layer follows the wave of exocytosis \[9\,15\]. Due to the oscillatory contractions following this distinct contractile wave\, the cortical cytoplasm progressively accumulates toward the animal pole to form a thick cytoplasmic layer \[1\,26\]. At 7-8 minutes after sperm entry\, the second polar body is extruded onto the surface of the cytoplasm at the center of the area where the germinal vesicle broke down during oocyte maturation. - 3 min " [OlatDv:curators]
 synonym: "Activated egg stage" []
 is_a: OlatDv:0000010 ! developmental stage
-relationship: preceded_by OlatDv:0000020 ! Stage 0
 relationship: preceded_by OlatDv:0000020 ! Medaka stage 0
 
 [Term]
@@ -434,9 +433,15 @@ relationship: preceded_by OlatDv:0000460 ! Medaka stage 43
 id: preceded_by
 name: preceded by
 
-
 [Typedef]
 id: part_of
 name: part of
 is_transitive: true
 xref: BFO:0000050
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+synonym: "is preceded by" EXACT [SIO:000249]
+synonym: "takes place after" EXACT [Allen:precedes]
+xref: BFO:0000062
