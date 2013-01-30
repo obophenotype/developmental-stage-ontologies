@@ -8,6 +8,13 @@ treat-xrefs-as-equivalent: XUO
 ontology: hsapdv
 
 [Term]
+id: UBERON:0000105
+name: life cycle stage
+def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:cjm]
+synonym: "developmental stage" EXACT []
+synonym: "stage" NARROW []
+
+[Term]
 id: HsapDv:0000001
 name: Human developmental stage
 namespace: human_developmental_stage
