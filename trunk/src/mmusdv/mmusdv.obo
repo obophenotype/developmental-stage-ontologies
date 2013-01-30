@@ -482,6 +482,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 21 days and under 29 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
+relationship: preceded_by MmusDv:0000046 ! 2 weeks
 
 [Term]
 id: MmusDv:0000048
@@ -490,6 +491,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 28 days and under 36 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
+relationship: preceded_by MmusDv:0000047 ! 3 weeks
 
 [Term]
 id: MmusDv:0000049
@@ -499,6 +501,7 @@ def: "Adolescent stage that refers to a mouse which is over 35 days and under 43
 comment: This stage is usually the stage during which the sexual maturity occurs.
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000039 ! adolescent stage
+relationship: preceded_by MmusDv:0000048 ! 4 weeks
 
 [Term]
 id: MmusDv:0000050
@@ -508,6 +511,7 @@ def: "Adolescent stage that refers to a mouse which is over 42 days and under 50
 comment: This stage is commonly considered in the literature as the milestone that distinguishes between adolescent and adult stages.
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000039 ! adolescent stage
+relationship: preceded_by MmusDv:0000049 ! 5 weeks
 
 [Term]
 id: MmusDv:0000051
@@ -516,6 +520,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 49 days and under 57 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: preceded_by MmusDv:0000050 ! 6 weeks
 
 [Term]
 id: MmusDv:0000052
@@ -524,6 +529,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 56 days and under 64 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
+relationship: preceded_by MmusDv:0000051 ! 7 weeks
 
 [Term]
 id: MmusDv:0000053
@@ -532,6 +538,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 63 days and under 71 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
+relationship: preceded_by MmusDv:0000052 ! 8 weeks
 
 [Term]
 id: MmusDv:0000054
@@ -540,6 +547,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 70 days and under 78 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
+relationship: preceded_by MmusDv:0000053 ! 9 weeks
 
 [Term]
 id: MmusDv:0000055
@@ -548,6 +556,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 77 days and under 85 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
+relationship: preceded_by MmusDv:0000054 ! 10 weeks
 
 [Term]
 id: MmusDv:0000056
@@ -556,6 +565,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 84 days and under 92 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
+relationship: preceded_by MmusDv:0000055 ! 11 weeks
 
 [Term]
 id: MmusDv:0000057
@@ -564,6 +574,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 91 days and under 99 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
+relationship: preceded_by MmusDv:0000056 ! 12 weeks
 
 [Term]
 id: MmusDv:0000058
@@ -572,6 +583,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 98 days and under 106 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
+relationship: preceded_by MmusDv:0000057 ! 13 weeks
 
 [Term]
 id: MmusDv:0000059
@@ -580,6 +592,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 105 days and under 113 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
+relationship: preceded_by MmusDv:0000058 ! 14 weeks
 
 [Term]
 id: MmusDv:0000061
@@ -605,6 +618,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: preceded_by MmusDv:0000062 ! 2 month-old stage
 
 [Term]
 id: MmusDv:0000064
@@ -613,6 +627,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: preceded_by MmusDv:0000063 ! 3 month-old stage
 
 [Term]
 id: MmusDv:0000065
@@ -621,6 +636,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 112 days and under 120 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
+relationship: preceded_by MmusDv:0000059 ! 15 weeks
 
 [Term]
 id: MmusDv:0000066
@@ -629,6 +645,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 119 days and under 127 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
+relationship: preceded_by MmusDv:0000065 ! 16 weeks
 
 [Term]
 id: MmusDv:0000067
@@ -637,6 +654,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 126 days and under 134 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
+relationship: preceded_by MmusDv:0000066 ! 17 weeks
 
 [Term]
 id: MmusDv:0000068
@@ -645,6 +663,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 133 days and under 141 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
+relationship: preceded_by MmusDv:0000067 ! 18 weeks
 
 [Term]
 id: MmusDv:0000069
@@ -653,6 +672,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: preceded_by MmusDv:0000064 ! 4 month-old stage
 
 [Term]
 id: MmusDv:0000070
@@ -661,6 +681,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 140 days and under 148 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
+relationship: preceded_by MmusDv:0000068 ! 19 weeks
 
 [Term]
 id: MmusDv:0000071
@@ -669,6 +690,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 147 days and under 155 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
+relationship: preceded_by MmusDv:0000070 ! 20 weeks
 
 [Term]
 id: MmusDv:0000072
@@ -677,6 +699,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 154 days and under 162 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
+relationship: preceded_by MmusDv:0000071 ! 21 weeks
 
 [Term]
 id: MmusDv:0000073
@@ -685,6 +708,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 161 days and under 169 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
+relationship: preceded_by MmusDv:0000072 ! 22 weeks
 
 [Term]
 id: MmusDv:0000074
@@ -693,6 +717,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 168 days and under 176 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
+relationship: preceded_by MmusDv:0000073 ! 23 weeks
 
 [Term]
 id: MmusDv:0000075
@@ -718,6 +743,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: preceded_by MmusDv:0000069 ! 5 month-old stage
 
 [Term]
 id: MmusDv:0000078
@@ -726,6 +752,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 7 and under 8 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000077 ! 6 month-old stage
 
 [Term]
 id: MmusDv:0000079
@@ -734,6 +761,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 8 and under 9 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000078 ! 7 month-old stage
 
 [Term]
 id: MmusDv:0000080
@@ -742,6 +770,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000079 ! 8 month-old stage
 
 [Term]
 id: MmusDv:0000081
@@ -750,6 +779,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 10 and under 11 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000080 ! 9 month-old stage
 
 [Term]
 id: MmusDv:0000082
@@ -758,6 +788,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 11 and under 12 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000081 ! 10 month-old stage
 
 [Term]
 id: MmusDv:0000083
@@ -766,6 +797,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 12 and under 13 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000082 ! 11 month-old stage
 
 [Term]
 id: MmusDv:0000084
@@ -774,6 +806,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 13 and under 14 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000083 ! 12 month-old stage
 
 [Term]
 id: MmusDv:0000085
@@ -782,6 +815,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 14 and under 15 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: preceded_by MmusDv:0000084 ! 13 month-old stage
 
 [Term]
 id: MmusDv:0000086
@@ -790,6 +824,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 15 and under 16 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: preceded_by MmusDv:0000085 ! 14 month-old stage
 
 [Term]
 id: MmusDv:0000087
@@ -798,6 +833,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 16 and under 17 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: preceded_by MmusDv:0000086 ! 15 month-old stage
 
 [Term]
 id: MmusDv:0000088
@@ -806,6 +842,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 17 and under 18 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: preceded_by MmusDv:0000087 ! 16 month-old stage
 
 [Term]
 id: MmusDv:0000089
@@ -814,6 +851,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 18 and under 19 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: preceded_by MmusDv:0000088 ! 17 month-old stage
 
 [Term]
 id: MmusDv:0000090
@@ -822,6 +860,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 19 and under 20 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: preceded_by MmusDv:0000089 ! 18 month-old stage
 
 [Term]
 id: MmusDv:0000091
@@ -887,6 +926,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 175 days and under 183 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
+relationship: preceded_by MmusDv:0000074 ! 24 weeks
 
 [Term]
 id: MmusDv:0000099
@@ -895,6 +935,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 182 days and under 190 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
+relationship: preceded_by MmusDv:0000098 ! 25 weeks
 
 [Term]
 id: MmusDv:0000100
@@ -903,6 +944,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 189 days and under 197 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
+relationship: preceded_by MmusDv:0000099 ! 26 weeks
 
 [Term]
 id: MmusDv:0000101
@@ -911,6 +953,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 196 days and under 204 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
+relationship: preceded_by MmusDv:0000100 ! 27 weeks
 
 [Term]
 id: MmusDv:0000102
@@ -919,6 +962,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 203 days and under 211 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
+relationship: preceded_by MmusDv:0000101 ! 28 weeks
 
 [Term]
 id: MmusDv:0000103
