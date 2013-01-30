@@ -1868,3 +1868,10 @@ id: part_of
 name: part of
 is_transitive: true
 xref: BFO:0000050
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+synonym: "is preceded by" EXACT [SIO:000249]
+synonym: "takes place after" EXACT [Allen:precedes]
+xref: BFO:0000062
