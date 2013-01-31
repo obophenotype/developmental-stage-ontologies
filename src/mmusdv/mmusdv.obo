@@ -466,6 +466,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 7 days and under 15 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
+relationship: preceded_by MmusDv:0000044 ! 1-7 days
 
 [Term]
 id: MmusDv:0000046
@@ -474,6 +475,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 14 days and under 22 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
+relationship: preceded_by MmusDv:0000045 ! 1 week
 
 [Term]
 id: MmusDv:0000047
