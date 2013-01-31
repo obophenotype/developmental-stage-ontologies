@@ -12,3 +12,6 @@ mmusdv/mmusdv.png: mmusdv/mmusdv.obo
 
 hsapdv/hsapdv.png: hsapdv/hsapdv.obo
 	blip ontol-subset -i hsapdv/hsapdv.obo -n % -to png -u ontol_config_fbdv -cr part_of -rel part_of -rel preceded_by > $@
+
+olatdv/olatdv.png: olatdv/olatdv.obo
+	blip ontol-subset -i olatdv/olatdv.obo -n % -to png -u ontol_config_fbdv -cr part_of -rel part_of -rel preceded_by > $@
