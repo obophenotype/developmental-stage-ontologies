@@ -66,7 +66,7 @@ comment: Usually starts between day 2 and day 3 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000004 ! cleavage stage
 xref: XUO:0000131
-relationship: preceded_by HsapDv:0000003 ! Carnegie stage 01
+relationship: immediately_preceded_by HsapDv:0000003 ! Carnegie stage 01
 
 [Term]
 id: HsapDv:0000006
@@ -86,7 +86,7 @@ comment: Usually starts between day 4 and day 5 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000006 ! blastula stage
 xref: XUO:0000132
-relationship: preceded_by HsapDv:0000005 ! Carnegie stage 02
+relationship: immediately_preceded_by HsapDv:0000005 ! Carnegie stage 02
 
 [Term]
 id: HsapDv:0000008
@@ -97,7 +97,7 @@ comment: Usually starts between day 5 and day 6 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000006 ! blastula stage
 xref: XUO:0000133
-relationship: preceded_by HsapDv:0000007 ! Carnegie stage 03
+relationship: immediately_preceded_by HsapDv:0000007 ! Carnegie stage 03
 
 [Term]
 id: HsapDv:0000009
@@ -108,7 +108,7 @@ comment: Usually starts between day 7 and day 12 post-fertilization, beginning o
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000006 ! blastula stage
 xref: XUO:0000134
-relationship: preceded_by HsapDv:0000008 ! Carnegie stage 04
+relationship: immediately_preceded_by HsapDv:0000008 ! Carnegie stage 04
 
 [Term]
 id: HsapDv:0000031
@@ -154,7 +154,7 @@ comment: Usually starts between day 13 and day 15 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000010 ! gastrula stage
 xref: XUO:0000135
-relationship: preceded_by HsapDv:0000009 ! Carnegie stage 05
+relationship: immediately_preceded_by HsapDv:0000009 ! Carnegie stage 05
 
 [Term]
 id: HsapDv:0000034
@@ -192,7 +192,7 @@ comment: Usually starts between day 15 and day 17 post-fertilization, beginning 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000012 ! neurula stage
 xref: XUO:0000136
-relationship: preceded_by HsapDv:0000011 ! Carnegie stage 06
+relationship: immediately_preceded_by HsapDv:0000011 ! Carnegie stage 06
 
 [Term]
 id: HsapDv:0000014
@@ -203,7 +203,7 @@ comment: Usually starts between day 17 and day 19 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000012 ! neurula stage
 xref: XUO:0000137
-relationship: preceded_by HsapDv:0000013 ! Carnegie stage 07
+relationship: immediately_preceded_by HsapDv:0000013 ! Carnegie stage 07
 
 [Term]
 id: HsapDv:0000015
@@ -222,7 +222,7 @@ comment: Usually starts between day 19 and day 21 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000138
-relationship: preceded_by HsapDv:0000014 ! Carnegie stage 08
+relationship: immediately_preceded_by HsapDv:0000014 ! Carnegie stage 08
 
 [Term]
 id: HsapDv:0000017
@@ -233,7 +233,7 @@ comment: Usually starts between day 22 and day 23 post-fertilization, beginning 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000139
-relationship: preceded_by HsapDv:0000016 ! Carnegie stage 09
+relationship: immediately_preceded_by HsapDv:0000016 ! Carnegie stage 09
 
 [Term]
 id: HsapDv:0000018
@@ -244,7 +244,7 @@ comment: Usually starts between day 23 and day 26 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000140
-relationship: preceded_by HsapDv:0000017 ! Carnegie stage 10
+relationship: immediately_preceded_by HsapDv:0000017 ! Carnegie stage 10
 
 [Term]
 id: HsapDv:0000019
@@ -255,7 +255,7 @@ comment: Usually starts between day 26 and day 30 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000141
-relationship: preceded_by HsapDv:0000018 ! Carnegie stage 11
+relationship: immediately_preceded_by HsapDv:0000018 ! Carnegie stage 11
 
 [Term]
 id: HsapDv:0000020
@@ -266,7 +266,7 @@ comment: Usually starts between day 28 and day 32 post-fertilization, beginning 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000142
-relationship: preceded_by HsapDv:0000019 ! Carnegie stage 12
+relationship: immediately_preceded_by HsapDv:0000019 ! Carnegie stage 12
 
 [Term]
 id: HsapDv:0000021
@@ -277,7 +277,7 @@ comment: Usually starts between day 31 and day 35 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000143
-relationship: preceded_by HsapDv:0000020 ! Carnegie stage 13
+relationship: immediately_preceded_by HsapDv:0000020 ! Carnegie stage 13
 
 [Term]
 id: HsapDv:0000022
@@ -288,7 +288,7 @@ comment: Usually starts between day 35 and day 38 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000144
-relationship: preceded_by HsapDv:0000021 ! Carnegie stage 14
+relationship: immediately_preceded_by HsapDv:0000021 ! Carnegie stage 14
 
 [Term]
 id: HsapDv:0000023
@@ -299,7 +299,7 @@ comment: Usually starts between day 37 and day 42 post-fertilization, beginning 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000145
-relationship: preceded_by HsapDv:0000022 ! Carnegie stage 15
+relationship: immediately_preceded_by HsapDv:0000022 ! Carnegie stage 15
 
 [Term]
 id: HsapDv:0000024
@@ -310,7 +310,7 @@ comment: Usually starts between day 42 and day 44 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000146
-relationship: preceded_by HsapDv:0000023 ! Carnegie stage 16
+relationship: immediately_preceded_by HsapDv:0000023 ! Carnegie stage 16
 
 [Term]
 id: HsapDv:0000025
@@ -321,7 +321,7 @@ comment: Usually starts between day 44 and day 48 post-fertilization, beginning 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000147
-relationship: preceded_by HsapDv:0000024 ! Carnegie stage 17
+relationship: immediately_preceded_by HsapDv:0000024 ! Carnegie stage 17
 
 [Term]
 id: HsapDv:0000026
@@ -332,7 +332,7 @@ comment: Usually starts between day 48 and day 51 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000148
-relationship: preceded_by HsapDv:0000025 ! Carnegie stage 18
+relationship: immediately_preceded_by HsapDv:0000025 ! Carnegie stage 18
 
 [Term]
 id: HsapDv:0000027
@@ -343,7 +343,7 @@ comment: Usually starts between day 51 and day 53 post-fertilization, beginning 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000149
-relationship: preceded_by HsapDv:0000026 ! Carnegie stage 19
+relationship: immediately_preceded_by HsapDv:0000026 ! Carnegie stage 19
 
 [Term]
 id: HsapDv:0000028
@@ -354,7 +354,7 @@ comment: Usually starts between day 53 and day 54 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000150
-relationship: preceded_by HsapDv:0000027 ! Carnegie stage 20
+relationship: immediately_preceded_by HsapDv:0000027 ! Carnegie stage 20
 
 [Term]
 id: HsapDv:0000029
@@ -365,7 +365,7 @@ comment: Usually starts between day 54 and day 56 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000151
-relationship: preceded_by HsapDv:0000028 ! Carnegie stage 21
+relationship: immediately_preceded_by HsapDv:0000028 ! Carnegie stage 21
 
 [Term]
 id: HsapDv:0000030
@@ -376,7 +376,7 @@ comment: Usually starts between day 56 and day 60 post-fertilization.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000015 ! organogenesis stage
 xref: XUO:0000152
-relationship: preceded_by HsapDv:0000029 ! Carnegie stage 22
+relationship: immediately_preceded_by HsapDv:0000029 ! Carnegie stage 22
 
 [Term]
 id: HsapDv:0000037
@@ -784,7 +784,7 @@ def: "Infant stage that refers to an infant who is over 3 and under 4 months old
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300041
-relationship: preceded_by HsapDv:0000175 ! 2 months
+relationship: immediately_preceded_by HsapDv:0000175 ! 2 months
 
 [Term]
 id: HsapDv:0000177
@@ -794,7 +794,7 @@ def: "Infant stage that refers to an infant who is over 4 and under 5 months old
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300042
-relationship: preceded_by HsapDv:0000176 ! 3 months
+relationship: immediately_preceded_by HsapDv:0000176 ! 3 months
 
 [Term]
 id: HsapDv:0000178
@@ -804,7 +804,7 @@ def: "Infant stage that refers to an infant who is over 5 and under 6 months old
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300043
-relationship: preceded_by HsapDv:0000177 ! 4 months
+relationship: immediately_preceded_by HsapDv:0000177 ! 4 months
 
 [Term]
 id: HsapDv:0000179
@@ -814,7 +814,7 @@ def: "Infant stage that refers to an infant who is over 6 and under 7 months old
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300044
-relationship: preceded_by HsapDv:0000178 ! 5 months
+relationship: immediately_preceded_by HsapDv:0000178 ! 5 months
 
 [Term]
 id: HsapDv:0000180
@@ -824,7 +824,7 @@ def: "Infant stage that refers to an infant who is over 7 and under 8 months old
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300045
-relationship: preceded_by HsapDv:0000179 ! 6 months
+relationship: immediately_preceded_by HsapDv:0000179 ! 6 months
 
 [Term]
 id: HsapDv:0000181
@@ -834,7 +834,7 @@ def: "Infant stage that refers to an infant who is over 8 and under 9 months old
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300046
-relationship: preceded_by HsapDv:0000180 ! 7 months
+relationship: immediately_preceded_by HsapDv:0000180 ! 7 months
 
 [Term]
 id: HsapDv:0000182
@@ -844,7 +844,7 @@ def: "Infant stage that refers to an infant who is over 9 and under 10 months ol
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300047
-relationship: preceded_by HsapDv:0000181 ! 8 months
+relationship: immediately_preceded_by HsapDv:0000181 ! 8 months
 
 [Term]
 id: HsapDv:0000183
@@ -854,7 +854,7 @@ def: "Infant stage that refers to an infant who is over 10 and under 11 months o
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300048
-relationship: preceded_by HsapDv:0000182 ! 9 months
+relationship: immediately_preceded_by HsapDv:0000182 ! 9 months
 
 [Term]
 id: HsapDv:0000184
@@ -864,7 +864,7 @@ def: "Infant stage that refers to an infant who is over 11 and under 12 months o
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300049
-relationship: preceded_by HsapDv:0000183 ! 10 months
+relationship: immediately_preceded_by HsapDv:0000183 ! 10 months
 
 [Term]
 id: HsapDv:0000185
@@ -873,7 +873,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 12 and under 13 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000184 ! 11 months
+relationship: immediately_preceded_by HsapDv:0000184 ! 11 months
 
 [Term]
 id: HsapDv:0000186
@@ -882,7 +882,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 13 and under 14 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000185 ! 12 months
+relationship: immediately_preceded_by HsapDv:0000185 ! 12 months
 
 [Term]
 id: HsapDv:0000187
@@ -891,7 +891,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 14 and under 15 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000186 ! 13 months
+relationship: immediately_preceded_by HsapDv:0000186 ! 13 months
 
 [Term]
 id: HsapDv:0000188
@@ -900,7 +900,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 15 and under 16 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000187 ! 14 months
+relationship: immediately_preceded_by HsapDv:0000187 ! 14 months
 
 [Term]
 id: HsapDv:0000189
@@ -909,7 +909,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 16 and under 17 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000188 ! 15 months
+relationship: immediately_preceded_by HsapDv:0000188 ! 15 months
 
 [Term]
 id: HsapDv:0000190
@@ -918,7 +918,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 17 and under 18 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000189 ! 16 months
+relationship: immediately_preceded_by HsapDv:0000189 ! 16 months
 
 [Term]
 id: HsapDv:0000191
@@ -927,7 +927,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 18 and under 19 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000190 ! 17 months
+relationship: immediately_preceded_by HsapDv:0000190 ! 17 months
 
 [Term]
 id: HsapDv:0000192
@@ -936,7 +936,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 19 and under 20 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000191 ! 18 months
+relationship: immediately_preceded_by HsapDv:0000191 ! 18 months
 
 [Term]
 id: HsapDv:0000193
@@ -945,7 +945,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 20 and under 21 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000192 ! 19 months
+relationship: immediately_preceded_by HsapDv:0000192 ! 19 months
 
 [Term]
 id: HsapDv:0000194
@@ -954,7 +954,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 21 and under 22 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000193 ! 20 months
+relationship: immediately_preceded_by HsapDv:0000193 ! 20 months
 
 [Term]
 id: HsapDv:0000195
@@ -963,7 +963,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 22 and under 23 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000194 ! 21 months
+relationship: immediately_preceded_by HsapDv:0000194 ! 21 months
 
 [Term]
 id: HsapDv:0000196
@@ -972,7 +972,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 23 and under 24 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: preceded_by HsapDv:0000195 ! 22 months
+relationship: immediately_preceded_by HsapDv:0000195 ! 22 months
 
 [Term]
 id: HsapDv:0000084
@@ -1000,7 +1000,7 @@ def: "Child stage that refers to a child who is over 3 and under 4 years old." [
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
 xref: EV:0300054
-relationship: preceded_by HsapDv:0000096 ! 2 years
+relationship: immediately_preceded_by HsapDv:0000096 ! 2 years
 
 [Term]
 id: HsapDv:0000098
@@ -1010,7 +1010,7 @@ def: "Child stage that refers to a child who is over 4 and under 5 years old." [
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
 xref: EV:0300055
-relationship: preceded_by HsapDv:0000097 ! 3 years
+relationship: immediately_preceded_by HsapDv:0000097 ! 3 years
 
 [Term]
 id: HsapDv:0000099
@@ -1020,7 +1020,7 @@ def: "Child stage that refers to a child who is over 5 and under 6 years old." [
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
 xref: EV:0300056
-relationship: preceded_by HsapDv:0000098 ! 4 years
+relationship: immediately_preceded_by HsapDv:0000098 ! 4 years
 
 [Term]
 id: HsapDv:0000085
@@ -1039,7 +1039,7 @@ def: "Child stage that refers to a child who is over 6 and under 7 years old." [
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300057
-relationship: preceded_by HsapDv:0000099 ! 5 years
+relationship: immediately_preceded_by HsapDv:0000099 ! 5 years
 
 [Term]
 id: HsapDv:0000101
@@ -1049,7 +1049,7 @@ def: "Child stage that refers to a child who is over 7 and under 8 years old." [
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300058
-relationship: preceded_by HsapDv:0000100 ! 6 years
+relationship: immediately_preceded_by HsapDv:0000100 ! 6 years
 
 [Term]
 id: HsapDv:0000102
@@ -1059,7 +1059,7 @@ def: "Child stage that refers to a child who is over 8 and under 9 years old." [
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300059
-relationship: preceded_by HsapDv:0000101 ! 7 years
+relationship: immediately_preceded_by HsapDv:0000101 ! 7 years
 
 [Term]
 id: HsapDv:0000103
@@ -1069,7 +1069,7 @@ def: "Child stage that refers to a child who is over 9 and under 10 years old." 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300060
-relationship: preceded_by HsapDv:0000102 ! 8 years
+relationship: immediately_preceded_by HsapDv:0000102 ! 8 years
 
 [Term]
 id: HsapDv:0000104
@@ -1079,7 +1079,7 @@ def: "Child stage that refers to a child who is over 10 and under 11 years old."
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300061
-relationship: preceded_by HsapDv:0000103 ! 9 years
+relationship: immediately_preceded_by HsapDv:0000103 ! 9 years
 
 [Term]
 id: HsapDv:0000105
@@ -1089,7 +1089,7 @@ def: "Child stage that refers to a child who is over 11 and under 12 years old."
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300062
-relationship: preceded_by HsapDv:0000104 ! 10 years
+relationship: immediately_preceded_by HsapDv:0000104 ! 10 years
 
 [Term]
 id: HsapDv:0000106
@@ -1099,7 +1099,7 @@ def: "Child stage that refers to a child who is over 12 and under 13 years old."
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300063
-relationship: preceded_by HsapDv:0000105 ! 11 years
+relationship: immediately_preceded_by HsapDv:0000105 ! 11 years
 
 [Term]
 id: HsapDv:0000086
@@ -1120,7 +1120,7 @@ def: "Adolescent stage that refers to an adolescent who is over 13 and under 14 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300065
-relationship: preceded_by HsapDv:0000106 ! 12 years
+relationship: immediately_preceded_by HsapDv:0000106 ! 12 years
 
 [Term]
 id: HsapDv:0000108
@@ -1130,7 +1130,7 @@ def: "Adolescent stage that refers to an adolescent who is over 14 and under 15 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300066
-relationship: preceded_by HsapDv:0000107 ! 13 years
+relationship: immediately_preceded_by HsapDv:0000107 ! 13 years
 
 [Term]
 id: HsapDv:0000109
@@ -1140,7 +1140,7 @@ def: "Adolescent stage that refers to an adolescent who is over 15 and under 16 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300067
-relationship: preceded_by HsapDv:0000108 ! 14 years
+relationship: immediately_preceded_by HsapDv:0000108 ! 14 years
 
 [Term]
 id: HsapDv:0000110
@@ -1150,7 +1150,7 @@ def: "Adolescent stage that refers to an adolescent who is over 16 and under 17 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300068
-relationship: preceded_by HsapDv:0000109 ! 15 years
+relationship: immediately_preceded_by HsapDv:0000109 ! 15 years
 
 [Term]
 id: HsapDv:0000111
@@ -1160,7 +1160,7 @@ def: "Adolescent stage that refers to an adolescent who is over 17 and under 18 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300069
-relationship: preceded_by HsapDv:0000110 ! 16 years
+relationship: immediately_preceded_by HsapDv:0000110 ! 16 years
 
 [Term]
 id: HsapDv:0000112
@@ -1170,7 +1170,7 @@ def: "Adolescent stage that refers to an adolescent who is over 18 and under 19 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300071
-relationship: preceded_by HsapDv:0000111 ! 17 years
+relationship: immediately_preceded_by HsapDv:0000111 ! 17 years
 
 [Term]
 id: HsapDv:0000087
@@ -1207,7 +1207,7 @@ def: "Young adult stage that refers to an adult who is under 20." [Bgee:curator 
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300072
-relationship: preceded_by HsapDv:0000112 ! 18 years
+relationship: immediately_preceded_by HsapDv:0000112 ! 18 years
 
 [Term]
 id: HsapDv:0000114
@@ -1217,7 +1217,7 @@ def: "Young adult stage that refers to an adult who is over 20 and under 21." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300073
-relationship: preceded_by HsapDv:0000113 ! 19 years
+relationship: immediately_preceded_by HsapDv:0000113 ! 19 years
 
 [Term]
 id: HsapDv:0000115
@@ -1227,7 +1227,7 @@ def: "Young adult stage that refers to an adult who is over 21 and under 22." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300074
-relationship: preceded_by HsapDv:0000114 ! 20 years
+relationship: immediately_preceded_by HsapDv:0000114 ! 20 years
 
 [Term]
 id: HsapDv:0000116
@@ -1237,7 +1237,7 @@ def: "Young adult stage that refers to an adult who is over 22 and under 23." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300075
-relationship: preceded_by HsapDv:0000115 ! 21 years
+relationship: immediately_preceded_by HsapDv:0000115 ! 21 years
 
 [Term]
 id: HsapDv:0000117
@@ -1247,7 +1247,7 @@ def: "Young adult stage that refers to an adult who is over 23 and under 24." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300076
-relationship: preceded_by HsapDv:0000116 ! 22 years
+relationship: immediately_preceded_by HsapDv:0000116 ! 22 years
 
 [Term]
 id: HsapDv:0000118
@@ -1257,7 +1257,7 @@ def: "Young adult stage that refers to an adult who is over 24 and under 25." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300077
-relationship: preceded_by HsapDv:0000117 ! 23 years
+relationship: immediately_preceded_by HsapDv:0000117 ! 23 years
 
 [Term]
 id: HsapDv:0000090
@@ -1275,7 +1275,7 @@ def: "Adult stage that refers to an adult who is over 25 and under 26." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300078
-relationship: preceded_by HsapDv:0000118 ! 24 years
+relationship: immediately_preceded_by HsapDv:0000118 ! 24 years
 
 [Term]
 id: HsapDv:0000120
@@ -1285,7 +1285,7 @@ def: "Adult stage that refers to an adultwho is over 26 and under 27." [Bgee:cur
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300079
-relationship: preceded_by HsapDv:0000119 ! 25 years
+relationship: immediately_preceded_by HsapDv:0000119 ! 25 years
 
 [Term]
 id: HsapDv:0000121
@@ -1295,7 +1295,7 @@ def: "Adult stage that refers to an adult who is over 27 and under 28." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300080
-relationship: preceded_by HsapDv:0000120 ! 26 years
+relationship: immediately_preceded_by HsapDv:0000120 ! 26 years
 
 [Term]
 id: HsapDv:0000122
@@ -1305,7 +1305,7 @@ def: "Adult stage that refers to an adult who is over 28 and under 29." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300081
-relationship: preceded_by HsapDv:0000121 ! 27 years
+relationship: immediately_preceded_by HsapDv:0000121 ! 27 years
 
 [Term]
 id: HsapDv:0000123
@@ -1315,7 +1315,7 @@ def: "Adult stage that refers to an adult who is over 29 and under 30." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300082
-relationship: preceded_by HsapDv:0000122 ! 28 years
+relationship: immediately_preceded_by HsapDv:0000122 ! 28 years
 
 [Term]
 id: HsapDv:0000124
@@ -1325,7 +1325,7 @@ def: "Adult stage that refers to an adult who is over 30 and under 31." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300083
-relationship: preceded_by HsapDv:0000123 ! 29 years
+relationship: immediately_preceded_by HsapDv:0000123 ! 29 years
 
 [Term]
 id: HsapDv:0000125
@@ -1335,7 +1335,7 @@ def: "Adult stage that refers to an adult who is over 31 and under 32." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300084
-relationship: preceded_by HsapDv:0000124 ! 30 years
+relationship: immediately_preceded_by HsapDv:0000124 ! 30 years
 
 [Term]
 id: HsapDv:0000126
@@ -1345,7 +1345,7 @@ def: "Adult stage that refers to an adult who is over 32 and under 33." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300085
-relationship: preceded_by HsapDv:0000125 ! 31 years
+relationship: immediately_preceded_by HsapDv:0000125 ! 31 years
 
 [Term]
 id: HsapDv:0000127
@@ -1355,7 +1355,7 @@ def: "Adult stage that refers to an adult who is over 33 and under 34." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300086
-relationship: preceded_by HsapDv:0000126 ! 32 years
+relationship: immediately_preceded_by HsapDv:0000126 ! 32 years
 
 [Term]
 id: HsapDv:0000128
@@ -1365,7 +1365,7 @@ def: "Adult stage that refers to an adult who is over 34 and under 35." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300087
-relationship: preceded_by HsapDv:0000127 ! 33 years
+relationship: immediately_preceded_by HsapDv:0000127 ! 33 years
 
 [Term]
 id: HsapDv:0000129
@@ -1375,7 +1375,7 @@ def: "Adult stage that refers to an adult who is over 35 and under 36." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300088
-relationship: preceded_by HsapDv:0000128 ! 34 years
+relationship: immediately_preceded_by HsapDv:0000128 ! 34 years
 
 [Term]
 id: HsapDv:0000130
@@ -1385,7 +1385,7 @@ def: "Adult stage that refers to an adult who is over 36 and under 37." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300089
-relationship: preceded_by HsapDv:0000129 ! 35 years
+relationship: immediately_preceded_by HsapDv:0000129 ! 35 years
 
 [Term]
 id: HsapDv:0000131
@@ -1395,7 +1395,7 @@ def: "Adult stage that refers to an adult who is over 37 and under 38." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300090
-relationship: preceded_by HsapDv:0000130 ! 36 years
+relationship: immediately_preceded_by HsapDv:0000130 ! 36 years
 
 [Term]
 id: HsapDv:0000132
@@ -1405,7 +1405,7 @@ def: "Adult stage that refers to an adult who is over 38 and under 39." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300091
-relationship: preceded_by HsapDv:0000131 ! 37 years
+relationship: immediately_preceded_by HsapDv:0000131 ! 37 years
 
 [Term]
 id: HsapDv:0000133
@@ -1415,7 +1415,7 @@ def: "Adult stage that refers to an adult who is over 39 and under 40." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300092
-relationship: preceded_by HsapDv:0000132 ! 38 years
+relationship: immediately_preceded_by HsapDv:0000132 ! 38 years
 
 [Term]
 id: HsapDv:0000134
@@ -1425,7 +1425,7 @@ def: "Adult stage that refers to an adult who is over 40 and under 41." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300093
-relationship: preceded_by HsapDv:0000133 ! 39 years
+relationship: immediately_preceded_by HsapDv:0000133 ! 39 years
 
 [Term]
 id: HsapDv:0000135
@@ -1435,7 +1435,7 @@ def: "Adult stage that refers to an adult who is over 41 and under 42." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300094
-relationship: preceded_by HsapDv:0000134 ! 40 years
+relationship: immediately_preceded_by HsapDv:0000134 ! 40 years
 
 [Term]
 id: HsapDv:0000136
@@ -1445,7 +1445,7 @@ def: "Adult stage that refers to an adult who is over 42 and under 43." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300095
-relationship: preceded_by HsapDv:0000135 ! 41 years
+relationship: immediately_preceded_by HsapDv:0000135 ! 41 years
 
 [Term]
 id: HsapDv:0000137
@@ -1455,7 +1455,7 @@ def: "Adult stage that refers to an adult who is over 43 and under 44." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300096
-relationship: preceded_by HsapDv:0000136 ! 42 years
+relationship: immediately_preceded_by HsapDv:0000136 ! 42 years
 
 [Term]
 id: HsapDv:0000138
@@ -1465,7 +1465,7 @@ def: "Adult stage that refers to an adult who is over 44 and under 45." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
 xref: EV:0300097
-relationship: preceded_by HsapDv:0000137 ! 43 years
+relationship: immediately_preceded_by HsapDv:0000137 ! 43 years
 
 [Term]
 id: HsapDv:0000091
@@ -1494,7 +1494,7 @@ def: "Middle aged stage that refers to an adult who is over 45 and under 46." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300098
-relationship: preceded_by HsapDv:0000138 ! 44 years
+relationship: immediately_preceded_by HsapDv:0000138 ! 44 years
 
 [Term]
 id: HsapDv:0000140
@@ -1504,7 +1504,7 @@ def: "Middle aged stage that refers to an adult who is over 46 and under 47." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300099
-relationship: preceded_by HsapDv:0000139 ! 45 years
+relationship: immediately_preceded_by HsapDv:0000139 ! 45 years
 
 [Term]
 id: HsapDv:0000141
@@ -1514,7 +1514,7 @@ def: "Middle aged stage that refers to an adult who is over 47 and under 48." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300100
-relationship: preceded_by HsapDv:0000140 ! 46 years
+relationship: immediately_preceded_by HsapDv:0000140 ! 46 years
 
 [Term]
 id: HsapDv:0000142
@@ -1524,7 +1524,7 @@ def: "Middle aged stage that refers to an adult who is over 48 and under 49." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300101
-relationship: preceded_by HsapDv:0000141 ! 47 years
+relationship: immediately_preceded_by HsapDv:0000141 ! 47 years
 
 [Term]
 id: HsapDv:0000143
@@ -1534,7 +1534,7 @@ def: "Middle aged stage that refers to an adult who is over 49 and under 50." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300102
-relationship: preceded_by HsapDv:0000142 ! 48 years
+relationship: immediately_preceded_by HsapDv:0000142 ! 48 years
 
 [Term]
 id: HsapDv:0000144
@@ -1544,7 +1544,7 @@ def: "Middle aged stage that refers to an adult who is over 50 and under 51." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300103
-relationship: preceded_by HsapDv:0000143 ! 49 years
+relationship: immediately_preceded_by HsapDv:0000143 ! 49 years
 
 [Term]
 id: HsapDv:0000145
@@ -1554,7 +1554,7 @@ def: "Middle aged stage that refers to an adult who is over 51 and under 52." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300104
-relationship: preceded_by HsapDv:0000144 ! 50 years
+relationship: immediately_preceded_by HsapDv:0000144 ! 50 years
 
 [Term]
 id: HsapDv:0000146
@@ -1564,7 +1564,7 @@ def: "Middle aged stage that refers to an adult who is over 52 and under 53." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300105
-relationship: preceded_by HsapDv:0000145 ! 51 years
+relationship: immediately_preceded_by HsapDv:0000145 ! 51 years
 
 [Term]
 id: HsapDv:0000147
@@ -1574,7 +1574,7 @@ def: "Middle aged stage that refers to an adult who is over 53 and under 54." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300106
-relationship: preceded_by HsapDv:0000146 ! 52 years
+relationship: immediately_preceded_by HsapDv:0000146 ! 52 years
 
 [Term]
 id: HsapDv:0000148
@@ -1584,7 +1584,7 @@ def: "Middle aged stage that refers to an adult who is over 54 and under 55." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300107
-relationship: preceded_by HsapDv:0000147 ! 53 years
+relationship: immediately_preceded_by HsapDv:0000147 ! 53 years
 
 [Term]
 id: HsapDv:0000149
@@ -1594,7 +1594,7 @@ def: "Middle aged stage that refers to an adult who is over 55 and under 56." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300108
-relationship: preceded_by HsapDv:0000148 ! 54 years
+relationship: immediately_preceded_by HsapDv:0000148 ! 54 years
 
 [Term]
 id: HsapDv:0000150
@@ -1604,7 +1604,7 @@ def: "Middle aged stage that refers to an adult who is over 56 and under 57." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300109
-relationship: preceded_by HsapDv:0000149 ! 55 years
+relationship: immediately_preceded_by HsapDv:0000149 ! 55 years
 
 [Term]
 id: HsapDv:0000151
@@ -1614,7 +1614,7 @@ def: "Middle aged stage that refers to an adult who is over 57 and under 58." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300110
-relationship: preceded_by HsapDv:0000150 ! 56 years
+relationship: immediately_preceded_by HsapDv:0000150 ! 56 years
 
 [Term]
 id: HsapDv:0000152
@@ -1624,7 +1624,7 @@ def: "Middle aged stage that refers to an adult who is over 58 and under 59." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300111
-relationship: preceded_by HsapDv:0000151 ! 57 years
+relationship: immediately_preceded_by HsapDv:0000151 ! 57 years
 
 [Term]
 id: HsapDv:0000153
@@ -1634,7 +1634,7 @@ def: "Middle aged stage that refers to an adult who is over 59 and under 60." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300112
-relationship: preceded_by HsapDv:0000152 ! 58 years
+relationship: immediately_preceded_by HsapDv:0000152 ! 58 years
 
 [Term]
 id: HsapDv:0000154
@@ -1644,7 +1644,7 @@ def: "Middle aged stage that refers to an adult who is over 60 and under 61." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300113
-relationship: preceded_by HsapDv:0000153 ! 59 years
+relationship: immediately_preceded_by HsapDv:0000153 ! 59 years
 
 [Term]
 id: HsapDv:0000155
@@ -1654,7 +1654,7 @@ def: "Middle aged stage that refers to an adult who is over 61 and under 62." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300114
-relationship: preceded_by HsapDv:0000154 ! 60 years
+relationship: immediately_preceded_by HsapDv:0000154 ! 60 years
 
 [Term]
 id: HsapDv:0000156
@@ -1664,7 +1664,7 @@ def: "Middle aged stage that refers to an adult who is over 62 and under 63." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300115
-relationship: preceded_by HsapDv:0000155 ! 61 years
+relationship: immediately_preceded_by HsapDv:0000155 ! 61 years
 
 [Term]
 id: HsapDv:0000157
@@ -1674,7 +1674,7 @@ def: "Middle aged stage that refers to an adult who is over 63 and under 64." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300116
-relationship: preceded_by HsapDv:0000156 ! 62 years
+relationship: immediately_preceded_by HsapDv:0000156 ! 62 years
 
 [Term]
 id: HsapDv:0000158
@@ -1684,7 +1684,7 @@ def: "Middle aged stage that refers to an adult who is over 64 and under 65." [B
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000092 ! middle aged stage
 xref: EV:0300117
-relationship: preceded_by HsapDv:0000157 ! 63 years
+relationship: immediately_preceded_by HsapDv:0000157 ! 63 years
 
 [Term]
 id: HsapDv:0000093
@@ -1713,7 +1713,7 @@ def: "Adult stage that refers to an adult who is over 65 and under 66." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300118
-relationship: preceded_by HsapDv:0000158 ! 64 years
+relationship: immediately_preceded_by HsapDv:0000158 ! 64 years
 
 [Term]
 id: HsapDv:0000160
@@ -1723,7 +1723,7 @@ def: "Adult stage that refers to an adult who is over 66 and under 67." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300119
-relationship: preceded_by HsapDv:0000159 ! 65 years
+relationship: immediately_preceded_by HsapDv:0000159 ! 65 years
 
 [Term]
 id: HsapDv:0000161
@@ -1733,7 +1733,7 @@ def: "Adult stage that refers to an adult who is over 67 and under 68." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300120
-relationship: preceded_by HsapDv:0000160 ! 66 years
+relationship: immediately_preceded_by HsapDv:0000160 ! 66 years
 
 [Term]
 id: HsapDv:0000162
@@ -1743,7 +1743,7 @@ def: "Adult stage that refers to an adult who is over 68 and under 69." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300121
-relationship: preceded_by HsapDv:0000161 ! 67 years
+relationship: immediately_preceded_by HsapDv:0000161 ! 67 years
 
 [Term]
 id: HsapDv:0000163
@@ -1753,7 +1753,7 @@ def: "Adult stage that refers to an adult who is over 69 and under 70." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300122
-relationship: preceded_by HsapDv:0000162 ! 68 years
+relationship: immediately_preceded_by HsapDv:0000162 ! 68 years
 
 [Term]
 id: HsapDv:0000164
@@ -1763,7 +1763,7 @@ def: "Adult stage that refers to an adult who is over 70 and under 71." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300124
-relationship: preceded_by HsapDv:0000163 ! 69 years
+relationship: immediately_preceded_by HsapDv:0000163 ! 69 years
 
 [Term]
 id: HsapDv:0000165
@@ -1773,7 +1773,7 @@ def: "Adult stage that refers to an adult who is over 71 and under 72." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300125
-relationship: preceded_by HsapDv:0000164 ! 70 years
+relationship: immediately_preceded_by HsapDv:0000164 ! 70 years
 
 [Term]
 id: HsapDv:0000166
@@ -1783,7 +1783,7 @@ def: "Adult stage that refers to an adult who is over 72 and under 73." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300126
-relationship: preceded_by HsapDv:0000165 ! 71 years
+relationship: immediately_preceded_by HsapDv:0000165 ! 71 years
 
 [Term]
 id: HsapDv:0000167
@@ -1793,7 +1793,7 @@ def: "Adult stage that refers to an adult who is over 73 and under 74." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300127
-relationship: preceded_by HsapDv:0000166 ! 72 years
+relationship: immediately_preceded_by HsapDv:0000166 ! 72 years
 
 [Term]
 id: HsapDv:0000168
@@ -1803,7 +1803,7 @@ def: "Adult stage that refers to an adult who is over 74 and under 75." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300128
-relationship: preceded_by HsapDv:0000167 ! 73 years
+relationship: immediately_preceded_by HsapDv:0000167 ! 73 years
 
 [Term]
 id: HsapDv:0000169
@@ -1813,7 +1813,7 @@ def: "Adult stage that refers to an adult who is over 75 and under 76." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300129
-relationship: preceded_by HsapDv:0000168 ! 74 years
+relationship: immediately_preceded_by HsapDv:0000168 ! 74 years
 
 [Term]
 id: HsapDv:0000170
@@ -1823,7 +1823,7 @@ def: "Adult stage that refers to an adult who is over 76 and under 77." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300130
-relationship: preceded_by HsapDv:0000169 ! 75 years
+relationship: immediately_preceded_by HsapDv:0000169 ! 75 years
 
 [Term]
 id: HsapDv:0000171
@@ -1833,7 +1833,7 @@ def: "Adult stage that refers to an adult who is over 77 and under 78." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300131
-relationship: preceded_by HsapDv:0000170 ! 76 years
+relationship: immediately_preceded_by HsapDv:0000170 ! 76 years
 
 [Term]
 id: HsapDv:0000172
@@ -1843,7 +1843,7 @@ def: "Adult stage that refers to an adult who is over 78 and under 79." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300132
-relationship: preceded_by HsapDv:0000171 ! 77 years
+relationship: immediately_preceded_by HsapDv:0000171 ! 77 years
 
 [Term]
 id: HsapDv:0000173
@@ -1853,7 +1853,7 @@ def: "Adult stage that refers to an adult who is over 79 and under 80." [Bgee:cu
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
 xref: EV:0300133
-relationship: preceded_by HsapDv:0000172 ! 78 years
+relationship: immediately_preceded_by HsapDv:0000172 ! 78 years
 
 [Term]
 id: HsapDv:0000095
@@ -1862,6 +1862,7 @@ namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is over 80." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000093 ! aged stage
+relationship: immediately_preceded_by HsapDv:0000173 ! 79 years
 
 [Typedef]
 id: part_of
@@ -1872,6 +1873,13 @@ xref: BFO:0000050
 [Typedef]
 id: preceded_by
 name: preceded_by
-synonym: "is preceded by" EXACT [SIO:000249]
-synonym: "takes place after" EXACT [Allen:precedes]
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
 xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+is_a: preceded_by ! preceded_by
+xref: RO:0002087 ! immediately_preceded_by
