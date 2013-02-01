@@ -58,7 +58,7 @@ xref: XUO:0000046
 synonym: "TS02 (E1-2.5)" RELATED [EMAPA:TS02]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000004 ! cleavage stage
-relationship: preceded_by MmusDv:0000003 ! Theiler stage 01
+relationship: immediately_preceded_by MmusDv:0000003 ! Theiler stage 01
 xref: TS02 ! TS02 (E1-2.5)
 
 [Term]
@@ -71,7 +71,7 @@ xref: XUO:0000047
 synonym: "TS03 (E1-3.5)" RELATED [EMAPA:TS03]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000004 ! cleavage stage
-relationship: preceded_by MmusDv:0000005 ! Theiler stage 02
+relationship: immediately_preceded_by MmusDv:0000005 ! Theiler stage 02
 xref: TS03 ! TS03 (E1-3.5)
 
 [Term]
@@ -93,7 +93,7 @@ xref: XUO:0000048
 synonym: "TS04 (E2-4)" RELATED [EMAPA:TS04]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
-relationship: preceded_by MmusDv:0000006 ! Theiler stage 03
+relationship: immediately_preceded_by MmusDv:0000006 ! Theiler stage 03
 xref: TS04 ! TS04 (E2-4)
 
 [Term]
@@ -106,7 +106,7 @@ xref: XUO:0000049
 synonym: "TS05 (E3-5.5)" RELATED [EMAPA:TS05]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
-relationship: preceded_by MmusDv:0000008 ! Theiler stage 04
+relationship: immediately_preceded_by MmusDv:0000008 ! Theiler stage 04
 xref: TS05 ! TS05 (E3-5.5)
 
 [Term]
@@ -119,7 +119,7 @@ xref: XUO:0000050
 synonym: "TS06 (E4-5.5)" RELATED [EMAPA:TS06]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
-relationship: preceded_by MmusDv:0000009 ! Theiler stage 05
+relationship: immediately_preceded_by MmusDv:0000009 ! Theiler stage 05
 xref: TS06 ! TS06 (E4-5.5)
 
 [Term]
@@ -132,7 +132,7 @@ xref: XUO:0000051
 synonym: "TS07 (E4.5-6)" RELATED [EMAPA:TS07]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
-relationship: preceded_by MmusDv:0000010 ! Theiler stage 06
+relationship: immediately_preceded_by MmusDv:0000010 ! Theiler stage 06
 xref: TS07 ! TS07 (E4.5-6)
 
 [Term]
@@ -145,7 +145,7 @@ xref: XUO:0000052
 synonym: "TS08 (E5-6.5)" RELATED [EMAPA:TS08]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
-relationship: preceded_by MmusDv:0000011 ! Theiler stage 07
+relationship: immediately_preceded_by MmusDv:0000011 ! Theiler stage 07
 xref: TS08 ! TS08 (E5-6.5)
 
 [Term]
@@ -166,7 +166,7 @@ xref: XUO:0000053
 synonym: "TS09 (E6.25-7.25)" RELATED [EMAPA:TS09]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000013 ! gastrula stage
-relationship: preceded_by MmusDv:0000012 ! Theiler stage 08
+relationship: immediately_preceded_by MmusDv:0000012 ! Theiler stage 08
 xref: TS09 ! TS09 (E6.25-7.25)
 
 [Term]
@@ -179,7 +179,7 @@ xref: XUO:0000054
 synonym: "TS10 (E6.5-7.75)" RELATED [EMAPA:TS10]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000013 ! gastrula stage
-relationship: preceded_by MmusDv:0000014 ! Theiler stage 09
+relationship: immediately_preceded_by MmusDv:0000014 ! Theiler stage 09
 xref: TS10 ! TS10 (E6.5-7.75)
 
 [Term]
@@ -204,7 +204,7 @@ xref: XUO:0000055
 synonym: "TS11 (E7.25-8)" RELATED [EMAPA:TS11]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
-relationship: preceded_by MmusDv:0000015 ! Theiler stage 10
+relationship: immediately_preceded_by MmusDv:0000015 ! Theiler stage 10
 xref: TS11 ! TS11 (E7.25-8)
 
 [Term]
@@ -225,7 +225,7 @@ xref: XUO:0000056
 synonym: "TS12 (E7.5-8.75)" RELATED [EMAPA:TS12]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000017 ! Theiler stage 11
+relationship: immediately_preceded_by MmusDv:0000017 ! Theiler stage 11
 xref: TS12 ! TS12 (E7.5-8.75)
 
 [Term]
@@ -238,7 +238,7 @@ xref: XUO:0000057
 synonym: "TS13 (E8-9.25)" RELATED [EMAPA:TS13]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000019 ! Theiler stage 12
+relationship: immediately_preceded_by MmusDv:0000019 ! Theiler stage 12
 xref: TS13 ! TS13 (E8-9.25)
 
 [Term]
@@ -251,7 +251,7 @@ xref: XUO:0000058
 synonym: "TS14 (E8.5-9.75)" RELATED [EMAPA:TS14]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000020 ! Theiler stage 13
+relationship: immediately_preceded_by MmusDv:0000020 ! Theiler stage 13
 xref: TS14 ! TS14 (E8.5-9.75)
 
 [Term]
@@ -264,7 +264,7 @@ xref: XUO:0000059
 synonym: "TS15 (E9-10.25)" RELATED [EMAPA:TS15]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000021 ! Theiler stage 14
+relationship: immediately_preceded_by MmusDv:0000021 ! Theiler stage 14
 xref: TS15 ! TS15 (E9-10.25)
 
 [Term]
@@ -277,7 +277,7 @@ xref: XUO:0000060
 synonym: "TS16 (E9.5-10.75)" RELATED [EMAPA:TS16]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000022 ! Theiler stage 15
+relationship: immediately_preceded_by MmusDv:0000022 ! Theiler stage 15
 xref: TS16 ! TS16 (E9.5-10.75)
 
 [Term]
@@ -290,7 +290,7 @@ xref: XUO:0000061
 synonym: "TS17 (E10-11.25)" RELATED [EMAPA:TS17]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000023 ! Theiler stage 16
+relationship: immediately_preceded_by MmusDv:0000023 ! Theiler stage 16
 xref: TS17 ! TS17 (E10-11.25)
 
 [Term]
@@ -303,7 +303,7 @@ xref: XUO:0000062
 synonym: "TS18 (E10.5-11.25)" RELATED [EMAPA:TS18]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000024 ! Theiler stage 17
+relationship: immediately_preceded_by MmusDv:0000024 ! Theiler stage 17
 xref: TS18 ! TS18 (E10.5-11.25)
 
 [Term]
@@ -316,7 +316,7 @@ xref: XUO:0000063
 synonym: "TS19 (E11-12.25)" RELATED [EMAPA:TS19]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000025 ! Theiler stage 18
+relationship: immediately_preceded_by MmusDv:0000025 ! Theiler stage 18
 xref: TS19 ! TS19 (E11-12.25)
 
 [Term]
@@ -329,7 +329,7 @@ xref: XUO:0000064
 synonym: "TS20 (E11.5-13)" RELATED [EMAPA:TS20]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000026 ! Theiler stage 19
+relationship: immediately_preceded_by MmusDv:0000026 ! Theiler stage 19
 xref: TS20 ! TS20 (E11.5-13)
 
 [Term]
@@ -342,7 +342,7 @@ xref: XUO:0000065
 synonym: "TS21 (E12.5-14)" RELATED [EMAPA:TS21]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000027 ! Theiler stage 20
+relationship: immediately_preceded_by MmusDv:0000027 ! Theiler stage 20
 xref: TS21 ! TS21 (E12.5-14)
 
 [Term]
@@ -355,7 +355,7 @@ xref: XUO:0000066
 synonym: "TS22 (E13.5-15)" RELATED [EMAPA:TS22]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-relationship: preceded_by MmusDv:0000028 ! Theiler stage 21
+relationship: immediately_preceded_by MmusDv:0000028 ! Theiler stage 21
 xref: TS22 ! TS22 (E13.5-15)
 
 [Term]
@@ -386,7 +386,7 @@ xref: XUO:0000067
 synonym: "TS23 (E15)" RELATED [EMAPA:TS23]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
-relationship: preceded_by MmusDv:0000029 ! Theiler stage 22
+relationship: immediately_preceded_by MmusDv:0000029 ! Theiler stage 22
 xref: TS23 ! TS23 (E15)
 
 [Term]
@@ -399,7 +399,7 @@ xref: XUO:0000068
 synonym: "TS24 (E16)" RELATED [EMAPA:TS24]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
-relationship: preceded_by MmusDv:0000032 ! Theiler stage 23
+relationship: immediately_preceded_by MmusDv:0000032 ! Theiler stage 23
 xref: TS24 ! TS24 (E16)
 
 [Term]
@@ -412,7 +412,7 @@ xref: XUO:0000069
 synonym: "TS25 (E17)" RELATED [EMAPA:TS25]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
-relationship: preceded_by MmusDv:0000033 ! Theiler stage 24
+relationship: immediately_preceded_by MmusDv:0000033 ! Theiler stage 24
 xref: TS25 ! TS25 (E17)
 
 [Term]
@@ -425,7 +425,7 @@ xref: XUO:0000070
 synonym: "TS26 (E18)" RELATED [EMAPA:TS26]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
-relationship: preceded_by MmusDv:0000034 ! Theiler stage 25
+relationship: immediately_preceded_by MmusDv:0000034 ! Theiler stage 25
 xref: TS26 ! TS26 (E18)
 
 [Term]
@@ -439,7 +439,7 @@ synonym: "TS27" RELATED [EMAPA:TS27]
 synonym: "newborn stage" RELATED []
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000096 ! early immature stage
-relationship: preceded_by MmusDv:0000035 ! Theiler stage 26
+relationship: immediately_preceded_by MmusDv:0000035 ! Theiler stage 26
 xref: TS27 ! TS27 (null)
 
 [Term]
@@ -526,7 +526,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 7 days and under 15 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
-relationship: preceded_by MmusDv:0000044 ! 1-7 days
+relationship: immediately_preceded_by MmusDv:0000044 ! 1-7 days
 
 [Term]
 id: MmusDv:0000046
@@ -535,7 +535,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 14 days and under 22 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
-relationship: preceded_by MmusDv:0000045 ! 1 week
+relationship: immediately_preceded_by MmusDv:0000045 ! 1 week
 
 [Term]
 id: MmusDv:0000047
@@ -544,7 +544,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 21 days and under 29 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
-relationship: preceded_by MmusDv:0000046 ! 2 weeks
+relationship: immediately_preceded_by MmusDv:0000046 ! 2 weeks
 
 [Term]
 id: MmusDv:0000048
@@ -553,7 +553,7 @@ namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 28 days and under 36 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
-relationship: preceded_by MmusDv:0000047 ! 3 weeks
+relationship: immediately_preceded_by MmusDv:0000047 ! 3 weeks
 
 [Term]
 id: MmusDv:0000049
@@ -563,7 +563,7 @@ def: "Adolescent stage that refers to a mouse which is over 35 days and under 43
 comment: This stage is usually the stage during which the sexual maturity occurs.
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000039 ! adolescent stage
-relationship: preceded_by MmusDv:0000048 ! 4 weeks
+relationship: immediately_preceded_by MmusDv:0000048 ! 4 weeks
 
 [Term]
 id: MmusDv:0000050
@@ -573,7 +573,7 @@ def: "Adolescent stage that refers to a mouse which is over 42 days and under 50
 comment: This stage is commonly considered in the literature as the milestone that distinguishes between adolescent and adult stages.
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000039 ! adolescent stage
-relationship: preceded_by MmusDv:0000049 ! 5 weeks
+relationship: immediately_preceded_by MmusDv:0000049 ! 5 weeks
 
 [Term]
 id: MmusDv:0000051
@@ -582,7 +582,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 49 days and under 57 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
-relationship: preceded_by MmusDv:0000050 ! 6 weeks
+relationship: immediately_preceded_by MmusDv:0000050 ! 6 weeks
 
 [Term]
 id: MmusDv:0000052
@@ -591,7 +591,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 56 days and under 64 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
-relationship: preceded_by MmusDv:0000051 ! 7 weeks
+relationship: immediately_preceded_by MmusDv:0000051 ! 7 weeks
 
 [Term]
 id: MmusDv:0000053
@@ -600,7 +600,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 63 days and under 71 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
-relationship: preceded_by MmusDv:0000052 ! 8 weeks
+relationship: immediately_preceded_by MmusDv:0000052 ! 8 weeks
 
 [Term]
 id: MmusDv:0000054
@@ -609,7 +609,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 70 days and under 78 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
-relationship: preceded_by MmusDv:0000053 ! 9 weeks
+relationship: immediately_preceded_by MmusDv:0000053 ! 9 weeks
 
 [Term]
 id: MmusDv:0000055
@@ -618,7 +618,7 @@ namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 77 days and under 85 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
-relationship: preceded_by MmusDv:0000054 ! 10 weeks
+relationship: immediately_preceded_by MmusDv:0000054 ! 10 weeks
 
 [Term]
 id: MmusDv:0000056
@@ -627,7 +627,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 84 days and under 92 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
-relationship: preceded_by MmusDv:0000055 ! 11 weeks
+relationship: immediately_preceded_by MmusDv:0000055 ! 11 weeks
 
 [Term]
 id: MmusDv:0000057
@@ -636,7 +636,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 91 days and under 99 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
-relationship: preceded_by MmusDv:0000056 ! 12 weeks
+relationship: immediately_preceded_by MmusDv:0000056 ! 12 weeks
 
 [Term]
 id: MmusDv:0000058
@@ -645,7 +645,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 98 days and under 106 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
-relationship: preceded_by MmusDv:0000057 ! 13 weeks
+relationship: immediately_preceded_by MmusDv:0000057 ! 13 weeks
 
 [Term]
 id: MmusDv:0000059
@@ -654,7 +654,7 @@ namespace: mouse_developmental_stage
 def: "3 month-old stage that refers to a mouse which is over 105 days and under 113 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000063 ! 3 month-old stage
-relationship: preceded_by MmusDv:0000058 ! 14 weeks
+relationship: immediately_preceded_by MmusDv:0000058 ! 14 weeks
 
 [Term]
 id: MmusDv:0000061
@@ -680,7 +680,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
-relationship: preceded_by MmusDv:0000062 ! 2 month-old stage
+relationship: immediately_preceded_by MmusDv:0000062 ! 2 month-old stage
 
 [Term]
 id: MmusDv:0000064
@@ -689,7 +689,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
-relationship: preceded_by MmusDv:0000063 ! 3 month-old stage
+relationship: immediately_preceded_by MmusDv:0000063 ! 3 month-old stage
 
 [Term]
 id: MmusDv:0000065
@@ -698,7 +698,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 112 days and under 120 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
-relationship: preceded_by MmusDv:0000059 ! 15 weeks
+relationship: immediately_preceded_by MmusDv:0000059 ! 15 weeks
 
 [Term]
 id: MmusDv:0000066
@@ -707,7 +707,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 119 days and under 127 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
-relationship: preceded_by MmusDv:0000065 ! 16 weeks
+relationship: immediately_preceded_by MmusDv:0000065 ! 16 weeks
 
 [Term]
 id: MmusDv:0000067
@@ -716,7 +716,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 126 days and under 134 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
-relationship: preceded_by MmusDv:0000066 ! 17 weeks
+relationship: immediately_preceded_by MmusDv:0000066 ! 17 weeks
 
 [Term]
 id: MmusDv:0000068
@@ -725,7 +725,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 133 days and under 141 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
-relationship: preceded_by MmusDv:0000067 ! 18 weeks
+relationship: immediately_preceded_by MmusDv:0000067 ! 18 weeks
 
 [Term]
 id: MmusDv:0000069
@@ -734,7 +734,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
-relationship: preceded_by MmusDv:0000064 ! 4 month-old stage
+relationship: immediately_preceded_by MmusDv:0000064 ! 4 month-old stage
 
 [Term]
 id: MmusDv:0000070
@@ -743,7 +743,7 @@ namespace: mouse_developmental_stage
 def: "4 month-old stage that refers to a mouse which is over 140 days and under 148 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000064 ! 4 month-old stage
-relationship: preceded_by MmusDv:0000068 ! 19 weeks
+relationship: immediately_preceded_by MmusDv:0000068 ! 19 weeks
 
 [Term]
 id: MmusDv:0000071
@@ -752,7 +752,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 147 days and under 155 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
-relationship: preceded_by MmusDv:0000070 ! 20 weeks
+relationship: immediately_preceded_by MmusDv:0000070 ! 20 weeks
 
 [Term]
 id: MmusDv:0000072
@@ -761,7 +761,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 154 days and under 162 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
-relationship: preceded_by MmusDv:0000071 ! 21 weeks
+relationship: immediately_preceded_by MmusDv:0000071 ! 21 weeks
 
 [Term]
 id: MmusDv:0000073
@@ -770,7 +770,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 161 days and under 169 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
-relationship: preceded_by MmusDv:0000072 ! 22 weeks
+relationship: immediately_preceded_by MmusDv:0000072 ! 22 weeks
 
 [Term]
 id: MmusDv:0000074
@@ -779,7 +779,7 @@ namespace: mouse_developmental_stage
 def: "5 month-old stage that refers to a mouse which is over 168 days and under 176 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000069 ! 5 month-old stage
-relationship: preceded_by MmusDv:0000073 ! 23 weeks
+relationship: immediately_preceded_by MmusDv:0000073 ! 23 weeks
 
 [Term]
 id: MmusDv:0000075
@@ -805,7 +805,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
-relationship: preceded_by MmusDv:0000069 ! 5 month-old stage
+relationship: immediately_preceded_by MmusDv:0000069 ! 5 month-old stage
 
 [Term]
 id: MmusDv:0000078
@@ -814,7 +814,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 7 and under 8 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000077 ! 6 month-old stage
+relationship: immediately_preceded_by MmusDv:0000077 ! 6 month-old stage
 
 [Term]
 id: MmusDv:0000079
@@ -823,7 +823,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 8 and under 9 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000078 ! 7 month-old stage
+relationship: immediately_preceded_by MmusDv:0000078 ! 7 month-old stage
 
 [Term]
 id: MmusDv:0000080
@@ -832,7 +832,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000079 ! 8 month-old stage
+relationship: immediately_preceded_by MmusDv:0000079 ! 8 month-old stage
 
 [Term]
 id: MmusDv:0000081
@@ -841,7 +841,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 10 and under 11 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000080 ! 9 month-old stage
+relationship: immediately_preceded_by MmusDv:0000080 ! 9 month-old stage
 
 [Term]
 id: MmusDv:0000082
@@ -850,7 +850,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 11 and under 12 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000081 ! 10 month-old stage
+relationship: immediately_preceded_by MmusDv:0000081 ! 10 month-old stage
 
 [Term]
 id: MmusDv:0000083
@@ -859,7 +859,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 12 and under 13 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000082 ! 11 month-old stage
+relationship: immediately_preceded_by MmusDv:0000082 ! 11 month-old stage
 
 [Term]
 id: MmusDv:0000084
@@ -868,7 +868,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 13 and under 14 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000083 ! 12 month-old stage
+relationship: immediately_preceded_by MmusDv:0000083 ! 12 month-old stage
 
 [Term]
 id: MmusDv:0000085
@@ -877,7 +877,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 14 and under 15 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000075 ! middle aged stage
-relationship: preceded_by MmusDv:0000084 ! 13 month-old stage
+relationship: immediately_preceded_by MmusDv:0000084 ! 13 month-old stage
 
 [Term]
 id: MmusDv:0000086
@@ -886,7 +886,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 15 and under 16 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
-relationship: preceded_by MmusDv:0000085 ! 14 month-old stage
+relationship: immediately_preceded_by MmusDv:0000085 ! 14 month-old stage
 
 [Term]
 id: MmusDv:0000087
@@ -895,7 +895,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 16 and under 17 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
-relationship: preceded_by MmusDv:0000086 ! 15 month-old stage
+relationship: immediately_preceded_by MmusDv:0000086 ! 15 month-old stage
 
 [Term]
 id: MmusDv:0000088
@@ -904,7 +904,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 17 and under 18 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
-relationship: preceded_by MmusDv:0000087 ! 16 month-old stage
+relationship: immediately_preceded_by MmusDv:0000087 ! 16 month-old stage
 
 [Term]
 id: MmusDv:0000089
@@ -913,7 +913,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 18 and under 19 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
-relationship: preceded_by MmusDv:0000088 ! 17 month-old stage
+relationship: immediately_preceded_by MmusDv:0000088 ! 17 month-old stage
 
 [Term]
 id: MmusDv:0000090
@@ -922,7 +922,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 19 and under 20 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
-relationship: preceded_by MmusDv:0000089 ! 18 month-old stage
+relationship: immediately_preceded_by MmusDv:0000089 ! 18 month-old stage
 
 [Term]
 id: MmusDv:0000091
@@ -947,7 +947,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the allantoic bud elongates ." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
-relationship: preceded_by MmusDv:0000092 ! Theiler stage 11a
+relationship: immediately_preceded_by MmusDv:0000092 ! Theiler stage 11a
 
 [Term]
 id: MmusDv:0000094
@@ -956,7 +956,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the head folds are formed while the neural groove becomes visible." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
-relationship: preceded_by MmusDv:0000093 ! Theiler stage 11b
+relationship: immediately_preceded_by MmusDv:0000093 ! Theiler stage 11b
 
 [Term]
 id: MmusDv:0000095
@@ -965,7 +965,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the head folds continue to enlarge while the foregut pocket begins to form." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
-relationship: preceded_by MmusDv:0000094 ! Theiler stage 11c
+relationship: immediately_preceded_by MmusDv:0000094 ! Theiler stage 11c
 
 [Term]
 id: MmusDv:0000096
@@ -991,7 +991,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 175 days and under 183 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
-relationship: preceded_by MmusDv:0000074 ! 24 weeks
+relationship: immediately_preceded_by MmusDv:0000074 ! 24 weeks
 
 [Term]
 id: MmusDv:0000099
@@ -1000,7 +1000,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 182 days and under 190 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
-relationship: preceded_by MmusDv:0000098 ! 25 weeks
+relationship: immediately_preceded_by MmusDv:0000098 ! 25 weeks
 
 [Term]
 id: MmusDv:0000100
@@ -1009,7 +1009,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 189 days and under 197 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
-relationship: preceded_by MmusDv:0000099 ! 26 weeks
+relationship: immediately_preceded_by MmusDv:0000099 ! 26 weeks
 
 [Term]
 id: MmusDv:0000101
@@ -1018,7 +1018,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 196 days and under 204 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
-relationship: preceded_by MmusDv:0000100 ! 27 weeks
+relationship: immediately_preceded_by MmusDv:0000100 ! 27 weeks
 
 [Term]
 id: MmusDv:0000102
@@ -1027,7 +1027,7 @@ namespace: mouse_developmental_stage
 def: "6 month-old stage that refers to a mouse which is over 203 days and under 211 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000077 ! 6 month-old stage
-relationship: preceded_by MmusDv:0000101 ! 28 weeks
+relationship: immediately_preceded_by MmusDv:0000101 ! 28 weeks
 
 [Term]
 id: MmusDv:0000103
@@ -1044,7 +1044,7 @@ namespace: mouse_developmental_stage
 def: "Theiler developmental stage 9 defined by advanced endometrial reaction and during which the first mesodermal cells are produced by gastrulation late in this stage." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Stage_9b "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000014 ! Theiler stage 09
-relationship: preceded_by MmusDv:0000103 ! Theiler stage 09a
+relationship: immediately_preceded_by MmusDv:0000103 ! Theiler stage 09a
 
 [Term]
 id: MmusDv:0000105
@@ -1063,7 +1063,7 @@ def: "Theiler developmental stage 10 during which small cavities coalesce to for
 comment: Refers to MS-LS (mid-streak to late streak) stage in Downs and Davies staging of gastrulating mouse embryos, 1993 (see http://www.ncbi.nlm.nih.gov/pubmed/8269852).
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000015 ! Theiler stage 10
-relationship: preceded_by MmusDv:0000105 ! Theiler stage 10a
+relationship: immediately_preceded_by MmusDv:0000105 ! Theiler stage 10a
 
 [Term]
 id: MmusDv:0000107
@@ -1073,7 +1073,7 @@ def: "Theiler developmental stage 10 during which the allantoic bud first appear
 comment: Refers to MS-LS (mid-streak to late streak) stage in Downs and Davies staging of gastrulating mouse embryos, 1993 (see http://www.ncbi.nlm.nih.gov/pubmed/8269852).
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000015 ! Theiler stage 10
-relationship: preceded_by MmusDv:0000106 ! Theiler stage 10b
+relationship: immediately_preceded_by MmusDv:0000106 ! Theiler stage 10b
 
 [Term]
 id: MmusDv:0000108
@@ -1092,7 +1092,7 @@ def: "Theiler developmental stage 12 defined by unturned embryo with first appea
 comment: Embryonic age 8 dpc (day post-coitum). Refers to human CarnegieStage09.
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000019 ! Theiler stage 12
-relationship: preceded_by MmusDv:0000108 ! Theiler stage 12a
+relationship: immediately_preceded_by MmusDv:0000108 ! Theiler stage 12a
 
 [Typedef]
 id: part_of
@@ -1103,6 +1103,13 @@ is_transitive: true
 [Typedef]
 id: preceded_by
 name: preceded_by
-synonym: "is preceded by" EXACT [SIO:000249]
-synonym: "takes place after" EXACT [Allen:precedes]
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
 xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+is_a: preceded_by ! preceded_by
+xref: RO:0002087 ! immediately_preceded_by

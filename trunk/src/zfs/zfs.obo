@@ -26,7 +26,7 @@ name: Cleavage:2-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-15
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000001 ! Zygote:1-cell
+relationship: immediately_preceded_by ZFS:0000001 ! Zygote:1-cell
 relationship: part_of ZFS:0000046 ! cleavage
 
 [Term]
@@ -35,7 +35,7 @@ name: Cleavage:4-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-11
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000002 ! Cleavage:2-cell
+relationship: immediately_preceded_by ZFS:0000002 ! Cleavage:2-cell
 relationship: part_of ZFS:0000046 ! cleavage
 
 [Term]
@@ -44,7 +44,7 @@ name: Cleavage:8-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-33
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000003 ! Cleavage:4-cell
+relationship: immediately_preceded_by ZFS:0000003 ! Cleavage:4-cell
 relationship: part_of ZFS:0000046 ! cleavage
 
 [Term]
@@ -53,7 +53,7 @@ name: Cleavage:16-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-20
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000004 ! Cleavage:8-cell
+relationship: immediately_preceded_by ZFS:0000004 ! Cleavage:8-cell
 relationship: part_of ZFS:0000046 ! cleavage
 
 [Term]
@@ -62,7 +62,7 @@ name: Cleavage:32-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-25
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000005 ! Cleavage:16-cell
+relationship: immediately_preceded_by ZFS:0000005 ! Cleavage:16-cell
 relationship: part_of ZFS:0000046 ! cleavage
 
 [Term]
@@ -71,7 +71,7 @@ name: Cleavage:64-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-28
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000006 ! Cleavage:32-cell
+relationship: immediately_preceded_by ZFS:0000006 ! Cleavage:32-cell
 relationship: part_of ZFS:0000046 ! cleavage
 
 [Term]
@@ -80,7 +80,7 @@ name: Blastula:128-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-7
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000007 ! Cleavage:64-cell
+relationship: immediately_preceded_by ZFS:0000007 ! Cleavage:64-cell
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -89,7 +89,7 @@ name: Blastula:256-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-1
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000008 ! Blastula:128-cell
+relationship: immediately_preceded_by ZFS:0000008 ! Blastula:128-cell
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -98,7 +98,7 @@ name: Blastula:512-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-14
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000009 ! Blastula:256-cell
+relationship: immediately_preceded_by ZFS:0000009 ! Blastula:256-cell
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -107,7 +107,7 @@ name: Blastula:1k-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-22
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000010 ! Blastula:512-cell
+relationship: immediately_preceded_by ZFS:0000010 ! Blastula:512-cell
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -116,7 +116,7 @@ name: Blastula:High
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-27
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000011 ! Blastula:1k-cell
+relationship: immediately_preceded_by ZFS:0000011 ! Blastula:1k-cell
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -125,7 +125,7 @@ name: Blastula:Oblong
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-24
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000012 ! Blastula:High
+relationship: immediately_preceded_by ZFS:0000012 ! Blastula:High
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -134,7 +134,7 @@ name: Blastula:Sphere
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-21
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000013 ! Blastula:Oblong
+relationship: immediately_preceded_by ZFS:0000013 ! Blastula:Oblong
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -143,7 +143,7 @@ name: Blastula:Dome
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-19
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000014 ! Blastula:Sphere
+relationship: immediately_preceded_by ZFS:0000014 ! Blastula:Sphere
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -152,7 +152,7 @@ name: Blastula:30%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-17
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000015 ! Blastula:Dome
+relationship: immediately_preceded_by ZFS:0000015 ! Blastula:Dome
 relationship: part_of ZFS:0000045 ! blastula
 
 [Term]
@@ -161,7 +161,7 @@ name: Gastrula:50%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-6
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000016 ! Blastula:30%-epiboly
+relationship: immediately_preceded_by ZFS:0000016 ! Blastula:30%-epiboly
 relationship: part_of ZFS:0000047 ! gastrula
 
 [Term]
@@ -170,7 +170,7 @@ name: Gastrula:Germ-ring
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-3
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000017 ! Gastrula:50%-epiboly
+relationship: immediately_preceded_by ZFS:0000017 ! Gastrula:50%-epiboly
 relationship: part_of ZFS:0000047 ! gastrula
 
 [Term]
@@ -179,7 +179,7 @@ name: Gastrula:Shield
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-2
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000018 ! Gastrula:Germ-ring
+relationship: immediately_preceded_by ZFS:0000018 ! Gastrula:Germ-ring
 relationship: part_of ZFS:0000047 ! gastrula
 
 [Term]
@@ -188,7 +188,7 @@ name: Gastrula:75%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-18
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000019 ! Gastrula:Shield
+relationship: immediately_preceded_by ZFS:0000019 ! Gastrula:Shield
 relationship: part_of ZFS:0000047 ! gastrula
 
 [Term]
@@ -197,7 +197,7 @@ name: Gastrula:90%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-29
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000020 ! Gastrula:75%-epiboly
+relationship: immediately_preceded_by ZFS:0000020 ! Gastrula:75%-epiboly
 relationship: part_of ZFS:0000047 ! gastrula
 
 [Term]
@@ -206,7 +206,7 @@ name: Gastrula:Bud
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-12
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000021 ! Gastrula:90%-epiboly
+relationship: immediately_preceded_by ZFS:0000021 ! Gastrula:90%-epiboly
 relationship: part_of ZFS:0000047 ! gastrula
 
 [Term]
@@ -215,7 +215,7 @@ name: Segmentation:1-4 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-23
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000022 ! Gastrula:Bud
+relationship: immediately_preceded_by ZFS:0000022 ! Gastrula:Bud
 relationship: part_of ZFS:0000049 ! segmentation
 
 [Term]
@@ -224,7 +224,7 @@ name: Segmentation:5-9 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-5
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000023 ! Segmentation:1-4 somites
+relationship: immediately_preceded_by ZFS:0000023 ! Segmentation:1-4 somites
 relationship: part_of ZFS:0000049 ! segmentation
 
 [Term]
@@ -233,7 +233,7 @@ name: Segmentation:10-13 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-020626-1
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000024 ! Segmentation:5-9 somites
+relationship: immediately_preceded_by ZFS:0000024 ! Segmentation:5-9 somites
 relationship: part_of ZFS:0000049 ! segmentation
 
 [Term]
@@ -242,7 +242,7 @@ name: Segmentation:14-19 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-30
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000025 ! Segmentation:10-13 somites
+relationship: immediately_preceded_by ZFS:0000025 ! Segmentation:10-13 somites
 relationship: part_of ZFS:0000049 ! segmentation
 
 [Term]
@@ -251,7 +251,7 @@ name: Segmentation:20-25 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-16
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000026 ! Segmentation:14-19 somites
+relationship: immediately_preceded_by ZFS:0000026 ! Segmentation:14-19 somites
 relationship: part_of ZFS:0000049 ! segmentation
 
 [Term]
@@ -260,7 +260,7 @@ name: Segmentation:26+ somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-34
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000027 ! Segmentation:20-25 somites
+relationship: immediately_preceded_by ZFS:0000027 ! Segmentation:20-25 somites
 relationship: part_of ZFS:0000049 ! segmentation
 
 [Term]
@@ -269,7 +269,7 @@ name: Pharyngula:Prim-5
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-10
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000028 ! Segmentation:26+ somites
+relationship: immediately_preceded_by ZFS:0000028 ! Segmentation:26+ somites
 relationship: part_of ZFS:0000050 ! pharyngula
 
 [Term]
@@ -278,7 +278,7 @@ name: Pharyngula:Prim-15
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-32
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000029 ! Pharyngula:Prim-5
+relationship: immediately_preceded_by ZFS:0000029 ! Pharyngula:Prim-5
 relationship: part_of ZFS:0000050 ! pharyngula
 
 [Term]
@@ -287,7 +287,7 @@ name: Pharyngula:Prim-25
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-13
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000030 ! Pharyngula:Prim-15
+relationship: immediately_preceded_by ZFS:0000030 ! Pharyngula:Prim-15
 relationship: part_of ZFS:0000050 ! pharyngula
 
 [Term]
@@ -296,7 +296,7 @@ name: Pharyngula:High-pec
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-31
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000031 ! Pharyngula:Prim-25
+relationship: immediately_preceded_by ZFS:0000031 ! Pharyngula:Prim-25
 relationship: part_of ZFS:0000050 ! pharyngula
 
 [Term]
@@ -305,7 +305,7 @@ name: Hatching:Long-pec
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-9
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000032 ! Pharyngula:High-pec
+relationship: immediately_preceded_by ZFS:0000032 ! Pharyngula:High-pec
 relationship: part_of ZFS:0000050 ! pharyngula
 
 [Term]
@@ -314,7 +314,7 @@ name: Hatching:Pec-fin
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-26
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000033 ! Hatching:Long-pec
+relationship: immediately_preceded_by ZFS:0000033 ! Hatching:Long-pec
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -323,7 +323,7 @@ name: Larval:Protruding-mouth
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-8
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000034 ! Hatching:Pec-fin
+relationship: immediately_preceded_by ZFS:0000034 ! Hatching:Pec-fin
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -332,7 +332,7 @@ name: Larval:Day 4
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-35
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000035 ! Larval:Protruding-mouth
+relationship: immediately_preceded_by ZFS:0000035 ! Larval:Protruding-mouth
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -341,7 +341,7 @@ name: Larval:Day 5
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-36
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000036 ! Larval:Day 4
+relationship: immediately_preceded_by ZFS:0000036 ! Larval:Day 4
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -350,7 +350,7 @@ name: Larval:Day 6
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-37
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000037 ! Larval:Day 5
+relationship: immediately_preceded_by ZFS:0000037 ! Larval:Day 5
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -359,7 +359,7 @@ name: Larval:Days 7-13
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-47
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000038 ! Larval:Day 6
+relationship: immediately_preceded_by ZFS:0000038 ! Larval:Day 6
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -368,7 +368,7 @@ name: Larval:Days 14-20
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-48
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000039 ! Larval:Days 7-13
+relationship: immediately_preceded_by ZFS:0000039 ! Larval:Days 7-13
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -377,7 +377,7 @@ name: Larval:Days 21-29
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-49
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000040 ! Larval:Days 14-20
+relationship: immediately_preceded_by ZFS:0000040 ! Larval:Days 14-20
 relationship: part_of ZFS:0000048 ! larva
 
 [Term]
@@ -386,7 +386,7 @@ name: Juvenile:Days 30-44
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-51
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000041 ! Larval:Days 21-29
+relationship: immediately_preceded_by ZFS:0000041 ! Larval:Days 21-29
 relationship: part_of ZFS:0000051 ! juvenile
 
 [Term]
@@ -395,7 +395,7 @@ name: Juvenile:Days 45-89
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-52
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000042 ! Juvenile:Days 30-44
+relationship: immediately_preceded_by ZFS:0000042 ! Juvenile:Days 30-44
 relationship: part_of ZFS:0000051 ! juvenile
 
 [Term]
@@ -404,14 +404,14 @@ name: adult
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-39
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000043 ! Juvenile:Days 45-89
+relationship: immediately_preceded_by ZFS:0000043 ! Juvenile:Days 45-89
 
 [Term]
 id: ZFS:0000045
 name: blastula
 namespace: zebrafish_stages
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000046 ! cleavage
+relationship: immediately_preceded_by ZFS:0000046 ! cleavage
 
 [Term]
 id: ZFS:0000046
@@ -424,35 +424,35 @@ id: ZFS:0000047
 name: gastrula
 namespace: zebrafish_stages
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000045 ! blastula
+relationship: immediately_preceded_by ZFS:0000045 ! blastula
 
 [Term]
 id: ZFS:0000048
 name: larva
 namespace: zebrafish_stages
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000050 ! pharyngula
+relationship: immediately_preceded_by ZFS:0000050 ! pharyngula
 
 [Term]
 id: ZFS:0000049
 name: segmentation
 namespace: zebrafish_stages
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000047 ! gastrula
+relationship: immediately_preceded_by ZFS:0000047 ! gastrula
 
 [Term]
 id: ZFS:0000050
 name: pharyngula
 namespace: zebrafish_stages
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000049 ! segmentation
+relationship: immediately_preceded_by ZFS:0000049 ! segmentation
 
 [Term]
 id: ZFS:0000051
 name: juvenile
 namespace: zebrafish_stages
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: preceded_by ZFS:0000048 ! larva
+relationship: immediately_preceded_by ZFS:0000048 ! larva
 
 [Term]
 id: ZFS:0100000
@@ -460,25 +460,21 @@ name: zebrafish stage
 namespace: zebrafish_stages
 
 [Typedef]
-id: develops_from
-name: develops from
-is_transitive: true
-
-[Typedef]
-id: end
-name: end stage
-
-[Typedef]
-id: preceded_by
-name: preceded by
-is_transitive: true
-
-[Typedef]
 id: part_of
 name: part of
 is_transitive: true
+xref: BFO:0000050
 
 [Typedef]
-id: start
-name: start stage
+id: preceded_by
+name: preceded_by
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
 
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+is_a: preceded_by ! preceded_by
+xref: RO:0002087 ! immediately_preceded_by
