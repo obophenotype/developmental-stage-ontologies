@@ -1,0 +1,1002 @@
+format-version: 1.2
+date: 05:02:2013 19:17
+saved-by: admin
+auto-generated-by: OBO-Edit 2.1-beta17
+default-namespace: xenopus_stages_ontology
+treat-xrefs-as-equivalent: XAO
+ontology: xtrodv
+
+[Term]
+id: XtroDv:0000000
+name: xenopus life cycle stage
+namespace: xenopus_developmental_stage
+def: "Temporal interval that defines Xenopus life from embryonic stage until adult stage." [Bgee:curator]
+xref: XAO:1000000
+
+[Term]
+id: XtroDv:0000001
+name: xenopus life cycle
+namespace: xenopus_developmental_stage
+def: "Temporal interval that defines Xenopus life from embryonic stage until adult stage." [Bgee:curator]
+xref: XAO:1000000
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+
+[Term]
+id: XtroDv:0000002
+name: embryonic stage
+namespace: xenopus_developmental_stage
+def: "Xenopus developmental stage that starts with fertilization and ends with the formed feeding larva." [Bgee:curator]
+xref: XAO:1000012
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000001 ! xenopus life cycle
+
+[Term]
+id: XtroDv:0000003
+name: NF stage 1
+namespace: xenopus_developmental_stage
+def: "Embryonic stage defined by one cell shortly after fertilization, with pigmentation darker ventrally than dorsally." [XAO:1000001]
+comment: 0 hr pf (post-fertilization) following Nieuwkoop and Faber (NF) stage description.
+synonym: "zygote" RELATED []
+xref: XAO:1000001
+xref: ZFIN:ZDB-STAGE-010723-4
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000002 ! embryonic stage
+
+[Term]
+id: XtroDv:0000004
+name: cleavage stage
+namespace: xenopus_developmental_stage
+def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107]
+synonym: "cleavage" EXACT []
+xref: XAO:1000004
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000002 ! embryonic stage
+
+[Term]
+id: XtroDv:0000005
+name: NF stage 2 minus
+namespace: xenopus_developmental_stage
+def: "Cleavage stage during which the first cleavage begins while the first cleavage groove has not yet reached vegetal pole." [XAO:1000028]
+comment: 1 hr 15 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "NF stage 2-" EXACT []
+xref: XAO:1000028
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000004 ! cleavage stage
+
+[Term]
+id: XtroDv:0000006
+name: NF stage 2 (2-cell)
+namespace: xenopus_developmental_stage
+def: "Cleavage stage defined as advanced two cell stage and during which the first cleavage groove has reached vegetal pole, with ventral side of blastomeres darker than dorsal side." [XAO:1000011]
+comment: 1 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "2-cell stage" EXACT []
+xref: XAO:1000011
+xref: ZFIN:ZDB-STAGE-010723-15
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000004 ! cleavage stage
+
+[Term]
+id: XtroDv:0000007
+name: NF stage 3, 4-cell stage
+namespace: xenopus_developmental_stage
+def: "Cleavage stage defined as advanced four-cell stage and during which the second cleavage groove has reached vegetal pole, with dorsal blastomeres usually smaller than ventral ones (which are darker than dorsal ones) in animal view." [XAO:1000013]
+comment: 2 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "4-cell stage" EXACT []
+xref: XAO:1000013
+xref: ZFIN:ZDB-STAGE-010723-11
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000004 ! cleavage stage
+
+[Term]
+id: XtroDv:0000008
+name: NF stage 4, 8-cell stage
+namespace: xenopus_developmental_stage
+def: "Cleavage stage defined as advanced eight cell stage, with dorsal micro- and macromeres usually smaller than ventral ones and dorsal micromeres less pigmented than ventral ones." [XAO:1000014]
+comment: 2 hr 15 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "8-cell stage" EXACT []
+xref: XAO:1000014
+xref: ZFIN:ZDB-STAGE-010723-33
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000004 ! cleavage stage
+
+[Term]
+id: XtroDv:0000009
+name: NF stage 6, 32-cell stage
+namespace: xenopus_developmental_stage
+def: "Cleavage stage defined as advanced thirty-two cell stage, with dorsal micromeres distinctly smaller and less pigmented than ventral ones." [XAO:1000016]
+comment: 3 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "32-cell stage" EXACT []
+xref: XAO:1000016
+xref: ZFIN:ZDB-STAGE-010723-25
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000004 ! cleavage stage
+
+[Term]
+id: XtroDv:0000010
+name: NF stage 6.5
+namespace: xenopus_developmental_stage
+def: "Cleavage stage defined as morula stage containing about 48 blastomeres, among them about 6 are visible along meridian in animal view." [XAO:1000029]
+comment: 3 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "morula" RELATED [ISBN:0815318960]
+xref: XAO:1000029
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000004 ! cleavage stage
+
+[Term]
+id: XtroDv:0000011
+name: blastula stage
+namespace: xenopus_developmental_stage
+def: "Embryonic stage during which the solid morula acquires an internal cavity." [XAO:1000003]
+comment: Refers to Nieuwkoop and Faber (NF) stage 7 to stage 9, so 4 hr - 7 hr pf (post-fertilization).
+synonym: "blastula" EXACT []
+xref: XAO:1000003
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000002 ! embryonic stage
+
+[Term]
+id: XtroDv:0000012
+name: NF stage 7
+namespace: xenopus_developmental_stage
+def: "Blastula stage defined as large-cell blastula stage that refers to a 64-cell embryo, with about 10 micromeres along meridian in animal view." [XAO:1000017]
+comment: 4 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "64-cell stage" RELATED []
+xref: XAO:1000017
+xref: ZFIN:ZDB-STAGE-010723-28
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000011 ! blastula stage
+
+[Term]
+id: XtroDv:0000013
+name: NF stage 8
+namespace: xenopus_developmental_stage
+def: "Blastula stage defined as medium-cell blastula stage that refers to a 128-cell embryo, with surface not yet entirely smooth and border of animal pigment cap more diffuse at dorsal than at lateral and ventral sides; a gradual transition in cell size from animal to vegetative pole is also visible." [XAO:1000018]
+comment: 5 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "128-cell stage" RELATED []
+xref: XAO:1000018
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000011 ! blastula stage
+
+[Term]
+id: XtroDv:0000014
+name: NF stage 9
+namespace: xenopus_developmental_stage
+def: "Blastula stage defined as fine-cell blastula stage, with animal cells smaller at dorsal than at ventral side, while border between marginal zone and vegetative field is distinct, particularly dorsally, owing to difference in cell size." [XAO:1000019]
+comment: 7 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000019
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000011 ! blastula stage
+
+[Term]
+id: XtroDv:0000015
+name: gastrula stage
+namespace: xenopus_developmental_stage
+def: "Embryonic stage during which gastrulation takes place, with a proportion of cells migrating below the surface of the embryo to form two inner layers (endoderm and mesoderm) and the cells which remain outside spreading over the whole surface of the embryo to form the ectoderm." [XAO:1000005]
+comment: Refers to Nieuwkoop and Faber (NF) stage 10 to stage 12.5, so 9 hr - 14 hr 15 min pf (post-fertilization).
+synonym: "gastrula" EXACT []
+xref: XAO:1000005
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000002 ! embryonic stage
+
+[Term]
+id: XtroDv:0000016
+name: NF stage 10
+namespace: xenopus_developmental_stage
+def: "Gastrula stage defined as initial gastrula stage, with first indication of blastopore only by pigment concentration, and no formation of groove." [XAO:1000020]
+comment: 9 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000020
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000015 ! gastrula stage
+
+[Term]
+id: XtroDv:0000017
+name: NF stage 10.25
+namespace: xenopus_developmental_stage
+def: "Gastrula stage defined as early gastrula stage, with first formation of dorsal blastopore groove, while the groove is still straight." [XAO:1000030]
+comment: 10 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "NF stage 10+" EXACT []
+synonym: "NF stage 10plus" RELATED []
+xref: XAO:1000030
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000015 ! gastrula stage
+
+[Term]
+id: XtroDv:0000018
+name: NF stage 10.5
+namespace: xenopus_developmental_stage
+def: "Gastrula stage defined as crescent-shaped blastopore stage, with angular blastopore groove and vegetal field slightly decreased in size; the ventral border of the future yolk plug is indicated by pigment contraction." [XAO:1000031]
+comment: 11 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000031
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000015 ! gastrula stage
+
+[Term]
+id: XtroDv:0000019
+name: NF stage 11
+namespace: xenopus_developmental_stage
+def: "Gastrula stage defined as horse-shoe-shaped blastopore stage, with blastopore groove surrounding about half of the future yolk plug and indicated at its ventral side; the future yolk plug is often rounded rectangular, slightly elongated in dorso-ventral direction." [XAO:1000021]
+comment: 11 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000021
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000015 ! gastrula stage
+
+[Term]
+id: XtroDv:0000020
+name: NF stage 11.5
+namespace: xenopus_developmental_stage
+def: "Gastrula stage defined as large yolk plug stage, with blastopore groove closed ventrally and yolk plug not yet quite circular, having a diameter about a third of egg diameter; at the ventral side, concentrated superficial pigment is still visible." [XAO:1000032]
+comment: 12 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000032
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000015 ! gastrula stage
+
+[Term]
+id: XtroDv:0000021
+name: NF stage 12
+namespace: xenopus_developmental_stage
+def: "Gastrula stage defined as medium yolk plug stage, with circular yolk plug, having a diameter somewhat less than one fourth of egg diameter (plus or minus 25 degrees); more and less pigmented fields radiating from yolk plug are visible." [XAO:1000022]
+comment: 13 hr 15 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000022
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000015 ! gastrula stage
+
+[Term]
+id: XtroDv:0000022
+name: NF stage 12.5
+namespace: xenopus_developmental_stage
+def: "Gastrula stage defined as small yolk plug stage, with usually ovoid yolk plug, variable in size; future position of the neural plate and the median groove are indicated by darker pigment lines." [XAO:1000033]
+comment: 14 hr 15 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000033
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000015 ! gastrula stage
+
+[Term]
+id: XtroDv:0000023
+name: neurula stage
+namespace: xenopus_developmental_stage
+def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110]
+comment: Refers to Nieuwkoop and Faber (NF) stage 13 to stage 21, so 14 hr 45 min - 22 hr 30 min pf (post-fertilization).
+synonym: "neurula" EXACT []
+xref: XAO:1000006
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000002 ! embryonic stage
+
+[Term]
+id: XtroDv:0000024
+name: NF stage 13
+namespace: xenopus_developmental_stage
+def: "Neurula stage defined as slit-blastopore stage, with neural plate faintly delimited, with slight elevation of its rostral part and slight flattening of its caudal part; the caudal part of the median groove is formed." [XAO:1000023]
+comment: 14 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000023
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000025
+name: NF stage 14
+namespace: xenopus_developmental_stage
+def: "Neurula stage defined as neural plate stage, with the cerebral part of the neural plate bent downwards, with median elevation at rostral end of median groove; the initial elevation of neural folds appears, most pronounced in the future nucal region; the blastopore is always slit-shaped." [XAO:1000024]
+comment: 16 hr 15 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000024
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000026
+name: NF stage 15
+namespace: xenopus_developmental_stage
+def: "Neurula stage defined as early neural fold stage, with faintly circumscribed presumptive cement gland, and roundish anterior part of neural plate; neural folds are distinct, except medio-rostrally; the initial formation of sharp inner ridges on neural folds in rhombencephalic region appears." [XAO:1000025]
+comment: 17 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000025
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000027
+name: NF stage 16
+namespace: xenopus_developmental_stage
+def: "Neurula stage defined as mid neural fold stage, with rectangular anterior part of neural plate, and presence of darkly pigmented eye anlagen; the neural plate is sharply constricted in the middle; inner ridges on neural folds are forming angle of about 90 degrees with the neural plate in the rhombencephalic region." [XAO:1000026]
+comment: 18 hr 15 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000026
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000028
+name: NF stage 17
+namespace: xenopus_developmental_stage
+def: "Neurula stage defined as late neural fold stage, with oblong triangular anterior part of neural plate, and visible angles formed by eye anlagen; neural folds are approaching each other from blastopore up to anterior trunk region." [XAO:1000027]
+comment: 18 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000027
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000029
+name: NF stage 18
+namespace: xenopus_developmental_stage
+def: "Neurula stage defined as neural groove stage, with narrow anterior part of neural plate; parallel neural folds in trunk region are very close to each other, but not yet touching." [XAO:1000034]
+comment: 19 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000034
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000030
+name: NF stage 19
+namespace: xenopus_developmental_stage
+def: "Neurula stage defined as initial neural tube stage, with neural folds touching each other, except for inconstant openings at anterior and posterior end and behind the nucal region; there is a considerable lateral extension of brain, with still a convex embryo lateral outline." [XAO:1000035]
+comment: 20 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000035
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000031
+name: NF stage 20
+namespace: xenopus_developmental_stage
+def: "Neurula stage during which neural folds are fused, while the suture is still present; the two eye anlagen are showing through dumb-bell-shaped, with eyes hardly protruding; this stage is also the beginning of the stretching of embryos, with a flat embryo lateral outline." [XAO:1000036]
+comment: 21 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000036
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000032
+name: NF stage 21
+namespace: xenopus_developmental_stage
+def: "Neurula stage during which the suture of the neural tube is completely closed, with delimitation of frontal field by pigment lines; primary eye vesicles are showing through in the form of two separate, obliquely placed oval spots; this stage is also the beginning of the protrusion of eyes, with the lateral outline of the embryo just becoming concave, and a flat ventral outline." [XAO:1000037]
+comment: 22 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000037
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000023 ! neurula stage
+
+[Term]
+id: XtroDv:0000033
+name: tailbud stage
+namespace: xenopus_developmental_stage
+def: "Embryonic stage during which the neurulation is completed and tail formation begins, visible by an emerging tail primordium." [http://www.nature.com/nrg/journal/v5/n6/glossary/nrg1347.html]
+comment: Refers to Nieuwkoop and Faber (NF) stage 22 to stage 44.
+synonym: "organogenesis" RELATED []
+xref: XAO:1000007
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000002 ! embryonic stage
+
+[Term]
+id: XtroDv:0000034
+name: early tailbud stage
+namespace: xenopus_developmental_stage
+def: "Tailbud stage that refers to the first events associated to this stage." [Bgee:curator]
+comment: Refers to Nieuwkoop and Faber (NF) stage 22 to stage 28.
+synonym: "early tailbud" EXACT []
+xref: XAO:1000002
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000033 ! tailbud stage
+
+[Term]
+id: XtroDv:0000035
+name: NF stage 22
+namespace: xenopus_developmental_stage
+def: "Early tailbud stage during which the protrusion of eyes is distinct, with initial groove between jaw- and gill-areas only at the latero-dorsal side; lateral and ventral outlines of the embryo are slightly concave, while the anal opening is displaced to ventral side, and the vitelline membrane becomes wider." [XAO:1000038]
+comment: 24 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000038
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000034 ! early tailbud stage
+
+[Term]
+id: XtroDv:0000036
+name: NF stage 23
+namespace: xenopus_developmental_stage
+def: "Early tailbud stage defined by jaw- and gill-areas completely separated by groove, while the ventral outline of the embryo is more concave." [XAO:1000039]
+comment: 1 day and 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000039
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000034 ! early tailbud stage
+
+[Term]
+id: XtroDv:0000037
+name: NF stage 24
+namespace: xenopus_developmental_stage
+def: "Early tailbud stage defined by eyes protruding less far laterally than gill-area, while gill-area is more prominent than jaw-area, with gill-area not yet grooved; the ventral outline of the embryo is nicked; the tail bud is discernible, with initial motor reactions to external stimulation." [XAO:1000040]
+comment: 1 day and 2 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000040
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000034 ! early tailbud stage
+
+[Term]
+id: XtroDv:0000038
+name: NF stage 25
+namespace: xenopus_developmental_stage
+def: "Early tailbud stage defined by eyes protruding equally far or further laterally than gill-area, with gill-area grooved; the invagination of otic vesicle is indicated by pigment spot; this stage is also the beginning of fin formation." [XAO:1000041]
+comment: 1 day and 3 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000041
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000034 ! early tailbud stage
+
+[Term]
+id: XtroDv:0000039
+name: NF stage 26
+namespace: xenopus_developmental_stage
+def: "Early tailbud stage defined by otic vesicle protruding, while pronephros is distinctly visible; myotomes are showing through for the first time, with fin somewhat broadened at dorso-caudal end of body; this stage is also the beginning of spontaneous movements." [XAO:1000042]
+comment: 1 day and 5 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000042
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000034 ! early tailbud stage
+
+[Term]
+id: XtroDv:0000040
+name: NF stage 27
+namespace: xenopus_developmental_stage
+def: "Early tailbud stage defined by lateral flattening of eyes, with transluscent fin, except for region behind anus; the tail bud formation is accentuated in lateral outline." [XAO:1000043]
+comment: 1 day and 7 hr 15 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000043
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000034 ! early tailbud stage
+
+[Term]
+id: XtroDv:0000041
+name: NF stage 28
+namespace: xenopus_developmental_stage
+def: "Early tailbud stage defined by fin extending up to anus, with fin broadened and distinctly divided into outer transparent and inner translucent band." [XAO:1000044]
+comment: 1 day and 8 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000044
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000034 ! early tailbud stage
+
+[Term]
+id: XtroDv:0000042
+name: late tailbud stage
+namespace: xenopus_developmental_stage
+def: "Tailbud stage that refers to the late events associated to this stage." [Bgee:curator]
+comment: Refers to Nieuwkoop and Faber (NF) stage 29 and 30 to stage 44.
+synonym: "late tailbud" EXACT []
+xref: XAO:1000080
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000033 ! tailbud stage
+
+[Term]
+id: XtroDv:0000043
+name: NF stage 29 and 30
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the gray eye cup is showing through for the first time, while the fin is transparent up to the base over its whole length, and the tail bud is distinct." [XAO:1000045]
+comment: 1 day and 11 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000045
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000044
+name: NF stage 31
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the tail bud is equally long as broad." [XAO:1000046]
+comment: 1 day and 13 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000046
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000045
+name: NF stage 32
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the length of the tail bud is about 1.5 times its breadth; the eye cup is horse-shoe-shaped and standing out distinctly." [XAO:1000047]
+comment: 1 day and 16 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000047
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000046
+name: NF stage 33 and 34
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the stomodeal invagination looks like a shallow vertical groove; the dorsal part of eye is more pigmented than the ventral part; distinct melanophores are visible in the dorsal part, appearing dorsally on the head and laterally in a row extending from just below the pronephros backwards; the length of the tail bud is about twice its breadth; this stage is also the beginning of heart beat." [XAO:1000048]
+comment: 1 day and 20 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000048
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000047
+name: NF stage 35 and 36
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the stomodeal invagination is roundish; the eye is entirely black and the choroid fissure is nearly closed; formation of two gill rudiments occurs, with the anterior one nipple-shaped; melanophores appear on back, with posterior outline of proctodeum still curved; the length of the tail bud is about three times its breadth; this stage is also the beginning of hatching." [XAO:1000049]
+comment: 2 days and 2 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000049
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000048
+name: NF stage 37 and 38
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the stomodeal invagination is much deeper, opening round; both gill rudiments are nipple-shaped, with a branch of the anterior one indicated; the posterior outline of the proctodeum is straight, forming very obtuse angle with the ventral border of tail myotomes; melanophores are spreading over tail." [XAO:1000050]
+comment: 2 days and 5 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000050
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000049
+name: NF stage 39
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which melanophores appear around nasal pits, while the opening of the stomodeal invagination is transversely elongated; melanophores on back are arranged in a superficial and a deeper layer; outlines of proctodeum and tail myotomes form angle of about 135 degrees; melanophores also appear along ventral edge of tail musculature." [XAO:1000051]
+comment: 2 days and 8 hr 30 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000051
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000050
+name: NF stage 40
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage defined by mouth broken through; the length of gills is about twice their breadth, with the posterior one sometimes also showing a branch; outlines of proctodeum and tail myotomes form angles of 90 degrees; this stage is also the beginning of blood circulation in gills." [XAO:1000052]
+comment: 2 days and 18 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000052
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000051
+name: NF stage 41
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage defined by broader and flatter gills, more laterally directed; the formation of a left-rostral and a right-caudal furrow occurs in yolk mass; torsion of interjacent part is about 45 degrees, with formation of conical proctodeum, forming angle of about 60 degrees with tail myotomes; also fin rostral to proctodeum forms; ventral outline of yolk mass and proctodeum forms a smooth concave line." [XAO:1000053]
+comment: 3 days and 4 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000053
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000052
+name: NF stage 42
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the formation of opercular folds begins; the torsion of intestine is about 90 degrees; the proctodeum is connected with yolk mass by a short horizontal intestinal tube." [XAO:1000054]
+comment: 3 days and 8 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000054
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000053
+name: NF stage 43
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage during which the lateral line system becomes visible externally, with cement gland losing its pigment; the torsion of intestine is about 180 degrees; the proctodeum is narrower, arched or S-shaped." [XAO:1000055]
+comment: 3 days and 15 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000055
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000054
+name: NF stage 44
+namespace: xenopus_developmental_stage
+def: "Late tailbud stage defined by the appearance of tentacle rudiments; opercular folds are protruding further; the coiling part of intestine shows S-shaped loop; torsion is about 360 degrees; the blood-circulation in gills is usually ceased (gills smaller)." [XAO:1000056]
+comment: 3 days and 20 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000056
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000042 ! late tailbud stage
+
+[Term]
+id: XtroDv:0000055
+name: post-embryonic stage
+namespace: xenopus_developmental_stage
+def: "Developmental stage defined as the stage succeeding embryonic stage and including mature structure." [UBERON:0000092]
+synonym: "post-embryonic development" EXACT []
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000001 ! xenopus life cycle
+
+[Term]
+id: XtroDv:0000056
+name: tadpole stage
+namespace: xenopus_developmental_stage
+def: "Post-embryonic stage that starts from feeding larva to the end of metamorphosis." [XAO:1000008]
+synonym: "larva" RELATED []
+synonym: "tadpole" EXACT []
+xref: XAO:1000008
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000055 ! post-embryonic stage
+
+[Term]
+id: XtroDv:0000057
+name: premetamorphosis stage
+namespace: xenopus_developmental_stage
+def: "Tadpole stage during which the limb bud grows." [XAO:1000089]
+comment: Refers to Nieuwkoop and Faber (NF) stage 45 to stage 54.
+synonym: "premetamorphosis" EXACT []
+xref: XAO:1000089
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000056 ! tadpole stage
+
+[Term]
+id: XtroDv:0000058
+name: NF stage 45
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage defined by the operculum partly covering gills, with edge still straight; intestine is spiralized in ventral aspects, showing 1.5 revolutions; this stage is also the beginning of feeding." [XAO:1000057]
+comment: 4 days and 2 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000057
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000059
+name: NF stage 46
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage during which the edge of the operculum becomes convex; yantophores appear on eye and abdomen; intestine shows 2 to 2.5 revolutions; the hindlimb bud is visible for the first time." [XAO:1000058]
+comment: 4 days and 10 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000058
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000060
+name: NF stage 47
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage defined by larger tentacles; the edge of the operculum forms a quarter of a circle, while xantophores form opaque layer on abdomen; intestine shows 2.5 to 3.5 revolutions; the hindlimb bud is more distinct." [XAO:1000059]
+comment: 5 days and 12 hr pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000059
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000061
+name: NF stage 48
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage during which the pigmentation around n. acusticus begins, while the forelimb bud is visible for the first time; a shining gold-coloured abdomen appears; the hindlimb bud is semicircular in lateral aspect." [XAO:1000060]
+comment: 7.5 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000060
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000062
+name: NF stage 49
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage during which melanophores usually appear around thymus gland and nerves and blood vessels of head, while xantophores appear on pericard; the forelimb bud is distinct; the hindlimb bud is somewhat longer, with distal outline still circular, and no constrictions at the base; melanophores appear on dorsal and ventral fin." [XAO:1000061]
+comment: About 12 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000061
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000063
+name: NF stage 50
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage defined by forelimb bud somewhat oval-shaped in dorsal aspect; the hindlimb bud is longer than broad, constricted at base, with distal outline somewhat conical." [XAO:1000062]
+comment: About 15 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000062
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000064
+name: NF stage 51
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage defined by much longer tentacles; the forelimb bud is oval-shaped in lateral aspect, while the hindlimb bud is conical in shape, with its length being about 1.5 times its breadth; melanophores appear on it." [XAO:1000063]
+comment: About 17 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000063
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000065
+name: NF stage 52
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage during which the forelimb bud is irregularly conical, while the hindlimb bud shows first indication of ankle constriction and first sign of flattening of foot." [XAO:1000064]
+comment: About 21 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000064
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000066
+name: NF stage 53
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage defined by fore- and hindlimbs in paddle stage; the hindlimb whithout foot is somewhat longer than broad; 4th and 5th toe are indicated." [XAO:1000065]
+comment: About 24 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000065
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000067
+name: NF stage 54
+namespace: xenopus_developmental_stage
+def: "Premetamorphosis stage during which all four fingers are indicated; the edge of hand is slightly scalloped between fingers; melanophores appear on forelimb; the length of hindlimb without foot is nearly twice its breadth; all five toes are indicated, the second one only very slightly." [XAO:1000066]
+comment: About 26 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000066
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000057 ! premetamorphosis stage
+
+[Term]
+id: XtroDv:0000068
+name: metamorphosing tadpole stage
+namespace: xenopus_developmental_stage
+def: "Tadpole stage during which toe differentiation and rapid hind limb growth continue, followed by tail resorption." [Bgee:curator]
+comment: Refers to Nieuwkoop and Faber (NF) stage 55 to stage 66.
+synonym: "metamorphosing tadpole" EXACT []
+xref: XAO:1000079
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000056 ! tadpole stage
+
+[Term]
+id: XtroDv:0000069
+name: prometamorphosis stage
+namespace: xenopus_developmental_stage
+def: "Metamorphosing tadpole stage during which toe differentiation and rapid hind limb growth continue." [XAO:1000090]
+comment: Refers to Nieuwkoop and Faber (NF) stage 55 to stage 57.
+synonym: "prometamorphosis" EXACT []
+xref: XAO:1000090
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000068 ! metamorphosing tadpole stage
+
+[Term]
+id: XtroDv:0000070
+name: NF stage 55
+namespace: xenopus_developmental_stage
+def: "Prometamorphosis stage defined by hand pronation at about 90 degrees; free parts of fingers are about equally long as broad; the length of hindlimb without foot is about 3 times its breadth; the length of cartilages of 4th and 5th toe is about 4 times their breadth." [XAO:1000067]
+comment: About 32 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000067
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000069 ! prometamorphosis stage
+
+[Term]
+id: XtroDv:0000071
+name: NF stage 56
+namespace: xenopus_developmental_stage
+def: "Prometamorphosis stage during which elbow and wrist are clearly indicated; the length of free parts of fingers is 3 to 4 times their breadth; the length of cartilages of 4th and 5th toe is about 6 times their breadth." [XAO:1000068]
+comment: About 38 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000068
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000069 ! prometamorphosis stage
+
+[Term]
+id: XtroDv:0000072
+name: NF stage 57
+namespace: xenopus_developmental_stage
+def: "Prometamorphosis stage defined by pigment-free spot appearing above Stirnorgan (the frog's light sensitive pineal organ, DOI:10.1007/BF00592441); the angle of the elbow is more than 90 degrees; fingers are stretched out in forelimb atrium, with their length being about 7 times their breadth." [XAO:1000069]
+comment: About 41 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000069
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000069 ! prometamorphosis stage
+
+[Term]
+id: XtroDv:0000073
+name: climax stage
+namespace: xenopus_developmental_stage
+def: "Metamorphosing tadpole stage during which tail resorption occurs." [XAO:1000091]
+comment: Refers to Nieuwkoop and Faber (NF) stage 58 to stage 66.
+synonym: "climax" EXACT []
+xref: XAO:1000091
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000068 ! metamorphosing tadpole stage
+
+[Term]
+id: XtroDv:0000074
+name: NF stage 58
+namespace: xenopus_developmental_stage
+def: "Climax stage defined by forelimbs broken through; guanophores appear on abdomen and thighs (adult skin areas); all three claws are present on hindlimbs." [XAO:1000070]
+comment: About 44 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000070
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000075
+name: NF stage 59
+namespace: xenopus_developmental_stage
+def: "Climax stage during which tentacles begin to shrivel up; the stretched forelimb reaches down to base of the hindlimb; guanophores appear near the base of the forelimb (adult skin area); the anterior border of adult skin area on abdomen is not yet sharp; irregular dark spots appear on back." [XAO:1000071]
+comment: About 45 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000071
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000076
+name: NF stage 60
+namespace: xenopus_developmental_stage
+def: "Climax stage during which n. olfactorius is still longer than bulbus olfactorius; guanophores appear on lower jaw (adult skin area); openings of gill chambers are still wide; the distal half of fingers of stretched forelimb extends beyond the base of the hindlimb; the forelimb is still situated behind the level of the heart; the adult skin area of the base of the forelimb is covered with guanophores; the anterior border of the adult skin area on abdomen is sharper, reaching up to the heart." [XAO:1000072]
+comment: About 46 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000072
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000077
+name: NF stage 61
+namespace: xenopus_developmental_stage
+def: "Climax stage during which the head becomes narrower, while tentacles are considerably shortened, mostly curved backwards; the length of n. olfactorius is equal to the diameter of bulbus olfactorius; the 4th arterial arch is seen just in front of the adult skin area of the forelimb; openings of gill chambers are considerably narrowed; the forelimb is at the level of the posterior half of the heart; the adult skin area on abdomen is covering the posterior half of the heart; fins are considerably reduced." [XAO:1000073]
+comment: About 48 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000073
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000078
+name: NF stage 62
+namespace: xenopus_developmental_stage
+def: "Climax stage during which the head is still somewhat broader than the cranial part of the trunk, while tentacles are short, straight; n. olfactorius is shorter than the diameter of bulbus olfactorius; the corner of the mouth is still in front of the eye; the thymus gland is somewhat protruding; the 3rd arterial arch (larval aorta) is seen at distance of its own diameter in front of the adult skin area of the forelimb; opening of the operculum is reduced to a curved slit; the forelimb is at the level of the middle of the heart; the anterior border of the adult skin area on abdomen is entirely sharp, mostly nicked medially; the ventral fin disappears from abdomen." [XAO:1000074]
+comment: About 49 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000074
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000079
+name: NF stage 63
+namespace: xenopus_developmental_stage
+def: "Climax stage during which the head is narrower than the trunk, while tentacles mostly disappear; the corner of the mouth is at the level of the caudal border of the eye; larval aorta and thymus gland are no longer externally visible; the operculum is closed; adult skin areas on abdomen and lower jaw are separated by a narrow band of larval skin; the forelimb is at the level of the anterior half of the heart; fin is mostly perforated near the anus; the tail is still slightly longer than the body." [XAO:1000075]
+comment: About 51 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000075
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000080
+name: NF stage 64
+namespace: xenopus_developmental_stage
+def: "Climax stage during which the corner of the mouth is well behind the eye; various adult skin areas are joined almost everywhere, with borderlines still clearly visible; the length of the tail (from anus) is a third of the body length." [XAO:1000076]
+comment: About 53 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000076
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000081
+name: NF stage 65
+namespace: xenopus_developmental_stage
+def: "Climax stage during which borderlines between adult skin areas partly disappear; the tail is oblong triangular in dorsal aspect, with length abouth one tenth of the body length." [XAO:1000077]
+comment: About 54 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000077
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000082
+name: NF stage 66
+namespace: xenopus_developmental_stage
+def: "Climax stage during which borderlines between adult skin areas disappear; the tail is only a very small triangle, no longer visible from the ventral side." [XAO:1000078]
+comment: About 58 days pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+xref: XAO:1000078
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000073 ! climax stage
+
+[Term]
+id: XtroDv:0000083
+name: juvenile frog stage
+namespace: xenopus_developmental_stage
+def: "Post-embryonic stage that defines a sexually immature post-tadpole animal." [XAO:1000010]
+synonym: "juvenile frog" RELATED []
+xref: XAO:1000010
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000055 ! post-embryonic stage
+
+[Term]
+id: XtroDv:0000084
+name: adult frog stage
+namespace: xenopus_developmental_stage
+def: "Xenopus developmental stage that defines a sexually mature adult animal." [UBERON:0000113]
+comment: this stage refers to the post-juvenile adult stage as described in UBERON:0000113.
+synonym: "adult frog" EXACT []
+xref: XAO:1000093
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000001 ! xenopus life cycle
+
+[Term]
+id: XtroDv:0000085
+name: death stage
+namespace: xenopus_developmental_stage
+def: "Adult frog stage that defines the end of the animal's life." [XAO:1000347]
+comment: this stage refers to the death stage as described in UBERON:0000071.
+synonym: "death" EXACT []
+xref: XAO:0000437
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000084 ! adult frog stage
+
+[Term]
+id: XtroDv:0000086
+name: unknown
+namespace: xenopus_developmental_stage
+def: "Xenopus developmental stage that refers to a stage information of which is either unknown or has not yet been curated." [XAO:1000081]
+xref: XAO:1000081
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000001 ! xenopus life cycle
+
+[Term]
+id: XtroDv:0000087
+name: NF stage 5, 16-cell stage
+namespace: xenopus_developmental_stage
+def: "Cleavage stage defined as advanced sixteen cell stage, with dorsal micromeres distinctly smaller and less pigmented than ventral ones, and macromeres entirely separated by cleavage grooves." [XAO:1000015]
+comment: 2 hr 45 min pf (post-fertilization) at 22-24 Celsius following Nieuwkoop and Faber (NF) stage description.
+synonym: "16-cell stage" EXACT []
+xref: XAO:1000015
+xref: ZFIN:ZDB-STAGE-010723-20
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000004 ! cleavage stage
+
+[Term]
+id: XtroDv:0000088
+name: unfertilized egg stage
+namespace: xenopus_developmental_stage
+def: "Adult frog stage defined by the developing and mature female germ cells." [XAO:1000082]
+xref: XAO:1000082
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000084 ! adult frog stage
+
+[Term]
+id: XtroDv:0000089
+name: oocyte stage I
+namespace: xenopus_developmental_stage
+def: "Unfertilized egg stage defined by the developing female gamete of the pre-vitellogenic stage." [XAO:1000083]
+xref: XAO:1000083
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000088 ! unfertilized egg stage
+
+[Term]
+id: XtroDv:0000090
+name: oocyte stage II
+namespace: xenopus_developmental_stage
+def: "Unfertilized egg stage defined by the developing female gamete of the early vitellogenic stage." [XAO:1000084]
+xref: XAO:1000084
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000088 ! unfertilized egg stage
+
+[Term]
+id: XtroDv:0000091
+name: oocyte stage III
+namespace: xenopus_developmental_stage
+def: "Unfertilized egg stage defined by the developing female gamete of the mid-vitellogenic stage." [XAO:1000085]
+xref: XAO:1000085
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000088 ! unfertilized egg stage
+
+[Term]
+id: XtroDv:0000092
+name: oocyte stage IV
+namespace: xenopus_developmental_stage
+def: "Unfertilized egg stage defined by establishment of polarization along the animal-vegetal axis in the developing female gamete." [XAO:1000086]
+xref: XAO:1000086
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000088 ! unfertilized egg stage
+
+[Term]
+id: XtroDv:0000093
+name: oocyte stage V
+namespace: xenopus_developmental_stage
+def: "Unfertilized egg stage defined by the developing female gamete of the late-vitellogenic stage." [XAO:1000087]
+xref: XAO:1000087
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000088 ! unfertilized egg stage
+
+[Term]
+id: XtroDv:0000094
+name: oocyte stage VI
+namespace: xenopus_developmental_stage
+def: "Unfertilized egg stage defined by the fully grown female gamete." [XAO:1000088]
+xref: XAO:1000088
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000088 ! unfertilized egg stage
+
+[Term]
+id: XtroDv:0000095
+name: mature egg stage
+namespace: xenopus_developmental_stage
+def: "Unfertilized egg stage defined by the mature female germ cell." [XAO:1000092]
+synonym: "mature egg" EXACT []
+xref: XAO:1000092
+is_a: XtroDv:0000000 ! xenopus life cycle stage
+relationship: part_of XtroDv:0000088 ! unfertilized egg stage
+
+[Typedef]
+id: part_of
+name: part of
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+xref: OBO_REL:preceded_by
+is_transitive: true
+
+[Typedef]
+id: starts_at_end_of
+name: starts_at_end_of
+relationship: part_of preceded_by ! preceded_by
+
