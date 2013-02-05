@@ -189,8 +189,6 @@ namespace: mouse_developmental_stage
 def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110 "adapted from"]
 comment: This stage starts the emergence of the central nervous system at embryonic age 7.5 dpc (day post-coitum).
 synonym: "TheilerStage11" RELATED []
-is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000002 ! embryonic stage
 is_obsolete: true
 consider: MmusDv:0000017
 comment: This term was obsoleted as it was the only child associated to MmusDv:0000017.
@@ -365,8 +363,6 @@ id: MmusDv:0000030
 name: post-embryonic developmental stage
 namespace: mouse_developmental_stage
 def: "mouse life cycle that follows the embryonic development stage and during which further organogenesis and histogenesis occur." [Bgee:curator "Bgee"]
-is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000001 ! mouse life cycle
 is_obsolete: true
 comment: This term was obsoleted to follow human developmental ontology structure.
 
@@ -473,8 +469,6 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 4 weeks and under 7 weeks old." [Bgee:curator "Bgee"]
 comment: This stage describes the age at which mice are usually used as adolescent mouse models in the literature.
 synonym: "4-6 weeks" EXACT []
-is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! immature stage
 is_obsolete: true
 comment: This term was obsoleted as it is not fully accepted as a defined developmental stage in the literature.
 
@@ -485,8 +479,6 @@ namespace: mouse_developmental_stage
 def: "Mouse developmental stage that refers to a mouse which is over 5 weeks old." [Bgee:curator "Bgee"]
 comment: The organisation of the postnatal development time in mouse is debatable, literature usually refers to mature or immature mice, with milestone around 6-8 weeks post-natal.
 synonym: "mature" EXACT []
-is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000001 ! mouse life cycle
 is_obsolete: true
 replaced_by: MmusDv:0000110
 comment: This term was obsoleted to include the mature stage into the ontology. Both terms have the same children, but contains of children (children of children) differ.
