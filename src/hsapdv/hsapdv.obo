@@ -31,7 +31,7 @@ relationship: part_of HsapDv:0000001 ! human life cycle
 
 [Term]
 id: HsapDv:0000002
-name: embryonic stage
+name: embryonic human stage
 namespace: human_developmental_stage
 synonym: "embryo stage" RELATED []
 def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
@@ -46,7 +46,7 @@ namespace: human_developmental_stage
 def: "Embryonic stage defined by a fertilized oocyte and presence of pronuclei." [http://embryology.med.unsw.edu.au/wwwhuman/Stages/CStages.htm "adapted from"]
 comment: Starts at day 1 post-fertilization, beginning of the first week.
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic stage
+relationship: part_of HsapDv:0000002 ! embryonic human stage
 xref: XUO:0000130
 
 [Term]
@@ -56,7 +56,7 @@ namespace: human_developmental_stage
 def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107 "adapted from"]
 comment: The different cells derived from cleavage are called blastomeres and form a compact mass called the morula. Cleavage ends with the formation of the blastula.
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic stage
+relationship: part_of HsapDv:0000002 ! embryonic human stage
 
 [Term]
 id: HsapDv:0000005
@@ -76,7 +76,7 @@ namespace: human_developmental_stage
 def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum." [UBERON:0000108 "adapted from"]
 comment: The blastula follows the morula and precedes the gastrula in the developmental sequence.
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic stage
+relationship: part_of HsapDv:0000002 ! embryonic human stage
 
 [Term]
 id: HsapDv:0000007
@@ -144,7 +144,7 @@ name: gastrula stage
 namespace: human_developmental_stage
 def: "Embryonic stage defined by a complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109 "adapted from"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic stage
+relationship: part_of HsapDv:0000002 ! embryonic human stage
 
 [Term]
 id: HsapDv:0000011
@@ -182,7 +182,7 @@ namespace: human_developmental_stage
 def: "Embryonic stage defined by the formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110 "adapted from"]
 comment: This stage starts the emergence of the central nervous system.
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic stage
+relationship: part_of HsapDv:0000002 ! embryonic human stage
 
 [Term]
 id: HsapDv:0000013
@@ -212,7 +212,7 @@ name: organogenesis stage
 namespace: human_developmental_stage
 def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111 "adapted from"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic stage
+relationship: part_of HsapDv:0000002 ! embryonic human stage
 
 [Term]
 id: HsapDv:0000016
@@ -392,7 +392,7 @@ xref: EV:0300011
 
 [Term]
 id: HsapDv:0000197
-name: third LMP month
+name: third LMP month human stage
 namespace: human_developmental_stage
 def: "Fetal stage that refers to the third month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -400,37 +400,37 @@ relationship: part_of HsapDv:0000037 ! fetal stage
 
 [Term]
 id: HsapDv:0000046
-name: 9th week post-fertilization
+name: 9th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 8 and under 9 weeks of development." [Bgee:curator "Bgee"] 
 comment: External genitalia begin to distinguish themselves as either male or female. Eyelids are completely closed, and vocal ligaments appear (see http://ehd.org/resources_bpd_documentation_english.php).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000197 ! third LMP month
+relationship: part_of HsapDv:0000197 ! third LMP month human stage
 xref: EV:0300012
 
 [Term]
 id: HsapDv:0000047
-name: 10th week post-fertilization
+name: 10th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 9 and under 10 weeks of development." [Bgee:curator "Bgee"] 
 comment: The fingernails and toenails begin to develop and unique fingerprints appear. Ossification is underway in most bones (see http://ehd.org/resources_bpd_documentation_english.php).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000197 ! third LMP month
+relationship: part_of HsapDv:0000197 ! third LMP month human stage
 xref: EV:0300013
 
 [Term]
 id: HsapDv:0000048
-name: 11th week post-fertilization
+name: 11th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 10 and under 11 weeks of development." [Bgee:curator "Bgee"] 
 comment: The nose and lips are completely formed, and external genitalia can be distinguished as male or female (see http://ehd.org/resources_bpd_documentation_english.php). 
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000197 ! third LMP month
+relationship: part_of HsapDv:0000197 ! third LMP month human stage
 xref: EV:0300030
 
 [Term]
 id: HsapDv:0000198
-name: fourth LMP month
+name: fourth LMP month human stage
 namespace: human_developmental_stage
 def: "Fetal stage that refers to the fourth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -438,44 +438,44 @@ relationship: part_of HsapDv:0000037 ! fetal stage
 
 [Term]
 id: HsapDv:0000049
-name: 12th week post-fertilization
+name: 12th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 11 and under 12 weeks of development." [Bgee:curator "Bgee"] 
 comment: Upper limb length has nearly reached its final proportion to body size (see http://ehd.org/resources_bpd_documentation_english.php). The assignation of this week to the fourth or third LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000198 ! fourth LMP month
+relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
 xref: EV:0300014
 
 [Term]
 id: HsapDv:0000050
-name: 13th week post-fertilization
+name: 13th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 12 and under 13 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000198 ! fourth LMP month
+relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
 xref: EV:0300015
 
 [Term]
 id: HsapDv:0000051
-name: 14th week post-fertilization
+name: 14th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 13 and under 14 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000198 ! fourth LMP month
+relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
 xref: EV:0300016
 
 [Term]
 id: HsapDv:0000052
-name: 15th week post-fertilization
+name: 15th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 14 and under 15 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000198 ! fourth LMP month
+relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
 xref: EV:0300031
 
 [Term]
 id: HsapDv:0000199
-name: fifth LMP month
+name: fifth LMP month human stage
 namespace: human_developmental_stage
 def: "Fetal stage that refers to the fifth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -483,44 +483,44 @@ relationship: part_of HsapDv:0000037 ! fetal stage
 
 [Term]
 id: HsapDv:0000053
-name: 16th week post-fertilization
+name: 16th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 15 and under 16 weeks of development." [Bgee:curator "Bgee"]
 comment: The assignation of this week to the fifth or fourth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000199 ! fifth LMP month
+relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
 xref: EV:0300017
 
 [Term]
 id: HsapDv:0000054
-name: 17th week post-fertilization
+name: 17th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 16 and under 17 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000199 ! fifth LMP month
+relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
 xref: EV:0300018
 
 [Term]
 id: HsapDv:0000055
-name: 18th week post-fertilization
+name: 18th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 17 and under 18 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000199 ! fifth LMP month
+relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
 xref: EV:0300019
 
 [Term]
 id: HsapDv:0000056
-name: 19th week post-fertilization
+name: 19th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 18 and under 19 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000199 ! fifth LMP month
+relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
 xref: EV:0300020
 
 [Term]
 id: HsapDv:0000200
-name: sixth LMP month
+name: sixth LMP month human stage
 namespace: human_developmental_stage
 def: "Fetal stage that refers to the sixth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -528,55 +528,55 @@ relationship: part_of HsapDv:0000037 ! fetal stage
 
 [Term]
 id: HsapDv:0000057
-name: 20th week post-fertilization
+name: 20th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 19 and under 20 weeks of development." [Bgee:curator "Bgee"] 
 comment: The cochlea has reached adult size within the fully developed inner ear (see http://ehd.org/resources_bpd_documentation_english.php). The assignation of this week to the sixth or fifth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000200 ! sixth LMP month
+relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
 xref: EV:0300021
 
 [Term]
 id: HsapDv:0000058
-name: 21st week post-fertilization
+name: 21st week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 20 and under 21 weeks of development." [Bgee:curator "Bgee"] 
 comment: The lungs gain some ability to breathe air. This stage is considered the age of viability because survival outside the womb becomes possible for some fetuses (see http://ehd.org/resources_bpd_documentation_english.php).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000200 ! sixth LMP month
+relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
 xref: EV:0300029
 
 [Term]
 id: HsapDv:0000059
-name: 22nd week post-fertilization
+name: 22nd week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 21 and under 22 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000200 ! sixth LMP month
+relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
 xref: EV:0300022
 
 [Term]
 id: HsapDv:0000060
-name: 23rd week post-fertilization
+name: 23rd week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 22 and under 23 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000200 ! sixth LMP month
+relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
 xref: EV:0300023
 
 [Term]
 id: HsapDv:0000061
-name: 24th week post-fertilization
+name: 24th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 23 and under 24 weeks of development." [Bgee:curator "Bgee"] 
 comment: The eyelids reopen (see http://ehd.org/resources_bpd_documentation_english.php). 
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000200 ! sixth LMP month
+relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
 xref: EV:0300024
 
 [Term]
 id: HsapDv:0000201
-name: seventh LMP month
+name: seventh LMP month human stage
 namespace: human_developmental_stage
 def: "Fetal stage that refers to the seventh month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -584,44 +584,44 @@ relationship: part_of HsapDv:0000037 ! fetal stage
 
 [Term]
 id: HsapDv:0000062
-name: 25th week post-fertilization
+name: 25th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 24 and under 25 weeks of development." [Bgee:curator "Bgee"] 
 comment: The assignation of this week to the seventh or sixth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000201 ! seventh LMP month
+relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
 xref: EV:0300032
 
 [Term]
 id: HsapDv:0000063
-name: 26th week post-fertilization
+name: 26th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 25 and under 26 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000201 ! seventh LMP month
+relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
 xref: EV:0300025
 
 [Term]
 id: HsapDv:0000064
-name: 27th week post-fertilization
+name: 27th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 26 and under 27 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000201 ! seventh LMP month
+relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
 xref: EV:0300033
 
 [Term]
 id: HsapDv:0000065
-name: 28th week post-fertilization
+name: 28th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 27 and under 28 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000201 ! seventh LMP month
+relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
 xref: EV:0300026
 
 [Term]
 id: HsapDv:0000202
-name: eighth LMP month
+name: eighth LMP month human stage
 namespace: human_developmental_stage
 def: "Fetal stage that refers to the eighth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -629,53 +629,53 @@ relationship: part_of HsapDv:0000037 ! fetal stage
 
 [Term]
 id: HsapDv:0000066
-name: 29th week post-fertilization
+name: 29th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 28 and under 29 weeks of development." [Bgee:curator "Bgee"]
 comment: The assignation of this week to the eighth or seventh LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000202 ! eighth LMP month
+relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
 xref: EV:0300034
 
 [Term]
 id: HsapDv:0000067
-name: 30th week post-fertilization
+name: 30th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 29 and under 30 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000202 ! eighth LMP month
+relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
 xref: EV:0300035
 
 [Term]
 id: HsapDv:0000068
-name: 31st week post-fertilization
+name: 31st week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 30 and under 31 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000202 ! eighth LMP month
+relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
 xref: EV:0300036
 
 [Term]
 id: HsapDv:0000069
-name: 32nd week post-fertilization
+name: 32nd week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 31 and under 32 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000202 ! eighth LMP month
+relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
 xref: EV:0300027
 
 [Term]
 id: HsapDv:0000070
-name: 33rd week post-fertilization
+name: 33rd week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 32 and under 33 weeks of development." [Bgee:curator "Bgee"]
 comment: The assignation of this week to the eighth or ninth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000202 ! eighth LMP month
+relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
 
 [Term]
 id: HsapDv:0000203
-name: ninth LMP month
+name: ninth LMP month human stage
 namespace: human_developmental_stage
 def: "Fetal stage that refers to the ninth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -683,44 +683,44 @@ relationship: part_of HsapDv:0000037 ! fetal stage
 
 [Term]
 id: HsapDv:0000071
-name: 34th week post-fertilization
+name: 34th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 33 and under 34 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000203 ! ninth LMP month
+relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
 
 [Term]
 id: HsapDv:0000072
-name: 35th week post-fertilization
+name: 35th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 34 and under 35 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000203 ! ninth LMP month
+relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
 
 [Term]
 id: HsapDv:0000073
-name: 36th week post-fertilization
+name: 36th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 35 and under 36 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000203 ! ninth LMP month
+relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
 
 [Term]
 id: HsapDv:0000074
-name: 37th week post-fertilization
+name: 37th week post-fertilization human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 36 and under 37 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000203 ! ninth LMP month
+relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
 
 [Term]
 id: HsapDv:0000075
-name: 38th week post-fertilization and over
+name: 38th week post-fertilization and over human stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 37 weeks of development and until birth." [Bgee:curator "Bgee"]
 comment: The assignation of this week to the ninth or tenth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000203 ! ninth LMP month
+relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
 
 [Term]
 id: HsapDv:0000080
@@ -743,7 +743,7 @@ relationship: part_of HsapDv:0000080 ! immature stage
 
 [Term]
 id: HsapDv:0000082
-name: newborn stage 
+name: newborn human stage 
 namespace: human_developmental_stage
 def: "Immature stage that refers to a newborn who is under 32 days old." [Bgee:curator "Bgee"]
 synonym: "neonate" RELATED []
@@ -762,7 +762,7 @@ relationship: part_of HsapDv:0000080 ! immature stage
 
 [Term]
 id: HsapDv:0000174
-name: 1 month
+name: 1 month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 1 and under 2 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -771,7 +771,7 @@ xref: EV:0300039
 
 [Term]
 id: HsapDv:0000175
-name: 2 months
+name: 2-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 2 and under 3 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -780,201 +780,201 @@ xref: EV:0300040
 
 [Term]
 id: HsapDv:0000176
-name: 3 months
+name: 3-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300041
-relationship: immediately_preceded_by HsapDv:0000175 ! 2 months
+relationship: immediately_preceded_by HsapDv:0000175 ! 2-month-old human stage
 
 [Term]
 id: HsapDv:0000177
-name: 4 months
+name: 4-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300042
-relationship: immediately_preceded_by HsapDv:0000176 ! 3 months
+relationship: immediately_preceded_by HsapDv:0000176 ! 3-month-old human stage
 
 [Term]
 id: HsapDv:0000178
-name: 5 months
+name: 5-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300043
-relationship: immediately_preceded_by HsapDv:0000177 ! 4 months
+relationship: immediately_preceded_by HsapDv:0000177 ! 4-month-old human stage
 
 [Term]
 id: HsapDv:0000179
-name: 6 months
+name: 6-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300044
-relationship: immediately_preceded_by HsapDv:0000178 ! 5 months
+relationship: immediately_preceded_by HsapDv:0000178 ! 5-month-old human stage
 
 [Term]
 id: HsapDv:0000180
-name: 7 months
+name: 7-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 7 and under 8 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300045
-relationship: immediately_preceded_by HsapDv:0000179 ! 6 months
+relationship: immediately_preceded_by HsapDv:0000179 ! 6-month-old human stage
 
 [Term]
 id: HsapDv:0000181
-name: 8 months
+name: 8-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 8 and under 9 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300046
-relationship: immediately_preceded_by HsapDv:0000180 ! 7 months
+relationship: immediately_preceded_by HsapDv:0000180 ! 7-month-old human stage
 
 [Term]
 id: HsapDv:0000182
-name: 9 months
+name: 9-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300047
-relationship: immediately_preceded_by HsapDv:0000181 ! 8 months
+relationship: immediately_preceded_by HsapDv:0000181 ! 8-month-old human stage
 
 [Term]
 id: HsapDv:0000183
-name: 10 months
+name: 10-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 10 and under 11 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300048
-relationship: immediately_preceded_by HsapDv:0000182 ! 9 months
+relationship: immediately_preceded_by HsapDv:0000182 ! 9-month-old human stage
 
 [Term]
 id: HsapDv:0000184
-name: 11 months
+name: 11-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 11 and under 12 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
 xref: EV:0300049
-relationship: immediately_preceded_by HsapDv:0000183 ! 10 months
+relationship: immediately_preceded_by HsapDv:0000183 ! 10-month-old human stage
 
 [Term]
 id: HsapDv:0000185
-name: 12 months
+name: 12-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 12 and under 13 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000184 ! 11 months
+relationship: immediately_preceded_by HsapDv:0000184 ! 11-month-old human stage
 
 [Term]
 id: HsapDv:0000186
-name: 13 months
+name: 13-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 13 and under 14 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000185 ! 12 months
+relationship: immediately_preceded_by HsapDv:0000185 ! 12-month-old human stage
 
 [Term]
 id: HsapDv:0000187
-name: 14 months
+name: 14-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 14 and under 15 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000186 ! 13 months
+relationship: immediately_preceded_by HsapDv:0000186 ! 13-month-old human stage
 
 [Term]
 id: HsapDv:0000188
-name: 15 months
+name: 15-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 15 and under 16 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000187 ! 14 months
+relationship: immediately_preceded_by HsapDv:0000187 ! 14-month-old human stage
 
 [Term]
 id: HsapDv:0000189
-name: 16 months
+name: 16-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 16 and under 17 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000188 ! 15 months
+relationship: immediately_preceded_by HsapDv:0000188 ! 15-month-old human stage
 
 [Term]
 id: HsapDv:0000190
-name: 17 months
+name: 17-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 17 and under 18 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000189 ! 16 months
+relationship: immediately_preceded_by HsapDv:0000189 ! 16-month-old human stage
 
 [Term]
 id: HsapDv:0000191
-name: 18 months
+name: 18-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 18 and under 19 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000190 ! 17 months
+relationship: immediately_preceded_by HsapDv:0000190 ! 17-month-old human stage
 
 [Term]
 id: HsapDv:0000192
-name: 19 months
+name: 19-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 19 and under 20 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000191 ! 18 months
+relationship: immediately_preceded_by HsapDv:0000191 ! 18-month-old human stage
 
 [Term]
 id: HsapDv:0000193
-name: 20 months
+name: 20-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 20 and under 21 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000192 ! 19 months
+relationship: immediately_preceded_by HsapDv:0000192 ! 19-month-old human stage
 
 [Term]
 id: HsapDv:0000194
-name: 21 months
+name: 21-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 21 and under 22 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000193 ! 20 months
+relationship: immediately_preceded_by HsapDv:0000193 ! 20-month-old human stage
 
 [Term]
 id: HsapDv:0000195
-name: 22 months
+name: 22-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 22 and under 23 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000194 ! 21 months
+relationship: immediately_preceded_by HsapDv:0000194 ! 21-month-old human stage
 
 [Term]
 id: HsapDv:0000196
-name: 23 months
+name: 23-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 23 and under 24 months old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000195 ! 22 months
+relationship: immediately_preceded_by HsapDv:0000195 ! 22-month-old human stage
 
 [Term]
 id: HsapDv:0000084
@@ -987,7 +987,7 @@ relationship: part_of HsapDv:0000081 ! child stage
 
 [Term]
 id: HsapDv:0000096
-name: 2 years
+name: 2-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 2 and under 3 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
@@ -996,33 +996,33 @@ xref: EV:0300053
 
 [Term]
 id: HsapDv:0000097
-name: 3 years
+name: 3-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
 xref: EV:0300054
-relationship: immediately_preceded_by HsapDv:0000096 ! 2 years
+relationship: immediately_preceded_by HsapDv:0000096 ! 2-year-old human stage
 
 [Term]
 id: HsapDv:0000098
-name: 4 years
+name: 4-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
 xref: EV:0300055
-relationship: immediately_preceded_by HsapDv:0000097 ! 3 years
+relationship: immediately_preceded_by HsapDv:0000097 ! 3-year-old human stage
 
 [Term]
 id: HsapDv:0000099
-name: 5 years
+name: 5-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 5 and under 6 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
 xref: EV:0300056
-relationship: immediately_preceded_by HsapDv:0000098 ! 4 years
+relationship: immediately_preceded_by HsapDv:0000098 ! 4-year-old human stage
 
 [Term]
 id: HsapDv:0000085
@@ -1035,73 +1035,73 @@ relationship: part_of HsapDv:0000081 ! child stage
 
 [Term]
 id: HsapDv:0000100
-name: 6 years
+name: 6-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300057
-relationship: immediately_preceded_by HsapDv:0000099 ! 5 years
+relationship: immediately_preceded_by HsapDv:0000099 ! 5-year-old human stage
 
 [Term]
 id: HsapDv:0000101
-name: 7 years
+name: 7-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300058
-relationship: immediately_preceded_by HsapDv:0000100 ! 6 years
+relationship: immediately_preceded_by HsapDv:0000100 ! 6-year-old human stage
 
 [Term]
 id: HsapDv:0000102
-name: 8 years
+name: 8-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 8 and under 9 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300059
-relationship: immediately_preceded_by HsapDv:0000101 ! 7 years
+relationship: immediately_preceded_by HsapDv:0000101 ! 7-year-old human stage
 
 [Term]
 id: HsapDv:0000103
-name: 9 years
+name: 9-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 9 and under 10 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300060
-relationship: immediately_preceded_by HsapDv:0000102 ! 8 years
+relationship: immediately_preceded_by HsapDv:0000102 ! 8-year-old human stage
 
 [Term]
 id: HsapDv:0000104
-name: 10 years
+name: 10-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 10 and under 11 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300061
-relationship: immediately_preceded_by HsapDv:0000103 ! 9 years
+relationship: immediately_preceded_by HsapDv:0000103 ! 9-year-old human stage
 
 [Term]
 id: HsapDv:0000105
-name: 11 years
+name: 11-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 11 and under 12 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300062
-relationship: immediately_preceded_by HsapDv:0000104 ! 10 years
+relationship: immediately_preceded_by HsapDv:0000104 ! 10-year-old human stage
 
 [Term]
 id: HsapDv:0000106
-name: 12 years
+name: 12-year-old human stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 12 and under 13 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
 xref: EV:0300063
-relationship: immediately_preceded_by HsapDv:0000105 ! 11 years
+relationship: immediately_preceded_by HsapDv:0000105 ! 11-year-old human stage
 
 [Term]
 id: HsapDv:0000204
@@ -1124,67 +1124,67 @@ relationship: part_of HsapDv:0000204 ! mature stage
 
 [Term]
 id: HsapDv:0000107
-name: 13 years
+name: 13-year-old human stage
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 13 and under 14 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300065
-relationship: immediately_preceded_by HsapDv:0000106 ! 12 years
+relationship: immediately_preceded_by HsapDv:0000106 ! 12-year-old human stage
 
 [Term]
 id: HsapDv:0000108
-name: 14 years
+name: 14-year-old human stage
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 14 and under 15 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300066
-relationship: immediately_preceded_by HsapDv:0000107 ! 13 years
+relationship: immediately_preceded_by HsapDv:0000107 ! 13-year-old human stage
 
 [Term]
 id: HsapDv:0000109
-name: 15 years
+name: 15-year-old human stage
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 15 and under 16 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300067
-relationship: immediately_preceded_by HsapDv:0000108 ! 14 years
+relationship: immediately_preceded_by HsapDv:0000108 ! 14-year-old human stage
 
 [Term]
 id: HsapDv:0000110
-name: 16 years
+name: 16-year-old human stage
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 16 and under 17 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300068
-relationship: immediately_preceded_by HsapDv:0000109 ! 15 years
+relationship: immediately_preceded_by HsapDv:0000109 ! 15-year-old human stage
 
 [Term]
 id: HsapDv:0000111
-name: 17 years
+name: 17-year-old human stage
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 17 and under 18 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300069
-relationship: immediately_preceded_by HsapDv:0000110 ! 16 years
+relationship: immediately_preceded_by HsapDv:0000110 ! 16-year-old human stage
 
 [Term]
 id: HsapDv:0000112
-name: 18 years
+name: 18-year-old human stage
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 18 and under 19 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
 xref: EV:0300071
-relationship: immediately_preceded_by HsapDv:0000111 ! 17 years
+relationship: immediately_preceded_by HsapDv:0000111 ! 17-year-old human stage
 
 [Term]
 id: HsapDv:0000087
-name: adult stage
+name: human adult stage
 namespace: human_developmental_stage
 def: "Human developmental stage that refers to an adult who is over 19." [Bgee:curator "Bgee"]
 synonym: "19+ years" EXACT []
@@ -1193,12 +1193,12 @@ relationship: part_of HsapDv:0000204 ! mature stage
 
 [Term]
 id: HsapDv:0000088
-name: early adulthood
+name: human early adulthood stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is under 45." [Bgee:curator "Bgee"]
 synonym: "19-44 years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000087 ! adult stage
+relationship: part_of HsapDv:0000087 ! human adult stage
 
 [Term]
 id: HsapDv:0000089
@@ -1207,672 +1207,672 @@ namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is under 25." [Bgee:curator "Bgee"]
 synonym: "19-24 years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000088 ! early adulthood
+relationship: part_of HsapDv:0000088 ! human early adulthood stage
 
 [Term]
 id: HsapDv:0000113
-name: 19 years
+name: 19-year-old human stage
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is under 20." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300072
-relationship: immediately_preceded_by HsapDv:0000112 ! 18 years
+relationship: immediately_preceded_by HsapDv:0000112 ! 18-year-old human stage
 
 [Term]
 id: HsapDv:0000114
-name: 20 years
+name: 20-year-old human stage
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 20 and under 21." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300073
-relationship: immediately_preceded_by HsapDv:0000113 ! 19 years
+relationship: immediately_preceded_by HsapDv:0000113 ! 19-year-old human stage
 
 [Term]
 id: HsapDv:0000115
-name: 21 years
+name: 21-year-old human stage
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 21 and under 22." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300074
-relationship: immediately_preceded_by HsapDv:0000114 ! 20 years
+relationship: immediately_preceded_by HsapDv:0000114 ! 20-year-old human stage
 
 [Term]
 id: HsapDv:0000116
-name: 22 years
+name: 22-year-old human stage
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 22 and under 23." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300075
-relationship: immediately_preceded_by HsapDv:0000115 ! 21 years
+relationship: immediately_preceded_by HsapDv:0000115 ! 21-year-old human stage
 
 [Term]
 id: HsapDv:0000117
-name: 23 years
+name: 23-year-old human stage
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 23 and under 24." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300076
-relationship: immediately_preceded_by HsapDv:0000116 ! 22 years
+relationship: immediately_preceded_by HsapDv:0000116 ! 22-year-old human stage
 
 [Term]
 id: HsapDv:0000118
-name: 24 years
+name: 24-year-old human stage
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 24 and under 25." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
 xref: EV:0300077
-relationship: immediately_preceded_by HsapDv:0000117 ! 23 years
+relationship: immediately_preceded_by HsapDv:0000117 ! 23-year-old human stage
 
 [Term]
 id: HsapDv:0000090
-name: 25-44 year-old adult stage
+name: 25-44 year-old human stage
 namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is over 25 and under 45." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000088 ! early adulthood
+relationship: part_of HsapDv:0000088 ! human early adulthood stage
 
 [Term]
 id: HsapDv:0000119
-name: 25 years
+name: 25-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 25 and under 26." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300078
-relationship: immediately_preceded_by HsapDv:0000118 ! 24 years
+relationship: immediately_preceded_by HsapDv:0000118 ! 24-year-old human stage
 
 [Term]
 id: HsapDv:0000120
-name: 26 years
+name: 26-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adultwho is over 26 and under 27." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300079
-relationship: immediately_preceded_by HsapDv:0000119 ! 25 years
+relationship: immediately_preceded_by HsapDv:0000119 ! 25-year-old human stage
 
 [Term]
 id: HsapDv:0000121
-name: 27 years
+name: 27-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 27 and under 28." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300080
-relationship: immediately_preceded_by HsapDv:0000120 ! 26 years
+relationship: immediately_preceded_by HsapDv:0000120 ! 26-year-old human stage
 
 [Term]
 id: HsapDv:0000122
-name: 28 years
+name: 28-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 28 and under 29." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300081
-relationship: immediately_preceded_by HsapDv:0000121 ! 27 years
+relationship: immediately_preceded_by HsapDv:0000121 ! 27-year-old human stage
 
 [Term]
 id: HsapDv:0000123
-name: 29 years
+name: 29-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 29 and under 30." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300082
-relationship: immediately_preceded_by HsapDv:0000122 ! 28 years
+relationship: immediately_preceded_by HsapDv:0000122 ! 28-year-old human stage
 
 [Term]
 id: HsapDv:0000124
-name: 30 years
+name: 30-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 30 and under 31." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300083
-relationship: immediately_preceded_by HsapDv:0000123 ! 29 years
+relationship: immediately_preceded_by HsapDv:0000123 ! 29-year-old human stage
 
 [Term]
 id: HsapDv:0000125
-name: 31 years
+name: 31-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 31 and under 32." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300084
-relationship: immediately_preceded_by HsapDv:0000124 ! 30 years
+relationship: immediately_preceded_by HsapDv:0000124 ! 30-year-old human stage
 
 [Term]
 id: HsapDv:0000126
-name: 32 years
+name: 32-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 32 and under 33." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300085
-relationship: immediately_preceded_by HsapDv:0000125 ! 31 years
+relationship: immediately_preceded_by HsapDv:0000125 ! 31-year-old human stage
 
 [Term]
 id: HsapDv:0000127
-name: 33 years
+name: 33-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 33 and under 34." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300086
-relationship: immediately_preceded_by HsapDv:0000126 ! 32 years
+relationship: immediately_preceded_by HsapDv:0000126 ! 32-year-old human stage
 
 [Term]
 id: HsapDv:0000128
-name: 34 years
+name: 34-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 34 and under 35." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300087
-relationship: immediately_preceded_by HsapDv:0000127 ! 33 years
+relationship: immediately_preceded_by HsapDv:0000127 ! 33-year-old human stage
 
 [Term]
 id: HsapDv:0000129
-name: 35 years
+name: 35-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 35 and under 36." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300088
-relationship: immediately_preceded_by HsapDv:0000128 ! 34 years
+relationship: immediately_preceded_by HsapDv:0000128 ! 34-year-old human stage
 
 [Term]
 id: HsapDv:0000130
-name: 36 years
+name: 36-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 36 and under 37." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300089
-relationship: immediately_preceded_by HsapDv:0000129 ! 35 years
+relationship: immediately_preceded_by HsapDv:0000129 ! 35-year-old human stage
 
 [Term]
 id: HsapDv:0000131
-name: 37 years
+name: 37-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 37 and under 38." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300090
-relationship: immediately_preceded_by HsapDv:0000130 ! 36 years
+relationship: immediately_preceded_by HsapDv:0000130 ! 36-year-old human stage
 
 [Term]
 id: HsapDv:0000132
-name: 38 years
+name: 38-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 38 and under 39." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300091
-relationship: immediately_preceded_by HsapDv:0000131 ! 37 years
+relationship: immediately_preceded_by HsapDv:0000131 ! 37-year-old human stage
 
 [Term]
 id: HsapDv:0000133
-name: 39 years
+name: 39-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 39 and under 40." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300092
-relationship: immediately_preceded_by HsapDv:0000132 ! 38 years
+relationship: immediately_preceded_by HsapDv:0000132 ! 38-year-old human stage
 
 [Term]
 id: HsapDv:0000134
-name: 40 years
+name: 40-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 40 and under 41." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300093
-relationship: immediately_preceded_by HsapDv:0000133 ! 39 years
+relationship: immediately_preceded_by HsapDv:0000133 ! 39-year-old human stage
 
 [Term]
 id: HsapDv:0000135
-name: 41 years
+name: 41-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 41 and under 42." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300094
-relationship: immediately_preceded_by HsapDv:0000134 ! 40 years
+relationship: immediately_preceded_by HsapDv:0000134 ! 40-year-old human stage
 
 [Term]
 id: HsapDv:0000136
-name: 42 years
+name: 42-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 42 and under 43." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300095
-relationship: immediately_preceded_by HsapDv:0000135 ! 41 years
+relationship: immediately_preceded_by HsapDv:0000135 ! 41-year-old human stage
 
 [Term]
 id: HsapDv:0000137
-name: 43 years
+name: 43-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 43 and under 44." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300096
-relationship: immediately_preceded_by HsapDv:0000136 ! 42 years
+relationship: immediately_preceded_by HsapDv:0000136 ! 42-year-old human stage
 
 [Term]
 id: HsapDv:0000138
-name: 44 years
+name: 44-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 44 and under 45." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000090 ! 25-44 year-old adult stage
+relationship: part_of HsapDv:0000090 ! 25-44 year-old human stage
 xref: EV:0300097
-relationship: immediately_preceded_by HsapDv:0000137 ! 43 years
+relationship: immediately_preceded_by HsapDv:0000137 ! 43-year-old human stage
 
 [Term]
 id: HsapDv:0000091
-name: late adulthood
+name: human late adulthood stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 45." [Bgee:curator "Bgee"]
 synonym: "Middle Aged + Aged" RELATED []
 synonym: "45+ years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000087 ! adult stage
+relationship: part_of HsapDv:0000087 ! human adult stage
 
 [Term]
 id: HsapDv:0000092
-name: middle aged stage
+name: human middle aged stage
 namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 45 and under 65." [Bgee:curator "Bgee"]
 synonym: "45-64 years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000091 ! late adulthood
+relationship: part_of HsapDv:0000091 ! human late adulthood stage
 
 [Term]
 id: HsapDv:0000139
-name: 45 years
+name: 45-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 45 and under 46." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300098
-relationship: immediately_preceded_by HsapDv:0000138 ! 44 years
+relationship: immediately_preceded_by HsapDv:0000138 ! 44-year-old human stage
 
 [Term]
 id: HsapDv:0000140
-name: 46 years
+name: 46-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 46 and under 47." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300099
-relationship: immediately_preceded_by HsapDv:0000139 ! 45 years
+relationship: immediately_preceded_by HsapDv:0000139 ! 45-year-old human stage
 
 [Term]
 id: HsapDv:0000141
-name: 47 years
+name: 47-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 47 and under 48." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300100
-relationship: immediately_preceded_by HsapDv:0000140 ! 46 years
+relationship: immediately_preceded_by HsapDv:0000140 ! 46-year-old human stage
 
 [Term]
 id: HsapDv:0000142
-name: 48 years
+name: 48-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 48 and under 49." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300101
-relationship: immediately_preceded_by HsapDv:0000141 ! 47 years
+relationship: immediately_preceded_by HsapDv:0000141 ! 47-year-old human stage
 
 [Term]
 id: HsapDv:0000143
-name: 49 years
+name: 49-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 49 and under 50." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300102
-relationship: immediately_preceded_by HsapDv:0000142 ! 48 years
+relationship: immediately_preceded_by HsapDv:0000142 ! 48-year-old human stage
 
 [Term]
 id: HsapDv:0000144
-name: 50 years
+name: 50-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 50 and under 51." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300103
-relationship: immediately_preceded_by HsapDv:0000143 ! 49 years
+relationship: immediately_preceded_by HsapDv:0000143 ! 49-year-old human stage
 
 [Term]
 id: HsapDv:0000145
-name: 51 years
+name: 51-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 51 and under 52." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300104
-relationship: immediately_preceded_by HsapDv:0000144 ! 50 years
+relationship: immediately_preceded_by HsapDv:0000144 ! 50-year-old human stage
 
 [Term]
 id: HsapDv:0000146
-name: 52 years
+name: 52-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 52 and under 53." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300105
-relationship: immediately_preceded_by HsapDv:0000145 ! 51 years
+relationship: immediately_preceded_by HsapDv:0000145 ! 51-year-old human stage
 
 [Term]
 id: HsapDv:0000147
-name: 53 years
+name: 53-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 53 and under 54." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300106
-relationship: immediately_preceded_by HsapDv:0000146 ! 52 years
+relationship: immediately_preceded_by HsapDv:0000146 ! 52-year-old human stage
 
 [Term]
 id: HsapDv:0000148
-name: 54 years
+name: 54-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 54 and under 55." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300107
-relationship: immediately_preceded_by HsapDv:0000147 ! 53 years
+relationship: immediately_preceded_by HsapDv:0000147 ! 53-year-old human stage
 
 [Term]
 id: HsapDv:0000149
-name: 55 years
+name: 55-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 55 and under 56." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300108
-relationship: immediately_preceded_by HsapDv:0000148 ! 54 years
+relationship: immediately_preceded_by HsapDv:0000148 ! 54-year-old human stage
 
 [Term]
 id: HsapDv:0000150
-name: 56 years
+name: 56-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 56 and under 57." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300109
-relationship: immediately_preceded_by HsapDv:0000149 ! 55 years
+relationship: immediately_preceded_by HsapDv:0000149 ! 55-year-old human stage
 
 [Term]
 id: HsapDv:0000151
-name: 57 years
+name: 57-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 57 and under 58." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300110
-relationship: immediately_preceded_by HsapDv:0000150 ! 56 years
+relationship: immediately_preceded_by HsapDv:0000150 ! 56-year-old human stage
 
 [Term]
 id: HsapDv:0000152
-name: 58 years
+name: 58-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 58 and under 59." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300111
-relationship: immediately_preceded_by HsapDv:0000151 ! 57 years
+relationship: immediately_preceded_by HsapDv:0000151 ! 57-year-old human stage
 
 [Term]
 id: HsapDv:0000153
-name: 59 years
+name: 59-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 59 and under 60." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300112
-relationship: immediately_preceded_by HsapDv:0000152 ! 58 years
+relationship: immediately_preceded_by HsapDv:0000152 ! 58-year-old human stage
 
 [Term]
 id: HsapDv:0000154
-name: 60 years
+name: 60-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 60 and under 61." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300113
-relationship: immediately_preceded_by HsapDv:0000153 ! 59 years
+relationship: immediately_preceded_by HsapDv:0000153 ! 59-year-old human stage
 
 [Term]
 id: HsapDv:0000155
-name: 61 years
+name: 61-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 61 and under 62." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300114
-relationship: immediately_preceded_by HsapDv:0000154 ! 60 years
+relationship: immediately_preceded_by HsapDv:0000154 ! 60-year-old human stage
 
 [Term]
 id: HsapDv:0000156
-name: 62 years
+name: 62-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 62 and under 63." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300115
-relationship: immediately_preceded_by HsapDv:0000155 ! 61 years
+relationship: immediately_preceded_by HsapDv:0000155 ! 61-year-old human stage
 
 [Term]
 id: HsapDv:0000157
-name: 63 years
+name: 63-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 63 and under 64." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300116
-relationship: immediately_preceded_by HsapDv:0000156 ! 62 years
+relationship: immediately_preceded_by HsapDv:0000156 ! 62-year-old human stage
 
 [Term]
 id: HsapDv:0000158
-name: 64 years
+name: 64-year-old human stage
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 64 and under 65." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000092 ! middle aged stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
 xref: EV:0300117
-relationship: immediately_preceded_by HsapDv:0000157 ! 63 years
+relationship: immediately_preceded_by HsapDv:0000157 ! 63-year-old human stage
 
 [Term]
 id: HsapDv:0000093
-name: aged stage
+name: human aged stage
 namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 65." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
 synonym: "65+ years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000091 ! late adulthood
+relationship: part_of HsapDv:0000091 ! human late adulthood stage
 
 [Term]
 id: HsapDv:0000094
-name: 65-79 year-old adult stage
+name: 65-79 year-old human stage
 namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is under 80." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000093 ! aged stage
+relationship: part_of HsapDv:0000093 ! human aged stage
 
 [Term]
 id: HsapDv:0000159
-name: 65 years
+name: 65-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 65 and under 66." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300118
-relationship: immediately_preceded_by HsapDv:0000158 ! 64 years
+relationship: immediately_preceded_by HsapDv:0000158 ! 64-year-old human stage
 
 [Term]
 id: HsapDv:0000160
-name: 66 years
+name: 66-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 66 and under 67." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300119
-relationship: immediately_preceded_by HsapDv:0000159 ! 65 years
+relationship: immediately_preceded_by HsapDv:0000159 ! 65-year-old human stage
 
 [Term]
 id: HsapDv:0000161
-name: 67 years
+name: 67-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 67 and under 68." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300120
-relationship: immediately_preceded_by HsapDv:0000160 ! 66 years
+relationship: immediately_preceded_by HsapDv:0000160 ! 66-year-old human stage
 
 [Term]
 id: HsapDv:0000162
-name: 68 years
+name: 68-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 68 and under 69." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300121
-relationship: immediately_preceded_by HsapDv:0000161 ! 67 years
+relationship: immediately_preceded_by HsapDv:0000161 ! 67-year-old human stage
 
 [Term]
 id: HsapDv:0000163
-name: 69 years
+name: 69-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 69 and under 70." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300122
-relationship: immediately_preceded_by HsapDv:0000162 ! 68 years
+relationship: immediately_preceded_by HsapDv:0000162 ! 68-year-old human stage
 
 [Term]
 id: HsapDv:0000164
-name: 70 years
+name: 70-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 70 and under 71." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300124
-relationship: immediately_preceded_by HsapDv:0000163 ! 69 years
+relationship: immediately_preceded_by HsapDv:0000163 ! 69-year-old human stage
 
 [Term]
 id: HsapDv:0000165
-name: 71 years
+name: 71-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 71 and under 72." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300125
-relationship: immediately_preceded_by HsapDv:0000164 ! 70 years
+relationship: immediately_preceded_by HsapDv:0000164 ! 70-year-old human stage
 
 [Term]
 id: HsapDv:0000166
-name: 72 years
+name: 72-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 72 and under 73." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300126
-relationship: immediately_preceded_by HsapDv:0000165 ! 71 years
+relationship: immediately_preceded_by HsapDv:0000165 ! 71-year-old human stage
 
 [Term]
 id: HsapDv:0000167
-name: 73 years
+name: 73-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 73 and under 74." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300127
-relationship: immediately_preceded_by HsapDv:0000166 ! 72 years
+relationship: immediately_preceded_by HsapDv:0000166 ! 72-year-old human stage
 
 [Term]
 id: HsapDv:0000168
-name: 74 years
+name: 74-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 74 and under 75." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300128
-relationship: immediately_preceded_by HsapDv:0000167 ! 73 years
+relationship: immediately_preceded_by HsapDv:0000167 ! 73-year-old human stage
 
 [Term]
 id: HsapDv:0000169
-name: 75 years
+name: 75-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 75 and under 76." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300129
-relationship: immediately_preceded_by HsapDv:0000168 ! 74 years
+relationship: immediately_preceded_by HsapDv:0000168 ! 74-year-old human stage
 
 [Term]
 id: HsapDv:0000170
-name: 76 years
+name: 76-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 76 and under 77." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300130
-relationship: immediately_preceded_by HsapDv:0000169 ! 75 years
+relationship: immediately_preceded_by HsapDv:0000169 ! 75-year-old human stage
 
 [Term]
 id: HsapDv:0000171
-name: 77 years
+name: 77-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 77 and under 78." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300131
-relationship: immediately_preceded_by HsapDv:0000170 ! 76 years
+relationship: immediately_preceded_by HsapDv:0000170 ! 76-year-old human stage
 
 [Term]
 id: HsapDv:0000172
-name: 78 years
+name: 78-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 78 and under 79." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300132
-relationship: immediately_preceded_by HsapDv:0000171 ! 77 years
+relationship: immediately_preceded_by HsapDv:0000171 ! 77-year-old human stage
 
 [Term]
 id: HsapDv:0000173
-name: 79 years
+name: 79-year-old human stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 79 and under 80." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000094 ! 65-79 year-old adult stage
+relationship: part_of HsapDv:0000094 ! 65-79 year-old human stage
 xref: EV:0300133
-relationship: immediately_preceded_by HsapDv:0000172 ! 78 years
+relationship: immediately_preceded_by HsapDv:0000172 ! 78-year-old human stage
 
 [Term]
 id: HsapDv:0000095
-name: 80 and over year-old adult
+name: 80 year-old and over human stage
 namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is over 80." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000093 ! aged stage
-relationship: immediately_preceded_by HsapDv:0000173 ! 79 years
+relationship: part_of HsapDv:0000093 ! human aged stage
+relationship: immediately_preceded_by HsapDv:0000173 ! 79-year-old human stage
 
 [Typedef]
 id: part_of
