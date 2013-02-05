@@ -1,0 +1,633 @@
+format-version: 1.2
+date: 05:02:2013 18:40
+saved-by: admin
+auto-generated-by: OBO-Edit 2.1-beta17
+default-namespace: zebrafish_developmental_stage
+treat-xrefs-as-equivalent: ZFS
+treat-xrefs-as-equivalent: ZFIN
+ontology: drerdv
+
+[Term]
+id: DrerDv:0000000
+name: zebrafish life cycle stage
+def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
+synonym: "developmental stage" EXACT []
+synonym: "stage" NARROW []
+
+[Term]
+id: DrerDv:0000001
+name: zebrafish life cycle
+def: "Temporal interval that defines zebrafish life from embryonic stage until adult stage." [Bgee:curator]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+
+[Term]
+id: DrerDv:0000002
+name: embryonic stage
+def: "Zebrafish life cycle that starts with fertilization and ends with the formed feeding larva." [Bgee:curator]
+comment: This stage usually covers the 3 first days of development (see http://zfin.org/zf_info/zfbook/stages/phar.html).
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000001 ! zebrafish life cycle
+
+[Term]
+id: DrerDv:0000003
+name: zygote:1-cell
+def: "Embryonic stage defined by newly fertilized egg and during which the cytoplasm streams toward animal pole to form blastodisc." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 0 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-4
+xref: ZFS:0000001
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000004
+name: cleavage:2-cell
+def: "Cleavage stage defined by a two-cell embryo with partial cleavage." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 0.75 hpf (hour post-fertilization), the first cleavage occurs about 40 minutes after fertilization.
+xref: ZFIN:ZDB-STAGE-010723-15
+xref: ZFS:0000002
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000047 ! cleavage stage
+
+[Term]
+id: DrerDv:0000005
+name: cleavage:4-cell
+def: "Cleavage stage defined by a four-cell embryo with 2 X 2 array of blastomeres." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 1 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-11
+xref: ZFS:0000003
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000047 ! cleavage stage
+
+[Term]
+id: DrerDv:0000006
+name: cleavage:8-cell
+def: "Cleavage stage defined by a eight-cell embryo with 2 X 4 array of blastomeres." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 1.25 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-33
+xref: ZFS:0000004
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000047 ! cleavage stage
+
+[Term]
+id: DrerDv:0000007
+name: cleavage:16-cell
+def: "Cleavage stage defined by a sixteen-cell embryo whit 4 X 4 array of blastomeres." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 1.5 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-20
+xref: ZFS:0000005
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000047 ! cleavage stage
+
+[Term]
+id: DrerDv:0000008
+name: cleavage:32-cell
+def: "Cleavage stage defined by a thirty-two-cell embryo with 4 X 8 array of blastomeres." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 1.75 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-25
+xref: ZFS:0000006
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000047 ! cleavage stage
+
+[Term]
+id: DrerDv:0000009
+name: cleavage:64-cell
+def: "Cleavage stage defined by a sixty-four-cell embryo with 3 regular tiers of blastomeres." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 2 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-28
+xref: ZFS:0000007
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000047 ! cleavage stage
+
+[Term]
+id: DrerDv:0000010
+name: blastula:128-cell
+def: "Blastula stage defined by a hundred and twenty-eight-cell embryo with 5 blastomere tiers and cleavage planes irregular." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 2.25 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-7
+xref: ZFS:0000008
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000011
+name: blastula:256-cell
+def: "Blastula stage defined by a two hundred and fifty-six-cell embryo with 7 blastomere tiers." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 2.5 hpf (hour post-fertilization), this stage is also reported as preMBT (pre midblastula transition) stage (see http://dev.biologists.org/content/119/2/447.full.pdf).
+xref: ZFIN:ZDB-STAGE-010723-1
+xref: ZFS:0000009
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000012
+name: blastula:512-cell
+def: "Blastula stage defined by a five hundred and twelve-cell embryo with 9 blastomere tiers and during which the YSL (yolk syncytial layer) forms." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 2.75 hpf (hour post-fertilization), this stage is also reported as MBT (midblastula transition) stage beginning (see http://zfin.org/zf_info/zfbook/stages/blast.html).
+xref: ZFIN:ZDB-STAGE-010723-14
+xref: ZFS:0000010
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000013
+name: blastula:1k-cell
+def: "Blastula stage defined by an embryo with 11 blastomere tiers and a single row of YSL (yolk syncytial layer) nuclei with asynchronous cell cycle." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 3 hpf (hour post-fertilization), the MBT (midblastula transition) stage continues (see http://zfin.org/zf_info/zfbook/stages/blast.html).
+xref: ZFIN:ZDB-STAGE-010723-22
+xref: ZFS:0000011
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000014
+name: blastula:high stage
+def: "Blastula stage defined by an embryo with > 11 blastomere tiers and during which the blastodisc flattening begins and YSL (yolk syncytial layer) nuclei are in two rows." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 3.33 hpf (hour post-fertilization), the MBT (midblastula transition) stage continues (see http://zfin.org/zf_info/zfbook/stages/blast.html).
+synonym: "Blastula:High" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-27
+xref: ZFS:0000012
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000015
+name: blastula:oblong stage
+def: "Blastula stage defined by blastodisc flattening and multiple rows of YSL (yolk syncytial layer) nuclei." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 3.66 hpf (hour post-fertilization).
+synonym: "Blastula:Oblong" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-24
+xref: ZFS:0000013
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000016
+name: blastula:sphere stage
+def: "Blastula stage defined by a spherical shape whit flat border between blastodisc and yolk." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 4 hpf (hour post-fertilization).
+synonym: "Blastula:Sphere" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-21
+xref: ZFS:0000014
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000017
+name: blastula:dome stage
+def: "Blastula stage during which yolk cell bulges toward animal pole as epiboly begins." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 4.33 hpf (hour post-fertilization).
+synonym: "Blastula:Dome" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-19
+xref: ZFS:0000015
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000018
+name: blastula:30%-epiboly stage
+def: "Blastula stage during which the blastoderm has the shape of an inverted cup of uniform thickness." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 4.66 hpf (hour post-fertilization).
+synonym: "Blastula:30%-epiboly" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-17
+xref: ZFS:0000016
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000048 ! blastula stage
+
+[Term]
+id: DrerDv:0000019
+name: gastrula:50%-epiboly stage (early event)
+def: "Gastrula stage defined by 50%-epiboly and at which the blastoderm remains of uniform thickness." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 5.25 hpf (hour post-fertilization).
+synonym: "Gastrula:50%-epiboly" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-6
+xref: ZFS:0000017
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000058 ! gastrula stage defined by 50%-epiboly
+
+[Term]
+id: DrerDv:0000020
+name: gastrula:germ-ring stage
+def: "Gastrula stage defined by 50%-epiboly and at which the germ ring is visible from animal pole." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 5.66 hpf (hour post-fertilization).
+synonym: "Gastrula:Germ-ring" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-3
+xref: ZFS:0000018
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000058 ! gastrula stage defined by 50%-epiboly
+
+[Term]
+id: DrerDv:0000021
+name: gastrula:shield stage
+def: "Gastrula stage defined by 50%-epiboly and at which the embryonic shield is visible from animal pole." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 6 hpf (hour post-fertilization).
+synonym: "Gastrula:Shield" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-2
+xref: ZFS:0000019
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000058 ! gastrula stage defined by 50%-epiboly
+
+[Term]
+id: DrerDv:0000022
+name: gastrula:75%-epiboly stage
+def: "Gastrula stage during which the dorsal side is distinctly thicker and the epiblast, the hypoblast and the evacuation zone are visible." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 8 hpf (hour post-fertilization).
+synonym: "Gastrula:75%-epiboly" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-18
+xref: ZFS:0000020
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000049 ! gastrula stage
+
+[Term]
+id: DrerDv:0000023
+name: gastrula:90%-epiboly stage
+def: "Neurula stage during which the axis and the neural plate are visible, with brain and notochord rudiments." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 9 hpf (hour post-fertilization).
+synonym: "Gastrula:90%-epiboly" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-29
+xref: ZFS:0000021
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000050 ! neurula stage
+
+[Term]
+id: DrerDv:0000024
+name: gastrula:bud stage
+def: "Neurula stage at 100%-epiboly and during which the tail bud is prominent with early polster." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 10 hpf (hour post-fertilization).
+synonym: "Gastrula:Bud" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-12
+xref: ZFS:0000022
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000050 ! neurula stage
+
+[Term]
+id: DrerDv:0000025
+name: segmentation:1-4 somites
+def: "Segmentation stage during which the first somite furrow forms." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 10.33 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-23
+xref: ZFS:0000023
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000051 ! segmentation stage
+
+[Term]
+id: DrerDv:0000026
+name: segmentation:5-9 somites
+def: "Segmentation stage during which the polster is prominent with distinct brain primordium thickening into the neural keel; the optic vesicle and the Kupffer's vesicle are visible." [http://zfin.org/zf_info/zfbook/stages/seg_stgs.html#5-somite]
+comment: Embryonic age 11.66 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-5
+xref: ZFS:0000024
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000051 ! segmentation stage
+
+[Term]
+id: DrerDv:0000027
+name: segmentation:10-13 somites
+def: "Segmentation stage during which the pronephros forms." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 14 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-020626-1
+xref: ZFS:0000025
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000051 ! segmentation stage
+
+[Term]
+id: DrerDv:0000028
+name: segmentation:14-19 somites
+def: "Segmentation stage during which the embryo starts to elongate; the otic placode is more visible and brain neuromeres appear." [http://zfin.org/zf_info/zfbook/stages/seg_stgs.html#14-somite]
+comment: Embryonic age 16 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-30
+xref: ZFS:0000026
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000051 ! segmentation stage
+
+[Term]
+id: DrerDv:0000029
+name: segmentation:20-25 somites
+def: "Segmentation stage during which the lens placode appears and the otic placode hollows into the otic vesicle; the embryo length increases with continued development of the tail." [http://zfin.org/zf_info/zfbook/stages/seg_stgs.html#20-somite]
+comment: Embryonic age 19 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-16
+xref: ZFS:0000027
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000051 ! segmentation stage
+
+[Term]
+id: DrerDv:0000030
+name: segmentation:26+ somites
+def: "Segmentation stage defined by distinct blood islands and visible otoliths in each otic vesicle; the midbrain-hindbrain boundary is present." [http://zfin.org/zf_info/zfbook/stages]
+comment: Embryonic age 22 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-34
+xref: ZFS:0000028
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000051 ! segmentation stage
+
+[Term]
+id: DrerDv:0000031
+name: pharyngula:prim-5
+def: "Pharyngula stage during which the leading, posterior end of the posterior lateral line primordium has reached 5 myotomes (somites) during its migration from the head to the tip of the tail." [http://zfin.org/zf_info/zfbook/stages/figs/fig35.html]
+comment: Embryonic age 24 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-10
+xref: ZFS:0000029
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000052 ! pharyngula stage
+
+[Term]
+id: DrerDv:0000032
+name: pharyngula:prim-15
+def: "Pharyngula stage during which the leading, posterior end of the posterior lateral line primordium has reached 15 myotomes (somites) during its migration from the head to the tip of the tail." [http://zfin.org/zf_info/zfbook/stages/figs/fig35.html]
+comment: Embryonic age 30 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-32
+xref: ZFS:0000030
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000052 ! pharyngula stage
+
+[Term]
+id: DrerDv:0000033
+name: pharyngula:prim-25
+def: "Pharyngula stage during which the leading, posterior end of the posterior lateral line primordium has reached 25 myotomes (somites) during its migration from the head to the tip of the tail." [http://zfin.org/zf_info/zfbook/stages/figs/fig35.html]
+comment: Embryonic age 36 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-13
+xref: ZFS:0000031
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000052 ! pharyngula stage
+
+[Term]
+id: DrerDv:0000034
+name: pharyngula:high-pec stage
+def: "Pharyngula stage during which rudiments of pectoral fins appear." [http://zfin.org/zf_info/zfbook/stages/]
+comment: Embryonic age 42 hpf (hour post-fertilization).
+synonym: "Pharyngula:High-pec" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-31
+xref: ZFS:0000032
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000052 ! pharyngula stage
+
+[Term]
+id: DrerDv:0000035
+name: hatching:long-pec stage
+def: "Hatching stage defined by elongated pectoral fin buds." [http://zfin.org/zf_info/zfbook/stages/]
+comment: Embryonic age 48 hpf (hour post-fertilization).
+synonym: "Hatching:Long-pec" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-9
+xref: ZFS:0000033
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000053 ! hatching period
+
+[Term]
+id: DrerDv:0000036
+name: hatching:pec-fin stage
+def: "Hatching stage defined by pectoral fin blades." [http://zfin.org/zf_info/zfbook/stages/]
+comment: Embryonic age 60 hpf (hour post-fertilization).
+synonym: "Hatching:Pec-fin" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-26
+xref: ZFS:0000034
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000053 ! hatching period
+
+[Term]
+id: DrerDv:0000037
+name: larval:protruding-mouth stage
+def: "Larval stage at which the mouth is wide open and protrudes anteriorly just beyond the eye. Gill slits, and prominent buds of developing gill filaments are visible. Cartilage cells are distinctive in branchial arches 1, 2, and 5 but not in branchial arches 3 and 4." [http://zfin.org/zf_info/zfbook/stages/larv_stgs.html]
+comment: This stage defines the end of the third day of development (72 hpf (hour post-fertilization)) and the beginning of the larva.
+synonym: "Larval:Protruding-mouth" EXACT []
+xref: ZFIN:ZDB-STAGE-010723-8
+xref: ZFS:0000035
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000054 ! larval stage
+
+[Term]
+id: DrerDv:0000038
+name: larval:day 4
+def: "Larval stage at 4 days post-fertilization (dpf)." [Bgee:curator]
+comment: Larva at 96 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-35
+xref: ZFS:0000036
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000054 ! larval stage
+
+[Term]
+id: DrerDv:0000039
+name: larval:day 5
+def: "Larval stage at 5 days post-fertilization (dpf)." [Bgee:curator]
+comment: Larva at 120 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-36
+xref: ZFS:0000037
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000054 ! larval stage
+
+[Term]
+id: DrerDv:0000040
+name: larval:day 6
+def: "Larval stage at 6 days post-fertilization (dpf)." [Bgee:curator]
+comment: Larva at 144 hpf (hour post-fertilization).
+xref: ZFIN:ZDB-STAGE-010723-37
+xref: ZFS:0000038
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000054 ! larval stage
+
+[Term]
+id: DrerDv:0000041
+name: larval:days 7-13
+def: "Larval stage that refers to a larva which is over 7 days and under 14 days post-fertilization (dpf)." [Bgee:curator]
+xref: ZFIN:ZDB-STAGE-010723-47
+xref: ZFS:0000039
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000054 ! larval stage
+
+[Term]
+id: DrerDv:0000042
+name: larval:days 14-20
+def: "Larval stage that refers to a larva which is over 14 days and under 21 days post-fertilization (dpf)." [Bgee:curator]
+xref: ZFIN:ZDB-STAGE-010723-48
+xref: ZFS:0000040
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000054 ! larval stage
+
+[Term]
+id: DrerDv:0000043
+name: larval:days 21-29
+def: "Larval stage that refers to a larva which is over 21 days and under 30 days post-fertilization (dpf)." [Bgee:curator]
+xref: ZFIN:ZDB-STAGE-010723-49
+xref: ZFS:0000041
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000054 ! larval stage
+
+[Term]
+id: DrerDv:0000044
+name: juvenile:days 30-44
+def: "Juvenile stage that refers to a larva which is over 30 days and under 45 days post-fertilization (dpf)." [Bgee:curator]
+xref: ZFIN:ZDB-STAGE-010723-51
+xref: ZFS:0000042
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000055 ! juvenile stage
+
+[Term]
+id: DrerDv:0000045
+name: juvenile:days 45-89
+def: "Juvenile stage that refers to a larva which is over 45 days and under 90 days post-fertilization (dpf)." [Bgee:curator]
+comment: This period is the end of the third month of development.
+xref: ZFIN:ZDB-STAGE-010723-52
+xref: ZFS:0000043
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000055 ! juvenile stage
+
+[Term]
+id: DrerDv:0000046
+name: post-embryonic stage
+def: "Developmental stage defined as the stage succeeding embryo and including mature structure." [UBERON:0000092]
+comment: In Zebrafish development this stage begins when the larva appears.
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000001 ! zebrafish life cycle
+
+[Term]
+id: DrerDv:0000047
+name: cleavage stage
+def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000048
+name: blastula stage
+def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum." [UBERON:0000108]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000049
+name: gastrula stage
+def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000050
+name: neurula stage
+def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000051
+name: segmentation stage
+def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000052
+name: pharyngula stage
+def: "Embryonic stage that follows the blastula, gastrula and neurula stages and at which all vertebrate embryos show remarkable similarities." [UBERON:0004707]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000053
+name: hatching period
+def: "Embryonic stage that occurs during a period where usually embryos hatch." [http://zfin.org/zf_info/zfbook/stages/hatch.html]
+comment: The time of hatching is not useful as a staging index for the zebrafish because individuals within a single developing clutch hatch sporadically during the whole third day of development (at standard temperature), and occasionally later.
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000002 ! embryonic stage
+
+[Term]
+id: DrerDv:0000054
+name: larval stage
+def: "Post-embryonic stage that is defined by a larva before metamorphosis into adult in animals undergoing indirect development." [UBERON:0000069]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000046 ! post-embryonic stage
+
+[Term]
+id: DrerDv:0000055
+name: juvenile stage
+def: "Post-embryonic stage that is defined by a sexually immature animal." [UBERON:0000112]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000046 ! post-embryonic stage
+
+[Term]
+id: DrerDv:0000056
+name: adult stage
+def: "Post-embryonic stage that is defined by a sexually mature adult animal." [UBERON:0000113]
+synonym: "Adult" RELATED []
+xref: ZFIN:ZDB-STAGE-010723-39
+xref: ZFS:0000044
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000046 ! post-embryonic stage
+
+[Term]
+id: DrerDv:0000057
+name: unknown
+xref: ZFIN:ZDB-STAGE-050211-1
+xref: ZFS:0000000
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000001 ! zebrafish life cycle
+
+[Term]
+id: DrerDv:0000058
+name: gastrula stage defined by 50%-epiboly
+def: "Gastrula stage during which the beginning of involution defines the onset of gastrulation." [http://zfin.org/zf_info/zfbook/stages/gast.html]
+comment: Embryonic age 5.25 hpf (hour post-fertilization).
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000049 ! gastrula stage
+
+[Term]
+id: DrerDv:0000059
+name: hatching stage at 52 hpf (hour post-fertilization)
+def: "Hatching stage at which blood circulation slowly appears in the elongated pectoral fin buds." [http://zfin.org/zf_info/zfbook/stages/hatch_stgs.html#Long-pec]
+comment: Embryonic age 52 hpf (hour post-fertilization).
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000053 ! hatching period
+
+[Term]
+id: DrerDv:0000060
+name: hatching stage at 56 hpf (hour post-fertilization)
+def: "Hatching stage defined by elongated pectoral fin buds at 56 hpf (hour post-fertilization)." [Bgee:curator]
+comment: Embryonic age 56 hpf (hour post-fertilization).
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000053 ! hatching period
+
+[Term]
+id: DrerDv:0000061
+name: 3 month-old stage
+def: "Adult stage that refers to a zebrafish which is over 3 and under 4 months old." [Bgee:curator]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000056 ! adult stage
+
+[Term]
+id: DrerDv:0000062
+name: 4 month-old stage
+def: "Adult stage that refers to a zebrafish which is over 4 and under 5 months old." [Bgee:curator]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000056 ! adult stage
+
+[Term]
+id: DrerDv:0000063
+name: 5 month-old stage
+def: "Adult stage that refers to a zebrafish which is over 5 and under 6 months old." [Bgee:curator]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000056 ! adult stage
+
+[Term]
+id: DrerDv:0000064
+name: 6 month-old stage and over
+def: "Adult stage that refers to a zebrafish which is over 6 months old." [Bgee:curator]
+is_a: DrerDv:0000000 ! zebrafish life cycle stage
+relationship: part_of DrerDv:0000056 ! adult stage
+
+[Typedef]
+id: part_of
+name: part of
+is_transitive: true
+xref: BFO:0000050
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+is_a: preceded_by ! preceded_by
+xref: RO:0002087 ! immediately_preceded_by
+
