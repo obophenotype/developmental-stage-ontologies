@@ -35,6 +35,7 @@ name: embryonic human stage
 namespace: human_developmental_stage
 synonym: "embryo stage" RELATED []
 def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
+comment: By embryo we mean in the sense of up to the 8th week postfertilization (over 7 and under 8 weeks), we treat fetus as a separate stage.
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 xref: EV:0300001
