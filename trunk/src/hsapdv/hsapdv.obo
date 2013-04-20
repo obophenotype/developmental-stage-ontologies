@@ -497,6 +497,7 @@ namespace: human_developmental_stage
 def: "Fetal stage that refers to the fourth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000037 ! fetal stage
+relationship: immediately_preceded_by HsapDv:0000197 ! third LMP month human stage
 
 [Term]
 id: HsapDv:0000049
@@ -546,6 +547,7 @@ namespace: human_developmental_stage
 def: "Fetal stage that refers to the fifth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000037 ! fetal stage
+relationship: immediately_preceded_by HsapDv:0000198 ! fourth LMP month human stage
 
 [Term]
 id: HsapDv:0000053
@@ -595,6 +597,7 @@ namespace: human_developmental_stage
 def: "Fetal stage that refers to the sixth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000037 ! fetal stage
+relationship: immediately_preceded_by HsapDv:0000199 ! fifth LMP month human stage
 
 [Term]
 id: HsapDv:0000057
@@ -656,6 +659,7 @@ namespace: human_developmental_stage
 def: "Fetal stage that refers to the seventh month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000037 ! fetal stage
+relationship: immediately_preceded_by HsapDv:0000200 ! sixth LMP month human stage
 
 [Term]
 id: HsapDv:0000062
@@ -705,6 +709,7 @@ namespace: human_developmental_stage
 def: "Fetal stage that refers to the eighth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000037 ! fetal stage
+relationship: immediately_preceded_by HsapDv:0000201 ! seventh LMP month human stage
 
 [Term]
 id: HsapDv:0000066
@@ -764,6 +769,7 @@ namespace: human_developmental_stage
 def: "Fetal stage that refers to the ninth month of gestation starting from the last menstrual period (LMP)." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000037 ! fetal stage
+relationship: immediately_preceded_by HsapDv:0000202 ! eighth LMP month human stage
 
 [Term]
 id: HsapDv:0000071
