@@ -476,6 +476,7 @@ def: "Fetal stage when the fetus is over 9 and under 10 weeks of development." [
 comment: The fingernails and toenails begin to develop and unique fingerprints appear. Ossification is underway in most bones (see http://ehd.org/resources_bpd_documentation_english.php).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000197 ! third LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000046 ! 9th week post-fertilization human stage
 xref: EV:0300013
 
 [Term]
@@ -486,6 +487,7 @@ def: "Fetal stage when the fetus is over 10 and under 11 weeks of development." 
 comment: The nose and lips are completely formed, and external genitalia can be distinguished as male or female (see http://ehd.org/resources_bpd_documentation_english.php). 
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000197 ! third LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000047 ! 10th week post-fertilization human stage
 xref: EV:0300030
 
 [Term]
@@ -504,6 +506,7 @@ def: "Fetal stage when the fetus is over 11 and under 12 weeks of development." 
 comment: Upper limb length has nearly reached its final proportion to body size (see http://ehd.org/resources_bpd_documentation_english.php). The assignation of this week to the fourth or third LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000048 ! 11th week post-fertilization human stage
 xref: EV:0300014
 
 [Term]
@@ -513,6 +516,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 12 and under 13 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000049 ! 12th week post-fertilization human stage
 xref: EV:0300015
 
 [Term]
@@ -522,6 +526,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 13 and under 14 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000050 ! 13th week post-fertilization human stage
 xref: EV:0300016
 
 [Term]
@@ -531,6 +536,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 14 and under 15 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000198 ! fourth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000051 ! 14th week post-fertilization human stage
 xref: EV:0300031
 
 [Term]
@@ -549,6 +555,7 @@ def: "Fetal stage when the fetus is over 15 and under 16 weeks of development." 
 comment: The assignation of this week to the fifth or fourth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000052 ! 15th week post-fertilization human stage
 xref: EV:0300017
 
 [Term]
@@ -558,6 +565,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 16 and under 17 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000053 ! 16th week post-fertilization human stage
 xref: EV:0300018
 
 [Term]
@@ -567,6 +575,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 17 and under 18 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000054 ! 17th week post-fertilization human stage
 xref: EV:0300019
 
 [Term]
@@ -576,6 +585,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 18 and under 19 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000199 ! fifth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000055 ! 18th week post-fertilization human stage
 xref: EV:0300020
 
 [Term]
@@ -594,6 +604,7 @@ def: "Fetal stage when the fetus is over 19 and under 20 weeks of development." 
 comment: The cochlea has reached adult size within the fully developed inner ear (see http://ehd.org/resources_bpd_documentation_english.php). The assignation of this week to the sixth or fifth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000056 ! 19th week post-fertilization human stage
 xref: EV:0300021
 
 [Term]
@@ -604,6 +615,7 @@ def: "Fetal stage when the fetus is over 20 and under 21 weeks of development." 
 comment: The lungs gain some ability to breathe air. This stage is considered the age of viability because survival outside the womb becomes possible for some fetuses (see http://ehd.org/resources_bpd_documentation_english.php).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000057 ! 20th week post-fertilization human stage
 xref: EV:0300029
 
 [Term]
@@ -613,6 +625,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 21 and under 22 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000058 ! 21st week post-fertilization human stage
 xref: EV:0300022
 
 [Term]
@@ -622,6 +635,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 22 and under 23 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000059 ! 22nd week post-fertilization human stage
 xref: EV:0300023
 
 [Term]
@@ -632,6 +646,7 @@ def: "Fetal stage when the fetus is over 23 and under 24 weeks of development." 
 comment: The eyelids reopen (see http://ehd.org/resources_bpd_documentation_english.php). 
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000200 ! sixth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000060 ! 23rd week post-fertilization human stage
 xref: EV:0300024
 
 [Term]
@@ -650,6 +665,7 @@ def: "Fetal stage when the fetus is over 24 and under 25 weeks of development." 
 comment: The assignation of this week to the seventh or sixth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000061 ! 24th week post-fertilization human stage
 xref: EV:0300032
 
 [Term]
@@ -659,6 +675,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 25 and under 26 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000062 ! 25th week post-fertilization human stage
 xref: EV:0300025
 
 [Term]
@@ -668,6 +685,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 26 and under 27 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000063 ! 26th week post-fertilization human stage
 xref: EV:0300033
 
 [Term]
@@ -677,6 +695,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 27 and under 28 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000201 ! seventh LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000064 ! 27th week post-fertilization human stage
 xref: EV:0300026
 
 [Term]
@@ -695,6 +714,7 @@ def: "Fetal stage when the fetus is over 28 and under 29 weeks of development." 
 comment: The assignation of this week to the eighth or seventh LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000065 ! 28th week post-fertilization human stage
 xref: EV:0300034
 
 [Term]
@@ -704,6 +724,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 29 and under 30 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000066 ! 29th week post-fertilization human stage
 xref: EV:0300035
 
 [Term]
@@ -713,6 +734,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 30 and under 31 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000067 ! 30th week post-fertilization human stage
 xref: EV:0300036
 
 [Term]
@@ -722,6 +744,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 31 and under 32 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000068 ! 31st week post-fertilization human stage
 xref: EV:0300027
 
 [Term]
@@ -732,6 +755,7 @@ def: "Fetal stage when the fetus is over 32 and under 33 weeks of development." 
 comment: The assignation of this week to the eighth or ninth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000202 ! eighth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000069 ! 32nd week post-fertilization human stage
 
 [Term]
 id: HsapDv:0000203
@@ -748,6 +772,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 33 and under 34 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000070 ! 33rd week post-fertilization human stage
 
 [Term]
 id: HsapDv:0000072
@@ -756,6 +781,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 34 and under 35 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000071 ! 34th week post-fertilization human stage
 
 [Term]
 id: HsapDv:0000073
@@ -764,6 +790,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 35 and under 36 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000072 ! 35th week post-fertilization human stage
 
 [Term]
 id: HsapDv:0000074
@@ -772,6 +799,7 @@ namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 36 and under 37 weeks of development." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000073 ! 36th week post-fertilization human stage
 
 [Term]
 id: HsapDv:0000075
@@ -781,6 +809,7 @@ def: "Fetal stage when the fetus is over 37 weeks of development and until birth
 comment: The assignation of this week to the ninth or tenth LMP month is debatable (see http://en.wikipedia.org/wiki/File:Prenatal_development_table.svg).
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000203 ! ninth LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000074 ! 37th week post-fertilization human stage
 
 [Term]
 id: HsapDv:0000080
