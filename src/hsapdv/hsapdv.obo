@@ -140,6 +140,7 @@ namespace: human_developmental_stage
 def: "Carnegie developmental stage 5 defined by a trophoblastic lacunae." [http://nmhm.washingtondc.museum/collections/hdac/Stages_Table.htm "adapted from"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000009 ! CarnegieStage05
+relationship: immediately_preceded_by HsapDv:0000031 ! Carnegie stage 05a
 xref: XUO:0000188
 xref: EHDAA2:CS05b ! CS05b
 synonym: "CS05b" EXACT [EHDAA2:CS05b]
@@ -151,6 +152,7 @@ namespace: human_developmental_stage
 def: "Carnegie developmental stage 5 defined by a lacunar vascular circle." [http://nmhm.washingtondc.museum/collections/hdac/Stages_Table.htm "adapted from"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000009 ! CarnegieStage05
+relationship: immediately_preceded_by HsapDv:0000032 ! Carnegie stage 05b
 xref: XUO:0000189
 xref: EHDAA2:CS05c ! CS05c
 synonym: "CS05c" EXACT [EHDAA2:CS05c]
@@ -173,6 +175,7 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000010 ! gastrula stage
 xref: XUO:0000135
 relationship: immediately_preceded_by HsapDv:0000009 ! Carnegie stage 05
+relationship: immediately_preceded_by HsapDv:0000033 ! Carnegie stage 05c
 synonym: "CS06" EXACT []
 
 [Term]
@@ -182,6 +185,8 @@ namespace: human_developmental_stage
 def: "Carnegie developmental stage 6 during which chorionic villi appear." [http://nmhm.washingtondc.museum/collections/hdac/Stages_Table.htm "adapted from"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000011 ! CarnegieStage06
+relationship: immediately_preceded_by HsapDv:0000009 ! Carnegie stage 05
+relationship: immediately_preceded_by HsapDv:0000033 ! Carnegie stage 05c
 xref: XUO:0000190
 xref: EHDAA2:CS06a ! CS06a
 synonym: "CS06a" EXACT [EHDAA2:CS06a]
@@ -193,6 +198,7 @@ namespace: human_developmental_stage
 def: "Carnegie developmental stage 6 during which the primitive streak appears." [http://nmhm.washingtondc.museum/collections/hdac/Stages_Table.htm "adapted from"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000011 ! CarnegieStage06
+relationship: immediately_preceded_by HsapDv:0000034 ! Carnegie stage 06a
 xref: XUO:0000191
 xref: EHDAA2:CS06b ! CS06b
 synonym: "CS06b" EXACT [EHDAA2:CS06b]
@@ -216,6 +222,7 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000012 ! neurula stage
 xref: XUO:0000136
 relationship: immediately_preceded_by HsapDv:0000011 ! Carnegie stage 06
+relationship: immediately_preceded_by HsapDv:0000035 ! Carnegie stage 06b
 xref: EHDAA2:CS07 ! CS07
 synonym: "CS07" EXACT [EHDAA2:CS07]
 
