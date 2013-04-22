@@ -1,0 +1,72 @@
+#summary Recording timings of stages in stage ontologies
+
+= Introduction =
+
+This describes ongoing work on adding timings to stages. Contributions welcome.
+
+= Background =
+
+Developmental and life cycle stages can have their starts and ends defined by some combination of
+
+ * marker structures of events (e.g. limb appearance, gastrulation)
+ * timings (e.g. days post fertilization)
+
+In complex organisms actual timings of marker structures may vary from organism to organism. Some species may be affected by temperature. It should therefore be understood that any time a precise time is associated with an event this refers to some reference/textbook structure, and actual timings may vary.
+
+= Details =
+
+
+The HsapDv ontology includes OWL annotation assertion axioms that
+describe the typical start and end boundaries for a stage in terms of
+some unit and reference point. These can be thought of as class-level
+relations.
+
+In obo-format they are written as follows:
+
+{{{
+[Term]
+id: HsapDv:0000048
+name: 11th week post-fertilization human stage
+def: "Fetal stage when the fetus is over 10 and under 11 weeks of development." [Bgee:curator "Bgee"] 
+comment: The nose and lips are completely formed, and external genitalia can be distinguished as male or female (see http://ehd.org/resources_bpd_documentation_english.php). 
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000197 ! third LMP month human stage
+relationship: immediately_preceded_by HsapDv:0000047 ! 10th week post-fertilization human stage
+property_value: start_dpf "70.0" xsd:float
+property_value: end_dpf "77.0" xsd:float
+xref: EV:0300030
+}}}
+
+Note that these will not be visible in obo-edit - we recommend you
+view the OWL version.
+
+As these are OWL annotations, they are logically silent. They are
+designed to be used to generare OWL axioms that are useful for
+particular applications. OPPL scripts will be provided for this.
+
+One possibility is to generate hasValue axioms - e.g.
+
+{{{
+Class: '11th week post-fertilization human stage'
+SubClassOf: 'has start, days post-fertilization' value 70.0^^xsd:float
+}}}
+
+This may not be appropriate for the Carnegie stages, which are defined
+by markers, and may vary in the time of their appearance from
+individual to individual.
+
+Another possibility is to make the units and reference point
+explicit, for example:
+
+{{{
+Class: '11th week post-fertilization human stage'
+SubClassOf: 
+  'starts at end of' 
+     (duration and 'starts at end of' some fertilization and 
+      'has duration some (owl-time:days 70))
+}}}
+
+Note with all explicit OWL representations we run into the
+co-reference issue; all timings are assumed to be relative to a
+particular life cycle.
+
