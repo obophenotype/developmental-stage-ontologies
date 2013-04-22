@@ -15,6 +15,19 @@ In complex organisms actual timings of marker structures may vary from organism 
 
 = Details =
 
+== Properties/Relations ==
+
+We use a number of annotation properties to connect stages to start/end timings or markers. Examples
+
+ * start and end days post-fertilization
+ * months or years since birth
+ * marker event
+
+We use logically silent annotation properties because the correct OWL modeling is difficult. Applications can expand to OWL for their own purposes.
+
+== Examples ==
+
+Currently the most well-developed examples are in HsapDv
 
 The HsapDv ontology includes OWL annotation assertion axioms that
 describe the typical start and end boundaries for a stage in terms of
@@ -39,6 +52,8 @@ xref: EV:0300030
 
 Note that these will not be visible in obo-edit - we recommend you
 view the OWL version.
+
+== Expansion in OWL ==
 
 As these are OWL annotations, they are logically silent. They are
 designed to be used to generare OWL axioms that are useful for
@@ -69,4 +84,3 @@ SubClassOf:
 Note with all explicit OWL representations we run into the
 co-reference issue; all timings are assumed to be relative to a
 particular life cycle.
-
