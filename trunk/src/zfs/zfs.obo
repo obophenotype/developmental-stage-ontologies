@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 30:09:2008 09:24
-saved-by: Melissa  Haendel
-auto-generated-by: OBO-Edit 2.000-beta49
+date: 14:05:2013 14:25
+saved-by: yvonne
+auto-generated-by: OBO-Edit 2.2
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
 ontology: zfs
@@ -402,6 +402,7 @@ relationship: part_of ZFS:0000051 ! juvenile
 id: ZFS:0000044
 name: adult
 namespace: zebrafish_stages
+comment: The adult stage.
 xref: ZFIN:ZDB-STAGE-010723-39
 is_a: ZFS:0100000 ! zebrafish stage
 relationship: immediately_preceded_by ZFS:0000043 ! Juvenile:Days 45-89
@@ -460,10 +461,17 @@ name: zebrafish stage
 namespace: zebrafish_stages
 
 [Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+xref: RO:0002087
+is_a: preceded_by ! preceded_by
+
+[Typedef]
 id: part_of
 name: part of
-is_transitive: true
 xref: BFO:0000050
+is_transitive: true
 
 [Typedef]
 id: preceded_by
@@ -472,9 +480,3 @@ def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
 xref: BFO:0000062
 is_transitive: true
 
-[Typedef]
-id: immediately_preceded_by
-name: immediately_preceded_by
-def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
-is_a: preceded_by ! preceded_by
-xref: RO:0002087 ! immediately_preceded_by
