@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 14:05:2013 14:25
-saved-by: yvonne
-auto-generated-by: OBO-Edit 2.2
+date: 14:05:2013 14:33
+saved-by: Ceri
+auto-generated-by: OBO-Edit 2.3-beta5
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
 ontology: zfs
@@ -402,7 +402,6 @@ relationship: part_of ZFS:0000051 ! juvenile
 id: ZFS:0000044
 name: adult
 namespace: zebrafish_stages
-comment: The adult stage.
 xref: ZFIN:ZDB-STAGE-010723-39
 is_a: ZFS:0100000 ! zebrafish stage
 relationship: immediately_preceded_by ZFS:0000043 ! Juvenile:Days 45-89
