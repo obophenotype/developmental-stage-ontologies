@@ -735,11 +735,10 @@ id: MmusDv:0000040
 name: adult stage
 namespace: mouse_developmental_stage
 def: "Mouse developmental stage that refers to a mouse which is over 5 weeks old." [Bgee:curator "Bgee"]
-comment: The organisation of the postnatal development time in mouse is debatable, literature usually refers to mature or immature mice, with milestone around 6-8 weeks post-natal.
+comment: This term was obsoleted to include the mature stage into the ontology. Both terms have the same children, but contains of children (children of children) differ. The organisation of the postnatal development time in mouse is debatable, literature usually refers to mature or immature mice, with milestone around 6-8 weeks post-natal.
 synonym: "mature" EXACT []
 is_obsolete: true
 replaced_by: MmusDv:0000110
-comment: This term was obsoleted to include the mature stage into the ontology. Both terms have the same children, but contains of children (children of children) differ.
 
 [Term]
 id: MmusDv:0000041
