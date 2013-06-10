@@ -2,11 +2,18 @@
 
 = Introduction =
 
-This page summarizes relations to be used
+This page summarizes relations to be used.
+
+Clicking on a relation will provide documentation. You can also see how this relation is being used in other ontologies. e.g zfs.
 
 = Details =
+
+== Core Stage Relations ==
 
  * [http://purl.obolibrary.org/obo/BFO_0000050] part_of - to connect sub-stages to stages that temporally contain them
  * [http://purl.obolibrary.org/obo/BFO_0000062] preceded by - note this is the transitive version - so "CS20 preceded_by CS1" is true
  * [http://purl.obolibrary.org/obo/RO_0002087] starts at end of - aka *immediately preceded by* - e.g CS20 preceded_by CS19
- *  
+ 
+== Timing Relations ==
+
+These are still experimental. Look at individual ontologies for details
