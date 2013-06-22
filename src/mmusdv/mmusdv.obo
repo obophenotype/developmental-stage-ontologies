@@ -47,8 +47,8 @@ def: "Embryonic stage defined by a one-cell embryo (fertilised egg) with zona pe
 comment: "Starts the mouse development sequence, range from embryonic age 0-0.9 dpc (day post coitum). Assumes that fertilization takes place around midnight during a 7pm to 5am dark cycle. Noon of the day on which the vaginal plug is found the embryos are aged 0.5 d.p.c (days post coitum)." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Timed_Pregnancy "adapted from"]
 synonym: "zygote stage" RELATED []
 xref: XUO:0000045
+synonym: "Theiler stage 1" EXACT []
 synonym: "TS01 (E0-2.5)" RELATED [EMAPA:TS01]
-synonym: "TS01" EXACT []
 synonym: "E0-2.5" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
@@ -71,7 +71,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic cleavage stage defined by a dividing 2-4 cells egg." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_2 "adapted from"]
 comment: Embryonic age 1 dpc (day post coitum).
 xref: XUO:0000046
+synonym: "Theiler stage 2" EXACT []
 synonym: "TS02 (E1-2.5)" RELATED [EMAPA:TS02]
+synonym: "Theiler stage 2" EXACT []
 synonym: "TS02" EXACT []
 synonym: "E1-2.5" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -87,7 +89,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic cleavage stage defined by a dividing 4-16 cells egg, early to fully compacted morula." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_3 "adapted from"]
 comment: Embryonic age 2 dpc (day post coitum).
 xref: XUO:0000047
+synonym: "Theiler stage 3" EXACT []
 synonym: "TS03 (E1-3.5)" RELATED [EMAPA:TS03]
+synonym: "Theiler stage 3" EXACT []
 synonym: "TS03" EXACT []
 synonym: "E1-3.5" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -112,7 +116,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic blastula stage defined by a dividing 16-40 cells egg, with early evidence of the blastocoelic cavity." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_4 "adapted from"]
 comment: Embryonic age 3 dpc (day post coitum).
 xref: XUO:0000048
+synonym: "Theiler stage 4" EXACT []
 synonym: "TS04 (E2-4)" RELATED [EMAPA:TS04]
+synonym: "Theiler stage 4" EXACT []
 synonym: "TS04" EXACT []
 synonym: "E2-4" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -128,7 +134,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic blastula stage defined by a zona free blastocyst (zona pellucida absent)." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_5 "adapted from"]
 comment: Embryonic age 4 dpc (day post coitum).
 xref: XUO:0000049
+synonym: "Theiler stage 5" EXACT []
 synonym: "TS05 (E3-5.5)" RELATED [EMAPA:TS05]
+synonym: "Theiler stage 5" EXACT []
 synonym: "TS05" EXACT []
 synonym: "E3-5.5" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -145,7 +153,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic blastula stage during which the blastocyst attaches, with first evidence of embryonic endoderm cells covering the blastocoelic surface of the inner cell mass." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_6 "adapted from"]
 comment: Embryonic age 4.5 dpc (day post coitum). Refers to human CarnegieStage04.
 xref: XUO:0000050
+synonym: "Theiler stage 6" EXACT []
 synonym: "TS06 (E4-5.5)" RELATED [EMAPA:TS06]
+synonym: "Theiler stage 6" EXACT []
 synonym: "TS06" EXACT []
 synonym: "E4-5.5" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -161,7 +171,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic blastula stage defined by implantation and formation of the egg cylinder resulting from the rapid increase in the number of inner cell mass cells." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_7 "adapted from"]
 comment: Embryonic age 5 dpc (day post coitum). Refers to human CarnegieStage05.
 xref: XUO:0000051
+synonym: "Theiler stage 7" EXACT []
 synonym: "TS07 (E4.5-6)" RELATED [EMAPA:TS07]
+synonym: "Theiler stage 7" EXACT []
 synonym: "TS07" EXACT []
 synonym: "E4.5-6" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -178,7 +190,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic blastula stage during which the egg cylinder differentiates into embryonic and extra-embryonic regions, and the pro-amniotic cavity appears." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_8 "adapted from"]
 comment: Embryonic age 6 dpc (day post coitum). Refers to human CarnegieStage05.
 xref: XUO:0000052
+synonym: "Theiler stage 8" EXACT []
 synonym: "TS08 (E5-6.5)" RELATED [EMAPA:TS08]
+synonym: "Theiler stage 8" EXACT []
 synonym: "TS08" EXACT []
 synonym: "E5-6.5" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -202,7 +216,9 @@ namespace: mouse_developmental_stage
 def: "Embryonic gastrula stage during which gastrulation starts with first evidence of mesoderm and visible embryonic axis." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_9 "adapted from"]
 comment: Embryonic age 6.5 dpc (day post coitum).
 xref: XUO:0000053
+synonym: "Theiler stage 9" EXACT []
 synonym: "TS09 (E6.25-7.25)" RELATED [EMAPA:TS09]
+synonym: "Theiler stage 9" EXACT []
 synonym: "TS09" EXACT []
 synonym: "E6.25-7.25" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
@@ -219,6 +235,7 @@ namespace: mouse_developmental_stage
 def: "Theiler developmental stage 9 defined by advanced endometrial reaction and during which the egg-cylinder stage advances with the first evidence of an embryonic axis." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Stage_9a "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000014 ! Theiler stage 09
+synonym: "Theiler stage 9" EXACT []
 synonym: "TS09a" EXACT []
 
 [Term]
@@ -229,6 +246,7 @@ def: "Theiler developmental stage 9 defined by advanced endometrial reaction and
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000014 ! Theiler stage 09
 relationship: immediately_preceded_by MmusDv:0000103 ! Theiler stage 09a
+synonym: "Theiler stage 9" EXACT []
 synonym: "TS09b" EXACT []
 
 [Term]
