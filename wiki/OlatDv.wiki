@@ -1,0 +1,18 @@
+#summary Medaka developmental stage ontology
+
+= Introduction =
+
+This page describes the medaka stage ontology (OlatDv)
+
+OlatDv is based on the original medaka stage ontology MFO (	http://obo.cvs.sourceforge.net/*checkout*/obo/obo/ontology/anatomy/gross_anatomy/animal_gross_anatomy/fish/medaka_ontology.obo) by Thorsten Henrich.
+
+Currently it includes only pre-adult stages.
+
+= Download =
+
+ * purl.obolibrary.org/obo/olatdv.obo
+ * purl.obolibrary.org/obo/olatdv.owl
+
+= Browse =
+
+This is not yet registered, so you cannot browse in OntoBee.
