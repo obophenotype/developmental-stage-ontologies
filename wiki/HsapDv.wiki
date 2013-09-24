@@ -10,7 +10,7 @@ Currently it includes both embryonic stages and adult stages.
 
 = Download =
 
- * http://purl.obolibrary.org/obo/hsapdb.obo
+ * http://purl.obolibrary.org/obo/hsapdv.obo
  * http://purl.obolibrary.org/obo/hsapdv.owl
 
 = Browse =
