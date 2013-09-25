@@ -18,4 +18,6 @@ Note that a direct SubClassOf / is_a should be used to connect two stages when t
 
 == Timing Relations ==
 
-These are still experimental. Look at individual ontologies for details
+These are still experimental. Look at individual ontologies for details.
+
+See [Timings] page
