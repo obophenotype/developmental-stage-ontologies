@@ -10,8 +10,8 @@ Currently it includes both embryonic stages and adult stages.
 
 = Download =
 
- * purl.obolibrary.org/obo/mmusdv.obo
- * purl.obolibrary.org/obo/mmusdv.owl
+ * http://purl.obolibrary.org/obo/mmusdv.obo
+ * http://purl.obolibrary.org/obo/mmusdv.owl
 
 = Browse =
 
