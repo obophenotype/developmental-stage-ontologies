@@ -537,6 +537,7 @@ namespace: human_developmental_stage
 synonym: "foetus stage" RELATED []
 synonym: "fetus stage" RELATED []
 def: "Prenatal stage that starts with the fully formed embryo and ends at birth." [Bgee:curator "Bgee"]
+comment: Prenatal development is a continuum, with no clear defining feature distinguishing an embryo from a fetus. The use of the term "fetus" generally implies that a mammalian embryo has developed to the point of being recognizable as belonging to its own species, though the point at which this occurs is subjective. [Wikipedia:Fetus]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 property_value: start_dpf "56.0" xsd:float
