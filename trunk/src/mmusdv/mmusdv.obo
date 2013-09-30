@@ -672,7 +672,8 @@ id: MmusDv:0000043
 name: immature stage
 namespace: mouse_developmental_stage
 def: "Mouse developmental stage that covers the period from birth until 5 weeks old." [Bgee:curator "Bgee"]
-comment: The organisation of the postnatal development time in mouse is debatable, it is commonly accepted that mouse reaches sexual maturity by six weeks of age (see http://www.ahc.umn.edu/rar/breeding.html).synonym: "postnatal development" RELATED []
+comment: The organisation of the postnatal development time in mouse is debatable, it is commonly accepted that mouse reaches sexual maturity by six weeks of age (see http://www.ahc.umn.edu/rar/breeding.html).
+synonym: "postnatal development" RELATED []
 synonym: "TheilerStage28" RELATED []
 synonym: "Theiler stage 28" RELATED []
 synonym: "TS28 (P0-Adult)" RELATED [EMAP:TS28]
