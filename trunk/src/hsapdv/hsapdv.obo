@@ -35,12 +35,13 @@ property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "266.0" xsd:float
 
 [Term]
-id: HsapDv:0000002
+id: HsapDv:0000002 ! embryonic human stage
 name: embryonic human stage
 namespace: human_developmental_stage
 synonym: "embryo stage" RELATED []
 def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
 comment: By embryo we mean in the sense of up to the 8th week postfertilization (over 7 and under 8 weeks), we treat fetus as a separate stage.
+synonym: "first trimester" RELATED [http://en.wikipedia.org/wiki/Gestational_age]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
@@ -536,10 +537,12 @@ name: fetal stage
 namespace: human_developmental_stage
 synonym: "foetus stage" RELATED []
 synonym: "fetus stage" RELATED []
+synonym: "second and third trimester" RELATED [http://en.wikipedia.org/wiki/Gestational_age]
 def: "Prenatal stage that starts with the fully formed embryo and ends at birth." [Bgee:curator "Bgee"]
 comment: Prenatal development is a continuum, with no clear defining feature distinguishing an embryo from a fetus. The use of the term "fetus" generally implies that a mammalian embryo has developed to the point of being recognizable as belonging to its own species, though the point at which this occurs is subjective. [Wikipedia:Fetus]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
+relationship: immediately_preceded_by HsapDv:0000002 ! embryonic human stage
 property_value: start_dpf "56.0" xsd:float
 property_value: end_dpf "266.0" xsd:float
 xref: EV:0300011
@@ -1023,6 +1026,7 @@ name: newborn human stage
 namespace: human_developmental_stage
 def: "Immature stage that refers to a newborn who is under 32 days old." [Bgee:curator "Bgee"]
 synonym: "neonate" RELATED []
+synonym: "neonatal stage" RELATED []
 synonym: "0-1 month" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000080 ! immature stage
@@ -1037,6 +1041,7 @@ name: infant stage
 namespace: human_developmental_stage
 def: "Immature stage that refers to an infant who is over 31 days and is under 24 months old." [Bgee:curator "Bgee"]
 synonym: "1-23 months" EXACT []
+synonym: "infantile stage" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000080 ! immature stage
 property_value: start_ypb "0.083" xsd:float
@@ -2479,6 +2484,7 @@ def: "Defines the start and end of a stage with a duration of 1 month, relative 
 is_metadata_tag: true
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035 ! month
+xref: Wikipedia:Gestational_age
 is_a: has_start_time
 is_a: has_end_time
 
