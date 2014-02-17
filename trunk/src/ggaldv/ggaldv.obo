@@ -75,8 +75,19 @@ synonym: "mature" EXACT []
 def: "Chicken developmental stage that refers to a sexually mature adult chicken which is over 5 months old." [Bgee:curator "Bgee"]
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
+property_value: start_mph "5.0" xsd:float
 relationship: immediately_preceded_by GgalDv:0000003 ! immature stage
 property_value: start_mph "1.0" xsd:float
+
+[Term]
+id: GgalDv:0000007
+name: 1-year-old chicken stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 12 and under 24 months old." [Bgee:curator "Bgee"]
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000006 ! mature stage
+property_value: start_mph "12.0" xsd:float
+property_value: end_mph "24.0" xsd:float
 
 [Typedef]
 id: part_of
