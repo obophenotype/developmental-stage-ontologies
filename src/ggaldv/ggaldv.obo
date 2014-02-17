@@ -77,7 +77,6 @@ is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
 property_value: start_mph "5.0" xsd:float
 relationship: immediately_preceded_by GgalDv:0000003 ! immature stage
-property_value: start_mph "1.0" xsd:float
 
 [Term]
 id: GgalDv:0000007
