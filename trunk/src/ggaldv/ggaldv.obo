@@ -88,6 +88,16 @@ relationship: part_of GgalDv:0000006 ! mature stage
 property_value: start_mph "12.0" xsd:float
 property_value: end_mph "24.0" xsd:float
 
+
+[Term]
+id: GgalDv:0000008
+name: 2-year-old and over chicken stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 24 months old." [Bgee:curator "Bgee"]
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000006 ! mature stage
+property_value: start_mph "24.0" xsd:float
+
 [Typedef]
 id: part_of
 name: part of
