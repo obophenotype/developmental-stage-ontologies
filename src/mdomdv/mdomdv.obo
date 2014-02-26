@@ -1,0 +1,168 @@
+format-version: 1.2
+date: 10:02:2014 09:09
+saved-by: ann
+default-namespace: opossum_stages_ontology
+ontology: mdomdv
+
+[Term]
+id: MdomDv:0000000
+name: opossum life cycle stage
+def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
+synonym: "developmental stage" EXACT []
+synonym: "stage" NARROW []
+
+[Term]
+id: MdomDv:0000001
+name: opossum life cycle
+namespace: opossum_developmental_stage
+def: "Temporal interval that defines opossum life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+is_a: MdomDv:0000000 ! opossum life cycle stage
+
+[Term]
+id: MdomDv:0000002
+name: prenatal stage
+namespace: opossum_developmental_stage
+def: "opossum life cycle that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
+comment: gestation time is 15 days of development (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+is_a: MdomDv:0000000 ! opossum life cycle stage
+relationship: part_of MdomDv:0000001 ! opossum life cycle
+property_value: start_dpf "0.0" xsd:float
+property_value: end_dpf "15.0" xsd:float
+
+[Term]
+id: MdomDv:0000003
+name: immature stage
+namespace: opossum_developmental_stage
+def: "opossum developmental stage that covers the period from birth until 4 months old." [Bgee:curator "Bgee"]
+comment: male and female opossum reach sexual maturity by 122 days of age (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+synonym: "postnatal development" RELATED []
+is_a: MdomDv:0000000 ! opossum life cycle stage
+relationship: part_of MdomDv:0000001 ! opossum life cycle
+relationship: immediately_preceded_by MdomDv:0000002 ! prenatal stage
+property_value: start_dpf "15.0" xsd:float
+property_value: start_mpb "0.0" xsd:float
+property_value: end_mpb "4.0" xsd:float
+
+[Term]
+id: MdomDv:0000004
+name: pouch young stage
+namespace: opossum_developmental_stage
+def: "immature stage that refers to the first 2 weeks period when the young is permanently attached to the nipple." [Bgee:curator "Bgee"]
+comment: Immediately after birth, the neonate is attached to the nipple for 2 weeks before being transferred to the nest or carried on the mother's back (see http://www.faunaparaguay.com/mamm10Monodelphisdomestica.pdf). While Monodelphis domestica is a pouch-less marsupial, literature talks about pouch youngs for this marsupial species (see http://www.ncbi.nlm.nih.gov/pubmed/?term=7750642).
+is_a: MdomDv:0000000 ! opossum life cycle stage
+relationship: part_of MdomDv:0000003 ! immature stage
+property_value: start_dpf "15.0" xsd:float
+property_value: start_wpb "0.0" xsd:float
+property_value: end_wpb "2.0" xsd:float
+
+[Term]
+id: MdomDv:0000005
+name: juvenile stage
+namespace: opossum_developmental_stage
+def: "immature stage that covers the period from 2 weeks old, when the hair growth begins, until 4 months old." [Bgee:curator "Bgee"]
+is_a: MdomDv:0000000 ! opossum life cycle stage
+relationship: part_of MdomDv:0000003 ! immature stage
+relationship: immediately_preceded_by MdomDv:0000004 ! pouch young stage
+property_value: start_wpb "2.0" xsd:float
+property_value: start_mpb "0.5" xsd:float
+property_value: end_mpb "4.0" xsd:float
+
+[Term]
+id: MdomDv:0000006
+name: mature stage
+namespace: opossum_developmental_stage
+synonym: "mature" EXACT []
+def: "opossum developmental stage that refers to a sexually mature adult opossum, which is usually over 4 months old." [Bgee:curator "Bgee"]
+is_a: MdomDv:0000000 ! opossum life cycle stage
+relationship: part_of MdomDv:0000001 ! opossum life cycle
+property_value: start_mpb "4.0" xsd:float
+
+[Typedef]
+id: part_of
+name: part of
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+is_a: preceded_by ! preceded_by
+xref: RO:0002087 ! immediately_preceded_by
+
+[Typedef]
+id: has_unit
+name: has unit
+is_metadata_tag: true
+comment: Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)
+
+[Typedef]
+id: has_start_time
+name: has start time
+is_metadata_tag: true
+
+[Typedef]
+id: has_end_time
+name: has end time
+is_metadata_tag: true
+
+[Typedef]
+id: start_dpf
+name: start, days post fertilization
+def: "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_start_time
+
+[Typedef]
+id: end_dpf
+name: end, days post fertilization
+def: "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_end_time
+
+[Typedef]
+id: start_mpb
+name: start, months post birth
+def: "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the child is one month old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000035 ! month
+is_a: has_start_time
+
+[Typedef]
+id: end_mpb
+name: end, months post birth
+def: "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the child is one month old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000035 ! month
+is_a: has_end_time
+
+[Typedef]
+id: start_wpb
+name: start, weeks post birth
+def: "Count of number of weeks intervening between the start of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 0 for this property, and the period during which the mouse is one week old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000034 ! week
+is_a: has_start_time
+
+[Typedef]
+id: end_wpb
+name: end, weeks post birth
+def: "Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the mouse is one week old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000034 ! week
+is_a: has_end_time
