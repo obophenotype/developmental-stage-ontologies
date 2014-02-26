@@ -22,7 +22,7 @@ is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 id: PtroDv:0000002
 name: prenatal stage
 namespace: chimpanzee_developmental_stage
-def: "chimpanzee life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
+def: "Chimpanzee life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: embryo develops in 229 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000001 ! chimpanzee life cycle
@@ -101,7 +101,7 @@ comment: geriatric chimpanzees were originally defined as animals with 34 years 
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000006 ! mature stage
 relationship: immediately_preceded_by PtroDv:0000007 ! adulthood stage
-property_value: start_mph "24.0" xsd:float
+property_value: start_ypb "34.0" xsd:float
 
 [Typedef]
 id: part_of
