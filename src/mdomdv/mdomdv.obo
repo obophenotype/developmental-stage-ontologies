@@ -22,8 +22,8 @@ is_a: MdomDv:0000000 ! opossum life cycle stage
 id: MdomDv:0000002
 name: prenatal stage
 namespace: opossum_developmental_stage
-def: "opossum life cycle that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
-comment: gestation time is 15 days of development (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+def: "Opossum life cycle that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
+comment: Gestation time is 15 days of development (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -33,8 +33,8 @@ property_value: end_dpf "15.0" xsd:float
 id: MdomDv:0000003
 name: immature stage
 namespace: opossum_developmental_stage
-def: "opossum developmental stage that covers the period from birth until 4 months old." [Bgee:curator "Bgee"]
-comment: male and female opossum reach sexual maturity by 122 days of age (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+def: "Opossum developmental stage that covers the period from birth until 4 months old." [Bgee:curator "Bgee"]
+comment: Male and female opossum reach sexual maturity by 122 days of age (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
 synonym: "postnatal development" RELATED []
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
@@ -47,7 +47,7 @@ property_value: end_mpb "4.0" xsd:float
 id: MdomDv:0000004
 name: pouch young stage
 namespace: opossum_developmental_stage
-def: "immature stage that refers to the first 2 weeks period when the young is permanently attached to the nipple." [Bgee:curator "Bgee"]
+def: "Immature stage that refers to the first 2 weeks period when the young is permanently attached to the nipple." [Bgee:curator "Bgee"]
 comment: Immediately after birth, the neonate is attached to the nipple for 2 weeks before being transferred to the nest or carried on the mother's back (see http://www.faunaparaguay.com/mamm10Monodelphisdomestica.pdf). While Monodelphis domestica is a pouch-less marsupial, literature talks about pouch youngs for this marsupial species (see http://www.ncbi.nlm.nih.gov/pubmed/?term=7750642).
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000003 ! immature stage
@@ -59,7 +59,7 @@ property_value: end_wpb "2.0" xsd:float
 id: MdomDv:0000005
 name: juvenile stage
 namespace: opossum_developmental_stage
-def: "immature stage that covers the period from 2 weeks old, when the hair growth begins, until 4 months old." [Bgee:curator "Bgee"]
+def: "Immature stage that covers the period from 2 weeks old, when the hair growth begins, until 4 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000003 ! immature stage
 relationship: immediately_preceded_by MdomDv:0000004 ! pouch young stage
@@ -72,7 +72,7 @@ id: MdomDv:0000006
 name: mature stage
 namespace: opossum_developmental_stage
 synonym: "mature" EXACT []
-def: "opossum developmental stage that refers to a sexually mature adult opossum, which is usually over 4 months old." [Bgee:curator "Bgee"]
+def: "Opossum developmental stage that refers to a sexually mature adult opossum, which is usually over 4 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
 property_value: start_mpb "4.0" xsd:float

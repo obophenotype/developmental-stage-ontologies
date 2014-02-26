@@ -85,7 +85,7 @@ id: PtroDv:0000007
 name: adulthood stage
 namespace: chimpanzee_developmental_stage
 def: "Mature stage that refers to a chimpanzee who is over 8 and under 34 years old." [Bgee:curator "Bgee"]
-comment: geriatric chimpanzees were originally defined as animals with 34 years of age and older (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes)
+comment: Geriatric chimpanzees were originally defined as animals with 34 years of age and older (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000006 ! mature stage
 property_value: start_ypb "8.0" xsd:float
@@ -97,7 +97,7 @@ id: PtroDv:0000008
 name: aged stage
 namespace: chimpanzee_developmental_stage
 def: "Mature stage that refers to a chimpanzee who is over 34 years old." [Bgee:curator "Bgee"]
-comment: geriatric chimpanzees were originally defined as animals with 34 years of age and older. Maximum longevity is officially 59.4 years (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
+comment: Geriatric chimpanzees were originally defined as animals with 34 years of age and older. Maximum longevity is officially 59.4 years (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000006 ! mature stage
 relationship: immediately_preceded_by PtroDv:0000007 ! adulthood stage
