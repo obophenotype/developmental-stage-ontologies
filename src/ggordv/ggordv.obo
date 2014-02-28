@@ -1,108 +1,109 @@
 format-version: 1.2
 date: 25:02:2014 13:00
 saved-by: fbb (ann)
-default-namespace: rhesus_stages_ontology
-ontology: mmuldv
+default-namespace: gorilla_stages_ontology
+ontology: ggordv
 
 [Term]
-id: MmulDv:0000000
-name: rhesus life cycle stage
+id: GgorDv:0000000
+name: gorilla life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
 
 [Term]
-id: MmulDv:0000001
-name: rhesus life cycle
-namespace: rhesus_developmental_stage
-def: "Temporal interval that defines rhesus life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+id: GgorDv:0000001
+name: gorilla life cycle
+namespace: gorilla_developmental_stage
+def: "Temporal interval that defines gorilla life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
 
 [Term]
-id: MmulDv:0000002
+id: GgorDv:0000002
 name: prenatal stage
-namespace: rhesus_developmental_stage
-def: "Rhesus life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
-comment: Embryo develops in 165 days (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
+namespace: gorilla_developmental_stage
+def: "Gorilla life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
+comment: Embryo develops in 256 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000001 ! gorilla life cycle
 property_value: start_dpf "0.0" xsd:float
-property_value: end_dpf "165.0" xsd:float
-property_value: end_mpf "5.5" xsd:float
+property_value: end_dpf "256.0" xsd:float
+property_value: end_mpf "8.5" xsd:float
+
 
 [Term]
-id: MmulDv:0000003
+id: GgorDv:0000003
 name: immature stage
-namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from birth until 3,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Rhesus reach sexual maturity by 2,007 days of age for male, 1,231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
+namespace: gorilla_developmental_stage
+def: "Gorilla developmental stage that covers the period from birth until 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Gorilla reach sexual maturity by 4,015 days of age for male, 2,829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
 synonym: "postnatal development" RELATED []
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
-relationship: immediately_preceded_by MmulDv:0000002 ! prenatal stage
-property_value: start_dpf "165.0" xsd:float
-property_value: start_mpf "5.5" xsd:float
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000001 ! gorilla life cycle
+relationship: immediately_preceded_by GgorDv:0000002 ! prenatal stage
+property_value: start_dpf "256.0" xsd:float
+property_value: start_mpf "8.5" xsd:float
 property_value: start_ypb "0.0" xsd:float
-property_value: end_ypb "3.5" xsd:float
+property_value: end_ypb "8.0" xsd:float
 
 [Term]
-id: MmulDv:0000004
+id: GgorDv:0000004
 name: nursing stage
-namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from birth until 9,5 months old, at which point individuals wean." [Bgee:curator "Bgee"]
-comment: Age of weaning is 292 days (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000003 ! immature stage
-property_value: start_dpf "165.0" xsd:float
-property_value: start_mpf "5.5" xsd:float
+namespace: gorilla_developmental_stage
+def: "Gorilla developmental stage that covers the period from birth until 2 years old, at which point individuals wean." [Bgee:curator "Bgee"]
+comment: Age of weaning is 834 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla). 
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000003 ! immature stage
+property_value: start_dpf "256.0" xsd:float
+property_value: start_mpf "8.5" xsd:float
 property_value: start_ypb "0.0" xsd:float
-property_value: end_ypb "0.8" xsd:float
+property_value: end_ypb "2.3" xsd:float
 
 [Term]
-id: MmulDv:0000005
+id: GgorDv:0000005
 name: juvenile stage
-namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from 9,5 months old, when individuals wean, until 3,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Rhesus reach sexual maturity by 2,007 days of age for male, 1,231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000003 ! immature stage
-relationship: immediately_preceded_by MmulDv:0000004 ! nursing stage
-property_value: start_ypb "0.8" xsd:float
-property_value: end_ypb "3.5" xsd:float
+namespace: gorilla_developmental_stage
+def: "Gorilla developmental stage that covers the period from 2 years old, when individuals wean, until 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Gorilla reach sexual maturity by 4,015 days of age for male, 2,829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000003 ! immature stage
+relationship: immediately_preceded_by GgorDv:0000004 ! nursing stage
+property_value: start_ypb "2.3" xsd:float
+property_value: end_ypb "7.8" xsd:float
 
 [Term]
-id: MmulDv:0000006
+id: GgorDv:0000006
 name: mature stage
-namespace: rhesus_developmental_stage
+namespace: gorilla_developmental_stage
 synonym: "mature" EXACT []
-def: "Rhesus developmental stage that refers to a sexually mature adult rhesus, which is usually over 3,5 years old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
-relationship: immediately_preceded_by MmulDv:0000003 ! immature stage
-property_value: start_ypb "3.5" xsd:float
+def: "Gorilla developmental stage that refers to a sexually mature adult gorilla, which is usually over 8 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000001 ! gorilla life cycle
+relationship: immediately_preceded_by GgorDv:0000003 ! immature stage
+property_value: start_ypb "8.0" xsd:float
 
 [Term]
-id: MmulDv:0000007
+id: GgorDv:0000007
 name: adulthood stage
-namespace: rhesus_developmental_stage
-def: "Mature stage that refers to a rhesus who is over 3,5 and under 25 years old." [Bgee:curator "Bgee"]
-comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000006 ! mature stage
-property_value: start_ypb "3.5" xsd:float
-property_value: end_ypb "25.0" xsd:float
+namespace: gorilla_developmental_stage
+def: "Mature stage that refers to a gorilla who is over 8 and under 30 years old." [Bgee:curator "Bgee"]
+comment: Geriatric gorillas are defined as animals with 30 years of age and older (see http://link.springer.com/article/10.1007%2Fs10764-006-9097-1).
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000006 ! mature stage
+property_value: start_ypb "8.0" xsd:float
+property_value: end_ypb "30.0" xsd:float
 
 
 [Term]
-id: MmulDv:0000008
+id: GgorDv:0000008
 name: aged stage
-namespace: rhesus_developmental_stage
-def: "Mature stage that refers to a rhesus who is over 25 years old." [Bgee:curator "Bgee"]
-comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000006 ! mature stage
-relationship: immediately_preceded_by MmulDv:0000007 ! adulthood stage
-property_value: start_ypb "25.0" xsd:float
+namespace: gorilla_developmental_stage
+def: "Mature stage that refers to a gorilla who is over 30 years old." [Bgee:curator "Bgee"]
+comment: Geriatric gorillas are defined as animals with 30 years of age and older (see http://link.springer.com/article/10.1007%2Fs10764-006-9097-1). Maximum longevity is officially 55.4 years (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000006 ! mature stage
+relationship: immediately_preceded_by GgorDv:0000007 ! adulthood stage
+property_value: start_ypb "30.0" xsd:float
 
 [Typedef]
 id: part_of
