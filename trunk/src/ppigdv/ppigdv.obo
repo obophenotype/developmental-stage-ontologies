@@ -1,108 +1,107 @@
 format-version: 1.2
 date: 25:02:2014 13:00
 saved-by: fbb (ann)
-default-namespace: rhesus_stages_ontology
-ontology: mmuldv
+default-namespace: chimpanzee_stages_ontology
+ontology: ppigdv
 
 [Term]
-id: MmulDv:0000000
-name: rhesus life cycle stage
+id: PpigDv:0000000
+name: orangutan life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
 
 [Term]
-id: MmulDv:0000001
-name: rhesus life cycle
-namespace: rhesus_developmental_stage
-def: "Temporal interval that defines rhesus life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+id: PpigDv:0000001
+name: orangutan life cycle
+namespace: orangutan_developmental_stage
+def: "Temporal interval that defines orangutan life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+is_a: PpigDv:0000000 ! orangutan life cycle stage
 
 [Term]
-id: MmulDv:0000002
+id: PpigDv:0000002
 name: prenatal stage
-namespace: rhesus_developmental_stage
-def: "Rhesus life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
-comment: Embryo develops in 165 days (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
+namespace: orangutan_developmental_stage
+def: "Orangutan life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
+comment: Embryo develops in 249 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
+is_a: PpigDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpigDv:0000001 ! orangutan life cycle
 property_value: start_dpf "0.0" xsd:float
-property_value: end_dpf "165.0" xsd:float
-property_value: end_mpf "5.5" xsd:float
+property_value: end_dpf "249.0" xsd:float
+property_value: end_mpf "8.3" xsd:float
 
 [Term]
-id: MmulDv:0000003
+id: PpigDv:0000003
 name: immature stage
-namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from birth until 3,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Rhesus reach sexual maturity by 2,007 days of age for male, 1,231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
+namespace: orangutan_developmental_stage
+def: "Orangutan developmental stage that covers the period from birth until 7 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Orangutan reach sexual maturity by 2,555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
 synonym: "postnatal development" RELATED []
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
-relationship: immediately_preceded_by MmulDv:0000002 ! prenatal stage
-property_value: start_dpf "165.0" xsd:float
-property_value: start_mpf "5.5" xsd:float
+is_a: PpigDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpigDv:0000001 ! orangutan life cycle
+relationship: immediately_preceded_by PpigDv:0000002 ! prenatal stage
+property_value: start_dpf "249.0" xsd:float
+property_value: start_mpf "8.3" xsd:float
 property_value: start_ypb "0.0" xsd:float
-property_value: end_ypb "3.5" xsd:float
+property_value: end_ypb "7.0" xsd:float
 
 [Term]
-id: MmulDv:0000004
+id: PpigDv:0000004
 name: nursing stage
-namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from birth until 9,5 months old, at which point individuals wean." [Bgee:curator "Bgee"]
-comment: Age of weaning is 292 days (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000003 ! immature stage
-property_value: start_dpf "165.0" xsd:float
-property_value: start_mpf "5.5" xsd:float
+namespace: orangutan_developmental_stage
+def: "Orangutan developmental stage that covers the period from birth until about 3 years old, at which point individuals wean." [Bgee:curator "Bgee"]
+comment: Age of weaning is 1,003 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
+is_a: PpigDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpigDv:0000003 ! immature stage
+property_value: start_dpf "229.0" xsd:float
+property_value: start_mpf "7.5" xsd:float
 property_value: start_ypb "0.0" xsd:float
-property_value: end_ypb "0.8" xsd:float
+property_value: end_ypb "2.7" xsd:float
 
 [Term]
-id: MmulDv:0000005
+id: PpigDv:0000005
 name: juvenile stage
-namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from 9,5 months old, when individuals wean, until 3,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Rhesus reach sexual maturity by 2,007 days of age for male, 1,231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000003 ! immature stage
-relationship: immediately_preceded_by MmulDv:0000004 ! nursing stage
-property_value: start_ypb "0.8" xsd:float
-property_value: end_ypb "3.5" xsd:float
+namespace: orangutan_developmental_stage
+def: "Orangutan developmental stage that covers the period from 3 years old, when individuals wean, until 7 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Orangutan reach sexual maturity by 2,555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
+is_a: PpigDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpigDv:0000003 ! immature stage
+relationship: immediately_preceded_by PpigDv:0000004 ! nursing stage
+property_value: start_ypb "3.0" xsd:float
+property_value: end_ypb "7.0" xsd:float
 
 [Term]
-id: MmulDv:0000006
+id: PpigDv:0000006
 name: mature stage
-namespace: rhesus_developmental_stage
+namespace: orangutan_developmental_stage
 synonym: "mature" EXACT []
-def: "Rhesus developmental stage that refers to a sexually mature adult rhesus, which is usually over 3,5 years old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
-relationship: immediately_preceded_by MmulDv:0000003 ! immature stage
-property_value: start_ypb "3.5" xsd:float
+def: "Orangutan developmental stage that refers to a sexually mature adult orangutan, which is usually over 7 years old." [Bgee:curator "Bgee"]
+is_a: PpigDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpigDv:0000001 ! orangutan life cycle
+relationship: immediately_preceded_by PpigDv:0000003 ! immature stage
+property_value: start_ypb "7.0" xsd:float
 
 [Term]
-id: MmulDv:0000007
+id: PpigDv:0000007
 name: adulthood stage
-namespace: rhesus_developmental_stage
-def: "Mature stage that refers to a rhesus who is over 3,5 and under 25 years old." [Bgee:curator "Bgee"]
-comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000006 ! mature stage
-property_value: start_ypb "3.5" xsd:float
-property_value: end_ypb "25.0" xsd:float
+namespace: orangutan_developmental_stage
+def: "Mature stage that refers to a orangutan who is over 8 and under 35 years old." [Bgee:curator "Bgee"]
+comment: Orangutans are considered geriatric age of about 35 (see http://www.zooatlanta.org/home/article_content/founders_friends).
+is_a: PpigDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpigDv:0000006 ! mature stage
+property_value: start_ypb "8.0" xsd:float
+property_value: end_ypb "35.0" xsd:float
 
 
 [Term]
-id: MmulDv:0000008
+id: PpigDv:0000008
 name: aged stage
-namespace: rhesus_developmental_stage
-def: "Mature stage that refers to a rhesus who is over 25 years old." [Bgee:curator "Bgee"]
-comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000006 ! mature stage
-relationship: immediately_preceded_by MmulDv:0000007 ! adulthood stage
-property_value: start_ypb "25.0" xsd:float
+namespace: orangutan_developmental_stage
+def: "Mature stage that refers to a orangutan who is over 35 years old." [Bgee:curator "Bgee"]
+comment: Orangutans are considered geriatric age of about 35 (see http://www.zooatlanta.org/home/article_content/founders_friends). Maximum longevity is officially 59 years (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
+relationship: part_of PpigDv:0000006 ! mature stage
+relationship: immediately_preceded_by PpigDv:0000007 ! adulthood stage
+property_value: start_ypb "35.0" xsd:float
 
 [Typedef]
 id: part_of

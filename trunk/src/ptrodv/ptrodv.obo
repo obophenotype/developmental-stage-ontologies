@@ -23,7 +23,7 @@ id: PtroDv:0000002
 name: prenatal stage
 namespace: chimpanzee_developmental_stage
 def: "Chimpanzee life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
-comment: embryo develops in 229 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
+comment: Embryo develops in 229 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000001 ! chimpanzee life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -50,6 +50,7 @@ id: PtroDv:0000004
 name: nursing stage
 namespace: chimpanzee_developmental_stage
 def: "Chimpanzee developmental stage that covers the period from birth until 3 years old, at which point individuals wean." [Bgee:curator "Bgee"]
+comment: Age of weaning is 1,111 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000003 ! immature stage
 property_value: start_dpf "229.0" xsd:float
