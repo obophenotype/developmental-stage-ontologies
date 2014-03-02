@@ -178,24 +178,6 @@ property_value: has_unit UO:0000035 ! month
 is_a: has_end_time
 
 [Typedef]
-id: start_mpb
-name: start, months post birth
-def: "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1." []
-is_metadata_tag: true
-comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000035 ! month
-is_a: has_start_time
-
-[Typedef]
-id: end_mpb
-name: end, months post birth
-def: "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
-is_metadata_tag: true
-comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000035 ! month
-is_a: has_end_time
-
-[Typedef]
 id: start_ypb
 name: start, years post birth
 def: "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1." []
