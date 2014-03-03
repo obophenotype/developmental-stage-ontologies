@@ -72,36 +72,143 @@ property_value: end_ypb "8.75" xsd:float
 
 [Term]
 id: PpanDv:0000006
+name: 1,5-2 year-old stage
+namespace: bonobo_developmental_stage
+def: "Juvenile stage that refers to a bonobo who is under 3 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000005 ! juvenile stage
+property_value: start_ypb "1.7" xsd:float
+property_value: end_ypb "3.0" xsd:float
+
+[Term]
+id: PpanDv:0000007
+name: 3-year-old stage
+namespace: bonobo_developmental_stage
+def: "Juvenile stage that refers to a bonobo who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000006 ! 1,5-2 year-old stage
+property_value: start_ypb "3.0" xsd:float
+property_value: end_ypb "4.0" xsd:float
+
+[Term]
+id: PpanDv:0000008
+name: 4-year-old stage
+namespace: bonobo_developmental_stage
+def: "Juvenile stage that refers to a bonobo who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000007 ! 3-year-old stage
+property_value: start_ypb "4.0" xsd:float
+property_value: end_ypb "5.0" xsd:float
+
+[Term]
+id: PpanDv:0000009
+name: 5-year-old stage
+namespace: bonobo_developmental_stage
+def: "Juvenile stage that refers to a bonobo who is over 5 and under 6 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000008 ! 4-year-old stage
+property_value: start_ypb "5.0" xsd:float
+property_value: end_ypb "6.0" xsd:float
+
+[Term]
+id: PpanDv:0000010
+name: 6-year-old stage
+namespace: bonobo_developmental_stage
+def: "Juvenile stage that refers to a bonobo who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000009 ! 5-year-old stage
+property_value: start_ypb "6.0" xsd:float
+property_value: end_ypb "7.0" xsd:float
+
+[Term]
+id: PpanDv:0000011
+name: 7-year-old stage
+namespace: bonobo_developmental_stage
+def: "Juvenile stage that refers to a bonobo who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000010 ! 6-year-old stage
+property_value: start_ypb "7.0" xsd:float
+property_value: end_ypb "8.0" xsd:float
+
+[Term]
+id: PpanDv:0000012
+name: 8-8.5 year-old stage
+namespace: bonobo_developmental_stage
+def: "Juvenile stage that refers to a bonobo who is over 8 and under 8,5 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000010 ! 6-year-old stage
+property_value: start_ypb "8.0" xsd:float
+property_value: end_ypb "8.75" xsd:float
+
+[Term]
+id: PpanDv:0000013
 name: mature stage
 namespace: bonobo_developmental_stage
 synonym: "mature" EXACT []
 def: "Bonobo developmental stage that refers to a sexually mature adult bonobo, which is usually over 8,5 years old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000001 ! bonobo life cycle
-relationship: immediately_preceded_by PpanDv:0000003 ! immature stage
+relationship: preceded_by PpanDv:0000003 ! immature stage
 property_value: start_ypb "8.75" xsd:float
 
 [Term]
-id: PpanDv:0000007
+id: PpanDv:0000014
 name: adulthood stage
 namespace: bonobo_developmental_stage
 def: "Mature stage that refers to a bonobo who is over 8,5 and under 30 years old." [Bgee:curator "Bgee"]
 comment: Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).
 is_a: PpanDv:0000000 ! bonobo life cycle stage
-relationship: part_of PpanDv:0000006 ! mature stage
+relationship: part_of PpanDv:0000013 ! mature stage
 property_value: start_ypb "8.75" xsd:float
 property_value: end_ypb "30.0" xsd:float
 
+[Term]
+id: PpanDv:0000015
+name: 8.5-14 year-old stage
+namespace: bonobo_developmental_stage
+def: "Adulthood stage that refers to a bonobo who is over 8,5 and under 15 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000014 ! adulthood stage
+property_value: start_ypb "8.75" xsd:float
+property_value: end_ypb "15.0" xsd:float
 
 [Term]
-id: PpanDv:0000008
+id: PpanDv:0000016
+name: 15-year-old stage
+namespace: bonobo_developmental_stage
+def: "Adulthood stage that refers to a bonobo who is over 15 and under 16 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000014 ! adulthood stage
+relationship: immediately_preceded_by PpanDv:0000015 ! 8.5-14 year-old stage
+property_value: start_ypb "15.0" xsd:float
+property_value: end_ypb "16.0" xsd:float
+
+[Term]
+id: PpanDv:0000017
+name: 16-29 year-old stage
+namespace: bonobo_developmental_stage
+def: "Adulthood stage that refers to a bonobo who is over 16 and under 30 years old." [Bgee:curator "Bgee"]
+is_a: PpanDv:0000000 ! bonobo life cycle stage
+relationship: part_of PpanDv:0000014 ! adulthood stage
+relationship: immediately_preceded_by PpanDv:0000016 ! 15-year-old stage
+property_value: start_ypb "16.0" xsd:float
+property_value: end_ypb "30.0" xsd:float
+
+[Term]
+id: PpanDv:0000018
 name: aged stage
 namespace: bonobo_developmental_stage
 def: "Mature stage that refers to a bonobo who is over 30 years old." [Bgee:curator "Bgee"]
 comment: Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).
 is_a: PpanDv:0000000 ! bonobo life cycle stage
-relationship: part_of PpanDv:0000006 ! mature stage
-relationship: immediately_preceded_by PpanDv:0000007 ! adulthood stage
+relationship: part_of PpanDv:0000013 ! mature stage
+relationship: preceded_by PpanDv:0000014 ! adulthood stage
 property_value: start_ypb "30.0" xsd:float
 
 [Typedef]

@@ -72,37 +72,208 @@ property_value: end_ypb "8.0" xsd:float
 
 [Term]
 id: PtroDv:0000006
-name: mature stage
+name: 3-year-old stage
 namespace: chimpanzee_developmental_stage
-synonym: "mature" EXACT []
-def: "Chimpanzee developmental stage that refers to a sexually mature adult chimpanzee, which is usually over 8 years old." [Bgee:curator "Bgee"]
+def: "Juvenile stage that refers to a chimpanzee who is under 4 years old." [Bgee:curator "Bgee"]
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
-relationship: part_of PtroDv:0000001 ! chimpanzee life cycle
-relationship: immediately_preceded_by PtroDv:0000003 ! immature stage
-property_value: start_ypb "8.0" xsd:float
+relationship: part_of PtroDv:0000005 ! juvenile stage
+property_value: start_ypb "3.0" xsd:float
+property_value: end_ypb "4.0" xsd:float
 
 [Term]
 id: PtroDv:0000007
+name: 4-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Juvenile stage that refers to a chimpanzee who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PtroDv:0000006 ! 3-year-old stage
+property_value: start_ypb "4.0" xsd:float
+property_value: end_ypb "5.0" xsd:float
+
+[Term]
+id: PtroDv:0000008
+name: 5-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Juvenile stage that refers to a chimpanzee who is over 5 and under 6 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PtroDv:0000007 ! 4-year-old stage
+property_value: start_ypb "5.0" xsd:float
+property_value: end_ypb "6.0" xsd:float
+
+[Term]
+id: PtroDv:0000009
+name: 6-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Juvenile stage that refers to a chimpanzee who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PtroDv:0000008 ! 5-year-old stage
+property_value: start_ypb "6.0" xsd:float
+property_value: end_ypb "7.0" xsd:float
+
+[Term]
+id: PtroDv:0000010
+name: 7-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Juvenile stage that refers to a chimpanzee who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PtroDv:0000009 ! 6-year-old stage
+property_value: start_ypb "7.0" xsd:float
+property_value: end_ypb "8.0" xsd:float
+
+[Term]
+id: PtroDv:0000011
+name: mature stage
+namespace: chimpanzee_developmental_stage
+synonym: "mature" EXACT []
+def: "Developmental stage that refers to a sexually mature adult chimpanzee, which is usually over 8 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000001 ! chimpanzee life cycle
+relationship: preceded_by PtroDv:0000003 ! immature stage
+property_value: start_ypb "8.0" xsd:float
+
+[Term]
+id: PtroDv:0000012
 name: adulthood stage
 namespace: chimpanzee_developmental_stage
 def: "Mature stage that refers to a chimpanzee who is over 8 and under 34 years old." [Bgee:curator "Bgee"]
 comment: Geriatric chimpanzees were originally defined as animals with 34 years of age and older (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
-relationship: part_of PtroDv:0000006 ! mature stage
+relationship: part_of PtroDv:0000011 ! mature stage
 property_value: start_ypb "8.0" xsd:float
 property_value: end_ypb "34.0" xsd:float
 
+[Term]
+id: PtroDv:0000013
+name: 8-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Adulthood stage that refers to a chimpanzee who is over 8 and under 9 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000012 ! adulthood stage
+property_value: start_ypb "8.0" xsd:float
+property_value: end_ypb "9.0" xsd:float
 
 [Term]
-id: PtroDv:0000008
+id: PtroDv:0000014
+name: 9-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Adulthood stage that refers to a chimpanzee who is over 9 and under 10 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000012 ! adulthood stage
+relationship: immediately_preceded_by PtroDv:0000013 ! 8-year-old stage
+property_value: start_ypb "9.0" xsd:float
+property_value: end_ypb "10.0" xsd:float
+
+[Term]
+id: PtroDv:0000015
+name: 10-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Adulthood stage that refers to a chimpanzee who is over 10 and under 11 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000012 ! adulthood stage
+relationship: immediately_preceded_by PtroDv:0000014 ! 9-year-old stage
+property_value: start_ypb "10.0" xsd:float
+property_value: end_ypb "11.0" xsd:float
+
+[Term]
+id: PtroDv:0000016
+name: 11-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Adulthood stage that refers to a chimpanzee who is over 11 and under 12 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000012 ! adulthood stage
+relationship: immediately_preceded_by PtroDv:0000015 ! 10-year-old stage
+property_value: start_ypb "11.0" xsd:float
+property_value: end_ypb "12.0" xsd:float
+
+[Term]
+id: PtroDv:0000017
+name: 12-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Adulthood stage that refers to a chimpanzee who is over 12 and under 13 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000012 ! adulthood stage
+relationship: immediately_preceded_by PtroDv:0000016 ! 11-year-old stage
+property_value: start_ypb "12.0" xsd:float
+property_value: end_ypb "13.0" xsd:float
+
+[Term]
+id: PtroDv:0000018
+name: 13-33 year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Adulthood stage that refers to a chimpanzee who is over 13 and under 34 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000012 ! adulthood stage
+relationship: immediately_preceded_by PtroDv:0000017 ! 12-year-old stage
+property_value: start_ypb "13.0" xsd:float
+property_value: end_ypb "34.0" xsd:float
+
+[Term]
+id: PtroDv:0000019
 name: aged stage
 namespace: chimpanzee_developmental_stage
 def: "Mature stage that refers to a chimpanzee who is over 34 years old." [Bgee:curator "Bgee"]
 comment: Geriatric chimpanzees were originally defined as animals with 34 years of age and older. Maximum longevity is officially 59.4 years (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
-relationship: part_of PtroDv:0000006 ! mature stage
-relationship: immediately_preceded_by PtroDv:0000007 ! adulthood stage
+relationship: part_of PtroDv:0000011 ! mature stage
+relationship: preceded_by PtroDv:0000007 ! adulthood stage
 property_value: start_ypb "34.0" xsd:float
+
+[Term]
+id: PtroDv:0000020
+name: 34-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is under 35 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000019 ! aged stage
+property_value: start_ypb "34.0" xsd:float
+property_value: end_ypb "35.0" xsd:float
+
+[Term]
+id: PtroDv:0000021
+name: 35-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is over 35 and under 36 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000019 ! aged stage
+relationship: immediately_preceded_by PtroDv:0000020 ! 34-year-old stage
+property_value: start_ypb "35.0" xsd:float
+property_value: end_ypb "36.0" xsd:float
+
+[Term]
+id: PtroDv:0000022
+name: 36-43 year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is over 36 and under 44 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000019 ! aged stage
+relationship: immediately_preceded_by PtroDv:0000021 ! 35-year-old stage
+property_value: start_ypb "36.0" xsd:float
+property_value: end_ypb "44.0" xsd:float
+
+[Term]
+id: PtroDv:0000023
+name: 44-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is over 44 and under 45 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000019 ! aged stage
+relationship: immediately_preceded_by PtroDv:0000022 ! 36-43 year-old stage
+property_value: start_ypb "44.0" xsd:float
+property_value: end_ypb "45.0" xsd:float
+
+[Term]
+id: PtroDv:0000024
+name: 45-year-old and over stage
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is over 45 years old." [Bgee:curator "Bgee"]
+is_a: PtroDv:0000000 ! chimpanzee life cycle stage
+relationship: part_of PtroDv:0000019 ! aged stage
+relationship: immediately_preceded_by PtroDv:0000023 ! 44-year-old stage
+property_value: start_ypb "45.0" xsd:float
 
 [Typedef]
 id: part_of
