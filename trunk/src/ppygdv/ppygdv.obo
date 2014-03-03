@@ -92,16 +92,129 @@ relationship: part_of PpygDv:0000006 ! mature stage
 property_value: start_ypb "7.0" xsd:float
 property_value: end_ypb "35.0" xsd:float
 
-
 [Term]
 id: PpygDv:0000008
+name: 7-15 year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is under 16 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+property_value: start_ypb "7.0" xsd:float
+property_value: end_ypb "16.0" xsd:float
+
+[Term]
+id: PpygDv:0000009
+name: 16-year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is over 16 and under 17 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+relationship: immediately_preceded_by PpygDv:0000008 ! 7-15 year-old stage
+property_value: start_ypb "16.0" xsd:float
+property_value: end_ypb "17.0" xsd:float
+
+[Term]
+id: PpygDv:0000010
+name: 17-year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is over 17 and under 18 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+relationship: immediately_preceded_by PpygDv:0000009 ! 16-year-old stage
+property_value: start_ypb "17.0" xsd:float
+property_value: end_ypb "18.0" xsd:float
+
+[Term]
+id: PpygDv:0000011
+name: 18-year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is over 18 and under 19 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+relationship: immediately_preceded_by PpygDv:0000010 ! 17-year-old stage
+property_value: start_ypb "18.0" xsd:float
+property_value: end_ypb "19.0" xsd:float
+
+[Term]
+id: PpygDv:0000012
+name: 19-year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is over 19 and under 20 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+relationship: immediately_preceded_by PpygDv:0000011 ! 18-year-old stage
+property_value: start_ypb "19.0" xsd:float
+property_value: end_ypb "20.0" xsd:float
+
+[Term]
+id: PpygDv:0000013
+name: 20-year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is over 20 and under 21 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+relationship: immediately_preceded_by PpygDv:0000012 ! 19-year-old stage
+property_value: start_ypb "20.0" xsd:float
+property_value: end_ypb "21.0" xsd:float
+
+[Term]
+id: PpygDv:0000014
+name: 21-year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is over 21 and under 22 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+relationship: immediately_preceded_by PpygDv:0000013 ! 20-year-old stage
+property_value: start_ypb "21.0" xsd:float
+property_value: end_ypb "22.0" xsd:float
+
+[Term]
+id: PpygDv:0000015
+name: 22-34 year-old stage
+namespace: orangutan_developmental_stage
+def: "Adulthood stage that refers to a orangutan who is over 22 and under 35 years old." [Bgee:curator "Bgee"]
+is_a: PpygDv:0000000 ! orangutan life cycle stage
+relationship: part_of PpygDv:0000007 ! adulthood stage
+relationship: immediately_preceded_by PpygDv:0000014 ! 21-year-old stage
+property_value: start_ypb "22.0" xsd:float
+property_value: end_ypb "35.0" xsd:float
+
+[Term]
+id: PpygDv:0000016
 name: aged stage
 namespace: orangutan_developmental_stage
 def: "Mature stage that refers to a orangutan who is over 35 years old." [Bgee:curator "Bgee"]
-comment: Orangutans are considered geriatric age of about 35 (see http://www.zooatlanta.org/home/article_content/founders_friends). Maximum longevity is officially 59 years (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
 relationship: part_of PpygDv:0000006 ! mature stage
-relationship: immediately_preceded_by PpygDv:0000007 ! adulthood stage
 property_value: start_ypb "35.0" xsd:float
+
+[Term]
+id: PpygDv:0000017
+name: 35-55 year-old stage
+namespace: orangutan_developmental_stage
+def: "Aged stage that refers to a orangutan who is under 56 years old." [Bgee:curator "Bgee"]
+relationship: part_of PpygDv:0000016 ! aged stage
+property_value: start_ypb "35.0" xsd:float
+property_value: end_ypb "56.0" xsd:float
+
+[Term]
+id: PpygDv:0000018
+name: 56-year-old stage
+namespace: orangutan_developmental_stage
+def: "Aged stage that refers to a orangutan who is over 56 and under 57 years old." [Bgee:curator "Bgee"]
+relationship: part_of PpygDv:0000016 ! aged stage
+relationship: immediately_preceded_by PpygDv:0000017 ! 35-55 year-old stage
+property_value: start_ypb "56.0" xsd:float
+property_value: end_ypb "57.0" xsd:float
+
+[Term]
+id: PpygDv:0000019
+name: 57-year-old and over stage
+namespace: orangutan_developmental_stage
+def: "Aged stage that refers to a orangutan who is over 57 years old." [Bgee:curator "Bgee"]
+relationship: part_of PpygDv:0000016 ! aged stage
+relationship: immediately_preceded_by PpygDv:0000018 ! 56-year-old stage
+property_value: start_ypb "56.0" xsd:float
+property_value: end_ypb "57.0" xsd:float
 
 [Typedef]
 id: part_of
