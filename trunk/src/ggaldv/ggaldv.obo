@@ -10,6 +10,7 @@ name: chicken life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: GgalDv:0000001
@@ -24,6 +25,7 @@ name: prenatal stage
 namespace: chicken_developmental_stage
 def: "chicken life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
 comment: embryo develops and hatches in 20 to 21 days (see http://php.med.unsw.edu.au/embryology/index.php?title=Chicken_Development).
+xref: UBERON:0000068
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
 property_value: start_dpf "0.25" xsd:float
@@ -34,9 +36,10 @@ property_value: end_mph "0.0" xsd:float
 id: GgalDv:0000003
 name: immature stage
 namespace: chicken_developmental_stage
-def: "Chicken developmental stage that covers the period from hatching until 5 months old." [Bgee:curator "Bgee"]
+def: "Chicken developmental stage that covers the period from hatching until 5 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Chicken reach sexual maturity by five months of age.
 synonym: "postnatal development" RELATED []
+xref: UBERON:0000112
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
 relationship: immediately_preceded_by GgalDv:0000002 ! prenatal stage
@@ -72,7 +75,8 @@ id: GgalDv:0000006
 name: mature stage
 namespace: chicken_developmental_stage
 synonym: "mature" EXACT []
-def: "Chicken developmental stage that refers to a sexually mature adult chicken which is over 5 months old." [Bgee:curator "Bgee"]
+def: "Chicken developmental stage that refers to a sexually mature adult chicken, which is over 5 months old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
 property_value: start_mph "5.0" xsd:float

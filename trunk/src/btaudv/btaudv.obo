@@ -1,113 +1,87 @@
 format-version: 1.2
-date: 25:02:2014 13:00
-saved-by: fbb (ann)
-default-namespace: pig_stages_ontology
-ontology: sscrdv
+date: 06:03:2014 10:00
+saved-by: ann
+default-namespace: cow_stages_ontology
+ontology: btaudv
 
 [Term]
-id: SscrDv:0000000
-name: pig life cycle stage
+id: BtauDv:0000000
+name: cow life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
 xref: UBERON:0000105
 
+[Term]
+id: BtauDv:0000001
+name: cow life cycle
+namespace: cow_developmental_stage
+def: "Temporal interval that defines cow life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+is_a: BtauDv:0000000 ! cow life cycle stage
 
 [Term]
-id: SscrDv:0000001
-name: pig life cycle
-namespace: pig_developmental_stage
-def: "Temporal interval that defines pig life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
-is_a: SscrDV:0000000 ! pig life cycle stage
-
-[Term]
-id: SscrDv:0000002
+id: BtauDv:0000002
 name: prenatal stage
-namespace: pig_developmental_stage
-def: "Pig life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
-comment: Embryo develops in 115 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
+namespace: cow_developmental_stage
+def: "Cow life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
+comment: Embryo develops in 277 days (see http://genomics.senescence.info/species/entry.php?species=Bos_taurus). Depending on the breed, the gestation time slightly varies (see http://embryology.med.unsw.edu.au/embryology/index.php?title=Bovine_Development).
 xref: UBERON:0000068
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000001 ! pig life cycle
+is_a: BtauDv:0000000 ! cow life cycle stage
+relationship: part_of BtauDv:0000001 ! cow life cycle
 property_value: start_dpf "0.0" xsd:float
-property_value: end_dpf "115.0" xsd:float
-property_value: end_mpf "3.8" xsd:float
+property_value: end_dpf "277.0" xsd:float
+property_value: end_mpf "9.2" xsd:float
 
 [Term]
-id: SscrDv:0000003
+id: BtauDv:0000003
 name: immature stage
-namespace: pig_developmental_stage
-def: "Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
+namespace: cow_developmental_stage
+def: "Cow developmental stage that covers the period from birth until 1,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Female cows reach sexual maturity by 548 days of age(see http://genomics.senescence.info/species/entry.php?species=Bos_taurus).
 synonym: "postnatal development" RELATED []
 xref: UBERON:0000112
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000001 ! pig life cycle
-relationship: immediately_preceded_by SscrDV:0000002 ! prenatal stage
-property_value: start_dpf "115.0" xsd:float
-property_value: start_mpf "3.8" xsd:float
+is_a: BtauDv:0000000 ! cow life cycle stage
+relationship: part_of BtauDv:0000001 ! cow life cycle
+relationship: immediately_preceded_by BtauDv:0000002 ! prenatal stage
+property_value: start_dpf "277.0" xsd:float
+property_value: start_mpf "9.2" xsd:float
 property_value: start_ypb "0.0" xsd:float
-property_value: end_ypb "0.9" xsd:float
+property_value: end_ypb "1.5" xsd:float
 
 [Term]
-id: SscrDv:0000004
-name: suckling stage
-namespace: pig_developmental_stage
-def: "Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean." [Bgee:curator "Bgee"]
-comment: Age of weaning is 56 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa). Piglets are highly precocious and neonates appear with open eyes, good muscle tone and well developed skin and hair (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23874755). Within minutes of being born, or sometimes seconds, they will attempt to suckle. The piglets are born with sharp teeth and fight to develop a teat order as the anterior teats produce a greater quantity of milk (see http://en.wikipedia.org/wiki/Piglet_%28animal%29).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000003 ! immature stage
-property_value: start_dpf "115.0" xsd:float
-property_value: start_mpf "3.8" xsd:float
-property_value: start_ypb "0.0" xsd:float
-property_value: end_mpb "1.85" xsd:float
-
-[Term]
-id: SscrDv:0000005
-name: juvenile stage
-namespace: pig_developmental_stage
-def: "Pig developmental stage that covers the period from 2 months old, when individuals wean, until about 11 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000003 ! immature stage
-relationship: immediately_preceded_by SscrDV:0000004 ! nursing stage
-property_value: start_mpb "1.85" xsd:float
-property_value: end_ypb "0.9" xsd:float
-
-[Term]
-id: SscrDv:0000006
+id: BtauDv:0000004
 name: mature stage
-namespace: pig_developmental_stage
+namespace: cow_developmental_stage
 synonym: "mature" EXACT []
-def: "Pig developmental stage that refers to a sexually mature adult pig, which is usually over 11 months old." [Bgee:curator "Bgee"]
+def: "Cow developmental stage that refers to a sexually mature adult cow, which is usually over 1,5 years old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000001 ! pig life cycle
-relationship: immediately_preceded_by SscrDV:0000003 ! immature stage
-property_value: start_ypb "0.9" xsd:float
+is_a: BtauDv:0000000 ! cow life cycle stage
+relationship: part_of BtauDv:0000001 ! cow life cycle
+relationship: immediately_preceded_by BtauDv:0000003 ! immature stage
+property_value: start_ypb "1.5" xsd:float
 
 [Term]
-id: SscrDv:0000007
+id: BtauDv:0000005
 name: adulthood stage
-namespace: pig_developmental_stage
-def: "Mature stage that refers to a pig who is over 11 months old and under 8 years old." [Bgee:curator "Bgee"]
-comment: Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000006 ! mature stage
-property_value: start_ypb "0.9" xsd:float
-property_value: end_ypb "8.0" xsd:float
-
+namespace: cow_developmental_stage
+def: "Mature stage that refers to a cow who is over 1,5 and under 12 years old." [Bgee:curator "Bgee"]
+comment: Females appear to remain fertile for about 12 years (see http://genomics.senescence.info/species/entry.php?species=Bos_taurus).
+synonym: "breeding stage" RELATED []
+is_a: BtauDv:0000000 ! cow life cycle stage
+relationship: part_of BtauDv:0000004 ! mature stage
+property_value: start_ypb "1.5" xsd:float
+property_value: end_ypb "12.0" xsd:float
 
 [Term]
-id: SscrDv:0000008
+id: BtauDv:0000006
 name: aged stage
-namespace: pig_developmental_stage
-def: "Mature stage that refers to a pig who is over 8 years old." [Bgee:curator "Bgee"]
-comment: Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000006 ! mature stage
-relationship: immediately_preceded_by SscrDV:0000007 ! adulthood stage
-property_value: start_ypb "8.0" xsd:float
+namespace: cow_developmental_stage
+def: "Mature stage that refers to a cow who is over 12 years old." [Bgee:curator "Bgee"]
+comment: Cows have been known to live over 20 years
+relationship: part_of BtauDv:0000004 ! mature stage
+relationship: immediately_preceded_by BtauDv:0000005 ! adulthood stage
+property_value: start_ypb "12.0" xsd:float
+
 
 [Typedef]
 id: part_of

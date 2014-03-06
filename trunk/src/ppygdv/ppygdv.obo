@@ -10,6 +10,7 @@ name: orangutan life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: PpygDv:0000001
@@ -24,6 +25,7 @@ name: prenatal stage
 namespace: orangutan_developmental_stage
 def: "Orangutan life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 249 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
+xref: UBERON:0000068
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 relationship: part_of PpygDv:0000001 ! orangutan life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -37,6 +39,7 @@ namespace: orangutan_developmental_stage
 def: "Orangutan developmental stage that covers the period from birth until 7 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Orangutan reach sexual maturity by 2,555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
 synonym: "postnatal development" RELATED []
+xref: UBERON:0000112
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 relationship: part_of PpygDv:0000001 ! orangutan life cycle
 relationship: immediately_preceded_by PpygDv:0000002 ! prenatal stage
@@ -76,6 +79,7 @@ name: mature stage
 namespace: orangutan_developmental_stage
 synonym: "mature" EXACT []
 def: "Orangutan developmental stage that refers to a sexually mature adult orangutan, which is usually over 7 years old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 relationship: part_of PpygDv:0000001 ! orangutan life cycle
 relationship: immediately_preceded_by PpygDv:0000003 ! immature stage
