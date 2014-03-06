@@ -10,6 +10,7 @@ name: bonobo life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: PpanDv:0000001
@@ -24,6 +25,7 @@ name: prenatal stage
 namespace: bonobo_developmental_stage
 def: "Bonobo life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 232 days (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).
+xref: UBERON:0000068
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000001 ! bonobo life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -37,6 +39,7 @@ namespace: bonobo_developmental_stage
 def: "Bonobo developmental stage that covers the period from birth until about 8,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: bonobo females reach sexual maturity by 3,194 days of age (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).
 synonym: "postnatal development" RELATED []
+xref: UBERON:0000112
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000001 ! bonobo life cycle
 relationship: immediately_preceded_by PpanDv:0000002 ! prenatal stage
@@ -152,6 +155,7 @@ name: mature stage
 namespace: bonobo_developmental_stage
 synonym: "mature" EXACT []
 def: "Bonobo developmental stage that refers to a sexually mature adult bonobo, which is usually over 8,5 years old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000001 ! bonobo life cycle
 relationship: preceded_by PpanDv:0000003 ! immature stage

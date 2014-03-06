@@ -10,6 +10,7 @@ name: rat life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: RnorDv:0000001
@@ -26,6 +27,7 @@ name: prenatal stage
 namespace: rat_developmental_stage
 def: "Rat life cycle that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
 comment: Rat birth occurs at the 22nd day of development (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages).
+xref: UBERON:0000068
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000001 ! rat life cycle
 property_value: start_dpc "0.45" xsd:float
@@ -60,6 +62,7 @@ name: gastrula stage
 namespace: rat_developmental_stage
 def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109 "adapted from"]
 comment: This stage covers the blastocyst uterus implantation period, from Standard Witschi Stage 8 up to 11 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 4 up to 6 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
+xref: UBERON:0000109
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 relationship: immediately_preceded_by RnorDv:0000004 ! cleavage and blastula stage
@@ -84,6 +87,7 @@ name: neurula stage
 namespace: rat_developmental_stage
 def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110 "adapted from"]
 comment: This stage corresponds to Standard Witschi Stage 13 up to 17 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 7 up to 12 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
+xref: UBERON:0000110
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 relationship: immediately_preceded_by RnorDv:0000006 ! primitive streak stage
@@ -132,6 +136,7 @@ name: fetal stage
 namespace: rat_developmental_stage
 def: "Prenatal stage that starts with the fully formed embryo and ends at birth." [Bgee:curator "Bgee"]
 comment: This stage corresponds to Standard Witschi Stage 34 up to 35 ante-natal (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to the human fetal period (Carnegie stage 23 and later) (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
+xref: UBERON:0007220
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000002 ! prenatal stage
 relationship: preceded_by RnorDv:0000003 ! embryonic stage
@@ -142,8 +147,9 @@ property_value: end_dpc "22.0" xsd:float
 id: RnorDv:0000012
 name: immature stage
 namespace: rat_developmental_stage
-def: "Rat developmental stage that covers the period from birth until 10 weeks old." [Bgee:curator "Bgee"]
+def: "Rat developmental stage that covers the period from birth until about 10 weeks old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Rats reach sexual maturity by 70 days of age for male and 90 days of age for female (see http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
+xref: UBERON:0000112
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000001 ! rat life cycle
 relationship: immediately_preceded_by RnorDv:0000002 ! prenatal stage
@@ -181,7 +187,8 @@ id: RnorDv:0000015
 name: mature stage
 namespace: rat_developmental_stage
 synonym: "mature" EXACT []
-def: "Rat developmental stage that refers to a sexually mature adult rat which is over 10 weeks old." [Bgee:curator "Bgee"]
+def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 10 weeks old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000001 ! rat life cycle
 relationship: preceded_by RnorDv:0000012 ! immature stage

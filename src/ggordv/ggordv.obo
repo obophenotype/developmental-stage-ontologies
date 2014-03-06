@@ -10,6 +10,7 @@ name: gorilla life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: GgorDv:0000001
@@ -24,6 +25,7 @@ name: prenatal stage
 namespace: gorilla_developmental_stage
 def: "Gorilla life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 256 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+xref: UBERON:0000068
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000001 ! gorilla life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -38,6 +40,7 @@ namespace: gorilla_developmental_stage
 def: "Gorilla developmental stage that covers the period from birth until 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Gorilla reach sexual maturity by 4,015 days of age for male, 2,829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
 synonym: "postnatal development" RELATED []
+xref: UBERON:0000112
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000001 ! gorilla life cycle
 relationship: immediately_preceded_by GgorDv:0000002 ! prenatal stage
@@ -77,6 +80,7 @@ name: mature stage
 namespace: gorilla_developmental_stage
 synonym: "mature" EXACT []
 def: "Gorilla developmental stage that refers to a sexually mature adult gorilla, which is usually over 8 years old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000001 ! gorilla life cycle
 property_value: start_ypb "8.0" xsd:float

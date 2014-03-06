@@ -10,6 +10,8 @@ name: opossum life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
+
 
 [Term]
 id: MdomDv:0000001
@@ -24,6 +26,7 @@ name: prenatal stage
 namespace: opossum_developmental_stage
 def: "Opossum life cycle that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
 comment: Gestation time is 15 days of development (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+xref: UBERON:0000068
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -33,9 +36,10 @@ property_value: end_dpf "15.0" xsd:float
 id: MdomDv:0000003
 name: immature stage
 namespace: opossum_developmental_stage
-def: "Opossum developmental stage that covers the period from birth until 4 months old." [Bgee:curator "Bgee"]
+def: "Opossum developmental stage that covers the period from birth until 4 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Male and female opossum reach sexual maturity by 122 days of age (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
 synonym: "postnatal development" RELATED []
+xref: UBERON:0000112
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
 relationship: immediately_preceded_by MdomDv:0000002 ! prenatal stage
@@ -73,6 +77,7 @@ name: mature stage
 namespace: opossum_developmental_stage
 synonym: "mature" EXACT []
 def: "Opossum developmental stage that refers to a sexually mature adult opossum, which is usually over 4 months old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
 property_value: start_mpb "4.0" xsd:float
