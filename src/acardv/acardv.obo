@@ -5,7 +5,7 @@ default-namespace: lizard_stages_ontology
 ontology: acardv
 
 [Term]
-id: AcarlDv:0000000
+id: AcarDv:0000000
 name: lizard life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
@@ -13,72 +13,74 @@ synonym: "stage" NARROW []
 xref: UBERON:0000105
 
 [Term]
-id: AcarlDv:0000001
+id: AcarDv:0000001
 name: lizard life cycle
 namespace: lizard_developmental_stage
 def: "Temporal interval that defines lizard life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
-is_a: AcarlDv:0000000 ! lizard life cycle stage
+is_a: AcarDv:0000000 ! lizard life cycle stage
 
 [Term]
-id: AcarlDv:0000002
+id: AcarDv:0000002
 name: prenatal stage
 namespace: lizard_developmental_stage
-def: Lizard life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
-comment: Following internal fertilization, early embryogenesis clearly proceeds within the oviduct in lizards genus Anolis, and most eggs are laid at the 'Early limb-bud’ stage of development (Stage 4). Juvenile lizards genus Anolis hatch with a snout-to-vent length of about 1,6 cm, after 22–27 days of incubation(see http://www.ncbi.nlm.nih.gov/pubmed/?term=17724661).
+def: "Lizard life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
+comment: Following internal fertilization, early embryogenesis clearly proceeds within the oviduct in lizards genus Anolis, and most eggs are laid at the Early limb-bud stage of development (Stage 4). Juvenile lizards genus Anolis hatch with a snout-to-vent length of about 1,6 cm, after 22–27 days of incubation(see http://www.ncbi.nlm.nih.gov/pubmed/?term=17724661).
 xref: UBERON:0000068
-is_a: AcarlDv:0000000 ! lizard life cycle stage
-relationship: part_of AcarlDv:0000001 ! lizard life cycle
+is_a: AcarDv:0000000 ! lizard life cycle stage
+relationship: part_of AcarDv:0000001 ! lizard life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "27.0" xsd:float
 property_value: end_mph "0.0" xsd:float
 
 [Term]
-id: AcarlDv:0000003
+id: AcarDv:0000003
 name: immature stage
 namespace: lizard_developmental_stage
-def: Lizard developmental stage that covers the period from hatching until 3 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Juvenile (male) green anoles attain sexual maturity by three months of age (see http://www.ncbi.nlm.nih.gov/pubmed/?term=22418258).
+def: "Lizard developmental stage that covers the period from hatching until 8 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Both male and female juvenile green anoles reach sexual maturity by eight months of age (see http://animaldiversity.ummz.umich.edu/accounts/Anolis_carolinensis/).
 synonym: "postnatal development" RELATED []
 xref: UBERON:0000112
-is_a: AcarlDv:0000000 ! lizard life cycle stage
-relationship: part_of AcarlDv:0000001 ! lizard life cycle
-relationship: immediately_preceded_by AcarlDv:0000002 ! prenatal stage
+is_a: AcarDv:0000000 ! lizard life cycle stage
+relationship: part_of AcarDv:0000001 ! lizard life cycle
+relationship: immediately_preceded_by AcarDv:0000002 ! prenatal stage
 property_value: start_dpf "27.0" xsd:float
 property_value: start_mph "0.0" xsd:float
-property_value: end_mph "3.0" xsd:float
+property_value: end_mph "8.0" xsd:float
 
 [Term]
-id: AcarlDv:0000006
+id: AcarDv:0000004
 name: mature stage
 namespace: lizard_developmental_stage
 synonym: "mature" EXACT []
-def: Llizard developmental stage that refers to a sexually mature adult lizard, which is over 3 months old." [Bgee:curator "Bgee"]
+def: "Lizard developmental stage that refers to a sexually mature adult lizard, which is over 8 months old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
-is_a: AcarlDv:0000000 ! lizard life cycle stage
-relationship: part_of AcarlDv:0000001 ! lizard life cycle
-property_value: start_mph "3.0" xsd:float
-relationship: preceded_by AcarlDv:0000003 ! immature stage
+is_a: AcarDv:0000000 ! lizard life cycle stage
+relationship: part_of AcarDv:0000001 ! lizard life cycle
+property_value: start_mph "8.0" xsd:float
+relationship: preceded_by AcarDv:0000003 ! immature stage
 
 [Term]
-id: AcarlDv:0000007
+id: AcarDv:0000005
 name: early adult stage
 namespace: lizard_developmental_stage
 synonym: "mature" EXACT []
-def: Lizard developmental stage that refers to a lizard who is over 3 and under 24 months old." [Bgee:curator "Bgee"]
-is_a: AcarlDv:0000000 ! lizard life cycle stage
-relationship: part_of AcarlDv:0000006 ! mature stage
-property_value: start_mph "3.0" xsd:float
+def: "Lizard developmental stage that refers to a lizard who is over 8 and under 24 months old." [Bgee:curator "Bgee"]
+comment: Green anoles have a lifespan ranging from 2 to 8 years, determined largely by predation. Lifespan in captivity is similar to that in the wild, approximately 4 to 6 years (see http://animaldiversity.ummz.umich.edu/accounts/Anolis_carolinensis/).
+is_a: AcarDv:0000000 ! lizard life cycle stage
+relationship: part_of AcarDv:0000004 ! mature stage
+property_value: start_mph "8.0" xsd:float
 property_value: end_mph "24.0" xsd:float
 
 [Term]
-id: AcarlDv:0000008
+id: AcarDv:0000006
 name: late adult stage
 namespace: lizard_developmental_stage
 synonym: "mature" EXACT []
-def: Lizard developmental stage that refers to a lizard who is over 24 months old." [Bgee:curator "Bgee"]
+def: "Lizard developmental stage that refers to a lizard who is over 24 months old." [Bgee:curator "Bgee"]
 comment: Green anoles can live up to seven years in captivity (see http://genomics.senescence.info/species/entry.php?species=Anolis_carolinensis).
-is_a: AcarlDv:0000000 ! lizard life cycle stage
-relationship: part_of AcarlDv:0000006 ! mature stage
+is_a: AcarDv:0000000 ! lizard life cycle stage
+relationship: part_of AcarDv:0000004 ! mature stage
+relationship: immediately_preceded_by AcarDv:0000005 ! early adult stage
 property_value: start_mph "24.0" xsd:float
 
 [Typedef]
