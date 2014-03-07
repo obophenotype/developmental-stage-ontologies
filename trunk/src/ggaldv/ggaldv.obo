@@ -28,7 +28,7 @@ comment: Embryo develops and hatches in 20 to 21 days (see http://php.med.unsw.e
 xref: UBERON:0000068
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
-property_value: start_dpf "0.25" xsd:float
+property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "21.0" xsd:float
 property_value: end_mph "0.0" xsd:float
 
