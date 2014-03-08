@@ -38,6 +38,7 @@ namespace: mouse_developmental_stage
 def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000042 ! prenatal stage
+property_value: start_dpf "0.0" xsd:float
 property_value: start_dpc "0.45" xsd:float
 
 [Term]
