@@ -86,7 +86,6 @@ relationship: preceded_by GgalDv:0000003 ! immature stage
 id: GgalDv:0000007
 name: early adult stage
 namespace: chicken_developmental_stage
-synonym: "mature" EXACT []
 def: "Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old." [Bgee:curator "Bgee"]
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000006 ! mature stage
