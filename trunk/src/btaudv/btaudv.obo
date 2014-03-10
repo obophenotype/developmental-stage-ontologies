@@ -66,7 +66,7 @@ name: adulthood stage
 namespace: cow_developmental_stage
 def: "Mature stage that refers to a cow who is over 1,5 and under 12 years old." [Bgee:curator "Bgee"]
 comment: Females appear to remain fertile for about 12 years (see http://genomics.senescence.info/species/entry.php?species=Bos_taurus).
-synonym: "breeding stage" RELATED []
+synonym: "breeding age" RELATED []
 is_a: BtauDv:0000000 ! cow life cycle stage
 relationship: part_of BtauDv:0000004 ! mature stage
 property_value: start_ypb "1.5" xsd:float
