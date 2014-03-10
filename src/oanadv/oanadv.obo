@@ -63,25 +63,23 @@ property_value: start_mph "18.3" xsd:float
 id: OanaDv:0000005
 name: adulthood stage
 namespace: platypus_developmental_stage
-synonym: "mature" EXACT []
-def: "Mature stage that refers to a adult platypus which is over 1,5 and under 9 years old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult platypus which is over 1,5 and under 10 years old." [Bgee:curator "Bgee"]
 comment: Females are thought likely to become sexually mature in their second year, with breeding confirmed still to take place in animals over 9 years old. (see http://en.wikipedia.org/wiki/Platypus).
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage
 property_value: start_mph "18.3" xsd:float
-property_value: end_mph "108.0" xsd:float
+property_value: end_mph "120.0" xsd:float
 
 [Term]
 id: OanaDv:0000006
 name: aged stage
 namespace: platypus_developmental_stage
-synonym: "mature" EXACT []
-def: "Mature stage that refers to a adult platypus which is over 9 years." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult platypus which is over 10 years." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of platypuses. They can live up to 12 years in the wild (see http://www.mspca.org/programs/wildlife-resources/species-information/about-platypuss.html) and one captive specimen was at least 22.6 years old when it died (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage
 relationship: immediately_preceded_by OanaDv:0000005 ! adulthood stage
-property_value: start_mph "108.0" xsd:float
+property_value: start_mph "120.0" xsd:float
 
 [Typedef]
 id: part_of

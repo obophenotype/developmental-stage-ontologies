@@ -63,7 +63,6 @@ relationship: preceded_by AcarDv:0000003 ! immature stage
 id: AcarDv:0000005
 name: early adult stage
 namespace: lizard_developmental_stage
-synonym: "mature" EXACT []
 def: "Lizard developmental stage that refers to a lizard who is over 8 and under 24 months old." [Bgee:curator "Bgee"]
 comment: Green anoles have a lifespan ranging from 2 to 8 years, determined largely by predation. Lifespan in captivity is similar to that in the wild, approximately 4 to 6 years (see http://animaldiversity.ummz.umich.edu/accounts/Anolis_carolinensis/).
 is_a: AcarDv:0000000 ! lizard life cycle stage
@@ -75,7 +74,6 @@ property_value: end_mph "24.0" xsd:float
 id: AcarDv:0000006
 name: late adult stage
 namespace: lizard_developmental_stage
-synonym: "mature" EXACT []
 def: "Lizard developmental stage that refers to a lizard who is over 24 months old." [Bgee:curator "Bgee"]
 comment: Green anoles can live up to seven years in captivity (see http://genomics.senescence.info/species/entry.php?species=Anolis_carolinensis).
 is_a: AcarDv:0000000 ! lizard life cycle stage
