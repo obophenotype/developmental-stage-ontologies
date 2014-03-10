@@ -86,7 +86,6 @@ property_value: start_mpb "4.0" xsd:float
 id: MdomDv:0000007
 name: adulthood stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Mature stage that refers to a adult opossum which is over 4 months and under 21 months old." [Bgee:curator "Bgee"]
 comment: The life span of opossums is very short and a four-year old wild opossum is a rarity (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html).
 is_a: MdomDv:0000000 ! opossum life cycle stage
@@ -98,7 +97,6 @@ property_value: end_mpb "21.0" xsd:float
 id: MdomDv:0000008
 name: 4-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Adulthood stage that refers to a opossum which is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007 ! adulthood stage
@@ -109,7 +107,6 @@ property_value: end_mpb "5.0" xsd:float
 id: MdomDv:0000009
 name: 5-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Adulthood stage that refers to a opossum which is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007 ! adulthood stage
@@ -121,7 +118,6 @@ property_value: end_mpb "6.0" xsd:float
 id: MdomDv:0000010
 name: 6-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Adulthood stage that refers to a opossum which is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
@@ -131,33 +127,52 @@ property_value: end_mpb "7.0" xsd:float
 
 [Term]
 id: MdomDv:0000011
-name: 7-19 month-old stage
+name: 7-12 month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
-def: "Adulthood stage that refers to a opossum which is over 7 and under 20 months old." [Bgee:curator "Bgee"]
+def: "Adulthood stage that refers to a opossum which is over 7 and under 13 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000010 ! 6-month-old stage
 property_value: start_mpb "7.0" xsd:float
-property_value: end_mpb "20.0" xsd:float
+property_value: end_mpb "13.0" xsd:float
 
 [Term]
 id: MdomDv:0000012
+name: 13 month-old stage
+namespace: opossum_developmental_stage
+def: "Adulthood stage that refers to a opossum which is over 13 and under 14 months old." [Bgee:curator "Bgee"]
+is_a: MdomDv:0000000 ! opossum life cycle stage
+relationship: part_of MdomDv:0000007  ! adulthood stage
+relationship: immediately_preceded_by MdomDv:0000011 ! 7-12-month-old stage
+property_value: start_mpb "13.0" xsd:float
+property_value: end_mpb "14.0" xsd:float
+
+[Term]
+id: MdomDv:0000013
+name: 14-19 month-old stage
+namespace: opossum_developmental_stage
+def: "Adulthood stage that refers to a opossum which is over 14 and under 20 months old." [Bgee:curator "Bgee"]
+is_a: MdomDv:0000000 ! opossum life cycle stage
+relationship: part_of MdomDv:0000007  ! adulthood stage
+relationship: immediately_preceded_by MdomDv:0000012 ! 13-month-old stage
+property_value: start_mpb "14.0" xsd:float
+property_value: end_mpb "20.0" xsd:float
+
+[Term]
+id: MdomDv:0000014
 name: 20-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Mature stage that refers to a opossum which is over 20 and under 21 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
-relationship: immediately_preceded_by MdomDv:0000011 ! 7-19 month-old stage
+relationship: immediately_preceded_by MdomDv:0000013 ! 14-19 month-old stage
 property_value: start_mpb "20.0" xsd:float
 property_value: end_mpb "21.0" xsd:float
 
 [Term]
-id: MdomDv:0000013
+id: MdomDv:0000015
 name: aged stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Mature stage that refers to a adult opossum which is over 21 months." [Bgee:curator "Bgee"]
 comment: The life span of opossums is very short and a four-year old wild opossum is a rarity (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html).
 is_a: MdomDv:0000000 ! opossum life cycle stage
@@ -165,73 +180,67 @@ relationship: part_of MdomDv:0000006 ! mature stage
 property_value: start_mpb "21.0" xsd:float
 
 [Term]
-id: MdomDv:00000014
+id: MdomDv:0000016
 name: 21-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Aged stage that refers to a opossum which is over 21 and under 22 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
-relationship: part_of MdomDv:0000013 ! aged stage
+relationship: part_of MdomDv:0000015 ! aged stage
 property_value: start_mpb "21.0" xsd:float
 property_value: end_mpb "22.0" xsd:float
 
 [Term]
-id: MdomDv:00000015
+id: MdomDv:0000017
 name: 22-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Aged stage that refers to a opossum which is over 22 and under 23 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
-relationship: part_of MdomDv:0000013 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000014 ! 21 month-old stage
+relationship: part_of MdomDv:0000015 ! aged stage
+relationship: immediately_preceded_by MdomDv:0000016 ! 21 month-old stage
 property_value: start_mpb "22.0" xsd:float
 property_value: end_mpb "23.0" xsd:float
 
 [Term]
-id: MdomDv:00000016
+id: MdomDv:0000018
 name: 23-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Aged stage that refers to a opossum which is over 23 and under 24 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
-relationship: part_of MdomDv:0000013 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000015 ! 22 month-old stage
+relationship: part_of MdomDv:0000015 ! aged stage
+relationship: immediately_preceded_by MdomDv:0000017 ! 22 month-old stage
 property_value: start_mpb "23.0" xsd:float
 property_value: end_mpb "24.0" xsd:float
 
 [Term]
-id: MdomDv:00000017
+id: MdomDv:0000019
 name: 24-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Aged stage that refers to a opossum which is over 24 and under 25 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
-relationship: part_of MdomDv:0000013 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000016 ! 23 month-old stage
+relationship: part_of MdomDv:0000015 ! aged stage
+relationship: immediately_preceded_by MdomDv:0000018 ! 23 month-old stage
 property_value: start_mpb "24.0" xsd:float
 property_value: end_mpb "25.0" xsd:float
 
 [Term]
-id: MdomDv:00000018
+id: MdomDv:0000020
 name: 25-month-old stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Aged stage that refers to a opossum which is over 25 and under 26 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
-relationship: part_of MdomDv:0000013 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000017 ! 24 month-old stage
+relationship: part_of MdomDv:0000015 ! aged stage
+relationship: immediately_preceded_by MdomDv:0000019 ! 24 month-old stage
 property_value: start_mpb "25.0" xsd:float
 property_value: end_mpb "26.0" xsd:float
 
 [Term]
-id: MdomDv:00000019
+id: MdomDv:0000021
 name: 26-month-old and over stage
 namespace: opossum_developmental_stage
-synonym: "mature" EXACT []
 def: "Aged stage that refers to a opossum which is over 26 months old." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
-relationship: part_of MdomDv:0000013 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000018 ! 25 month-old stage
+relationship: part_of MdomDv:0000015 ! aged stage
+relationship: immediately_preceded_by MdomDv:0000020 ! 25 month-old stage
 property_value: start_mpb "26.0" xsd:float
 
 [Typedef]
