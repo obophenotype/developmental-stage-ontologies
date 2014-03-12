@@ -53,7 +53,7 @@ property_value: end_ypb "8.0" xsd:float
 id: GgorDv:0000004
 name: nursing stage
 namespace: gorilla_developmental_stage
-def: "Gorilla developmental stage that covers the period from birth until 2 years old, at which point individuals wean." [Bgee:curator "Bgee"]
+def: "Gorilla developmental stage that covers the period from birth until 2 years old, at which point individuals usually wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 834 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla). 
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000003 ! immature stage

@@ -36,7 +36,7 @@ property_value: end_mpf "8.3" xsd:float
 id: PpygDv:0000003
 name: immature stage
 namespace: orangutan_developmental_stage
-def: "Orangutan developmental stage that covers the period from birth until 7 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+def: "Orangutan developmental stage that covers the period from birth until 7 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Orangutan reach sexual maturity by 2,555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
 synonym: "postnatal development" RELATED []
 xref: UBERON:0000112

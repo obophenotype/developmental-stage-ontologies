@@ -24,7 +24,7 @@ id: AcarDv:0000002
 name: prenatal stage
 namespace: lizard_developmental_stage
 def: "Lizard life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
-comment: Following internal fertilization, early embryogenesis clearly proceeds within the oviduct in lizards genus Anolis, and most eggs are laid at the Early limb-bud stage of development (Stage 4). Juvenile lizards genus Anolis hatch with a snout-to-vent length of about 1,6 cm, after 22–27 days of incubation(see http://www.ncbi.nlm.nih.gov/pubmed/?term=17724661).
+comment: Following internal fertilization, early embryogenesis clearly proceeds within the oviduct in lizards genus Anolis, and most eggs are laid at the Early limb-bud stage of development (Stage 4). Juvenile lizards genus Anolis hatch with a snout-to-vent length of about 1,6 cm, after 22-27 days of incubation(see http://www.ncbi.nlm.nih.gov/pubmed/?term=17724661).
 xref: UBERON:0000068
 is_a: AcarDv:0000000 ! lizard life cycle stage
 relationship: part_of AcarDv:0000001 ! lizard life cycle
@@ -52,7 +52,7 @@ id: AcarDv:0000004
 name: mature stage
 namespace: lizard_developmental_stage
 synonym: "mature" EXACT []
-def: "Lizard developmental stage that refers to a sexually mature adult lizard, which is over 8 months old." [Bgee:curator "Bgee"]
+def: "Lizard developmental stage that refers to a sexually mature adult lizard, which is usually over 8 months old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
 is_a: AcarDv:0000000 ! lizard life cycle stage
 relationship: part_of AcarDv:0000001 ! lizard life cycle
