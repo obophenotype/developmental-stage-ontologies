@@ -36,7 +36,7 @@ property_value: end_mpf "7.7" xsd:float
 id: PpanDv:0000003
 name: immature stage
 namespace: bonobo_developmental_stage
-def: "Bonobo developmental stage that covers the period from birth until about 8,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+def: "Bonobo developmental stage that covers the period from birth until about 8,5 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Bonobo females reach sexual maturity by 3,194 days of age (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).
 synonym: "postnatal development" RELATED []
 xref: UBERON:0000112

@@ -19,6 +19,7 @@ namespace: rat_developmental_stage
 def: "Temporal interval that defines rat life from prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 comment: Vaginal plug normally persists 12 - 24 hours and may lasts as long as 48 hours (see http://web.jhu.edu/animalcare/procedures/rat.html).
 is_a: RnorDv:0000000 ! rat life cycle stage
+property_value: start_dpf "0.0" xsd:float
 property_value: start_dpc "0.45" xsd:float
 
 [Term]
@@ -149,7 +150,7 @@ property_value: end_dpc "22.0" xsd:float
 id: RnorDv:0000012
 name: immature stage
 namespace: rat_developmental_stage
-def: "Rat developmental stage that covers the period from birth until about 10 weeks old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+def: "Rat developmental stage that covers the period from birth until about 10 weeks old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Rats reach sexual maturity by 70 days of age for male and 90 days of age for female (see http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
 xref: UBERON:0000112
 is_a: RnorDv:0000000 ! rat life cycle stage
