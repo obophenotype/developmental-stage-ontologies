@@ -24,7 +24,7 @@ id: OanaDv:0000002
 name: prenatal stage
 namespace: platypus_developmental_stage
 def: "Platypus life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
-comment: Estimated gestation periods are 27 days and incubation periods are 10 days (see http://animaldiversity.ummz.umich.edu/accounts/Ornithorhynchus_anatinus/#physical_description).
+comment: Estimated gestation periods are 27 days and incubation periods are 10 days (see http://animaldiversity.ummz.umich.edu/accounts/Ornithorhynchus_anatinus/#reproduction).
 xref: UBERON:0000068
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000001 ! platypus life cycle

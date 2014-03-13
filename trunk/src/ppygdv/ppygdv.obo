@@ -1,7 +1,7 @@
 format-version: 1.2
 date: 25:02:2014 13:00
 saved-by: fbb (ann)
-default-namespace: chimpanzee_stages_ontology
+default-namespace: orangutan_stages_ontology
 ontology: ppygdv
 
 [Term]
@@ -24,7 +24,7 @@ id: PpygDv:0000002
 name: prenatal stage
 namespace: orangutan_developmental_stage
 def: "Orangutan life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
-comment: Embryo develops in 249 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
+comment: Embryo develops in 249 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
 xref: UBERON:0000068
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 relationship: part_of PpygDv:0000001 ! orangutan life cycle
