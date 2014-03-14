@@ -10,8 +10,9 @@ ontology: xtrodv
 id: XtroDv:0000000
 name: xenopus life cycle stage
 namespace: xenopus_developmental_stage
-def: "Temporal interval that defines Xenopus life from embryonic stage until adult stage." [Bgee:curator]
+def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 xref: XAO:1000000
+xref: UBERON:0000105
 
 [Term]
 id: XtroDv:0000001
@@ -173,6 +174,7 @@ namespace: xenopus_developmental_stage
 def: "Embryonic stage during which gastrulation takes place, with a proportion of cells migrating below the surface of the embryo to form two inner layers (endoderm and mesoderm) and the cells which remain outside spreading over the whole surface of the embryo to form the ectoderm." [XAO:1000005]
 comment: Refers to Nieuwkoop and Faber (NF) stage 10 to stage 12.5, so 9 hr - 14 hr 15 min pf (post-fertilization).
 synonym: "gastrula" EXACT []
+xref: UBERON:0000109
 xref: XAO:1000005
 is_a: XtroDv:0000000 ! xenopus life cycle stage
 relationship: part_of XtroDv:0000002 ! embryonic stage
@@ -257,6 +259,7 @@ def: "Embryonic stage defined by formation of a tube from the flat layer of ecto
 comment: Refers to Nieuwkoop and Faber (NF) stage 13 to stage 21, so 14 hr 45 min - 22 hr 30 min pf (post-fertilization).
 synonym: "neurula" EXACT []
 xref: XAO:1000006
+xref: UBERON:0000110
 is_a: XtroDv:0000000 ! xenopus life cycle stage
 relationship: part_of XtroDv:0000002 ! embryonic stage
 

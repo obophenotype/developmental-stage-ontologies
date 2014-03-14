@@ -10,6 +10,7 @@ name: mouse life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: MmusDv:0000001
@@ -36,6 +37,7 @@ id: MmusDv:0000002
 name: embryonic mouse stage
 namespace: mouse_developmental_stage
 def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
+xref: UBERON:0000068
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000042 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
@@ -208,6 +210,7 @@ id: MmusDv:0000013
 name: gastrula stage
 namespace: mouse_developmental_stage
 def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109 "adapted from"]
+xref: UBERON:0000109
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
 
@@ -602,6 +605,7 @@ name: fetal stage
 namespace: mouse_developmental_stage
 def: "Prenatal stage that starts with the fully formed embryo and ends at birth." [Bgee:curator "Bgee"]
 comment: This stage describes the four Theiler stages that are commonly reported as equivalent to the human fetal period in the literature. They are anyway defined by embryonic days.
+xref: UBERON:0007220
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000042 ! prenatal stage
 
@@ -680,6 +684,7 @@ synonym: "TheilerStage28" RELATED []
 synonym: "Theiler stage 28" RELATED []
 synonym: "TS28 (P0-Adult)" RELATED [EMAP:TS28]
 synonym: "P0-adult" RELATED [EMAP:TS28]
+xref: UBERON:0000112
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000001 ! mouse life cycle
 property_value: start_dpc "19.0" xsd:float

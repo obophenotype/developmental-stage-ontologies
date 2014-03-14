@@ -25,7 +25,6 @@ name: prenatal stage
 namespace: bonobo_developmental_stage
 def: "Bonobo life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 232 days (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).
-xref: UBERON:0000068
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000001 ! bonobo life cycle
 property_value: start_dpf "0.0" xsd:float

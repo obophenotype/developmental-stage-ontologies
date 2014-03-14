@@ -25,7 +25,6 @@ name: prenatal stage
 namespace: orangutan_developmental_stage
 def: "Orangutan life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 249 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
-xref: UBERON:0000068
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 relationship: part_of PpygDv:0000001 ! orangutan life cycle
 property_value: start_dpf "0.0" xsd:float

@@ -13,6 +13,7 @@ name: human life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: HsapDv:0000001
@@ -35,13 +36,14 @@ property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "266.0" xsd:float
 
 [Term]
-id: HsapDv:0000002 ! embryonic human stage
+id: HsapDv:0000002
 name: embryonic human stage
 namespace: human_developmental_stage
 synonym: "embryo stage" RELATED []
 def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
 comment: By embryo we mean in the sense of up to the 8th week postfertilization (over 7 and under 8 weeks), we treat fetus as a separate stage.
 synonym: "first trimester" RELATED [http://en.wikipedia.org/wiki/Gestational_age]
+xref: UBERON:0000068
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
@@ -179,6 +181,7 @@ id: HsapDv:0000010
 name: gastrula stage
 namespace: human_developmental_stage
 def: "Embryonic stage defined by a complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109 "adapted from"]
+xref: UBERON:0000109
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000002 ! embryonic human stage
 
@@ -231,6 +234,7 @@ name: neurula stage
 namespace: human_developmental_stage
 def: "Embryonic stage defined by the formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110 "adapted from"]
 comment: This stage starts the emergence of the central nervous system.
+xref: UBERON:0000110
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000002 ! embryonic human stage
 property_value: has_stage_marker  EHDAA2:0001254 ! neural tube
@@ -540,6 +544,7 @@ synonym: "fetus stage" RELATED []
 synonym: "second and third trimester" RELATED [http://en.wikipedia.org/wiki/Gestational_age]
 def: "Prenatal stage that starts with the fully formed embryo and ends at birth." [Bgee:curator "Bgee"]
 comment: Prenatal development is a continuum, with no clear defining feature distinguishing an embryo from a fetus. The use of the term "fetus" generally implies that a mammalian embryo has developed to the point of being recognizable as belonging to its own species, though the point at which this occurs is subjective. [Wikipedia:Fetus]
+xref: UBERON:0007220
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 relationship: immediately_preceded_by HsapDv:0000002 ! embryonic human stage
@@ -1004,6 +1009,7 @@ namespace: human_developmental_stage
 def: "Human developmental stage that covers the period from birth until 12 years old." [Bgee:curator "Bgee"]
 synonym: "0-12 years" EXACT []
 synonym: "child" RELATED []
+xref: UBERON:0000112
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
 property_value: start_ypb "0.0" xsd:float
