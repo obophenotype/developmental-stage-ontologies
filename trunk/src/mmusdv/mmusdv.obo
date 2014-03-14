@@ -843,6 +843,7 @@ name: mature stage
 namespace: mouse_developmental_stage
 synonym: "mature" EXACT []
 def: "Mouse developmental stage that refers to a sexually mature adult mouse which is over 6 weeks old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000001 ! mouse life cycle
 property_value: start_wpb "6.0" xsd:float
