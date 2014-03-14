@@ -25,7 +25,6 @@ name: prenatal stage
 namespace: chimpanzee_developmental_stage
 def: "Chimpanzee life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 229 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
-xref: UBERON:0000068
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000001 ! chimpanzee life cycle
 property_value: start_dpf "0.0" xsd:float

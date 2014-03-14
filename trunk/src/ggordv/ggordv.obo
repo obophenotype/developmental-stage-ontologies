@@ -25,7 +25,6 @@ name: prenatal stage
 namespace: gorilla_developmental_stage
 def: "Gorilla life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 256 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
-xref: UBERON:0000068
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000001 ! gorilla life cycle
 property_value: start_dpf "0.0" xsd:float

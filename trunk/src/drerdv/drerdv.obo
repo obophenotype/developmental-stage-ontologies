@@ -13,6 +13,7 @@ name: zebrafish life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
+xref: UBERON:0000105
 
 [Term]
 id: DrerDv:0000001
@@ -495,6 +496,7 @@ relationship: part_of DrerDv:0000002 ! embryonic stage
 id: DrerDv:0000049
 name: gastrula stage
 def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109]
+xref: UBERON:0000109 
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 
@@ -502,6 +504,7 @@ relationship: part_of DrerDv:0000002 ! embryonic stage
 id: DrerDv:0000050
 name: neurula stage
 def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110]
+xref: UBERON:0000110
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 
