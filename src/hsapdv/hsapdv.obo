@@ -20,6 +20,7 @@ id: HsapDv:0000001
 name: human life cycle
 namespace: human_developmental_stage
 def: "Temporal interval that defines human life from the prenatal stage until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: HsapDv:0000000 ! human life cycle stage
 property_value: start_dpf "0.0" xsd:float
 
@@ -28,6 +29,7 @@ id: HsapDv:0000045
 name: prenatal stage
 namespace: human_developmental_stage
 def: "Human developmental stage that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
+xref: UBERON:0000068
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
 property_value: start_dpf "0.0" xsd:float

@@ -18,6 +18,7 @@ id: MmulDv:0000001
 name: rhesus life cycle
 namespace: rhesus_developmental_stage
 def: "Temporal interval that defines rhesus life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 
 [Term]
@@ -26,6 +27,7 @@ name: prenatal stage
 namespace: rhesus_developmental_stage
 def: "Rhesus life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 165 days (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
+xref: UBERON:0000068
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000001 ! rhesus life cycle
 property_value: start_dpf "0.0" xsd:float

@@ -17,6 +17,7 @@ id: PtroDv:0000001
 name: chimpanzee life cycle
 namespace: chimpanzee_developmental_stage
 def: "Temporal interval that defines chimpanzee life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 
 [Term]

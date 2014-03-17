@@ -17,6 +17,7 @@ id: BtauDv:0000001
 name: cow life cycle
 namespace: cow_developmental_stage
 def: "Temporal interval that defines cow life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: BtauDv:0000000 ! cow life cycle stage
 
 [Term]
@@ -25,6 +26,7 @@ name: prenatal stage
 namespace: cow_developmental_stage
 def: "Cow life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 277 days (see http://genomics.senescence.info/species/entry.php?species=Bos_taurus). Depending on the breed, the gestation time slightly varies (see http://embryology.med.unsw.edu.au/embryology/index.php?title=Bovine_Development).
+xref: UBERON:0000068
 is_a: BtauDv:0000000 ! cow life cycle stage
 relationship: part_of BtauDv:0000001 ! cow life cycle
 property_value: start_dpf "0.0" xsd:float
