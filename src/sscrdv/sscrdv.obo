@@ -38,7 +38,6 @@ name: immature stage
 namespace: pig_developmental_stage
 def: "Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
-synonym: "postnatal development" RELATED []
 xref: UBERON:0000112
 is_a: SscrDV:0000000 ! pig life cycle stage
 relationship: part_of SscrDV:0000001 ! pig life cycle

@@ -37,7 +37,6 @@ name: immature stage
 namespace: chimpanzee_developmental_stage
 def: "Chimpanzee developmental stage that covers the period from birth until 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Chimpanzee reach sexual maturity by 2,920 days of age for male, 3,376 days for female (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
-synonym: "postnatal development" RELATED []
 xref: UBERON:0000112
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000001 ! chimpanzee life cycle
