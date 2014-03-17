@@ -36,7 +36,6 @@ name: immature stage
 namespace: platypus_developmental_stage
 def: "Platypus developmental stage that covers the period from hatching until 1,5 year old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
-synonym: "postnatal development" RELATED []
 xref: UBERON:0000112
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000001 ! platypus life cycle
