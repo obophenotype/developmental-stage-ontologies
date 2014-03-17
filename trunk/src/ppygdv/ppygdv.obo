@@ -17,6 +17,7 @@ id: PpygDv:0000001
 name: orangutan life cycle
 namespace: orangutan_developmental_stage
 def: "Temporal interval that defines orangutan life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 
 [Term]

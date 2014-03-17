@@ -18,6 +18,7 @@ id: MdomDv:0000001
 name: opossum life cycle
 namespace: opossum_developmental_stage
 def: "Temporal interval that defines opossum life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: MdomDv:0000000 ! opossum life cycle stage
 
 [Term]
@@ -26,6 +27,7 @@ name: prenatal stage
 namespace: opossum_developmental_stage
 def: "Opossum life cycle that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
 comment: Gestation time is 15 days of development (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+xref: UBERON:0000068
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
 property_value: start_dpf "0.0" xsd:float

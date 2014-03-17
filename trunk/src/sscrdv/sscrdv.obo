@@ -18,6 +18,7 @@ id: SscrDv:0000001
 name: pig life cycle
 namespace: pig_developmental_stage
 def: "Temporal interval that defines pig life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: SscrDV:0000000 ! pig life cycle stage
 
 [Term]

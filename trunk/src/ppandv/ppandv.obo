@@ -17,6 +17,7 @@ id: PpanDv:0000001
 name: bonobo life cycle
 namespace: bonobo_developmental_stage
 def: "Temporal interval that defines bonobo life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 
 [Term]

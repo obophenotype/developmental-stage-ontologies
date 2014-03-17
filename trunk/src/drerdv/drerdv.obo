@@ -19,6 +19,7 @@ xref: UBERON:0000105
 id: DrerDv:0000001
 name: zebrafish life cycle
 def: "Temporal interval that defines zebrafish life from embryonic stage until adult stage." [Bgee:curator]
+xref: UBERON:0000104
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 
 [Term]
@@ -26,6 +27,7 @@ id: DrerDv:0000002
 name: embryonic stage
 def: "Zebrafish life cycle that starts with fertilization and ends with the formed feeding larva." [Bgee:curator]
 comment: This stage usually covers the 3 first days of development (see http://zfin.org/zf_info/zfbook/stages/phar.html).
+xref: UBERON:0000068
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000001 ! zebrafish life cycle
 

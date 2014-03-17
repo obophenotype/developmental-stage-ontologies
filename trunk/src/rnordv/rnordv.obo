@@ -18,6 +18,7 @@ name: rat life cycle
 namespace: rat_developmental_stage
 def: "Temporal interval that defines rat life from prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 comment: Vaginal plug normally persists 12 - 24 hours and may lasts as long as 48 hours (see http://web.jhu.edu/animalcare/procedures/rat.html).
+xref: UBERON:0000104
 is_a: RnorDv:0000000 ! rat life cycle stage
 property_value: start_dpf "0.0" xsd:float
 property_value: start_dpc "0.45" xsd:float

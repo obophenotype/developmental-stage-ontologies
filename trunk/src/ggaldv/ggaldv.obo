@@ -17,6 +17,7 @@ id: GgalDv:0000001
 name: chicken life cycle
 namespace: chicken_developmental_stage
 def: "Temporal interval that defines chicken life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
 is_a: GgalDv:0000000 ! chicken life cycle stage
 
 [Term]
@@ -25,6 +26,7 @@ name: prenatal stage
 namespace: chicken_developmental_stage
 def: "chicken life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
 comment: Embryo develops and hatches in 20 to 21 days (see http://php.med.unsw.edu.au/embryology/index.php?title=Chicken_Development).
+xref: UBERON:0000068
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
 property_value: start_dpf "0.0" xsd:float

@@ -19,6 +19,7 @@ id: XtroDv:0000001
 name: xenopus life cycle
 namespace: xenopus_developmental_stage
 def: "Temporal interval that defines Xenopus life from embryonic stage until adult stage." [Bgee:curator]
+xref: UBERON:0000104
 xref: XAO:1000000
 is_a: XtroDv:0000000 ! xenopus life cycle stage
 
