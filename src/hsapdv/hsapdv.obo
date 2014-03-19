@@ -28,7 +28,7 @@ property_value: start_dpf "0.0" xsd:float
 id: HsapDv:0000045
 name: prenatal stage
 namespace: human_developmental_stage
-def: "Human developmental stage that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
+def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
 xref: UBERON:0000068
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
@@ -42,10 +42,9 @@ id: HsapDv:0000002
 name: embryonic human stage
 namespace: human_developmental_stage
 synonym: "embryo stage" RELATED []
-def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
+def: "Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage." [Bgee:curator "Bgee"]
 comment: By embryo we mean in the sense of up to the 8th week postfertilization (over 7 and under 8 weeks), we treat fetus as a separate stage.
 synonym: "first trimester" RELATED [http://en.wikipedia.org/wiki/Gestational_age]
-xref: UBERON:0000068
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float

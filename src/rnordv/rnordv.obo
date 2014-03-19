@@ -27,8 +27,9 @@ property_value: start_dpc "0.45" xsd:float
 id: RnorDv:0000002
 name: prenatal stage
 namespace: rat_developmental_stage
-def: "Rat life cycle that starts with fertilization and ends with birth." [Bgee:curator "Bgee"]
+def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
 comment: Rat birth occurs at the 22nd day of development (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages).
+xref: UBERON:0000068
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000001 ! rat life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -40,9 +41,8 @@ property_value: end_ypb "0.0" xsd:float
 id: RnorDv:0000003
 name: embryonic stage
 namespace: rat_developmental_stage
-def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
-comment: This stage covers the first 16 days of the embryonic development, from Standard Witschi Stage 1 until Standard Witschi Stage 33 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline).
-xref: UBERON:0000068
+def: "Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage." [Bgee:curator "Bgee"]
+comment: This stage covers the first 16 days of the embryonic development, from Standard Witschi Stage 1 until Standard Witschi Stage 33 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline), we treat fetus as a separate stage.
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000002 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float

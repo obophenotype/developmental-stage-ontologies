@@ -382,6 +382,7 @@ id: OlatDv:0000470
 name: Medaka stage 44
 def: "Zoological Science 11\: 825-839 (1994) -   Stage 44 2nd young fish stage\: At this stage the mature fish ejaculate sperm and spawn eggs (total length about 23 mm ). -  " [OlatDv:curators]
 synonym: "2nd young fish stage" EXACT []
+xref: UBERON:0000113
 is_a: OlatDv:0000010 ! developmental stage
 relationship: immediately_preceded_by OlatDv:0000460 ! Medaka stage 43
 

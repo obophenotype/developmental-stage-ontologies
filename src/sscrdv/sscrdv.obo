@@ -27,6 +27,7 @@ name: prenatal stage
 namespace: pig_developmental_stage
 def: "Pig life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 115 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
+xref: UBERON:0000068
 is_a: SscrDV:0000000 ! pig life cycle stage
 relationship: part_of SscrDV:0000001 ! pig life cycle
 property_value: start_dpf "0.0" xsd:float

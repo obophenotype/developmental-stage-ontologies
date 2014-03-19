@@ -28,6 +28,7 @@ id: XtroDv:0000002
 name: embryonic stage
 namespace: xenopus_developmental_stage
 def: "Xenopus developmental stage that starts with fertilization and ends with the formed feeding larva." [Bgee:curator]
+xref: UBERON:0000068
 xref: XAO:1000012
 is_a: XtroDv:0000000 ! xenopus life cycle stage
 relationship: part_of XtroDv:0000001 ! xenopus life cycle
@@ -39,6 +40,7 @@ namespace: xenopus_developmental_stage
 def: "Embryonic stage defined by one cell shortly after fertilization, with pigmentation darker ventrally than dorsally." [XAO:1000001]
 comment: 0 hr pf (post-fertilization) following Nieuwkoop and Faber (NF) stage description.
 synonym: "zygote" RELATED []
+xref: UBERON:0000106
 xref: XAO:1000001
 xref: ZFIN:ZDB-STAGE-010723-4
 is_a: XtroDv:0000000 ! xenopus life cycle stage
@@ -879,6 +881,7 @@ def: "Xenopus developmental stage that defines a sexually mature adult animal." 
 comment: this stage refers to the post-juvenile adult stage as described in UBERON:0000113.
 synonym: "adult frog" EXACT []
 xref: XAO:1000093
+xref: UBERON:0000113
 is_a: XtroDv:0000000 ! xenopus life cycle stage
 relationship: part_of XtroDv:0000001 ! xenopus life cycle
 

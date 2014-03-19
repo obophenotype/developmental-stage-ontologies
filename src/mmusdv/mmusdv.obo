@@ -39,6 +39,7 @@ id: MmusDv:0000002
 name: embryonic mouse stage
 namespace: mouse_developmental_stage
 def: "Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage." [Bgee:curator "Bgee"]
+comment: By embryo we mean in the sense of up to the 2nd week postfertilization (beginning of Theiler stage 23), we treat fetus as a separate stage.
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000042 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
@@ -51,6 +52,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic stage defined by a one-cell embryo (fertilised egg) with zona pellucida present." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_1 "adapted from"]
 comment: "Starts the mouse development sequence, range from embryonic age 0-0.9 dpc (day post coitum). Assumes that fertilization takes place around midnight during a 7pm to 5am dark cycle. Noon of the day on which the vaginal plug is found the embryos are aged 0.5 d.p.c (days post coitum)." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Timed_Pregnancy "adapted from"]
 synonym: "zygote stage" RELATED []
+xref: UBERON:0000106
 xref: XUO:0000045
 synonym: "Theiler stage 1" EXACT []
 synonym: "TS01 (E0-2.5)" RELATED [EMAPA:TS01]
