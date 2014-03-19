@@ -90,7 +90,7 @@ property_value: start_ypb "0.9" xsd:float
 id: SscrDv:0000007
 name: adulthood stage
 namespace: pig_developmental_stage
-def: "Mature stage that refers to a pig who is over 11 months old and under 8 years old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a pig who is over 11 months old and under 8 years old, the limit before geriatric age in the literature." [Bgee:curator "Bgee"]
 comment: Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).
 is_a: SscrDV:0000000 ! pig life cycle stage
 relationship: part_of SscrDV:0000006 ! mature stage
