@@ -12,7 +12,6 @@ synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
 xref: UBERON:0000105
 
-
 [Term]
 id: MmulDv:0000001
 name: rhesus life cycle
@@ -38,8 +37,8 @@ property_value: end_mpf "5.5" xsd:float
 id: MmulDv:0000003
 name: immature stage
 namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from birth until 3,5 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Rhesus reach sexual maturity by 2,007 days of age for male, 1,231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
+def: "Rhesus developmental stage that covers the period from birth until 3.5 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Rhesus reach sexual maturity by 2007 days of age for male, 1231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
 xref: UBERON:0000112
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000001 ! rhesus life cycle
@@ -53,7 +52,7 @@ property_value: end_ypb "3.5" xsd:float
 id: MmulDv:0000004
 name: nursing stage
 namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from birth until 9,5 months old, at which point individuals wean." [Bgee:curator "Bgee"]
+def: "Rhesus developmental stage that covers the period from birth until 9.5 months old, at which point individuals wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 292 days (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000003 ! immature stage
@@ -66,8 +65,8 @@ property_value: end_ypb "0.8" xsd:float
 id: MmulDv:0000005
 name: juvenile stage
 namespace: rhesus_developmental_stage
-def: "Rhesus developmental stage that covers the period from 9,5 months old, when individuals wean, until 3,5 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Rhesus reach sexual maturity by 2,007 days of age for male, 1,231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
+def: "Rhesus developmental stage that covers the period from 9.5 months old, when individuals wean, until 3,5 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Rhesus reach sexual maturity by 2007 days of age for male, 1231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000003 ! immature stage
 relationship: immediately_preceded_by MmulDv:0000004 ! nursing stage
@@ -90,7 +89,7 @@ property_value: start_ypb "3.5" xsd:float
 id: MmulDv:0000007
 name: adulthood stage
 namespace: rhesus_developmental_stage
-def: "Mature stage that refers to a rhesus who is over 3,5 and under 25 years old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a rhesus who is over 3.5 and under 25 years old." [Bgee:curator "Bgee"]
 comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
 synonym: "breeding age" RELATED []
 is_a: MmulDv:0000000 ! rhesus life cycle stage
@@ -115,7 +114,7 @@ namespace: rhesus_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000007 ! adulthood stage
-relationship: immediately_preceded_by MmulDv:0000008 ! 3,5-6 year-old stage
+relationship: immediately_preceded_by MmulDv:0000008 ! 3.5-6 year-old stage
 property_value: start_ypb "7.0" xsd:float
 property_value: end_ypb "8.0" xsd:float
 

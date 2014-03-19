@@ -38,6 +38,7 @@ def: "Embryonic stage defined by newly fertilized egg and during which the cytop
 comment: Embryonic age 0 hpf (hour post-fertilization).
 xref: ZFIN:ZDB-STAGE-010723-4
 xref: ZFS:0000001
+xref: UBERON:0000106
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 
@@ -553,6 +554,7 @@ def: "Post-embryonic stage that is defined by a sexually mature adult animal." [
 synonym: "Adult" RELATED []
 xref: ZFIN:ZDB-STAGE-010723-39
 xref: ZFS:0000044
+xref: UBERON:0000113
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000046 ! post-embryonic stage
 

@@ -26,6 +26,7 @@ name: prenatal stage
 namespace: platypus_developmental_stage
 def: "Platypus life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
 comment: Estimated gestation periods are 27 days and incubation periods are 10 days (see http://animaldiversity.ummz.umich.edu/accounts/Ornithorhynchus_anatinus/#reproduction).
+xref: UBERON:0000068
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000001 ! platypus life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -35,7 +36,7 @@ property_value: end_dpf "37.0" xsd:float
 id: OanaDv:0000003
 name: immature stage
 namespace: platypus_developmental_stage
-def: "Platypus developmental stage that covers the period from hatching until 1,5 year old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+def: "Platypus developmental stage that covers the period from hatching until 1.5 year old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
 xref: UBERON:0000112
 is_a: OanaDv:0000000 ! platypus life cycle stage
@@ -50,7 +51,7 @@ id: OanaDv:0000004
 name: mature stage
 namespace: platypus_developmental_stage
 synonym: "mature" EXACT []
-def: "Platypus developmental stage that refers to a sexually mature adult platypus, which is usually over 1,5 year old." [Bgee:curator "Bgee"]
+def: "Platypus developmental stage that refers to a sexually mature adult platypus, which is usually over 1.5 year old." [Bgee:curator "Bgee"]
 comment: Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
 xref: UBERON:0000113
 is_a: OanaDv:0000000 ! platypus life cycle stage
@@ -62,7 +63,7 @@ property_value: start_mph "18.3" xsd:float
 id: OanaDv:0000005
 name: adulthood stage
 namespace: platypus_developmental_stage
-def: "Mature stage that refers to a adult platypus which is over 1,5 and under 10 years old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult platypus which is over 1.5 and under 10 years old." [Bgee:curator "Bgee"]
 comment: Females are thought likely to become sexually mature in their second year, with breeding confirmed still to take place in animals over 9 years old. (see http://en.wikipedia.org/wiki/Platypus).
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage

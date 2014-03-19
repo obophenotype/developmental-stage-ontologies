@@ -16,6 +16,7 @@ name: zygote stage
 synonym: "0-2 zyg" [PLATY:A.H.L.Fischer]
 namespace: platynereis_stage
 def: "First developmental stage with the following key events: Fertilized egg before the onset of cleavage. Jelly forms, cortical migration of lipid droplets." [PLATY:A.H.L.Fischer]
+xref: UBERON:0000106
 is_a: PdumDv:0000090
 comment: At a temperature of 18 C this stages lasts from 0.00 hours till 2.00 hours.
 
@@ -199,6 +200,7 @@ name: adult (Heteronereis) stage
 synonym: "adult" [PLATY:A.H.L.Fischer]
 namespace: platynereis_stage
 def: "Developmental stage following Sexual metamorphosis stage with the following key events: Rapid swimming in straight lines. Nuptial dance. Synchronized by lunar periodicity. Mature animals become pelagic. Swarming and nuptial dance. The females release the eggs through disruptions/ fissures between the segments. Males release the sperm through a number of newly formed papillae at the posterior end. The eggs are fertilized in the water. After spawning, males and females die." [PLATY:A.H.L.Fischer]
+xref: UBERON:0000113
 is_a: PdumDv:0000090
 relationship: preceded_by PdumDv:0001550
 

@@ -37,7 +37,7 @@ property_value: end_mpf "9.2" xsd:float
 id: BtauDv:0000003
 name: immature stage
 namespace: cow_developmental_stage
-def: "Cow developmental stage that covers the period from birth until 1,5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+def: "Cow developmental stage that covers the period from birth until 1.5 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Female cows reach sexual maturity by 548 days of age(see http://genomics.senescence.info/species/entry.php?species=Bos_taurus).
 xref: UBERON:0000112
 is_a: BtauDv:0000000 ! cow life cycle stage
@@ -53,7 +53,7 @@ id: BtauDv:0000004
 name: mature stage
 namespace: cow_developmental_stage
 synonym: "mature" EXACT []
-def: "Cow developmental stage that refers to a sexually mature adult cow, which is usually over 1,5 years old." [Bgee:curator "Bgee"]
+def: "Cow developmental stage that refers to a sexually mature adult cow, which is usually over 1.5 years old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
 is_a: BtauDv:0000000 ! cow life cycle stage
 relationship: part_of BtauDv:0000001 ! cow life cycle
@@ -64,7 +64,7 @@ property_value: start_ypb "1.5" xsd:float
 id: BtauDv:0000005
 name: adulthood stage
 namespace: cow_developmental_stage
-def: "Mature stage that refers to a cow who is over 1,5 and under 12 years old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a cow who is over 1.5 and under 12 years old." [Bgee:curator "Bgee"]
 comment: Females appear to remain fertile for about 12 years (see http://genomics.senescence.info/species/entry.php?species=Bos_taurus).
 synonym: "breeding age" RELATED []
 is_a: BtauDv:0000000 ! cow life cycle stage

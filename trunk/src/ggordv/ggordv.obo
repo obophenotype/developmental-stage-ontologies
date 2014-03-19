@@ -33,13 +33,12 @@ property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "256.0" xsd:float
 property_value: end_mpf "8.5" xsd:float
 
-
 [Term]
 id: GgorDv:0000003
 name: immature stage
 namespace: gorilla_developmental_stage
-def: "Gorilla developmental stage that covers the period from birth until 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Gorilla reach sexual maturity by 4,015 days of age for male, 2,829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+def: "Gorilla developmental stage that covers the period from birth until about 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Gorilla reach sexual maturity by 4015 days of age for male, 2829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
 xref: UBERON:0000112
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000001 ! gorilla life cycle
@@ -47,13 +46,13 @@ relationship: immediately_preceded_by GgorDv:0000002 ! prenatal stage
 property_value: start_dpf "256.0" xsd:float
 property_value: start_mpf "8.5" xsd:float
 property_value: start_ypb "0.0" xsd:float
-property_value: end_ypb "8.0" xsd:float
+property_value: end_ypb "7.8" xsd:float
 
 [Term]
 id: GgorDv:0000004
 name: nursing stage
 namespace: gorilla_developmental_stage
-def: "Gorilla developmental stage that covers the period from birth until 2 years old, at which point individuals usually wean." [Bgee:curator "Bgee"]
+def: "Gorilla developmental stage that covers the period from birth until about 2 years old, at which point individuals usually wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 834 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla). 
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000003 ! immature stage
@@ -66,8 +65,8 @@ property_value: end_ypb "2.3" xsd:float
 id: GgorDv:0000005
 name: juvenile stage
 namespace: gorilla_developmental_stage
-def: "Gorilla developmental stage that covers the period from 2 years old, when individuals wean, until 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
-comment: Gorilla reach sexual maturity by 4,015 days of age for male, 2,829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+def: "Gorilla developmental stage that covers the period from about 2 years old, when individuals wean, until about 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Gorilla reach sexual maturity by 4015 days of age for male, 2829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000003 ! immature stage
 relationship: immediately_preceded_by GgorDv:0000004 ! nursing stage
@@ -79,21 +78,21 @@ id: GgorDv:0000006
 name: mature stage
 namespace: gorilla_developmental_stage
 synonym: "mature" EXACT []
-def: "Gorilla developmental stage that refers to a sexually mature adult gorilla, which is usually over 8 years old." [Bgee:curator "Bgee"]
+def: "Gorilla developmental stage that refers to a sexually mature adult gorilla, which is usually over about 8 years old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000001 ! gorilla life cycle
-property_value: start_ypb "8.0" xsd:float
+property_value: start_ypb "7.8" xsd:float
 
 [Term]
 id: GgorDv:0000007
 name: adulthood stage
 namespace: gorilla_developmental_stage
-def: "Mature stage that refers to a gorilla who is over 8 and under 30 years old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a gorilla who is over about 8 and under 30 years old." [Bgee:curator "Bgee"]
 comment: Geriatric gorillas are defined as animals with 30 years of age and older (see http://link.springer.com/article/10.1007%2Fs10764-006-9097-1).
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000006 ! mature stage
-property_value: start_ypb "8.0" xsd:float
+property_value: start_ypb "7.8" xsd:float
 property_value: end_ypb "30.0" xsd:float
 
 [Term]
@@ -109,53 +108,237 @@ property_value: start_ypb "30.0" xsd:float
 
 [Term]
 id: GgorDv:0000009
-name: 30-49 year-old stage
+name: 30-year-old stage
 namespace: gorilla_developmental_stage
-def: "Aged stage that refers to a gorilla who is under 50 years old." [Bgee:curator "Bgee"]
+def: "Aged stage that refers to a gorilla who is over 30 and under 31 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "30.0" xsd:float
+property_value: end_ypb "31.0" xsd:float
+
+[Term]
+id: GgorDv:0000010
+name: 31-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 31 and under 32 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "31.0" xsd:float
+property_value: end_ypb "32.0" xsd:float
+
+[Term]
+id: GgorDv:0000011
+name: 32-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 32 and under 33 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "32.0" xsd:float
+property_value: end_ypb "33.0" xsd:float
+
+[Term]
+id: GgorDv:0000012
+name: 33-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 33 and under 34 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "33.0" xsd:float
+property_value: end_ypb "34.0" xsd:float
+
+[Term]
+id: GgorDv:0000013
+name: 34-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 34 and under 35 years old." [Bgee:curator "Bgee"]
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000008 ! aged stage
 property_value: start_ypb "30.0" xsd:float
 property_value: end_ypb "50.0" xsd:float
 
 [Term]
-id: GgorDv:0000010
-name: 50 year-old and over stage
+id: GgorDv:0000014
+name: 35-year-old stage
 namespace: gorilla_developmental_stage
-def: "Aged stage that refers to a gorilla who is over 50 years old." [Bgee:curator "Bgee"]
+def: "Aged stage that refers to a gorilla who is over 35 and under 36 years old." [Bgee:curator "Bgee"]
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000008 ! aged stage
-property_value: start_ypb "50.0" xsd:float
+property_value: start_ypb "35.0" xsd:float
+property_value: end_ypb "36.0" xsd:float
 
 [Term]
-id: GgorDv:0000011
+id: GgorDv:0000015
+name: 36-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 36 and under 37 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "36.0" xsd:float
+property_value: end_ypb "37.0" xsd:float
+
+[Term]
+id: GgorDv:0000016
+name: 37-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 37 and under 38 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "37.0" xsd:float
+property_value: end_ypb "38.0" xsd:float
+
+[Term]
+id: GgorDv:0000017
+name: 38-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 38 and under 39 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "38.0" xsd:float
+property_value: end_ypb "39.0" xsd:float
+
+[Term]
+id: GgorDv:0000018
+name: 39-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 39 and under 40 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "39.0" xsd:float
+property_value: end_ypb "40.0" xsd:float
+
+[Term]
+id: GgorDv:0000019
+name: 40-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 40 and under 41 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "40.0" xsd:float
+property_value: end_ypb "41.0" xsd:float
+
+[Term]
+id: GgorDv:0000020
+name: 41-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 41 and under 42 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "41.0" xsd:float
+property_value: end_ypb "42.0" xsd:float
+
+[Term]
+id: GgorDv:0000021
+name: 42-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 42 and under 43 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "42.0" xsd:float
+property_value: end_ypb "43.0" xsd:float
+
+[Term]
+id: GgorDv:0000022
+name: 43-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 43 and under 44 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "43.0" xsd:float
+property_value: end_ypb "44.0" xsd:float
+
+[Term]
+id: GgorDv:0000023
+name: 44-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 44 and under 45 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "44.0" xsd:float
+property_value: end_ypb "45.0" xsd:float
+
+[Term]
+id: GgorDv:0000024
+name: 45-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 45 and under 46 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "45.0" xsd:float
+property_value: end_ypb "46.0" xsd:float
+
+[Term]
+id: GgorDv:0000025
+name: 46-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 46 and under 47 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "46.0" xsd:float
+property_value: end_ypb "47.0" xsd:float
+
+[Term]
+id: GgorDv:0000026
+name: 47-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 47 and under 48 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "47.0" xsd:float
+property_value: end_ypb "48.0" xsd:float
+
+[Term]
+id: GgorDv:0000027
+name: 48-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 48 and under 49 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000026 ! 47-year-old stage
+property_value: start_ypb "48.0" xsd:float
+property_value: end_ypb "49.0" xsd:float
+
+[Term]
+id: GgorDv:0000028
+name: 49-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 49 and under 50 years old." [Bgee:curator "Bgee"]
+is_a: GgorDv:0000000 ! gorilla life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000027 ! 48-year-old stage
+property_value: start_ypb "49.0" xsd:float
+property_value: end_ypb "50.0" xsd:float
+
+[Term]
+id: GgorDv:0000029
 name: 50-year-old stage
 namespace: gorilla_developmental_stage
-def: "Mature stage that refers to a gorilla who is over 50 and under 51 years old." [Bgee:curator "Bgee"]
+def: "Aged stage that refers to a gorilla who is over 50 and under 51 years old." [Bgee:curator "Bgee"]
 is_a: GgorDv:0000000 ! gorilla life cycle stage
-relationship: part_of GgorDv:0000010 ! 50 year-old and over stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000028 ! 49-year-old stage
 property_value: start_ypb "50.0" xsd:float
 property_value: end_ypb "51.0" xsd:float
 
 [Term]
-id: GgorDv:0000012
+id: GgorDv:0000030
 name: 51-year-old stage
 namespace: gorilla_developmental_stage
 def: "Mature stage that refers to a gorilla who is over 51 and under 52 years old." [Bgee:curator "Bgee"]
 is_a: GgorDv:0000000 ! gorilla life cycle stage
-relationship: part_of GgorDv:0000010 ! 50 year-old and over stage
-relationship: immediately_preceded_by GgorDv:0000011 ! 50-year-old stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000029 ! 50-year-old stage
 property_value: start_ypb "51.0" xsd:float
 property_value: end_ypb "52.0" xsd:float
 
 [Term]
-id: GgorDv:0000013
+id: GgorDv:0000031
 name: 52-year-old and over stage
 namespace: gorilla_developmental_stage
 def: "Mature stage that refers to a gorilla who is over 52 years old." [Bgee:curator "Bgee"]
-is_a: GgorDv:0000000 ! gorilla life cycle stage
-relationship: part_of GgorDv:0000010 ! 50 year-old and over stage
-relationship: immediately_preceded_by GgorDv:0000012 ! 51-year-old stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000030 ! 51-year-old stage
 property_value: start_ypb "52.0" xsd:float
+
 
 [Typedef]
 id: part_of

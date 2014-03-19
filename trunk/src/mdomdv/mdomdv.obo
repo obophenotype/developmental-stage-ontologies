@@ -284,7 +284,7 @@ id: MdomDv:0000025
 name: aged stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a adult opossum which is over 21 months." [Bgee:curator "Bgee"]
-comment: The life span of opossums is very short. The average female probably lives through one breeding season (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html). In the wild, two years is the standard lifespan (http://animaldiversity.ummz.umich.edu/accounts/Monodelphis_domestica/). We decided to consider 21 months as the upper limit before aged stage.
+comment: The life span of opossums is very short. The average female probably lives through one breeding season (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html). In the wild, two years is the standard lifespan (http://animaldiversity.ummz.umich.edu/accounts/Monodelphis_domestica/). We arbitraly consider 20 months as the upper limit for the adult, before aged stage. This is to improve as far as information is available..
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000006 ! mature stage
 property_value: start_mpb "21.0" xsd:float
