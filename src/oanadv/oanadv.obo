@@ -51,7 +51,7 @@ id: OanaDv:0000004
 name: mature stage
 namespace: platypus_developmental_stage
 synonym: "mature" EXACT []
-def: "Platypus developmental stage that refers to a sexually mature adult platypus, which is usually over 1.5 year old." [Bgee:curator "Bgee"]
+def: "Platypus developmental stage that refers to a sexually mature adult platypus, which is over about 1.5 year old." [Bgee:curator "Bgee"]
 comment: Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
 xref: UBERON:0000113
 is_a: OanaDv:0000000 ! platypus life cycle stage
@@ -63,7 +63,7 @@ property_value: start_mph "18.3" xsd:float
 id: OanaDv:0000005
 name: adulthood stage
 namespace: platypus_developmental_stage
-def: "Mature stage that refers to a adult platypus which is over 1.5 and under 10 years old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult platypus which is over 1.5 and under 10 years old, the usual upper limit for breeding age." [Bgee:curator "Bgee"]
 comment: Females are thought likely to become sexually mature in their second year, with breeding confirmed still to take place in animals over 9 years old. (see http://en.wikipedia.org/wiki/Platypus).
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage
@@ -75,7 +75,7 @@ id: OanaDv:0000006
 name: aged stage
 namespace: platypus_developmental_stage
 def: "Mature stage that refers to a adult platypus which is over 10 years." [Bgee:curator "Bgee"]
-comment: There is little information on the longevity of platypuses. They can live up to 12 years in the wild (see http://www.mspca.org/programs/wildlife-resources/species-information/about-platypuss.html) and one captive specimen was at least 22.6 years old when it died (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
+comment: There is little information on the longevity of platypuses. They can live up to 12 years in the wild (see http://www.mspca.org/programs/wildlife-resources/species-information/about-platypuss.html) and one captive specimen was at least 22.6 years old when it died (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus). Over 10 years old is usually no more a breeding age.
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage
 relationship: immediately_preceded_by OanaDv:0000005 ! adulthood stage

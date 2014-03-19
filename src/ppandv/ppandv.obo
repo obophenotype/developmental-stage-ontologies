@@ -94,6 +94,7 @@ is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 property_value: start_mpb "22.0" xsd:float
 property_value: end_mpb "23.0" xsd:float
+
 [Term]
 id: PpanDv:0000008
 name: 23-month-old stage
@@ -101,6 +102,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 23 and under 24 months old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000007 ! 22-month-old stage
 property_value: start_mpb "23.0" xsd:float
 property_value: end_mpb "24.0" xsd:float
 
@@ -111,6 +113,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 24 months and under 3 years old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000008 ! 23-month-old stage
 property_value: start_mpb "24.0" xsd:float
 property_value: end_mpb "36.0" xsd:float
 property_value: start_ypb "2.0" xsd:float
@@ -123,7 +126,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
-relationship: immediately_preceded_by PpanDv:0000006 ! 1.5-2 year-old stage
+relationship: immediately_preceded_by PpanDv:0000009 ! 2-year-old stage
 property_value: start_ypb "3.0" xsd:float
 property_value: end_ypb "4.0" xsd:float
 
@@ -134,7 +137,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
-relationship: immediately_preceded_by PpanDv:0000007 ! 3-year-old stage
+relationship: immediately_preceded_by PpanDv:0000010 ! 3-year-old stage
 property_value: start_ypb "4.0" xsd:float
 property_value: end_ypb "5.0" xsd:float
 
@@ -145,7 +148,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 5 and under 6 years old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
-relationship: immediately_preceded_by PpanDv:0000008 ! 4-year-old stage
+relationship: immediately_preceded_by PpanDv:0000011 ! 4-year-old stage
 property_value: start_ypb "5.0" xsd:float
 property_value: end_ypb "6.0" xsd:float
 
@@ -156,7 +159,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
-relationship: immediately_preceded_by PpanDv:0000009 ! 5-year-old stage
+relationship: immediately_preceded_by PpanDv:0000012 ! 5-year-old stage
 property_value: start_ypb "6.0" xsd:float
 property_value: end_ypb "7.0" xsd:float
 
@@ -167,7 +170,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
-relationship: immediately_preceded_by PpanDv:0000010 ! 6-year-old stage
+relationship: immediately_preceded_by PpanDv:0000013 ! 6-year-old stage
 property_value: start_ypb "7.0" xsd:float
 property_value: end_ypb "8.0" xsd:float
 
@@ -179,7 +182,7 @@ def: "Juvenile stage that refers to a immature bonobo who is over 8 and under 9 
 comment: Bonobo reach sexual maturity at about 8.5 years, so we consider a 8-year-old immature stage and a a 8-year-old mature stage.
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
-relationship: immediately_preceded_by PpanDv:0000011 ! 7-year-old stage
+relationship: immediately_preceded_by PpanDv:0000014 ! 7-year-old stage
 property_value: start_ypb "8.0" xsd:float
 property_value: end_ypb "8.75" xsd:float
 
