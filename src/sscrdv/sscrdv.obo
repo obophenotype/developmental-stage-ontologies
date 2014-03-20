@@ -2,7 +2,7 @@ format-version: 1.2
 date: 25:02:2014 13:00
 saved-by: fbb (ann)
 default-namespace: pig_stages_ontology
-ontology: sscrdv
+ontology: SscrDv
 
 [Term]
 id: SscrDv:0000000
@@ -19,7 +19,7 @@ name: pig life cycle
 namespace: pig_developmental_stage
 def: "Temporal interval that defines pig life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
-is_a: SscrDV:0000000 ! pig life cycle stage
+is_a: SscrDv:0000000 ! pig life cycle stage
 
 [Term]
 id: SscrDv:0000002
@@ -28,8 +28,8 @@ namespace: pig_developmental_stage
 def: "Pig life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 115 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
 xref: UBERON:0000068
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000001 ! pig life cycle
+is_a: SscrDv:0000000 ! pig life cycle stage
+relationship: part_of SscrDv:0000001 ! pig life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "115.0" xsd:float
 property_value: end_mpf "3.8" xsd:float
@@ -41,9 +41,9 @@ namespace: pig_developmental_stage
 def: "Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
 xref: UBERON:0000112
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000001 ! pig life cycle
-relationship: immediately_preceded_by SscrDV:0000002 ! prenatal stage
+is_a: SscrDv:0000000 ! pig life cycle stage
+relationship: part_of SscrDv:0000001 ! pig life cycle
+relationship: immediately_preceded_by SscrDv:0000002 ! prenatal stage
 property_value: start_dpf "115.0" xsd:float
 property_value: start_mpf "3.8" xsd:float
 property_value: start_ypb "0.0" xsd:float
@@ -55,8 +55,8 @@ name: suckling stage
 namespace: pig_developmental_stage
 def: "Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 56 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa). Piglets are highly precocious and neonates appear with open eyes, good muscle tone and well developed skin and hair (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23874755). Within minutes of being born, or sometimes seconds, they will attempt to suckle. The piglets are born with sharp teeth and fight to develop a teat order as the anterior teats produce a greater quantity of milk (see http://en.wikipedia.org/wiki/Piglet_%28animal%29).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000003 ! immature stage
+is_a: SscrDv:0000000 ! pig life cycle stage
+relationship: part_of SscrDv:0000003 ! immature stage
 property_value: start_dpf "115.0" xsd:float
 property_value: start_mpf "3.8" xsd:float
 property_value: start_ypb "0.0" xsd:float
@@ -68,9 +68,9 @@ name: juvenile stage
 namespace: pig_developmental_stage
 def: "Pig developmental stage that covers the period from 2 months old, when individuals wean, until about 11 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000003 ! immature stage
-relationship: immediately_preceded_by SscrDV:0000004 ! nursing stage
+is_a: SscrDv:0000000 ! pig life cycle stage
+relationship: part_of SscrDv:0000003 ! immature stage
+relationship: immediately_preceded_by SscrDv:0000004 ! suckling stage
 property_value: start_mpb "1.85" xsd:float
 property_value: end_ypb "0.9" xsd:float
 
@@ -81,9 +81,9 @@ namespace: pig_developmental_stage
 synonym: "mature" EXACT []
 def: "Pig developmental stage that refers to a sexually mature adult pig, which is usually over 11 months old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000001 ! pig life cycle
-relationship: immediately_preceded_by SscrDV:0000003 ! immature stage
+is_a: SscrDv:0000000 ! pig life cycle stage
+relationship: part_of SscrDv:0000001 ! pig life cycle
+relationship: immediately_preceded_by SscrDv:0000003 ! immature stage
 property_value: start_ypb "0.9" xsd:float
 
 [Term]
@@ -92,8 +92,8 @@ name: adulthood stage
 namespace: pig_developmental_stage
 def: "Mature stage that refers to a pig who is over 11 months old and under 8 years old, the limit before geriatric age in the literature." [Bgee:curator "Bgee"]
 comment: Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000006 ! mature stage
+is_a: SscrDv:0000000 ! pig life cycle stage
+relationship: part_of SscrDv:0000006 ! mature stage
 property_value: start_ypb "0.9" xsd:float
 property_value: end_ypb "8.0" xsd:float
 
@@ -104,9 +104,9 @@ name: aged stage
 namespace: pig_developmental_stage
 def: "Mature stage that refers to a pig who is over 8 years old." [Bgee:curator "Bgee"]
 comment: Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).
-is_a: SscrDV:0000000 ! pig life cycle stage
-relationship: part_of SscrDV:0000006 ! mature stage
-relationship: immediately_preceded_by SscrDV:0000007 ! adulthood stage
+is_a: SscrDv:0000000 ! pig life cycle stage
+relationship: part_of SscrDv:0000006 ! mature stage
+relationship: immediately_preceded_by SscrDv:0000007 ! adulthood stage
 property_value: start_ypb "8.0" xsd:float
 
 [Typedef]

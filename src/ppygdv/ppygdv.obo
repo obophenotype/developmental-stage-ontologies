@@ -466,7 +466,7 @@ name: 40-year-old stage
 namespace: orangutan_developmental_stage
 def: "Aged stage that refers to a orangutan who over 40 and under 41 years old." [Bgee:curator "Bgee"]
 relationship: part_of PpygDv:0000036 ! aged stage
-relationship: immediately_preceded_by PpygDv:000041 ! 39-year-old stage
+relationship: immediately_preceded_by PpygDv:0000041 ! 39-year-old stage
 property_value: start_ypb "40.0" xsd:float
 property_value: end_ypb "41.0" xsd:float
 
