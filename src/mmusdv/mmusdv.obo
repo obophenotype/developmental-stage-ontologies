@@ -68,6 +68,7 @@ name: cleavage stage
 namespace: mouse_developmental_stage
 def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107 "adapted from"]
 comment: The different cells derived from cleavage are called blastomeres and form a compact mass called the morula. Cleavage ends with the formation of the blastula.
+xref: UBERON:0000107
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
 

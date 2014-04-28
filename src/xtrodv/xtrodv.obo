@@ -52,6 +52,7 @@ name: cleavage stage
 namespace: xenopus_developmental_stage
 def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107]
 synonym: "cleavage" EXACT []
+xref: UBERON:0000107
 xref: XAO:1000004
 is_a: XtroDv:0000000 ! xenopus life cycle stage
 relationship: part_of XtroDv:0000002 ! embryonic stage

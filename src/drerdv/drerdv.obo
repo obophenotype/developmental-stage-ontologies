@@ -485,6 +485,7 @@ relationship: part_of DrerDv:0000001 ! zebrafish life cycle
 id: DrerDv:0000047
 name: cleavage stage
 def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107]
+xref: UBERON:0000107
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 
