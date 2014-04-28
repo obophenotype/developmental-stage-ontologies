@@ -26,6 +26,7 @@ name: cleaving embryo stage
 synonym: "2-7 cle" [PLATY:A.H.L.Fischer]
 namespace: platynereis_stage
 def: "Developmental stage following Zygote stage with the following key events: Spiral cleavage pattern with individually identifiable blastomeres. First and second cleavage inequal and meridional. Third cleavage forms micromeres and macromeres. Ends with the appearance of the fourth quartette of micromeres." [PLATY:A.H.L.Fischer]
+xref: UBERON:0000107
 is_a: PdumDv:0000090
 comment: At a temperature of 18 C this stages lasts from 2.00 hours till 7.00 hours.
 relationship: preceded_by PdumDv:0000100
