@@ -28,7 +28,7 @@ property_value: start_dpf "0.0" xsd:float
 id: HsapDv:0000045
 name: prenatal stage
 namespace: human_developmental_stage
-def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
+def: "Prenatal stage that starts with fertilization and ends at birth." [UBERON:0000068 "adapted from"]
 xref: UBERON:0000068
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
