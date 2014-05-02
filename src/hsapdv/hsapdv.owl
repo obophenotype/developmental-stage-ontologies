@@ -1777,12 +1777,12 @@
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hsapdv:end_ypb>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hsapdv:start_dpf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000045</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human developmental stage that starts with fertilization and ends with birth.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human developmental stage that starts with fertilization and ends at birth.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human developmental stage that starts with fertilization and ends with birth.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human developmental stage that starts with fertilization and ends at birth.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000045"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
