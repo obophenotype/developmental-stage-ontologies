@@ -51,6 +51,7 @@ xref: ZFIN:ZDB-STAGE-010723-15
 xref: ZFS:0000002
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000047 ! cleavage stage
+relationship: immediately_preceded_by DrerDv:0000003 ! zygote:1-cell
 
 [Term]
 id: DrerDv:0000005
@@ -61,6 +62,7 @@ xref: ZFIN:ZDB-STAGE-010723-11
 xref: ZFS:0000003
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000047 ! cleavage stage
+relationship: immediately_preceded_by DrerDv:0000004 ! cleavage:2-cell
 
 [Term]
 id: DrerDv:0000006
@@ -71,6 +73,7 @@ xref: ZFIN:ZDB-STAGE-010723-33
 xref: ZFS:0000004
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000047 ! cleavage stage
+relationship: immediately_preceded_by DrerDv:0000005 ! cleavage:4-cell
 
 [Term]
 id: DrerDv:0000007
@@ -81,6 +84,7 @@ xref: ZFIN:ZDB-STAGE-010723-20
 xref: ZFS:0000005
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000047 ! cleavage stage
+relationship: immediately_preceded_by DrerDv:0000006 ! cleavage:8-cell
 
 [Term]
 id: DrerDv:0000008
@@ -91,6 +95,7 @@ xref: ZFIN:ZDB-STAGE-010723-25
 xref: ZFS:0000006
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000047 ! cleavage stage
+relationship: immediately_preceded_by DrerDv:0000007 ! cleavage:16-cell
 
 [Term]
 id: DrerDv:0000009
@@ -101,6 +106,7 @@ xref: ZFIN:ZDB-STAGE-010723-28
 xref: ZFS:0000007
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000047 ! cleavage stage
+relationship: immediately_preceded_by DrerDv:0000008 ! cleavage:32-cell
 
 [Term]
 id: DrerDv:0000010
@@ -111,6 +117,7 @@ xref: ZFIN:ZDB-STAGE-010723-7
 xref: ZFS:0000008
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: preceded_by DrerDv:0000009 ! cleavage:64-cell
 
 [Term]
 id: DrerDv:0000011
@@ -121,6 +128,7 @@ xref: ZFIN:ZDB-STAGE-010723-1
 xref: ZFS:0000009
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: immediately_preceded_by DrerDv:0000010 ! blastula:128-cell
 
 [Term]
 id: DrerDv:0000012
@@ -131,6 +139,7 @@ xref: ZFIN:ZDB-STAGE-010723-14
 xref: ZFS:0000010
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: immediately_preceded_by DrerDv:0000011 ! blastula:256-cell
 
 [Term]
 id: DrerDv:0000013
@@ -141,6 +150,7 @@ xref: ZFIN:ZDB-STAGE-010723-22
 xref: ZFS:0000011
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: immediately_preceded_by DrerDv:0000012 ! blastula:512-cell
 
 [Term]
 id: DrerDv:0000014
@@ -163,6 +173,7 @@ xref: ZFIN:ZDB-STAGE-010723-24
 xref: ZFS:0000013
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: immediately_preceded_by DrerDv:0000014 ! blastula:high stage
 
 [Term]
 id: DrerDv:0000016
@@ -174,6 +185,7 @@ xref: ZFIN:ZDB-STAGE-010723-21
 xref: ZFS:0000014
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: immediately_preceded_by DrerDv:0000015 ! blastula:oblong stage
 
 [Term]
 id: DrerDv:0000017
@@ -185,6 +197,7 @@ xref: ZFIN:ZDB-STAGE-010723-19
 xref: ZFS:0000015
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: immediately_preceded_by DrerDv:0000016 ! blastula:sphere stage
 
 [Term]
 id: DrerDv:0000018
@@ -196,6 +209,7 @@ xref: ZFIN:ZDB-STAGE-010723-17
 xref: ZFS:0000016
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
+relationship: immediately_preceded_by DrerDv:0000017 ! blastula:dome stage
 
 [Term]
 id: DrerDv:0000019
@@ -218,6 +232,7 @@ xref: ZFIN:ZDB-STAGE-010723-3
 xref: ZFS:0000018
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000058 ! gastrula stage defined by 50%-epiboly
+relationship: immediately_preceded_by DrerDv:0000019 ! gastrula:50%-epiboly stage (early event)
 
 [Term]
 id: DrerDv:0000021
@@ -229,6 +244,7 @@ xref: ZFIN:ZDB-STAGE-010723-2
 xref: ZFS:0000019
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000058 ! gastrula stage defined by 50%-epiboly
+relationship: immediately_preceded_by DrerDv:0000020 ! gastrula:germ-ring stage
 
 [Term]
 id: DrerDv:0000022
@@ -240,6 +256,7 @@ xref: ZFIN:ZDB-STAGE-010723-18
 xref: ZFS:0000020
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000049 ! gastrula stage
+relationship: preceded_by DrerDv:0000058 ! gastrula stage defined by 50%-epiboly
 
 [Term]
 id: DrerDv:0000023
@@ -262,6 +279,7 @@ xref: ZFIN:ZDB-STAGE-010723-12
 xref: ZFS:0000022
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000050 ! neurula stage
+relationship: immediately_preceded_by DrerDv:0000023 ! gastrula:90%-epiboly stage
 
 [Term]
 id: DrerDv:0000025
@@ -282,6 +300,7 @@ xref: ZFIN:ZDB-STAGE-010723-5
 xref: ZFS:0000024
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000051 ! segmentation stage
+relationship: immediately_preceded_by DrerDv:0000025 ! segmentation:1-4 somites
 
 [Term]
 id: DrerDv:0000027
@@ -292,6 +311,7 @@ xref: ZFIN:ZDB-STAGE-020626-1
 xref: ZFS:0000025
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000051 ! segmentation stage
+relationship: immediately_preceded_by DrerDv:0000026 ! segmentation:5-9 somites
 
 [Term]
 id: DrerDv:0000028
@@ -302,6 +322,7 @@ xref: ZFIN:ZDB-STAGE-010723-30
 xref: ZFS:0000026
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000051 ! segmentation stage
+relationship: immediately_preceded_by DrerDv:0000027 ! segmentation:10-13 somites
 
 [Term]
 id: DrerDv:0000029
@@ -312,6 +333,7 @@ xref: ZFIN:ZDB-STAGE-010723-16
 xref: ZFS:0000027
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000051 ! segmentation stage
+relationship: immediately_preceded_by DrerDv:0000028 ! segmentation:14-19 somites
 
 [Term]
 id: DrerDv:0000030
@@ -322,6 +344,7 @@ xref: ZFIN:ZDB-STAGE-010723-34
 xref: ZFS:0000028
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000051 ! segmentation stage
+relationship: immediately_preceded_by DrerDv:0000029 ! segmentation:20-25 somites
 
 [Term]
 id: DrerDv:0000031
@@ -342,6 +365,7 @@ xref: ZFIN:ZDB-STAGE-010723-32
 xref: ZFS:0000030
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000052 ! pharyngula stage
+relationship: immediately_preceded_by DrerDv:0000031 ! pharyngula:prim-5
 
 [Term]
 id: DrerDv:0000033
@@ -352,6 +376,7 @@ xref: ZFIN:ZDB-STAGE-010723-13
 xref: ZFS:0000031
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000052 ! pharyngula stage
+relationship: immediately_preceded_by DrerDv:0000032 ! pharyngula:prim-15
 
 [Term]
 id: DrerDv:0000034
@@ -363,6 +388,7 @@ xref: ZFIN:ZDB-STAGE-010723-31
 xref: ZFS:0000032
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000052 ! pharyngula stage
+relationship: immediately_preceded_by DrerDv:0000033 ! pharyngula:prim-25
 
 [Term]
 id: DrerDv:0000035
@@ -385,6 +411,7 @@ xref: ZFIN:ZDB-STAGE-010723-26
 xref: ZFS:0000034
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000053 ! hatching period
+relationship: immediately_preceded_by DrerDv:0000060 ! hatching stage at 56 hpf (hour post-fertilization)
 
 [Term]
 id: DrerDv:0000037
@@ -492,9 +519,10 @@ relationship: part_of DrerDv:0000002 ! embryonic stage
 [Term]
 id: DrerDv:0000048
 name: blastula stage
-def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum." [UBERON:0000108]
+def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
+relationship: preceded_by DrerDv:0000047 ! cleavage stage
 
 [Term]
 id: DrerDv:0000049
@@ -503,6 +531,7 @@ def: "Embryonic stage defined by complex and coordinated series of cellular move
 xref: UBERON:0000109 
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
+relationship: preceded_by DrerDv:0000048 ! blastula stage
 
 [Term]
 id: DrerDv:0000050
@@ -511,6 +540,7 @@ def: "Embryonic stage defined by formation of a tube from the flat layer of ecto
 xref: UBERON:0000110
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
+relationship: preceded_by DrerDv:0000049 ! gastrula stage
 
 [Term]
 id: DrerDv:0000051
@@ -518,6 +548,7 @@ name: segmentation stage
 def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111]
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
+relationship: preceded_by DrerDv:0000050 ! neurula stage
 
 [Term]
 id: DrerDv:0000052
@@ -525,6 +556,7 @@ name: pharyngula stage
 def: "Embryonic stage that follows the blastula, gastrula and neurula stages and at which all vertebrate embryos show remarkable similarities." [UBERON:0004707]
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
+relationship: preceded_by DrerDv:0000051 ! segmentation stage
 
 [Term]
 id: DrerDv:0000053
@@ -582,6 +614,7 @@ def: "Hatching stage at which blood circulation slowly appears in the elongated 
 comment: Embryonic age 52 hpf (hour post-fertilization).
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000053 ! hatching period
+relationship: immediately_preceded_by DrerDv:0000035 ! hatching:long-pec stage
 
 [Term]
 id: DrerDv:0000060
@@ -590,6 +623,7 @@ def: "Hatching stage defined by elongated pectoral fin buds at 56 hpf (hour post
 comment: Embryonic age 56 hpf (hour post-fertilization).
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000053 ! hatching period
+relationship: immediately_preceded_by DrerDv:0000059 ! hatching stage at 52 hpf (hour post-fertilization)
 
 [Term]
 id: DrerDv:0000061
