@@ -98,6 +98,7 @@ id: MdomDv:0000008
 name: 4-month-old stage
 namespace: opossum_developmental_stage
 def: "Adulthood stage that refers to a opossum which is over 4 and under 5 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007 ! adulthood stage
 property_value: start_mpb "4.0" xsd:float
@@ -108,6 +109,7 @@ id: MdomDv:0000009
 name: 5-month-old stage
 namespace: opossum_developmental_stage
 def: "Adulthood stage that refers to a opossum which is over 5 and under 6 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007 ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000008 ! 4-month-old stage
@@ -119,6 +121,7 @@ id: MdomDv:0000010
 name: 6-month-old stage
 namespace: opossum_developmental_stage
 def: "Adulthood stage that refers to a opossum which is over 6 and under 7 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000009 ! 5-month-old stage
@@ -130,6 +133,7 @@ id: MdomDv:0000011
 name: 7-month-old stage
 namespace: opossum_developmental_stage
 def: "Adulthood stage that refers to a opossum which is over 7 and under 8 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000010 ! 6-month-old stage
@@ -141,6 +145,7 @@ id: MdomDv:0000012
 name: 8-month-old stage
 namespace: opossum_developmental_stage
 def: "Adulthood stage that refers to a opossum which is over 8 and under 9 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000011 ! 7-month-old stage
@@ -152,6 +157,7 @@ id: MdomDv:0000013
 name: 9-month-old stage
 namespace: opossum_developmental_stage
 def: "Adulthood stage that refers to a opossum which is over 9 and under 10 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000012 ! 8-month-old stage
@@ -163,6 +169,7 @@ id: MdomDv:0000014
 name: 10-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 10 and under 11 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000013 ! 9-month-old stage
@@ -174,6 +181,7 @@ id: MdomDv:0000015
 name: 11-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 11 and under 12 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000014 ! 10-month-old stage
@@ -185,6 +193,7 @@ id: MdomDv:0000016
 name: 12-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 12 and under 13 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000015 ! 11-month-old stage
@@ -196,6 +205,7 @@ id: MdomDv:0000017
 name: 13-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 13 and under 14 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000016 ! 12-month-old stage
@@ -207,6 +217,7 @@ id: MdomDv:0000018
 name: 14-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 14 and under 15 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000017 ! 13-month-old stage
@@ -218,6 +229,7 @@ id: MdomDv:0000019
 name: 15-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 15 and under 16 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000018 ! 14-month-old stage
@@ -229,6 +241,7 @@ id: MdomDv:0000020
 name: 16-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 16 and under 17 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000019 ! 15-month-old stage
@@ -240,6 +253,7 @@ id: MdomDv:0000021
 name: 17-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 17 and under 18 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000020 ! 16-month-old stage
@@ -251,6 +265,7 @@ id: MdomDv:0000022
 name: 18-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 18 and under 19 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000021 ! 17-month-old stage
@@ -262,6 +277,7 @@ id: MdomDv:0000023
 name: 19-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 19 and under 20 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000022 ! 18-month-old stage
@@ -273,6 +289,7 @@ id: MdomDv:0000024
 name: 20-month-old stage
 namespace: opossum_developmental_stage
 def: "Mature stage that refers to a opossum which is over 20 and under 21 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000007  ! adulthood stage
 relationship: immediately_preceded_by MdomDv:0000023 ! 19-month-old stage
@@ -294,6 +311,7 @@ id: MdomDv:0000026
 name: 21-month-old stage
 namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 21 and under 22 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
 property_value: start_mpb "21.0" xsd:float
@@ -304,6 +322,7 @@ id: MdomDv:0000027
 name: 22-month-old stage
 namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 22 and under 23 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
 relationship: immediately_preceded_by MdomDv:0000016 ! 21 month-old stage
@@ -315,6 +334,7 @@ id: MdomDv:0000028
 name: 23-month-old stage
 namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 23 and under 24 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
 relationship: immediately_preceded_by MdomDv:0000017 ! 22 month-old stage
@@ -326,6 +346,7 @@ id: MdomDv:0000029
 name: 24-month-old stage
 namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 24 and under 25 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
 relationship: immediately_preceded_by MdomDv:0000018 ! 23 month-old stage
@@ -337,6 +358,7 @@ id: MdomDv:0000030
 name: 25-month-old stage
 namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 25 and under 26 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
 relationship: immediately_preceded_by MdomDv:0000019 ! 24 month-old stage
@@ -348,6 +370,7 @@ id: MdomDv:0000031
 name: 26-month-old and over stage
 namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 26 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
 relationship: immediately_preceded_by MdomDv:0000020 ! 25 month-old stage
