@@ -80,6 +80,7 @@ id: PpanDv:0000006
 name: 21-month-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 21 and under 22 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 property_value: start_mpb "21.0" xsd:float
@@ -90,6 +91,7 @@ id: PpanDv:0000007
 name: 22-month-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 22 and under 23 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 property_value: start_mpb "22.0" xsd:float
@@ -100,6 +102,7 @@ id: PpanDv:0000008
 name: 23-month-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 23 and under 24 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000007 ! 22-month-old stage
@@ -111,6 +114,7 @@ id: PpanDv:0000009
 name: 2-year-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 24 months and under 3 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000008 ! 23-month-old stage
@@ -124,6 +128,7 @@ id: PpanDv:0000010
 name: 3-year-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000009 ! 2-year-old stage
@@ -135,6 +140,7 @@ id: PpanDv:0000011
 name: 4-year-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000010 ! 3-year-old stage
@@ -146,6 +152,7 @@ id: PpanDv:0000012
 name: 5-year-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 5 and under 6 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000011 ! 4-year-old stage
@@ -157,6 +164,7 @@ id: PpanDv:0000013
 name: 6-year-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000012 ! 5-year-old stage
@@ -168,6 +176,7 @@ id: PpanDv:0000014
 name: 7-year-old stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000013 ! 6-year-old stage
@@ -180,6 +189,7 @@ name: 8-year-old immature stage
 namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a immature bonobo who is over 8 and under 9 years old." [Bgee:curator "Bgee"]
 comment: Bonobo reach sexual maturity at about 8.5 years, so we consider a 8-year-old immature stage and a a 8-year-old mature stage.
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
 relationship: immediately_preceded_by PpanDv:0000014 ! 7-year-old stage
@@ -215,6 +225,7 @@ name: 8-year-old mature stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a mature bonobo who is over 8 and under 9 years old." [Bgee:curator "Bgee"]
 comment: Bonobo reach sexual maturity at about 8.5 years, so we consider a 8-year-old immature stage and a a 8-year-old mature stage.
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 property_value: start_ypb "8.75" xsd:float
@@ -225,6 +236,7 @@ id: PpanDv:0000019
 name: 9-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 9 and under 10 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000018 ! 8-year-old mature stage
@@ -236,6 +248,7 @@ id: PpanDv:0000020
 name: 10-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 10 and under 11 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000019 ! 9-year-old stage
@@ -247,6 +260,7 @@ id: PpanDv:0000021
 name: 11-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 11 and under 12 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000020 ! 10-year-old stage
@@ -258,6 +272,7 @@ id: PpanDv:0000022
 name: 12-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 12 and under 13 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000021 ! 11-year-old stage
@@ -269,6 +284,7 @@ id: PpanDv:0000023
 name: 13-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 13 and under 14 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000022 ! 12-year-old stage
@@ -280,6 +296,7 @@ id: PpanDv:0000024
 name: 14-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 14 and under 15 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000023 ! 13-year-old stage
@@ -291,6 +308,7 @@ id: PpanDv:0000025
 name: 15-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 15 and under 16 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000024 ! 14-year-old stage
@@ -302,6 +320,7 @@ id: PpanDv:0000026
 name: 16-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 16 and under 17 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000025 ! 15-year-old stage
@@ -313,6 +332,7 @@ id: PpanDv:0000027
 name: 17-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 17 and under 18 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000026 ! 16-year-old stage
@@ -324,6 +344,7 @@ id: PpanDv:0000028
 name: 18-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 18 and under 19 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000027 ! 17-year-old stage
@@ -335,6 +356,7 @@ id: PpanDv:0000029
 name: 19-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 19 and under 20 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000028 ! 18-year-old stage
@@ -346,6 +368,7 @@ id: PpanDv:0000030
 name: 20-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 20 and under 21 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000029 ! 19-year-old stage
@@ -357,6 +380,7 @@ id: PpanDv:0000031
 name: 21-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 21 and under 22 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000030 ! 20-year-old stage
@@ -368,6 +392,7 @@ id: PpanDv:0000032
 name: 22-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 22 and under 23 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000031 ! 21-year-old stage
@@ -379,6 +404,7 @@ id: PpanDv:0000033
 name: 23-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 23 and under 24 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000032 ! 22-year-old stage
@@ -390,6 +416,7 @@ id: PpanDv:0000034
 name: 24-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 24 and under 25 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000033 ! 23-year-old stage
@@ -401,6 +428,7 @@ id: PpanDv:0000035
 name: 25-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 25 and under 26 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000034 ! 24-year-old stage
@@ -412,6 +440,7 @@ id: PpanDv:0000036
 name: 26-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 26 and under 27 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000035 ! 25-year-old stage
@@ -423,6 +452,7 @@ id: PpanDv:0000037
 name: 27-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 27 and under 28 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000036 ! 26-year-old stage
@@ -434,6 +464,7 @@ id: PpanDv:0000038
 name: 28-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 28 and under 29 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000037 ! 27-year-old stage
@@ -445,6 +476,7 @@ id: PpanDv:0000039
 name: 29-year-old stage
 namespace: bonobo_developmental_stage
 def: "Adulthood stage that refers to a bonobo who is over 29 and under 30 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000017 ! adulthood stage
 relationship: immediately_preceded_by PpanDv:0000038 ! 28-year-old stage
