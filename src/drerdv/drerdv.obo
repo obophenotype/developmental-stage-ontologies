@@ -117,7 +117,7 @@ xref: ZFIN:ZDB-STAGE-010723-7
 xref: ZFS:0000008
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000048 ! blastula stage
-relationship: preceded_by DrerDv:0000009 ! cleavage:64-cell
+relationship: immediately_preceded_by DrerDv:0000009 ! cleavage:64-cell
 
 [Term]
 id: DrerDv:0000011
