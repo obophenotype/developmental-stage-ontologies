@@ -64,6 +64,17 @@ property_value: start_mpb "0.0" xsd:float
 property_value: end_mpb "9.7" xsd:float
 
 [Term]
+id: MmulDv:0000046
+name: newborn stage
+namespace: rhesus_macaque_developmental_stage
+def: "Nursing stage that refers to a rhesus newborn who is under 32 days old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: MmulDv:0000000 ! rhesus life cycle stage
+relationship: part_of MmulDv:0000004 ! nursing stage
+property_value: start_mpb "0.0" xsd:float
+property_value: end_mpb "1.0" xsd:float
+
+[Term]
 id: MmulDv:0000005
 name: 1-month-old stage
 namespace: rhesus_macaque_developmental_stage
@@ -71,6 +82,7 @@ def: "Nursing stage that refers to a rhesus who is over 1 and under 2 months old
 subset: granular_stage
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000004 ! nursing stage
+relationship: immediately_preceded_by MmulDv:0000046 ! newborn stage
 property_value: start_mpb "1.0" xsd:float
 property_value: end_mpb "2.0" xsd:float
 
@@ -553,6 +565,62 @@ comment: The females of this species reach menopause at about the age of 25 (see
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000021 ! mature stage
 property_value: start_ypb "25.0" xsd:float
+
+[Term]
+id: MmulDv:0000047
+name: 25-year-old stage
+namespace: rhesus_macaque_developmental_stage
+def: "Aged stage stage that refers to a rhesus who is over 25 and under 26 years old." [Bgee:curator "Bgee"]
+comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.
+is_a: MmulDv:0000000 ! rhesus life cycle stage
+relationship: part_of MmulDv:0000045 ! aged stage
+property_value: start_ypb "25.0" xsd:float
+property_value: end_ypb "26.0" xsd:float
+
+[Term]
+id: MmulDv:0000048
+name: 26-year-old stage
+namespace: rhesus_macaque_developmental_stage
+def: "Aged stage stage that refers to a rhesus who is over 26 and under 27 years old." [Bgee:curator "Bgee"]
+comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.
+is_a: MmulDv:0000000 ! rhesus life cycle stage
+relationship: part_of MmulDv:0000045 ! aged stage
+relationship: immediately_preceded_by MmulDv:0000047 ! 25-year-old stage
+property_value: start_ypb "26.0" xsd:float
+property_value: end_ypb "27.0" xsd:float
+
+[Term]
+id: MmulDv:0000049
+name: 27-year-old stage
+namespace: rhesus_macaque_developmental_stage
+def: "Aged stage stage that refers to a rhesus who is over 27 and under 28 years old." [Bgee:curator "Bgee"]
+is_a: MmulDv:0000000 ! rhesus life cycle stage
+relationship: part_of MmulDv:0000045 ! aged stage
+relationship: immediately_preceded_by MmulDv:0000048 ! 26-year-old stage
+property_value: start_ypb "27.0" xsd:float
+property_value: end_ypb "28.0" xsd:float
+
+[Term]
+id: MmulDv:0000050
+name: 28-year-old stage
+namespace: rhesus_macaque_developmental_stage
+def: "Aged stage stage that refers to a rhesus who is over 28 and under 29 years old." [Bgee:curator "Bgee"]
+is_a: MmulDv:0000000 ! rhesus life cycle stage
+relationship: part_of MmulDv:0000045 ! aged stage
+relationship: immediately_preceded_by MmulDv:0000049 ! 27-year-old stage
+property_value: start_ypb "28.0" xsd:float
+property_value: end_ypb "29.0" xsd:float
+
+[Term]
+id: MmulDv:0000051
+name: 29 year-old and over stage
+namespace: rhesus_macaque_developmental_stage
+def: "Aged stage stage that refers to a rhesus who is over 29 years old." [Bgee:curator "Bgee"]
+is_a: MmulDv:0000000 ! rhesus life cycle stage
+relationship: part_of MmulDv:0000045 ! aged stage
+relationship: immediately_preceded_by MmulDv:0000050 ! 28-year-old stage
+property_value: start_ypb "29.0" xsd:float
+
 
 [Typedef]
 id: part_of
