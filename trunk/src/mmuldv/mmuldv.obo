@@ -11,6 +11,7 @@ def: "A spatiotemporal region encompassing some part of the life cycle of an org
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
 xref: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:9544 ! Macaca mulatta
 
 [Term]
 id: MmulDv:0000001
@@ -730,3 +731,7 @@ comment: This is a shortcut annotation that can be expanded to an OWL axiom, or 
 property_value: has_unit  UO:0000036 ! year
 is_a: has_end_time
 
+[Typedef]
+id: only_in_taxon
+name: only_in_taxon
+xref: RO:0002160
