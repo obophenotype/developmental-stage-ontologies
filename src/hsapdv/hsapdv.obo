@@ -102,7 +102,8 @@ relationship: immediately_preceded_by HsapDv:0000004 ! cleavage stage
 id: HsapDv:0000006
 name: blastula stage
 namespace: human_developmental_stage
-def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]comment: The blastula follows the morula and precedes the gastrula in the developmental sequence.
+def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
+comment: The blastula follows the morula and precedes the gastrula in the developmental sequence.
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000002 ! embryonic human stage
 relationship: preceded_by HsapDv:0000005 ! Carnegie stage 02
