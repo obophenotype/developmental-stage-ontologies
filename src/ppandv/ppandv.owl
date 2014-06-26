@@ -1,0 +1,1667 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ppandv.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ppandv.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ppandv="http://purl.obolibrary.org/obo/ppandv#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ppandv.owl">
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25:02:2014 13:00</oboInOwl:date>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:default-namespace>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fbb (ann)</oboInOwl:saved-by>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#end_dpf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#end_dpf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post fertilization</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_dpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#end_mpb -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#end_mpb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post birth</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#end_mpf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#end_mpf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post fertilization</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#end_ypb -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#end_ypb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, years post birth</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_ypb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#granular_stage -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#granular_stage">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subset consisting of classes describing highly granular developmental stages (for instance, &apos;23-year-old&apos;). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#has_end_time -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#has_end_time">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end time</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_end_time</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#has_start_time -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#has_start_time">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start time</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_start_time</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#has_unit -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#has_unit">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_unit</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#start_dpf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#start_dpf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post fertilization</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_dpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#start_mpb -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#start_mpb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post birth</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_mpb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#start_mpf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#start_mpf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post fertilization</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_mpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ppandv#start_ypb -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppandv#start_ypb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, years post birth</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_ypb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <ppandv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subset_property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000062</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002087">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002087</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:shorthand>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo life cycle stage</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000000</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmental stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stage</oboInOwl:hasNarrowSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo life cycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000001</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines bonobo life from the prenatal stage until late adult stage.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000104</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines bonobo life from the prenatal stage until late adult stage.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000001"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppandv:start_dpf>
+        <ppandv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">232.0</ppandv:end_dpf>
+        <ppandv:end_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</ppandv:end_mpf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo life cycle that starts with fertilization and ends at birth.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryo develops in 232 days (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000002</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000068</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo life cycle that starts with fertilization and ends at birth.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000002"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppandv:start_ypb>
+        <ppandv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">232.0</ppandv:start_dpf>
+        <ppandv:start_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</ppandv:start_mpf>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.75</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that covers the period from birth until about 8.5 years old, when individuals usually reach sexual maturity.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo females reach sexual maturity by 3194 days of age (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000003</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000112</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that covers the period from birth until about 8.5 years old, when individuals usually reach sexual maturity.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000003"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nursing stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppandv:start_mpb>
+        <ppandv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppandv:end_mpb>
+        <ppandv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">232.0</ppandv:start_dpf>
+        <ppandv:start_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</ppandv:start_mpf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Age of weaning is 635 days (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that covers the period from birth until about 21 months old, at which point individuals wean.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000004</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that covers the period from birth until about 21 months old, at which point individuals wean.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000004"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</ppandv:start_ypb>
+        <ppandv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">106.5</ppandv:end_mpb>
+        <ppandv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppandv:start_mpb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.75</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that covers the period from about 21 months old, when individuals wean, until about 8.5 years old, when individuals reach sexual maturity.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000005</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo females reach sexual maturity by 3194 days of age (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that covers the period from about 21 months old, when individuals wean, until about 8.5 years old, when individuals reach sexual maturity.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21-month-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppandv:start_mpb>
+        <ppandv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppandv:end_mpb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 21 and under 22 months old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000006</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 21 and under 22 months old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000006"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22-month-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppandv:start_mpb>
+        <ppandv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppandv:end_mpb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 22 and under 23 months old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000007</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 22 and under 23 months old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000007"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23-month-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppandv:start_mpb>
+        <ppandv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppandv:end_mpb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 23 and under 24 months old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000008</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 23 and under 24 months old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000008"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</ppandv:start_ypb>
+        <ppandv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppandv:start_mpb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</ppandv:end_ypb>
+        <ppandv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.0</ppandv:end_mpb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 24 months and under 3 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000009</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 24 months and under 3 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000009"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 3 and under 4 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000010</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 3 and under 4 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000010"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 4 and under 5 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000011</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 4 and under 5 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000011"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 5 and under 6 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000012</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 5 and under 6 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 6 and under 7 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000013</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 6 and under 7 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000013"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000014">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 7 and under 8 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000014</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a bonobo who is over 7 and under 8 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000014"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000015">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-year-old immature stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.75</ppandv:end_ypb>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo reach sexual maturity at about 8.5 years, so we consider a 8-year-old immature stage and a a 8-year-old mature stage.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a immature bonobo who is over 8 and under 9 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000015</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage that refers to a immature bonobo who is over 8 and under 9 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000015"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.75</ppandv:start_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that refers to a sexually mature adult bonobo, which is usually over about 8.5 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000016</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000113</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo developmental stage that refers to a sexually mature adult bonobo, which is usually over about 8.5 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000016"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000017">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adulthood stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppandv:end_ypb>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.75</ppandv:start_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a bonobo who is over 8 and under 30 years old, the limit before geriatric age in the literature.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000017</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage actually starts at about 8.5 years, the age of sexual maturity. See 8-year-old immature stage and 8-year-old mature stage. Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a bonobo who is over 8 and under 30 years old, the limit before geriatric age in the literature.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-year-old mature stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.75</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a mature bonobo who is over 8 and under 9 years old.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonobo reach sexual maturity at about 8.5 years, so we consider a 8-year-old immature stage and a a 8-year-old mature stage.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000018</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a mature bonobo who is over 8 and under 9 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000018"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000019">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</ppandv:end_ypb>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</ppandv:start_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 9 and under 10 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000019</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 9 and under 10 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000019"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 10 and under 11 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000020</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 10 and under 11 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000020"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 11 and under 12 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000021</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 11 and under 12 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000021"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 12 and under 13 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000022</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 12 and under 13 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000022"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 13 and under 14 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000023</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 13 and under 14 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000023"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 14 and under 15 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000024</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 14 and under 15 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000024"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 15 and under 16 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000025</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 15 and under 16 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000025"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 16 and under 17 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000026</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 16 and under 17 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000026"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 17 and under 18 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000027</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 17 and under 18 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000027"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 18 and under 19 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000028</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 18 and under 19 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000028"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 19 and under 20 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000029</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 19 and under 20 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000029"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 20 and under 21 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000030</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 20 and under 21 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000030"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 21 and under 22 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000031</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 21 and under 22 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000031"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 22 and under 23 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000032</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 22 and under 23 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000032"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 23 and under 24 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000033</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 23 and under 24 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000033"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 24 and under 25 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000034</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 24 and under 25 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000034"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 25 and under 26 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000035</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 25 and under 26 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000035"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 26 and under 27 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000036</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 26 and under 27 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000036"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 27 and under 28 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000037</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 27 and under 28 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000037"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 28 and under 29 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000038</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 28 and under 29 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000038"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000039">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29-year-old stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</ppandv:start_ypb>
+        <ppandv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppandv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 29 and under 30 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000039</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppandv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a bonobo who is over 29 and under 30 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000039"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PpanDv_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpanDv_0000040">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aged stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppandv:start_ypb>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a bonobo who is over 30 years old.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000040</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a bonobo who is over 30 years old.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000040"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+

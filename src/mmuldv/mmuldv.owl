@@ -528,14 +528,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000046"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</mmuldv:start_mpb>
@@ -543,7 +543,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000005</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 1 and under 2 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -561,14 +560,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000005"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</mmuldv:start_mpb>
@@ -576,7 +575,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000006</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 2 and under 3 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -594,14 +592,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000006"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</mmuldv:start_mpb>
@@ -609,7 +607,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000007</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 3 and under 4 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -642,7 +639,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000008</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 4 and under 5 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -675,7 +671,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000009</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 5 and under 6 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -708,7 +703,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000010</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 6 and under 7 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -726,14 +720,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000010"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</mmuldv:start_mpb>
@@ -741,7 +735,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000011</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 7 and under 8 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -759,14 +752,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000011"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</mmuldv:start_mpb>
@@ -774,7 +767,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000012</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus who is over 8 and under 9 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -808,7 +800,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000013</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a nursing rhesus who is over 9 and under 10 months old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -869,7 +860,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage stage that refers to a rhesus who is over 9 and under 10 months old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000015</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -887,14 +877,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000014"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000015"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</mmuldv:start_mpb>
@@ -902,7 +892,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage stage that refers to a rhesus who is over 10 and under 11 months old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000016</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -935,7 +924,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage stage that refers to a rhesus who is over 11 and under 12 months old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000017</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -968,7 +956,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage stage that refers to a rhesus who is over 1 and under 2 years old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000018</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -1001,7 +988,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile stage stage that refers to a rhesus who is over 2 and under 3 years old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000019</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -1019,14 +1005,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000014"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</mmuldv:start_ypb>
@@ -1035,7 +1021,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000020</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhesus reach sexual maturity at about 3.5 years, so we consider a 3-year-old immature stage and a 3-year-old mature stage.</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -1241,14 +1226,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000026"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</mmuldv:start_ypb>
@@ -1274,14 +1259,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000027"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</mmuldv:start_ypb>
@@ -1340,14 +1325,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000029"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</mmuldv:start_ypb>
@@ -1472,14 +1457,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000033"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</mmuldv:start_ypb>
@@ -1505,14 +1490,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000034"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</mmuldv:start_ypb>
@@ -1538,14 +1523,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000035"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</mmuldv:start_ypb>
@@ -1637,14 +1622,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000038"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mmuldv:start_ypb>
@@ -1670,14 +1655,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000039"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</mmuldv:start_ypb>
@@ -1703,14 +1688,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmulDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmuldv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</mmuldv:start_ypb>
@@ -1870,7 +1855,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000046</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that refers to a rhesus newborn who is under 32 days old.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -1898,6 +1882,7 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000047</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 25 and under 26 years old.</owl:annotatedTarget>
@@ -1931,6 +1916,7 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000048</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 26 and under 27 years old.</owl:annotatedTarget>
@@ -1963,6 +1949,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 27 and under 28 years old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000049</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 27 and under 28 years old.</owl:annotatedTarget>
@@ -1995,6 +1982,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 28 and under 29 years old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000050</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 28 and under 29 years old.</owl:annotatedTarget>
@@ -2026,6 +2014,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 29 years old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmulDv:0000051</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhesus_macaque_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmuldv#granular_stage"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage stage that refers to a rhesus who is over 29 years old.</owl:annotatedTarget>

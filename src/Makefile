@@ -11,7 +11,7 @@ ONT_PREFIXES:= acardv btaudv drerdv ggaldv ggordv hsapdv mdomdv mmuldv mmusdv oa
 all: $(foreach d,$(ONT_PREFIXES), $d/$d.owl $d/$d$(COMPOSITE_UBERON_SUFFIX))
 
 clean: 
-	$(foreach o, $(ONT_PREFIXES), -@rm -f $o/$o.owl $o/$o$(BRIDGE_UBERON_SUFFIX) $o/$o$(COMPOSITE_UBERON_SUFFIX))
+	$(foreach o, $(ONT_PREFIXES), @rm -f $o/$o.owl $o/$o$(BRIDGE_UBERON_SUFFIX) $o/$o$(COMPOSITE_UBERON_SUFFIX))
 
 %.owl: %.obo
 	@$(OWLTOOLS) $< -o $@ 

@@ -101,7 +101,7 @@ property_value: end_mpb "3.0" xsd:float
 id: MmulDv:0000007
 name: 3-month-old stage
 namespace: rhesus_macaque_developmental_stage
-def: "Nursing stage that refers to a rhesus who is over 3 and under 4 months old." [Bgee:curator "Bgee"]e
+def: "Nursing stage that refers to a rhesus who is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: immediately_preceded_by MmulDv:0000006 ! 2-month-old stage
 relationship: part_of MmulDv:0000004 ! nursing stage
