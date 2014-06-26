@@ -6,7 +6,10 @@ all: mmuldv/mmuldv-uberon.obo
 %.owl: %.obo
 	$(OWLTOOLS) $< -o $@ 
 
-%-uberon.obo: %-bridge-params.tsv %.owl
+# We do not need specifically an owl version for this task, 
+# but this allows to make sure the owl version is generated.
+# The perl script only read OBO files.
+%-uberon.obo: %-bridge-params.tsv %.owl %.obo
 	@IFS_OLD=$$IFS; \
 	IFS=$$"	"; \
 	read speciesName taxId < $<; \
