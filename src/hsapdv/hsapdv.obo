@@ -2,8 +2,8 @@ format-version: 1.2
 date: 03:05:2012 18:48
 saved-by: fbb
 auto-generated-by: OBO-Edit 1.101
-subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 default-namespace: human_stages_ontology
+subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 treat-xrefs-as-equivalent: EV
 treat-xrefs-as-equivalent: XUO
 ontology: hsapdv

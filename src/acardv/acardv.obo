@@ -2,6 +2,7 @@ format-version: 1.2
 date: 07:03:2014 10:00
 saved-by: ann
 default-namespace: lizard_stages_ontology
+subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 ontology: acardv
 
 [Term]
@@ -63,6 +64,7 @@ relationship: immediately_preceded_by AcarDv:0000003 ! immature stage
 id: AcarDv:0000005
 name: adulthood stage
 namespace: lizard_developmental_stage
+synonym: "prime adult stage" EXACT []
 def: "Lizard developmental stage that refers to a lizard who is over 8 and under 24 months old." [Bgee:curator "Bgee"]
 comment: Green anoles have a lifespan ranging from 2 to 8 years, determined largely by predation. Lifespan in captivity is similar to that in the wild, approximately 4 to 6 years (see http://animaldiversity.ummz.umich.edu/accounts/Anolis_carolinensis/). We arbitraly consider 2 years as the upper limit for the adult stage, before aged stage. This is to improve as far as information is available.
 is_a: AcarDv:0000000 ! lizard life cycle stage
