@@ -1,8 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv.owl>))) [Axioms: 706 Logical Axioms: 147]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon-bridge-to-mmuldv.owl>))) [Axioms: 227 Logical Axioms: 57]
-ontology: uberon/bridge/mmuldv-uberon.obo
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv-bridge-to-uberon.owl>))) [Axioms: 227 Logical Axioms: 57]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv.owl>))) [Axioms: 707 Logical Axioms: 147]
+ontology: uberon/bridge/mmuldv/mmuldv-uberon.obo
 
 [Term]
 id: MmulDv:0000004
@@ -15,7 +15,7 @@ relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of UBERON:0000112
 property_value: end_mpb "9.7" xsd:float
 property_value: end_ypb "0.8" xsd:float
-property_value: IAO:0000589 "nursing stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "nursing stage (Macaca mulata)" xsd:string
 property_value: start_dpf "165.0" xsd:float
 property_value: start_mpb "0.0" xsd:float
 property_value: start_mpf "5.5" xsd:float
@@ -32,7 +32,7 @@ relationship: immediately_preceded_by MmulDv:0000046 ! newborn stage (Macaca mul
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "2.0" xsd:float
-property_value: IAO:0000589 "1-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "1-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "1.0" xsd:float
 
 [Term]
@@ -46,7 +46,7 @@ relationship: immediately_preceded_by MmulDv:0000005 ! 1-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "3.0" xsd:float
-property_value: IAO:0000589 "2-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "2-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "2.0" xsd:float
 
 [Term]
@@ -60,7 +60,7 @@ relationship: immediately_preceded_by MmulDv:0000006 ! 2-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "4.0" xsd:float
-property_value: IAO:0000589 "3-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "3-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "3.0" xsd:float
 
 [Term]
@@ -74,7 +74,7 @@ relationship: immediately_preceded_by MmulDv:0000007 ! 3-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "5.0" xsd:float
-property_value: IAO:0000589 "4-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "4-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "4.0" xsd:float
 
 [Term]
@@ -88,7 +88,7 @@ relationship: immediately_preceded_by MmulDv:0000008 ! 4-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "6.0" xsd:float
-property_value: IAO:0000589 "5-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "5-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "5.0" xsd:float
 
 [Term]
@@ -102,7 +102,7 @@ relationship: immediately_preceded_by MmulDv:0000009 ! 5-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "7.0" xsd:float
-property_value: IAO:0000589 "6-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "6-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "6.0" xsd:float
 
 [Term]
@@ -116,7 +116,7 @@ relationship: immediately_preceded_by MmulDv:0000010 ! 6-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "8.0" xsd:float
-property_value: IAO:0000589 "7-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "7-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "7.0" xsd:float
 
 [Term]
@@ -130,7 +130,7 @@ relationship: immediately_preceded_by MmulDv:0000011 ! 7-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "9.0" xsd:float
-property_value: IAO:0000589 "8-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "8-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "8.0" xsd:float
 
 [Term]
@@ -145,7 +145,7 @@ relationship: immediately_preceded_by MmulDv:0000012 ! 8-month-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "9.7" xsd:float
-property_value: IAO:0000589 "9-month-old nursing stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "9-month-old nursing stage (Macaca mulata)" xsd:string
 property_value: start_mpb "9.0" xsd:float
 
 [Term]
@@ -159,7 +159,7 @@ relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of UBERON:0000112
 relationship: preceded_by MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_ypb "3.5" xsd:float
-property_value: IAO:0000589 "juvenile stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "juvenile stage (Macaca mulata)" xsd:string
 property_value: start_ypb "0.8" xsd:float
 
 [Term]
@@ -173,7 +173,7 @@ is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000014 ! juvenile stage (Macaca mulata)
 property_value: end_mpb "10.0" xsd:float
-property_value: IAO:0000589 "9-month-old weaning stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "9-month-old weaning stage (Macaca mulata)" xsd:string
 property_value: start_mpb "9.7" xsd:float
 
 [Term]
@@ -187,7 +187,7 @@ relationship: immediately_preceded_by MmulDv:0000015 ! 9-month-old weaning stage
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000014 ! juvenile stage (Macaca mulata)
 property_value: end_mpb "11.0" xsd:float
-property_value: IAO:0000589 "10-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "10-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "10.0" xsd:float
 
 [Term]
@@ -201,7 +201,7 @@ relationship: immediately_preceded_by MmulDv:0000016 ! 10-month-old stage (Macac
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000014 ! juvenile stage (Macaca mulata)
 property_value: end_mpb "10.0" xsd:float
-property_value: IAO:0000589 "11-month-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "11-month-old stage (Macaca mulata)" xsd:string
 property_value: start_mpb "9.7" xsd:float
 
 [Term]
@@ -215,7 +215,7 @@ relationship: immediately_preceded_by MmulDv:0000017 ! 11-month-old stage (Macac
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000014 ! juvenile stage (Macaca mulata)
 property_value: end_ypb "2.0" xsd:float
-property_value: IAO:0000589 "1-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "1-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "1.0" xsd:float
 
 [Term]
@@ -229,7 +229,7 @@ relationship: immediately_preceded_by MmulDv:0000018 ! 1-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000014 ! juvenile stage (Macaca mulata)
 property_value: end_ypb "3.0" xsd:float
-property_value: IAO:0000589 "2-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "2-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "2.0" xsd:float
 
 [Term]
@@ -244,7 +244,7 @@ relationship: immediately_preceded_by MmulDv:0000019 ! 2-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000014 ! juvenile stage (Macaca mulata)
 property_value: end_ypb "3.5" xsd:float
-property_value: IAO:0000589 "3-year-old immature stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "3-year-old immature stage (Macaca mulata)" xsd:string
 property_value: start_ypb "3.0" xsd:float
 
 [Term]
@@ -258,7 +258,7 @@ is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of UBERON:0000113
 property_value: end_ypb "25.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "adulthood stage (Macaca mulata)" xsd:string
 property_value: start_ypb "3.5" xsd:float
 
 [Term]
@@ -272,7 +272,7 @@ is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "4.0" xsd:float
-property_value: IAO:0000589 "3-year-old mature stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "3-year-old mature stage (Macaca mulata)" xsd:string
 property_value: start_ypb "3.5" xsd:float
 
 [Term]
@@ -286,7 +286,7 @@ relationship: immediately_preceded_by MmulDv:0000023 ! 3-year-old mature stage (
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "5.0" xsd:float
-property_value: IAO:0000589 "4-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "4-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "4.0" xsd:float
 
 [Term]
@@ -300,7 +300,7 @@ relationship: immediately_preceded_by MmulDv:0000024 ! 4-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "6.0" xsd:float
-property_value: IAO:0000589 "5-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "5-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "5.0" xsd:float
 
 [Term]
@@ -314,7 +314,7 @@ relationship: immediately_preceded_by MmulDv:0000025 ! 5-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "7.0" xsd:float
-property_value: IAO:0000589 "6-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "6-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "6.0" xsd:float
 
 [Term]
@@ -328,7 +328,7 @@ relationship: immediately_preceded_by MmulDv:0000026 ! 6-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "8.0" xsd:float
-property_value: IAO:0000589 "7-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "7-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "7.0" xsd:float
 
 [Term]
@@ -342,7 +342,7 @@ relationship: immediately_preceded_by MmulDv:0000027 ! 7-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "9.0" xsd:float
-property_value: IAO:0000589 "8-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "8-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "8.0" xsd:float
 
 [Term]
@@ -356,7 +356,7 @@ relationship: immediately_preceded_by MmulDv:0000028 ! 8-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "10.0" xsd:float
-property_value: IAO:0000589 "9-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "9-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "9.0" xsd:float
 
 [Term]
@@ -370,7 +370,7 @@ relationship: immediately_preceded_by MmulDv:0000029 ! 9-year-old stage (Macaca 
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "11.0" xsd:float
-property_value: IAO:0000589 "10-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "10-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "10.0" xsd:float
 
 [Term]
@@ -384,7 +384,7 @@ relationship: immediately_preceded_by MmulDv:0000030 ! 10-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "12.0" xsd:float
-property_value: IAO:0000589 "11-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "11-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "11.0" xsd:float
 
 [Term]
@@ -398,7 +398,7 @@ relationship: immediately_preceded_by MmulDv:0000031 ! 11-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "13.0" xsd:float
-property_value: IAO:0000589 "12-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "12-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "12.0" xsd:float
 
 [Term]
@@ -412,7 +412,7 @@ relationship: immediately_preceded_by MmulDv:0000032 ! 12-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "14.0" xsd:float
-property_value: IAO:0000589 "13-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "13-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "13.0" xsd:float
 
 [Term]
@@ -426,7 +426,7 @@ relationship: immediately_preceded_by MmulDv:0000033 ! 13-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "15.0" xsd:float
-property_value: IAO:0000589 "14-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "14-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "14.0" xsd:float
 
 [Term]
@@ -440,7 +440,7 @@ relationship: immediately_preceded_by MmulDv:0000034 ! 14-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "16.0" xsd:float
-property_value: IAO:0000589 "15-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "15-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "15.0" xsd:float
 
 [Term]
@@ -454,7 +454,7 @@ relationship: immediately_preceded_by MmulDv:0000035 ! 15-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "17.0" xsd:float
-property_value: IAO:0000589 "16-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "16-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "16.0" xsd:float
 
 [Term]
@@ -468,7 +468,7 @@ relationship: immediately_preceded_by MmulDv:0000036 ! 16-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "18.0" xsd:float
-property_value: IAO:0000589 "17-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "17-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "17.0" xsd:float
 
 [Term]
@@ -482,7 +482,7 @@ relationship: immediately_preceded_by MmulDv:0000037 ! 17-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "19.0" xsd:float
-property_value: IAO:0000589 "18-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "18-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "18.0" xsd:float
 
 [Term]
@@ -496,7 +496,7 @@ relationship: immediately_preceded_by MmulDv:0000038 ! 18-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "20.0" xsd:float
-property_value: IAO:0000589 "19-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "19-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "19.0" xsd:float
 
 [Term]
@@ -510,7 +510,7 @@ relationship: immediately_preceded_by MmulDv:0000039 ! 19-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "21.0" xsd:float
-property_value: IAO:0000589 "20-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "20-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "20.0" xsd:float
 
 [Term]
@@ -524,7 +524,7 @@ relationship: immediately_preceded_by MmulDv:0000040 ! 20-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "22.0" xsd:float
-property_value: IAO:0000589 "21-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "21-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "21.0" xsd:float
 
 [Term]
@@ -538,7 +538,7 @@ relationship: immediately_preceded_by MmulDv:0000041 ! 21-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "23.0" xsd:float
-property_value: IAO:0000589 "22-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "22-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "22.0" xsd:float
 
 [Term]
@@ -552,7 +552,7 @@ relationship: immediately_preceded_by MmulDv:0000042 ! 22-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "24.0" xsd:float
-property_value: IAO:0000589 "23-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "23-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "23.0" xsd:float
 
 [Term]
@@ -566,7 +566,7 @@ relationship: immediately_preceded_by MmulDv:0000043 ! 23-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000022 ! adulthood stage (Macaca mulata)
 property_value: end_ypb "25.0" xsd:float
-property_value: IAO:0000589 "24-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "24-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "24.0" xsd:float
 
 [Term]
@@ -578,7 +578,7 @@ comment: The females of this species reach menopause at about the age of 25 (see
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of UBERON:0000113
-property_value: IAO:0000589 "aged stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "aged stage (Macaca mulata)" xsd:string
 property_value: start_ypb "25.0" xsd:float
 
 [Term]
@@ -591,7 +591,7 @@ is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000004 ! nursing stage (Macaca mulata)
 property_value: end_mpb "1.0" xsd:float
-property_value: IAO:0000589 "newborn stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "newborn stage (Macaca mulata)" xsd:string
 property_value: start_mpb "0.0" xsd:float
 
 [Term]
@@ -604,7 +604,7 @@ is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000045 ! aged stage (Macaca mulata)
 property_value: end_ypb "26.0" xsd:float
-property_value: IAO:0000589 "25-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "25-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "25.0" xsd:float
 
 [Term]
@@ -618,7 +618,7 @@ relationship: immediately_preceded_by MmulDv:0000047 ! 25-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000045 ! aged stage (Macaca mulata)
 property_value: end_ypb "27.0" xsd:float
-property_value: IAO:0000589 "26-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "26-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "26.0" xsd:float
 
 [Term]
@@ -631,7 +631,7 @@ relationship: immediately_preceded_by MmulDv:0000048 ! 26-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000045 ! aged stage (Macaca mulata)
 property_value: end_ypb "28.0" xsd:float
-property_value: IAO:0000589 "27-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "27-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "27.0" xsd:float
 
 [Term]
@@ -644,7 +644,7 @@ relationship: immediately_preceded_by MmulDv:0000049 ! 27-year-old stage (Macaca
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000045 ! aged stage (Macaca mulata)
 property_value: end_ypb "29.0" xsd:float
-property_value: IAO:0000589 "28-year-old stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "28-year-old stage (Macaca mulata)" xsd:string
 property_value: start_ypb "28.0" xsd:float
 
 [Term]
@@ -656,7 +656,7 @@ is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000050 ! 28-year-old stage (Macaca mulata)
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of MmulDv:0000045 ! aged stage (Macaca mulata)
-property_value: IAO:0000589 "29 year-old and over stage (rhesus macaque)" xsd:string
+property_value: IAO:0000589 "29 year-old and over stage (Macaca mulata)" xsd:string
 property_value: start_ypb "29.0" xsd:float
 
 [Term]
