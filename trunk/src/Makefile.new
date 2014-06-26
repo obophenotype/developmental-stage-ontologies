@@ -5,6 +5,7 @@ all: mmuldv/mmuldv-uberon.obo
 
 %.owl: %.obo
 	$(OWLTOOLS) $< -o $@ 
+.PRECIOUS: %.owl
 
 # We do not need specifically an owl version for this task, 
 # but this allows to make sure the owl version is generated.
