@@ -243,7 +243,6 @@ id: MmusDv:0000103
 name: Theiler stage 09a
 namespace: mouse_developmental_stage
 def: "Theiler developmental stage 9 defined by advanced endometrial reaction and during which the egg-cylinder stage advances with the first evidence of an embryonic axis." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Stage_9a "adapted from"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000014 ! Theiler stage 09
 synonym: "Theiler stage 9" EXACT []
@@ -254,7 +253,6 @@ id: MmusDv:0000104
 name: Theiler stage 09b
 namespace: mouse_developmental_stage
 def: "Theiler developmental stage 9 defined by advanced endometrial reaction and during which the first mesodermal cells are produced by gastrulation late in this stage." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Stage_9b "adapted from"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000014 ! Theiler stage 09
 relationship: immediately_preceded_by MmusDv:0000103 ! Theiler stage 09a
@@ -286,7 +284,6 @@ name: Theiler stage 10a
 namespace: mouse_developmental_stage
 def: "Theiler developmental stage 10 during which the tissue at the posterior end of the primitive streak bulges into the pro-amniotic cavity and forms the amniotic fold." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Stage_10a "adapted from"]
 comment: Refers to MS (mid-streak) stage in Downs and Davies staging of gastrulating mouse embryos (PMID: 8269852, 1993).
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000015 ! Theiler stage 10
 synonym: "TS10a" EXACT []
@@ -297,7 +294,6 @@ name: Theiler stage 10b
 namespace: mouse_developmental_stage
 def: "Theiler developmental stage 10 during which small cavities coalesce to form a single cavity in the mesoderm of the posterior amniotic fold, the exocoelom." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_10b "adapted from"]
 comment: Refers to MS-LS (mid-streak to late streak) stage in Downs and Davies staging of gastrulating mouse embryos, 1993 (see http://www.ncbi.nlm.nih.gov/pubmed/8269852).
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000015 ! Theiler stage 10
 relationship: immediately_preceded_by MmusDv:0000105 ! Theiler stage 10a
@@ -309,7 +305,6 @@ name: Theiler stage 10c
 namespace: mouse_developmental_stage
 def: "Theiler developmental stage 10 during which the allantoic bud first appears, gastrulation continues and the node becomes visible." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_10c "adapted from"]
 comment: Refers to MS-LS (mid-streak to late streak) stage in Downs and Davies staging of gastrulating mouse embryos, 1993 (see http://www.ncbi.nlm.nih.gov/pubmed/8269852).
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000015 ! Theiler stage 10
 relationship: immediately_preceded_by MmusDv:0000106 ! Theiler stage 10b
@@ -348,7 +343,6 @@ id: MmusDv:0000092
 name: Theiler stage 11a
 namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the amniotic cavity is sealed off into three distinct cavities - the amniotic cavity, the exocoelom and the ectoplacental cleft." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
 synonym: "TS11a" EXACT []
@@ -358,7 +352,6 @@ id: MmusDv:0000093
 name: Theiler stage 11b
 namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the allantoic bud elongates ." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
 relationship: immediately_preceded_by MmusDv:0000092 ! Theiler stage 11a
@@ -369,7 +362,6 @@ id: MmusDv:0000094
 name: Theiler stage 11c
 namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the head folds are formed while the neural groove becomes visible." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
 relationship: immediately_preceded_by MmusDv:0000093 ! Theiler stage 11b
@@ -380,7 +372,6 @@ id: MmusDv:0000095
 name: Theiler stage 11d
 namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the head folds continue to enlarge while the foregut pocket begins to form." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11 "adapted from"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000017 ! Theiler stage 11
 relationship: immediately_preceded_by MmusDv:0000094 ! Theiler stage 11c
@@ -417,7 +408,6 @@ name: Theiler stage 12a
 namespace: mouse_developmental_stage
 def: "Theiler developmental stage 12 defined by unturned embryo with first appearance of somite pairs 1-4 and during which the allantois extends further into the exocoelom. Maxillary components of the 1st branchial arch become prominent. The preotic sulcus is visible in the 2-3 somite embryo. The cardiogenic plate begins to form and the foregut pocket is clearly visible." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_12a "adapted from"]
 comment: Embryonic age 8 dpc (day post coitum). Refers to human CarnegieStage09.
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000019 ! Theiler stage 12
 synonym: "TS12a" EXACT []
@@ -428,7 +418,6 @@ name: Theiler stage 12b
 namespace: mouse_developmental_stage
 def: "Theiler developmental stage 12 defined by unturned embryo with first appearance of somite pairs 5-7 and during which neural closure occurs in the region of the 4th and 5th somites, extending in both directions from this site. Headfolds are particularly prominent. Optic placodes are first evident and become indented to form the optic pits. The heart rudiment develops rapidly. The allantois contacts the chorion at the end of this stage." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_12b "adapted from"]
 comment: Embryonic age 8 dpc (day post coitum). Refers to human CarnegieStage09.
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000019 ! Theiler stage 12
 relationship: immediately_preceded_by MmusDv:0000108 ! Theiler stage 12a
@@ -810,7 +799,6 @@ id: MmusDv:0000045
 name: 1 week
 namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 7 days and under 15 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000044 ! 1-7 days
@@ -822,7 +810,6 @@ id: MmusDv:0000046
 name: 2 weeks
 namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 14 days and under 22 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000045 ! 1 week
@@ -834,7 +821,6 @@ id: MmusDv:0000047
 name: 3 weeks
 namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 21 days and under 29 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000046 ! 2 weeks
@@ -846,7 +832,6 @@ id: MmusDv:0000048
 name: 4 weeks
 namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 28 days and under 36 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000047 ! 3 weeks
@@ -859,7 +844,6 @@ name: 5 weeks
 namespace: mouse_developmental_stage
 def: "Infant stage that refers to a mouse which is over 35 days and under 43 days old." [Bgee:curator "Bgee"]
 comment: This stage is usually the stage during which the sexual maturity occurs.
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000038 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000048 ! 4 weeks
@@ -932,7 +916,6 @@ id: MmusDv:0000052
 name: 8 weeks
 namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 56 days and under 64 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
 relationship: immediately_preceded_by MmusDv:0000051 ! 7 weeks
@@ -944,7 +927,6 @@ id: MmusDv:0000053
 name: 9 weeks
 namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 63 days and under 71 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
 relationship: immediately_preceded_by MmusDv:0000052 ! 8 weeks
@@ -956,7 +938,6 @@ id: MmusDv:0000054
 name: 10 weeks
 namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 70 days and under 78 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
 relationship: immediately_preceded_by MmusDv:0000053 ! 9 weeks
@@ -968,7 +949,6 @@ id: MmusDv:0000055
 name: 11 weeks
 namespace: mouse_developmental_stage
 def: "2 month-old stage that refers to a mouse which is over 77 days and under 85 days old." [Bgee:curator "Bgee"]
-subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000062 ! 2 month-old stage
 relationship: immediately_preceded_by MmusDv:0000054 ! 10 weeks
