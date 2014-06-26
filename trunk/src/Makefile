@@ -6,11 +6,7 @@ COMPOSITE_UBERON_SUFFIX:=-uberon.obo
 
 ONT_PREFIXES:= acardv btaudv drerdv ggaldv ggordv hsapdv mdomdv metadv mmuldv mmusdv oanadv olatdv pdumdv ppandv ppygdv ptrodv rnordv sscrdv tnigdv xtrodv zfs
 
-define make_all_targets
-$1/$1.owl $1/$1$(COMPOSITE_UBERON_SUFFIX) 
-endef
-
-all: $(foreach d,$(ONT_PREFIXES),$(call make_all_targets,$d))
+all: $(foreach d,$(ONT_PREFIXES), $d/$d.owl $d/$d$(COMPOSITE_UBERON_SUFFIX))
 
 clean: 
 	$(foreach o, $(ONT_PREFIXES), -@rm -f $o/$o.owl $o/$o$(BRIDGE_UBERON_SUFFIX) $o/$o$(COMPOSITE_UBERON_SUFFIX))
