@@ -1,4 +1,5 @@
-OWLTOOLS:=owltools
+#add a file named utils/owltools.vmoptions to define JVM options
+OWLTOOLS:=util/owltools
 
 BRIDGE_PARAMS_SUFFIX:=-bridge-params.tsv
 BRIDGE_UBERON_SUFFIX:=-bridge-to-uberon.obo
@@ -6,6 +7,7 @@ COMPOSITE_UBERON_SUFFIX:=-uberon.obo
 
 ONT_PREFIXES:= acardv btaudv drerdv ggaldv ggordv hsapdv mdomdv metadv mmuldv mmusdv oanadv olatdv pdumdv ppandv ppygdv ptrodv rnordv sscrdv tnigdv xtrodv zfs
 
+#trick inspired from http://blog.jgc.org/2012/01/using-gnu-makes-define-and-eval-to.html
 all: $(foreach d,$(ONT_PREFIXES), $d/$d.owl $d/$d$(COMPOSITE_UBERON_SUFFIX))
 
 clean: 
