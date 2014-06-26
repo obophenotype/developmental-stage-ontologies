@@ -61,7 +61,7 @@ synonym: "E0-2.5" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
 property_value: start_dpc "0.45" xsd:float
-xref: TS01 ! TS01 (E0-2.5)
+xref: EMAPA:TS01 ! TS01 (E0-2.5)
 
 [Term]
 id: MmusDv:0000004
@@ -89,7 +89,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000004 ! cleavage stage
 relationship: immediately_preceded_by MmusDv:0000003 ! Theiler stage 01
 property_value: start_dpc "1.0" xsd:float
-xref: TS02 ! TS02 (E1-2.5)
+xref: EMAPA:TS02 ! TS02 (E1-2.5)
 
 [Term]
 id: MmusDv:0000006
@@ -107,7 +107,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000004 ! cleavage stage
 relationship: immediately_preceded_by MmusDv:0000005 ! Theiler stage 02
 property_value: start_dpc "2.0" xsd:float
-xref: TS03 ! TS03 (E1-3.5)
+xref: EMAPA:TS03 ! TS03 (E1-3.5)
 
 [Term]
 id: MmusDv:0000007
@@ -134,7 +134,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
 relationship: immediately_preceded_by MmusDv:0000006 ! Theiler stage 03
 property_value: start_dpc "3.0" xsd:float
-xref: TS04 ! TS04 (E2-4)
+xref: EMAPA:TS04 ! TS04 (E2-4)
 
 [Term]
 id: MmusDv:0000009
@@ -153,7 +153,7 @@ relationship: part_of MmusDv:0000007 ! blastula stage
 relationship: immediately_preceded_by MmusDv:0000008 ! Theiler stage 04
 property_value: start_dpc "4.0" xsd:float
 property_value: has_stage_marker GO:0001835 ! blastocyst hatching
-xref: TS05 ! TS05 (E3-5.5)
+xref: EMAPA:TS05 ! TS05 (E3-5.5)
 
 [Term]
 id: MmusDv:0000010
@@ -171,7 +171,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
 relationship: immediately_preceded_by MmusDv:0000009 ! Theiler stage 05
 property_value: start_dpc "4.5" xsd:float
-xref: TS06 ! TS06 (E4-5.5)
+xref: EMAPA:TS06 ! TS06 (E4-5.5)
 
 [Term]
 id: MmusDv:0000011
@@ -190,7 +190,7 @@ relationship: part_of MmusDv:0000007 ! blastula stage
 relationship: immediately_preceded_by MmusDv:0000010 ! Theiler stage 06
 property_value: start_dpc "5.0" xsd:float
 property_value: has_stage_marker GO:0007566 ! embryo implantation
-xref: TS07 ! TS07 (E4.5-6)
+xref: EMAPA:TS07 ! TS07 (E4.5-6)
 
 [Term]
 id: MmusDv:0000012
@@ -208,7 +208,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000007 ! blastula stage
 relationship: immediately_preceded_by MmusDv:0000011 ! Theiler stage 07
 property_value: start_dpc "6.0" xsd:float
-xref: TS08 ! TS08 (E5-6.5)
+xref: EMAPA:TS08 ! TS08 (E5-6.5)
 
 [Term]
 id: MmusDv:0000013
@@ -236,7 +236,7 @@ relationship: part_of MmusDv:0000013 ! gastrula stage
 relationship: immediately_preceded_by MmusDv:0000012 ! Theiler stage 08
 property_value: start_dpc "6.5" xsd:float
 property_value: has_stage_marker UBERON:0000926 ! mesoderm
-xref: TS09 ! TS09 (E6.25-7.25)
+xref: EMAPA:TS09 ! TS09 (E6.25-7.25)
 
 [Term]
 id: MmusDv:0000103
@@ -278,7 +278,7 @@ property_value: start_dpc "7.0" xsd:float
 property_value: has_stage_marker UBERON:0005971 ! amniotic fold
 property_value: has_stage_marker UBERON:0003888 ! extraembryonic coelom
 property_value: has_stage_marker UBERON:0004340 ! allantois
-xref: TS10 ! TS10 (E6.5-7.75)
+xref: EMAPA:TS10 ! TS10 (E6.5-7.75)
 
 [Term]
 id: MmusDv:0000105
@@ -341,7 +341,7 @@ relationship: part_of MmusDv:0000002 ! embryonic stage
 relationship: immediately_preceded_by MmusDv:0000015 ! Theiler stage 10
 property_value: start_dpc "7.5" xsd:float
 property_value: has_stage_marker UBERON:0003075 ! neural plate
-xref: TS11 ! TS11 (E7.25-8)
+xref: EMAPA:TS11 ! TS11 (E7.25-8)
 
 [Term]
 id: MmusDv:0000092
@@ -409,7 +409,7 @@ relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000017 ! Theiler stage 11
 property_value: start_dpc "8.0" xsd:float
 property_value: has_stage_marker EMAPA:16173 ! somite 01
-xref: TS12 ! TS12 (E7.5-8.75)
+xref: EMAPA:TS12 ! TS12 (E7.5-8.75)
 
 [Term]
 id: MmusDv:0000108
@@ -451,7 +451,7 @@ property_value: start_dpc "8.5" xsd:float
 property_value: has_stage_marker EMAPA:16441 ! somite 14
 property_value: has_stage_marker EMAPA:16445 ! somite 15
 property_value: has_stage_marker EMAPA:16449 ! somite 16
-xref: TS13 ! TS13 (E8-9.25)
+xref: EMAPA:TS13 ! TS13 (E8-9.25)
 
 [Term]
 id: MmusDv:0000021
@@ -471,7 +471,7 @@ property_value: has_stage_marker EMAPA:16445 ! somite 15
 property_value: has_stage_marker EMAPA:16449 ! somite 16
 property_value: has_stage_marker EMAPA:16453 ! somite 17
 property_value: has_stage_marker EMAPA:16457 ! somite 18
-xref: TS14 ! TS14 (E8.5-9.75)
+xref: EMAPA:TS14 ! TS14 (E8.5-9.75)
 
 [Term]
 id: MmusDv:0000022
@@ -488,7 +488,7 @@ relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000021 ! Theiler stage 14
 property_value: start_dpc "9.5" xsd:float
 property_value: has_stage_marker UBERON:0005417 ! forelimb bud
-xref: TS15 ! TS15 (E9-10.25)
+xref: EMAPA:TS15 ! TS15 (E9-10.25)
 
 [Term]
 id: MmusDv:0000023
@@ -505,7 +505,7 @@ relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000022 ! Theiler stage 15
 property_value: start_dpc "10.0" xsd:float
 property_value: has_stage_marker UBERON:0005418 ! hindlimb bud
-xref: TS16 ! TS16 (E9.5-10.75)
+xref: EMAPA:TS16 ! TS16 (E9.5-10.75)
 
 [Term]
 id: MmusDv:0000024
@@ -523,7 +523,7 @@ relationship: immediately_preceded_by MmusDv:0000023 ! Theiler stage 16
 property_value: start_dpc "10.5" xsd:float
 property_value: has_stage_marker UBERON:0006259 ! lens pit
 property_value: has_stage_marker EMAPA:18411 ! physiological umbilical hernia
-xref: TS17 ! TS17 (E10-11.25)
+xref: EMAPA:TS17 ! TS17 (E10-11.25)
 
 [Term]
 id: MmusDv:0000025
@@ -540,7 +540,7 @@ relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000024 ! Theiler stage 17
 property_value: start_dpc "11.0" xsd:float
 property_value: has_stage_marker UBERON:0005870 ! olfactory pit
-xref: TS18 ! TS18 (E10.5-11.25)
+xref: EMAPA:TS18 ! TS18 (E10.5-11.25)
 
 [Term]
 id: MmusDv:0000026
@@ -556,7 +556,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000025 ! Theiler stage 18
 property_value: start_dpc "11.5" xsd:float
-xref: TS19 ! TS19 (E11-12.25)
+xref: EMAPA:TS19 ! TS19 (E11-12.25)
 
 [Term]
 id: MmusDv:0000027
@@ -572,7 +572,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000026 ! Theiler stage 19
 property_value: start_dpc "12.0" xsd:float
-xref: TS20 ! TS20 (E11.5-13)
+xref: EMAPA:TS20 ! TS20 (E11.5-13)
 
 [Term]
 id: MmusDv:0000028
@@ -588,7 +588,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 property_value: start_dpc "13.0" xsd:float
 relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000027 ! Theiler stage 20
-xref: TS21 ! TS21 (E12.5-14)
+xref: EMAPA:TS21 ! TS21 (E12.5-14)
 
 [Term]
 id: MmusDv:0000029
@@ -605,7 +605,7 @@ relationship: part_of MmusDv:0000018 ! organogenesis stage
 relationship: immediately_preceded_by MmusDv:0000028 ! Theiler stage 21
 property_value: start_dpc "14.0" xsd:float
 property_value: has_stage_marker UBERON:0003606 ! limb long bone
-xref: TS22 ! TS22 (E13.5-15)
+xref: EMAPA:TS22 ! TS22 (E13.5-15)
 
 [Term]
 id: MmusDv:0000030
@@ -639,7 +639,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
 relationship: immediately_preceded_by MmusDv:0000029 ! Theiler stage 22
 property_value: start_dpc "15.0" xsd:float
-xref: TS23 ! TS23 (E15)
+xref: EMAPA:TS23 ! TS23 (E15)
 
 [Term]
 id: MmusDv:0000033
@@ -655,7 +655,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
 relationship: immediately_preceded_by MmusDv:0000032 ! Theiler stage 23
 property_value: start_dpc "16.0" xsd:float
-xref: TS24 ! TS24 (E16)
+xref: EMAPA:TS24 ! TS24 (E16)
 
 [Term]
 id: MmusDv:0000034
@@ -671,7 +671,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
 relationship: immediately_preceded_by MmusDv:0000033 ! Theiler stage 24
 property_value: start_dpc "17.0" xsd:float
-xref: TS25 ! TS25 (E17)
+xref: EMAPA:TS25 ! TS25 (E17)
 
 [Term]
 id: MmusDv:0000035
@@ -687,7 +687,7 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000031 ! fetal stage
 relationship: immediately_preceded_by MmusDv:0000034 ! Theiler stage 25
 property_value: start_dpc "18.0" xsd:float
-xref: TS26 ! TS26 (E18)
+xref: EMAPA:TS26 ! TS26 (E18)
 
 [Term]
 id: MmusDv:0000092
@@ -713,7 +713,7 @@ relationship: part_of MmusDv:0000092 ! postnatal stage
 property_value: start_dpc "19.0" xsd:float
 property_value: start_wpb "0.0" xsd:float
 property_value: end_wpb "6.0" xsd:float
-xref: TS28 ! TS28 (P0-Adult)
+xref: EMAPA:TS28 ! TS28 (P0-Adult)
 
 [Term]
 id: MmusDv:0000096
@@ -737,12 +737,13 @@ xref: XUO:0000071
 synonym: "TS27" RELATED [EMAPA:TS27]
 synonym: "E19-20" EXACT []
 synonym: "newborn stage" RELATED []
+synonym: "P0" RELATED [UBERON:cjm]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000096 ! early immature stage
 relationship: immediately_preceded_by MmusDv:0000035 ! Theiler stage 26
 property_value: start_dpc "19.0" xsd:float
 property_value: start_wpb "0.0" xsd:float
-xref: TS27 ! TS27 (null)
+xref: EMAPA:TS27 ! TS27 (null)
 
 [Term]
 id: MmusDv:0000037
@@ -752,7 +753,7 @@ def: "Postnatal development." [http://php.med.unsw.edu.au/embryology/index.php?t
 synonym: "TS28" RELATED []
 xref: XUO:0000072
 is_obsolete: true
-xref: TS28 ! TS28 (P0-Adult)
+xref: EMAPA:TS28 ! TS28 (P0-Adult)
 consider: MmusDv:0000043
 comment: This term was obsoleted as it is a broad term to describe the postnatal development, while in our ontology we use the immature stage preceding the mature stage to describe the postnatal development.
 

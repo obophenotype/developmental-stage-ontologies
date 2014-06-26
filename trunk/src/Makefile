@@ -1,17 +1,20 @@
-ONTS = mmusdv hsapdv zfs
+OBO:=http://purl.obolibrary.org/obo/
+OWLTOOLS:=owltools
 
-#all: $(patsubst %, %/%.owl, $(ONTS))
-
-all: mmusdv/mmusdv.owl hsapdv/hsapdv.owl zfs/zfs.owl
+all: mmuldv/mmuldv-uberon.obo
 
 %.owl: %.obo
-	obolib-obo2owl $< -o $@
+	$(OWLTOOLS) $< -o $@ 
+.PRECIOUS: %.owl
 
-mmusdv/mmusdv.png: mmusdv/mmusdv.obo
-	blip ontol-subset -i mmusdv/mmusdv.obo -n % -to png -u ontol_config_fbdv -cr part_of -rel part_of -rel preceded_by > $@
+# We do not need specifically an owl version for this task, 
+# but this allows to make sure the owl version is generated.
+# The perl script only read OBO files.
+%-uberon.obo: %-bridge-params.tsv %.owl %.obo
+	@IFS_OLD=$$IFS; \
+	IFS=$$"	"; \
+	read speciesName taxId < $<; \
+	IFS=$$IFS_OLD; \
+	util/make-bridge-axioms.pl $$taxId "$$speciesName" $*.obo > $*-bridge-to-uberon.obo; \
+	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $*.owl $*-bridge-to-uberon.obo --merge-support-ontologies  --reasoner elk --merge-species-ontology -s "$$speciesName" -t $$taxId -o -f obo --no-check $@
 
-hsapdv/hsapdv.png: hsapdv/hsapdv.obo
-	blip ontol-subset -i hsapdv/hsapdv.obo -n % -to png -u ontol_config_fbdv -cr part_of -rel part_of -rel preceded_by > $@
-
-olatdv/olatdv.png: olatdv/olatdv.obo
-	blip ontol-subset -i olatdv/olatdv.obo -n % -to png -u ontol_config_fbdv -cr part_of -rel part_of -rel preceded_by > $@
