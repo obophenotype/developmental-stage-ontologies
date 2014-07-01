@@ -67,6 +67,7 @@ namespace: lizard_developmental_stage
 synonym: "prime adult stage" EXACT []
 def: "Lizard developmental stage that refers to a lizard who is over 8 and under 24 months old." [Bgee:curator "Bgee"]
 comment: Green anoles have a lifespan ranging from 2 to 8 years, determined largely by predation. Lifespan in captivity is similar to that in the wild, approximately 4 to 6 years (see http://animaldiversity.ummz.umich.edu/accounts/Anolis_carolinensis/). We arbitraly consider 2 years as the upper limit for the adult stage, before aged stage. This is to improve as far as information is available.
+xref: UBERON:0018241
 is_a: AcarDv:0000000 ! lizard life cycle stage
 relationship: part_of AcarDv:0000004 ! mature stage
 property_value: start_mph "8.0" xsd:float

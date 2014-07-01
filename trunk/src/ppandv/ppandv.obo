@@ -215,6 +215,8 @@ name: adulthood stage
 namespace: bonobo_developmental_stage
 def: "Mature stage that refers to a bonobo who is over 8 and under 30 years old, the limit before geriatric age in the literature." [Bgee:curator "Bgee"]
 comment: This stage actually starts at about 8.5 years, the age of sexual maturity. See 8-year-old immature stage and 8-year-old mature stage. Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).
+synonym: "prime adult stage" EXACT []
+xref: UBERON:0018241
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000016 ! mature stage
 property_value: start_ypb "8.75" xsd:float

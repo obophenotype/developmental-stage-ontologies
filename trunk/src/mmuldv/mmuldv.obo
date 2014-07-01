@@ -273,6 +273,7 @@ namespace: rhesus_macaque_developmental_stage
 def: "Mature stage that refers to a rhesus who is over 3 and under 25 years old, the usual upper limit for breeding age." [Bgee:curator "Bgee"]
 comment: This stage actually starts at about 3.5 years, the age of sexual maturity. See 3-year-old immature stage and 3-year-old mature stage. The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the upper limit for adulthood stage, before geriatric age.
 synonym: "breeding age" RELATED []
+xref: UBERON:0018241
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000021 ! mature stage
 property_value: start_ypb "3.5" xsd:float

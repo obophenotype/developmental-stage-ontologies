@@ -92,6 +92,7 @@ name: adulthood stage
 namespace: gorilla_developmental_stage
 def: "Mature stage that refers to a gorilla who is over about 8 and under 30 years old." [Bgee:curator "Bgee"]
 comment: Geriatric gorillas are defined as animals with 30 years of age and older (see http://link.springer.com/article/10.1007%2Fs10764-006-9097-1).
+xref: UBERON:0018241
 is_a: GgorDv:0000000 ! gorilla life cycle stage
 relationship: part_of GgorDv:0000006 ! mature stage
 property_value: start_ypb "7.8" xsd:float
