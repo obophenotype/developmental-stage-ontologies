@@ -151,6 +151,8 @@ name: adulthood stage
 namespace: chimpanzee_developmental_stage
 def: "Mature stage that refers to a chimpanzee who is over 8 and under 34 years old, the limit before geriatric age in the literature." [Bgee:curator "Bgee"]
 comment: Geriatric chimpanzees were originally defined as animals with 34 years of age and older (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
+synonym: "prime adult stage" EXACT []
+xref: UBERON:0018241
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000011 ! mature stage
 property_value: start_ypb "8.0" xsd:float
