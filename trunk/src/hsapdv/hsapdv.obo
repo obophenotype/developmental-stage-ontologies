@@ -2779,6 +2779,90 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
 relationship: immediately_preceded_by HsapDv:0000224 ! 98-year-old human stage
 
+[Term]
+id: HsapDv:0000226
+name: 100-year-old human stage
+property_value: start_ypb "100.0" xsd:float
+property_value: end_ypb "101.0" xsd:float
+subset: granular_stage
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 100 and under 101." [Bgee:curator "Bgee"]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
+relationship: immediately_preceded_by HsapDv:0000225 ! 99-year-old human stage
+
+[Term]
+id: HsapDv:0000227
+name: 101-year-old human stage
+property_value: start_ypb "101.0" xsd:float
+property_value: end_ypb "102.0" xsd:float
+subset: granular_stage
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 101 and under 102." [Bgee:curator "Bgee"]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
+relationship: immediately_preceded_by HsapDv:0000226 ! 100-year-old human stage
+
+[Term]
+id: HsapDv:0000228
+name: 102-year-old human stage
+property_value: start_ypb "102.0" xsd:float
+property_value: end_ypb "103.0" xsd:float
+subset: granular_stage
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 102 and under 103." [Bgee:curator "Bgee"]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
+relationship: immediately_preceded_by HsapDv:0000227 ! 101-year-old human stage
+
+[Term]
+id: HsapDv:0000229
+name: 103-year-old human stage
+property_value: start_ypb "103.0" xsd:float
+property_value: end_ypb "104.0" xsd:float
+subset: granular_stage
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 103 and under 104." [Bgee:curator "Bgee"]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
+relationship: immediately_preceded_by HsapDv:0000228 ! 102-year-old human stage
+
+[Term]
+id: HsapDv:0000230
+name: 104-year-old human stage
+property_value: start_ypb "104.0" xsd:float
+property_value: end_ypb "105.0" xsd:float
+subset: granular_stage
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 104 and under 105." [Bgee:curator "Bgee"]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
+relationship: immediately_preceded_by HsapDv:0000229 ! 103-year-old human stage
+
+[Term]
+id: HsapDv:0000231
+name: 105-year-old human stage
+property_value: start_ypb "105.0" xsd:float
+property_value: end_ypb "106.0" xsd:float
+subset: granular_stage
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 105 and under 106." [Bgee:curator "Bgee"]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
+relationship: immediately_preceded_by HsapDv:0000230 ! 104-year-old human stage
+
+[Term]
+id: HsapDv:0000232
+name: 106-year-old human stage
+property_value: start_ypb "106.0" xsd:float
+property_value: end_ypb "107.0" xsd:float
+subset: granular_stage
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 106 and under 107." [Bgee:curator "Bgee"]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
+relationship: immediately_preceded_by HsapDv:0000231 ! 105-year-old human stage
+
 [Typedef]
 id: part_of
 name: part of
