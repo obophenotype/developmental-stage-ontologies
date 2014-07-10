@@ -1,22 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/btaudv-bridge-to-uberon.owl>))) [Axioms: 47 Logical Axioms: 12]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/btaudv.owl>))) [Axioms: 202 Logical Axioms: 16]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/btaudv-bridge-to-uberon.owl>))) [Axioms: 48 Logical Axioms: 13]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/btaudv.owl>))) [Axioms: 204 Logical Axioms: 16]
 ontology: uberon/bridge/btaudv/btaudv-uberon.obo
-
-[Term]
-id: BtauDv:0000005
-name: adulthood stage (cow)
-namespace: cow_developmental_stage
-def: "Mature stage that refers to a cow who is over 1.5 and under 12 years old, the usual upper limit for breeding age." [Bgee:curator]
-comment: Females appear to remain fertile for about 12 years (see http://genomics.senescence.info/species/entry.php?species=Bos_taurus).
-synonym: "breeding age" RELATED []
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9913
-relationship: part_of UBERON:0000113
-property_value: end_ypb "12.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (cow)" xsd:string
-property_value: start_ypb "1.5" xsd:float
 
 [Term]
 id: BtauDv:0000006
@@ -24,7 +10,7 @@ name: aged stage (cow)
 namespace: cow_developmental_stage
 def: "Mature stage that refers to a cow who is over 12 years old, the usual upper limit for breeding age." [Bgee:curator]
 comment: Cows have been known to live over 20 years.
-relationship: immediately_preceded_by BtauDv:0000005 ! adulthood stage (cow)
+relationship: immediately_preceded_by UBERON:0018241
 relationship: only_in_taxon NCBITaxon:9913
 relationship: part_of UBERON:0000113
 property_value: IAO:0000589 "aged stage (cow)" xsd:string
@@ -58,6 +44,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9913", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9913", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9913 {gci_filler="NCBITaxon:9913", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9913", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9913", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9913 {gci_filler="NCBITaxon:9913", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9913", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

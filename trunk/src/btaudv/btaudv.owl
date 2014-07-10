@@ -513,8 +513,10 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BtauDv:0000005</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Females appear to remain fertile for about 12 years (see http://genomics.senescence.info/species/entry.php?species=Bos_taurus).</rdfs:comment>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a cow who is over 1.5 and under 12 years old, the usual upper limit for breeding age.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breeding age</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cow_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -531,14 +533,14 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aged stage</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BtauDv_0000004"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BtauDv_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BtauDv_0000005"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BtauDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <btaudv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</btaudv:start_ypb>

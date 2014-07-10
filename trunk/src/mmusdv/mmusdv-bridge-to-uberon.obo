@@ -445,6 +445,11 @@ property_value: IAO:0000589 "9 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
+id: MmusDv:0000111
+property_value: IAO:0000589 "Theiler stage 11a (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
 id: MmusDv:0000010
 property_value: IAO:0000589 "Theiler stage 06 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse

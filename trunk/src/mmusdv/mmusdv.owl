@@ -3510,15 +3510,8 @@
     <!-- http://purl.obolibrary.org/obo/MmusDv_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MmusDv_0000092">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 11a</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postnatal stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
@@ -3528,27 +3521,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000017"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</mmusdv:start_wpb>
         <mmusdv:start_dpc rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mmusdv:start_dpc>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic neurula stage during which the neural plate formation occurs and the amniotic cavity is sealed off into three distinct cavities - the amniotic cavity, the exocoelom and the ectoplacental cleft.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmusDv:0000092</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse developmental stage that covers the period from birth until late adulthood.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TS11a</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000066</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_developmental_stage</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse developmental stage that covers the period from birth until late adulthood.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000092"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic neurula stage during which the neural plate formation occurs and the amniotic cavity is sealed off into three distinct cavities - the amniotic cavity, the exocoelom and the ectoplacental cleft.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000092"/>
     </owl:Axiom>
@@ -3569,7 +3554,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000092"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic neurula stage during which the neural plate formation occurs and the allantoic bud elongates .</obo:IAO_0000115>
@@ -3593,14 +3578,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000093"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic neurula stage during which the neural plate formation occurs and the head folds are formed while the neural groove becomes visible.</obo:IAO_0000115>
@@ -3709,14 +3694,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000074"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000074"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</mmusdv:start_wpb>
@@ -3742,14 +3727,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000098"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000098"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</mmusdv:start_wpb>
@@ -3808,14 +3793,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000100"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</mmusdv:start_wpb>
@@ -3841,14 +3826,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000101"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000101"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</mmusdv:start_wpb>
@@ -3958,14 +3943,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000105"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000015"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmusDv:0000106</oboInOwl:id>
@@ -3990,14 +3975,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000015"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000106"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmusDv:0000107</oboInOwl:id>
@@ -4048,14 +4033,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000108"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic age 8 dpc (day post coitum). Refers to human CarnegieStage09.</rdfs:comment>
@@ -4080,14 +4065,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000092"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000043"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mmusdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</mmusdv:start_mpb>
@@ -4103,6 +4088,31 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse developmental stage that refers to a sexually mature adult mouse which is over 6 weeks old.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000110"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MmusDv_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MmusDv_0000111">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 11a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic neurula stage during which the neural plate formation occurs and the amniotic cavity is sealed off into three distinct cavities - the amniotic cavity, the exocoelom and the ectoplacental cleft.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MmusDv:0000111</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TS11a</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_developmental_stage</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic neurula stage during which the neural plate formation occurs and the amniotic cavity is sealed off into three distinct cavities - the amniotic cavity, the exocoelom and the ectoplacental cleft.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000111"/>
     </owl:Axiom>
 </rdf:RDF>
 

@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv-bridge-to-uberon.owl>))) [Axioms: 799 Logical Axioms: 203]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>))) [Axioms: 2475 Logical Axioms: 559]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv-bridge-to-uberon.owl>))) [Axioms: 879 Logical Axioms: 223]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>))) [Axioms: 2694 Logical Axioms: 618]
 ontology: uberon/bridge/hsapdv/hsapdv-uberon.obo
 
 [Term]
@@ -2803,6 +2803,285 @@ relationship: immediately_preceded_by UBERON:0000107
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000005 ! Carnegie stage 02 (human)
 property_value: IAO:0000589 "morula stage (human)" xsd:string
+
+[Term]
+id: HsapDv:0000206
+name: 80-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 80 and under 81." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "81.0" xsd:float
+property_value: IAO:0000589 "80-year-old human stage (human)" xsd:string
+property_value: start_ypb "80.0" xsd:float
+
+[Term]
+id: HsapDv:0000207
+name: 81-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 81 and under 82." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000206 ! 80-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "82.0" xsd:float
+property_value: IAO:0000589 "81-year-old human stage (human)" xsd:string
+property_value: start_ypb "81.0" xsd:float
+
+[Term]
+id: HsapDv:0000208
+name: 82-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 82 and under 83." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000207 ! 81-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "83.0" xsd:float
+property_value: IAO:0000589 "82-year-old human stage (human)" xsd:string
+property_value: start_ypb "82.0" xsd:float
+
+[Term]
+id: HsapDv:0000209
+name: 83-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 83 and under 84." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000208 ! 82-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "84.0" xsd:float
+property_value: IAO:0000589 "83-year-old human stage (human)" xsd:string
+property_value: start_ypb "83.0" xsd:float
+
+[Term]
+id: HsapDv:0000210
+name: 84-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 84 and under 85." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000209 ! 83-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "85.0" xsd:float
+property_value: IAO:0000589 "84-year-old human stage (human)" xsd:string
+property_value: start_ypb "84.0" xsd:float
+
+[Term]
+id: HsapDv:0000211
+name: 85-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 85 and under 86." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000210 ! 84-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "86.0" xsd:float
+property_value: IAO:0000589 "85-year-old human stage (human)" xsd:string
+property_value: start_ypb "85.0" xsd:float
+
+[Term]
+id: HsapDv:0000212
+name: 86-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 86 and under 87." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000211 ! 85-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "87.0" xsd:float
+property_value: IAO:0000589 "86-year-old human stage (human)" xsd:string
+property_value: start_ypb "86.0" xsd:float
+
+[Term]
+id: HsapDv:0000213
+name: 87-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 87 and under 88." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000212 ! 86-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "88.0" xsd:float
+property_value: IAO:0000589 "87-year-old human stage (human)" xsd:string
+property_value: start_ypb "87.0" xsd:float
+
+[Term]
+id: HsapDv:0000214
+name: 88-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 88 and under 89." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000213 ! 87-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "89.0" xsd:float
+property_value: IAO:0000589 "88-year-old human stage (human)" xsd:string
+property_value: start_ypb "88.0" xsd:float
+
+[Term]
+id: HsapDv:0000215
+name: 89-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 89 and under 90." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000214 ! 88-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "90.0" xsd:float
+property_value: IAO:0000589 "89-year-old human stage (human)" xsd:string
+property_value: start_ypb "89.0" xsd:float
+
+[Term]
+id: HsapDv:0000216
+name: 90-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 90 and under 91." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000215 ! 89-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "91.0" xsd:float
+property_value: IAO:0000589 "90-year-old human stage (human)" xsd:string
+property_value: start_ypb "90.0" xsd:float
+
+[Term]
+id: HsapDv:0000217
+name: 91-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 91 and under 92." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000216 ! 90-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "92.0" xsd:float
+property_value: IAO:0000589 "91-year-old human stage (human)" xsd:string
+property_value: start_ypb "91.0" xsd:float
+
+[Term]
+id: HsapDv:0000218
+name: 92-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 92 and under 93." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000217 ! 91-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "93.0" xsd:float
+property_value: IAO:0000589 "92-year-old human stage (human)" xsd:string
+property_value: start_ypb "92.0" xsd:float
+
+[Term]
+id: HsapDv:0000219
+name: 93-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 93 and under 94." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000218 ! 92-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "94.0" xsd:float
+property_value: IAO:0000589 "93-year-old human stage (human)" xsd:string
+property_value: start_ypb "93.0" xsd:float
+
+[Term]
+id: HsapDv:0000220
+name: 94-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 94 and under 95." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000219 ! 93-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "95.0" xsd:float
+property_value: IAO:0000589 "94-year-old human stage (human)" xsd:string
+property_value: start_ypb "94.0" xsd:float
+
+[Term]
+id: HsapDv:0000221
+name: 95-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 95 and under 96." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000220 ! 94-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "96.0" xsd:float
+property_value: IAO:0000589 "95-year-old human stage (human)" xsd:string
+property_value: start_ypb "95.0" xsd:float
+
+[Term]
+id: HsapDv:0000222
+name: 96-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 96 and under 97." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000221 ! 95-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "97.0" xsd:float
+property_value: IAO:0000589 "96-year-old human stage (human)" xsd:string
+property_value: start_ypb "96.0" xsd:float
+
+[Term]
+id: HsapDv:0000223
+name: 97-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 97 and under 98." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000222 ! 96-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "98.0" xsd:float
+property_value: IAO:0000589 "97-year-old human stage (human)" xsd:string
+property_value: start_ypb "97.0" xsd:float
+
+[Term]
+id: HsapDv:0000224
+name: 98-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 98 and under 99." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000223 ! 97-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "99.0" xsd:float
+property_value: IAO:0000589 "98-year-old human stage (human)" xsd:string
+property_value: start_ypb "98.0" xsd:float
+
+[Term]
+id: HsapDv:0000225
+name: 99-year-old human stage (human)
+namespace: human_developmental_stage
+def: "Aged stage that refers to an adult who is over 99 and under 100." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000224 ! 98-year-old human stage (human)
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage (human)
+property_value: end_ypb "100.0" xsd:float
+property_value: IAO:0000589 "99-year-old human stage (human)" xsd:string
+property_value: start_ypb "99.0" xsd:float
 
 [Term]
 id: UBERON:0000068

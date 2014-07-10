@@ -898,7 +898,9 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a bonobo who is over 8 and under 30 years old, the limit before geriatric age in the literature.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpanDv:0000017</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage actually starts at about 8.5 years, the age of sexual maturity. See 8-year-old immature stage and 8-year-old mature stage. Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonobo_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -1076,14 +1078,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</ppandv:start_ypb>
@@ -1175,14 +1177,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</ppandv:start_ypb>
@@ -1307,14 +1309,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000029"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</ppandv:start_ypb>
@@ -1472,14 +1474,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000034"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</ppandv:start_ypb>
@@ -1637,14 +1639,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000016"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpanDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ppandv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppandv:start_ypb>

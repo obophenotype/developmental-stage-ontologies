@@ -63,6 +63,8 @@ intersection_of: part_of NCBITaxon:9544
 id: MmulDv:0000022
 property_value: IAO:0000589 "adulthood stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9544
 
 [Term]
 id: MmulDv:0000029

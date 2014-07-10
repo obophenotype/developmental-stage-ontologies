@@ -1042,16 +1042,16 @@
         <hsapdv:has_stage_marker rdf:resource="http://purl.obolibrary.org/obo/GO_0001843"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organogenesis stage during which somites 4-12 appear, and the neural fold fuses.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://embryology.med.unsw.edu.au/embryology/index.php?title=Carnegie_stage_table</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000017"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS10</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:CS10</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000017"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organogenesis stage during which somites 4-12 appear, and the neural fold fuses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://embryology.med.unsw.edu.au/embryology/index.php?title=Carnegie_stage_table</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
     
 
@@ -7102,6 +7102,660 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morula stage is the later part of Carnegie stage 02 when the cells have coalesced into a mass but the blastocystic cavity has not formed. Formation of the cavity marks the beginning of Carnegie stage 03.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000205"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000206">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">81.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 80 and under 81.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000206</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 80 and under 81.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000206"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">81.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 81 and under 82.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000207</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 81 and under 82.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000207"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">82-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">83.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 82 and under 83.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000208</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 82 and under 83.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000208"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000209">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">83.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">84.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 83 and under 84.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000209</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 83 and under 84.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000209"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">84.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">85.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 84 and under 85.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000210</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 84 and under 85.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000210"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000211">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000210"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">85.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">86.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 85 and under 86.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000211</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 85 and under 86.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000211"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000212">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">86.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">87.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 86 and under 87.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000212</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 86 and under 87.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000212"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000213">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">87-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000212"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">87.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">88.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 87 and under 88.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000213</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 87 and under 88.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000213"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000214">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">88.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">89.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 88 and under 89.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000214</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 88 and under 89.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000214"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000215">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">89.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">90.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 89 and under 90.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000215</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 89 and under 90.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000216">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000215"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">90.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">91.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 90 and under 91.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000216</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 90 and under 91.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000217">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000216"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">91.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 91 and under 92.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000217</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 91 and under 92.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000217"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000218">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000217"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">93.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 92 and under 93.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000218</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 92 and under 93.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000219">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000218"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">93.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">94.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 93 and under 94.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000219</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 93 and under 94.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000220">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000219"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">94.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">95.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 94 and under 95.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000220</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 94 and under 95.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000220"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000220"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">95.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">96.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 95 and under 96.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000221</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 95 and under 96.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000221"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000222">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">96.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">97.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 96 and under 97.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000222</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 96 and under 97.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000222"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000223">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">97-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000222"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">97.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">98.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 97 and under 98.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000223</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 97 and under 98.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000223"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000224">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000223"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">98.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">99.0</hsapdv:end_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 98 and under 99.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000224</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 98 and under 99.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000224"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000225">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99-year-old human stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000224"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.0</hsapdv:end_ypb>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">99.0</hsapdv:start_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 99 and under 100.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000225</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to an adult who is over 99 and under 100.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000225"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
 </rdf:RDF>

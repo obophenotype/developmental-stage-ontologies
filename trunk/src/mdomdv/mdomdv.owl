@@ -406,14 +406,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000001"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000002"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</mdomdv:start_mpb>
@@ -538,7 +538,9 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a adult opossum which is over 4 months and under 21 months old.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000007</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The life span of opossums is very short. The average female probably lives through one breeding season (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html). In the wild, two years is the standard lifespan (http://animaldiversity.ummz.umich.edu/accounts/Monodelphis_domestica/). We decided to consider 21 months as the upper limit for breeding age, before aged stage.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
@@ -583,14 +585,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000008"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</mdomdv:start_mpb>
@@ -748,14 +750,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000013"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</mdomdv:start_mpb>
@@ -814,14 +816,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000015"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</mdomdv:start_mpb>
@@ -880,14 +882,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</mdomdv:start_mpb>
@@ -946,14 +948,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</mdomdv:start_mpb>
@@ -1012,14 +1014,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000021"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</mdomdv:start_mpb>
@@ -1045,14 +1047,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mdomdv:start_mpb>
@@ -1164,14 +1166,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000016"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</mdomdv:start_mpb>
@@ -1197,14 +1199,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000017"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</mdomdv:start_mpb>
@@ -1263,14 +1265,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</mdomdv:start_mpb>
@@ -1296,14 +1298,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000020"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</mdomdv:start_mpb>
