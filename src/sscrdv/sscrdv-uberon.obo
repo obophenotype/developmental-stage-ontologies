@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/sscrdv-bridge-to-uberon.owl>))) [Axioms: 55 Logical Axioms: 14]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/SscrDv.owl>))) [Axioms: 223 Logical Axioms: 22]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/sscrdv-bridge-to-uberon.owl>))) [Axioms: 56 Logical Axioms: 15]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/SscrDv.owl>))) [Axioms: 225 Logical Axioms: 22]
 ontology: uberon/bridge/sscrdv/sscrdv-uberon.obo
 
 [Term]
@@ -34,26 +34,13 @@ property_value: IAO:0000589 "juvenile stage (pig)" xsd:string
 property_value: start_mpb "1.85" xsd:float
 
 [Term]
-id: SscrDv:0000007
-name: adulthood stage (pig)
-namespace: pig_developmental_stage
-def: "Mature stage that refers to a pig who is over 11 months old and under 8 years old, the limit before geriatric age in the literature." [Bgee:curator]
-comment: Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9823
-relationship: part_of UBERON:0000113
-property_value: end_ypb "8.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (pig)" xsd:string
-property_value: start_ypb "0.9" xsd:float
-
-[Term]
 id: SscrDv:0000008
 name: aged stage (pig)
 namespace: pig_developmental_stage
 def: "Mature stage that refers to a pig who is over 8 years old." [Bgee:curator]
 comment: Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).
 is_a: UBERON:0000105
-relationship: immediately_preceded_by SscrDv:0000007 ! adulthood stage (pig)
+relationship: immediately_preceded_by UBERON:0018241
 relationship: only_in_taxon NCBITaxon:9823
 relationship: part_of UBERON:0000113
 property_value: IAO:0000589 "aged stage (pig)" xsd:string
@@ -87,6 +74,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9823", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9823", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9823 {gci_filler="NCBITaxon:9823", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9823", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9823", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9823 {gci_filler="NCBITaxon:9823", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9823", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

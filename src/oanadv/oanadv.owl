@@ -488,7 +488,9 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Females are thought likely to become sexually mature in their second year, with breeding confirmed still to take place in animals over 9 years old. (see http://en.wikipedia.org/wiki/Platypus). We decided to consider 10 years the upper limit for breeding age, before aged stage.</rdfs:comment>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a adult platypus which is over 1.5 and under 10 years old, the usual upper limit for breeding age.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OanaDv:0000005</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platypus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>

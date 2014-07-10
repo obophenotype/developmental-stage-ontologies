@@ -160,6 +160,16 @@ property_value: IAO:0000589 "31st week post-fertilization human stage (human)" x
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000223
+property_value: IAO:0000589 "97-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000209
+property_value: IAO:0000589 "83-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000154
 property_value: IAO:0000589 "60-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
@@ -229,6 +239,11 @@ relationship: only_in_taxon NCBITaxon:9606 ! human
 [Term]
 id: HsapDv:0000003
 property_value: IAO:0000589 "Carnegie stage 01 (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000224
+property_value: IAO:0000589 "98-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -314,6 +329,11 @@ property_value: IAO:0000589 "35th week post-fertilization human stage (human)" x
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000212
+property_value: IAO:0000589 "86-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000172
 property_value: IAO:0000589 "78-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
@@ -364,6 +384,11 @@ property_value: IAO:0000589 "9th week post-fertilization human stage (human)" xs
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000225
+property_value: IAO:0000589 "99-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000062
 property_value: IAO:0000589 "25th week post-fertilization human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
@@ -376,6 +401,11 @@ relationship: only_in_taxon NCBITaxon:9606 ! human
 [Term]
 id: HsapDv:0000107
 property_value: IAO:0000589 "13-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000206
+property_value: IAO:0000589 "80-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -403,6 +433,11 @@ relationship: only_in_taxon NCBITaxon:9606 ! human
 [Term]
 id: HsapDv:0000112
 property_value: IAO:0000589 "18-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000217
+property_value: IAO:0000589 "91-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -438,6 +473,11 @@ relationship: only_in_taxon NCBITaxon:9606 ! human
 [Term]
 id: HsapDv:0000181
 property_value: IAO:0000589 "8-month-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000215
+property_value: IAO:0000589 "89-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -481,8 +521,23 @@ property_value: IAO:0000589 "seventh LMP month human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000221
+property_value: IAO:0000589 "95-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000219
+property_value: IAO:0000589 "93-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000163
 property_value: IAO:0000589 "69-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000214
+property_value: IAO:0000589 "88-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -508,6 +563,11 @@ relationship: only_in_taxon NCBITaxon:9606 ! human
 [Term]
 id: HsapDv:0000102
 property_value: IAO:0000589 "8-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000210
+property_value: IAO:0000589 "84-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -562,6 +622,11 @@ intersection_of: part_of NCBITaxon:9606
 [Term]
 id: HsapDv:0000195
 property_value: IAO:0000589 "22-month-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000222
+property_value: IAO:0000589 "96-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -712,6 +777,11 @@ property_value: IAO:0000589 "32nd week post-fertilization human stage (human)" x
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000208
+property_value: IAO:0000589 "82-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000027
 property_value: IAO:0000589 "Carnegie stage 20 (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
@@ -842,6 +912,11 @@ property_value: IAO:0000589 "blastula stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000211
+property_value: IAO:0000589 "85-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000202
 property_value: IAO:0000589 "eighth LMP month human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
@@ -862,6 +937,16 @@ property_value: IAO:0000589 "12-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000220
+property_value: IAO:0000589 "94-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000216
+property_value: IAO:0000589 "90-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000128
 property_value: IAO:0000589 "34-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
@@ -877,6 +962,11 @@ property_value: IAO:0000589 "4-month-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
+id: HsapDv:0000207
+property_value: IAO:0000589 "81-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
 id: HsapDv:0000141
 property_value: IAO:0000589 "47-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
@@ -889,6 +979,11 @@ relationship: only_in_taxon NCBITaxon:9606 ! human
 [Term]
 id: HsapDv:0000064
 property_value: IAO:0000589 "27th week post-fertilization human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000213
+property_value: IAO:0000589 "87-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Term]
@@ -984,6 +1079,11 @@ relationship: only_in_taxon NCBITaxon:9606 ! human
 [Term]
 id: HsapDv:0000103
 property_value: IAO:0000589 "9-year-old human stage (human)" xsd:string
+relationship: only_in_taxon NCBITaxon:9606 ! human
+
+[Term]
+id: HsapDv:0000218
+property_value: IAO:0000589 "92-year-old human stage (human)" xsd:string
 relationship: only_in_taxon NCBITaxon:9606 ! human
 
 [Typedef]

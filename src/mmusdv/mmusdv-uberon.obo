@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv-bridge-to-uberon.owl>))) [Axioms: 464 Logical Axioms: 120]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv.owl>))) [Axioms: 1423 Logical Axioms: 292]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv-bridge-to-uberon.owl>))) [Axioms: 468 Logical Axioms: 121]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv.owl>))) [Axioms: 1427 Logical Axioms: 293]
 ontology: uberon/bridge/mmusdv/mmusdv-uberon.obo
 
 [Term]
@@ -1275,7 +1275,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic neurula stage during which the neural plate formation occurs and the allantoic bud elongates ." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11]
 synonym: "TS11b" EXACT []
 is_a: UBERON:0000105
-relationship: immediately_preceded_by UBERON:0000066
+relationship: immediately_preceded_by MmusDv:0000111 ! Theiler stage 11a (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of MmusDv:0000017 ! Theiler stage 11 (mouse)
 property_value: IAO:0000589 "Theiler stage 11b (mouse)" xsd:string
@@ -1489,11 +1489,21 @@ relationship: part_of MmusDv:0000019 ! Theiler stage 12 (mouse)
 property_value: IAO:0000589 "Theiler stage 12b (mouse)" xsd:string
 
 [Term]
+id: MmusDv:0000111
+name: Theiler stage 11a (mouse)
+namespace: mouse_developmental_stage
+def: "Embryonic neurula stage during which the neural plate formation occurs and the amniotic cavity is sealed off into three distinct cavities - the amniotic cavity, the exocoelom and the ectoplacental cleft." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_11]
+synonym: "TS11a" EXACT []
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:10090
+relationship: part_of MmusDv:0000017 ! Theiler stage 11 (mouse)
+property_value: IAO:0000589 "Theiler stage 11a (mouse)" xsd:string
+
+[Term]
 id: UBERON:0000066
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of MmusDv:0000017 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! Theiler stage 11 (mouse)
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
 
 [Term]

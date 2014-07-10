@@ -1,21 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oanadv-bridge-to-uberon.owl>))) [Axioms: 47 Logical Axioms: 12]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oanadv.owl>))) [Axioms: 183 Logical Axioms: 17]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oanadv-bridge-to-uberon.owl>))) [Axioms: 48 Logical Axioms: 13]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oanadv.owl>))) [Axioms: 185 Logical Axioms: 17]
 ontology: uberon/bridge/oanadv/oanadv-uberon.obo
-
-[Term]
-id: OanaDv:0000005
-name: adulthood stage (platypus)
-namespace: platypus_developmental_stage
-def: "Mature stage that refers to a adult platypus which is over 1.5 and under 10 years old, the usual upper limit for breeding age." [Bgee:curator]
-comment: Females are thought likely to become sexually mature in their second year, with breeding confirmed still to take place in animals over 9 years old. (see http://en.wikipedia.org/wiki/Platypus). We decided to consider 10 years the upper limit for breeding age, before aged stage.
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9258
-relationship: part_of UBERON:0000113
-property_value: end_mph "120.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (platypus)" xsd:string
-property_value: start_mph "18.3" xsd:float
 
 [Term]
 id: OanaDv:0000006
@@ -24,7 +11,7 @@ namespace: platypus_developmental_stage
 def: "Mature stage that refers to a adult platypus which is over 10 years." [Bgee:curator]
 comment: There is little information on the longevity of platypuses. They can live up to 12 years in the wild (see http://www.mspca.org/programs/wildlife-resources/species-information/about-platypuss.html) and one captive specimen was at least 22.6 years old when it died (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus). Over 10 years old is usually no more a breeding age.
 is_a: UBERON:0000105
-relationship: immediately_preceded_by OanaDv:0000005 ! adulthood stage (platypus)
+relationship: immediately_preceded_by UBERON:0018241
 relationship: only_in_taxon NCBITaxon:9258
 relationship: part_of UBERON:0000113
 property_value: IAO:0000589 "aged stage (platypus)" xsd:string
@@ -58,6 +45,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9258", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9258", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9258 {gci_filler="NCBITaxon:9258", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9258", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9258", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9258 {gci_filler="NCBITaxon:9258", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9258", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

@@ -1,22 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/acardv-bridge-to-uberon.owl>))) [Axioms: 47 Logical Axioms: 12]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/acardv.owl>))) [Axioms: 168 Logical Axioms: 17]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/acardv-bridge-to-uberon.owl>))) [Axioms: 48 Logical Axioms: 13]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/acardv.owl>))) [Axioms: 169 Logical Axioms: 17]
 ontology: uberon/bridge/acardv/acardv-uberon.obo
-
-[Term]
-id: AcarDv:0000005
-name: adulthood stage (anolis)
-namespace: lizard_developmental_stage
-def: "Lizard developmental stage that refers to a lizard who is over 8 and under 24 months old." [Bgee:curator]
-comment: Green anoles have a lifespan ranging from 2 to 8 years, determined largely by predation. Lifespan in captivity is similar to that in the wild, approximately 4 to 6 years (see http://animaldiversity.ummz.umich.edu/accounts/Anolis_carolinensis/). We arbitraly consider 2 years as the upper limit for the adult stage, before aged stage. This is to improve as far as information is available.
-synonym: "prime adult stage" EXACT []
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:28377
-relationship: part_of UBERON:0000113
-property_value: end_mph "24.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (anolis)" xsd:string
-property_value: start_mph "8.0" xsd:float
 
 [Term]
 id: AcarDv:0000006
@@ -25,7 +11,7 @@ namespace: lizard_developmental_stage
 def: "Lizard developmental stage that refers to a lizard who is over 24 months old." [Bgee:curator]
 comment: Green anoles can live up to seven years in captivity (see http://genomics.senescence.info/species/entry.php?species=Anolis_carolinensis). We arbitraly consider over 2 years as the starting point for aged stage. This is to improve as far as information is available.
 is_a: UBERON:0000105
-relationship: immediately_preceded_by AcarDv:0000005 ! adulthood stage (anolis)
+relationship: immediately_preceded_by UBERON:0018241
 relationship: only_in_taxon NCBITaxon:28377
 relationship: part_of UBERON:0000113
 property_value: IAO:0000589 "aged stage (anolis)" xsd:string
@@ -59,6 +45,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:28377", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:28377", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:28377 {gci_filler="NCBITaxon:28377", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:28377", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:28377", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:28377 {gci_filler="NCBITaxon:28377", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:28377", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

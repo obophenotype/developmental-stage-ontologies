@@ -16,6 +16,8 @@ intersection_of: part_of NCBITaxon:9913
 id: BtauDv:0000005
 property_value: IAO:0000589 "adulthood stage (cow)" xsd:string
 relationship: only_in_taxon NCBITaxon:9913 ! cow
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9913
 
 [Term]
 id: BtauDv:0000006

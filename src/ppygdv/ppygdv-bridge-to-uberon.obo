@@ -297,6 +297,8 @@ relationship: only_in_taxon NCBITaxon:9600 ! orangutan
 id: PpygDv:0000007
 property_value: IAO:0000589 "adulthood stage (orangutan)" xsd:string
 relationship: only_in_taxon NCBITaxon:9600 ! orangutan
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9600
 
 [Term]
 id: PpygDv:0000037

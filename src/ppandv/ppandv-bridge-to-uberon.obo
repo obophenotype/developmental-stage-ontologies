@@ -7,6 +7,8 @@ relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 id: PpanDv:0000017
 property_value: IAO:0000589 "adulthood stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9597
 
 [Term]
 id: PpanDv:0000005

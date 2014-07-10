@@ -448,6 +448,7 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AcarDv:0000005</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green anoles have a lifespan ranging from 2 to 8 years, determined largely by predation. Lifespan in captivity is similar to that in the wild, approximately 4 to 6 years (see http://animaldiversity.ummz.umich.edu/accounts/Anolis_carolinensis/). We arbitraly consider 2 years as the upper limit for the adult stage, before aged stage. This is to improve as far as information is available.</rdfs:comment>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lizard developmental stage that refers to a lizard who is over 8 and under 24 months old.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lizard_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</oboInOwl:hasExactSynonym>
     </owl:Class>

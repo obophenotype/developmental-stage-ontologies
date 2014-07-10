@@ -200,6 +200,8 @@ relationship: only_in_taxon NCBITaxon:9598 ! chimpanzee
 id: PtroDv:0000012
 property_value: IAO:0000589 "adulthood stage (chimpanzee)" xsd:string
 relationship: only_in_taxon NCBITaxon:9598 ! chimpanzee
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9598
 
 [Term]
 id: PtroDv:0000029

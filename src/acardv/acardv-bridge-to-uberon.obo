@@ -9,6 +9,8 @@ intersection_of: part_of NCBITaxon:28377
 id: AcarDv:0000005
 property_value: IAO:0000589 "adulthood stage (anolis)" xsd:string
 relationship: only_in_taxon NCBITaxon:28377 ! anolis
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:28377
 
 [Term]
 id: AcarDv:0000000

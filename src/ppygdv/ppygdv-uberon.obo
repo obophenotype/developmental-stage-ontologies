@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppygdv-bridge-to-uberon.owl>))) [Axioms: 259 Logical Axioms: 65]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppygdv.owl>))) [Axioms: 781 Logical Axioms: 172]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppygdv-bridge-to-uberon.owl>))) [Axioms: 260 Logical Axioms: 66]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppygdv.owl>))) [Axioms: 783 Logical Axioms: 172]
 ontology: uberon/bridge/ppygdv/ppygdv-uberon.obo
 
 [Term]
@@ -34,19 +34,6 @@ property_value: IAO:0000589 "juvenile stage (orangutan)" xsd:string
 property_value: start_ypb "2.75" xsd:float
 
 [Term]
-id: PpygDv:0000007
-name: adulthood stage (orangutan)
-namespace: orangutan_developmental_stage
-def: "Mature stage that refers to a orangutan who is over 7 and under 35 years old, the limit before geriatric age in the literature." [Bgee:curator]
-comment: Orangutans are considered geriatric age of about 35 (see http://www.zooatlanta.org/home/article_content/founders_friends).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of UBERON:0000113
-property_value: end_ypb "35.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (orangutan)" xsd:string
-property_value: start_ypb "7.0" xsd:float
-
-[Term]
 id: PpygDv:0000008
 name: 7-year-old stage (orangutan)
 namespace: orangutan_developmental_stage
@@ -54,7 +41,7 @@ def: "Adulthood stage that refers to a orangutan who is over 7 and under 8 years
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "8.0" xsd:float
 property_value: IAO:0000589 "7-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "7.0" xsd:float
@@ -68,7 +55,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000008 ! 7-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "9.0" xsd:float
 property_value: IAO:0000589 "8-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "8.0" xsd:float
@@ -82,7 +69,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000009 ! 8-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "10.0" xsd:float
 property_value: IAO:0000589 "9-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "9.0" xsd:float
@@ -96,7 +83,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000010 ! 9-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "11.0" xsd:float
 property_value: IAO:0000589 "10-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "10.0" xsd:float
@@ -110,7 +97,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000011 ! 10-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "12.0" xsd:float
 property_value: IAO:0000589 "11-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "11.0" xsd:float
@@ -124,7 +111,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000012 ! 11-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "13.0" xsd:float
 property_value: IAO:0000589 "12-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "12.0" xsd:float
@@ -138,7 +125,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000013 ! 12-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "14.0" xsd:float
 property_value: IAO:0000589 "13-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "13.0" xsd:float
@@ -152,7 +139,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000014 ! 13-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "15.0" xsd:float
 property_value: IAO:0000589 "14-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "14.0" xsd:float
@@ -166,7 +153,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000015 ! 14-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "16.0" xsd:float
 property_value: IAO:0000589 "15-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "15.0" xsd:float
@@ -180,7 +167,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000016 ! 15-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "17.0" xsd:float
 property_value: IAO:0000589 "16-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "16.0" xsd:float
@@ -194,7 +181,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000017 ! 16-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "18.0" xsd:float
 property_value: IAO:0000589 "17-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "17.0" xsd:float
@@ -208,7 +195,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000018 ! 17-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "19.0" xsd:float
 property_value: IAO:0000589 "18-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "18.0" xsd:float
@@ -222,7 +209,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000019 ! 18-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "20.0" xsd:float
 property_value: IAO:0000589 "19-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "19.0" xsd:float
@@ -236,7 +223,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000020 ! 19-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "21.0" xsd:float
 property_value: IAO:0000589 "20-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "20.0" xsd:float
@@ -250,7 +237,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000021 ! 20-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "22.0" xsd:float
 property_value: IAO:0000589 "21-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "21.0" xsd:float
@@ -264,7 +251,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000022 ! 21-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "23.0" xsd:float
 property_value: IAO:0000589 "22-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "22.0" xsd:float
@@ -278,7 +265,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000023 ! 22-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "24.0" xsd:float
 property_value: IAO:0000589 "23-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "23.0" xsd:float
@@ -292,7 +279,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000024 ! 23-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "25.0" xsd:float
 property_value: IAO:0000589 "24-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "24.0" xsd:float
@@ -306,7 +293,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000025 ! 24-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "26.0" xsd:float
 property_value: IAO:0000589 "25-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "25.0" xsd:float
@@ -320,7 +307,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000026 ! 25-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "27.0" xsd:float
 property_value: IAO:0000589 "26-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "26.0" xsd:float
@@ -334,7 +321,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000027 ! 26-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "28.0" xsd:float
 property_value: IAO:0000589 "27-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "27.0" xsd:float
@@ -348,7 +335,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000028 ! 27-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "29.0" xsd:float
 property_value: IAO:0000589 "28-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "28.0" xsd:float
@@ -362,7 +349,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000029 ! 28-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "30.0" xsd:float
 property_value: IAO:0000589 "29-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "29.0" xsd:float
@@ -376,7 +363,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000030 ! 29-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "31.0" xsd:float
 property_value: IAO:0000589 "30-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "30.0" xsd:float
@@ -390,7 +377,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000031 ! 30-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "32.0" xsd:float
 property_value: IAO:0000589 "31-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "31.0" xsd:float
@@ -404,7 +391,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000032 ! 31-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "33.0" xsd:float
 property_value: IAO:0000589 "32-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "32.0" xsd:float
@@ -418,7 +405,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000033 ! 32-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "34.0" xsd:float
 property_value: IAO:0000589 "33-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "33.0" xsd:float
@@ -432,7 +419,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpygDv:0000034 ! 33-year-old stage (orangutan)
 relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of PpygDv:0000007 ! adulthood stage (orangutan)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "35.0" xsd:float
 property_value: IAO:0000589 "34-year-old stage (orangutan)" xsd:string
 property_value: start_ypb "34.0" xsd:float
@@ -796,6 +783,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

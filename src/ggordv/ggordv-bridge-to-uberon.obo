@@ -167,6 +167,8 @@ relationship: only_in_taxon NCBITaxon:9593 ! gorilla
 id: GgorDv:0000007
 property_value: IAO:0000589 "adulthood stage (gorilla)" xsd:string
 relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9593
 
 [Typedef]
 id: part_of

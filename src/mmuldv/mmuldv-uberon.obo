@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv-bridge-to-uberon.owl>))) [Axioms: 227 Logical Axioms: 57]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv.owl>))) [Axioms: 695 Logical Axioms: 147]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv-bridge-to-uberon.owl>))) [Axioms: 228 Logical Axioms: 58]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv.owl>))) [Axioms: 696 Logical Axioms: 147]
 ontology: uberon/bridge/mmuldv/mmuldv-uberon.obo
 
 [Term]
@@ -233,20 +233,6 @@ property_value: IAO:0000589 "3-year-old immature stage (macaque)" xsd:string
 property_value: start_ypb "3.0" xsd:float
 
 [Term]
-id: MmulDv:0000022
-name: adulthood stage (macaque)
-namespace: rhesus_macaque_developmental_stage
-def: "Mature stage that refers to a rhesus who is over 3 and under 25 years old, the usual upper limit for breeding age." [Bgee:curator]
-comment: This stage actually starts at about 3.5 years, the age of sexual maturity. See 3-year-old immature stage and 3-year-old mature stage. The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the upper limit for adulthood stage, before geriatric age.
-synonym: "breeding age" RELATED []
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of UBERON:0000113
-property_value: end_ypb "25.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (macaque)" xsd:string
-property_value: start_ypb "3.5" xsd:float
-
-[Term]
 id: MmulDv:0000023
 name: 3-year-old mature stage (macaque)
 namespace: rhesus_macaque_developmental_stage
@@ -255,7 +241,7 @@ comment: Rhesus reach sexual maturity at about 3.5 years, so we consider a 3-yea
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "4.0" xsd:float
 property_value: IAO:0000589 "3-year-old mature stage (macaque)" xsd:string
 property_value: start_ypb "3.5" xsd:float
@@ -269,7 +255,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000023 ! 3-year-old mature stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "5.0" xsd:float
 property_value: IAO:0000589 "4-year-old stage (macaque)" xsd:string
 property_value: start_ypb "4.0" xsd:float
@@ -283,7 +269,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000024 ! 4-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "6.0" xsd:float
 property_value: IAO:0000589 "5-year-old stage (macaque)" xsd:string
 property_value: start_ypb "5.0" xsd:float
@@ -297,7 +283,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000025 ! 5-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "7.0" xsd:float
 property_value: IAO:0000589 "6-year-old stage (macaque)" xsd:string
 property_value: start_ypb "6.0" xsd:float
@@ -311,7 +297,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000026 ! 6-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "8.0" xsd:float
 property_value: IAO:0000589 "7-year-old stage (macaque)" xsd:string
 property_value: start_ypb "7.0" xsd:float
@@ -325,7 +311,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000027 ! 7-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "9.0" xsd:float
 property_value: IAO:0000589 "8-year-old stage (macaque)" xsd:string
 property_value: start_ypb "8.0" xsd:float
@@ -339,7 +325,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000028 ! 8-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "10.0" xsd:float
 property_value: IAO:0000589 "9-year-old stage (macaque)" xsd:string
 property_value: start_ypb "9.0" xsd:float
@@ -353,7 +339,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000029 ! 9-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "11.0" xsd:float
 property_value: IAO:0000589 "10-year-old stage (macaque)" xsd:string
 property_value: start_ypb "10.0" xsd:float
@@ -367,7 +353,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000030 ! 10-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "12.0" xsd:float
 property_value: IAO:0000589 "11-year-old stage (macaque)" xsd:string
 property_value: start_ypb "11.0" xsd:float
@@ -381,7 +367,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000031 ! 11-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "13.0" xsd:float
 property_value: IAO:0000589 "12-year-old stage (macaque)" xsd:string
 property_value: start_ypb "12.0" xsd:float
@@ -395,7 +381,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000032 ! 12-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "14.0" xsd:float
 property_value: IAO:0000589 "13-year-old stage (macaque)" xsd:string
 property_value: start_ypb "13.0" xsd:float
@@ -409,7 +395,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000033 ! 13-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "15.0" xsd:float
 property_value: IAO:0000589 "14-year-old stage (macaque)" xsd:string
 property_value: start_ypb "14.0" xsd:float
@@ -423,7 +409,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000034 ! 14-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "16.0" xsd:float
 property_value: IAO:0000589 "15-year-old stage (macaque)" xsd:string
 property_value: start_ypb "15.0" xsd:float
@@ -437,7 +423,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000035 ! 15-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "17.0" xsd:float
 property_value: IAO:0000589 "16-year-old stage (macaque)" xsd:string
 property_value: start_ypb "16.0" xsd:float
@@ -451,7 +437,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000036 ! 16-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "18.0" xsd:float
 property_value: IAO:0000589 "17-year-old stage (macaque)" xsd:string
 property_value: start_ypb "17.0" xsd:float
@@ -465,7 +451,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000037 ! 17-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "19.0" xsd:float
 property_value: IAO:0000589 "18-year-old stage (macaque)" xsd:string
 property_value: start_ypb "18.0" xsd:float
@@ -479,7 +465,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000038 ! 18-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "20.0" xsd:float
 property_value: IAO:0000589 "19-year-old stage (macaque)" xsd:string
 property_value: start_ypb "19.0" xsd:float
@@ -493,7 +479,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000039 ! 19-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "21.0" xsd:float
 property_value: IAO:0000589 "20-year-old stage (macaque)" xsd:string
 property_value: start_ypb "20.0" xsd:float
@@ -507,7 +493,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000040 ! 20-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "22.0" xsd:float
 property_value: IAO:0000589 "21-year-old stage (macaque)" xsd:string
 property_value: start_ypb "21.0" xsd:float
@@ -521,7 +507,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000041 ! 21-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "23.0" xsd:float
 property_value: IAO:0000589 "22-year-old stage (macaque)" xsd:string
 property_value: start_ypb "22.0" xsd:float
@@ -535,7 +521,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000042 ! 22-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "24.0" xsd:float
 property_value: IAO:0000589 "23-year-old stage (macaque)" xsd:string
 property_value: start_ypb "23.0" xsd:float
@@ -549,7 +535,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000043 ! 23-year-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000022 ! adulthood stage (macaque)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "25.0" xsd:float
 property_value: IAO:0000589 "24-year-old stage (macaque)" xsd:string
 property_value: start_ypb "24.0" xsd:float
@@ -676,6 +662,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9544 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9544 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

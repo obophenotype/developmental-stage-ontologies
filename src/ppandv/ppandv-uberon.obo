@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv-bridge-to-uberon.owl>))) [Axioms: 183 Logical Axioms: 46]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv.owl>))) [Axioms: 580 Logical Axioms: 115]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv-bridge-to-uberon.owl>))) [Axioms: 184 Logical Axioms: 47]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv.owl>))) [Axioms: 582 Logical Axioms: 115]
 ontology: uberon/bridge/ppandv/ppandv-uberon.obo
 
 [Term]
@@ -177,19 +177,6 @@ property_value: IAO:0000589 "8-year-old immature stage (bonobo)" xsd:string
 property_value: start_ypb "8.0" xsd:float
 
 [Term]
-id: PpanDv:0000017
-name: adulthood stage (bonobo)
-namespace: bonobo_developmental_stage
-def: "Mature stage that refers to a bonobo who is over 8 and under 30 years old, the limit before geriatric age in the literature." [Bgee:curator]
-comment: This stage actually starts at about 8.5 years, the age of sexual maturity. See 8-year-old immature stage and 8-year-old mature stage. Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of UBERON:0000113
-property_value: end_ypb "30.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (bonobo)" xsd:string
-property_value: start_ypb "8.75" xsd:float
-
-[Term]
 id: PpanDv:0000018
 name: 8-year-old mature stage (bonobo)
 namespace: bonobo_developmental_stage
@@ -198,7 +185,7 @@ comment: Bonobo reach sexual maturity at about 8.5 years, so we consider a 8-yea
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "9.0" xsd:float
 property_value: IAO:0000589 "8-year-old mature stage (bonobo)" xsd:string
 property_value: start_ypb "8.75" xsd:float
@@ -212,7 +199,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000018 ! 8-year-old mature stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "10.0" xsd:float
 property_value: IAO:0000589 "9-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "9.0" xsd:float
@@ -226,7 +213,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000019 ! 9-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "11.0" xsd:float
 property_value: IAO:0000589 "10-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "10.0" xsd:float
@@ -240,7 +227,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000020 ! 10-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "12.0" xsd:float
 property_value: IAO:0000589 "11-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "11.0" xsd:float
@@ -254,7 +241,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000021 ! 11-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "13.0" xsd:float
 property_value: IAO:0000589 "12-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "12.0" xsd:float
@@ -268,7 +255,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000022 ! 12-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "14.0" xsd:float
 property_value: IAO:0000589 "13-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "13.0" xsd:float
@@ -282,7 +269,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000023 ! 13-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "15.0" xsd:float
 property_value: IAO:0000589 "14-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "14.0" xsd:float
@@ -296,7 +283,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000024 ! 14-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "16.0" xsd:float
 property_value: IAO:0000589 "15-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "15.0" xsd:float
@@ -310,7 +297,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000025 ! 15-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "17.0" xsd:float
 property_value: IAO:0000589 "16-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "16.0" xsd:float
@@ -324,7 +311,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000026 ! 16-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "18.0" xsd:float
 property_value: IAO:0000589 "17-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "17.0" xsd:float
@@ -338,7 +325,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000027 ! 17-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "19.0" xsd:float
 property_value: IAO:0000589 "18-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "18.0" xsd:float
@@ -352,7 +339,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000028 ! 18-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "20.0" xsd:float
 property_value: IAO:0000589 "19-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "19.0" xsd:float
@@ -366,7 +353,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000029 ! 19-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "21.0" xsd:float
 property_value: IAO:0000589 "20-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "20.0" xsd:float
@@ -380,7 +367,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000030 ! 20-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "22.0" xsd:float
 property_value: IAO:0000589 "21-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "21.0" xsd:float
@@ -394,7 +381,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000031 ! 21-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "23.0" xsd:float
 property_value: IAO:0000589 "22-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "22.0" xsd:float
@@ -408,7 +395,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000032 ! 22-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "24.0" xsd:float
 property_value: IAO:0000589 "23-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "23.0" xsd:float
@@ -422,7 +409,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000033 ! 23-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "25.0" xsd:float
 property_value: IAO:0000589 "24-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "24.0" xsd:float
@@ -436,7 +423,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000034 ! 24-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "26.0" xsd:float
 property_value: IAO:0000589 "25-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "25.0" xsd:float
@@ -450,7 +437,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000035 ! 25-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "27.0" xsd:float
 property_value: IAO:0000589 "26-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "26.0" xsd:float
@@ -464,7 +451,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000036 ! 26-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "28.0" xsd:float
 property_value: IAO:0000589 "27-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "27.0" xsd:float
@@ -478,7 +465,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000037 ! 27-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "29.0" xsd:float
 property_value: IAO:0000589 "28-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "28.0" xsd:float
@@ -492,7 +479,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000038 ! 28-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: part_of UBERON:0018241
 property_value: end_ypb "30.0" xsd:float
 property_value: IAO:0000589 "29-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "29.0" xsd:float
@@ -506,7 +493,7 @@ comment: Geriatric bonobos are usually defined as animals with 30 years of age a
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9597
 relationship: part_of UBERON:0000113
-relationship: preceded_by PpanDv:0000017 ! adulthood stage (bonobo)
+relationship: preceded_by UBERON:0018241
 property_value: IAO:0000589 "aged stage (bonobo)" xsd:string
 property_value: start_ypb "30.0" xsd:float
 
@@ -538,6 +525,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9597 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9597 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

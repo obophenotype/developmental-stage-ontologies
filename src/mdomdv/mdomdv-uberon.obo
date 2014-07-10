@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv-bridge-to-uberon.owl>))) [Axioms: 147 Logical Axioms: 37]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv.owl>))) [Axioms: 454 Logical Axioms: 87]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv-bridge-to-uberon.owl>))) [Axioms: 148 Logical Axioms: 38]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv.owl>))) [Axioms: 456 Logical Axioms: 87]
 ontology: uberon/bridge/mdomdv/mdomdv-uberon.obo
 
 [Term]
@@ -33,19 +33,6 @@ property_value: start_mpb "0.5" xsd:float
 property_value: start_wpb "2.0" xsd:float
 
 [Term]
-id: MdomDv:0000007
-name: adulthood stage (opossum)
-namespace: opossum_developmental_stage
-def: "Mature stage that refers to a adult opossum which is over 4 months and under 21 months old." [Bgee:curator]
-comment: The life span of opossums is very short. The average female probably lives through one breeding season (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html). In the wild, two years is the standard lifespan (http://animaldiversity.ummz.umich.edu/accounts/Monodelphis_domestica/). We decided to consider 21 months as the upper limit for breeding age, before aged stage.
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of UBERON:0000113
-property_value: end_mpb "21.0" xsd:float
-property_value: IAO:0000589 "adulthood stage (opossum)" xsd:string
-property_value: start_mpb "4.0" xsd:float
-
-[Term]
 id: MdomDv:0000008
 name: 4-month-old stage (opossum)
 namespace: opossum_developmental_stage
@@ -53,7 +40,7 @@ def: "Adulthood stage that refers to a opossum which is over 4 and under 5 month
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "5.0" xsd:float
 property_value: IAO:0000589 "4-month-old stage (opossum)" xsd:string
 property_value: start_mpb "4.0" xsd:float
@@ -67,7 +54,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000008 ! 4-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "6.0" xsd:float
 property_value: IAO:0000589 "5-month-old stage (opossum)" xsd:string
 property_value: start_mpb "5.0" xsd:float
@@ -81,7 +68,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000009 ! 5-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "7.0" xsd:float
 property_value: IAO:0000589 "6-month-old stage (opossum)" xsd:string
 property_value: start_mpb "6.0" xsd:float
@@ -95,7 +82,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000010 ! 6-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "8.0" xsd:float
 property_value: IAO:0000589 "7-month-old stage (opossum)" xsd:string
 property_value: start_mpb "7.0" xsd:float
@@ -109,7 +96,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000011 ! 7-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "9.0" xsd:float
 property_value: IAO:0000589 "8-month-old stage (opossum)" xsd:string
 property_value: start_mpb "8.0" xsd:float
@@ -123,7 +110,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000012 ! 8-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "10.0" xsd:float
 property_value: IAO:0000589 "9-month-old stage (opossum)" xsd:string
 property_value: start_mpb "9.0" xsd:float
@@ -137,7 +124,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000013 ! 9-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "11.0" xsd:float
 property_value: IAO:0000589 "10-month-old stage (opossum)" xsd:string
 property_value: start_mpb "10.0" xsd:float
@@ -151,7 +138,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000014 ! 10-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "12.0" xsd:float
 property_value: IAO:0000589 "11-month-old stage (opossum)" xsd:string
 property_value: start_mpb "11.0" xsd:float
@@ -165,7 +152,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000015 ! 11-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "13.0" xsd:float
 property_value: IAO:0000589 "12-month-old stage (opossum)" xsd:string
 property_value: start_mpb "12.0" xsd:float
@@ -179,7 +166,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000016 ! 12-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "14.0" xsd:float
 property_value: IAO:0000589 "13-month-old stage (opossum)" xsd:string
 property_value: start_mpb "13.0" xsd:float
@@ -193,7 +180,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000017 ! 13-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "15.0" xsd:float
 property_value: IAO:0000589 "14-month-old stage (opossum)" xsd:string
 property_value: start_mpb "14.0" xsd:float
@@ -207,7 +194,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000018 ! 14-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "16.0" xsd:float
 property_value: IAO:0000589 "15-month-old stage (opossum)" xsd:string
 property_value: start_mpb "15.0" xsd:float
@@ -221,7 +208,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000019 ! 15-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "17.0" xsd:float
 property_value: IAO:0000589 "16-month-old stage (opossum)" xsd:string
 property_value: start_mpb "16.0" xsd:float
@@ -235,7 +222,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000020 ! 16-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "18.0" xsd:float
 property_value: IAO:0000589 "17-month-old stage (opossum)" xsd:string
 property_value: start_mpb "17.0" xsd:float
@@ -249,7 +236,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000021 ! 17-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "19.0" xsd:float
 property_value: IAO:0000589 "18-month-old stage (opossum)" xsd:string
 property_value: start_mpb "18.0" xsd:float
@@ -263,7 +250,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000022 ! 18-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "20.0" xsd:float
 property_value: IAO:0000589 "19-month-old stage (opossum)" xsd:string
 property_value: start_mpb "19.0" xsd:float
@@ -277,7 +264,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000023 ! 19-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000007 ! adulthood stage (opossum)
+relationship: part_of UBERON:0018241
 property_value: end_mpb "21.0" xsd:float
 property_value: IAO:0000589 "20-month-old stage (opossum)" xsd:string
 property_value: start_mpb "20.0" xsd:float
@@ -403,6 +390,12 @@ id: UBERON:0000113
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:13616 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:13616 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf
