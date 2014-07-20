@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv-bridge-to-uberon.owl>))) [Axioms: 86 Logical Axioms: 24]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv.owl>))) [Axioms: 283 Logical Axioms: 42]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv-bridge-to-uberon.owl>))) [Axioms: 88 Logical Axioms: 26]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv.owl>))) [Axioms: 285 Logical Axioms: 42]
 ontology: uberon/bridge/rnordv/rnordv-uberon.obo
 
 [Term]
@@ -60,47 +60,18 @@ property_value: IAO:0000589 "primitive streak stage (rat)" xsd:string
 property_value: start_dpc "7.75" xsd:float
 
 [Term]
-id: RnorDv:0000008
-name: tail bud embryo stage (rat)
-namespace: rat_developmental_stage
-def: "Embryonic stage during which somites 26-28(upper lumbar) up to somites 39-40(caudal) appear." [http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages]
-comment: This stage corresponds to Standard Witschi Stage 18 up to 24 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 12 up to 13 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
-is_a: UBERON:0000105
-relationship: immediately_preceded_by UBERON:0000110
-relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of RnorDv:0000003 ! embryonic stage (rat)
-property_value: end_dpc "12.375" xsd:float
-property_value: IAO:0000589 "tail bud embryo stage (rat)" xsd:string
-property_value: start_dpc "11.0" xsd:float
-
-[Term]
 id: RnorDv:0000009
 name: complete embryo stage (rat)
 namespace: rat_developmental_stage
 def: "Embryonic stage during which somites 41-42(caudal) appear and tail and allantoic stalk rise to the placenta." [http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages]
 comment: This stage corresponds to Standard Witschi Stage 25 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 14 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
 is_a: UBERON:0000105
-relationship: immediately_preceded_by RnorDv:0000008 ! tail bud embryo stage (rat)
+relationship: immediately_preceded_by UBERON:0000111
 relationship: only_in_taxon NCBITaxon:10116
 relationship: part_of RnorDv:0000003 ! embryonic stage (rat)
 property_value: end_dpc "12.5" xsd:float
 property_value: IAO:0000589 "complete embryo stage (rat)" xsd:string
 property_value: start_dpc "12.375" xsd:float
-
-[Term]
-id: RnorDv:0000013
-name: early immature stage (rat)
-namespace: rat_developmental_stage
-def: "Immature stage that covers the period from birth until 16 days of age." [Bgee:curator]
-comment: This stage describes the post-natal period when the fetus becomes a breathing and suckling nestling during the first 16 days (22 to 38 days total age), while eyelids remain sealed and external ear ducts are plugged with periderm (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:0000112
-property_value: end_dpc "38.0" xsd:float
-property_value: end_wpb "2.0" xsd:float
-property_value: IAO:0000589 "early immature stage (rat)" xsd:string
-property_value: start_dpc "22.0" xsd:float
-property_value: start_wpb "0.0" xsd:float
 
 [Term]
 id: RnorDv:0000014
@@ -109,7 +80,7 @@ namespace: rat_developmental_stage
 def: "Immature stage that refers to a rat which is over 2 weeks and under 10 weeks old." [Bgee:curator]
 comment: This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends when the rat becomes sexually mature (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
 is_a: UBERON:0000105
-relationship: immediately_preceded_by RnorDv:0000013 ! early immature stage (rat)
+relationship: immediately_preceded_by UBERON:0007221
 relationship: only_in_taxon NCBITaxon:10116
 relationship: part_of UBERON:0000112
 property_value: end_wpb "10.0" xsd:float
@@ -146,6 +117,13 @@ relationship: only_in_taxon NCBITaxon:10116 {gci_filler="NCBITaxon:10116", gci_r
 relationship: part_of RnorDv:0000003 {gci_filler="NCBITaxon:10116", gci_relation="part_of"} ! embryonic stage (rat)
 
 [Term]
+id: UBERON:0000111
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000110 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:10116 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
+relationship: part_of RnorDv:0000003 {gci_filler="NCBITaxon:10116", gci_relation="part_of"} ! embryonic stage (rat)
+
+[Term]
 id: UBERON:0000112
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
@@ -165,6 +143,12 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:10116 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
 relationship: preceded_by RnorDv:0000003 {gci_filler="NCBITaxon:10116", gci_relation="part_of"} ! embryonic stage (rat)
+
+[Term]
+id: UBERON:0007221
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:10116 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
+relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:10116", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpc

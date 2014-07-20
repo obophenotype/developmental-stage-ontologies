@@ -1,22 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv-bridge-to-uberon.owl>))) [Axioms: 148 Logical Axioms: 38]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv.owl>))) [Axioms: 456 Logical Axioms: 87]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv-bridge-to-uberon.owl>))) [Axioms: 149 Logical Axioms: 39]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv.owl>))) [Axioms: 457 Logical Axioms: 87]
 ontology: uberon/bridge/mdomdv/mdomdv-uberon.obo
-
-[Term]
-id: MdomDv:0000004
-name: pouch young stage (opossum)
-namespace: opossum_developmental_stage
-def: "Immature stage that refers to the first 2 weeks period when the young is permanently attached to the nipple." [Bgee:curator]
-comment: Immediately after birth, the neonate is attached to the nipple for 2 weeks before being transferred to the nest or carried on the mother's back (see http://www.faunaparaguay.com/mamm10Monodelphisdomestica.pdf). While Monodelphis domestica is a pouch-less marsupial, literature talks about pouch youngs for this marsupial species (see http://www.ncbi.nlm.nih.gov/pubmed/?term=7750642).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of UBERON:0000112
-property_value: end_wpb "2.0" xsd:float
-property_value: IAO:0000589 "pouch young stage (opossum)" xsd:string
-property_value: start_dpf "15.0" xsd:float
-property_value: start_wpb "0.0" xsd:float
 
 [Term]
 id: MdomDv:0000005
@@ -24,7 +10,7 @@ name: juvenile stage (opossum)
 namespace: opossum_developmental_stage
 def: "Immature stage that covers the period from 2 weeks old, when the hair growth begins, until 4 months old." [Bgee:curator]
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MdomDv:0000004 ! pouch young stage (opossum)
+relationship: immediately_preceded_by UBERON:0007221
 relationship: only_in_taxon NCBITaxon:13616
 relationship: part_of UBERON:0000112
 property_value: end_mpb "4.0" xsd:float
@@ -301,7 +287,7 @@ namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 22 and under 23 months old." [Bgee:curator]
 subset: granular_stage
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MdomDv:0000016 ! 12-month-old stage (opossum)
+relationship: immediately_preceded_by MdomDv:0000026 ! 21-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
 relationship: part_of MdomDv:0000025 ! aged stage (opossum)
 property_value: end_mpb "23.0" xsd:float
@@ -315,7 +301,7 @@ namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 23 and under 24 months old." [Bgee:curator]
 subset: granular_stage
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MdomDv:0000017 ! 13-month-old stage (opossum)
+relationship: immediately_preceded_by MdomDv:0000027 ! 22-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
 relationship: part_of MdomDv:0000025 ! aged stage (opossum)
 property_value: end_mpb "24.0" xsd:float
@@ -329,7 +315,7 @@ namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 24 and under 25 months old." [Bgee:curator]
 subset: granular_stage
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MdomDv:0000018 ! 14-month-old stage (opossum)
+relationship: immediately_preceded_by MdomDv:0000028 ! 23-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
 relationship: part_of MdomDv:0000025 ! aged stage (opossum)
 property_value: end_mpb "25.0" xsd:float
@@ -343,7 +329,7 @@ namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 25 and under 26 months old." [Bgee:curator]
 subset: granular_stage
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MdomDv:0000019 ! 15-month-old stage (opossum)
+relationship: immediately_preceded_by MdomDv:0000029 ! 24-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
 relationship: part_of MdomDv:0000025 ! aged stage (opossum)
 property_value: end_mpb "26.0" xsd:float
@@ -357,7 +343,7 @@ namespace: opossum_developmental_stage
 def: "Aged stage that refers to a opossum which is over 26 months old." [Bgee:curator]
 subset: granular_stage
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MdomDv:0000020 ! 16-month-old stage (opossum)
+relationship: immediately_preceded_by MdomDv:0000030 ! 25-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
 relationship: part_of MdomDv:0000025 ! aged stage (opossum)
 property_value: IAO:0000589 "26-month-old and over stage (opossum)" xsd:string
@@ -390,6 +376,12 @@ id: UBERON:0000113
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:13616 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0007221
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:13616 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
+relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:13616", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0018241

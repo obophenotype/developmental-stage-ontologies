@@ -132,6 +132,8 @@ intersection_of: part_of NCBITaxon:9593
 id: GgorDv:0000008
 property_value: IAO:0000589 "aged stage (gorilla)" xsd:string
 relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9593
 
 [Term]
 id: GgorDv:0000016

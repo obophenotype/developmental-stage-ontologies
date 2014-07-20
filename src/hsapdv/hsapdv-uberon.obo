@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv-bridge-to-uberon.owl>))) [Axioms: 879 Logical Axioms: 223]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>))) [Axioms: 2694 Logical Axioms: 618]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv-bridge-to-uberon.owl>))) [Axioms: 882 Logical Axioms: 226]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>))) [Axioms: 2705 Logical Axioms: 626]
 ontology: uberon/bridge/hsapdv/hsapdv-uberon.obo
 
 [Term]
@@ -21,21 +21,6 @@ property_value: IAO:0000589 "embryonic human stage (human)" xsd:string
 property_value: start_dpf "0.0" xsd:float
 
 [Term]
-id: HsapDv:0000003
-name: Carnegie stage 01 (human)
-namespace: human_developmental_stage
-def: "Embryonic stage defined by a fertilized oocyte and presence of pronuclei." [http://embryology.med.unsw.edu.au/embryology/index.php?title=Carnegie_stage_table]
-comment: Starts at day 1 post-fertilization, beginning of the first week.
-synonym: "CS01" EXACT [EHDAA2:CS01]
-xref: EHDAA2:CS01
-xref: XUO:0000130
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000002 ! embryonic human stage (human)
-property_value: IAO:0000589 "Carnegie stage 01 (human)" xsd:string
-property_value: start_dpf "0.0" xsd:float
-
-[Term]
 id: HsapDv:0000005
 name: Carnegie stage 02 (human)
 namespace: human_developmental_stage
@@ -46,22 +31,10 @@ xref: EHDAA2:CS02
 xref: XUO:0000131
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000002 ! embryonic human stage (human)
-relationship: preceded_by HsapDv:0000003 ! Carnegie stage 01 (human)
+relationship: part_of UBERON:0000107
+relationship: preceded_by UBERON:0000106
 property_value: IAO:0000589 "Carnegie stage 02 (human)" xsd:string
 property_value: start_dpf "2.5" xsd:float
-
-[Term]
-id: HsapDv:0000006
-name: blastula stage (human)
-namespace: human_developmental_stage
-def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108]
-comment: The blastula follows the morula and precedes the gastrula in the developmental sequence.
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000002 ! embryonic human stage (human)
-relationship: preceded_by HsapDv:0000005 ! Carnegie stage 02 (human)
-property_value: IAO:0000589 "blastula stage (human)" xsd:string
 
 [Term]
 id: HsapDv:0000007
@@ -76,7 +49,7 @@ is_a: UBERON:0000105
 relationship: has_stage_marker GO:0001835
 relationship: immediately_preceded_by HsapDv:0000205 ! morula stage (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000006 ! blastula stage (human)
+relationship: part_of UBERON:0000108
 property_value: IAO:0000589 "Carnegie stage 03 (human)" xsd:string
 property_value: start_dpf "4.5" xsd:float
 
@@ -92,7 +65,7 @@ xref: XUO:0000133
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000007 ! Carnegie stage 03 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000006 ! blastula stage (human)
+relationship: part_of UBERON:0000108
 property_value: editor_notes "Note that GO treats blastocyst attachment and implantation (CS05) as synonymous" xsd:string
 property_value: IAO:0000589 "Carnegie stage 04 (human)" xsd:string
 property_value: start_dpf "5.5" xsd:float
@@ -109,7 +82,7 @@ is_a: UBERON:0000105
 relationship: has_stage_marker GO:0007566
 relationship: immediately_preceded_by HsapDv:0000008 ! Carnegie stage 04 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000006 ! blastula stage (human)
+relationship: part_of UBERON:0000108
 property_value: IAO:0000589 "Carnegie stage 05 (human)" xsd:string
 property_value: start_dpf "7.0" xsd:float
 
@@ -168,17 +141,6 @@ property_value: IAO:0000589 "Carnegie stage 08 (human)" xsd:string
 property_value: start_dpf "17.0" xsd:float
 
 [Term]
-id: HsapDv:0000015
-name: organogenesis stage (human)
-namespace: human_developmental_stage
-def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111]
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000002 ! embryonic human stage (human)
-relationship: preceded_by UBERON:0000110
-property_value: IAO:0000589 "organogenesis stage (human)" xsd:string
-
-[Term]
 id: HsapDv:0000016
 name: Carnegie stage 09 (human)
 namespace: human_developmental_stage
@@ -195,7 +157,7 @@ relationship: has_stage_marker EHDAA2:0001850
 relationship: has_stage_marker EHDAA2:0001851
 relationship: immediately_preceded_by HsapDv:0000014 ! Carnegie stage 08 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 09 (human)" xsd:string
 property_value: start_dpf "19.0" xsd:float
 
@@ -221,7 +183,7 @@ relationship: has_stage_marker EHDAA2:0001860
 relationship: has_stage_marker GO:0001843
 relationship: immediately_preceded_by HsapDv:0000016 ! Carnegie stage 09 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 10 (human)" xsd:string
 property_value: start_dpf "22.0" xsd:float
 
@@ -245,7 +207,7 @@ relationship: has_stage_marker EHDAA2:0001867
 relationship: has_stage_marker EHDAA2:0001868
 relationship: immediately_preceded_by HsapDv:0000017 ! Carnegie stage 10 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 11 (human)" xsd:string
 property_value: start_dpf "23.0" xsd:float
 
@@ -271,7 +233,7 @@ relationship: has_stage_marker EHDAA2:0001877
 relationship: has_stage_marker GO:0021507
 relationship: immediately_preceded_by HsapDv:0000018 ! Carnegie stage 11 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 12 (human)" xsd:string
 property_value: start_dpf "26.0" xsd:float
 
@@ -290,7 +252,7 @@ relationship: has_stage_marker EHDAA2:0001033
 relationship: has_stage_marker EHDAA2:0001878
 relationship: immediately_preceded_by HsapDv:0000019 ! Carnegie stage 12 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 13 (human)" xsd:string
 property_value: start_dpf "28.0" xsd:float
 
@@ -308,7 +270,7 @@ relationship: has_stage_marker EHDAA2:0000981
 relationship: has_stage_marker EHDAA2:0001303
 relationship: immediately_preceded_by HsapDv:0000020 ! Carnegie stage 13 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 14 (human)" xsd:string
 property_value: start_dpf "31.0" xsd:float
 
@@ -329,7 +291,7 @@ relationship: has_stage_marker UBERON:0005870
 relationship: has_stage_marker UBERON:0006875
 relationship: immediately_preceded_by HsapDv:0000021 ! Carnegie stage 14 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 15 (human)" xsd:string
 property_value: start_dpf "35.0" xsd:float
 
@@ -348,7 +310,7 @@ relationship: has_stage_marker EHDAA2:0000546
 relationship: has_stage_marker UBERON:0006871
 relationship: immediately_preceded_by HsapDv:0000022 ! Carnegie stage 15 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 16 (human)" xsd:string
 property_value: start_dpf "37.0" xsd:float
 
@@ -364,7 +326,7 @@ xref: XUO:0000146
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000023 ! Carnegie stage 16 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 17 (human)" xsd:string
 property_value: start_dpf "42.0" xsd:float
 
@@ -381,7 +343,7 @@ is_a: UBERON:0000105
 relationship: has_stage_marker GO:0001503
 relationship: immediately_preceded_by HsapDv:0000024 ! Carnegie stage 17 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 18 (human)" xsd:string
 property_value: start_dpf "44.0" xsd:float
 
@@ -397,7 +359,7 @@ xref: XUO:0000148
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000025 ! Carnegie stage 18 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 19 (human)" xsd:string
 property_value: start_dpf "48.0" xsd:float
 
@@ -413,7 +375,7 @@ xref: XUO:0000149
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000026 ! Carnegie stage 19 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 20 (human)" xsd:string
 property_value: start_dpf "51.0" xsd:float
 
@@ -428,7 +390,7 @@ xref: XUO:0000150
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000027 ! Carnegie stage 20 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 21 (human)" xsd:string
 property_value: start_dpf "53.0" xsd:float
 
@@ -445,7 +407,7 @@ relationship: has_stage_marker EHDAA2:0000462
 relationship: has_stage_marker UBERON:0001711
 relationship: immediately_preceded_by HsapDv:0000028 ! Carnegie stage 21 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 22 (human)" xsd:string
 property_value: start_dpf "54.0" xsd:float
 
@@ -460,7 +422,7 @@ xref: XUO:0000152
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000029 ! Carnegie stage 22 (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000015 ! organogenesis stage (human)
+relationship: part_of UBERON:0000111
 property_value: IAO:0000589 "Carnegie stage 23 (human)" xsd:string
 property_value: start_dpf "56.0" xsd:float
 
@@ -1001,6 +963,7 @@ namespace: human_developmental_stage
 def: "Immature stage that refers to child who is over 2 and under 13 years old." [Bgee:curator]
 synonym: "2-12 years" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000083 ! infant stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of UBERON:0000112
 property_value: end_ypb "13.0" xsd:float
@@ -1032,6 +995,7 @@ def: "Immature stage that refers to an infant who is over 31 days and is under 2
 synonym: "1-23 months" EXACT []
 synonym: "infantile stage" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000082 ! newborn human stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of UBERON:0000112
 property_value: end_mpb "24.0" xsd:float
@@ -1060,6 +1024,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 6 and under 13 years old." [Bgee:curator]
 synonym: "prepubescent" RELATED []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000084 ! 2-5 year-old child stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000081 ! child stage (human)
 property_value: end_ypb "13.0" xsd:float
@@ -1088,6 +1053,7 @@ namespace: human_developmental_stage
 def: "Human developmental stage that refers to an adult who is over 19." [Bgee:curator]
 synonym: "19+ years" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000086 ! adolescent stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of UBERON:0000113
 property_value: IAO:0000589 "human adult stage (human)" xsd:string
@@ -1125,6 +1091,7 @@ name: 25-44 year-old human stage (human)
 namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is over 25 and under 45." [Bgee:curator]
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000089 ! young adult stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000088 ! human early adulthood stage (human)
 property_value: end_ypb "45.0" xsd:float
@@ -1139,6 +1106,7 @@ def: "Adult stage that refers to an adult who is over 45." [Bgee:curator]
 synonym: "45+ years" EXACT []
 synonym: "Middle Aged + Aged" RELATED []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000088 ! human early adulthood stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000087 ! human adult stage (human)
 property_value: IAO:0000589 "human late adulthood stage (human)" xsd:string
@@ -1165,6 +1133,7 @@ def: "Late adulthood that refers to an adult who is over 65." [Bgee:curator]
 synonym: "65+ years" EXACT []
 synonym: "elderly" RELATED []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000092 ! human middle aged stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000091 ! human late adulthood stage (human)
 property_value: IAO:0000589 "human aged stage (human)" xsd:string
@@ -2386,6 +2355,7 @@ def: "Infant stage that refers to an infant who is over 2 and under 3 months old
 subset: granular_stage
 xref: EV:0300040
 is_a: UBERON:0000105
+relationship: immediately_preceded_by HsapDv:0000174 ! 1 month-old human stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000083 ! infant stage (human)
 property_value: end_mpb "3.0" xsd:float
@@ -3099,18 +3069,31 @@ id: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9606 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 
 [Term]
+id: UBERON:0000106
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9606 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
+relationship: part_of HsapDv:0000002 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! embryonic human stage (human)
+
+[Term]
 id: UBERON:0000107
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
-relationship: immediately_preceded_by HsapDv:0000003 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! Carnegie stage 01 (human)
+relationship: immediately_preceded_by UBERON:0000106 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9606 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
-relationship: part_of HsapDv:0000005 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! Carnegie stage 02 (human)
+relationship: part_of HsapDv:0000002 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! embryonic human stage (human)
+
+[Term]
+id: UBERON:0000108
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9606 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
+relationship: part_of HsapDv:0000002 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! embryonic human stage (human)
+relationship: preceded_by HsapDv:0000005 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! Carnegie stage 02 (human)
 
 [Term]
 id: UBERON:0000109
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9606 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 relationship: part_of HsapDv:0000002 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! embryonic human stage (human)
-relationship: preceded_by HsapDv:0000006 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! blastula stage (human)
+relationship: preceded_by UBERON:0000108 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000110
@@ -3118,6 +3101,13 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9606 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 relationship: part_of HsapDv:0000002 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! embryonic human stage (human)
 relationship: preceded_by UBERON:0000109 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000111
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9606 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
+relationship: part_of HsapDv:0000002 {gci_filler="NCBITaxon:9606", gci_relation="part_of"} ! embryonic human stage (human)
+relationship: preceded_by UBERON:0000110 {gci_filler="NCBITaxon:9606", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000112

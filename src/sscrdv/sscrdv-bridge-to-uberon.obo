@@ -28,6 +28,8 @@ intersection_of: part_of NCBITaxon:9823
 id: SscrDv:0000008
 property_value: IAO:0000589 "aged stage (pig)" xsd:string
 relationship: only_in_taxon NCBITaxon:9823 ! pig
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9823
 
 [Term]
 id: SscrDv:0000001

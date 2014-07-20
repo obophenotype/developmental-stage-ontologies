@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv-bridge-to-uberon.owl>))) [Axioms: 184 Logical Axioms: 47]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv.owl>))) [Axioms: 582 Logical Axioms: 115]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv-bridge-to-uberon.owl>))) [Axioms: 185 Logical Axioms: 48]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv.owl>))) [Axioms: 584 Logical Axioms: 116]
 ontology: uberon/bridge/ppandv/ppandv-uberon.obo
 
 [Term]
@@ -55,6 +55,7 @@ namespace: bonobo_developmental_stage
 def: "Juvenile stage that refers to a bonobo who is over 22 and under 23 months old." [Bgee:curator]
 subset: granular_stage
 is_a: UBERON:0000105
+relationship: immediately_preceded_by PpanDv:0000006 ! 21-month-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
 relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
 property_value: end_mpb "23.0" xsd:float
@@ -485,19 +486,6 @@ property_value: IAO:0000589 "29-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "29.0" xsd:float
 
 [Term]
-id: PpanDv:0000040
-name: aged stage (bonobo)
-namespace: bonobo_developmental_stage
-def: "Mature stage that refers to a bonobo who is over 30 years old." [Bgee:curator]
-comment: Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of UBERON:0000113
-relationship: preceded_by UBERON:0018241
-property_value: IAO:0000589 "aged stage (bonobo)" xsd:string
-property_value: start_ypb "30.0" xsd:float
-
-[Term]
 id: UBERON:0000068
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9597 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
@@ -525,6 +513,13 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9597 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0007222
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9597 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
+relationship: preceded_by UBERON:0018241 {gci_filler="NCBITaxon:9597", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0018241

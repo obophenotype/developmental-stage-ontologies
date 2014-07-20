@@ -2,6 +2,8 @@
 id: PpygDv:0000036
 property_value: IAO:0000589 "aged stage (orangutan)" xsd:string
 relationship: only_in_taxon NCBITaxon:9600 ! orangutan
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9600
 
 [Term]
 id: PpygDv:0000033

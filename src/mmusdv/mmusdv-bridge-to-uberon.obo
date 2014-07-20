@@ -101,6 +101,8 @@ relationship: only_in_taxon NCBITaxon:10090 ! mouse
 id: MmusDv:0000061
 property_value: IAO:0000589 "early adult stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:10090
 
 [Term]
 id: MmusDv:0000073
@@ -151,6 +153,8 @@ relationship: only_in_taxon NCBITaxon:10090 ! mouse
 id: MmusDv:0000017
 property_value: IAO:0000589 "Theiler stage 11 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
+intersection_of: UBERON:0000110
+intersection_of: part_of NCBITaxon:10090
 
 [Term]
 id: MmusDv:0000026
@@ -191,6 +195,8 @@ relationship: only_in_taxon NCBITaxon:10090 ! mouse
 id: MmusDv:0000096
 property_value: IAO:0000589 "early immature stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
+intersection_of: UBERON:0007221
+intersection_of: part_of NCBITaxon:10090
 
 [Term]
 id: MmusDv:0000004
@@ -334,6 +340,8 @@ relationship: only_in_taxon NCBITaxon:10090 ! mouse
 id: MmusDv:0000097
 property_value: IAO:0000589 "late adult stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:10090
 
 [Term]
 id: MmusDv:0000108
@@ -366,6 +374,8 @@ relationship: only_in_taxon NCBITaxon:10090 ! mouse
 id: MmusDv:0000018
 property_value: IAO:0000589 "organogenesis stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
+intersection_of: UBERON:0000111
+intersection_of: part_of NCBITaxon:10090
 
 [Term]
 id: MmusDv:0000041

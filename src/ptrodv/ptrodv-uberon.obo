@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv-bridge-to-uberon.owl>))) [Axioms: 228 Logical Axioms: 58]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>))) [Axioms: 680 Logical Axioms: 148]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv-bridge-to-uberon.owl>))) [Axioms: 229 Logical Axioms: 59]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>))) [Axioms: 681 Logical Axioms: 148]
 ontology: uberon/bridge/ptrodv/ptrodv-uberon.obo
 
 [Term]
@@ -466,19 +466,6 @@ property_value: IAO:0000589 "33-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "33.0" xsd:float
 
 [Term]
-id: PtroDv:0000039
-name: aged stage (chimpanzee)
-namespace: chimpanzee_developmental_stage
-def: "Mature stage that refers to a chimpanzee who is over 34 years old." [Bgee:curator]
-comment: Geriatric chimpanzees were originally defined as animals with 34 years of age and older. Maximum longevity is officially 59.4 years (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of UBERON:0000113
-relationship: preceded_by PtroDv:0000007 ! 4-year-old stage (chimpanzee)
-property_value: IAO:0000589 "aged stage (chimpanzee)" xsd:string
-property_value: start_ypb "34.0" xsd:float
-
-[Term]
 id: PtroDv:0000040
 name: 34-year-old stage (chimpanzee)
 namespace: chimpanzee_developmental_stage
@@ -672,6 +659,13 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0007222
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: preceded_by PtroDv:0000007 {gci_filler="NCBITaxon:9598", gci_relation="part_of"} ! 4-year-old stage (chimpanzee)
 
 [Term]
 id: UBERON:0018241
