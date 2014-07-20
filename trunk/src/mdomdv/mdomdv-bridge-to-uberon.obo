@@ -90,6 +90,8 @@ relationship: only_in_taxon NCBITaxon:13616 ! opossum
 id: MdomDv:0000004
 property_value: IAO:0000589 "pouch young stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
+intersection_of: UBERON:0007221
+intersection_of: part_of NCBITaxon:13616
 
 [Term]
 id: MdomDv:0000015

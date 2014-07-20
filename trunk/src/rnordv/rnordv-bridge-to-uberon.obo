@@ -64,6 +64,8 @@ intersection_of: part_of NCBITaxon:10116
 id: RnorDv:0000008
 property_value: IAO:0000589 "tail bud embryo stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
+intersection_of: UBERON:0000111
+intersection_of: part_of NCBITaxon:10116
 
 [Term]
 id: RnorDv:0000000
@@ -88,6 +90,8 @@ relationship: only_in_taxon NCBITaxon:10116 ! rat
 id: RnorDv:0000013
 property_value: IAO:0000589 "early immature stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
+intersection_of: UBERON:0007221
+intersection_of: part_of NCBITaxon:10116
 
 [Term]
 id: RnorDv:0000009

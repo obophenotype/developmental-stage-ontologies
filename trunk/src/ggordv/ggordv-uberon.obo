@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggordv-bridge-to-uberon.owl>))) [Axioms: 148 Logical Axioms: 38]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggordv.owl>))) [Axioms: 461 Logical Axioms: 90]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggordv-bridge-to-uberon.owl>))) [Axioms: 149 Logical Axioms: 39]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggordv.owl>))) [Axioms: 462 Logical Axioms: 90]
 ontology: uberon/bridge/ggordv/ggordv-uberon.obo
 
 [Term]
@@ -34,19 +34,6 @@ property_value: IAO:0000589 "juvenile stage (gorilla)" xsd:string
 property_value: start_ypb "2.3" xsd:float
 
 [Term]
-id: GgorDv:0000008
-name: aged stage (gorilla)
-namespace: gorilla_developmental_stage
-def: "Mature stage that refers to a gorilla who is over 30 years old." [Bgee:curator]
-comment: Geriatric gorillas are defined as animals with 30 years of age and older (see http://link.springer.com/article/10.1007%2Fs10764-006-9097-1). Maximum longevity is officially 55.4 years (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
-is_a: UBERON:0000105
-relationship: immediately_preceded_by UBERON:0018241
-relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of UBERON:0000113
-property_value: IAO:0000589 "aged stage (gorilla)" xsd:string
-property_value: start_ypb "30.0" xsd:float
-
-[Term]
 id: GgorDv:0000009
 name: 30-year-old stage (gorilla)
 namespace: gorilla_developmental_stage
@@ -54,7 +41,7 @@ def: "Aged stage that refers to a gorilla who is over 30 and under 31 years old.
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "31.0" xsd:float
 property_value: IAO:0000589 "30-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "30.0" xsd:float
@@ -68,7 +55,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000009 ! 30-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "32.0" xsd:float
 property_value: IAO:0000589 "31-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "31.0" xsd:float
@@ -82,7 +69,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000010 ! 31-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "33.0" xsd:float
 property_value: IAO:0000589 "32-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "32.0" xsd:float
@@ -96,7 +83,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000011 ! 32-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "34.0" xsd:float
 property_value: IAO:0000589 "33-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "33.0" xsd:float
@@ -110,7 +97,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000012 ! 33-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "35.0" xsd:float
 property_value: IAO:0000589 "34-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "34.0" xsd:float
@@ -124,7 +111,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000013 ! 34-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "36.0" xsd:float
 property_value: IAO:0000589 "35-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "35.0" xsd:float
@@ -138,7 +125,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000014 ! 35-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "37.0" xsd:float
 property_value: IAO:0000589 "36-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "36.0" xsd:float
@@ -152,7 +139,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000015 ! 36-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "38.0" xsd:float
 property_value: IAO:0000589 "37-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "37.0" xsd:float
@@ -166,7 +153,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000016 ! 37-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "39.0" xsd:float
 property_value: IAO:0000589 "38-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "38.0" xsd:float
@@ -180,7 +167,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000017 ! 38-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "40.0" xsd:float
 property_value: IAO:0000589 "39-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "39.0" xsd:float
@@ -194,7 +181,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000018 ! 39-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "41.0" xsd:float
 property_value: IAO:0000589 "40-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "40.0" xsd:float
@@ -208,7 +195,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000019 ! 40-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "42.0" xsd:float
 property_value: IAO:0000589 "41-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "41.0" xsd:float
@@ -222,7 +209,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000020 ! 41-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "43.0" xsd:float
 property_value: IAO:0000589 "42-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "42.0" xsd:float
@@ -236,7 +223,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000021 ! 42-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "44.0" xsd:float
 property_value: IAO:0000589 "43-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "43.0" xsd:float
@@ -250,7 +237,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000022 ! 43-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "45.0" xsd:float
 property_value: IAO:0000589 "44-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "44.0" xsd:float
@@ -264,7 +251,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000023 ! 44-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "46.0" xsd:float
 property_value: IAO:0000589 "45-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "45.0" xsd:float
@@ -278,7 +265,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000024 ! 45-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "47.0" xsd:float
 property_value: IAO:0000589 "46-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "46.0" xsd:float
@@ -292,7 +279,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000025 ! 46-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "48.0" xsd:float
 property_value: IAO:0000589 "47-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "47.0" xsd:float
@@ -306,7 +293,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000026 ! 47-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "49.0" xsd:float
 property_value: IAO:0000589 "48-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "48.0" xsd:float
@@ -320,7 +307,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000027 ! 48-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "50.0" xsd:float
 property_value: IAO:0000589 "49-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "49.0" xsd:float
@@ -334,7 +321,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000028 ! 49-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "51.0" xsd:float
 property_value: IAO:0000589 "50-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "50.0" xsd:float
@@ -348,7 +335,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000029 ! 50-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "52.0" xsd:float
 property_value: IAO:0000589 "51-year-old stage (gorilla)" xsd:string
 property_value: start_ypb "51.0" xsd:float
@@ -362,7 +349,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by GgorDv:0000030 ! 51-year-old stage (gorilla)
 relationship: only_in_taxon NCBITaxon:9593
-relationship: part_of GgorDv:0000008 ! aged stage (gorilla)
+relationship: part_of UBERON:0007222
 property_value: IAO:0000589 "52-year-old and over stage (gorilla)" xsd:string
 property_value: start_ypb "52.0" xsd:float
 
@@ -394,6 +381,13 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9593 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0007222
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0018241 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9593 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9593", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0018241

@@ -51,6 +51,8 @@ intersection_of: part_of NCBITaxon:9544
 id: MmulDv:0000045
 property_value: IAO:0000589 "aged stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9544
 
 [Term]
 id: MmulDv:0000001

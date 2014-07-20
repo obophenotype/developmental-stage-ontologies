@@ -16,6 +16,8 @@ intersection_of: part_of NCBITaxon:9258
 id: OanaDv:0000006
 property_value: IAO:0000589 "aged stage (platypus)" xsd:string
 relationship: only_in_taxon NCBITaxon:9258 ! platypus
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9258
 
 [Term]
 id: OanaDv:0000002

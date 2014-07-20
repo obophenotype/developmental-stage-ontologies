@@ -84,6 +84,8 @@ relationship: only_in_taxon NCBITaxon:9598 ! chimpanzee
 id: PtroDv:0000039
 property_value: IAO:0000589 "aged stage (chimpanzee)" xsd:string
 relationship: only_in_taxon NCBITaxon:9598 ! chimpanzee
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9598
 
 [Term]
 id: PtroDv:0000036
