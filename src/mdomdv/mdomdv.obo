@@ -54,6 +54,7 @@ name: pouch young stage
 namespace: opossum_developmental_stage
 def: "Immature stage that refers to the first 2 weeks period when the young is permanently attached to the nipple." [Bgee:curator "Bgee"]
 comment: Immediately after birth, the neonate is attached to the nipple for 2 weeks before being transferred to the nest or carried on the mother's back (see http://www.faunaparaguay.com/mamm10Monodelphisdomestica.pdf). While Monodelphis domestica is a pouch-less marsupial, literature talks about pouch youngs for this marsupial species (see http://www.ncbi.nlm.nih.gov/pubmed/?term=7750642).
+xref: UBERON:0007221
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000003 ! immature stage
 property_value: start_dpf "15.0" xsd:float
@@ -328,7 +329,7 @@ def: "Aged stage that refers to a opossum which is over 22 and under 23 months o
 subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000016 ! 21 month-old stage
+relationship: immediately_preceded_by MdomDv:0000026 ! 21 month-old stage
 property_value: start_mpb "22.0" xsd:float
 property_value: end_mpb "23.0" xsd:float
 
@@ -340,7 +341,7 @@ def: "Aged stage that refers to a opossum which is over 23 and under 24 months o
 subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000017 ! 22 month-old stage
+relationship: immediately_preceded_by MdomDv:0000027 ! 22 month-old stage
 property_value: start_mpb "23.0" xsd:float
 property_value: end_mpb "24.0" xsd:float
 
@@ -352,7 +353,7 @@ def: "Aged stage that refers to a opossum which is over 24 and under 25 months o
 subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000018 ! 23 month-old stage
+relationship: immediately_preceded_by MdomDv:0000028 ! 23 month-old stage
 property_value: start_mpb "24.0" xsd:float
 property_value: end_mpb "25.0" xsd:float
 
@@ -364,7 +365,7 @@ def: "Aged stage that refers to a opossum which is over 25 and under 26 months o
 subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000019 ! 24 month-old stage
+relationship: immediately_preceded_by MdomDv:0000029 ! 24 month-old stage
 property_value: start_mpb "25.0" xsd:float
 property_value: end_mpb "26.0" xsd:float
 
@@ -376,7 +377,7 @@ def: "Aged stage that refers to a opossum which is over 26 months old." [Bgee:cu
 subset: granular_stage
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000025 ! aged stage
-relationship: immediately_preceded_by MdomDv:0000020 ! 25 month-old stage
+relationship: immediately_preceded_by MdomDv:0000030 ! 25 month-old stage
 property_value: start_mpb "26.0" xsd:float
 
 [Typedef]

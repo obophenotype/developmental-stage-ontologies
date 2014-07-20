@@ -105,6 +105,7 @@ name: tail bud embryo stage
 namespace: rat_developmental_stage
 def: "Embryonic stage during which somites 26-28(upper lumbar) up to somites 39-40(caudal) appear." [http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages "adapted from"]
 comment: This stage corresponds to Standard Witschi Stage 18 up to 24 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 12 up to 13 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
+xref: UBERON:0000111
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 relationship: immediately_preceded_by RnorDv:0000007 ! neurula stage
@@ -168,6 +169,7 @@ name: early immature stage
 namespace: rat_developmental_stage
 def: "Immature stage that covers the period from birth until 16 days of age." [Bgee:curator "Bgee"]
 comment: This stage describes the post-natal period when the fetus becomes a breathing and suckling nestling during the first 16 days (22 to 38 days total age), while eyelids remain sealed and external ear ducts are plugged with periderm (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline).
+xref: UBERON:0007221
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000012 ! immature stage
 property_value: start_dpc "22.0" xsd:float

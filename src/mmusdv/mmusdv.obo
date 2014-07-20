@@ -337,6 +337,7 @@ relationship: immediately_preceded_by MmusDv:0000015 ! Theiler stage 10
 property_value: start_dpc "7.5" xsd:float
 property_value: has_stage_marker UBERON:0003075 ! neural plate
 xref: EMAPA:TS11 ! TS11 (E7.25-8)
+xref: UBERON:0000110
 
 [Term]
 id: MmusDv:0000111
@@ -382,8 +383,10 @@ id: MmusDv:0000018
 name: organogenesis stage
 namespace: mouse_developmental_stage
 def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111 "adapted from"]
+xref: UBERON:0000111
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
+relationship: immediately_preceded_by MmusDv:0000095 ! Theiler stage 11d
 
 [Term]
 id: MmusDv:0000019
@@ -712,6 +715,7 @@ def: "Immature stage that covers the period from birth until end of the first we
 comment: This stage groups the first seven days of the mouse life as described in K.Theiler's book, The House Mouse, Atlas of Embryonic Development, Springer-Verlag (second printing 1989).
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000043 ! immature stage
+xref: UBERON:0007221
 property_value: start_dpc "19.0" xsd:float
 property_value: start_wpb "0.0" xsd:float
 property_value: end_wpb "1.0" xsd:float
@@ -755,6 +759,7 @@ comment: This stage describes the age at which mice are usually used as infant m
 synonym: "1-5 weeks" EXACT []
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000043 ! immature stage
+relationship: immediately_preceded_by MmusDv:0000096 ! early immature stage
 property_value: start_wpb "1.0" xsd:float
 property_value: end_wpb "6.0" xsd:float
 
@@ -791,6 +796,7 @@ namespace: mouse_developmental_stage
 def: "Early immature stage that refers to the newborn mouse which is over 1 and under 8 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000096 ! early immature stage
+relationship: immediately_preceded_by MmusDv:0000036 ! Theiler stage 27
 property_value: start_wpb "0.143" xsd:float
 property_value: end_wpb "1.143" xsd:float
 
@@ -869,6 +875,7 @@ name: early adult stage
 namespace: mouse_developmental_stage
 def: "Mature stage that refers to a adult mouse which is over 6 weeks and under 7 months old." [http://research.jax.org/faculty/harrison/ger1vLifespan1.html#VD "adapted from"]
 comment: Mice under 7 months of age are commonly considered as young adult in the literature, without loss of functional capability like hearing (see http://www.ncbi.nlm.nih.gov/pubmed/18259074).
+xref: UBERON:0018241
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000110 ! mature stage
 property_value: start_wpb "6.0" xsd:float
@@ -906,6 +913,7 @@ namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 2 and under 3 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: immediately_preceded_by MmusDv:0000051 ! 7 weeks
 property_value: start_wpb "8.0" xsd:float
 property_value: end_wpb "12.0" xsd:float
 property_value: start_mpb "2.0" xsd:float
@@ -1228,6 +1236,7 @@ id: MmusDv:0000097
 name: late adult stage
 namespace: mouse_developmental_stage
 def: "Mature stage that refers to an adult mouse which is over 7 months old." [http://research.jax.org/faculty/harrison/ger1vLifespan1.html#VD "adapted from"]
+xref: UBERON:0007222
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000110 ! mature stage
 property_value: start_wpb "30.0" xsd:float
@@ -1349,6 +1358,7 @@ namespace: mouse_developmental_stage
 def: "Late adult stage that refers to a mouse which is over 15 months old." [http://research.jax.org/faculty/harrison/ger1vLifespan1.html#VD "adapted from"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000097 ! late adult stage
+relationship: immediately_preceded_by MmusDv:0000075 ! middle aged stage
 property_value: start_mpb "15.0" xsd:float
 
 [Term]
@@ -1419,6 +1429,7 @@ def: "Aged adult stage that refers to a mouse which is over 20 months old." [Bge
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: immediately_preceded_by MmusDv:0000090 ! 19 month-old stage
 property_value: start_mpb "20.0" xsd:float
 
 [Typedef]
