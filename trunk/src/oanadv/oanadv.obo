@@ -79,6 +79,7 @@ name: aged stage
 namespace: platypus_developmental_stage
 def: "Mature stage that refers to a adult platypus which is over 10 years." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of platypuses. They can live up to 12 years in the wild (see http://www.mspca.org/programs/wildlife-resources/species-information/about-platypuss.html) and one captive specimen was at least 22.6 years old when it died (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus). Over 10 years old is usually no more a breeding age.
+xref: UBERON:0007222
 is_a: OanaDv:0000000 ! platypus life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage
 relationship: immediately_preceded_by OanaDv:0000005 ! adulthood stage

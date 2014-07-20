@@ -63,6 +63,7 @@ relationship: part_of HsapDv:0000002 ! embryonic human stage
 property_value: start_dpf "0.0" xsd:float
 xref: XUO:0000130
 xref: EHDAA2:CS01 ! CS01
+xref: UBERON:0000106
 synonym: "CS01" EXACT [EHDAA2:CS01]
 
 [Term]
@@ -72,7 +73,7 @@ namespace: human_developmental_stage
 def: "Early stage of Carnegie stage 02 consisting of division of cells in the early embryo." [Bgee:curator "Bgee"]
 xref: UBERON:0000107
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000005 ! Carnegie stage 02
+relationship: part_of HsapDv:0000002 ! embryonic human stage
 relationship: immediately_preceded_by HsapDv:0000003 ! Carnegie stage 01
 
 [Term]
@@ -82,7 +83,7 @@ namespace: human_developmental_stage
 def: "Embryonic stage during which cell division occurs with reduction in cytoplasmic volume, and formation of inner and outer cell mass." [http://embryology.med.unsw.edu.au/embryology/index.php?title=Carnegie_stage_table "adapted from"]
 comment: Usually starts between day 2 and day 3 post-fertilization.
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic human stage
+relationship: part_of HsapDv:0000004 ! cleavage stage
 xref: XUO:0000131
 relationship: preceded_by HsapDv:0000003 ! Carnegie stage 01
 xref: EHDAA2:CS02 ! CS02
@@ -104,6 +105,7 @@ name: blastula stage
 namespace: human_developmental_stage
 def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
 comment: The blastula follows the morula and precedes the gastrula in the developmental sequence.
+xref: UBERON:0000108
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000002 ! embryonic human stage
 relationship: preceded_by HsapDv:0000005 ! Carnegie stage 02
@@ -292,6 +294,7 @@ name: organogenesis stage
 namespace: human_developmental_stage
 def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111 "adapted from"]
 is_a: HsapDv:0000000 ! human life cycle stage
+xref: UBERON:0000111
 relationship: part_of HsapDv:0000002 ! embryonic human stage
 relationship: preceded_by HsapDv:0000012 ! neurula
 
@@ -1068,6 +1071,7 @@ def: "Immature stage that refers to child who is over 2 and under 13 years old."
 synonym: "2-12 years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000080 ! immature stage
+relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
 property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 
@@ -1095,6 +1099,7 @@ synonym: "1-23 months" EXACT []
 synonym: "infantile stage" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000080 ! immature stage
+relationship: immediately_preceded_by HsapDv:0000082 ! new born human stage
 property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "2.0" xsd:float
 property_value: start_mpb "1.0" xsd:float
@@ -1122,6 +1127,7 @@ def: "Infant stage that refers to an infant who is over 2 and under 3 months old
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
+relationship: immediately_preceded_by HsapDv:0000174 ! 1 month-old human stage
 xref: EV:0300040
 
 [Term]
@@ -1456,6 +1462,7 @@ def: "Child stage that refers to a child who is over 6 and under 13 years old." 
 synonym: "prepubescent" RELATED []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000081 ! child stage
+relationship: immediately_preceded_by HsapDv:0000084 ! 2-5 year-old child stage
 property_value: start_ypb "6.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 
@@ -1659,6 +1666,7 @@ def: "Human developmental stage that refers to an adult who is over 19." [Bgee:c
 synonym: "19+ years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000204 ! mature stage
+relationship: immediately_preceded_by HsapDv:0000086 ! adolescent stage
 property_value: start_ypb "19.0" xsd:float
 
 [Term]
@@ -1768,6 +1776,7 @@ namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is over 25 and under 45." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000088 ! human early adulthood stage
+relationship: immediately_preceded_by HsapDv:0000089 ! young adult stage
 property_value: start_ypb "25.0" xsd:float
 property_value: end_ypb "45.0" xsd:float
 
@@ -2040,6 +2049,7 @@ synonym: "Middle Aged + Aged" RELATED []
 synonym: "45+ years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000087 ! human adult stage
+relationship: immediately_preceded_by HsapDv:0000088 ! human early adulthood stage
 property_value: start_ypb "45.0" xsd:float
 
 [Term]
@@ -2322,6 +2332,7 @@ synonym: "elderly" RELATED []
 synonym: "65+ years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000091 ! human late adulthood stage
+relationship: immediately_preceded_by HsapDv:0000092 ! human middle aged stage
 property_value: start_ypb "65.0" xsd:float
 
 [Term]

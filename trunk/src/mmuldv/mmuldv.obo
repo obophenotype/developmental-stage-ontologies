@@ -549,6 +549,7 @@ name: aged stage
 namespace: rhesus_macaque_developmental_stage
 def: "Mature stage that refers to a rhesus who is over 25 years old, the usual upper limit for breeding age." [Bgee:curator "Bgee"]
 comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.
+xref: UBERON:0007222
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000021 ! mature stage
 property_value: start_ypb "25.0" xsd:float

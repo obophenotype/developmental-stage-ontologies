@@ -439,6 +439,7 @@ id: PpygDv:0000036
 name: aged stage
 namespace: orangutan_developmental_stage
 def: "Mature stage that refers to a orangutan who is over 35 years old." [Bgee:curator "Bgee"]
+xref: UBERON:0007222
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 relationship: part_of PpygDv:0000006 ! mature stage
 property_value: start_ypb "35.0" xsd:float

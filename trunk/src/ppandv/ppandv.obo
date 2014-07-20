@@ -95,6 +95,7 @@ def: "Juvenile stage that refers to a bonobo who is over 22 and under 23 months 
 subset: granular_stage
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000005 ! juvenile stage
+relationship: immediately_preceded_by PpanDv:0000006 ! 21-month-old stage
 property_value: start_mpb "22.0" xsd:float
 property_value: end_mpb "23.0" xsd:float
 
@@ -492,6 +493,7 @@ name: aged stage
 namespace: bonobo_developmental_stage
 def: "Mature stage that refers to a bonobo who is over 30 years old." [Bgee:curator "Bgee"]
 comment: Geriatric bonobos are usually defined as animals with 30 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23523480 and http://www.dispatch.com/content/stories/local/2011/08/14/jungle-geriatrics.html).
+xref: UBERON:0007222
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000016 ! mature stage
 relationship: preceded_by PpanDv:0000017 ! adulthood stage
