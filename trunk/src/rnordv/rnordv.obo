@@ -125,7 +125,7 @@ property_value: start_dpc "12.375" xsd:float
 property_value: end_dpc "12.5" xsd:float
 
 [Term]
-id: RnorDv:00000010
+id: RnorDv:0000010
 name: metamorphosing embryo stage
 namespace: rat_developmental_stage
 def: "Embryonic stage during which somites 43-45 (caudal) up to somite 65 (usually this is last caudal) appear." [http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages "adapted from"]
