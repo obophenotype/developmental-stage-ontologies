@@ -12,6 +12,8 @@ ontology: drerdv
 id: DrerDv:0000000
 name: zebrafish life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
+xref: ZFS:0100000
+xref: UBERON:0000105
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
 xref: UBERON:0000105
@@ -514,6 +516,7 @@ id: DrerDv:0000047
 name: cleavage stage
 def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107]
 xref: UBERON:0000107
+xref: ZFS:0000046
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 
@@ -521,6 +524,8 @@ relationship: part_of DrerDv:0000002 ! embryonic stage
 id: DrerDv:0000048
 name: blastula stage
 def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
+xref: ZFS:0000045
+xref: UBERON:0000108
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 relationship: preceded_by DrerDv:0000047 ! cleavage stage
@@ -530,6 +535,7 @@ id: DrerDv:0000049
 name: gastrula stage
 def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109]
 xref: UBERON:0000109 
+xref: ZFS:0000047
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 relationship: preceded_by DrerDv:0000048 ! blastula stage
@@ -547,6 +553,7 @@ relationship: preceded_by DrerDv:0000049 ! gastrula stage
 id: DrerDv:0000051
 name: segmentation stage
 def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111]
+xref: ZFS:0000049
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 relationship: preceded_by DrerDv:0000050 ! neurula stage
@@ -555,6 +562,8 @@ relationship: preceded_by DrerDv:0000050 ! neurula stage
 id: DrerDv:0000052
 name: pharyngula stage
 def: "Embryonic stage that follows the blastula, gastrula and neurula stages and at which all vertebrate embryos show remarkable similarities." [UBERON:0004707]
+xref: ZFS:0000050
+xref: UBERON:0004707
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000002 ! embryonic stage
 relationship: preceded_by DrerDv:0000051 ! segmentation stage
@@ -571,6 +580,8 @@ relationship: part_of DrerDv:0000002 ! embryonic stage
 id: DrerDv:0000054
 name: larval stage
 def: "Post-embryonic stage that is defined by a larva before metamorphosis into adult in animals undergoing indirect development." [UBERON:0000069]
+xref: ZFS:0000048
+xref: UBERON:0000069
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000046 ! post-embryonic stage
 
@@ -578,6 +589,8 @@ relationship: part_of DrerDv:0000046 ! post-embryonic stage
 id: DrerDv:0000055
 name: juvenile stage
 def: "Post-embryonic stage that is defined by a sexually immature animal." [UBERON:0000112]
+xref: ZFS:0000051
+xref: UBERON:0000112
 is_a: DrerDv:0000000 ! zebrafish life cycle stage
 relationship: part_of DrerDv:0000046 ! post-embryonic stage
 
