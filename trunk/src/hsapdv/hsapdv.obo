@@ -2331,6 +2331,7 @@ def: "Late adulthood that refers to an adult who is over 65." [Bgee:curator "Bge
 synonym: "elderly" RELATED []
 synonym: "65+ years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
+xref: UBERON:0007222
 relationship: part_of HsapDv:0000091 ! human late adulthood stage
 relationship: immediately_preceded_by HsapDv:0000092 ! human middle aged stage
 property_value: start_ypb "65.0" xsd:float
