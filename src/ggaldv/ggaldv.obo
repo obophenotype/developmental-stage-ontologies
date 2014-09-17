@@ -53,6 +53,7 @@ id: GgalDv:0000004
 name: hatchling stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers." [Bgee:curator "Bgee"]
+xref: UBERON:0007221
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000003 ! immature stage
 property_value: start_dpf "21.0" xsd:float
