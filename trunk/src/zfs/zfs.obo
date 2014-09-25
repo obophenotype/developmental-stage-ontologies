@@ -1,11 +1,20 @@
 format-version: 1.2
-date: 14:05:2013 14:33
-saved-by: Ceri
+date: 25:09:2014 14:17
+saved-by: yvonne
 auto-generated-by: OBO-Edit 2.3-beta5
+subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
-subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 ontology: zfs
+
+[Term]
+id: ZFA:0007000
+name: hatching
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: immediately_preceded_by ZFS:0000050 ! pharyngula
+created_by: yvonne
+creation_date: 2014-09-25T13:42:05Z
 
 [Term]
 id: ZFS:0000000
@@ -307,7 +316,7 @@ namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-9
 is_a: ZFS:0100000 ! zebrafish stage
 relationship: immediately_preceded_by ZFS:0000032 ! Pharyngula:High-pec
-relationship: part_of ZFS:0000050 ! pharyngula
+relationship: part_of ZFA:0007000 ! hatching
 
 [Term]
 id: ZFS:0000034
@@ -316,7 +325,7 @@ namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-26
 is_a: ZFS:0100000 ! zebrafish stage
 relationship: immediately_preceded_by ZFS:0000033 ! Hatching:Long-pec
-relationship: part_of ZFS:0000048 ! larva
+relationship: part_of ZFA:0007000 ! hatching
 
 [Term]
 id: ZFS:0000035
@@ -432,7 +441,7 @@ id: ZFS:0000048
 name: larva
 namespace: zebrafish_stages
 is_a: ZFS:0100000 ! zebrafish stage
-relationship: immediately_preceded_by ZFS:0000050 ! pharyngula
+relationship: immediately_preceded_by ZFA:0007000 ! hatching
 
 [Term]
 id: ZFS:0000049
