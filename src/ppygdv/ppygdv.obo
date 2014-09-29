@@ -55,6 +55,7 @@ name: nursing stage
 namespace: orangutan_developmental_stage
 def: "Orangutan developmental stage that covers the period from birth until about 3 years old, at which point individuals wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 1003 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
+xref: UBERON:0018685
 is_a: PpygDv:0000000 ! orangutan life cycle stage
 relationship: part_of PpygDv:0000003 ! immature stage
 property_value: start_dpf "229.0" xsd:float

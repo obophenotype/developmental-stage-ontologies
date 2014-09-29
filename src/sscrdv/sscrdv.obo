@@ -56,6 +56,7 @@ name: suckling stage
 namespace: pig_developmental_stage
 def: "Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 56 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa). Piglets are highly precocious and neonates appear with open eyes, good muscle tone and well developed skin and hair (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23874755). Within minutes of being born, or sometimes seconds, they will attempt to suckle. The piglets are born with sharp teeth and fight to develop a teat order as the anterior teats produce a greater quantity of milk (see http://en.wikipedia.org/wiki/Piglet_%28animal%29).
+xref: UBERON:0018685
 is_a: SscrDv:0000000 ! pig life cycle stage
 relationship: part_of SscrDv:0000003 ! immature stage
 property_value: start_dpf "115.0" xsd:float
