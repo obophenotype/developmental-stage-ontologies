@@ -56,6 +56,7 @@ name: nursing stage
 namespace: rhesus_macaque_developmental_stage
 def: "Rhesus developmental stage that covers the period from birth until about 9 months old, at which point individuals usually wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 292 days, so close to 9.7 months (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
+xref: UBERON:0018685
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000003 ! immature stage
 property_value: start_dpf "165.0" xsd:float

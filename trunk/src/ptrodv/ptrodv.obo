@@ -55,6 +55,7 @@ name: nursing stage
 namespace: chimpanzee_developmental_stage
 def: "Chimpanzee developmental stage that covers the period from birth until 3 years old, at which point individuals wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 1111 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
+xref: UBERON:0018685
 is_a: PtroDv:0000000 ! chimpanzee life cycle stage
 relationship: part_of PtroDv:0000003 ! immature stage
 property_value: start_dpf "229.0" xsd:float

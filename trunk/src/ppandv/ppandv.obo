@@ -55,6 +55,7 @@ name: nursing stage
 namespace: bonobo_developmental_stage
 def: "Bonobo developmental stage that covers the period from birth until about 21 months old, at which point individuals wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 635 days (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).
+xref: UBERON:0018685
 is_a: PpanDv:0000000 ! bonobo life cycle stage
 relationship: part_of PpanDv:0000003 ! immature stage
 property_value: start_dpf "232.0" xsd:float
