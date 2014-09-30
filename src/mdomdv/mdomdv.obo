@@ -70,6 +70,7 @@ comment: Immediately after birth, the neonate is attached to the nipple for 2 we
 xref: UBERON:0007221
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000032 ! nursing stage
+relationship: preceded_by MdomDv:0000002 ! prenatal stage
 property_value: start_dpf "15.0" xsd:float
 property_value: start_wpb "0.0" xsd:float
 property_value: end_wpb "2.0" xsd:float
@@ -82,6 +83,7 @@ def: "Nursing stage that covers the period from 2 weeks old, when the young is t
 comment: Opossum weaning is at 53 days (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000032 ! nursing stage
+relationship: immediately_preceded_by MdomDv:0000004 ! neonate stage
 property_value: start_wpb "2.0" xsd:float
 property_value: end_wpb "7.5" xsd:float
 
