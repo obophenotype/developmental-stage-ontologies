@@ -229,6 +229,7 @@ id: RnorDv:0000018
 name: 3-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 3 and under 4 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000015 ! mature stage
 relationship: immediately_preceded_by RnorDv:0000017 ! 11-week-old stage
@@ -495,6 +496,7 @@ name: 24-26-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 24 and under 27 months old." [Bgee:curator "Bgee"]
 comment: This stage was created to match age provided by GEO Rat expression data.
+subset: granular_stage
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000015 ! mature stage
 relationship: preceded_by RnorDv:0000039 ! 23-month-old stage
