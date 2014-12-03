@@ -16,3 +16,7 @@ Currently it includes both embryonic stages and adult stages.
 = Browse =
 
 This is not yet registered, so you cannot browse in OntoBee.
+
+= Project Directory =
+
+* [https://code.google.com/p/developmental-stage-ontologies/source/browse/#svn%2Ftrunk%2Fsrc%2Fhsapdv src/hsapdv]
