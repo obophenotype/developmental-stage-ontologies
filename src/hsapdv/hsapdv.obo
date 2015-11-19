@@ -51,6 +51,7 @@ relationship: part_of HsapDv:0000045 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "56.0" xsd:float
 xref: EV:0300001
+xref: FMA:72652 ! embryonic stage
 
 [Term]
 id: HsapDv:0000003
@@ -65,6 +66,7 @@ xref: XUO:0000130
 xref: EHDAA2:CS01 ! CS01
 xref: UBERON:0000106
 synonym: "CS01" EXACT [EHDAA2:CS01]
+xref: FMA:295882 ! carnegie stage 1
 
 [Term]
 id: HsapDv:0000004
@@ -89,6 +91,7 @@ relationship: preceded_by HsapDv:0000003 ! Carnegie stage 01
 xref: EHDAA2:CS02 ! CS02
 synonym: "CS02" EXACT [EHDAA2:CS02]
 property_value: start_dpf "2.5" xsd:float
+xref: FMA:295884 ! carnegie stage 2
 
 [Term]
 id: HsapDv:0000205
@@ -124,6 +127,7 @@ xref: EHDAA2:CS03 ! CS03
 synonym: "CS03" EXACT [EHDAA2:CS03]
 property_value: start_dpf "4.5" xsd:float
 relationship: immediately_preceded_by HsapDv:0000205 ! morula stage
+xref: FMA:295907 ! carnegie stage 3
 
 [Term]
 id: HsapDv:0000008
@@ -139,6 +143,7 @@ relationship: immediately_preceded_by HsapDv:0000007 ! Carnegie stage 03
 xref: EHDAA2:CS04 ! CS04
 synonym: "CS04" EXACT [EHDAA2:CS04]
 property_value: start_dpf "5.5" xsd:float
+xref: FMA:295908 ! carnegie stage 4
 
 [Term]
 id: HsapDv:0000009
@@ -153,6 +158,7 @@ xref: XUO:0000134
 relationship: immediately_preceded_by HsapDv:0000008 ! Carnegie stage 04
 synonym: "CS04" EXACT []
 property_value: start_dpf "7.0" xsd:float
+xref: FMA:295909 ! carnegie stage 5
 
 [Term]
 id: HsapDv:0000031
@@ -165,6 +171,7 @@ relationship: immediately_preceded_by HsapDv:0000009 ! Carnegie stage 05
 xref: XUO:0000187
 xref: EHDAA2:CS05a ! CS05a
 synonym: "CS05a" EXACT [EHDAA2:CS05a]
+xref: FMA:296707 ! carnegie stage 5a
 
 [Term]
 id: HsapDv:0000032
@@ -178,6 +185,7 @@ property_value: has_stage_marker EHDAA2:0004715 ! trophoblastic lacunae
 xref: XUO:0000188
 xref: EHDAA2:CS05b ! CS05b
 synonym: "CS05b" EXACT [EHDAA2:CS05b]
+xref: FMA:296709 ! carnegie stage 5b
 
 [Term]
 id: HsapDv:0000033
@@ -190,6 +198,7 @@ relationship: immediately_preceded_by HsapDv:0000032 ! Carnegie stage 05b
 xref: XUO:0000189
 xref: EHDAA2:CS05c ! CS05c
 synonym: "CS05c" EXACT [EHDAA2:CS05c]
+xref: FMA:296711 ! carnegie stage 5c
 
 [Term]
 id: HsapDv:0000010
@@ -216,6 +225,7 @@ property_value: has_stage_marker EHDAA2:0000474 ! extraembryonic mesoderm
 property_value: has_stage_marker EHDAA2:0001525 ! primitive streak
 synonym: "CS06" EXACT []
 property_value: start_dpf "13.0" xsd:float
+xref: FMA:295910 ! carnegie stage 6
 
 [Term]
 id: HsapDv:0000034
@@ -271,6 +281,7 @@ property_value: has_stage_marker EHDAA2:0001279 ! notochordal process
 xref: EHDAA2:CS07 ! CS07
 synonym: "CS07" EXACT [EHDAA2:CS07]
 property_value: start_dpf "15.0" xsd:float
+xref: FMA:295911 ! carnegie stage 7
 
 [Term]
 id: HsapDv:0000014
@@ -287,6 +298,7 @@ relationship: immediately_preceded_by HsapDv:0000013 ! Carnegie stage 07
 xref: EHDAA2:CS08 ! CS08
 synonym: "CS08" EXACT [EHDAA2:CS08]
 property_value: start_dpf "17.0" xsd:float
+xref: FMA:295912 ! carnegie stage 8
 
 [Term]
 id: HsapDv:0000015
@@ -316,6 +328,7 @@ property_value: has_stage_marker EHDAA2:0000214 ! cardiogenic splanchnopleure
 xref: EHDAA2:CS09 ! CS09
 synonym: "CS09" EXACT [EHDAA2:CS09]
 property_value: start_dpf "19.0" xsd:float
+xref: FMA:295913 ! carnegie stage 9
 
 [Term]
 id: HsapDv:0000017
@@ -340,6 +353,7 @@ property_value: has_stage_marker GO:0001843 ! neural tube closure
 xref: EHDAA2:CS10 ! CS10
 synonym: "CS10" EXACT [EHDAA2:CS10]
 property_value: start_dpf "22.0" xsd:float
+xref: FMA:295914 ! carnegie stage 10
 
 [Term]
 id: HsapDv:0000018
@@ -362,6 +376,7 @@ relationship: immediately_preceded_by HsapDv:0000017 ! Carnegie stage 10
 xref: EHDAA2:CS11 ! CS11
 synonym: "CS11" EXACT [EHDAA2:CS11]
 property_value: start_dpf "23.0" xsd:float
+xref: FMA:295915 ! carnegie stage 11
 
 [Term]
 id: HsapDv:0000019
@@ -386,6 +401,7 @@ relationship: immediately_preceded_by HsapDv:0000018 ! Carnegie stage 11
 xref: EHDAA2:CS12 ! CS12
 synonym: "CS12" EXACT [EHDAA2:CS12]
 property_value: start_dpf "26.0" xsd:float
+xref: FMA:295916 ! carnegie stage 12
 
 [Term]
 id: HsapDv:0000020
@@ -403,6 +419,7 @@ relationship: immediately_preceded_by HsapDv:0000019 ! Carnegie stage 12
 xref: EHDAA2:CS13 ! CS13
 synonym: "CS13" EXACT [EHDAA2:CS13]
 property_value: start_dpf "28.0" xsd:float
+xref: FMA:295917 ! carnegie stage 13
 
 [Term]
 id: HsapDv:0000021
@@ -419,6 +436,7 @@ relationship: immediately_preceded_by HsapDv:0000020 ! Carnegie stage 13
 xref: EHDAA2:CS14 ! CS14
 synonym: "CS14" EXACT [EHDAA2:CS14]
 property_value: start_dpf "31.0" xsd:float
+xref: FMA:295918 ! carnegie stage 14
 
 [Term]
 id: HsapDv:0000022
@@ -438,6 +456,8 @@ relationship: immediately_preceded_by HsapDv:0000021 ! Carnegie stage 14
 xref: EHDAA2:CS15 ! CS15
 synonym: "CS15" EXACT [EHDAA2:CS15]
 property_value: start_dpf "35.0" xsd:float
+xref: FMA:295928 ! carnegie stage 15
+
 
 [Term]
 id: HsapDv:0000023
@@ -455,6 +475,7 @@ relationship: immediately_preceded_by HsapDv:0000022 ! Carnegie stage 15
 xref: EHDAA2:CS16 ! CS16
 synonym: "CS16" EXACT [EHDAA2:CS16]
 property_value: start_dpf "37.0" xsd:float
+xref: FMA:295919 ! carnegie stage 16
 
 [Term]
 id: HsapDv:0000024
@@ -469,6 +490,7 @@ relationship: immediately_preceded_by HsapDv:0000023 ! Carnegie stage 16
 xref: EHDAA2:CS17 ! CS17
 synonym: "CS17" EXACT [EHDAA2:CS17]
 property_value: start_dpf "42.0" xsd:float
+xref: FMA:295920 ! carnegie stage 17
 
 [Term]
 id: HsapDv:0000025
@@ -484,6 +506,7 @@ property_value: has_stage_marker GO:0001503 ! ossification
 xref: EHDAA2:CS18 ! CS18
 synonym: "CS18" EXACT [EHDAA2:CS18]
 property_value: start_dpf "44.0" xsd:float
+xref: FMA:295921 ! carnegie stage 18
 
 [Term]
 id: HsapDv:0000026
@@ -498,6 +521,7 @@ relationship: immediately_preceded_by HsapDv:0000025 ! Carnegie stage 18
 xref: EHDAA2:CS19 ! CS19
 synonym: "CS19" EXACT [EHDAA2:CS19]
 property_value: start_dpf "48.0" xsd:float
+xref: FMA:295922 ! carnegie stage 19
 
 [Term]
 id: HsapDv:0000027
@@ -512,6 +536,7 @@ relationship: immediately_preceded_by HsapDv:0000026 ! Carnegie stage 19
 xref: EHDAA2:CS20 ! CS20
 synonym: "CS20" EXACT [EHDAA2:CS20]
 property_value: start_dpf "51.0" xsd:float
+xref: FMA:295923 ! carnegie stage 20
 
 [Term]
 id: HsapDv:0000028
@@ -525,6 +550,7 @@ xref: XUO:0000150
 relationship: immediately_preceded_by HsapDv:0000027 ! Carnegie stage 20
 synonym: "CS21" EXACT []
 property_value: start_dpf "53.0" xsd:float
+xref: FMA:295924 ! carnegie stage 21
 
 [Term]
 id: HsapDv:0000029
@@ -540,6 +566,7 @@ xref: XUO:0000151
 relationship: immediately_preceded_by HsapDv:0000028 ! Carnegie stage 21
 synonym: "CS22" EXACT []
 property_value: start_dpf "54.0" xsd:float
+xref: FMA:295925 ! carnegie stage 22
 
 [Term]
 id: HsapDv:0000030
@@ -553,6 +580,8 @@ xref: XUO:0000152
 relationship: immediately_preceded_by HsapDv:0000029 ! Carnegie stage 22
 synonym: "CS23" EXACT []
 property_value: start_dpf "56.0" xsd:float
+xref: FMA:295926 ! carnegie stage 23
+xref: FMA:63631 ! fetal stage
 
 [Term]
 id: HsapDv:0000037

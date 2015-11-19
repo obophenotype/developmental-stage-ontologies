@@ -23,3 +23,7 @@ clean:
 	IFS=$$IFS_OLD; \
 	util/make-bridge-axioms.pl $$taxId "$$speciesName" $*.obo > $*$(BRIDGE_UBERON_SUFFIX); \
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $*.obo $*$(BRIDGE_UBERON_SUFFIX) --merge-support-ontologies  --reasoner elk --merge-species-ontology -s "$$speciesName" -t $$taxId -o -f obo --no-check $@
+
+ALL_OBO := $(patsubst %, */%.obo,$(ONT_PREFIXES))
+ssso-merged.obo: $(ALL_OBO)
+	owltools $^ --merge-support-ontologies -o -f obo --no-check $@
