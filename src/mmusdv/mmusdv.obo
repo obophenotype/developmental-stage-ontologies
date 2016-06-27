@@ -827,6 +827,7 @@ property_value: end_wpb "1.143" xsd:float
 is_obsolete: true
 consider: MmusDv:0000036
 consider: MmusDv:0000112
+consider: MmusDv:0000113
 
 [Term]
 id: MmusDv:0000113
