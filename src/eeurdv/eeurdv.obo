@@ -37,13 +37,15 @@ property_value: end_dpf "30.0" xsd:float
 id: EeurDv:0000003
 name: immature stage
 namespace: hedgehog_developmental_stage
-def: "hedgehog developmental stage that covers the period from birth until 253 days old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
-comment: (http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus).
+def: "hedgehog developmental stage that covers the period from birth until aprox. 8.4 months old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+comment: hedgehogs reach sexual maturity at 253 days old. ref: http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus.
 xref: UBERON:0000112
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
 relationship: part_of EeurDv:0000001 ! hedgehog life cycle
 relationship: immediately_preceded_by EeurDv:0000002 ! prenatal stage
 property_value: start_dpf "30.0" xsd:float
+property_value: start_dpb "0.0" xsd:float
+property_value: end_dpb "253.0" xsd:float
 property_value: start_mpb "0.0" xsd:float
 property_value: end_mpb "8.4" xsd:float
 
@@ -52,24 +54,26 @@ id: EeurDv:0000004
 name: mature stage
 namespace: hedgehog_developmental_stage
 synonym: "mature" EXACT []
-def: "hedgehog developmental stage that refers to a sexually mature adult hedgehog, which is over about 253 days old." [Bgee:curator "Bgee"]
-comment: (http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus).
+def: "hedgehog developmental stage that refers to a sexually mature adult hedgehog, which is over aprox. 8.4 months old." [Bgee:curator "Bgee"]
+comment: hedgehogs reach sexual maturity at 253 days old. ref: http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus.
 xref: UBERON:0000113
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
 relationship: part_of EeurDv:0000001 ! hedgehog life cycle
 relationship: immediately_preceded_by EeurDv:0000003 ! immature stage
+property_value: start_dpb "253.0" xsd:float
 property_value: start_mpb "8.4" xsd:float
 
 [Term]
 id: EeurDv:0000005
 name: adulthood stage
 namespace: hedgehog_developmental_stage
-def: "Mature stage that refers to a adult hedgehog which is over 253 days old, lower bound age of sexual maturity, and under 5 years, upper bound before old age." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult hedgehog which is over aprox. 8.4 months old, lower bound age of sexual maturity, and under 5 years, lower bound of old age." [Bgee:curator "Bgee"]
 comment: Data are come from observation in the wild. Ref: http://wildpro.twycrosszoo.org/S/0MInsectivor/Erinaceidae/Erinaceus/Erinaceus_europaeus/07WEHLifePhys.htm.
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
 relationship: part_of EeurDv:0000004 ! mature stage
+property_value: start_dpb "253.0" xsd:float
 property_value: start_mpb "8.4" xsd:float
 property_value: end_mpb "60.0" xsd:float
 
@@ -77,13 +81,14 @@ property_value: end_mpb "60.0" xsd:float
 id: EeurDv:0000006
 name: aged stage
 namespace: hedgehog_developmental_stage
-def: "Mature stage that refers to a adult hedgehog which is over 60 months old." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult hedgehog which is over 5 years old." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of hedgehogs. They can live up to 12 years in captivity (http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus).
 xref: UBERON:0007222
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
 relationship: part_of EeurDv:0000004 ! mature stage
 relationship: immediately_preceded_by EeurDv:0000005 ! adulthood stage
 property_value: start_mpb "60.0" xsd:float
+property_value: start_ypb "5.0" xsd:float
 
 [Typedef]
 id: part_of
@@ -140,6 +145,24 @@ property_value: has_unit UO:0000033 ! day
 is_a: has_end_time
 
 [Typedef]
+id: start_dpb
+name: start, days post birth
+def: "Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_start_time
+
+[Typedef]
+id: end_dpb
+name: end, days post birth
+def: "Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_end_time
+
+[Typedef]
 id: start_mpb
 name: start, months post birth
 def: "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the child is one month old has the value 1." []
@@ -155,4 +178,22 @@ def: "Count of number of months intervening between the end of the stage and the
 is_metadata_tag: true
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035 ! month
+is_a: has_end_time
+
+[Typedef]
+id: start_ypb
+name: start, years post birth
+def: "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit  UO:0000036 ! year
+is_a: has_start_time
+
+[Typedef]
+id: end_ypb
+name: end, years post birth
+def: "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit  UO:0000036 ! year
 is_a: has_end_time
