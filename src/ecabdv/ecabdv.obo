@@ -37,7 +37,7 @@ property_value: end_dpf "337.0" xsd:float
 id: EcabDv:0000003
 name: immature stage
 namespace: horse_developmental_stage
-def: "horse developmental stage that covers the period from birth until 943 days old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+def: "horse developmental stage that covers the period from birth until aprox. 2.6 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Male and female horse reach sexual maturity in different ages: 973 days post-birth for females and 914 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Equus_caballus). Thus, we arbitrary set the boundary between immature and mature stages to 943 days old, i.e. 2.6 years (mean value of male and female maturity).
 xref: UBERON:0000112
 is_a: EcabDv:0000000 ! horse life cycle stage
@@ -46,6 +46,7 @@ relationship: immediately_preceded_by EcabDv:0000002 ! prenatal stage
 property_value: start_dpf "337.0" xsd:float
 property_value: start_mpb "0.0" xsd:float
 property_value: end_mpb "31.4" xsd:float
+property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "2.6" xsd:float
 
 [Term]
@@ -53,7 +54,7 @@ id: EcabDv:0000004
 name: mature stage
 namespace: horse_developmental_stage
 synonym: "mature" EXACT []
-def: "horse developmental stage that refers to a sexually mature adult horse, which is over about 943 days old." [Bgee:curator "Bgee"]
+def: "horse developmental stage that refers to a sexually mature adult horse, which is over aprox. 2.6 years old." [Bgee:curator "Bgee"]
 comment: Male and female horse reach sexual maturity in different ages: 973 days post-birth for females and 914 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Equus_caballus). Thus, we arbitrary set the boundary between immature and mature stages to 943 days old, i.e. 2.6 years (mean value of male and female maturity).
 xref: UBERON:0000113
 is_a: EcabDv:0000000 ! horse life cycle stage
@@ -66,15 +67,15 @@ property_value: start_ypb "2.6" xsd:float
 id: EcabDv:0000005
 name: adulthood stage
 namespace: horse_developmental_stage
-def: "Mature stage that refers to a adult horse which is over 943 days old, lower bound of adulthood, and under 20 years, lower bound of senior age." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult horse which is over aprox. 2.6 years old, lower bound of adulthood, and under 20 years, lower bound of senior age." [Bgee:curator "Bgee"]
 comment: Note that adulthood in horses is very heterogenous, depending on factors such as the size and/or the breed. Ref: http://www.dspca.ie/BasicEquineCare
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
 is_a: EcabDv:0000000 ! horse life cycle stage
 relationship: part_of EcabDv:0000004 ! mature stage
 property_value: start_mpb "31.4" xsd:float
-property_value: start_ypb "2.6" xsd:float
 property_value: end_mpb "240.0" xsd:float
+property_value: start_ypb "2.6" xsd:float
 property_value: end_ypb "20.0" xsd:float
 
 [Term]
