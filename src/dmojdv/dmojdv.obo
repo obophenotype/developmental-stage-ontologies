@@ -17,7 +17,6 @@ id: DmojDv:0000001
 name: Drosophila mojavensis life cycle
 namespace: Dmojavensis_developmental_stage
 def: "Temporal interval that defines Drosophila mojavensis life from fertilisation to death." [Bgee:curator "Bgee"]
-xref: UBERON:0000104
 xref: FBdv:00000000
 is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
 

@@ -17,7 +17,6 @@ id: DvirDv:0000001
 name: Drosophila virilis life cycle
 namespace: Dvirilis_developmental_stage
 def: "Temporal interval that defines Drosophila virilis life from fertilisation to death." [Bgee:curator "Bgee"]
-xref: UBERON:0000104
 xref: FBdv:00000000
 is_a: DvirDv:00000000 ! Drosophila virilis life cycle stage
 

@@ -17,7 +17,6 @@ id: DanaDv:0000001
 name: Drosophila ananassae life cycle
 namespace: Dananassae_developmental_stage
 def: "Temporal interval that defines Drosophila ananassae life from fertilisation to death." [Bgee:curator "Bgee"]
-xref: UBERON:0000104
 xref: FBdv:00000000
 is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
 

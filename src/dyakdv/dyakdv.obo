@@ -17,7 +17,6 @@ id: DyakDv:0000001
 name: Drosophila yakuba life cycle
 namespace: Dyakuba_developmental_stage
 def: "Temporal interval that defines Drosophila yakuba life from fertilisation to death." [Bgee:curator "Bgee"]
-xref: UBERON:0000104
 xref: FBdv:00000000
 is_a: DyakDv:00000000 ! Drosophila yakuba life cycle stage
 

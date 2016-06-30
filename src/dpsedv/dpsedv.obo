@@ -17,7 +17,6 @@ id: DpseDv:0000001
 name: Drosophila pseudobscura life cycle
 namespace: Dpseudobscura_developmental_stage
 def: "Temporal interval that defines Drosophila pseudobscura life from fertilisation to death." [Bgee:curator "Bgee"]
-xref: UBERON:0000104
 xref: FBdv:00000000
 is_a: DpseDv:00000000 ! Drosophila pseudobscura life cycle stage
 
