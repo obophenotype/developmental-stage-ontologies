@@ -1,7 +1,7 @@
 format-version: 1.2
 date: 19:06:2016 14:23
 saved-by: ame
-default-namespace: Dpsenassae_stages_ontology
+default-namespace: Dpseudobscura_stages_ontology
 ontology: dpsedv
 
 [Term]
@@ -15,6 +15,7 @@ xref: UBERON:0000105
 [Term]
 id: DpseDv:0000001
 name: Drosophila pseudobscura life cycle
+namespace: Dpseudobscura_developmental_stage
 def: "Temporal interval that defines Drosophila pseudobscura life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
 xref: FBdv:00000000
@@ -23,6 +24,7 @@ is_a: DpseDv:00000000 ! Drosophila pseudobscura life cycle stage
 [Term]
 id: DpseDv:00000002
 name: embryonic stage
+namespace: Dpseudobscura_developmental_stage
 def: "The stage of Drosophila pseudobscura life-cycle from fertilization to hatching."
 xref: FBdv:00005289
 is_a: DpseDv:00000000 ! Drosophila pseudobscura life cycle stage
@@ -30,6 +32,7 @@ is_a: DpseDv:00000000 ! Drosophila pseudobscura life cycle stage
 [Term]
 id: DpseDv:00000003
 name: larval stage
+namespace: Dpseudobscura_developmental_stage
 def: "The stage of Drosophila pseudobscura life-cycle from hatching to the beginning of puparium formation."
 xref: FBdv:00005336
 is_a: DpseDv:00000000 ! Drosophila pseudobscura life cycle stage
@@ -38,6 +41,7 @@ relationship: immediately_preceded_by DpseDv:00000002 ! embryonic stage
 [Term]
 id: DpseDv:00000004
 name: P-stage
+namespace: Dpseudobscura_developmental_stage
 def: "The stage of Drosophila pseudobscura life-cycle from the formation of the puparium (beginning of the prepupal stage) to eclosion."
 xref: FBdv:00007001
 is_a: DpseDv:00000000 ! Drosophila pseudobscura life cycle stage
@@ -46,6 +50,7 @@ relationship: immediately_preceded_by DpseDv:00000003 ! larval stage
 [Term]
 id: DpseDv:00000005
 name: adult stage
+namespace: Dpseudobscura_developmental_stage
 def: "The stage of Drosophila pseudobscura life-cycle from eclosion to death."
 xref: FBdv:00005369
 is_a: DpseDv:00000000 ! Drosophila pseudobscura life cycle stage
@@ -54,6 +59,7 @@ relationship: immediately_preceded_by DpseDv:00000004 ! P-stage
 [Term]
 id: DpseDv:00000006
 name: immature adult stage
+namespace: Dpseudobscura_developmental_stage
 def: "The developmental stage of the adult Drosophila pseudobscura life-cycle from eclosion until tanning is complete."
 comment: Info on sexual maturity: 3 days post eclosion for females, 1 day post-eclosion for males post-eclosion (http://www.pnas.org/content/92/23/10614.full.pdf). We arbitrary chose to set the lower bound of sexual maturity to 2 days post-eclosion, the mean value between sexes.
 xref: FBdv:00007025
@@ -64,6 +70,7 @@ property_value: end_dph "2.0" xsd:float
 [Term]
 id: DpseDv:00000007
 name: mature adult stage
+namespace: Dpseudobscura_developmental_stage
 def: "The developmental stage of the adult Drosophila pseudobscura life-cycle when tanning is complete to death."
 comment: Info on sexual maturity: 3 days post eclosion for females, 1 day post-eclosion for males post-eclosion (http://www.pnas.org/content/92/23/10614.full.pdf). We arbitrary chose to set the lower bound of sexual maturity to 2 days post-eclosion, the mean value between sexes.
 xref: FBdv:00007026
