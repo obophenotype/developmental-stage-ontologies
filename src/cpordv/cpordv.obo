@@ -37,13 +37,15 @@ property_value: end_dpf "68.0" xsd:float
 id: CporDv:0000003
 name: immature stage
 namespace: cavy_developmental_stage
-def: "cavy developmental stage that covers the period from birth until 71 days old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+def: "cavy developmental stage that covers the period from birth until aprox. 2.3 months old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Male and female cavy reach sexual maturity in different ages: 66 days post-birth for females and 76 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Cavia_porcellus). Thus, we arbitrary set the boundary between immature and mature stages to 71 days old (mean value of male and female maturity).
 xref: UBERON:0000112
 is_a: CporDv:0000000 ! cavy life cycle stage
 relationship: part_of CporDv:0000001 ! cavy life cycle
 relationship: immediately_preceded_by CporDv:0000002 ! prenatal stage
 property_value: start_dpf "68.0" xsd:float
+property_value: start_dpb "0.0" xsd:float
+property_value: end_dpb "71" xsd:float
 property_value: start_mpb "0.0" xsd:float
 property_value: end_mpb "2.3" xsd:float
 
@@ -52,19 +54,20 @@ id: CporDv:0000004
 name: mature stage
 namespace: cavy_developmental_stage
 synonym: "mature" EXACT []
-def: "cavy developmental stage that refers to a sexually mature adult cavy, which is over about 71 days old." [Bgee:curator "Bgee"]
+def: "cavy developmental stage that refers to a sexually mature adult cavy, which is over aprox. 2.3 months old." [Bgee:curator "Bgee"]
 comment: Male and female cavy reach sexual maturity in different ages: 66 days post-birth for females and 76 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Cavia_porcellus). Thus, we arbitrary set the boundary between immature and mature stages to 71 days old (mean value of male and female maturity).
 xref: UBERON:0000113
 is_a: CporDv:0000000 ! cavy life cycle stage
 relationship: part_of CporDv:0000001 ! cavy life cycle
 relationship: immediately_preceded_by CporDv:0000003 ! immature stage
+property_value: start_dpb "71" xsd:float
 property_value: start_mpb "2.3" xsd:float
 
 [Term]
 id: CporDv:0000005
 name: adulthood stage
 namespace: cavy_developmental_stage
-def: "Mature stage that refers to a adult cavy which is over 71 days and under 2 years: these bounds are defined by sexual maturity of cavys used for commercial breeding." [Bgee:curator "Bgee"]
+def: "Mature stage that refers to a adult cavy which is over aprox. 2.3 months old and under 2 years: these bounds are defined by sexual maturity of cavys used for commercial breeding." [Bgee:curator "Bgee"]
 comment: ref https://embryology.med.unsw.edu.au/embryology/index.php/Guinea_Pig_Development
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
@@ -84,6 +87,7 @@ is_a: CporDv:0000000 ! cavy life cycle stage
 relationship: part_of CporDv:0000004 ! mature stage
 relationship: immediately_preceded_by CporDv:0000005 ! adulthood stage
 property_value: start_mpb "24.0" xsd:float
+property_value: start_ypb "2.0" xsd:float
 
 [Typedef]
 id: part_of
@@ -140,6 +144,24 @@ property_value: has_unit UO:0000033 ! day
 is_a: has_end_time
 
 [Typedef]
+id: start_dpb
+name: start, days post birth
+def: "Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_start_time
+
+[Typedef]
+id: end_dpb
+name: end, days post birth
+def: "Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_end_time
+
+[Typedef]
 id: start_mpb
 name: start, months post birth
 def: "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the child is one month old has the value 1." []
@@ -155,4 +177,22 @@ def: "Count of number of months intervening between the end of the stage and the
 is_metadata_tag: true
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035 ! month
+is_a: has_end_time
+
+[Typedef]
+id: start_ypb
+name: start, years post birth
+def: "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit  UO:0000036 ! year
+is_a: has_start_time
+
+[Typedef]
+id: end_ypb
+name: end, years post birth
+def: "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit  UO:0000036 ! year
 is_a: has_end_time
