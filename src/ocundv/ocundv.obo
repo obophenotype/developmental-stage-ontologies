@@ -17,7 +17,7 @@ xref: UBERON:0000105
 id: OcunDv:0000001
 name: rabbit life cycle
 namespace: rabbit_developmental_stage
-def: "Temporal interval that defines rabbit life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+def: "Temporal interval that defines rabbit life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
 is_a: OcunDv:0000000 ! rabbit life cycle stage
 
@@ -25,7 +25,7 @@ is_a: OcunDv:0000000 ! rabbit life cycle stage
 id: OcunDv:0000002
 name: prenatal stage
 namespace: rabbit_developmental_stage
-def: "rabbit life cycle that starts with fertilization and ends with birth" [Bgee:curator "Bgee"]
+def: "rabbit life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
 comment: estimated gestation period is 30 days (http://genomics.senescence.info/species/entry.php?species=Oryctolagus_cuninculus).
 xref: UBERON:0000068
 is_a: OcunDv:0000000 ! rabbit life cycle stage
@@ -37,7 +37,7 @@ property_value: end_dpf "30.0" xsd:float
 id: OcunDv:0000003
 name: immature stage
 namespace: rabbit_developmental_stage
-def: "rabbit developmental stage that covers the period from birth until aprox. 2.6 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+def: "rabbit life cycle stage that starts at birth and ends at the reach of sexual maturity (2.6 months post-birth)." [Bgee:curator "Bgee"]
 comment: rabbits reach sexual maturity at 730 days old: http://genomics.senescence.info/species/entry.php?species=Oryctolagus_cuninculus).
 xref: UBERON:0000112
 is_a: OcunDv:0000000 ! rabbit life cycle stage
@@ -56,7 +56,7 @@ id: OcunDv:0000004
 name: mature stage
 namespace: rabbit_developmental_stage
 synonym: "mature" EXACT []
-def: "rabbit developmental stage that refers to a sexually mature adult rabbit, which is over about 2.6 years old." [Bgee:curator "Bgee"]
+def: "rabbit life cycle stage that starts at sexual maturity (2.6 months post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: rabbits reach sexual maturity at 730 days old: http://genomics.senescence.info/species/entry.php?species=Oryctolagus_cuninculus).
 xref: UBERON:0000113
 is_a: OcunDv:0000000 ! rabbit life cycle stage
@@ -70,7 +70,7 @@ property_value: start_ypb "2.6" xsd:float
 id: OcunDv:0000005
 name: adulthood stage
 namespace: rabbit_developmental_stage
-def: "Mature stage that refers to a adult rabbit which is over aprox. 2.6 years, lower bound of adulthood, and under 6 years, lower bound of senior age." [Bgee:curator "Bgee"]
+def: "rabbit life cycle stage that starts at sexual maturity (2.6 months post-birth) and ends at senior age (6 years post-birth)." [Bgee:curator "Bgee"]
 comment: Ref: http://www.melbournerabbitclinic.com/wordpress/?page_id=488
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
@@ -85,7 +85,7 @@ property_value: end_ypb "6.0" xsd:float
 id: OcunDv:0000006
 name: aged stage
 namespace: rabbit_developmental_stage
-def: "Mature stage that refers to a adult rabbit which is over 6 years." [Bgee:curator "Bgee"]
+def: "rabbit life cycle stage that starts at senior age (6 years post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of rabbits. They can live up to 12 years in captivity (http://genomics.senescence.info/species/entry.php?species=Oryctolagus_cuninculus).
 xref: UBERON:0007222
 is_a: OcunDv:0000000 ! rabbit life cycle stage

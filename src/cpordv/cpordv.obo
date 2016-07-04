@@ -17,7 +17,7 @@ xref: UBERON:0000105
 id: CporDv:0000001
 name: cavy life cycle
 namespace: cavy_developmental_stage
-def: "Temporal interval that defines cavy life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+def: "Temporal interval that defines cavy life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
 is_a: CporDv:0000000 ! cavy life cycle stage
 
@@ -25,7 +25,7 @@ is_a: CporDv:0000000 ! cavy life cycle stage
 id: CporDv:0000002
 name: prenatal stage
 namespace: cavy_developmental_stage
-def: "cavy life cycle that starts with fertilization and ends with birth" [Bgee:curator "Bgee"]
+def: "cavy life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
 comment: estimated gestation period is 68 days (http://genomics.senescence.info/species/entry.php?species=Cavia_porcellus).
 xref: UBERON:0000068
 is_a: CporDv:0000000 ! cavy life cycle stage
@@ -37,7 +37,7 @@ property_value: end_dpf "68.0" xsd:float
 id: CporDv:0000003
 name: immature stage
 namespace: cavy_developmental_stage
-def: "cavy developmental stage that covers the period from birth until approx. 2.3 months old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+def: "cavy life cycle stage that starts at birth and ends at the reach of sexual maturity (2.3 months post-birth)." [Bgee:curator "Bgee"]
 comment: Male and female cavy reach sexual maturity in different ages: 66 days post-birth for females and 76 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Cavia_porcellus). Thus, we arbitrary set the boundary between immature and mature stages to 71 days old (mean value of male and female maturity).
 xref: UBERON:0000112
 is_a: CporDv:0000000 ! cavy life cycle stage
@@ -54,7 +54,7 @@ id: CporDv:0000004
 name: mature stage
 namespace: cavy_developmental_stage
 synonym: "mature" EXACT []
-def: "cavy developmental stage that refers to a sexually mature adult cavy, which is over approx. 2.3 months old." [Bgee:curator "Bgee"]
+def: "cavy life cycle stage that starts at sexual maturity (2.3 months post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: Male and female cavy reach sexual maturity in different ages: 66 days post-birth for females and 76 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Cavia_porcellus). Thus, we arbitrary set the boundary between immature and mature stages to 71 days old (mean value of male and female maturity).
 xref: UBERON:0000113
 is_a: CporDv:0000000 ! cavy life cycle stage
@@ -67,7 +67,7 @@ property_value: start_mpb "2.3" xsd:float
 id: CporDv:0000005
 name: adulthood stage
 namespace: cavy_developmental_stage
-def: "Mature stage that refers to a adult cavy which is over aprox. 2.3 months old and under 2 years: these bounds are defined by sexual maturity of cavys used for commercial breeding." [Bgee:curator "Bgee"]
+def: "cavy life cycle stage that starts at sexual maturity (2.3 months post-birth) and ends at senior age (2 years post-birth)." [Bgee:curator "Bgee"]
 comment: ref https://embryology.med.unsw.edu.au/embryology/index.php/Guinea_Pig_Development
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
@@ -80,7 +80,7 @@ property_value: end_mpb "24.0" xsd:float
 id: CporDv:0000006
 name: aged stage
 namespace: cavy_developmental_stage
-def: "Mature stage that refers to a adult cavy which is over 2 years." [Bgee:curator "Bgee"]
+def: "cavy life cycle stage that starts at senior age (2 years post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of cavys. They can live up to 12 years in captivity (http://genomics.senescence.info/species/entry.php?species=Cavia_porcellus).
 xref: UBERON:0007222
 is_a: CporDv:0000000 ! cavy life cycle stage

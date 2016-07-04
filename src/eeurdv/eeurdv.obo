@@ -17,7 +17,7 @@ xref: UBERON:0000105
 id: EeurDv:0000001
 name: hedgehog life cycle
 namespace: hedgehog_developmental_stage
-def: "Temporal interval that defines hedgehog life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+def: "Temporal interval that defines hedgehog life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
 
@@ -25,7 +25,7 @@ is_a: EeurDv:0000000 ! hedgehog life cycle stage
 id: EeurDv:0000002
 name: prenatal stage
 namespace: hedgehog_developmental_stage
-def: "hedgehog life cycle that starts with fertilization and ends with birth" [Bgee:curator "Bgee"]
+def: "hedgehog life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
 comment: estimated gestation period is 30 days (http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus).
 xref: UBERON:0000068
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
@@ -37,7 +37,7 @@ property_value: end_dpf "30.0" xsd:float
 id: EeurDv:0000003
 name: immature stage
 namespace: hedgehog_developmental_stage
-def: "hedgehog developmental stage that covers the period from birth until aprox. 8.4 months old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+def: "hedgehog life cycle stage that starts at birth and ends at the reach of sexual maturity (8.4 months post-birth)." [Bgee:curator "Bgee"]
 comment: hedgehogs reach sexual maturity at 253 days old. ref: http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus.
 xref: UBERON:0000112
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
@@ -54,7 +54,7 @@ id: EeurDv:0000004
 name: mature stage
 namespace: hedgehog_developmental_stage
 synonym: "mature" EXACT []
-def: "hedgehog developmental stage that refers to a sexually mature adult hedgehog, which is over aprox. 8.4 months old." [Bgee:curator "Bgee"]
+def: "hedgehog life cycle stage that starts at sexual maturity (8.4 months post-birth) and ends with death." [Bgee:curator "Bgee"] aprox. 8.4 months old." [Bgee:curator "Bgee"]
 comment: hedgehogs reach sexual maturity at 253 days old. ref: http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus.
 xref: UBERON:0000113
 is_a: EeurDv:0000000 ! hedgehog life cycle stage
@@ -67,7 +67,7 @@ property_value: start_mpb "8.4" xsd:float
 id: EeurDv:0000005
 name: adulthood stage
 namespace: hedgehog_developmental_stage
-def: "Mature stage that refers to a adult hedgehog which is over aprox. 8.4 months old, lower bound age of sexual maturity, and under 5 years, lower bound of old age." [Bgee:curator "Bgee"]
+def: "hedgehog life cycle stage that starts at sexual maturity (8.4 months post-birth) and ends at senior age (5 years post-birth)." [Bgee:curator "Bgee"]
 comment: Data are come from observation in the wild. Ref: http://wildpro.twycrosszoo.org/S/0MInsectivor/Erinaceidae/Erinaceus/Erinaceus_europaeus/07WEHLifePhys.htm.
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
@@ -81,7 +81,7 @@ property_value: end_mpb "60.0" xsd:float
 id: EeurDv:0000006
 name: aged stage
 namespace: hedgehog_developmental_stage
-def: "Mature stage that refers to a adult hedgehog which is over 5 years old." [Bgee:curator "Bgee"]
+def: "hedgehog life cycle stage that starts at senior age (5 years post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of hedgehogs. They can live up to 12 years in captivity (http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus).
 xref: UBERON:0007222
 is_a: EeurDv:0000000 ! hedgehog life cycle stage

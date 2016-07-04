@@ -17,7 +17,7 @@ xref: UBERON:0000105
 id: EcabDv:0000001
 name: horse life cycle
 namespace: horse_developmental_stage
-def: "Temporal interval that defines horse life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+def: "Temporal interval that defines horse life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
 is_a: EcabDv:0000000 ! horse life cycle stage
 
@@ -25,7 +25,7 @@ is_a: EcabDv:0000000 ! horse life cycle stage
 id: EcabDv:0000002
 name: prenatal stage
 namespace: horse_developmental_stage
-def: "horse life cycle that starts with fertilization and ends with birth" [Bgee:curator "Bgee"]
+def: "horse life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
 comment: estimated gestation period is 337 days (http://genomics.senescence.info/species/entry.php?species=Equus_caballus).
 xref: UBERON:0000068
 is_a: EcabDv:0000000 ! horse life cycle stage
@@ -37,7 +37,7 @@ property_value: end_dpf "337.0" xsd:float
 id: EcabDv:0000003
 name: immature stage
 namespace: horse_developmental_stage
-def: "horse developmental stage that covers the period from birth until aprox. 2.6 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
+def: "horse life cycle stage that starts at birth and ends at the reach of sexual maturity (2.6 years post-birth)." [Bgee:curator "Bgee"]
 comment: Male and female horse reach sexual maturity in different ages: 973 days post-birth for females and 914 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Equus_caballus). Thus, we arbitrary set the boundary between immature and mature stages to 943 days old, i.e. 2.6 years (mean value of male and female maturity).
 xref: UBERON:0000112
 is_a: EcabDv:0000000 ! horse life cycle stage
@@ -54,7 +54,7 @@ id: EcabDv:0000004
 name: mature stage
 namespace: horse_developmental_stage
 synonym: "mature" EXACT []
-def: "horse developmental stage that refers to a sexually mature adult horse, which is over aprox. 2.6 years old." [Bgee:curator "Bgee"]
+def: "horse life cycle stage that starts at sexual maturity (2.6 years post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: Male and female horse reach sexual maturity in different ages: 973 days post-birth for females and 914 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Equus_caballus). Thus, we arbitrary set the boundary between immature and mature stages to 943 days old, i.e. 2.6 years (mean value of male and female maturity).
 xref: UBERON:0000113
 is_a: EcabDv:0000000 ! horse life cycle stage
@@ -67,7 +67,7 @@ property_value: start_ypb "2.6" xsd:float
 id: EcabDv:0000005
 name: adulthood stage
 namespace: horse_developmental_stage
-def: "Mature stage that refers to a adult horse which is over aprox. 2.6 years old, lower bound of adulthood, and under 20 years, lower bound of senior age." [Bgee:curator "Bgee"]
+def: ""horse life cycle stage that starts at sexual maturity (2.6 years post-birth) and ends at senior age (20 years post-birth)." [Bgee:curator "Bgee"]
 comment: Note that adulthood in horses is very heterogenous, depending on factors such as the size and/or the breed. Ref: http://www.dspca.ie/BasicEquineCare
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
@@ -82,7 +82,7 @@ property_value: end_ypb "20.0" xsd:float
 id: EcabDv:0000006
 name: aged stage
 namespace: horse_developmental_stage
-def: "Mature stage that refers to a adult horse which is over 20 years." [Bgee:curator "Bgee"]
+def: "horse life cycle stage that starts at senior age (20 years post-birth)." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of horses. They can live up to 57 years in captivity (http://genomics.senescence.info/species/entry.php?species=Equus_caballus).
 xref: UBERON:0007222
 is_a: EcabDv:0000000 ! horse life cycle stage
