@@ -25,50 +25,55 @@ is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
 id: DanaDv:00000002
 name: embryonic stage
 namespace: Dananassae_developmental_stage
-def: "The stage of Drosophila ananassae life-cycle from fertilization to hatching."
+def: "The stage of Drosophila ananassae life-cycle from fertilization to hatching." [Bgee:curator "Bgee"]
 xref: FBdv:00005289
 xref: UBERON:0000068
 is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
+relationship: part_of DanaDv:0000001 ! Drosophila ananassae life cycle
 
 [Term]
 id: DanaDv:00000003
 name: larval stage
 namespace: Dananassae_developmental_stage
-def: "The stage of Drosophila ananassae life-cycle from hatching to the beginning of puparium formation."
+def: "The stage of Drosophila ananassae life-cycle from hatching to the beginning of puparium formation." [Bgee:curator "Bgee"]
 xref: FBdv:00005336
 xref: UBERON:0000069
 is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
+relationship: part_of DanaDv:0000001 ! Drosophila ananassae life cycle
 relationship: immediately_preceded_by DanaDv:00000002 ! embryonic stage
 
 [Term]
 id: DanaDv:00000004
 name: P-stage
 namespace: Dananassae_developmental_stage
-def: "The stage of Drosophila ananassae life-cycle from the formation of the puparium (beginning of the prepupal stage) to eclosion."
+def: "The stage of Drosophila ananassae life-cycle from the formation of the puparium (beginning of the prepupal stage) to eclosion." [Bgee:curator "Bgee"]
 xref: FBdv:00007001
 xref: UBERON:0000070
 is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
+relationship: part_of DanaDv:0000001 ! Drosophila ananassae life cycle
 relationship: immediately_preceded_by DanaDv:00000003 ! larval stage
 
 [Term]
 id: DanaDv:00000005
 name: adult stage
 namespace: Dananassae_developmental_stage
-def: "The stage of Drosophila ananassae life-cycle from eclosion to death."
+def: "The stage of Drosophila ananassae life-cycle from eclosion to death." [Bgee:curator "Bgee"]
 xref: FBdv:00005369
 xref: UBERON:0018241
 is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
+relationship: part_of DanaDv:0000001 ! Drosophila ananassae life cycle
 relationship: immediately_preceded_by DanaDv:00000004 ! P-stage
 
 [Term]
 id: DanaDv:00000006
 name: immature adult stage
 namespace: Dananassae_developmental_stage
-def: "The developmental stage of the adult Drosophila ananassae life-cycle from eclosion until tanning is complete."
+def: "The developmental stage of the adult Drosophila ananassae life-cycle from eclosion until tanning is complete." [Bgee:curator "Bgee"]
 comment: Info on sexual maturity: 7 days post-eclosion (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3939894/).
 xref: FBdv:00007025
 xref: UBERON:0000112
-is_a: DanaDv:0000005 ! adult stage
+is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
+relationship: part_of DanaDv:0000005 ! adult stage
 property_value: start_dph "0.0" xsd:float
 property_value: end_dph "7.0" xsd:float
 
@@ -76,12 +81,13 @@ property_value: end_dph "7.0" xsd:float
 id: DanaDv:00000007
 name: mature adult stage
 namespace: Dananassae_developmental_stage
-def: "The developmental stage of the adult Drosophila ananassae life-cycle when tanning is complete to death."
+def: "The developmental stage of the adult Drosophila ananassae life-cycle when tanning is complete to death." [Bgee:curator "Bgee"]
 comment: Info on sexual maturity: 7 days post-eclosion (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3939894/). 
 xref: FBdv:00007026
 xref: UBERON:0000113
-is_a: DanaDv:0000005 ! adult stage
-relationship: immediately_preceded_by DanaDv:00000005 ! immature adult stage
+is_a: DanaDv:00000000 ! Drosophila ananassae life cycle stage
+relationship: part_of DanaDv:00000005 ! adult stage
+relationship: immediately_preceded_by DanaDv:00000006 ! immature adult stage
 property_value: start_dph "7.0" xsd:float
 
 [Typedef]
