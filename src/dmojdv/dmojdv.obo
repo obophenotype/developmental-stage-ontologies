@@ -5,7 +5,7 @@ default-namespace: Dmojavensis_stages_ontology
 ontology: dmojdv
 
 [Term]
-id: DmojDv:00000000
+id: DmojDv:0000000
 name: Drosophila mojavensis life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
@@ -19,75 +19,75 @@ namespace: Dmojavensis_developmental_stage
 def: "Temporal interval that defines Drosophila mojavensis life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: FBdv:00000000
 xref: UBERON:0000104
-is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 
 [Term]
-id: DmojDv:00000002
+id: DmojDv:0000002
 name: embryonic stage
 namespace: Dmojavensis_developmental_stage
 def: "The stage of Drosophila mojavensis life-cycle from fertilization to hatching." [Bgee:curator "Bgee"]
 xref: FBdv:00005289
 xref: UBERON:0000068
-is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
 
 [Term]
-id: DmojDv:00000003
+id: DmojDv:0000003
 name: larval stage
 namespace: Dmojavensis_developmental_stage
 def: "The stage of Drosophila mojavensis life-cycle from hatching to the beginning of puparium formation." [Bgee:curator "Bgee"]
 xref: FBdv:00005336
 xref: UBERON:0000069
-is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
-relationship: immediately_preceded_by DmojDv:00000002 ! embryonic stage
+relationship: immediately_preceded_by DmojDv:0000002 ! embryonic stage
 
 [Term]
-id: DmojDv:00000004
+id: DmojDv:0000004
 name: P-stage
 namespace: Dmojavensis_developmental_stage
 def: "The stage of Drosophila mojavensis life-cycle from the formation of the puparium (beginning of the prepupal stage) to eclosion." [Bgee:curator "Bgee"]
 xref: FBdv:00007001
 xref: UBERON:0000070
-is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
-relationship: immediately_preceded_by DmojDv:00000003 ! larval stage
+relationship: immediately_preceded_by DmojDv:0000003 ! larval stage
 
 [Term]
-id: DmojDv:00000005
+id: DmojDv:0000005
 name: adult stage
 namespace: Dmojavensis_developmental_stage
 def: "The stage of Drosophila mojavensis life-cycle from eclosion to death." [Bgee:curator "Bgee"]
 xref: FBdv:00005369
 xref: UBERON:0018241
-is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
-relationship: immediately_preceded_by DmojDv:00000004 ! P-stage
+relationship: immediately_preceded_by DmojDv:0000004 ! P-stage
 
 [Term]
-id: DmojDv:00000006
+id: DmojDv:0000006
 name: immature adult stage
 namespace: Dmojavensis_developmental_stage
 def: "The developmental stage of the adult Drosophila mojavensis life-cycle from eclosion until tanning is complete." [Bgee:curator "Bgee"]
 comment: Info on sexual maturity: 3 days post eclosion for females, 5 days post-eclosion for males post-eclosion (http://www.pnas.org/content/92/23/10614.full.pdf). We arbitrary chose to set the lower bound of sexual maturity to 4 days post-eclosion, the mean value between sexes.
 xref: FBdv:00007025
 xref: UBERON:0000112
-is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000005 ! adult stage
 property_value: start_dph "0.0" xsd:float
 property_value: end_dph "4.0" xsd:float
 
 [Term]
-id: DmojDv:00000007
+id: DmojDv:0000007
 name: mature adult stage
 namespace: Dmojavensis_developmental_stage
 def: "The developmental stage of the adult Drosophila mojavensis life-cycle when tanning is complete to death." [Bgee:curator "Bgee"]
 comment: Info on sexual maturity: 3 days post eclosion for females, 5 days post-eclosion for males post-eclosion (http://www.pnas.org/content/92/23/10614.full.pdf). We arbitrary chose to set the lower bound of sexual maturity to 4 days post-eclosion, the mean value between sexes. 
 xref: FBdv:00007026
 xref: UBERON:0000113
-is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000005 ! adult stage
-relationship: immediately_preceded_by DmojDv:00000006 ! immature adult stage
+relationship: immediately_preceded_by DmojDv:0000006 ! immature adult stage
 property_value: start_dph "4.0" xsd:float
 
 [Typedef]
