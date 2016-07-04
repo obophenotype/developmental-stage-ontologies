@@ -73,7 +73,6 @@ comment: Info on sexual maturity: 3 days post eclosion for females, 5 days post-
 xref: FBdv:00007025
 xref: UBERON:0000112
 is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
-relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
 relationship: part_of DmojDv:0000005 ! adult stage
 property_value: start_dph "0.0" xsd:float
 property_value: end_dph "4.0" xsd:float
@@ -87,7 +86,6 @@ comment: Info on sexual maturity: 3 days post eclosion for females, 5 days post-
 xref: FBdv:00007026
 xref: UBERON:0000113
 is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
-relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
 relationship: part_of DmojDv:0000005 ! adult stage
 relationship: immediately_preceded_by DmojDv:00000006 ! immature adult stage
 property_value: start_dph "4.0" xsd:float

@@ -73,7 +73,6 @@ comment: Info on sexual maturity: 5-7 days post-eclosion (http://www.ncbi.nlm.ni
 xref: FBdv:00007025
 xref: UBERON:0000112
  is_a: DyakDv:00000000 ! Drosophila yakuba life cycle stage
-relationship: part_of DyakDv:0000001 ! Drosophila yakuba life cycle
 relationship: part_of DyakDv:0000005 ! adult stage
 property_value: start_dph "0.0" xsd:float
 property_value: end_dph "5.0" xsd:float
@@ -87,7 +86,6 @@ comment: Info on sexual maturity: 5-7 days post-eclosion (http://www.ncbi.nlm.ni
 xref: FBdv:00007026
 xref: UBERON:0000113
 is_a: DyakDv:00000000 ! Drosophila yakuba life cycle stage
-relationship: part_of DyakDv:0000001 ! Drosophila yakuba life cycle
 relationship: part_of DyakDv:0000005 ! adult stage
 relationship: immediately_preceded_by DyakDv:00000006 ! immature adult stage
 property_value: start_dph "5.0" xsd:float
