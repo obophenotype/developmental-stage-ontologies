@@ -29,7 +29,7 @@ def: "The stage of Drosophila yakuba life-cycle from fertilization to hatching."
 xref: FBdv:00005289
 xref: UBERON:0000068
 is_a: DyakDv:00000000 ! Drosophila yakuba life cycle stage
- relationship: part_of DyakDv:0000001 ! Drosophila yakuba life cycle
+relationship: part_of DyakDv:0000001 ! Drosophila yakuba life cycle
 
 [Term]
 id: DyakDv:00000003
@@ -72,7 +72,7 @@ def: "The developmental stage of the adult Drosophila yakuba life-cycle from ecl
 comment: Info on sexual maturity: 5-7 days post-eclosion (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3939894/). We arbitrary chose to set the lower bound of sexual maturity to 5 days post-eclosion.
 xref: FBdv:00007025
 xref: UBERON:0000112
- is_a: DyakDv:00000000 ! Drosophila yakuba life cycle stage
+is_a: DyakDv:00000000 ! Drosophila yakuba life cycle stage
 relationship: part_of DyakDv:0000005 ! adult stage
 property_value: start_dph "0.0" xsd:float
 property_value: end_dph "5.0" xsd:float

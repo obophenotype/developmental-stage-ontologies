@@ -19,7 +19,7 @@ namespace: Dsimulans_developmental_stage
 def: "Temporal interval that defines Drosophila simulans life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: FBdv:00000000
 xref: UBERON:0000104
- is_a: DsimDv:00000000 ! Drosophila simulans life cycle stage
+is_a: DsimDv:00000000 ! Drosophila simulans life cycle stage
 
 [Term]
 id: DsimDv:00000002

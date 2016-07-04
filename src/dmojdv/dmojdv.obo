@@ -6,7 +6,7 @@ ontology: dmojdv
 
 [Term]
 id: DmojDv:00000000
-name: Drosophila mojavensislife cycle stage
+name: Drosophila mojavensis life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -14,12 +14,12 @@ xref: UBERON:0000105
 
 [Term]
 id: DmojDv:0000001
-name: Drosophila mojavensislife cycle
+name: Drosophila mojavensis life cycle
 namespace: Dmojavensis_developmental_stage
 def: "Temporal interval that defines Drosophila mojavensis life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: FBdv:00000000
 xref: UBERON:0000104
- is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
 
 [Term]
 id: DmojDv:00000002
@@ -38,7 +38,7 @@ namespace: Dmojavensis_developmental_stage
 def: "The stage of Drosophila mojavensis life-cycle from hatching to the beginning of puparium formation." [Bgee:curator "Bgee"]
 xref: FBdv:00005336
 xref: UBERON:0000069
- is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
+is_a: DmojDv:00000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
 relationship: immediately_preceded_by DmojDv:00000002 ! embryonic stage
 
