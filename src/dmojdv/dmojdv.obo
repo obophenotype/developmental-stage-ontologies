@@ -55,40 +55,45 @@ relationship: immediately_preceded_by DmojDv:0000003 ! larval stage
 
 [Term]
 id: DmojDv:0000005
-name: adult stage
+name: fully formed stage
 namespace: Dmojavensis_developmental_stage
 def: "The stage of Drosophila mojavensis life-cycle from eclosion to death." [Bgee:curator "Bgee"]
 xref: FBdv:00005369
-xref: UBERON:0018241
+xref: UBERON:0000066
 is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
 relationship: part_of DmojDv:0000001 ! Drosophila mojavensis life cycle
 relationship: immediately_preceded_by DmojDv:0000004 ! P-stage
 
 [Term]
 id: DmojDv:0000006
-name: immature adult stage
+name: days 1-4 of fully formed stage
 namespace: Dmojavensis_developmental_stage
-def: "The developmental stage of the adult Drosophila mojavensis life-cycle from eclosion until tanning is complete." [Bgee:curator "Bgee"]
-comment: Info on sexual maturity: 3 days post eclosion for females, 5 days post-eclosion for males post-eclosion (http://www.pnas.org/content/92/23/10614.full.pdf). We arbitrary chose to set the lower bound of sexual maturity to 4 days post-eclosion, the mean value between sexes.
-xref: FBdv:00007025
-xref: UBERON:0000112
+def: "The stage of Drosophila mojavensis life-cycle from eclosion to the 4th day post-eclosion." [Bgee:curator "Bgee"]
 is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
-relationship: part_of DmojDv:0000005 ! adult stage
+relationship: part_of DmojDv:0000005 ! fully formed stage
 property_value: start_dph "0.0" xsd:float
-property_value: end_dph "4.0" xsd:float
+property_value: end_dph "5.0" xsd:float
 
 [Term]
 id: DmojDv:0000007
-name: mature adult stage
+name: days 5-8 of fully formed stage
 namespace: Dmojavensis_developmental_stage
-def: "The developmental stage of the adult Drosophila mojavensis life-cycle when tanning is complete to death." [Bgee:curator "Bgee"]
-comment: Info on sexual maturity: 3 days post eclosion for females, 5 days post-eclosion for males post-eclosion (http://www.pnas.org/content/92/23/10614.full.pdf). We arbitrary chose to set the lower bound of sexual maturity to 4 days post-eclosion, the mean value between sexes. 
-xref: FBdv:00007026
-xref: UBERON:0000113
+def: "The stage of Drosophila mojavensis life-cycle from the 5th day post-eclosion to 8th day post-eclosion." [Bgee:curator "Bgee"]
 is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
-relationship: part_of DmojDv:0000005 ! adult stage
-relationship: immediately_preceded_by DmojDv:0000006 ! immature adult stage
-property_value: start_dph "4.0" xsd:float
+relationship: part_of DmojDv:0000005 ! fully formed stage
+relationship: immediately_preceded_by DmojDv:0000006 ! days 1-4 of fully formed stage
+property_value: start_dph "5.0" xsd:float
+property_value: end_dph "9.0" xsd:float
+
+[Term]
+id: DmojDv:0000008
+name: day 9 and more of fully formed stage
+namespace: Dmojavensis_developmental_stage
+def: "The stage of Drosophila mojavensis life-cycle from the 9th day post-eclosion to death." [Bgee:curator "Bgee"]
+is_a: DmojDv:0000000 ! Drosophila mojavensis life cycle stage
+relationship: part_of DmojDv:0000005 ! fully formed stage
+relationship: immediately_preceded_by DmojDv:0000007 ! days 5-8 of fully formed stage
+property_value: start_dph "9.0" xsd:float
 
 [Typedef]
 id: part_of
