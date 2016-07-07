@@ -1,5 +1,8 @@
+OBO=http://purl.obolibrary.org/obo
+
 #add a file named utils/owltools.vmoptions to define JVM options
 OWLTOOLS:=util/owltools
+
 
 BRIDGE_PARAMS_SUFFIX:=-bridge-params.tsv
 BRIDGE_UBERON_SUFFIX:=-bridge-to-uberon.obo
@@ -26,4 +29,4 @@ clean:
 
 ALL_OBO := $(patsubst %, */%.obo,$(ONT_PREFIXES))
 ssso-merged.obo: $(ALL_OBO)
-	owltools $^ --merge-support-ontologies -o -f obo --no-check $@
+	owltools --create-ontology $(OBO)/uberon/stages-merged.owl $^ --merge-support-ontologies -o -f obo --no-check $@
