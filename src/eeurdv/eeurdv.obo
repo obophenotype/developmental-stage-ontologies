@@ -54,7 +54,7 @@ id: EeurDv:0000004
 name: mature stage
 namespace: hedgehog_developmental_stage
 synonym: "mature" EXACT []
-def: "hedgehog life cycle stage that starts at sexual maturity (8.4 months post-birth) and ends with death." [Bgee:curator "Bgee"] aprox. 8.4 months old." [Bgee:curator "Bgee"]
+def: "hedgehog life cycle stage that starts at sexual maturity (8.4 months post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: hedgehogs reach sexual maturity at 253 days old. ref: http://genomics.senescence.info/species/entry.php?species=Erinaceus_europaeus.
 xref: UBERON:0000113
 is_a: EeurDv:0000000 ! hedgehog life cycle stage

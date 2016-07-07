@@ -67,7 +67,7 @@ property_value: start_ypb "2.6" xsd:float
 id: EcabDv:0000005
 name: adulthood stage
 namespace: horse_developmental_stage
-def: ""horse life cycle stage that starts at sexual maturity (2.6 years post-birth) and ends at senior age (20 years post-birth)." [Bgee:curator "Bgee"]
+def: "horse life cycle stage that starts at sexual maturity (2.6 years post-birth) and ends at senior age (20 years post-birth)." [Bgee:curator "Bgee"]
 comment: Note that adulthood in horses is very heterogenous, depending on factors such as the size and/or the breed. Ref: http://www.dspca.ie/BasicEquineCare
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241

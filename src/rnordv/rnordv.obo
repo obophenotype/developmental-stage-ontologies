@@ -94,7 +94,7 @@ id: RnorDv:0000050
 name: Witschi stage 2
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by 2-cells embryo (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
-Comment: This stage occurs during the second day after fertilization (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
+comment: This stage occurs during the second day after fertilization (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000048 ! Witschi stage 1
@@ -106,7 +106,7 @@ id: RnorDv:0000051
 name: Witschi stage 3
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by 4-cells embryo (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
-Comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
+comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000050 ! Witschi stage 2
@@ -118,7 +118,7 @@ id: RnorDv:0000052
 name: Witschi stage 4
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by an embryo of 8-12 cells (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
-Comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
+comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000051 ! Witschi stage 3
@@ -130,7 +130,7 @@ id: RnorDv:0000053
 name: Witschi stage 5
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by the morula (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
-Comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
+comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
 is_a: RnorDv:0000000 ! rat life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000052 ! Witschi stage 4

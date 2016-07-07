@@ -735,7 +735,7 @@ comment: TS27 is used for postnatal days 0 through 3 (P0 to P3). This is a somew
 xref: XUO:0000071
 xref: UBERON:0007221
 synonym: "TS27" RELATED [EMAPA:TS27]
-synonym: "newborn stage" EXACT[]
+synonym: "newborn stage" EXACT[] [UBERON:cjm]
 synonym: "P0" RELATED [UBERON:cjm]
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000092 ! postpartum stage
