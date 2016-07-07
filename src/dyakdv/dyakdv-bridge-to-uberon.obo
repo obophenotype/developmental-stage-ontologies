@@ -1,0 +1,65 @@
+[Term]
+id: DyakDv:0000003
+property_value: IAO:0000589 "larval stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+intersection_of: UBERON:0000069
+intersection_of: part_of NCBITaxon:7245
+
+[Term]
+id: DyakDv:0000005
+property_value: IAO:0000589 "fully formed stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+intersection_of: UBERON:0000066
+intersection_of: part_of NCBITaxon:7245
+
+[Term]
+id: DyakDv:0000007
+property_value: IAO:0000589 "days 5-8 of fully formed stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+
+[Term]
+id: DyakDv:0000004
+property_value: IAO:0000589 "P-stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+intersection_of: UBERON:0000070
+intersection_of: part_of NCBITaxon:7245
+
+[Term]
+id: DyakDv:0000001
+property_value: IAO:0000589 "Drosophila yakuba life cycle (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:7245
+
+[Term]
+id: DyakDv:0000006
+property_value: IAO:0000589 "days 1-4 of fully formed stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+
+[Term]
+id: DyakDv:0000008
+property_value: IAO:0000589 "day 9 and more of fully formed stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+
+[Term]
+id: DyakDv:0000000
+property_value: IAO:0000589 "Drosophila yakuba life cycle stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:7245
+
+[Term]
+id: DyakDv:0000002
+property_value: IAO:0000589 "embryonic stage (Drosophila yakuba)" xsd:string
+relationship: only_in_taxon NCBITaxon:7245 ! Drosophila yakuba
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:7245
+
+[Typedef]
+id: part_of
+xref: BFO:0000050
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
+
