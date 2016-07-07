@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/acardv-bridge-to-uberon.owl>))) [Axioms: 48 Logical Axioms: 13]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/acardv.owl>))) [Axioms: 169 Logical Axioms: 17]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/acardv.owl>) VersionIRI(<null>))) [Axioms: 169 Logical Axioms: 17]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 48 Logical Axioms: 13]
 ontology: uberon/bridge/acardv/acardv-uberon.obo
 
 [Term]

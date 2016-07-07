@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/pdumdv-bridge-to-uberon.owl>))) [Axioms: 101 Logical Axioms: 24]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/pdumdv.owl>))) [Axioms: 224 Logical Axioms: 42]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/pdumdv.owl>) VersionIRI(<null>))) [Axioms: 224 Logical Axioms: 42]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 101 Logical Axioms: 24]
 ontology: uberon/bridge/pdumdv/pdumdv-uberon.obo
 
 [Term]
@@ -213,20 +213,20 @@ property_value: IAO:0000589 "sexual metamorphosis stage (Platynereis)" xsd:strin
 
 [Term]
 id: UBERON:0000106
-is_a: PdumDv:0000090 {gci_filler="NCBITaxon:6358", gci_relation="part_of"} ! Platynereis developmental stage
-relationship: only_in_taxon NCBITaxon:6358 {gci_filler="NCBITaxon:6358", gci_relation="part_of"}
+is_a: PdumDv:0000090 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! Platynereis developmental stage
+relationship: only_in_taxon NCBITaxon:6358 {gci_relation="part_of", gci_filler="NCBITaxon:6358"}
 
 [Term]
 id: UBERON:0000107
-is_a: PdumDv:0000090 {gci_filler="NCBITaxon:6358", gci_relation="part_of"} ! Platynereis developmental stage
-relationship: only_in_taxon NCBITaxon:6358 {gci_filler="NCBITaxon:6358", gci_relation="part_of"}
-relationship: preceded_by UBERON:0000106 {gci_filler="NCBITaxon:6358", gci_relation="part_of"}
+is_a: PdumDv:0000090 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! Platynereis developmental stage
+relationship: only_in_taxon NCBITaxon:6358 {gci_relation="part_of", gci_filler="NCBITaxon:6358"}
+relationship: preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:6358"}
 
 [Term]
 id: UBERON:0000113
-is_a: PdumDv:0000090 {gci_filler="NCBITaxon:6358", gci_relation="part_of"} ! Platynereis developmental stage
-relationship: only_in_taxon NCBITaxon:6358 {gci_filler="NCBITaxon:6358", gci_relation="part_of"}
-relationship: preceded_by PdumDv:0001550 {gci_filler="NCBITaxon:6358", gci_relation="part_of"} ! sexual metamorphosis stage
+is_a: PdumDv:0000090 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! Platynereis developmental stage
+relationship: only_in_taxon NCBITaxon:6358 {gci_relation="part_of", gci_filler="NCBITaxon:6358"}
+relationship: preceded_by PdumDv:0001550 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! sexual metamorphosis stage
 
 [Typedef]
 id: immediately_preceded_by

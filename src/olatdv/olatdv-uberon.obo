@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/olatdv-bridge-to-uberon.owl>))) [Axioms: 203 Logical Axioms: 48]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oltadv.owl>))) [Axioms: 426 Logical Axioms: 91]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/olatdv.owl>) VersionIRI(<null>))) [Axioms: 426 Logical Axioms: 91]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 203 Logical Axioms: 48]
 ontology: uberon/bridge/olatdv/olatdv-uberon.obo
 
 [Term]
@@ -518,9 +518,9 @@ property_value: IAO:0000589 "Medaka stage 43 (medaka)" xsd:string
 
 [Term]
 id: UBERON:0000113
-is_a: OlatDv:0000010 {gci_filler="NCBITaxon:8090", gci_relation="part_of"} ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000460 {gci_filler="NCBITaxon:8090", gci_relation="part_of"} ! Medaka stage 43
-relationship: only_in_taxon NCBITaxon:8090 {gci_filler="NCBITaxon:8090", gci_relation="part_of"}
+is_a: OlatDv:0000010 {gci_relation="part_of", gci_filler="NCBITaxon:8090"} ! developmental stage
+relationship: immediately_preceded_by OlatDv:0000460 {gci_relation="part_of", gci_filler="NCBITaxon:8090"} ! Medaka stage 43
+relationship: only_in_taxon NCBITaxon:8090 {gci_relation="part_of", gci_filler="NCBITaxon:8090"}
 
 [Typedef]
 id: immediately_preceded_by

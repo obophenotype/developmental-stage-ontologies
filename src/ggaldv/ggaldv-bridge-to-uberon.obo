@@ -1,13 +1,21 @@
 [Term]
-id: GgalDv:0000003
-property_value: IAO:0000589 "immature stage (chicken)" xsd:string
+id: GgalDv:0000025
+property_value: IAO:0000589 "Hamburger Hamilton stage 14 (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:9031
 
 [Term]
-id: GgalDv:0000009
-property_value: IAO:0000589 "2-year-old and over chicken stage (chicken)" xsd:string
+id: GgalDv:0000007
+property_value: IAO:0000589 "early adult stage (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000019
+property_value: IAO:0000589 "Hamburger Hamilton stages 9+ to 10- (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000022
+property_value: IAO:0000589 "Hamburger Hamilton stage 12 (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
 
 [Term]
@@ -16,15 +24,85 @@ property_value: IAO:0000589 "1-year-old chicken stage (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
 
 [Term]
-id: GgalDv:0000006
-property_value: IAO:0000589 "mature stage (chicken)" xsd:string
+id: GgalDv:0000028
+property_value: IAO:0000589 "Hamburger Hamilton stage 16 (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
-intersection_of: UBERON:0000113
+
+[Term]
+id: GgalDv:0000020
+property_value: IAO:0000589 "Hamburger Hamilton stage 10 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000024
+property_value: IAO:0000589 "Hamburger Hamilton stages 13+ to 14-  (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000032
+property_value: IAO:0000589 "Hamburger Hamilton stage 20 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000021
+property_value: IAO:0000589 "Hamburger Hamilton stage 11 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000002
+property_value: IAO:0000589 "prenatal stage (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:9031
 
 [Term]
-id: GgalDv:0000004
-property_value: IAO:0000589 "hatchling stage (chicken)" xsd:string
+id: GgalDv:0000014
+property_value: IAO:0000589 "Hamburger Hamilton stages 5-6 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000011
+property_value: IAO:0000589 "Hamburger Hamilton stages 1-2 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000010
+property_value: IAO:0000589 "Hamburger Hamilton stage 1 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000005
+property_value: IAO:0000589 "juvenile stage (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000031
+property_value: IAO:0000589 "Hamburger Hamilton stage 19 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000013
+property_value: IAO:0000589 "Hamburger Hamilton stage 4 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000018
+property_value: IAO:0000589 "Hamburger Hamilton stage 9 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000009
+property_value: IAO:0000589 "2-year-old and over chicken stage (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000027
+property_value: IAO:0000589 "Hamburger Hamilton stage 15 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000030
+property_value: IAO:0000589 "Hamburger Hamilton stage 18 (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
 
 [Term]
@@ -35,13 +113,57 @@ intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:9031
 
 [Term]
-id: GgalDv:0000005
-property_value: IAO:0000589 "juvenile stage (chicken)" xsd:string
+id: GgalDv:0000006
+property_value: IAO:0000589 "mature stage (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:9031
+
+[Term]
+id: GgalDv:0000003
+property_value: IAO:0000589 "immature stage (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:9031
+
+[Term]
+id: GgalDv:0000023
+property_value: IAO:0000589 "Hamburger Hamilton stage 13 (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
 
 [Term]
-id: GgalDv:0000007
-property_value: IAO:0000589 "early adult stage (chicken)" xsd:string
+id: GgalDv:0000017
+property_value: IAO:0000589 "Hamburger Hamilton stage 8 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000015
+property_value: IAO:0000589 "Hamburger Hamilton stage 7 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000012
+property_value: IAO:0000589 "Hamburger Hamilton stage 3 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000026
+property_value: IAO:0000589 "Hamburger Hamilton stages 14+ to 15- (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000029
+property_value: IAO:0000589 "Hamburger Hamilton stage 17 (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000016
+property_value: IAO:0000589 "Hamburger Hamilton stages 7 to 8- (chicken)" xsd:string
+relationship: only_in_taxon NCBITaxon:9031 ! chicken
+
+[Term]
+id: GgalDv:0000033
+property_value: IAO:0000589 "Hamburger Hamilton stage 21 (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
 
 [Term]
@@ -52,10 +174,10 @@ intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:9031
 
 [Term]
-id: GgalDv:0000002
-property_value: IAO:0000589 "prenatal stage (chicken)" xsd:string
+id: GgalDv:0000004
+property_value: IAO:0000589 "hatchling stage (chicken)" xsd:string
 relationship: only_in_taxon NCBITaxon:9031 ! chicken
-intersection_of: UBERON:0000068
+intersection_of: UBERON:0007221
 intersection_of: part_of NCBITaxon:9031
 
 [Typedef]

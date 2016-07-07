@@ -1,22 +1,24 @@
 [Term]
-id: PdumDv:0000900
-property_value: IAO:0000589 "mid metatrochophore stage (Platynereis)" xsd:string
-relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
-
-[Term]
 id: PdumDv:0000800
 property_value: IAO:0000589 "early metatrochophore stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
-id: PdumDv:0001100
-property_value: IAO:0000589 "early nectochaete stage (Platynereis)" xsd:string
+id: PdumDv:0000090
+property_value: IAO:0000589 "Platynereis developmental stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
-id: PdumDv:0000500
-property_value: IAO:0000589 "early trochophore stage (Platynereis)" xsd:string
+id: PdumDv:0000900
+property_value: IAO:0000589 "mid metatrochophore stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
+
+[Term]
+id: PdumDv:0001600
+property_value: IAO:0000589 "adult (Heteronereis) stage (Platynereis)" xsd:string
+relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:6358
 
 [Term]
 id: PdumDv:0001540
@@ -29,18 +31,8 @@ property_value: IAO:0000589 "mid trochophore stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
-id: PdumDv:0001510
-property_value: IAO:0000589 "4- and 5-segmented errant juvenile stage (Platynereis)" xsd:string
-relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
-
-[Term]
-id: PdumDv:0001300
-property_value: IAO:0000589 "late nectochaete stage (Platynereis)" xsd:string
-relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
-
-[Term]
-id: PdumDv:0001000
-property_value: IAO:0000589 "late metatrochophore stage (Platynereis)" xsd:string
+id: PdumDv:0001520
+property_value: IAO:0000589 "cephalic metamorphosis stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
@@ -49,8 +41,8 @@ property_value: IAO:0000589 "mid nectochaete stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
-id: PdumDv:0001530
-property_value: IAO:0000589 "small atokous worm stage (Platynereis)" xsd:string
+id: PdumDv:0000500
+property_value: IAO:0000589 "early trochophore stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
@@ -59,8 +51,23 @@ property_value: IAO:0000589 "three-segmented errant juvenile stage (Platynereis)
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
-id: PdumDv:0000300
-property_value: IAO:0000589 "stereoblastula - stereogastrula stage (Platynereis)" xsd:string
+id: PdumDv:0001510
+property_value: IAO:0000589 "4- and 5-segmented errant juvenile stage (Platynereis)" xsd:string
+relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
+
+[Term]
+id: PdumDv:0001100
+property_value: IAO:0000589 "early nectochaete stage (Platynereis)" xsd:string
+relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
+
+[Term]
+id: PdumDv:0001000
+property_value: IAO:0000589 "late metatrochophore stage (Platynereis)" xsd:string
+relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
+
+[Term]
+id: PdumDv:0000400
+property_value: IAO:0000589 "protrochophore stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
@@ -71,16 +78,14 @@ intersection_of: UBERON:0000106
 intersection_of: part_of NCBITaxon:6358
 
 [Term]
-id: PdumDv:0001520
-property_value: IAO:0000589 "cephalic metamorphosis stage (Platynereis)" xsd:string
+id: PdumDv:0001530
+property_value: IAO:0000589 "small atokous worm stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
-id: PdumDv:0001600
-property_value: IAO:0000589 "adult (Heteronereis) stage (Platynereis)" xsd:string
+id: PdumDv:0000700
+property_value: IAO:0000589 "late trochophore stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:6358
 
 [Term]
 id: PdumDv:0000200
@@ -90,23 +95,18 @@ intersection_of: UBERON:0000107
 intersection_of: part_of NCBITaxon:6358
 
 [Term]
-id: PdumDv:0000400
-property_value: IAO:0000589 "protrochophore stage (Platynereis)" xsd:string
+id: PdumDv:0001300
+property_value: IAO:0000589 "late nectochaete stage (Platynereis)" xsd:string
+relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
+
+[Term]
+id: PdumDv:0000300
+property_value: IAO:0000589 "stereoblastula - stereogastrula stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Term]
 id: PdumDv:0001550
 property_value: IAO:0000589 "sexual metamorphosis stage (Platynereis)" xsd:string
-relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
-
-[Term]
-id: PdumDv:0000700
-property_value: IAO:0000589 "late trochophore stage (Platynereis)" xsd:string
-relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
-
-[Term]
-id: PdumDv:0000090
-property_value: IAO:0000589 "Platynereis developmental stage (Platynereis)" xsd:string
 relationship: only_in_taxon NCBITaxon:6358 ! Platynereis
 
 [Typedef]

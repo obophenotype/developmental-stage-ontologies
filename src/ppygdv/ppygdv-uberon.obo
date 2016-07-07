@@ -1,23 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppygdv-bridge-to-uberon.owl>))) [Axioms: 261 Logical Axioms: 67]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppygdv.owl>))) [Axioms: 784 Logical Axioms: 172]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppygdv.owl>) VersionIRI(<null>))) [Axioms: 785 Logical Axioms: 172]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 262 Logical Axioms: 68]
 ontology: uberon/bridge/ppygdv/ppygdv-uberon.obo
-
-[Term]
-id: PpygDv:0000004
-name: nursing stage (orangutan)
-namespace: orangutan_developmental_stage
-def: "Orangutan developmental stage that covers the period from birth until about 3 years old, at which point individuals wean." [Bgee:curator]
-comment: Age of weaning is 1003 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9600
-relationship: part_of UBERON:0000112
-property_value: end_ypb "2.75" xsd:float
-property_value: IAO:0000589 "nursing stage (orangutan)" xsd:string
-property_value: start_dpf "229.0" xsd:float
-property_value: start_mpf "7.5" xsd:float
-property_value: start_ypb "0.0" xsd:float
 
 [Term]
 id: PpygDv:0000005
@@ -26,7 +11,7 @@ namespace: orangutan_developmental_stage
 def: "Orangutan developmental stage that covers the period from 3 years old, when individuals wean, until 7 years old, when individuals reach sexual maturity." [Bgee:curator]
 comment: Orangutan reach sexual maturity by 2,555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).
 is_a: UBERON:0000105
-relationship: immediately_preceded_by PpygDv:0000004 ! nursing stage (orangutan)
+relationship: immediately_preceded_by UBERON:0018685
 relationship: only_in_taxon NCBITaxon:9600
 relationship: part_of UBERON:0000112
 property_value: end_ypb "7.0" xsd:float
@@ -746,44 +731,50 @@ property_value: start_ypb "57.0" xsd:float
 
 [Term]
 id: UBERON:0000068
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
 
 [Term]
 id: UBERON:0000104
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
 
 [Term]
 id: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
 
 [Term]
 id: UBERON:0000112
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
 
 [Term]
 id: UBERON:0000113
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: immediately_preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
 
 [Term]
 id: UBERON:0007222
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
 
 [Term]
 id: UBERON:0018241
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9600 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
-relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9600", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+
+[Term]
+id: UBERON:0018685
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: only_in_taxon NCBITaxon:9600 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
+relationship: part_of UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9600"}
 
 [Typedef]
 id: end_dpf

@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv-bridge-to-uberon.owl>))) [Axioms: 473 Logical Axioms: 126]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv.owl>))) [Axioms: 1438 Logical Axioms: 299]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv.owl>) VersionIRI(<null>))) [Axioms: 1477 Logical Axioms: 307]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 483 Logical Axioms: 130]
 ontology: uberon/bridge/mmusdv/mmusdv-uberon.obo
 
 [Term]
@@ -497,7 +497,7 @@ id: MmusDv:0000035
 name: Theiler stage 26 (mouse)
 namespace: mouse_developmental_stage
 def: "Fetal stage defined by long whiskers and during which the eyes are barely visible through the closed eyelids." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_26]
-comment: Embryonic age 18 dpc (day post coitum). Refers to the human fetal period.
+comment: TS26 is used for the period from embryonic day 18 up to birth itself. [https://github.com/tfhayamizu]
 synonym: "E18" EXACT []
 synonym: "TS26" EXACT []
 synonym: "TS26 (E18)" RELATED [EMAPA:TS26]
@@ -507,49 +507,31 @@ is_a: UBERON:0000105
 relationship: immediately_preceded_by MmusDv:0000034 ! Theiler stage 25 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0007220
+property_value: end_wpb "0.0" xsd:float
 property_value: IAO:0000589 "Theiler stage 26 (mouse)" xsd:string
 property_value: start_dpc "18.0" xsd:float
 
 [Term]
-id: MmusDv:0000036
-name: Theiler stage 27 (mouse)
-namespace: mouse_developmental_stage
-def: "Early immature stage that refers to the newborn mouse. Description of anatomical structures related to this stage corresponds to the first day of the mouse life." [http://www.emouseatlas.org/emap/ema/theiler_stages/StageDefinition/ts27definition.html]
-comment: Embryonic age 19-20 dpc (day post coitum).
-synonym: "E19-20" EXACT []
-synonym: "newborn stage" RELATED []
-synonym: "P0" RELATED [UBERON:cjm]
-synonym: "TS27" RELATED [EMAPA:TS27]
-xref: EMAPA:TS27
-xref: XUO:0000071
-is_a: UBERON:0000105
-relationship: immediately_preceded_by MmusDv:0000035 ! Theiler stage 26 (mouse)
-relationship: only_in_taxon NCBITaxon:10090
-relationship: part_of UBERON:0007221
-property_value: IAO:0000589 "Theiler stage 27 (mouse)" xsd:string
-property_value: start_dpc "19.0" xsd:float
-property_value: start_wpb "0.0" xsd:float
-
-[Term]
 id: MmusDv:0000037
-name: Theiler stage 28
+name: Theiler stage 28 (mouse)
 namespace: mouse_developmental_stage
-def: "Postnatal development." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Theiler_Stage_28]
-comment: This term was obsoleted as it is a broad term to describe the postnatal development, while in our ontology we use the immature stage preceding the mature stage to describe the postnatal development.
+def: "Postnatal development that covers the period after the TS27 stage (P0-P3 first days of life) and continuing to adulthood. P4 to adulthood." [https://github.com/tfhayamizu]
 synonym: "TS28" RELATED []
 xref: EMAPA:TS28
 xref: XUO:0000072
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0007221
 relationship: only_in_taxon NCBITaxon:10090
+relationship: part_of UBERON:0000066
 property_value: IAO:0000589 "Theiler stage 28 (mouse)" xsd:string
-is_obsolete: true
-consider: MmusDv:0000043
+property_value: start_wpb "0.6" xsd:float
 
 [Term]
 id: MmusDv:0000038
 name: infant stage (mouse)
 namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 1 week and under 6 weeks old." [Bgee:curator]
-comment: This stage describes the age at which mice are usually used as infant mouse models in the literature.
+comment: This term was made obsolete due to discussion at https://github.com/obophenotype/developmental-stage-ontologies/issues/23. [ANiknejad]
 synonym: "1-5 weeks" EXACT []
 is_a: UBERON:0000105
 relationship: immediately_preceded_by UBERON:0007221
@@ -558,13 +540,15 @@ relationship: part_of UBERON:0000112
 property_value: end_wpb "6.0" xsd:float
 property_value: IAO:0000589 "infant stage (mouse)" xsd:string
 property_value: start_wpb "1.0" xsd:float
+is_obsolete: true
+consider: MmusDv:0000112
 
 [Term]
 id: MmusDv:0000039
 name: adolescent stage
 namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 4 weeks and under 7 weeks old." [Bgee:curator]
-comment: This term was obsoleted as it is not fully accepted as a defined developmental stage in the literature.. This stage describes the age at which mice are usually used as adolescent mouse models in the literature.
+comment: This term was obsoleted as it is not fully accepted as a defined developmental stage in the literature. This stage describes the age at which mice are usually used as adolescent mouse models in the literature.
 synonym: "4-6 weeks" EXACT []
 relationship: only_in_taxon NCBITaxon:10090
 property_value: IAO:0000589 "adolescent stage (mouse)" xsd:string
@@ -596,23 +580,28 @@ id: MmusDv:0000044
 name: 1-7 days (mouse)
 namespace: mouse_developmental_stage
 def: "Early immature stage that refers to the newborn mouse which is over 1 and under 8 days old." [Bgee:curator]
+comment: This term was made obsolete due to discussion at https://github.com/obophenotype/developmental-stage-ontologies/issues/23. [ANiknejad]
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MmusDv:0000036 ! Theiler stage 27 (mouse)
+relationship: immediately_preceded_by UBERON:0007221
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0007221
 property_value: end_wpb "1.143" xsd:float
 property_value: IAO:0000589 "1-7 days (mouse)" xsd:string
 property_value: start_wpb "0.143" xsd:float
+is_obsolete: true
+consider: MmusDv:0000036
+consider: MmusDv:0000112
+consider: MmusDv:0000113
 
 [Term]
 id: MmusDv:0000045
 name: 1 week (mouse)
 namespace: mouse_developmental_stage
-def: "Infant stage that refers to a mouse which is over 7 days and under 15 days old." [Bgee:curator]
+def: "Premature stage that refers to a mouse which is over 7 days and under 15 days old." [Bgee:curator]
 is_a: UBERON:0000105
-relationship: immediately_preceded_by MmusDv:0000044 ! 1-7 days (mouse)
+relationship: immediately_preceded_by MmusDv:0000113 ! 4-7 days (mouse)
 relationship: only_in_taxon NCBITaxon:10090
-relationship: part_of MmusDv:0000038 ! infant stage (mouse)
+relationship: part_of UBERON:0000112
 property_value: end_wpb "2.0" xsd:float
 property_value: IAO:0000589 "1 week (mouse)" xsd:string
 property_value: start_wpb "1.0" xsd:float
@@ -621,11 +610,11 @@ property_value: start_wpb "1.0" xsd:float
 id: MmusDv:0000046
 name: 2 weeks (mouse)
 namespace: mouse_developmental_stage
-def: "Infant stage that refers to a mouse which is over 14 days and under 22 days old." [Bgee:curator]
+def: "Premature stage that refers to a mouse which is over 14 days and under 22 days old." [Bgee:curator]
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmusDv:0000045 ! 1 week (mouse)
 relationship: only_in_taxon NCBITaxon:10090
-relationship: part_of MmusDv:0000038 ! infant stage (mouse)
+relationship: part_of UBERON:0000112
 property_value: end_wpb "3.0" xsd:float
 property_value: IAO:0000589 "2 weeks (mouse)" xsd:string
 property_value: start_wpb "2.0" xsd:float
@@ -634,11 +623,11 @@ property_value: start_wpb "2.0" xsd:float
 id: MmusDv:0000047
 name: 3 weeks (mouse)
 namespace: mouse_developmental_stage
-def: "Infant stage that refers to a mouse which is over 21 days and under 29 days old." [Bgee:curator]
+def: "Premature stage that refers to a mouse which is over 21 days and under 29 days old." [Bgee:curator]
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmusDv:0000046 ! 2 weeks (mouse)
 relationship: only_in_taxon NCBITaxon:10090
-relationship: part_of MmusDv:0000038 ! infant stage (mouse)
+relationship: part_of UBERON:0000112
 property_value: end_wpb "4.0" xsd:float
 property_value: IAO:0000589 "3 weeks (mouse)" xsd:string
 property_value: start_wpb "3.0" xsd:float
@@ -647,11 +636,11 @@ property_value: start_wpb "3.0" xsd:float
 id: MmusDv:0000048
 name: 4 weeks (mouse)
 namespace: mouse_developmental_stage
-def: "Infant stage that refers to a mouse which is over 28 days and under 36 days old." [Bgee:curator]
+def: "Premature stage that refers to a mouse which is over 28 days and under 36 days old." [Bgee:curator]
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmusDv:0000047 ! 3 weeks (mouse)
 relationship: only_in_taxon NCBITaxon:10090
-relationship: part_of MmusDv:0000038 ! infant stage (mouse)
+relationship: part_of UBERON:0000112
 property_value: end_wpb "5.0" xsd:float
 property_value: IAO:0000589 "4 weeks (mouse)" xsd:string
 property_value: start_wpb "4.0" xsd:float
@@ -660,12 +649,12 @@ property_value: start_wpb "4.0" xsd:float
 id: MmusDv:0000049
 name: 5 weeks (mouse)
 namespace: mouse_developmental_stage
-def: "Infant stage that refers to a mouse which is over 35 days and under 43 days old." [Bgee:curator]
+def: "Premature stage that refers to a mouse which is over 35 days and under 43 days old." [Bgee:curator]
 comment: This stage is usually the stage during which the sexual maturity occurs.
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmusDv:0000048 ! 4 weeks (mouse)
 relationship: only_in_taxon NCBITaxon:10090
-relationship: part_of MmusDv:0000038 ! infant stage (mouse)
+relationship: part_of UBERON:0000112
 property_value: end_wpb "6.0" xsd:float
 property_value: IAO:0000589 "5 weeks (mouse)" xsd:string
 property_value: start_wpb "5.0" xsd:float
@@ -1434,95 +1423,112 @@ relationship: part_of UBERON:0000110
 property_value: IAO:0000589 "Theiler stage 11a (mouse)" xsd:string
 
 [Term]
+id: MmusDv:0000113
+name: 4-7 days (mouse)
+namespace: mouse_developmental_stage
+def: "Premature stage that refers to the newborn mouse which is over 4 days and under 8 days old." [Bgee:curator]
+comment: This stage starts at P4.
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0007221
+relationship: only_in_taxon NCBITaxon:10090
+relationship: part_of UBERON:0000112
+property_value: end_wpb "1.0" xsd:float
+property_value: IAO:0000589 "4-7 days (mouse)" xsd:string
+property_value: start_wpb "0.6" xsd:float
+
+[Term]
 id: UBERON:0000066
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0000068
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0000104
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0000106
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of MmusDv:0000002 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! embryonic mouse stage (mouse)
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! embryonic mouse stage (mouse)
 
 [Term]
 id: UBERON:0000107
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of MmusDv:0000002 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! embryonic mouse stage (mouse)
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! embryonic mouse stage (mouse)
 
 [Term]
 id: UBERON:0000109
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of MmusDv:0000002 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! embryonic mouse stage (mouse)
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! embryonic mouse stage (mouse)
 
 [Term]
 id: UBERON:0000110
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: immediately_preceded_by MmusDv:0000015 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! Theiler stage 10 (mouse)
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of MmusDv:0000002 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! embryonic mouse stage (mouse)
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: immediately_preceded_by MmusDv:0000015 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! Theiler stage 10 (mouse)
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! embryonic mouse stage (mouse)
 
 [Term]
 id: UBERON:0000111
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: immediately_preceded_by MmusDv:0000095 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! Theiler stage 11d (mouse)
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of MmusDv:0000002 {gci_filler="NCBITaxon:10090", gci_relation="part_of"} ! embryonic mouse stage (mouse)
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: immediately_preceded_by MmusDv:0000095 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! Theiler stage 11d (mouse)
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! embryonic mouse stage (mouse)
 
 [Term]
 id: UBERON:0000112
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of MmusDv:0000037 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! Theiler stage 28 (mouse)
+relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0000113
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: immediately_preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of MmusDv:0000037 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! Theiler stage 28 (mouse)
 
 [Term]
 id: UBERON:0007220
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0007221
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: immediately_preceded_by MmusDv:0000035 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! Theiler stage 26 (mouse)
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0007222
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Term]
 id: UBERON:0018241
-is_a: UBERON:0000105 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:10090 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
-relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:10090", gci_relation="part_of"}
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: only_in_taxon NCBITaxon:10090 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
+relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:10090"}
 
 [Typedef]
 id: end_dpc

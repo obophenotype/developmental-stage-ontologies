@@ -1,22 +1,8 @@
 [Term]
-id: AcarDv:0000002
-property_value: IAO:0000589 "prenatal stage (anolis)" xsd:string
-relationship: only_in_taxon NCBITaxon:28377 ! anolis
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:28377
-
-[Term]
 id: AcarDv:0000005
 property_value: IAO:0000589 "adulthood stage (anolis)" xsd:string
 relationship: only_in_taxon NCBITaxon:28377 ! anolis
 intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:28377
-
-[Term]
-id: AcarDv:0000000
-property_value: IAO:0000589 "lizard life cycle stage (anolis)" xsd:string
-relationship: only_in_taxon NCBITaxon:28377 ! anolis
-intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:28377
 
 [Term]
@@ -27,10 +13,10 @@ intersection_of: UBERON:0000113
 intersection_of: part_of NCBITaxon:28377
 
 [Term]
-id: AcarDv:0000001
-property_value: IAO:0000589 "lizard life cycle (anolis)" xsd:string
+id: AcarDv:0000002
+property_value: IAO:0000589 "prenatal stage (anolis)" xsd:string
 relationship: only_in_taxon NCBITaxon:28377 ! anolis
-intersection_of: UBERON:0000104
+intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:28377
 
 [Term]
@@ -43,6 +29,20 @@ id: AcarDv:0000003
 property_value: IAO:0000589 "immature stage (anolis)" xsd:string
 relationship: only_in_taxon NCBITaxon:28377 ! anolis
 intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:28377
+
+[Term]
+id: AcarDv:0000000
+property_value: IAO:0000589 "lizard life cycle stage (anolis)" xsd:string
+relationship: only_in_taxon NCBITaxon:28377 ! anolis
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:28377
+
+[Term]
+id: AcarDv:0000001
+property_value: IAO:0000589 "lizard life cycle (anolis)" xsd:string
+relationship: only_in_taxon NCBITaxon:28377 ! anolis
+intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:28377
 
 [Typedef]
