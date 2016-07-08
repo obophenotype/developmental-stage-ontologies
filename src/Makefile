@@ -29,4 +29,4 @@ clean:
 
 ALL_OBO := $(patsubst %, */%.obo,$(ONT_PREFIXES))
 ssso-merged.obo: $(ALL_OBO)
-	owltools --create-ontology $(OBO)/uberon/stages-merged.owl $^ --merge-support-ontologies -o -f obo --no-check $@
+	@$(OWLTOOLS) --create-ontology $(OBO)/uberon/stages-merged.owl $^ --merge-support-ontologies -o -f obo --no-check $@
