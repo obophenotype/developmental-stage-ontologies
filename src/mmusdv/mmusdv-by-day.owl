@@ -11,13 +11,16 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dpco.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/mmusdv/releases/2016-05-13/mmusdv.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/mmusdv.owl"/>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_days_ontology</oboInOwl:default-namespace>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:05:2013 17:41</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fbb</oboInOwl:saved-by>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_stages_ontology</oboInOwl:default-namespace>
     </owl:Ontology>
-    
 
 
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -25,7 +28,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
@@ -33,7 +36,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
@@ -41,19 +44,19 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term replaced by</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
@@ -61,7 +64,7 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subset_property</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
@@ -69,19 +72,19 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consider</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
@@ -89,7 +92,7 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
@@ -97,7 +100,7 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
@@ -105,7 +108,7 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
@@ -113,7 +116,7 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
@@ -121,7 +124,7 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
@@ -129,13 +132,13 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
@@ -143,19 +146,19 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
@@ -163,28 +166,28 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
+
 
 
     <!-- http://www.w3.org/2002/07/owl#deprecated -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -192,7 +195,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
@@ -205,7 +208,7 @@
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
@@ -219,7 +222,7 @@
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
@@ -233,10 +236,10 @@
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -244,7 +247,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000000 -->
@@ -254,7 +257,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:19:35Z</dc:date>
         <rdfs:label>mouse days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000001 -->
@@ -271,7 +274,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:20:05Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000002 -->
@@ -288,7 +291,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:20:19Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 day post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000003 -->
@@ -305,7 +308,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:20:29Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000004 -->
@@ -322,7 +325,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:20:39Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000005 -->
@@ -339,7 +342,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:25:03Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000006 -->
@@ -356,7 +359,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:25:55Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000007 -->
@@ -373,7 +376,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:27:31Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000008 -->
@@ -390,7 +393,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:27:54Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000009 -->
@@ -407,7 +410,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:28:28Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000010 -->
@@ -424,7 +427,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:28:43Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000011 -->
@@ -441,7 +444,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:28:59Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000012 -->
@@ -458,7 +461,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:29:22Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000013 -->
@@ -475,7 +478,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:31:37Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000014 -->
@@ -492,7 +495,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:31:51Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000015 -->
@@ -509,7 +512,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:32:07Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000016 -->
@@ -526,7 +529,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:32:21Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000017 -->
@@ -543,7 +546,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:36:09Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000018 -->
@@ -560,7 +563,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:36:25Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000019 -->
@@ -577,7 +580,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:36:37Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000020 -->
@@ -594,7 +597,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:36:53Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000021 -->
@@ -611,7 +614,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:37:19Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000022 -->
@@ -628,7 +631,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:37:31Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000023 -->
@@ -645,7 +648,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:37:46Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000024 -->
@@ -662,7 +665,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:38:00Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000025 -->
@@ -679,7 +682,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:38:13Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000026 -->
@@ -696,7 +699,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:38:30Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000027 -->
@@ -713,7 +716,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:39:14Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000028 -->
@@ -730,7 +733,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:39:30Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000029 -->
@@ -747,7 +750,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:39:50Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000030 -->
@@ -764,7 +767,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:40:05Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000031 -->
@@ -781,7 +784,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:40:21Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000032 -->
@@ -798,7 +801,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:40:34Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000033 -->
@@ -815,7 +818,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:40:51Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000034 -->
@@ -832,7 +835,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:41:04Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000035 -->
@@ -849,7 +852,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:49:02Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000036 -->
@@ -866,7 +869,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:49:16Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000037 -->
@@ -883,7 +886,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:49:31Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000038 -->
@@ -900,7 +903,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:49:48Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000039 -->
@@ -917,7 +920,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:50:03Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000040 -->
@@ -934,7 +937,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:50:18Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000041 -->
@@ -951,7 +954,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:50:36Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000042 -->
@@ -968,7 +971,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:50:50Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000043 -->
@@ -985,7 +988,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:51:07Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.5 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000044 -->
@@ -1002,7 +1005,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-29T23:51:22Z</dc:date>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22 days post coitum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DPCO_0000045 -->
@@ -1018,4 +1021,3 @@
 
 
 <!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
-
