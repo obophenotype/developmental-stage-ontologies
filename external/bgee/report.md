@@ -16,6 +16,8 @@
 
 ### UBERON stages with species existence
 
+(this does not correspond to formal taxon constraints, simply to whether a stage is mappable between these species)
+
 | ID             | Name                      | NCBI taxonomy IDs of the species the stage exists in                                                                        |
 |----------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | UBERON:0000104 | life cycle  1             | all species                                                                                                                 |
