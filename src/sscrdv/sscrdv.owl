@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/SscrDv.owl#"
      xml:base="http://purl.obolibrary.org/obo/SscrDv.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:SscrDv="http://purl.obolibrary.org/obo/SscrDv#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/SscrDv.owl">
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25:02:2014 13:00</oboInOwl:date>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fbb (ann)</oboInOwl:saved-by>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:default-namespace>
     </owl:Ontology>
     
@@ -39,13 +40,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#end_dpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#end_dpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_dpf</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_dpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -53,13 +54,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#end_mpb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#end_mpb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpb</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -67,13 +68,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#end_mpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#end_mpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpf</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -81,13 +82,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#end_ypb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#end_ypb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, years post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_ypb</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_ypb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, years post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -104,10 +105,10 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#has_end_time -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#has_end_time">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end time</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_end_time</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_end_time</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end time</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -115,10 +116,10 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#has_start_time -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#has_start_time">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start time</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_start_time</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_start_time</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start time</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -126,11 +127,11 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#has_unit -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#has_unit">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_unit</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_unit</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -138,13 +139,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#start_dpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#start_dpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_dpf</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -152,13 +153,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#start_mpb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#start_mpb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_mpb</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -166,13 +167,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#start_mpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#start_mpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_mpf</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -180,13 +181,13 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#start_ypb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#start_ypb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, years post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_ypb</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <SscrDv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, years post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -304,11 +305,11 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -317,12 +318,12 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000062</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000062</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -330,13 +331,13 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002087">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002087</oboInOwl:hasDbXref>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002087</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:shorthand>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -355,19 +356,19 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig life cycle stage</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000000</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmental stage</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000000</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig life cycle stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
     </owl:Axiom>
     
 
@@ -375,18 +376,18 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig life cycle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000001</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines pig life from the prenatal stage until late adult stage.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000104</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000001</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig life cycle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines pig life from the prenatal stage until late adult stage.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines pig life from the prenatal stage until late adult stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -394,7 +395,6 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -402,20 +402,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <SscrDv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</SscrDv:start_dpf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig life cycle that starts with fertilization and ends at birth.</obo:IAO_0000115>
         <SscrDv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">115.0</SscrDv:end_dpf>
         <SscrDv:end_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</SscrDv:end_mpf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryo develops in 115 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).</rdfs:comment>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig life cycle that starts with fertilization and ends at birth.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000002</oboInOwl:id>
+        <SscrDv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</SscrDv:start_dpf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000068</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000002</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryo develops in 115 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig life cycle that starts with fertilization and ends at birth.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig life cycle that starts with fertilization and ends at birth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -423,7 +424,6 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000003">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -437,21 +437,22 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</SscrDv:start_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity.</obo:IAO_0000115>
         <SscrDv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</SscrDv:end_ypb>
         <SscrDv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">115.0</SscrDv:start_dpf>
         <SscrDv:start_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</SscrDv:start_mpf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000003</oboInOwl:id>
+        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</SscrDv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000112</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000003</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -459,7 +460,6 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000004">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suckling stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -467,20 +467,22 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</SscrDv:start_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean.</obo:IAO_0000115>
         <SscrDv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.85</SscrDv:end_mpb>
         <SscrDv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">115.0</SscrDv:start_dpf>
         <SscrDv:start_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</SscrDv:start_mpf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Age of weaning is 56 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa). Piglets are highly precocious and neonates appear with open eyes, good muscle tone and well developed skin and hair (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23874755). Within minutes of being born, or sometimes seconds, they will attempt to suckle. The piglets are born with sharp teeth and fight to develop a teat order as the anterior teats produce a greater quantity of milk (see http://en.wikipedia.org/wiki/Piglet_%28animal%29).</rdfs:comment>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000004</oboInOwl:id>
+        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</SscrDv:start_ypb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018685</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000004</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Age of weaning is 56 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa). Piglets are highly precocious and neonates appear with open eyes, good muscle tone and well developed skin and hair (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23874755). Within minutes of being born, or sometimes seconds, they will attempt to suckle. The piglets are born with sharp teeth and fight to develop a teat order as the anterior teats produce a greater quantity of milk (see http://en.wikipedia.org/wiki/Piglet_%28animal%29).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suckling stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -488,7 +490,6 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000005">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -502,18 +503,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from 2 months old, when individuals wean, until about 11 months old, when individuals reach sexual maturity.</obo:IAO_0000115>
         <SscrDv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</SscrDv:end_ypb>
         <SscrDv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.85</SscrDv:start_mpb>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from 2 months old, when individuals wean, until about 11 months old, when individuals reach sexual maturity.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000005</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000005</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from 2 months old, when individuals wean, until about 11 months old, when individuals reach sexual maturity.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that covers the period from 2 months old, when individuals wean, until about 11 months old, when individuals reach sexual maturity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -521,7 +523,6 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000006">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -535,18 +536,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</SscrDv:start_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that refers to a sexually mature adult pig, which is usually over 11 months old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000006</oboInOwl:id>
+        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</SscrDv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000113</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000006</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that refers to a sexually mature adult pig, which is usually over 11 months old.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig developmental stage that refers to a sexually mature adult pig, which is usually over 11 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -554,7 +556,6 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000007">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adulthood stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -562,20 +563,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</SscrDv:start_ypb>
-        <SscrDv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</SscrDv:end_ypb>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).</rdfs:comment>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a pig who is over 11 months old and under 8 years old, the limit before geriatric age in the literature.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000007</oboInOwl:id>
+        <SscrDv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</SscrDv:end_ypb>
+        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</SscrDv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000007</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adulthood stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a pig who is over 11 months old and under 8 years old, the limit before geriatric age in the literature.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a pig who is over 11 months old and under 8 years old, the limit before geriatric age in the literature.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -583,36 +585,36 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SscrDv_0000008">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aged stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</SscrDv:start_ypb>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).</rdfs:comment>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a pig who is over 8 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000008</oboInOwl:id>
+        <SscrDv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</SscrDv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007222</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SscrDv:0000008</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aged stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a pig who is over 8 years old.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a pig who is over 8 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5) https://github.com/owlcs/owlapi -->
 

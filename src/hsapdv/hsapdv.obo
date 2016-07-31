@@ -2904,6 +2904,145 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
 relationship: immediately_preceded_by HsapDv:0000233 ! 105-year-old human stage
 
+[Term]
+id: HsapDv:0000235
+name: first decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 0 and under 10 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000081 ! child stage
+property_value: end_ypb "10.0" xsd:float
+property_value: start_ypb "0.0" xsd:float
+
+[Term]
+id: HsapDv:0000236
+name: second decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 10 and under 20 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000235 ! first decade human stage
+property_value: end_ypb "20.0" xsd:float
+property_value: start_ypb "10.0" xsd:float
+
+[Term]
+id: HsapDv:0000237
+name: third decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 20 and under 30." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000236 ! second decade human stage
+relationship: part_of HsapDv:0000088 ! human early adulthood stage
+property_value: end_ypb "30.0" xsd:float
+property_value: start_ypb "20.0" xsd:float
+
+[Term]
+id: HsapDv:0000238
+name: fourth decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 30 and under 40 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000237 ! third decade human stage
+relationship: part_of HsapDv:0000088 ! human early adulthood stage
+property_value: end_ypb "40.0" xsd:float
+property_value: start_ypb "30.0" xsd:float
+
+[Term]
+id: HsapDv:0000239
+name: fifth decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 40 and under 50 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000238 ! fourth decade human stage
+property_value: end_ypb "50.0" xsd:float
+property_value: start_ypb "40.0" xsd:float
+
+[Term]
+id: HsapDv:0000240
+name: sixth decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 50 and under 60 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000239 ! fifth decade human stage
+relationship: part_of HsapDv:0000092 ! human middle aged stage
+property_value: end_ypb "60.0" xsd:float
+property_value: start_ypb "50.0" xsd:float
+
+[Term]
+id: HsapDv:0000241
+name: seventh decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 60 and under 70 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000240 ! sixth decade human stage
+property_value: end_ypb "70.0" xsd:float
+property_value: start_ypb "60.0" xsd:float
+
+[Term]
+id: HsapDv:0000242
+name: eighth decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 70 and under 80 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000241 ! seventh decade human stage
+relationship: part_of HsapDv:0000093 ! human aged stage
+property_value: end_ypb "80.0" xsd:float
+property_value: start_ypb "70.0" xsd:float
+
+[Term]
+id: HsapDv:0000243
+name: ninth decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 80 and under 90 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000242 ! eighth decade human stage
+relationship: part_of HsapDv:0000093 ! human aged stage
+property_value: end_ypb "90.0" xsd:float
+property_value: start_ypb "80.0" xsd:float
+
+[Term]
+id: HsapDv:0000244
+name: tenth decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an individual who is over 90 and under 100 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade human stage
+relationship: part_of HsapDv:0000093 ! human aged stage
+property_value: end_ypb "100.0" xsd:float
+property_value: start_ypb "90.0" xsd:float
+
+[Term]
+id: HsapDv:0000245
+name: eleventh decade human stage
+namespace: human_developmental_stage
+def: "Human stage that refers to a human who is over 100 and under 110 years old." [Bgee:curator]
+is_a: UBERON:0000105
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: immediately_preceded_by HsapDv:0000244 ! tenth decade human stage
+relationship: part_of HsapDv:0000093 ! human aged stage
+property_value: end_ypb "110.0" xsd:float
+property_value: start_ypb "100.0" xsd:float
+
 [Typedef]
 id: part_of
 name: part of

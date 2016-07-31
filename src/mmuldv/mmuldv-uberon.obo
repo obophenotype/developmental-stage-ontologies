@@ -1,25 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv-bridge-to-uberon.owl>))) [Axioms: 229 Logical Axioms: 59]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv.owl>))) [Axioms: 697 Logical Axioms: 147]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv.owl>) VersionIRI(<null>))) [Axioms: 698 Logical Axioms: 147]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 230 Logical Axioms: 60]
 ontology: uberon/bridge/mmuldv/mmuldv-uberon.obo
-
-[Term]
-id: MmulDv:0000004
-name: nursing stage (macaque)
-namespace: rhesus_macaque_developmental_stage
-def: "Rhesus developmental stage that covers the period from birth until about 9 months old, at which point individuals usually wean." [Bgee:curator]
-comment: Age of weaning is 292 days, so close to 9.7 months (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of UBERON:0000112
-property_value: end_mpb "9.7" xsd:float
-property_value: end_ypb "0.8" xsd:float
-property_value: IAO:0000589 "nursing stage (macaque)" xsd:string
-property_value: start_dpf "165.0" xsd:float
-property_value: start_mpb "0.0" xsd:float
-property_value: start_mpf "5.5" xsd:float
-property_value: start_ypb "0.0" xsd:float
 
 [Term]
 id: MmulDv:0000005
@@ -29,7 +12,7 @@ def: "Nursing stage that refers to a rhesus who is over 1 and under 2 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000046 ! newborn stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "2.0" xsd:float
 property_value: IAO:0000589 "1-month-old stage (macaque)" xsd:string
 property_value: start_mpb "1.0" xsd:float
@@ -42,7 +25,7 @@ def: "Nursing stage that refers to a rhesus who is over 2 and under 3 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000005 ! 1-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "3.0" xsd:float
 property_value: IAO:0000589 "2-month-old stage (macaque)" xsd:string
 property_value: start_mpb "2.0" xsd:float
@@ -55,7 +38,7 @@ def: "Nursing stage that refers to a rhesus who is over 3 and under 4 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000006 ! 2-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "4.0" xsd:float
 property_value: IAO:0000589 "3-month-old stage (macaque)" xsd:string
 property_value: start_mpb "3.0" xsd:float
@@ -68,7 +51,7 @@ def: "Nursing stage that refers to a rhesus who is over 4 and under 5 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000007 ! 3-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "5.0" xsd:float
 property_value: IAO:0000589 "4-month-old stage (macaque)" xsd:string
 property_value: start_mpb "4.0" xsd:float
@@ -81,7 +64,7 @@ def: "Nursing stage that refers to a rhesus who is over 5 and under 6 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000008 ! 4-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "6.0" xsd:float
 property_value: IAO:0000589 "5-month-old stage (macaque)" xsd:string
 property_value: start_mpb "5.0" xsd:float
@@ -94,7 +77,7 @@ def: "Nursing stage that refers to a rhesus who is over 6 and under 7 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000009 ! 5-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "7.0" xsd:float
 property_value: IAO:0000589 "6-month-old stage (macaque)" xsd:string
 property_value: start_mpb "6.0" xsd:float
@@ -107,7 +90,7 @@ def: "Nursing stage that refers to a rhesus who is over 7 and under 8 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000010 ! 6-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "8.0" xsd:float
 property_value: IAO:0000589 "7-month-old stage (macaque)" xsd:string
 property_value: start_mpb "7.0" xsd:float
@@ -120,7 +103,7 @@ def: "Nursing stage that refers to a rhesus who is over 8 and under 9 months old
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000011 ! 7-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "9.0" xsd:float
 property_value: IAO:0000589 "8-month-old stage (macaque)" xsd:string
 property_value: start_mpb "8.0" xsd:float
@@ -134,7 +117,7 @@ comment: Age of weaning is 292 days, so close to 9.7 months (see http://genomics
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MmulDv:0000012 ! 8-month-old stage (macaque)
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "9.7" xsd:float
 property_value: IAO:0000589 "9-month-old nursing stage (macaque)" xsd:string
 property_value: start_mpb "9.0" xsd:float
@@ -148,7 +131,7 @@ comment: This stage starts at 9.7 months, the usually weaning age. We consider a
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
 relationship: part_of UBERON:0000112
-relationship: preceded_by MmulDv:0000004 ! nursing stage (macaque)
+relationship: preceded_by UBERON:0018685
 property_value: end_ypb "3.5" xsd:float
 property_value: IAO:0000589 "juvenile stage (macaque)" xsd:string
 property_value: start_ypb "0.8" xsd:float
@@ -547,7 +530,7 @@ namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus newborn who is under 32 days old." [Bgee:curator]
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9544
-relationship: part_of MmulDv:0000004 ! nursing stage (macaque)
+relationship: part_of UBERON:0018685
 property_value: end_mpb "1.0" xsd:float
 property_value: IAO:0000589 "newborn stage (macaque)" xsd:string
 property_value: start_mpb "0.0" xsd:float
@@ -662,6 +645,12 @@ id: UBERON:0018241
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9544 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
 relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018685
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9544 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
+relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:9544", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

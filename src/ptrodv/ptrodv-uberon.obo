@@ -1,23 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv-bridge-to-uberon.owl>))) [Axioms: 229 Logical Axioms: 59]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>))) [Axioms: 681 Logical Axioms: 148]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>) VersionIRI(<null>))) [Axioms: 682 Logical Axioms: 148]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 230 Logical Axioms: 60]
 ontology: uberon/bridge/ptrodv/ptrodv-uberon.obo
-
-[Term]
-id: PtroDv:0000004
-name: nursing stage (chimpanzee)
-namespace: chimpanzee_developmental_stage
-def: "Chimpanzee developmental stage that covers the period from birth until 3 years old, at which point individuals wean." [Bgee:curator]
-comment: Age of weaning is 1111 days (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of UBERON:0000112
-property_value: end_ypb "3.0" xsd:float
-property_value: IAO:0000589 "nursing stage (chimpanzee)" xsd:string
-property_value: start_dpf "229.0" xsd:float
-property_value: start_mpf "7.5" xsd:float
-property_value: start_ypb "0.0" xsd:float
 
 [Term]
 id: PtroDv:0000005
@@ -26,7 +11,7 @@ namespace: chimpanzee_developmental_stage
 def: "Chimpanzee developmental stage that covers the period from 3 years old, when individuals wean, until 8 years old, when individuals reach sexual maturity." [Bgee:curator]
 comment: Chimpanzee reach sexual maturity by 2920 days of age for male, 3376 days for female (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
 is_a: UBERON:0000105
-relationship: immediately_preceded_by PtroDv:0000004 ! nursing stage (chimpanzee)
+relationship: immediately_preceded_by UBERON:0018685
 relationship: only_in_taxon NCBITaxon:9598
 relationship: part_of UBERON:0000112
 property_value: end_ypb "8.0" xsd:float
@@ -672,6 +657,12 @@ id: UBERON:0018241
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018685
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Typedef]
 id: end_dpf

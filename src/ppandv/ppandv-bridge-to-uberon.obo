@@ -1,14 +1,17 @@
 [Term]
-id: PpanDv:0000026
-property_value: IAO:0000589 "16-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000014
+property_value: IAO:0000589 "7-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000017
-property_value: IAO:0000589 "adulthood stage (bonobo)" xsd:string
+id: PpanDv:0000025
+property_value: IAO:0000589 "15-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:9597
+
+[Term]
+id: PpanDv:0000022
+property_value: IAO:0000589 "12-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
 id: PpanDv:0000005
@@ -16,32 +19,13 @@ property_value: IAO:0000589 "juvenile stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000037
-property_value: IAO:0000589 "27-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000031
+property_value: IAO:0000589 "21-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000000
-property_value: IAO:0000589 "bonobo life cycle stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:9597
-
-[Term]
-id: PpanDv:0000016
-property_value: IAO:0000589 "mature stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:9597
-
-[Term]
-id: PpanDv:0000009
-property_value: IAO:0000589 "2-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000013
-property_value: IAO:0000589 "6-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000023
+property_value: IAO:0000589 "13-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
@@ -52,8 +36,8 @@ intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:9597
 
 [Term]
-id: PpanDv:0000014
-property_value: IAO:0000589 "7-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000037
+property_value: IAO:0000589 "27-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
@@ -62,65 +46,13 @@ property_value: IAO:0000589 "19-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000008
-property_value: IAO:0000589 "23-month-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000015
-property_value: IAO:0000589 "8-year-old immature stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000010
-property_value: IAO:0000589 "3-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000022
-property_value: IAO:0000589 "12-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000007
-property_value: IAO:0000589 "22-month-old stage (bonobo)" xsd:string
+id: PpanDv:0000028
+property_value: IAO:0000589 "18-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
 id: PpanDv:0000027
 property_value: IAO:0000589 "17-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000020
-property_value: IAO:0000589 "10-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000040
-property_value: IAO:0000589 "aged stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-intersection_of: UBERON:0007222
-intersection_of: part_of NCBITaxon:9597
-
-[Term]
-id: PpanDv:0000024
-property_value: IAO:0000589 "14-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000012
-property_value: IAO:0000589 "5-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000036
-property_value: IAO:0000589 "26-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000011
-property_value: IAO:0000589 "4-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
@@ -131,28 +63,75 @@ intersection_of: UBERON:0000112
 intersection_of: part_of NCBITaxon:9597
 
 [Term]
-id: PpanDv:0000019
-property_value: IAO:0000589 "9-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000033
+property_value: IAO:0000589 "23-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000038
-property_value: IAO:0000589 "28-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000013
+property_value: IAO:0000589 "6-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000004
-property_value: IAO:0000589 "nursing stage (bonobo)" xsd:string
+id: PpanDv:0000016
+property_value: IAO:0000589 "mature stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:9597
+
+[Term]
+id: PpanDv:0000006
+property_value: IAO:0000589 "21-month-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000025
-property_value: IAO:0000589 "15-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000011
+property_value: IAO:0000589 "4-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000034
+property_value: IAO:0000589 "24-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000008
+property_value: IAO:0000589 "23-month-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000009
+property_value: IAO:0000589 "2-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000024
+property_value: IAO:0000589 "14-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000021
+property_value: IAO:0000589 "11-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000020
+property_value: IAO:0000589 "10-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000012
+property_value: IAO:0000589 "5-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
 id: PpanDv:0000030
 property_value: IAO:0000589 "20-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000032
+property_value: IAO:0000589 "22-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
@@ -166,8 +145,13 @@ property_value: IAO:0000589 "29-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
-id: PpanDv:0000033
-property_value: IAO:0000589 "23-year-old stage (bonobo)" xsd:string
+id: PpanDv:0000019
+property_value: IAO:0000589 "9-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000038
+property_value: IAO:0000589 "28-year-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Term]
@@ -178,43 +162,61 @@ intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:9597
 
 [Term]
-id: PpanDv:0000028
-property_value: IAO:0000589 "18-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000023
-property_value: IAO:0000589 "13-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000032
-property_value: IAO:0000589 "22-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000006
-property_value: IAO:0000589 "21-month-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000021
-property_value: IAO:0000589 "11-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000031
-property_value: IAO:0000589 "21-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
-id: PpanDv:0000034
-property_value: IAO:0000589 "24-year-old stage (bonobo)" xsd:string
-relationship: only_in_taxon NCBITaxon:9597 ! bonobo
-
-[Term]
 id: PpanDv:0000018
 property_value: IAO:0000589 "8-year-old mature stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000040
+property_value: IAO:0000589 "aged stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9597
+
+[Term]
+id: PpanDv:0000004
+property_value: IAO:0000589 "nursing stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+intersection_of: UBERON:0018685
+intersection_of: part_of NCBITaxon:9597
+
+[Term]
+id: PpanDv:0000010
+property_value: IAO:0000589 "3-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000036
+property_value: IAO:0000589 "26-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000015
+property_value: IAO:0000589 "8-year-old immature stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000026
+property_value: IAO:0000589 "16-year-old stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+
+[Term]
+id: PpanDv:0000017
+property_value: IAO:0000589 "adulthood stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9597
+
+[Term]
+id: PpanDv:0000000
+property_value: IAO:0000589 "bonobo life cycle stage (bonobo)" xsd:string
+relationship: only_in_taxon NCBITaxon:9597 ! bonobo
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:9597
+
+[Term]
+id: PpanDv:0000007
+property_value: IAO:0000589 "22-month-old stage (bonobo)" xsd:string
 relationship: only_in_taxon NCBITaxon:9597 ! bonobo
 
 [Typedef]

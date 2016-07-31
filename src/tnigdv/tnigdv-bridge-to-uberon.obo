@@ -1,25 +1,4 @@
 [Term]
-id: TnigDv:0000004
-property_value: IAO:0000589 "mature stage (tetraodon)" xsd:string
-relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:99883
-
-[Term]
-id: TnigDv:0000003
-property_value: IAO:0000589 "immature stage (tetraodon)" xsd:string
-relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:99883
-
-[Term]
-id: TnigDv:0000000
-property_value: IAO:0000589 "pufferfish life cycle stage (tetraodon)" xsd:string
-relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:99883
-
-[Term]
 id: TnigDv:0000001
 property_value: IAO:0000589 "pufferfish life cycle (tetraodon)" xsd:string
 relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
@@ -31,6 +10,27 @@ id: TnigDv:0000002
 property_value: IAO:0000589 "prenatal stage (tetraodon)" xsd:string
 relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
 intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:99883
+
+[Term]
+id: TnigDv:0000003
+property_value: IAO:0000589 "immature stage (tetraodon)" xsd:string
+relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:99883
+
+[Term]
+id: TnigDv:0000004
+property_value: IAO:0000589 "mature stage (tetraodon)" xsd:string
+relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:99883
+
+[Term]
+id: TnigDv:0000000
+property_value: IAO:0000589 "pufferfish life cycle stage (tetraodon)" xsd:string
+relationship: only_in_taxon NCBITaxon:99883 ! tetraodon
+intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:99883
 
 [Typedef]

@@ -1,0 +1,142 @@
+format-version: 1.2
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dsimdv.owl>) VersionIRI(<null>))) [Axioms: 159 Logical Axioms: 23]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 56 Logical Axioms: 15]
+ontology: uberon/bridge/dsimdv/dsimdv-uberon.obo
+
+[Term]
+id: DsimDv:0000006
+name: days 1-4 of fully formed stage (Drosophila simulans)
+namespace: Dsimulans_developmental_stage
+def: "The stage of Drosophila simulans life-cycle from eclosion to the 4th day post-eclosion." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:7240
+relationship: part_of UBERON:0000066
+property_value: end_dph "5.0" xsd:float
+property_value: IAO:0000589 "days 1-4 of fully formed stage (Drosophila simulans)" xsd:string
+property_value: start_dph "0.0" xsd:float
+
+[Term]
+id: DsimDv:0000007
+name: days 5-8 of fully formed stage (Drosophila simulans)
+namespace: Dsimulans_developmental_stage
+def: "The stage of Drosophila simulans life-cycle from the 5th day post-eclosion to 8th day post-eclosion." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by DsimDv:0000006 ! days 1-4 of fully formed stage (Drosophila simulans)
+relationship: only_in_taxon NCBITaxon:7240
+relationship: part_of UBERON:0000066
+property_value: end_dph "9.0" xsd:float
+property_value: IAO:0000589 "days 5-8 of fully formed stage (Drosophila simulans)" xsd:string
+property_value: start_dph "5.0" xsd:float
+
+[Term]
+id: DsimDv:0000008
+name: day 9 and more of fully formed stage (Drosophila simulans)
+namespace: Dsimulans_developmental_stage
+def: "The stage of Drosophila simulans life-cycle from the 9th day post-eclosion to death." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by DsimDv:0000007 ! days 5-8 of fully formed stage (Drosophila simulans)
+relationship: only_in_taxon NCBITaxon:7240
+relationship: part_of UBERON:0000066
+property_value: IAO:0000589 "day 9 and more of fully formed stage (Drosophila simulans)" xsd:string
+property_value: start_dph "9.0" xsd:float
+
+[Term]
+id: UBERON:0000066
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000070 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:7240 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000068
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:7240 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000069
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:7240 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000070
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000069 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:7240 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000104
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+relationship: only_in_taxon NCBITaxon:7240 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:7240 {gci_filler="NCBITaxon:7240", gci_relation="part_of"}
+
+[Typedef]
+id: end_dph
+name: end, days post hatching
+namespace: Dsimulans_stages_ontology
+def: "Count of number of days intervening between the end of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the organism is one day old has the value 2." []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be applirabbition-dependent.
+property_value: has_unit UO:0000033
+is_metadata_tag: true
+
+[Typedef]
+id: has_end_time
+name: has end time
+namespace: Dsimulans_stages_ontology
+is_metadata_tag: true
+
+[Typedef]
+id: has_start_time
+name: has start time
+namespace: Dsimulans_stages_ontology
+is_metadata_tag: true
+
+[Typedef]
+id: has_unit
+name: has unit
+namespace: Dsimulans_stages_ontology
+comment: Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)
+is_metadata_tag: true
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+namespace: Dsimulans_stages_ontology
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+xref: RO:0002087
+is_a: preceded_by ! preceded_by
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
+
+[Typedef]
+id: part_of
+name: part of
+namespace: Dsimulans_stages_ontology
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+namespace: Dsimulans_stages_ontology
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: start_dph
+name: start, days post hatching
+namespace: Dsimulans_stages_ontology
+def: "Count of number of days intervening between the start of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the organism is one day old has the value 1." []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033
+is_metadata_tag: true
+

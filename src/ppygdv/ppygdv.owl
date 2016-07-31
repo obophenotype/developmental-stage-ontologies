@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ppygdv.owl#"
      xml:base="http://purl.obolibrary.org/obo/ppygdv.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ppygdv="http://purl.obolibrary.org/obo/ppygdv#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ppygdv.owl">
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25:02:2014 13:00</oboInOwl:date>
-        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fbb (ann)</oboInOwl:saved-by>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:default-namespace>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fbb (ann)</oboInOwl:saved-by>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
 
@@ -39,13 +40,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#end_dpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#end_dpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_dpf</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_dpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -53,13 +54,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#end_mpb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#end_mpb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpb</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -67,13 +68,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#end_mpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#end_mpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpf</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mpf</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -81,13 +82,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#end_ypb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#end_ypb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, years post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_ypb</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_ypb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, years post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -104,10 +105,10 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#has_end_time -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#has_end_time">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end time</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_end_time</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_end_time</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end time</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -115,10 +116,10 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#has_start_time -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#has_start_time">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start time</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_start_time</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_start_time</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start time</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -126,11 +127,11 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#has_unit -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#has_unit">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_unit</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_unit</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -138,13 +139,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#start_dpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#start_dpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_dpf</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -152,13 +153,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#start_mpb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#start_mpb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_mpb</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -166,13 +167,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#start_mpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#start_mpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_mpf</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -180,13 +181,13 @@
     <!-- http://purl.obolibrary.org/obo/ppygdv#start_ypb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ppygdv#start_ypb">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, years post birth</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_ypb</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ppygdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, years post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -312,11 +313,11 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -325,12 +326,12 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000062</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000062</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -338,13 +339,13 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002087">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002087</oboInOwl:hasDbXref>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002087</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:shorthand>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -363,19 +364,19 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan life cycle stage</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000000</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmental stage</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000000</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan life cycle stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
     </owl:Axiom>
     
 
@@ -383,18 +384,18 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan life cycle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000001</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines orangutan life from the prenatal stage until late adult stage.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000104</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000001</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan life cycle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines orangutan life from the prenatal stage until late adult stage.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines orangutan life from the prenatal stage until late adult stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -402,7 +403,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -410,20 +410,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppygdv:start_dpf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan life cycle that starts with fertilization and ends at birth.</obo:IAO_0000115>
         <ppygdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">249.0</ppygdv:end_dpf>
         <ppygdv:end_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</ppygdv:end_mpf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryo develops in 249 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan life cycle that starts with fertilization and ends at birth.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000002</oboInOwl:id>
+        <ppygdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppygdv:start_dpf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000068</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000002</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryo develops in 249 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan life cycle that starts with fertilization and ends at birth.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan life cycle that starts with fertilization and ends at birth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -431,35 +432,35 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000003">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppygdv:start_ypb>
-        <ppygdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">249.0</ppygdv:start_dpf>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:end_ypb>
-        <ppygdv:start_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</ppygdv:start_mpf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from birth until 7 years old, when individuals usually reach sexual maturity.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan reach sexual maturity by 2555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000003</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:end_ypb>
+        <ppygdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">249.0</ppygdv:start_dpf>
+        <ppygdv:start_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</ppygdv:start_mpf>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppygdv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000112</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000003</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan reach sexual maturity by 2555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from birth until 7 years old, when individuals usually reach sexual maturity.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from birth until 7 years old, when individuals usually reach sexual maturity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -467,7 +468,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000004">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nursing stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -475,20 +475,22 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppygdv:start_ypb>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from birth until about 3 years old, at which point individuals wean.</obo:IAO_0000115>
         <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.75</ppygdv:end_ypb>
         <ppygdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">229.0</ppygdv:start_dpf>
         <ppygdv:start_mpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</ppygdv:start_mpf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Age of weaning is 1003 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from birth until about 3 years old, at which point individuals wean.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000004</oboInOwl:id>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ppygdv:start_ypb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018685</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000004</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Age of weaning is 1003 days (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nursing stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from birth until about 3 years old, at which point individuals wean.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from birth until about 3 years old, at which point individuals wean.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -496,32 +498,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000005">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.75</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from 3 years old, when individuals wean, until 7 years old, when individuals reach sexual maturity.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan reach sexual maturity by 2,555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000005</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.75</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000005</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan reach sexual maturity by 2,555 days of age for both male and female (see http://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from 3 years old, when individuals wean, until 7 years old, when individuals reach sexual maturity.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that covers the period from 3 years old, when individuals wean, until 7 years old, when individuals reach sexual maturity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -529,32 +531,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000006">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:start_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that refers to a sexually mature adult orangutan, which is usually over 7 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000006</oboInOwl:id>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000113</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000006</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that refers to a sexually mature adult orangutan, which is usually over 7 years old.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutan developmental stage that refers to a sexually mature adult orangutan, which is usually over 7 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -562,7 +564,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000007">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adulthood stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -570,20 +571,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a orangutan who is over 7 and under 35 years old, the limit before geriatric age in the literature.</obo:IAO_0000115>
         <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</ppygdv:end_ypb>
         <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:start_ypb>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a orangutan who is over 7 and under 35 years old, the limit before geriatric age in the literature.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutans are considered geriatric age of about 35 (see http://www.zooatlanta.org/home/article_content/founders_friends).</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000007</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000007</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orangutans are considered geriatric age of about 35 (see http://www.zooatlanta.org/home/article_content/founders_friends).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adulthood stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a orangutan who is over 7 and under 35 years old, the limit before geriatric age in the literature.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a orangutan who is over 7 and under 35 years old, the limit before geriatric age in the literature.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -591,7 +593,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000008">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -599,18 +600,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 7 and under 8 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000008</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000008</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 7 and under 8 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000008"/>
     </owl:Axiom>
     
 
@@ -618,32 +620,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000009">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 8 and under 9 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000009</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000009</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 8 and under 9 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000009"/>
     </owl:Axiom>
     
 
@@ -651,7 +653,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000010">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -665,18 +666,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 9 and under 10 years old.</obo:IAO_0000115>
         <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</ppygdv:end_ypb>
         <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</ppygdv:start_ypb>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 9 and under 10 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000010</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000010</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 9 and under 10 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000010"/>
     </owl:Axiom>
     
 
@@ -684,7 +686,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000011">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -698,18 +699,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 10 and under 11 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000011</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000011</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 10 and under 11 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000011"/>
     </owl:Axiom>
     
 
@@ -717,7 +719,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000012">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -731,18 +732,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 11 and under 12 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000012</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000012</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 11 and under 12 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000012"/>
     </owl:Axiom>
     
 
@@ -750,7 +752,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000013">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -764,18 +765,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 12 and under 13 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000013</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000013</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 12 and under 13 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000013"/>
     </owl:Axiom>
     
 
@@ -783,7 +785,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000014">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -797,18 +798,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 13 and under 14 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000014</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000014</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 13 and under 14 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000014"/>
     </owl:Axiom>
     
 
@@ -816,7 +818,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -830,18 +831,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 14 and under 15 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000015</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000015</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 14 and under 15 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000015"/>
     </owl:Axiom>
     
 
@@ -849,7 +851,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000016">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -863,18 +864,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 15 and under 16 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000016</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000016</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 15 and under 16 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000016"/>
     </owl:Axiom>
     
 
@@ -882,7 +884,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000017">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -896,18 +897,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 16 and under 17 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000017</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000017</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 16 and under 17 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000017"/>
     </owl:Axiom>
     
 
@@ -915,32 +917,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000018">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000017"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 17 and under 18 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000018</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000018</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 17 and under 18 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000018"/>
     </owl:Axiom>
     
 
@@ -948,32 +950,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000019">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000018"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 18 and under 19 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000019</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000019</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 18 and under 19 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000019"/>
     </owl:Axiom>
     
 
@@ -981,32 +983,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000020">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 19 and under 20 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000020</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000020</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 19 and under 20 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000020"/>
     </owl:Axiom>
     
 
@@ -1014,32 +1016,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000021">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 20 and under 21 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000021</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000021</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 20 and under 21 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000021"/>
     </owl:Axiom>
     
 
@@ -1047,7 +1049,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000022">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1061,18 +1062,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 21 and under 22 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000022</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000022</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 21 and under 22 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000022"/>
     </owl:Axiom>
     
 
@@ -1080,32 +1082,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000023">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 22 and under 23 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000023</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000023</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 22 and under 23 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000023"/>
     </owl:Axiom>
     
 
@@ -1113,7 +1115,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000024">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1127,18 +1128,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 23 and under 24 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000024</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000024</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000024"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 23 and under 24 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000024"/>
     </owl:Axiom>
     
 
@@ -1146,7 +1148,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000025">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1160,18 +1161,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 24 and under 25 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000025</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000025</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 24 and under 25 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000025"/>
     </owl:Axiom>
     
 
@@ -1179,7 +1181,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000026">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1193,18 +1194,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 25 and under 26 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000026</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000026</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 25 and under 26 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000026"/>
     </owl:Axiom>
     
 
@@ -1212,32 +1214,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000026"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 26 and under 27 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000027</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000027</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 26 and under 27 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000027"/>
     </owl:Axiom>
     
 
@@ -1245,32 +1247,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000028">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 27 and under 28 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000028</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000028</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 27 and under 28 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000028"/>
     </owl:Axiom>
     
 
@@ -1278,7 +1280,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1292,18 +1293,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 28 and under 29 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000029</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000029</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 28 and under 29 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000029"/>
     </owl:Axiom>
     
 
@@ -1311,7 +1313,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000030">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1325,18 +1326,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 29 and under 30 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000030</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000030</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 29 and under 30 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000030"/>
     </owl:Axiom>
     
 
@@ -1344,32 +1346,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000031">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000030"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 30 and under 31 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000031</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000031</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 30 and under 31 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000031"/>
     </owl:Axiom>
     
 
@@ -1377,32 +1379,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000032">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000031"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">32.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 31 and under 32 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000032</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">32.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000032</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 31 and under 32 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000032"/>
     </owl:Axiom>
     
 
@@ -1410,7 +1412,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000033">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1424,18 +1425,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">32.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 32 and under 33 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000033</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">32.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000033</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 32 and under 33 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000033"/>
     </owl:Axiom>
     
 
@@ -1443,32 +1445,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000034">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000033"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 33 and under 34 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000034</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000034</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 33 and under 34 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000034"/>
     </owl:Axiom>
     
 
@@ -1476,7 +1478,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000035">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1490,18 +1491,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 34 and under 35 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000035</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000035</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adulthood stage that refers to a orangutan who is over 34 and under 35 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000035"/>
     </owl:Axiom>
     
 
@@ -1509,7 +1511,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000036">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aged stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1517,17 +1518,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</ppygdv:start_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a orangutan who is over 35 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000036</oboInOwl:id>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</ppygdv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007222</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000036</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aged stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a orangutan who is over 35 years old.</owl:annotatedTarget>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a orangutan who is over 35 years old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1535,7 +1537,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000037">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1543,18 +1544,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 35 and under 36 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000037</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000037</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 35 and under 36 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000037"/>
     </owl:Axiom>
     
 
@@ -1562,32 +1564,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000038">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 36 and under 37 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000038</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000038</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 36 and under 37 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000038"/>
     </owl:Axiom>
     
 
@@ -1595,7 +1597,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000039">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1609,18 +1610,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 37 and under 38 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000039</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000039</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 37 and under 38 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000039"/>
     </owl:Axiom>
     
 
@@ -1628,7 +1630,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000040">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1642,18 +1643,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 38 and under 39 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000040</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000040</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 38 and under 39 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000040"/>
     </owl:Axiom>
     
 
@@ -1661,7 +1663,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000041">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1675,18 +1676,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 39 and under 40 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000041</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000041</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 39 and under 40 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000041"/>
     </owl:Axiom>
     
 
@@ -1694,32 +1696,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000042">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000041"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 40 and under 41 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000042</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000042</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 40 and under 41 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000042"/>
     </owl:Axiom>
     
 
@@ -1727,7 +1729,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000043">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1741,18 +1742,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 41 and under 42 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000043</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000043</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 41 and under 42 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000043"/>
     </owl:Axiom>
     
 
@@ -1760,32 +1762,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000044">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000043"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 42 and under 43 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000044</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000044</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 42 and under 43 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000044"/>
     </owl:Axiom>
     
 
@@ -1793,7 +1795,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000045">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1807,18 +1808,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 43 and under 44 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000045</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000045</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 43 and under 44 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000045"/>
     </owl:Axiom>
     
 
@@ -1826,32 +1828,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000046">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 44 and under 45 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000046</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000046</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 44 and under 45 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000046"/>
     </owl:Axiom>
     
 
@@ -1859,32 +1861,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000047">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000046"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 45 and under 46 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000047</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000047</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 45 and under 46 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000047"/>
     </owl:Axiom>
     
 
@@ -1892,7 +1894,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000048">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1906,18 +1907,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 46 and under 47 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000048</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000048</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 46 and under 47 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000048"/>
     </owl:Axiom>
     
 
@@ -1925,7 +1927,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000049">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1939,18 +1940,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 47 and under 48 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000049</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000049</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 47 and under 48 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000049"/>
     </owl:Axiom>
     
 
@@ -1958,7 +1960,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000050">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1972,18 +1973,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 48 and under 49 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000050</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000050</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 48 and under 49 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000050"/>
     </owl:Axiom>
     
 
@@ -1991,7 +1993,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000051">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2005,18 +2006,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 49 and under 50 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000051</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000051</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 49 and under 50 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000051"/>
     </owl:Axiom>
     
 
@@ -2024,7 +2026,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000052">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2038,18 +2039,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 50 and under 51 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000052</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000052</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 50 and under 51 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000052"/>
     </owl:Axiom>
     
 
@@ -2057,7 +2059,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000053">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2071,18 +2072,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 51 and under 52 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000053</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000053</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 51 and under 52 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000053"/>
     </owl:Axiom>
     
 
@@ -2090,7 +2092,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000054">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2104,18 +2105,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 52 and under 53 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000054</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000054</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 52 and under 53 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000054"/>
     </owl:Axiom>
     
 
@@ -2123,32 +2125,32 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000055">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.0</ppygdv:end_ypb>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 53 and under 54 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000055</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000055</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 53 and under 54 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000055"/>
     </owl:Axiom>
     
 
@@ -2156,7 +2158,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000056">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2170,18 +2171,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 54 and under 55 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000056</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000056</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 54 and under 55 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000056"/>
     </owl:Axiom>
     
 
@@ -2189,7 +2191,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000057">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2203,18 +2204,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 55 and under 56 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000057</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000057</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who over 55 and under 56 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000057"/>
     </owl:Axiom>
     
 
@@ -2222,7 +2224,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000058">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56-year-old stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2236,18 +2237,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000057"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</ppygdv:start_ypb>
-        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.0</ppygdv:end_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who is over 56 and under 57 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000058</oboInOwl:id>
+        <ppygdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.0</ppygdv:end_ypb>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000058</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56-year-old stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who is over 56 and under 57 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000058"/>
     </owl:Axiom>
     
 
@@ -2255,7 +2257,6 @@
     <!-- http://purl.obolibrary.org/obo/PpygDv_0000059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PpygDv_0000059">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57-year-old and over stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2269,21 +2270,22 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.0</ppygdv:start_ypb>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who is over 57 years old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000059</oboInOwl:id>
+        <ppygdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.0</ppygdv:start_ypb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orangutan_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PpygDv:0000059</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ppygdv#granular_stage"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57-year-old and over stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aged stage that refers to a orangutan who is over 57 years old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PpygDv_0000059"/>
     </owl:Axiom>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5) https://github.com/owlcs/owlapi -->
 

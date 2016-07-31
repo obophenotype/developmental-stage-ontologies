@@ -6,9 +6,12 @@ ontology: pdumdv
 
 [Term]
 id: PdumDv:0000090
-name: Platynereis developmental stage
+name: Platynereis life cycle stage
 namespace: platynereis_stage
 def: "A Platynereis developmental stage is an occurrent that is a temporal subdivision of a Platynereis dumerilii development." [PLATY:T_Henrich]
+xref: UBERON:0000105
+synonym: "developmental stage" EXACT []
+synonym: "stage" NARROW []
 comment: Developmental stages are typically demarcated by the timing of appearance, loss or transformation of specific anatomical structures.
 
 [Term]

@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ggaldv.owl#"
      xml:base="http://purl.obolibrary.org/obo/ggaldv.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ggaldv="http://purl.obolibrary.org/obo/ggaldv#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:ggaldv="http://purl.obolibrary.org/obo/ggaldv#">
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ggaldv.owl">
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06:02:2014 17:09</oboInOwl:date>
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:default-namespace>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fbb</oboInOwl:saved-by>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
 
@@ -39,13 +40,13 @@
     <!-- http://purl.obolibrary.org/obo/ggaldv#end_dpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ggaldv#end_dpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_dpf</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -53,13 +54,13 @@
     <!-- http://purl.obolibrary.org/obo/ggaldv#end_mph -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ggaldv#end_mph">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post hatching</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the end of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_mph</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, months post hatching</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -76,10 +77,10 @@
     <!-- http://purl.obolibrary.org/obo/ggaldv#has_end_time -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ggaldv#has_end_time">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end time</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_end_time</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has end time</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -87,10 +88,10 @@
     <!-- http://purl.obolibrary.org/obo/ggaldv#has_start_time -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ggaldv#has_start_time">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start time</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_start_time</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has start time</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -98,11 +99,11 @@
     <!-- http://purl.obolibrary.org/obo/ggaldv#has_unit -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ggaldv#has_unit">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_unit</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -110,13 +111,13 @@
     <!-- http://purl.obolibrary.org/obo/ggaldv#start_dpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ggaldv#start_dpf">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post fertilization</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_dpf</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post fertilization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -124,13 +125,13 @@
     <!-- http://purl.obolibrary.org/obo/ggaldv#start_mph -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ggaldv#start_mph">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post hatching</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of months intervening between the start of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_mph</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <ggaldv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, months post hatching</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -195,6 +196,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
@@ -248,11 +257,11 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -261,12 +270,12 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000062</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000062</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -274,13 +283,13 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002087">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002087</oboInOwl:hasDbXref>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002087</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</oboInOwl:shorthand>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_preceded_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -299,19 +308,19 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken life cycle stage</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000000</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmental stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000000</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken life cycle stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000105</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -319,18 +328,18 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken life cycle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000001</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines chicken life from the prenatal stage until late adult stage.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000104</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000001</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken life cycle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines chicken life from the prenatal stage until late adult stage.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal interval that defines chicken life from the prenatal stage until late adult stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -338,7 +347,6 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -346,20 +354,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:start_dpf>
-        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:end_mph>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken life cycle that starts with fertilization and ends with hatching.</obo:IAO_0000115>
         <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ggaldv:end_dpf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryo develops and hatches in 20 to 21 days (see http://php.med.unsw.edu.au/embryology/index.php?title=Chicken_Development).</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000002</oboInOwl:id>
+        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:end_mph>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:start_dpf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000068</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken life cycle that starts with fertilization and ends with hatching.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000002</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryo develops and hatches in 20 to 21 days (see http://php.med.unsw.edu.au/embryology/index.php?title=Chicken_Development).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken life cycle that starts with fertilization and ends with hatching.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken life cycle that starts with fertilization and ends with hatching.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -367,7 +376,6 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000003">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -381,20 +389,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:start_mph>
-        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ggaldv:start_dpf>
-        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:end_mph>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from hatching until 5 months old, when individuals reach sexual maturity.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken reach sexual maturity by five months of age.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000003</oboInOwl:id>
+        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:end_mph>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ggaldv:start_dpf>
+        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:start_mph>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000112</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000003</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken reach sexual maturity by five months of age.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from hatching until 5 months old, when individuals reach sexual maturity.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from hatching until 5 months old, when individuals reach sexual maturity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -402,7 +411,6 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000004">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hatchling stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -410,18 +418,20 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:start_mph>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers.</obo:IAO_0000115>
         <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</ggaldv:end_mph>
         <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</ggaldv:start_dpf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000004</oboInOwl:id>
+        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ggaldv:start_mph>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007221</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000004</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hatchling stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -429,32 +439,32 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000005">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</ggaldv:start_mph>
-        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:end_mph>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from 4 weeks old, when individuals are fully feathered, until 5 months old.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken reach sexual maturity by five months of age.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000005</oboInOwl:id>
+        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:end_mph>
+        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</ggaldv:start_mph>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000005</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken reach sexual maturity by five months of age.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from 4 weeks old, when individuals are fully feathered, until 5 months old.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000005"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that covers the period from 4 weeks old, when individuals are fully feathered, until 5 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -462,32 +472,32 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000006">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:start_mph>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that refers to a sexually mature adult chicken, which is over 5 months old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000006</oboInOwl:id>
+        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:start_mph>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000113</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000006</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that refers to a sexually mature adult chicken, which is over 5 months old.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that refers to a sexually mature adult chicken, which is over 5 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -495,7 +505,6 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000007">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early adult stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -503,17 +512,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old.</obo:IAO_0000115>
         <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ggaldv:end_mph>
         <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:start_mph>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000007</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000007</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early adult stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000007"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -521,31 +531,31 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000008">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-year-old chicken stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ggaldv:start_mph>
-        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ggaldv:end_mph>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000008</oboInOwl:id>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a chicken who is over 12 and under 24 months old.</obo:IAO_0000115>
+        <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ggaldv:end_mph>
+        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ggaldv:start_mph>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000008</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-year-old chicken stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a chicken who is over 12 and under 24 months old.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a chicken who is over 12 and under 24 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -553,7 +563,6 @@
     <!-- http://purl.obolibrary.org/obo/GgalDv_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000009">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-year-old and over chicken stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -567,20 +576,689 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ggaldv:start_mph>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000009</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a chicken who is over 24 months old.</obo:IAO_0000115>
+        <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ggaldv:start_mph>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000009</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-year-old and over chicken stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a chicken who is over 24 months old.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000009"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a chicken who is over 24 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage starting the incubation period and usually defined by the presence of the primitive streak (embryonic shield).</obo:IAO_0000115>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000010</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage starts at dpf (days post fertilization) 1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage starting the incubation period and usually defined by the presence of the primitive streak (embryonic shield).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.25</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</ggaldv:start_dpf>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH1-2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000011</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 6-7 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stages 1-2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by the intermediate primitive streak, while no primitive groove is visible.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.25</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000012</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 12-13 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by the intermediate primitive streak, while no primitive groove is visible.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.dx.doi.org/10.1002/aja.1001950404</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by the definitive primitive streak, about 1.88 mm long. Primitive groove, primitive pir, Hensen&apos;s node are present. </obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.75</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000013</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 18-19 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by the definitive primitive streak, about 1.88 mm long. Primitive groove, primitive pir, Hensen&apos;s node are present. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.dx.doi.org/10.1002/aja.1001950404</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by head process (notochord), head fold.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.75</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH5-6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000014</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 19-25 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stages 5-6</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by head process (notochord), head fold.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by the first 1 visible somite and neural folds.</obo:IAO_0000115>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000015</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 23-26 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 7</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by the first 1 visible somite and neural folds.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by up to 3 somites and coelom.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</ggaldv:start_dpf>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH7 to 8-</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000016</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 23-26 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stages 7 to 8-</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by up to 3 somites and coelom.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 4 somites and blood islands.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH8</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000017</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 26-29 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 4 somites and blood islands.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 7 somites and primary optic vesicles.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH9</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000018</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 29-33 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 9</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 7 somites and primary optic vesicles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 8-9 somites and anterior amniotic fold.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.41</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</ggaldv:start_dpf>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH9+ to 10-</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000019</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained at ca. 33 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stages 9+ to 10-</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 8-9 somites and anterior amniotic fold.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 10 somites and 3 primary brain vesicles.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.41</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH11</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000020</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 33-38 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 10</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 10 somites and 3 primary brain vesicles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 13 somites and 5 neuromeres of hindbrain.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH12</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000021</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 40-45 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 11</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 13 somites and 5 neuromeres of hindbrain.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 16 somites and telencephalon .</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH12</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000022</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 45-49 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 12</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 16 somites and telencephalon .</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 19 somites and atrioventricular canal .</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH13</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000023</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 48-52 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 13</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 19 somites and atrioventricular canal .</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 20-21 somites and tail bud.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</ggaldv:start_dpf>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH13+ to 14-</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000024</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after ca.50-52 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stages 13+ to 14-</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000024"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 20-21 somites and tail bud.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.21</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH14</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000025</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 50-53 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 14</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 23 somites and premandibular head cavities.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.25</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</ggaldv:start_dpf>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH14+ to 15-</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000026</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after ca.50-54 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stages 14+ to 15-</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 23 somites and premandibular head cavities.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 24-27 somites and visceral arch III, cleft 3.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH15</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000027</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 50-55 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 15</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 24-27 somites and visceral arch III, cleft 3.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 226-28 somites, wing bud, posterior amniotic fold.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.35</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.15</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH16</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000028</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 51-56 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 16</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 226-28 somites, wing bud, posterior amniotic fold.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 29-32 somites, leg bud and epiphysis.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH17</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000029</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 52-64 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 17</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 29-32 somites, leg bud and epiphysis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 30-36 somites extending beyond level of leg bud and allantois.</obo:IAO_0000115>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH18</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000030</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 3 days of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 18</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 30-36 somites extending beyond level of leg bud and allantois.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 37- 40 somites extending into tail and maxillary process .</obo:IAO_0000115>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000031</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 3-3.5 days of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 19</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 37- 40 somites extending into tail and maxillary process .</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.21</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH20</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000032</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 50-53 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 20</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GgalDv_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</obo:IAO_0000115>
+        <ggaldv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.21</ggaldv:end_dpf>
+        <ggaldv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</ggaldv:start_dpf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HH14</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000033</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually obtained after 50-53 hours of incubation.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger Hamilton stage 21</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5) https://github.com/owlcs/owlapi -->
 
