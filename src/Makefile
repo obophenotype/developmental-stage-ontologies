@@ -13,8 +13,11 @@ ONT_PREFIXES:= acardv btaudv cfamdv cpordv danadv dmojdv dpsedv dsimdv dvirdv dy
 #trick inspired from http://blog.jgc.org/2012/01/using-gnu-makes-define-and-eval-to.html
 all: $(foreach d,$(ONT_PREFIXES), $d/$d.owl $d/$d$(COMPOSITE_UBERON_SUFFIX))
 
+DERIVED = $(foreach o, $(ONT_PREFIXES), $o/$o.owl $o/$o$(BRIDGE_UBERON_SUFFIX) $o/$o$(COMPOSITE_UBERON_SUFFIX))
+
 clean: 
-	$(foreach o, $(ONT_PREFIXES), @rm -f $o/$o.owl $o/$o$(BRIDGE_UBERON_SUFFIX) $o/$o$(COMPOSITE_UBERON_SUFFIX))
+	@rm -f $(DERIVED)
+#	$(foreach o, $(ONT_PREFIXES), @rm -f $o/$o.owl $o/$o$(BRIDGE_UBERON_SUFFIX) $o/$o$(COMPOSITE_UBERON_SUFFIX))
 
 %.owl: %.obo
 	@$(OWLTOOLS) $< -o $@ 
