@@ -26,14 +26,149 @@ is_a: TnigDv:0000000 ! pufferfish life cycle stage
 id: TnigDv:0000002
 name: prenatal stage
 namespace: pufferfish_developmental_stage
+synonym: "embryo stage" EXACT []
 def: "Pufferfish life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
-comment: Pufferfish eggs usually hatch in more than 72 hours (see PMID21798183)
+comment: Pufferfish eggs usually hatch in more than 72 hours (3 days and 8 hours) (see PMID:21798183 and PMID:25243591).
 xref: UBERON:0000068
 is_a: TnigDv:0000000 ! pufferfish life cycle stage
 relationship: part_of TnigDv:0000001 ! pufferfish life cycle
 property_value: start_dpf "0.0" xsd:float
-property_value: end_dpf "4.0" xsd:float
+property_value: end_dpf "3.3" xsd:float
 property_value: end_yph "0.0" xsd:float
+
+[Term]
+id: TnigDv:0000007
+name: zygote stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish life cycle when the one-cell embryo yolk (yk) is transparent and contains an estimated 300–400 oil droplets (od) varying in size." [PMID:25243591 "adapted from"]
+comment: This stage describes the first 2 minutes upon fertilization (PMID:25243591).
+xref: UBERON:0000106
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: part_of TnigDv:0000002 ! prenatal stage
+property_value: start_dpf "0.0" xsd:float
+
+[Term]
+id: TnigDv:0000008
+name: cleavage stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which a single cell (1st blastomere), formed at the animal pole by separation of cytoplasm from the yolk, is divided (cleaved) into an increasing number of smaller cells, decreasing in size with each division." [PMID:25243591 "adapted from"]
+comment: starts about 1 hour after fertilization and ends with stage 7 (64 cell stage, 4h 47min)(PMID:25243591). We use this timing to define end of the stage (4.8/24).
+xref: UBERON:0000107
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000007 ! zygote stage
+relationship: part_of TnigDv:0000002 ! prenatal stage
+property_value: end_dpf "0.2" xsd:float
+
+[Term]
+id: TnigDv:0000009
+name: blastula stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which the yolk syncytial layer (ysl), nuclei in a ring of syncytial cytoplasm, forms below the blastodisc margin. At the end of this stage, the yolk bulges dome-like into the blastodisc." [PMID:25243591 "adapted from"]
+comment: ends with stage 11 (dome, 11h 27±42min)(PMID:25243591). We use this timing to define end of the stage (12/24).
+xref: UBERON:0000108
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000008 ! cleavage stage
+relationship: part_of TnigDv:0000002 ! prenatal stage
+property_value: start_dpf "0.2" xsd:float
+property_value: end_dpf "0.5" xsd:float
+
+[Term]
+id: TnigDv:0000010
+name: gastrula stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which the blastoderm moves over the yolk (epiboly) and becomes internalized at the margin." [PMID:25243591 "adapted from"]
+comment: stage 14 (80% epiboly, 15h 17±64min) precedes the neurula stage (PMID:25243591). We use this timing to define end of the gastrula stage (16/24) and to let define a neurula stage (TnigDv:0000011).
+xref: UBERON:0000109
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000009 ! blastula stage
+relationship: part_of TnigDv:0000002 ! prenatal stage
+property_value: start_dpf "0.5" xsd:float
+property_value: end_dpf "0.7" xsd:float
+
+[Term]
+id: TnigDv:0000011
+name: gastrula:40%-epiboly
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which epiboly is well under way and the blastoderm appears as an inverted cup of mostly uniform thickness. The margin reaches approximately 40% of the distance between the animal and vegetal poles." [PMID:25243591 "adapted from"]
+comment: stage 12 (germ ring, 13h 57min) (PMID:25243591). We use this timing to define end of the stage (14/24).
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: part_of TnigDv:0000010 ! gastrula stage
+property_value: end_dpf "0.6" xsd:float
+
+[Term]
+id: TnigDv:0000012
+name: gastrula:50%-epiboly
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which the blastoderm covers 50% of the yolk cell." [PMID:25243591 "adapted from"]
+comment: sounds there is an erroneous time information in PMID:25243591, described as Stage 13 (shield, 13h 43min)
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000011 ! gastrula:40%-epiboly
+relationship: part_of TnigDv:0000010 ! gastrula stage
+
+
+[Term]
+id: TnigDv:0000013
+name: gastrula:80%-epiboly
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which the blastoderm margin reaches 80% of the distance between the animal and the vegetal pole." [PMID:25243591 "adapted from"]
+comment: stage 14 (80% epiboly, 15h 17±64min) (PMID:25243591). We use this timing to define end of the stage (16/24).
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000012 ! gastrula:50%-epiboly
+relationship: part_of TnigDv:0000010 ! gastrula stage
+property_value: end_dpf "0.7" xsd:float
+
+[Term]
+id: TnigDv:0000014
+name: neurula stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which the neural axis, which appears as a solid rod, develops and shows vesicle evagination as lateral buds at its anterior end." [PMID:25243591 "adapted from"]
+comment: stage 15 (neurula, 20h 17min) is the late neurula stage (PMID:25243591). We use this timing to define end of the stage (20.3/24).
+xref: UBERON:0000110
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000013 ! gastrula:80%-epiboly
+relationship: part_of TnigDv:0000002 ! prenatal stage
+property_value: start_dpf "0.7" xsd:float
+property_value: end_dpf "0.85" xsd:float
+
+[Term]
+id: TnigDv:0000015
+name: segmentation stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which reiterative structures, like distinct portions of mesoderm (somites) and the rhombomeres of the hindbrain, form along the anterior–posterior axis." [PMID:25243591 "adapted from"]
+comment: ends with stage 21 (brain ventricles, 1 day 9h 47min) (PMID:25243591). We use this timing to define end of the stage (33.8/24).
+xref: UBERON:0000110
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000014 ! neurula stage
+relationship: part_of TnigDv:0000002 ! prenatal stage
+property_value: start_dpf "0.85" xsd:float
+property_value: end_dpf "1.4" xsd:float
+
+[Term]
+id: TnigDv:0000016
+name: pharyngula stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish embryo stage during which different organ systems, like the digestive tract, grow to gain functionality by the time the embryo hatches and becomes a free-feeding larva." [PMID:25243591 "adapted from"]
+comment: ends with stage 28 (pre hatching, 3 days 5h 50min) (PMID:25243591). We use this timing to define end of the stage (77.8/24).
+xref: UBERON:0004707
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000015 ! segmentation stage
+relationship: part_of TnigDv:0000002 ! prenatal stage
+property_value: start_dpf "1.4" xsd:float
+property_value: end_dpf "3.3" xsd:float
+
+[Term]
+id: TnigDv:0000005
+name: larval stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish life cycle that starts on the third day post fertilization (dpf), when the tetraodon embryo hatches from its chorion, and ends with the fully formed juvenile fish." [Bgee:curator "Bgee"]
+comment: the first stage is Stage 29 (hatching, 3 days 8h 43min) (PMID:25243591). We use this timing to define the start of the stage (80.7/24). The stage ends with Stage 32 (6 days larva) (PMID:25243591). We use this timing to define end of the stage.
+xref: UBERON:0000069
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: immediately_preceded_by TnigDv:0000016 ! pharyngula stage
+relationship: part_of TnigDv:0000001 ! pufferfish life cycle
+property_value: start_dpf "3.3" xsd:float
+property_value: end_dpf "6.0" xsd:float
+property_value: start_yph "0.0" xsd:float
 
 [Term]
 id: TnigDv:0000003
@@ -48,6 +183,21 @@ relationship: immediately_preceded_by TnigDv:0000002 ! prenatal stage
 property_value: start_dpf "4.0" xsd:float
 property_value: start_yph "0.0" xsd:float
 property_value: end_yph "5.0" xsd:float
+is_obsolete: true
+consider: TnigDv:0000006
+
+[Term]
+id: TnigDv:0000006
+name: immature stage
+namespace: pufferfish_developmental_stage
+def: "Pufferfish developmental stage that covers the period from fully formed juvenile fish until 5 year old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: it is believed that pufferfish do not reach sexual maturity until they are 5 years old (see http://www.aquahobby.com/gallery/e_puffer1p.php)
+xref: UBERON:0000112
+is_a: TnigDv:0000000 ! pufferfish life cycle stage
+relationship: part_of TnigDv:0000001 ! pufferfish life cycle
+relationship: immediately_preceded_by TnigDv:0000005 ! larval stage
+property_value: start_dpf "6.0" xsd:float
+property_value: end_yph "5.0" xsd:float
 
 [Term]
 id: TnigDv:0000004
@@ -59,7 +209,7 @@ xref: UBERON:0000113
 is_a: TnigDv:0000000 ! pufferfish life cycle stage
 relationship: part_of TnigDv:0000001 ! pufferfish life cycle
 property_value: start_yph "5.0" xsd:float
-relationship: immediately_preceded_by TnigDv:0000003 ! immature stage
+relationship: immediately_preceded_by TnigDv:0000006 ! immature stage
 
 [Typedef]
 id: part_of
