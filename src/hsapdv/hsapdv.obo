@@ -1136,7 +1136,7 @@ property_value: end_mpb "24.0" xsd:float
 
 [Term]
 id: HsapDv:0000174
-name: 1 month-old human stage
+name: 1-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 1 and under 2 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
