@@ -81,6 +81,7 @@ name: aged stage
 namespace: cow_developmental_stage
 def: "Mature stage that refers to a cow who is over 12 years old, the usual upper limit for breeding age." [Bgee:curator "Bgee"]
 comment: Cows have been known to live over 20 years.
+xref: UBERON:0007222
 is_a: BtauDv:0000000 ! cow life cycle stage
 relationship: part_of BtauDv:0000004 ! mature stage
 relationship: immediately_preceded_by BtauDv:0000005 ! adulthood stage
