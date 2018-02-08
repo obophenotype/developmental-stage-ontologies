@@ -6,6 +6,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:hsapdv="http://purl.obolibrary.org/obo/hsapdv#"
+     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:Wikipedia="http://purl.obolibrary.org/obo/Wikipedia#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -217,6 +218,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
@@ -334,6 +341,12 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- ttp://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="ttp://www.geneontology.org/formats/oboInOwl#created_by"/>
     
 
 
@@ -3021,7 +3034,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0010000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human developmental stage that covers the period from birth until 12 years old.</obo:IAO_0000115>
@@ -7145,7 +7158,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0010000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human developmental stage that refers to a sexually mature human.</obo:IAO_0000115>
@@ -8119,6 +8132,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0010000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000235"/>
             </owl:Restriction>
@@ -8230,6 +8249,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000238"/>
             </owl:Restriction>
@@ -8300,6 +8325,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
@@ -8484,6 +8515,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0010000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0010000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Human developmental stage that covers the whole of human life post birth.</obo:IAO_0000115>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-08T15:14:29Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">postnatal stage</rdfs:label>
+        <oboInOwl1:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dos</oboInOwl1:created_by>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0010000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Human developmental stage that covers the whole of human life post birth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:dos</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -8497,5 +8553,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.5) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
