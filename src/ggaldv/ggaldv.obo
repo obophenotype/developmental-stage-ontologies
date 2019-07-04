@@ -61,7 +61,7 @@ property_value: end_dpf "1.25" xsd:float
 id: GgalDv:0000012
 name: Hamburger Hamilton stage 3
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by the intermediate primitive streak, while no primitive groove is visible." [http://www.dx.doi.org/10.1002/aja.1001950404 "adapted from"]
+def: "Prenatal stage on incubation period defined by the intermediate primitive streak, while no primitive groove is visible." [https://doi.org/10.1002/aja.1001950404 "adapted from"]
 comment: Usually obtained after 12-13 hours of incubation.
 synonym: "HH3" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
@@ -73,7 +73,7 @@ property_value: end_dpf "1.5" xsd:float
 id: GgalDv:0000013
 name: Hamburger Hamilton stage 4
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by the definitive primitive streak, about 1.88 mm long. Primitive groove, primitive pir, Hensen's node are present. " [http://www.dx.doi.org/10.1002/aja.1001950404 "adapted from"]
+def: "Prenatal stage on incubation period defined by the definitive primitive streak, about 1.88 mm long. Primitive groove, primitive pir, Hensen's node are present. " [https://doi.org/10.1002/aja.1001950404 "adapted from"]
 comment: Usually obtained after 18-19 hours of incubation.
 synonym: "HH4" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
