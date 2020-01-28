@@ -1080,6 +1080,17 @@ property_value: start_dpf "259.0" xsd:float
 property_value: end_dpf "266.0" xsd:float
 
 [Term]
+id: HsapDv:0010000
+name: postnatal stage
+namespace: human_developmental_stage
+def: "Human developmental stage that covers the whole of human life post birth." [https://github.com/obophenotype/uberon/issues/56, GOC:dos]
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000001 ! human life cycle
+property_value: start_ypb "0.0" xsd:float
+property_value: end_ypb "13.0" xsd:float
+created_by: dos
+
+[Term]
 id: HsapDv:0000080
 name: immature stage
 namespace: human_developmental_stage
@@ -1089,6 +1100,7 @@ synonym: "child" RELATED []
 xref: UBERON:0000112
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
+relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 
@@ -1622,6 +1634,7 @@ def: "Human developmental stage that refers to a sexually mature human." [Bgee:c
 xref: UBERON:0000113
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
+relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: start_ypb "13.0" xsd:float
 
 [Term]
@@ -3060,6 +3073,7 @@ is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000235 ! first decade human stage
+relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: end_ypb "20.0" xsd:float
 property_value: start_ypb "10.0" xsd:float
 
