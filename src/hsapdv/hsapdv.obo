@@ -1103,6 +1103,21 @@ relationship: part_of HsapDv:0000001 ! human life cycle
 relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000257
+
+[Term]
+id: HsapDv:0000257
+name: immature stage
+namespace: human_developmental_stage
+def: "Human developmental stage that covers the period from birth until before reaching 10 years old." [Bgee:curator "Bgee"]
+synonym: "first decade human stage" EXACT []
+synonym: "child" RELATED []
+xref: UBERON:0000112
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000001 ! human life cycle
+property_value: start_ypb "0.0" xsd:float
+property_value: end_ypb "10.0" xsd:float
 
 [Term]
 id: HsapDv:0000081
@@ -1115,6 +1130,21 @@ relationship: part_of HsapDv:0000080 ! immature stage
 relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
 property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000258
+
+[Term]
+id: HsapDv:0000258
+name: child stage
+namespace: human_developmental_stage
+def: "Immature stage that refers to child who is over 2 and under 10 years old." [Bgee:curator "Bgee"]
+synonym: "2-9 years" EXACT []
+xref: UBERON:0034919
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000257 ! immature stage
+relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
+property_value: start_ypb "2.0" xsd:float
+property_value: end_ypb "10.0" xsd:float
 
 [Term]
 id: HsapDv:0000082
@@ -1125,7 +1155,7 @@ synonym: "neonate" RELATED []
 synonym: "neonatal stage" RELATED []
 synonym: "0-1 month" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000080 ! immature stage
+relationship: part_of HsapDv:0000257 ! immature stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "0.083" xsd:float
 property_value: start_mpb "0.0" xsd:float
@@ -1139,7 +1169,7 @@ def: "Immature stage that refers to an infant who is over 31 days and is under 2
 synonym: "1-23 months" EXACT []
 synonym: "infantile stage" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000080 ! immature stage
+relationship: part_of HsapDv:0000257 ! immature stage
 relationship: immediately_preceded_by HsapDv:0000082 ! new born human stage
 property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "2.0" xsd:float
@@ -1468,7 +1498,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 24 months and under 6 years old." [Bgee:curator "Bgee"]
 synonym: "preschool child" RELATED []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000081 ! child stage
+relationship: part_of HsapDv:0000258 ! child stage
 property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "6.0" xsd:float
 
@@ -1534,6 +1564,20 @@ relationship: part_of HsapDv:0000081 ! child stage
 relationship: immediately_preceded_by HsapDv:0000084 ! 2-5 year-old child stage
 property_value: start_ypb "6.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000259
+
+[Term]
+id: HsapDv:0000259
+name: 6-9 year-old child stage
+namespace: human_developmental_stage
+def: "Child stage that refers to a child who is over 6 and under 10 years old." [Bgee:curator "Bgee"]
+synonym: "prepubescent" RELATED []
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000258 ! child stage
+relationship: immediately_preceded_by HsapDv:0000084 ! 2-5 year-old child stage
+property_value: start_ypb "6.0" xsd:float
+property_value: end_ypb "10.0" xsd:float
 
 [Term]
 id: HsapDv:0000100
