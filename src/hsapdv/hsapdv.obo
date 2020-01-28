@@ -3048,7 +3048,6 @@ def: "Human stage that refers to an individual who is over 0 and under 10 years 
 is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000081 ! child stage
 property_value: end_ypb "10.0" xsd:float
 property_value: start_ypb "0.0" xsd:float
 
