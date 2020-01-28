@@ -3112,6 +3112,7 @@ is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000238 ! fourth decade human stage
+relationship: part_of HsapDv:0000204 ! mature stage
 property_value: end_ypb "50.0" xsd:float
 property_value: start_ypb "40.0" xsd:float
 
@@ -3137,6 +3138,7 @@ is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000240 ! sixth decade human stage
+relationship: part_of HsapDv:0000204 ! mature stage
 property_value: end_ypb "70.0" xsd:float
 property_value: start_ypb "60.0" xsd:float
 
