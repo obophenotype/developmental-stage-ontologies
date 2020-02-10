@@ -1087,7 +1087,6 @@ def: "Human developmental stage that covers the whole of human life post birth."
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
 property_value: start_ypb "0.0" xsd:float
-property_value: end_ypb "13.0" xsd:float
 created_by: dos
 
 [Term]
