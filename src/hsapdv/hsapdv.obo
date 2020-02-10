@@ -77,6 +77,8 @@ xref: UBERON:0000107
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000002 ! embryonic human stage
 relationship: immediately_preceded_by HsapDv:0000003 ! Carnegie stage 01
+is_obsolete: true
+replaced_by: HsapDv:0000005
 
 [Term]
 id: HsapDv:0000005
@@ -85,7 +87,8 @@ namespace: human_developmental_stage
 def: "Embryonic stage during which cell division occurs with reduction in cytoplasmic volume, and formation of inner and outer cell mass." [http://embryology.med.unsw.edu.au/embryology/index.php?title=Carnegie_stage_table "adapted from"]
 comment: Usually starts between day 2 and day 3 post-fertilization.
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000004 ! cleavage stage
+relationship: part_of HsapDv:0000002 ! embryonic human stage
+xref: UBERON:0000107
 xref: XUO:0000131
 relationship: preceded_by HsapDv:0000003 ! Carnegie stage 01
 xref: EHDAA2:CS02 ! CS02
