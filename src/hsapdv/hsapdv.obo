@@ -103,7 +103,6 @@ namespace: human_developmental_stage
 def: "The morula stage is the later part of Carnegie stage 02 when the cells have coalesced into a mass but the blastocystic cavity has not formed. Formation of the cavity marks the beginning of Carnegie stage 03." [Bgee:curator "adapted from DrJohnCork"]
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000005 ! Carnegie stage 02
-relationship: immediately_preceded_by HsapDv:0000004 ! cleavage stage
 
 [Term]
 id: HsapDv:0000006
