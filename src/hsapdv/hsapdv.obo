@@ -2450,6 +2450,22 @@ xref: UBERON:0007222
 relationship: part_of HsapDv:0000091 ! human late adulthood stage
 relationship: immediately_preceded_by HsapDv:0000092 ! human middle aged stage
 property_value: start_ypb "65.0" xsd:float
+is_obsolete: true
+replaced_by: HsapDv:0000227
+
+[Term]
+id: HsapDv:0000227
+name: human late adult stage
+namespace: human_developmental_stage
+def: "Late adult stage that refers to an individu who is usually over 65 and starts to have some age-related impairments like hearing loss." [Bgee:curator "Bgee"]
+comment: Age-related hearing loss (presbycusis) is one of the most common conditions affecting older and elderly adults, one-third of people over 65 years are usually affected (see https://www.nidcd.nih.gov/health/age-related-hearing-loss#1). We arbitrary decided to consider this criteria as the starting point for the human late adult stage.
+synonym: "elderly" RELATED []
+synonym: "65+ years" EXACT []
+xref: UBERON:0007222
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000204 ! mature stage
+relationship: immediately_preceded_by HsapDv:0000226 ! prime adult stage
+property_value: start_ypb "65.0" xsd:float
 
 [Term]
 id: HsapDv:0000094
@@ -2458,7 +2474,7 @@ namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is under 80." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000093 ! human aged stage
+relationship: part_of HsapDv:0000227 ! human late adult stage
 property_value: start_ypb "65.0" xsd:float
 property_value: end_ypb "80.0" xsd:float
 
@@ -2663,7 +2679,7 @@ name: 80 year-old and over human stage
 namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is over 80." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000093 ! human aged stage
+relationship: part_of HsapDv:0000227 ! human late adult stage
 relationship: immediately_preceded_by HsapDv:0000173 ! 79-year-old human stage
 property_value: start_ypb "80.0" xsd:float
 
@@ -3196,7 +3212,7 @@ is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000241 ! seventh decade human stage
-relationship: part_of HsapDv:0000093 ! human aged stage
+relationship: part_of HsapDv:0000227 ! human late adult stage
 property_value: end_ypb "80.0" xsd:float
 property_value: start_ypb "70.0" xsd:float
 
@@ -3209,7 +3225,7 @@ is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000242 ! eighth decade human stage
-relationship: part_of HsapDv:0000093 ! human aged stage
+relationship: part_of HsapDv:0000227 ! human late adult stage
 property_value: end_ypb "90.0" xsd:float
 property_value: start_ypb "80.0" xsd:float
 
@@ -3222,7 +3238,7 @@ is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade human stage
-relationship: part_of HsapDv:0000093 ! human aged stage
+relationship: part_of HsapDv:0000227 ! human late adult stage
 property_value: end_ypb "100.0" xsd:float
 property_value: start_ypb "90.0" xsd:float
 
@@ -3235,7 +3251,7 @@ is_a: UBERON:0000105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000244 ! tenth decade human stage
-relationship: part_of HsapDv:0000093 ! human aged stage
+relationship: part_of HsapDv:0000227 ! human late adult stage
 property_value: end_ypb "110.0" xsd:float
 property_value: start_ypb "100.0" xsd:float
 
