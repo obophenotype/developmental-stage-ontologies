@@ -1589,7 +1589,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
+relationship: part_of HsapDv:0000235 ! first decade human stage
 relationship: immediately_preceded_by HsapDv:0000099 ! 5-year-old human stage
 xref: EV:0300057
 
@@ -1602,7 +1602,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
+relationship: part_of HsapDv:0000235 ! first decade human stage
 relationship: immediately_preceded_by HsapDv:0000100 ! 6-year-old human stage
 xref: EV:0300058
 
@@ -1615,7 +1615,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 8 and under 9 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
+relationship: part_of HsapDv:0000235 ! first decade human stage
 relationship: immediately_preceded_by HsapDv:0000101 ! 7-year-old human stage
 xref: EV:0300059
 
@@ -1628,7 +1628,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 9 and under 10 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
+relationship: part_of HsapDv:0000235 ! first decade human stage
 relationship: immediately_preceded_by HsapDv:0000102 ! 8-year-old human stage
 xref: EV:0300060
 
@@ -1641,7 +1641,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 10 and under 11 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 relationship: immediately_preceded_by HsapDv:0000103 ! 9-year-old human stage
 xref: EV:0300061
 
@@ -1654,7 +1654,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 11 and under 12 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 relationship: immediately_preceded_by HsapDv:0000104 ! 10-year-old human stage
 xref: EV:0300062
 
@@ -1667,7 +1667,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 12 and under 13 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000085 ! 6-12 year-old child stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 relationship: immediately_preceded_by HsapDv:0000105 ! 11-year-old human stage
 xref: EV:0300063
 
