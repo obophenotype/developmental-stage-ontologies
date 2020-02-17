@@ -1783,6 +1783,21 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000204 ! mature stage
 relationship: immediately_preceded_by HsapDv:0000086 ! adolescent stage
 property_value: start_ypb "19.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000226
+
+[Term]
+id: HsapDv:0000226
+name: human prime adult stage
+namespace: human_developmental_stage
+def: "A human life cycle stage that starts at completion of development and growth of the sexually mature adult individu, and ends before senescence." [Bgee:curator "Bgee"]
+comment: Adulthood, the period in the human lifespan in which full physical and intellectual maturity have been attained, is commonly thought of as beginning at age 20 or 21 years (see https://www.britannica.com/science/adulthood). We arbitrary defined over 19 years as the starting point of this stage.
+synonym: "adulthood stage" EXACT []
+xref: UBERON:0018241
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000204 ! mature stage
+property_value: start_ypb "19.0" xsd:float
+property_value: end_ypb "65.0" xsd:float
 
 [Term]
 id: HsapDv:0000088
@@ -1791,7 +1806,7 @@ namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is under 45." [Bgee:curator "Bgee"]
 synonym: "19-44 years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000087 ! human adult stage
+relationship: part_of HsapDv:0000226 ! human prime adult stage
 property_value: start_ypb "19.0" xsd:float
 property_value: end_ypb "45.0" xsd:float
 
@@ -2166,6 +2181,9 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000087 ! human adult stage
 relationship: immediately_preceded_by HsapDv:0000088 ! human early adulthood stage
 property_value: start_ypb "45.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000092
+consider: HsapDv:0000227
 
 [Term]
 id: HsapDv:0000092
@@ -2174,7 +2192,7 @@ namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 45 and under 65." [Bgee:curator "Bgee"]
 synonym: "45-64 years" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000091 ! human late adulthood stage
+relationship: part_of HsapDv:0000226 ! human prime adult stage
 property_value: start_ypb "45.0" xsd:float
 property_value: end_ypb "65.0" xsd:float
 
