@@ -1705,6 +1705,7 @@ def: "Adolescent stage that refers to an adolescent who is over 13 and under 14 
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 relationship: immediately_preceded_by HsapDv:0000106 ! 12-year-old human stage
 xref: EV:0300065
 
@@ -1718,6 +1719,7 @@ def: "Adolescent stage that refers to an adolescent who is over 14 and under 15 
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 xref: EV:0300066
 relationship: immediately_preceded_by HsapDv:0000107 ! 13-year-old human stage
 
@@ -1731,6 +1733,7 @@ def: "Adolescent stage that refers to an adolescent who is over 15 and under 16 
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 xref: EV:0300067
 relationship: immediately_preceded_by HsapDv:0000108 ! 14-year-old human stage
 
@@ -1744,6 +1747,7 @@ def: "Adolescent stage that refers to an adolescent who is over 16 and under 17 
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 xref: EV:0300068
 relationship: immediately_preceded_by HsapDv:0000109 ! 15-year-old human stage
 
@@ -1757,6 +1761,7 @@ def: "Adolescent stage that refers to an adolescent who is over 17 and under 18 
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 xref: EV:0300069
 relationship: immediately_preceded_by HsapDv:0000110 ! 16-year-old human stage
 
@@ -1770,6 +1775,7 @@ def: "Adolescent stage that refers to an adolescent who is over 18 and under 19 
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000086 ! adolescent stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 xref: EV:0300071
 relationship: immediately_preceded_by HsapDv:0000111 ! 17-year-old human stage
 
@@ -1831,6 +1837,7 @@ def: "Young adult stage that refers to an adult who is under 20." [Bgee:curator 
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000089 ! young adult stage
+relationship: part_of HsapDv:0000236 ! second decade human stage
 xref: EV:0300072
 relationship: immediately_preceded_by HsapDv:0000112 ! 18-year-old human stage
 
