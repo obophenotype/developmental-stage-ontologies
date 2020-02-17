@@ -1791,6 +1791,7 @@ relationship: part_of HsapDv:0000204 ! mature stage
 relationship: immediately_preceded_by HsapDv:0000086 ! adolescent stage
 property_value: start_ypb "19.0" xsd:float
 is_obsolete: true
+consider: HsapDv:0000227
 consider: HsapDv:0000226
 
 [Term]
