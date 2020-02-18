@@ -1147,12 +1147,24 @@ property_value: start_wpb "11.0" xsd:float
 property_value: end_wpb "12.0" xsd:float
 
 [Term]
+id: MmusDv:0000137
+name: 3-6 month-old mature stage
+namespace: mouse_developmental_stage
+def: "Mature stage that refers to a mouse which is over 3 and under 7 months old." [Bgee:curator "Bgee"]
+comment: This stage is often used as the reference group for any age change in aging studies. Correlates to humans from 20 - 30 years old (see https://www.jax.org/news-and-insights/jax-blog/2017/november/when-are-mice-considered-old).
+is_a: MmusDv:0000000 ! mouse life cycle stage
+relationship: part_of MmusDv:0000136 ! mouse prime adult stage
+relationship: immediately_preceded_by MmusDv:0000062 ! 2-month-old stage
+property_value: start_mpb "3.0" xsd:float
+property_value: end_mpb "7.0" xsd:float
+
+[Term]
 id: MmusDv:0000063
 name: 3-month-old stage
 namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: part_of MmusDv:0000137 ! 3-6 month-old mature stage
 relationship: immediately_preceded_by MmusDv:0000062 ! 2-month-old stage
 property_value: start_wpb "12.0" xsd:float
 property_value: end_wpb "16.0" xsd:float
@@ -1213,7 +1225,7 @@ name: 4-month-old stage
 namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: part_of MmusDv:0000137 ! 3-6 month-old mature stage
 relationship: immediately_preceded_by MmusDv:0000063 ! 3-month-old stage
 property_value: start_wpb "16.0" xsd:float
 property_value: end_wpb "21.0" xsd:float
@@ -1286,7 +1298,7 @@ name: 5-month-old stage
 namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: part_of MmusDv:0000137 ! 3-6 month-old mature stage
 relationship: immediately_preceded_by MmusDv:0000064 ! 4-month-old stage
 property_value: start_wpb "21.0" xsd:float
 property_value: end_wpb "25.0" xsd:float
@@ -1347,7 +1359,7 @@ name: 6-month-old stage
 namespace: mouse_developmental_stage
 def: "Early adult stage that refers to a mouse which is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000061 ! early adult stage
+relationship: part_of MmusDv:0000137 ! 3-6 month-old mature stage
 relationship: immediately_preceded_by MmusDv:0000069 ! 5-month-old stage
 property_value: start_wpb "25.0" xsd:float
 property_value: end_wpb "30.0" xsd:float
