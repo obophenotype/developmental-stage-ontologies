@@ -1408,6 +1408,9 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000110 ! mature stage
 property_value: start_wpb "30.0" xsd:float
 property_value: start_mpb "7.0" xsd:float
+is_obsolete: true
+consider: MmusDv:0000135
+consider: MmusDv:0000134
 
 [Term]
 id: MmusDv:0000075
@@ -1457,6 +1460,18 @@ relationship: part_of MmusDv:0000075 ! middle aged stage
 relationship: immediately_preceded_by MmusDv:0000079 ! 8-month-old stage
 property_value: start_mpb "9.0" xsd:float
 property_value: end_mpb "10.0" xsd:float
+
+[Term]
+id: MmusDv:0000135
+name: middle aged stage
+namespace: mouse_developmental_stage
+def: "Adult stage that refers to a mouse which is over 10 and under 15 months old."
+comment: Mice middle-aged group is used in the literature to investigate progressive age-related changes. Correlates to humans from 38 - 47 years old (see https://www.jax.org/news-and-insights/jax-blog/2017/november/when-are-mice-considered-old).
+is_a: MmusDv:0000000 ! mouse life cycle stage
+relationship: part_of MmusDv:0000110 ! mature stage
+relationship: immediately_preceded_by MmusDv:0000080 ! 9-month-old stage
+property_value: start_mpb "10.0" xsd:float
+property_value: end_mpb "15.0" xsd:float
 
 [Term]
 id: MmusDv:0000081
