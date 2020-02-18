@@ -1163,10 +1163,11 @@ property_value: start_ypb "0.0" xsd:float
 id: HsapDv:0000082
 name: newborn human stage 
 namespace: human_developmental_stage
-def: "Immature stage that refers to a newborn who is under 32 days old." [Bgee:curator "Bgee"]
+def: "Immature stage that refers to a human newborn." [Bgee:curator "Bgee"]
+comment: Usually consider as a human in the first month of life, HP:0003811 (Neonatal death) has definition (Death within the first 28 days of life).
 synonym: "neonate" RELATED []
 synonym: "neonatal stage" RELATED []
-synonym: "0-1 month" EXACT []
+xref: UBERON:0007221
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000260 ! nursing stage
 property_value: start_ypb "0.0" xsd:float
