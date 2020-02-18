@@ -1527,6 +1527,8 @@ is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000097 ! late adult stage
 relationship: immediately_preceded_by MmusDv:0000075 ! middle aged stage
 property_value: start_mpb "15.0" xsd:float
+is_obsolete: true
+replaced_by: MmusDv:0000134
 
 [Term]
 id: MmusDv:0000086
@@ -1565,13 +1567,25 @@ property_value: start_mpb "17.0" xsd:float
 property_value: end_mpb "18.0" xsd:float
 
 [Term]
+id: MmusDv:0000134
+name: mouse late adult stage
+namespace: mouse_developmental_stage
+def: "Mature stage that refers to an adult mouse which is over 18 months old."
+comment: Mice from 18 months are considered as old and show presence of senescent changes in almost all biomarkers (see https://www.jax.org/news-and-insights/jax-blog/2017/november/when-are-mice-considered-old).
+xref: UBERON:0007222
+is_a: MmusDv:0000000 ! mouse life cycle stage
+relationship: part_of MmusDv:0000110 ! mature stage
+relationship: immediately_preceded_by MmusDv:0000088 ! 17-month-old stage
+property_value: start_mpb "18.0" xsd:float
+
+[Term]
 id: MmusDv:0000089
 name: 18-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 18 and under 19 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 18 and under 19 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: part_of MmusDv:0000134 ! mouse late adult stage
 relationship: immediately_preceded_by MmusDv:0000088 ! 17-month-old stage
 property_value: start_mpb "18.0" xsd:float
 property_value: end_mpb "19.0" xsd:float
@@ -1580,10 +1594,10 @@ property_value: end_mpb "19.0" xsd:float
 id: MmusDv:0000090
 name: 19-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 19 and under 20 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 19 and under 20 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: part_of MmusDv:0000134 ! mouse late adult stage
 relationship: immediately_preceded_by MmusDv:0000089 ! 18-month-old stage
 property_value: start_mpb "19.0" xsd:float
 property_value: end_mpb "20.0" xsd:float
@@ -1592,10 +1606,10 @@ property_value: end_mpb "20.0" xsd:float
 id: MmusDv:0000091
 name: 20-month-old stage and over
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 20 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 20 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: part_of MmusDv:0000134 ! mouse late adult stage
 relationship: immediately_preceded_by MmusDv:0000090 ! 19-month-old stage
 property_value: start_mpb "20.0" xsd:float
 
@@ -1603,7 +1617,7 @@ property_value: start_mpb "20.0" xsd:float
 id: MmusDv:0000124
 name: 20-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 20 and under 21 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 20 and under 21 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1615,7 +1629,7 @@ property_value: end_mpb "21.0" xsd:float
 id: MmusDv:0000125
 name: 21-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 21 and under 22 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 21 and under 22 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1627,7 +1641,7 @@ property_value: end_mpb "22.0" xsd:float
 id: MmusDv:0000126
 name: 22-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 22 and under 23 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 22 and under 23 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1639,7 +1653,7 @@ property_value: end_mpb "23.0" xsd:float
 id: MmusDv:0000127
 name: 23-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 23 and under 24 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 23 and under 24 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1651,7 +1665,7 @@ property_value: end_mpb "24.0" xsd:float
 id: MmusDv:0000128
 name: 24-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 24 and under 25 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 24 and under 25 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1663,7 +1677,7 @@ property_value: end_mpb "25.0" xsd:float
 id: MmusDv:0000129
 name: 25-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 25 and under 26 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 25 and under 26 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1675,7 +1689,7 @@ property_value: end_mpb "26.0" xsd:float
 id: MmusDv:0000130
 name: 26-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 26 and under 27 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 26 and under 27 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1687,7 +1701,7 @@ property_value: end_mpb "27.0" xsd:float
 id: MmusDv:0000131
 name: 27-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 27 and under 28 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 27 and under 28 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1699,7 +1713,7 @@ property_value: end_mpb "28.0" xsd:float
 id: MmusDv:0000132
 name: 28-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 28 and under 29 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 28 and under 29 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1711,7 +1725,7 @@ property_value: end_mpb "29.0" xsd:float
 id: MmusDv:0000133
 name: 29-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 29 and under 30 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 29 and under 30 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
@@ -1723,7 +1737,7 @@ property_value: end_mpb "30.0" xsd:float
 id: MmusDv:0000134
 name: 30-month-old stage
 namespace: mouse_developmental_stage
-def: "Aged adult stage that refers to a mouse which is over 30 and under 31 months old." [Bgee:curator "Bgee"]
+def: "Late adult stage that refers to a mouse which is over 30 and under 31 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000091 ! 20-month-old stage and over
