@@ -1120,6 +1120,7 @@ relationship: part_of HsapDv:0000001 ! human life cycle
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "10.0" xsd:float
 
+
 [Term]
 id: HsapDv:0000081
 name: child stage
@@ -1148,6 +1149,17 @@ property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "10.0" xsd:float
 
 [Term]
+id: HsapDv:0000260
+name: nursing stage
+namespace: human_developmental_stage
+def: "Human developmental stage that covers the period from birth until weaning and/or stopping bottled substitute." [Bgee:curator "Bgee"]
+comment: The definition of an age for human weaning is tricky, because of individul and cultural variations. The natural age of weaning in humans could be 2.5 years, with maximum 7.0 years (see https://www.health-e-learning.com/articles/A_Natural_Age_of_Weaning.pdf).
+xref: UBERON:0018685
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000001 ! human life cycle
+property_value: start_ypb "0.0" xsd:float
+
+[Term]
 id: HsapDv:0000082
 name: newborn human stage 
 namespace: human_developmental_stage
@@ -1156,7 +1168,7 @@ synonym: "neonate" RELATED []
 synonym: "neonatal stage" RELATED []
 synonym: "0-1 month" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000257 ! immature stage
+relationship: part_of HsapDv:0000260 ! nursing stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "0.083" xsd:float
 property_value: start_mpb "0.0" xsd:float
@@ -1170,7 +1182,7 @@ def: "Immature stage that refers to an infant who is over 31 days and is under 2
 synonym: "1-23 months" EXACT []
 synonym: "infantile stage" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000257 ! immature stage
+relationship: part_of HsapDv:0000260 ! nursing stage
 relationship: immediately_preceded_by HsapDv:0000082 ! new born human stage
 property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "2.0" xsd:float
