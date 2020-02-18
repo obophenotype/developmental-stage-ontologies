@@ -1183,7 +1183,7 @@ synonym: "1-23 months" EXACT []
 synonym: "infantile stage" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000260 ! nursing stage
-relationship: immediately_preceded_by HsapDv:0000082 ! new born human stage
+relationship: immediately_preceded_by HsapDv:0000082 ! newborn human stage
 property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "2.0" xsd:float
 property_value: start_mpb "1.0" xsd:float
@@ -1197,7 +1197,7 @@ def: "Infant stage that refers to an infant who is over 31 days and is under 12 
 synonym: "1-11 months" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000082 ! new born human stage
+relationship: immediately_preceded_by HsapDv:0000082 ! newborn human stage
 property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "1.0" xsd:float
 property_value: start_mpb "1.0" xsd:float
