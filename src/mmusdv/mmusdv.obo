@@ -1618,7 +1618,7 @@ property_value: end_mpb "18.0" xsd:float
 id: MmusDv:0000134
 name: mouse late adult stage
 namespace: mouse_developmental_stage
-def: "Mature stage that refers to an adult mouse which is over 18 months old."
+def: "Mature stage that refers to an adult mouse which is over 18 months old." [Bgee:curator "Bgee"]
 comment: Mice from 18 months are considered as old and show presence of senescent changes in almost all biomarkers (see https://www.jax.org/news-and-insights/jax-blog/2017/november/when-are-mice-considered-old).
 xref: UBERON:0007222
 is_a: MmusDv:0000000 ! mouse life cycle stage
