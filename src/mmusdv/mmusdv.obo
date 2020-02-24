@@ -1585,7 +1585,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 15 and under 16 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: part_of MmusDv:0000136 ! mouse prime adult stage
 relationship: immediately_preceded_by MmusDv:0000085 ! 14-month-old stage
 property_value: start_mpb "15.0" xsd:float
 property_value: end_mpb "16.0" xsd:float
@@ -1597,7 +1597,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 16 and under 17 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: part_of MmusDv:0000136 ! mouse prime adult stage
 relationship: immediately_preceded_by MmusDv:0000086 ! 15-month-old stage
 property_value: start_mpb "16.0" xsd:float
 property_value: end_mpb "17.0" xsd:float
@@ -1609,7 +1609,7 @@ namespace: mouse_developmental_stage
 def: "Aged adult stage that refers to a mouse which is over 17 and under 18 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000076 ! aged adult stage
+relationship: part_of MmusDv:0000136 ! mouse prime adult stage
 relationship: immediately_preceded_by MmusDv:0000087 ! 16-month-old stage
 property_value: start_mpb "17.0" xsd:float
 property_value: end_mpb "18.0" xsd:float
