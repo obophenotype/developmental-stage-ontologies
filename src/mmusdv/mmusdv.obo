@@ -1498,7 +1498,7 @@ property_value: end_mpb "10.0" xsd:float
 id: MmusDv:0000135
 name: middle aged stage
 namespace: mouse_developmental_stage
-def: "Adult stage that refers to a mouse which is over 10 and under 15 months old."
+def: "Adult stage that refers to a mouse which is over 10 and under 15 months old." [Bgee:curator "Bgee"]
 comment: Mice middle-aged group is used in the literature to investigate progressive age-related changes. Correlates to humans from 38 - 47 years old (see https://www.jax.org/news-and-insights/jax-blog/2017/november/when-are-mice-considered-old).
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000110 ! mature stage
