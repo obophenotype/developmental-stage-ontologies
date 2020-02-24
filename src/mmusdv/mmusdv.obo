@@ -1513,7 +1513,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 10 and under 11 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: part_of MmusDv:0000135 ! middle aged stage
 relationship: immediately_preceded_by MmusDv:0000080 ! 9-month-old stage
 property_value: start_mpb "10.0" xsd:float
 property_value: end_mpb "11.0" xsd:float
@@ -1525,7 +1525,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 11 and under 12 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: part_of MmusDv:0000135 ! middle aged stage
 relationship: immediately_preceded_by MmusDv:0000081 ! 10-month-old stage
 property_value: start_mpb "11.0" xsd:float
 property_value: end_mpb "12.0" xsd:float
@@ -1537,7 +1537,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 12 and under 13 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: part_of MmusDv:0000135 ! middle aged stage
 relationship: immediately_preceded_by MmusDv:0000082 ! 11-month-old stage
 property_value: start_mpb "12.0" xsd:float
 property_value: end_mpb "13.0" xsd:float
@@ -1549,7 +1549,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 13 and under 14 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: part_of MmusDv:0000135 ! middle aged stage
 relationship: immediately_preceded_by MmusDv:0000083 ! 12-month-old stage
 property_value: start_mpb "13.0" xsd:float
 property_value: end_mpb "14.0" xsd:float
@@ -1561,7 +1561,7 @@ namespace: mouse_developmental_stage
 def: "Middle aged stage that refers to a mouse which is over 14 and under 15 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000075 ! middle aged stage
+relationship: part_of MmusDv:0000135 ! middle aged stage
 relationship: immediately_preceded_by MmusDv:0000084 ! 13-month-old stage
 property_value: start_mpb "14.0" xsd:float
 property_value: end_mpb "15.0" xsd:float
