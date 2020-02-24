@@ -902,7 +902,7 @@ def: "Premature stage that refers to a mouse which is over 7 and under 8 days ol
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000045 ! 1-week-old stage
-relationship: immediately_preceded_by MmusDv:0000115 ! 5-day-old stage
+relationship: immediately_preceded_by MmusDv:0000116 ! 6-day-old stage
 property_value: start_dpb "7.0" xsd:float
 property_value: end_dpb "8.0" xsd:float
 
@@ -926,7 +926,7 @@ def: "Premature stage that refers to a mouse which is over 8 and under 9 days ol
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000045 ! 1-week-old stage
-relationship: immediately_preceded_by MmusDv:0000117 ! 7-day-old stage
+relationship: immediately_preceded_by MmusDv:0000118 ! 8-day-old stage
 property_value: start_dpb "8.0" xsd:float
 property_value: end_dpb "9.0" xsd:float
 
