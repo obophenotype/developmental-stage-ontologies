@@ -1109,7 +1109,7 @@ relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 is_obsolete: true
-consider: HsapDv:0000257
+consider: HsapDv:0000263
 
 [Term]
 id: HsapDv:0000257
@@ -1123,6 +1123,23 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "10.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000263
+
+[Term]
+id: HsapDv:0000263
+name: immature stage
+namespace: human_developmental_stage
+def: "Human developmental stage that covers the period from birth until 14 years old." [Bgee:curator "Bgee"]
+comment: We follow the pediatric onset definition of HPO (Human Phenotype Ontology), which considers patients before 15 years as pediatric patients (see https://github.com/obophenotype/human-phenotype-ontology/issues/6099).
+synonym: "first decade human stage" EXACT []
+synonym: "child" RELATED []
+xref: HP:0410280
+xref: UBERON:0000112
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000001 ! human life cycle
+property_value: start_ypb "0.0" xsd:float
+property_value: end_ypb "15.0" xsd:float
 
 [Term]
 id: HsapDv:0000081
