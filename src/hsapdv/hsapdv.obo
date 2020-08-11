@@ -1151,8 +1151,8 @@ xref: HP:0410280
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000263 ! immature stage
 relationship: immediately_preceded_by HsapDv:0000262 ! newborn human stage
-property_value: start_ypb "2.0" xsd:float
-property_value: end_ypb "10.0" xsd:float
+property_value: start_ypb "0.077" xsd:float
+property_value: end_ypb "15.0" xsd:float
 
 [Term]
 id: HsapDv:0000081
