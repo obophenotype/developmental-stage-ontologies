@@ -1248,17 +1248,18 @@ replaced_by: HsapDv:0000261
 id: HsapDv:0000261
 name: infant stage
 namespace: human_developmental_stage
-def: "Nursing stage that follows the neonate stage in human and ends at weaning." [Bgee:curator "Bgee"]
-comment: We consider that this stage refers to an infant who is over 28 days and under 24 months old, even if we do not put a defined limit for weaning into HsapDv:0000260 (nursing stage). HPO (Human Phenotype Ontology) considers infant as between 28 days to one year of life, based on the ethymology of the word (infant), meaning not speaking, see HP:0003593 (Infantile onset) and see Peter Robinson's comment [[HPO:probinson] at https://github.com/obophenotype/human-phenotype-ontology/issues/5119#issuecomment-578882539.
+def: "Immature stage that refers to an infant who is over 28 days and is under 12 months old." [Bgee:curator "Bgee"]
+comment: We consider that this pediatric stage refers to an infant who is over 28 days and under 12 months old, to follow HPO (Human Phenotype Ontology) which considers infant as between 28 days to one year of life, based on the ethymology of the word (infant), meaning not speaking, see HP:0003593 (Infantile onset) and see Peter Robinson's comment [[HPO:probinson] at https://github.com/obophenotype/human-phenotype-ontology/issues/5119#issuecomment-578882539.
 synonym: "infantile stage" EXACT []
+xref: HP:0003593
 xref: UBERON:0034920
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000260 ! nursing stage
+relationship: part_of HsapDv:0000264 ! pediatric stage
 relationship: immediately_preceded_by HsapDv:0000082 ! newborn human stage
 property_value: start_ypb "0.077" xsd:float
-property_value: end_ypb "2.0" xsd:float
+property_value: end_ypb "1.0" xsd:float
 property_value: start_mpb "0.92" xsd:float
-property_value: end_mpb "24.0" xsd:float
+property_value: end_mpb "12.0" xsd:float
 
 [Term]
 id: HsapDv:0000256
