@@ -1137,7 +1137,7 @@ synonym: "child" RELATED []
 xref: HP:0410280
 xref: UBERON:0000112
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000001 ! human life cycle
+relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "15.0" xsd:float
 
@@ -1202,10 +1202,11 @@ id: HsapDv:0000262
 name: newborn human stage 
 namespace: human_developmental_stage
 def: "Immature stage that refers to a human newborn within the first 28 days of life." [Bgee:curator "Bgee"]
-comment: We follow HPO (Human Phenotype Ontology) definition for neonatal period, see HP:0003811 (Neonatal death) Death within the first 28 days of life.
+comment: We follow HPO (Human Phenotype Ontology) definition for neonatal period, see HP:0003623 (Neonatal onset) Onset of signs or symptoms of disease within the first 28 days of life..
 synonym: "neonate" RELATED []
 synonym: "neonatal stage" RELATED []
 xref: UBERON:0007221
+xref: HP:0003623
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000260 ! nursing stage
 property_value: start_ypb "0.0" xsd:float
