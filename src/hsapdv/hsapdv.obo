@@ -31,6 +31,7 @@ name: prenatal stage
 namespace: human_developmental_stage
 def: "Prenatal stage that starts with fertilization and ends at birth." [UBERON:0000068 "adapted from"]
 xref: UBERON:0000068
+xref: HP:0030674
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
 property_value: start_dpf "0.0" xsd:float
@@ -50,6 +51,7 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "56.0" xsd:float
+xref: HP:0011460
 xref: EV:0300001
 xref: FMA:72652 ! embryonic stage
 
@@ -595,6 +597,7 @@ synonym: "second and third trimester" RELATED [http://en.wikipedia.org/wiki/Gest
 def: "Prenatal stage that starts with the fully formed embryo and ends at birth." [Bgee:curator "Bgee"]
 comment: Prenatal development is a continuum, with no clear defining feature distinguishing an embryo from a fetus. The use of the term "fetus" generally implies that a mammalian embryo has developed to the point of being recognizable as belonging to its own species, though the point at which this occurs is subjective. [Wikipedia:Fetus]
 xref: UBERON:0007220
+xref: HP:0011461
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000045 ! prenatal stage
 relationship: immediately_preceded_by HsapDv:0000002 ! embryonic human stage
