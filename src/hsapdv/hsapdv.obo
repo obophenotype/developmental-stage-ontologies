@@ -1142,6 +1142,19 @@ property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "15.0" xsd:float
 
 [Term]
+id: HsapDv:0000264
+name: pediatric stage
+namespace: human_developmental_stage
+def: "Human developmental stage that covers the period after newborn stage and until 14 years old." [Bgee:curator "Bgee"]
+comment: We created this class to map the pediatric onset as defined by HPO (Human Phenotype Ontology).
+xref: HP:0410280
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000263 ! immature stage
+relationship: immediately_preceded_by HsapDv:0000262 ! newborn human stage
+property_value: start_ypb "2.0" xsd:float
+property_value: end_ypb "10.0" xsd:float
+
+[Term]
 id: HsapDv:0000081
 name: child stage
 namespace: human_developmental_stage
