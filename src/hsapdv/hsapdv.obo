@@ -1274,6 +1274,8 @@ property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "1.0" xsd:float
 property_value: start_mpb "1.0" xsd:float
 property_value: end_mpb "24.0" xsd:float
+is_obsolete: true
+replaced_by: HsapDv:0000261
 
 [Term]
 id: HsapDv:0000174
@@ -1282,7 +1284,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 1 and under 2 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 property_value: start_mpb "1.0" xsd:float
 property_value: end_mpb "2.0" xsd:float
 xref: EV:0300039
@@ -1296,7 +1298,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 2 and under 3 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000174 ! 1 month-old human stage
 xref: EV:0300040
 
@@ -1309,7 +1311,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000175 ! 2-month-old human stage
 xref: EV:0300041
 
@@ -1322,7 +1324,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000176 ! 3-month-old human stage
 xref: EV:0300042
 
@@ -1335,7 +1337,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000177 ! 4-month-old human stage
 xref: EV:0300043
 
@@ -1348,7 +1350,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000178 ! 5-month-old human stage
 xref: EV:0300044
 
@@ -1361,7 +1363,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 7 and under 8 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000179 ! 6-month-old human stage
 xref: EV:0300045
 
@@ -1374,7 +1376,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 8 and under 9 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000180 ! 7-month-old human stage
 xref: EV:0300046
 
@@ -1387,7 +1389,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000181 ! 8-month-old human stage
 xref: EV:0300047
 
@@ -1400,7 +1402,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 10 and under 11 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000182 ! 9-month-old human stage
 xref: EV:0300048
 
@@ -1413,9 +1415,22 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 11 and under 12 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000256 ! under-1-year-old human stage
+relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000183 ! 10-month-old human stage
 xref: EV:0300049
+
+[Term]
+id: HsapDv:0000265
+name: 1-4 year-old child stage
+namespace: human_developmental_stage
+def: "Child stage that refers to a child who is over 12 months and under 5 years old." [Bgee:curator "Bgee"]
+synonym: "preschool child" RELATED []
+xref: HP:0011463
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000264 ! pediatric stage
+relationship: immediately_preceded_by HsapDv:0000261 ! infant stage
+property_value: start_ypb "1.0" xsd:float
+property_value: end_ypb "5.0" xsd:float
 
 [Term]
 id: HsapDv:0000246
@@ -1424,7 +1439,7 @@ namespace: human_developmental_stage
 def: "Infant stage that refers to a child who is over 1 and under 2 years old." [Bgee:curator "Bgee"]
 synonym: "12-23 months" EXACT []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000083 ! infant stage
+relationship: part_of HsapDv:0000265 ! 1-4 year-old child stage
 relationship: immediately_preceded_by HsapDv:0000184 ! 11-month-old human stage
 property_value: start_ypb "1.0" xsd:float
 property_value: end_ypb "2.0" xsd:float
@@ -1586,6 +1601,8 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000258 ! child stage
 property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "6.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000265
 
 [Term]
 id: HsapDv:0000096
@@ -1596,7 +1613,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 2 and under 3 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
+relationship: part_of HsapDv:0000265 ! 1-4 year-old child stage
 xref: EV:0300053
 
 [Term]
@@ -1608,7 +1625,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
+relationship: part_of HsapDv:0000265 ! 1-4 year-old child stage
 relationship: immediately_preceded_by HsapDv:0000096 ! 2-year-old human stage
 xref: EV:0300054
 
@@ -1621,7 +1638,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000084 ! 2-5 year-old child stage
+relationship: part_of HsapDv:0000265 ! 1-4 year-old child stage
 relationship: immediately_preceded_by HsapDv:0000097 ! 3-year-old human stage
 xref: EV:0300055
 
