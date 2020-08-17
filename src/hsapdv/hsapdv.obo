@@ -1772,6 +1772,19 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
 relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: start_ypb "13.0" xsd:float
+is_obsolete: true
+replaced_by: HsapDv:0000258
+
+[Term]
+id: HsapDv:0000258
+name: mature stage
+namespace: human_developmental_stage
+def: "Human developmental stage that refers to a sexually mature human." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000001 ! human life cycle
+relationship: part_of HsapDv:0010000 ! postnatal stage
+property_value: start_ypb "15.0" xsd:float
 
 [Term]
 id: HsapDv:0000086
