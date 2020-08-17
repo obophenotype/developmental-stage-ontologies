@@ -1934,6 +1934,20 @@ is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000088 ! human early adulthood stage
 property_value: start_ypb "19.0" xsd:float
 property_value: end_ypb "25.0" xsd:float
+is_obsolete: true
+consider: 
+consider: 
+
+[Term]
+id: HsapDv:0000266
+name: young adult stage
+namespace: human_developmental_stage
+def: "A prime adult stage that refers to an adult who is under 40." [Bgee:curator "Bgee"]
+xref: HP:0011462
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000088 ! human early adulthood stage
+property_value: start_ypb "15.0" xsd:float
+property_value: end_ypb "40.0" xsd:float
 
 [Term]
 id: HsapDv:0000113
