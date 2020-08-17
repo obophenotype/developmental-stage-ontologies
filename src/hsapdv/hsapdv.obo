@@ -1777,10 +1777,12 @@ replaced_by: HsapDv:0000258
 
 [Term]
 id: HsapDv:0000258
-name: mature stage
+name: human adult stage
 namespace: human_developmental_stage
 def: "Human developmental stage that refers to a sexually mature human." [Bgee:curator "Bgee"]
+comment: We follow HPO (Human Phenotype Ontology) definition of adult onset (HP:0003581) to define the start of the stage.
 xref: UBERON:0000113
+xref: HP:0003581
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000001 ! human life cycle
 relationship: part_of HsapDv:0010000 ! postnatal stage
@@ -1896,6 +1898,7 @@ property_value: start_ypb "19.0" xsd:float
 is_obsolete: true
 consider: HsapDv:0000227
 consider: HsapDv:0000226
+consider: HsapDv:0000258
 
 [Term]
 id: HsapDv:0000226
