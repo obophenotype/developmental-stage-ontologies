@@ -1426,6 +1426,7 @@ name: 1-4 year-old child stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 12 months and under 5 years old." [Bgee:curator "Bgee"]
 synonym: "preschool child" RELATED []
+synonym: "childhood stage" RELATED []
 xref: HP:0011463
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000264 ! pediatric stage
