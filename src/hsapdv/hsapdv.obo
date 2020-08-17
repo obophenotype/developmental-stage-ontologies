@@ -1131,10 +1131,9 @@ id: HsapDv:0000263
 name: immature stage
 namespace: human_developmental_stage
 def: "Human developmental stage that covers the period from birth until 14 years old." [Bgee:curator "Bgee"]
-comment: We follow the pediatric onset definition of HPO (Human Phenotype Ontology), which considers patients before 15 years as pediatric patients (see https://github.com/obophenotype/human-phenotype-ontology/issues/6099).
+comment: To define upper limit of the immature stage, we consider the pediatric onset definition of HPO (Human Phenotype Ontology), which considers patients before 15 years as pediatric patients (see https://github.com/obophenotype/human-phenotype-ontology/issues/6099). Note that there is no HPO class equivalent to immature stage as defined here.
 synonym: "first decade human stage" EXACT []
 synonym: "child" RELATED []
-xref: HP:0410280
 xref: UBERON:0000112
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0010000 ! postnatal stage
