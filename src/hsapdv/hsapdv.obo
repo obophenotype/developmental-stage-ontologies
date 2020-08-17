@@ -1212,21 +1212,8 @@ relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
 property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 is_obsolete: true
-consider: HsapDv:0000258
-
-[Term]
-id: HsapDv:0000258
-name: child stage
-namespace: human_developmental_stage
-def: "Immature stage that refers to child who is over 2 and under 10 years old." [Bgee:curator "Bgee"]
-synonym: "2-9 years" EXACT []
-xref: UBERON:0034919
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000257 ! immature stage
-relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
-property_value: start_ypb "2.0" xsd:float
-property_value: end_ypb "10.0" xsd:float
-
+consider: HsapDv:0000264
+consider: HsapDv:0000265
 
 [Term]
 id: HsapDv:0000083
