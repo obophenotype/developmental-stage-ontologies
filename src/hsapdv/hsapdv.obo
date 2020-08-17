@@ -1907,8 +1907,8 @@ synonym: "adulthood stage" EXACT []
 xref: UBERON:0018241
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000204 ! mature stage
-property_value: start_ypb "19.0" xsd:float
-property_value: end_ypb "65.0" xsd:float
+property_value: start_ypb "15.0" xsd:float
+property_value: end_ypb "60.0" xsd:float
 
 [Term]
 id: HsapDv:0000088
