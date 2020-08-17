@@ -1142,46 +1142,6 @@ property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "15.0" xsd:float
 
 [Term]
-id: HsapDv:0000264
-name: pediatric stage
-namespace: human_developmental_stage
-def: "Human developmental stage that covers the period after newborn stage and until 14 years old." [Bgee:curator "Bgee"]
-comment: We created this class to map the pediatric onset as defined by HPO (Human Phenotype Ontology).
-xref: HP:0410280
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000263 ! immature stage
-relationship: immediately_preceded_by HsapDv:0000262 ! newborn human stage
-property_value: start_ypb "0.077" xsd:float
-property_value: end_ypb "15.0" xsd:float
-
-[Term]
-id: HsapDv:0000081
-name: child stage
-namespace: human_developmental_stage
-def: "Immature stage that refers to child who is over 2 and under 13 years old." [Bgee:curator "Bgee"]
-synonym: "2-12 years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000080 ! immature stage
-relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
-property_value: start_ypb "2.0" xsd:float
-property_value: end_ypb "13.0" xsd:float
-is_obsolete: true
-consider: HsapDv:0000258
-
-[Term]
-id: HsapDv:0000258
-name: child stage
-namespace: human_developmental_stage
-def: "Immature stage that refers to child who is over 2 and under 10 years old." [Bgee:curator "Bgee"]
-synonym: "2-9 years" EXACT []
-xref: UBERON:0034919
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000257 ! immature stage
-relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
-property_value: start_ypb "2.0" xsd:float
-property_value: end_ypb "10.0" xsd:float
-
-[Term]
 id: HsapDv:0000260
 name: nursing stage
 namespace: human_developmental_stage
@@ -1226,6 +1186,48 @@ property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "0.077" xsd:float
 property_value: start_mpb "0.0" xsd:float
 property_value: end_mpb "0.92" xsd:float
+
+
+[Term]
+id: HsapDv:0000264
+name: pediatric stage
+namespace: human_developmental_stage
+def: "Human developmental stage that covers the period after newborn stage and until 14 years old." [Bgee:curator "Bgee"]
+comment: We created this class to map the pediatric onset as defined by HPO (Human Phenotype Ontology).
+xref: HP:0410280
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000263 ! immature stage
+relationship: immediately_preceded_by HsapDv:0000262 ! newborn human stage
+property_value: start_ypb "0.077" xsd:float
+property_value: end_ypb "15.0" xsd:float
+
+[Term]
+id: HsapDv:0000081
+name: child stage
+namespace: human_developmental_stage
+def: "Immature stage that refers to child who is over 2 and under 13 years old." [Bgee:curator "Bgee"]
+synonym: "2-12 years" EXACT []
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000080 ! immature stage
+relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
+property_value: start_ypb "2.0" xsd:float
+property_value: end_ypb "13.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000258
+
+[Term]
+id: HsapDv:0000258
+name: child stage
+namespace: human_developmental_stage
+def: "Immature stage that refers to child who is over 2 and under 10 years old." [Bgee:curator "Bgee"]
+synonym: "2-9 years" EXACT []
+xref: UBERON:0034919
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000257 ! immature stage
+relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
+property_value: start_ypb "2.0" xsd:float
+property_value: end_ypb "10.0" xsd:float
+
 
 [Term]
 id: HsapDv:0000083
