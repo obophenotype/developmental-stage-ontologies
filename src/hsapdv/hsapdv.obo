@@ -1665,7 +1665,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 6 and under 10 years old." [Bgee:curator "Bgee"]
 synonym: "prepubescent" RELATED []
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000258 ! child stage
+relationship: part_of HsapDv:0000264 ! pediatric stage
 relationship: part_of HsapDv:0000235 ! first decade human stage
 relationship: immediately_preceded_by HsapDv:0000084 ! 2-5 year-old child stage
 property_value: start_ypb "6.0" xsd:float
