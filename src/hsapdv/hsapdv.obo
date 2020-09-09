@@ -75,10 +75,6 @@ id: HsapDv:0000004
 name: cleavage stage
 namespace: human_developmental_stage
 def: "Early stage of Carnegie stage 02 consisting of division of cells in the early embryo." [Bgee:curator "Bgee"]
-xref: UBERON:0000107
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000002 ! embryonic human stage
-relationship: immediately_preceded_by HsapDv:0000003 ! Carnegie stage 01
 is_obsolete: true
 replaced_by: HsapDv:0000005
 
@@ -1102,9 +1098,6 @@ namespace: human_developmental_stage
 def: "Human developmental stage that covers the period from birth until 12 years old." [Bgee:curator "Bgee"]
 synonym: "0-12 years" EXACT []
 synonym: "child" RELATED []
-xref: UBERON:0000112
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 is_obsolete: true
@@ -1130,8 +1123,6 @@ def: "Immature stage that refers to a newborn who is under 32 days old." [Bgee:c
 synonym: "neonate" RELATED []
 synonym: "neonatal stage" RELATED []
 synonym: "0-1 month" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000080 ! immature stage
 property_value: start_ypb "0.0" xsd:float
 property_value: end_ypb "0.083" xsd:float
 property_value: start_mpb "0.0" xsd:float
@@ -1164,7 +1155,6 @@ def: "Human developmental stage that covers the period from newborn stage and un
 comment: We created this class to map the pediatric onset as defined by HPO (Human Phenotype Ontology).
 synonym: "immature stage" EXACT []
 xref: UBERON:0000112
-xref: HP:0410280
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0010000 ! postnatal stage
 relationship: immediately_preceded_by HsapDv:0000045 ! prenatal stage
@@ -1177,9 +1167,6 @@ name: child stage
 namespace: human_developmental_stage
 def: "Immature stage that refers to child who is over 2 and under 13 years old." [Bgee:curator "Bgee"]
 synonym: "2-12 years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000080 ! immature stage
-relationship: immediately_preceded_by HsapDv:0000083 ! infant stage
 property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 is_obsolete: true
@@ -1193,9 +1180,6 @@ namespace: human_developmental_stage
 def: "Immature stage that refers to an infant who is over 31 days and is under 24 months old." [Bgee:curator "Bgee"]
 synonym: "1-23 months" EXACT []
 synonym: "infantile stage" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000080 ! immature stage
-relationship: immediately_preceded_by HsapDv:0000082 ! new born human stage
 property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "2.0" xsd:float
 property_value: start_mpb "1.0" xsd:float
@@ -1227,9 +1211,6 @@ name: under-1-year-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 31 days and is under 12 months old." [Bgee:curator "Bgee"]
 synonym: "1-11 months" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000083 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000082 ! newborn human stage
 property_value: start_ypb "0.083" xsd:float
 property_value: end_ypb "1.0" xsd:float
 property_value: start_mpb "1.0" xsd:float
@@ -1243,11 +1224,22 @@ name: 1-month-old human stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 1 and under 2 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000261 ! infant stage
 property_value: start_mpb "1.0" xsd:float
 property_value: end_mpb "2.0" xsd:float
+is_obsolete: true
+consider: HsapDv:0000273
+
+[Term]
+id: HsapDv:0000273
+name: 1-month-old human stage
+namespace: human_developmental_stage
+def: "Infant stage that refers to an infant who is over 28 days and under 2 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
 xref: EV:0300039
+is_a: HsapDv:0000000 ! human life cycle stage
+relationship: part_of HsapDv:0000261 ! infant stage
+property_value: start_mpb "0.92" xsd:float
+property_value: end_mpb "2.0" xsd:float
 
 [Term]
 id: HsapDv:0000175
@@ -1257,10 +1249,10 @@ property_value: end_mpb "3.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 2 and under 3 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300040
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
-relationship: immediately_preceded_by HsapDv:0000174 ! 1 month-old human stage
-xref: EV:0300040
+relationship: immediately_preceded_by HsapDv:0000273 ! 1 month-old human stage
 
 [Term]
 id: HsapDv:0000176
@@ -1270,10 +1262,10 @@ property_value: end_mpb "4.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300041
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000175 ! 2-month-old human stage
-xref: EV:0300041
 
 [Term]
 id: HsapDv:0000177
@@ -1283,10 +1275,10 @@ property_value: end_mpb "5.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300042
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000176 ! 3-month-old human stage
-xref: EV:0300042
 
 [Term]
 id: HsapDv:0000178
@@ -1296,10 +1288,10 @@ property_value: end_mpb "6.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300043
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000177 ! 4-month-old human stage
-xref: EV:0300043
 
 [Term]
 id: HsapDv:0000179
@@ -1309,10 +1301,10 @@ property_value: end_mpb "7.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300044
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000178 ! 5-month-old human stage
-xref: EV:0300044
 
 [Term]
 id: HsapDv:0000180
@@ -1322,10 +1314,10 @@ property_value: end_mpb "8.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 7 and under 8 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300045
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000179 ! 6-month-old human stage
-xref: EV:0300045
 
 [Term]
 id: HsapDv:0000181
@@ -1335,10 +1327,10 @@ property_value: end_mpb "9.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 8 and under 9 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300046
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000180 ! 7-month-old human stage
-xref: EV:0300046
 
 [Term]
 id: HsapDv:0000182
@@ -1348,10 +1340,10 @@ property_value: end_mpb "10.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300047
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000181 ! 8-month-old human stage
-xref: EV:0300047
 
 [Term]
 id: HsapDv:0000183
@@ -1361,10 +1353,10 @@ property_value: end_mpb "11.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 10 and under 11 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300048
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000182 ! 9-month-old human stage
-xref: EV:0300048
 
 [Term]
 id: HsapDv:0000184
@@ -1374,10 +1366,10 @@ property_value: end_mpb "12.0" xsd:float
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 11 and under 12 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300049
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000261 ! infant stage
 relationship: immediately_preceded_by HsapDv:0000183 ! 10-month-old human stage
-xref: EV:0300049
 
 [Term]
 id: HsapDv:0000265
@@ -1570,8 +1562,6 @@ name: 2-5 year-old child stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 24 months and under 6 years old." [Bgee:curator "Bgee"]
 synonym: "preschool child" RELATED []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000258 ! child stage
 property_value: start_ypb "2.0" xsd:float
 property_value: end_ypb "6.0" xsd:float
 is_obsolete: true
@@ -1586,9 +1576,9 @@ property_value: end_ypb "3.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 2 and under 3 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300053
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000270 ! 2-4 year-old child stage
-xref: EV:0300053
 
 [Term]
 id: HsapDv:0000097
@@ -1598,10 +1588,10 @@ property_value: end_ypb "4.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300054
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000270 ! 2-4 year-old child stage
 relationship: immediately_preceded_by HsapDv:0000096 ! 2-year-old human stage
-xref: EV:0300054
 
 [Term]
 id: HsapDv:0000098
@@ -1611,10 +1601,10 @@ property_value: end_ypb "5.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300055
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000270 ! 2-4 year-old child stage
 relationship: immediately_preceded_by HsapDv:0000097 ! 3-year-old human stage
-xref: EV:0300055
 
 [Term]
 id: HsapDv:0000271
@@ -1636,10 +1626,10 @@ property_value: end_ypb "6.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 5 and under 6 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300056
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000098 ! 4-year-old human stage
-xref: EV:0300056
 
 [Term]
 id: HsapDv:0000085
@@ -1647,9 +1637,6 @@ name: 6-12 year-old child stage
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 6 and under 13 years old." [Bgee:curator "Bgee"]
 synonym: "prepubescent" RELATED []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000081 ! child stage
-relationship: immediately_preceded_by HsapDv:0000084 ! 2-5 year-old child stage
 property_value: start_ypb "6.0" xsd:float
 property_value: end_ypb "13.0" xsd:float
 is_obsolete: true
@@ -1663,10 +1650,10 @@ property_value: end_ypb "7.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300057
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000099 ! 5-year-old human stage
-xref: EV:0300057
 
 [Term]
 id: HsapDv:0000101
@@ -1676,10 +1663,10 @@ property_value: end_ypb "8.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300058
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000100 ! 6-year-old human stage
-xref: EV:0300058
 
 [Term]
 id: HsapDv:0000102
@@ -1689,10 +1676,10 @@ property_value: end_ypb "9.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 8 and under 9 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300059
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000101 ! 7-year-old human stage
-xref: EV:0300059
 
 [Term]
 id: HsapDv:0000103
@@ -1702,10 +1689,10 @@ property_value: end_ypb "10.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 9 and under 10 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300060
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000102 ! 8-year-old human stage
-xref: EV:0300060
 
 [Term]
 id: HsapDv:0000104
@@ -1715,10 +1702,10 @@ property_value: end_ypb "11.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 10 and under 11 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300061
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000103 ! 9-year-old human stage
-xref: EV:0300061
 
 [Term]
 id: HsapDv:0000105
@@ -1728,10 +1715,10 @@ property_value: end_ypb "12.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 11 and under 12 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300062
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000104 ! 10-year-old human stage
-xref: EV:0300062
 
 [Term]
 id: HsapDv:0000106
@@ -1741,19 +1728,16 @@ property_value: end_ypb "13.0" xsd:float
 namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 12 and under 13 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300063
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000271 ! juvenile stage
 relationship: immediately_preceded_by HsapDv:0000105 ! 11-year-old human stage
-xref: EV:0300063
 
 [Term]
 id: HsapDv:0000204
 name: mature stage
 namespace: human_developmental_stage
 def: "Human developmental stage that refers to a sexually mature human." [Bgee:curator "Bgee"]
-xref: UBERON:0000113
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000001 ! human life cycle
 property_value: start_ypb "13.0" xsd:float
 is_obsolete: true
 consider: HsapDv:0000258
@@ -1766,8 +1750,6 @@ def: "Mature stage that refers to an adolescent who is over 13 and under 19 year
 synonym: "teenager" RELATED []
 synonym: "teen" RELATED []
 synonym: "13-18 years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000204 ! mature stage
 property_value: start_ypb "13.0" xsd:float
 property_value: end_ypb "19.0" xsd:float
 is_obsolete: true
@@ -1821,9 +1803,9 @@ property_value: end_ypb "16.0" xsd:float
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 15 and under 16 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300067
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000268 ! 15-19 year-old
-xref: EV:0300067
 relationship: immediately_preceded_by HsapDv:0000108 ! 14-year-old human stage
 
 [Term]
@@ -1834,9 +1816,9 @@ property_value: end_ypb "17.0" xsd:float
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 16 and under 17 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300068
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000268 ! 15-19 year-old
-xref: EV:0300068
 relationship: immediately_preceded_by HsapDv:0000109 ! 15-year-old human stage
 
 [Term]
@@ -1847,9 +1829,9 @@ property_value: end_ypb "18.0" xsd:float
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 17 and under 18 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300069
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000268 ! 15-19 year-old
-xref: EV:0300069
 relationship: immediately_preceded_by HsapDv:0000110 ! 16-year-old human stage
 
 [Term]
@@ -1860,9 +1842,9 @@ property_value: end_ypb "19.0" xsd:float
 namespace: human_developmental_stage
 def: "Adolescent stage that refers to an adolescent who is over 18 and under 19 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300071
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000268 ! 15-19 year-old
-xref: EV:0300071
 relationship: immediately_preceded_by HsapDv:0000111 ! 17-year-old human stage
 
 [Term]
@@ -1871,9 +1853,6 @@ name: human adult stage
 namespace: human_developmental_stage
 def: "Human developmental stage that refers to an adult who is over 19." [Bgee:curator "Bgee"]
 synonym: "19+ years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000204 ! mature stage
-relationship: immediately_preceded_by HsapDv:0000086 ! adolescent stage
 property_value: start_ypb "19.0" xsd:float
 is_obsolete: true
 consider: HsapDv:0000226
@@ -1897,8 +1876,6 @@ name: human early adulthood stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is under 45." [Bgee:curator "Bgee"]
 synonym: "19-44 years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000226 ! human prime adult stage
 property_value: start_ypb "19.0" xsd:float
 property_value: end_ypb "45.0" xsd:float
 is_obsolete: true
@@ -1911,8 +1888,6 @@ name: young adult stage
 namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is under 25." [Bgee:curator "Bgee"]
 synonym: "19-24 years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000226 ! human prime adult stage
 property_value: start_ypb "19.0" xsd:float
 property_value: end_ypb "25.0" xsd:float
 is_obsolete: true
@@ -1948,9 +1923,9 @@ property_value: end_ypb "20.0" xsd:float
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is under 20." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300072
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000268 ! 15-19 year-old
-xref: EV:0300072
 relationship: immediately_preceded_by HsapDv:0000112 ! 18-year-old human stage
 
 [Term]
@@ -1961,9 +1936,9 @@ property_value: end_ypb "21.0" xsd:float
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 20 and under 21." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300073
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300073
 relationship: immediately_preceded_by HsapDv:0000113 ! 19-year-old human stage
 
 [Term]
@@ -1974,9 +1949,9 @@ property_value: end_ypb "22.0" xsd:float
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 21 and under 22." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300074
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300074
 relationship: immediately_preceded_by HsapDv:0000114 ! 20-year-old human stage
 
 [Term]
@@ -1987,9 +1962,9 @@ property_value: end_ypb "23.0" xsd:float
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 22 and under 23." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300075
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300075
 relationship: immediately_preceded_by HsapDv:0000115 ! 21-year-old human stage
 
 [Term]
@@ -2000,9 +1975,9 @@ property_value: end_ypb "24.0" xsd:float
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 23 and under 24." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300076
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300076
 relationship: immediately_preceded_by HsapDv:0000116 ! 22-year-old human stage
 
 [Term]
@@ -2013,9 +1988,9 @@ property_value: end_ypb "25.0" xsd:float
 namespace: human_developmental_stage
 def: "Young adult stage that refers to an adult who is over 24 and under 25." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300077
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300077
 relationship: immediately_preceded_by HsapDv:0000117 ! 23-year-old human stage
 
 [Term]
@@ -2023,9 +1998,6 @@ id: HsapDv:0000090
 name: 25-44 year-old human stage
 namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is over 25 and under 45." [Bgee:curator "Bgee"]
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000088 ! human early adulthood stage
-relationship: immediately_preceded_by HsapDv:0000089 ! young adult stage
 property_value: start_ypb "25.0" xsd:float
 property_value: end_ypb "45.0" xsd:float
 is_obsolete: true
@@ -2043,9 +2015,9 @@ property_value: end_ypb "26.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 25 and under 26." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300078
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300078
 relationship: immediately_preceded_by HsapDv:0000118 ! 24-year-old human stage
 
 [Term]
@@ -2056,9 +2028,9 @@ property_value: end_ypb "27.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adultwho is over 26 and under 27." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300079
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300079
 relationship: immediately_preceded_by HsapDv:0000119 ! 25-year-old human stage
 
 [Term]
@@ -2069,9 +2041,9 @@ property_value: end_ypb "28.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 27 and under 28." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300080
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300080
 relationship: immediately_preceded_by HsapDv:0000120 ! 26-year-old human stage
 
 [Term]
@@ -2082,9 +2054,9 @@ property_value: end_ypb "29.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 28 and under 29." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300081
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300081
 relationship: immediately_preceded_by HsapDv:0000121 ! 27-year-old human stage
 
 [Term]
@@ -2095,9 +2067,9 @@ property_value: end_ypb "30.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 29 and under 30." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300082
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000237 ! third decade human stage
-xref: EV:0300082
 relationship: immediately_preceded_by HsapDv:0000122 ! 28-year-old human stage
 
 [Term]
@@ -2108,9 +2080,9 @@ property_value: end_ypb "31.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 30 and under 31." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300083
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300083
 relationship: immediately_preceded_by HsapDv:0000123 ! 29-year-old human stage
 
 [Term]
@@ -2121,9 +2093,9 @@ property_value: end_ypb "32.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 31 and under 32." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300084
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300084
 relationship: immediately_preceded_by HsapDv:0000124 ! 30-year-old human stage
 
 [Term]
@@ -2134,9 +2106,9 @@ property_value: end_ypb "33.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 32 and under 33." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300085
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300085
 relationship: immediately_preceded_by HsapDv:0000125 ! 31-year-old human stage
 
 [Term]
@@ -2147,9 +2119,9 @@ property_value: end_ypb "34.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 33 and under 34." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300086
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300086
 relationship: immediately_preceded_by HsapDv:0000126 ! 32-year-old human stage
 
 [Term]
@@ -2160,9 +2132,9 @@ property_value: end_ypb "35.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 34 and under 35." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300087
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300087
 relationship: immediately_preceded_by HsapDv:0000127 ! 33-year-old human stage
 
 [Term]
@@ -2173,9 +2145,9 @@ property_value: end_ypb "36.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 35 and under 36." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300088
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300088
 relationship: immediately_preceded_by HsapDv:0000128 ! 34-year-old human stage
 
 [Term]
@@ -2186,9 +2158,9 @@ property_value: end_ypb "37.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 36 and under 37." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300089
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300089
 relationship: immediately_preceded_by HsapDv:0000129 ! 35-year-old human stage
 
 [Term]
@@ -2199,9 +2171,9 @@ property_value: end_ypb "38.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 37 and under 38." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300090
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300090
 relationship: immediately_preceded_by HsapDv:0000130 ! 36-year-old human stage
 
 [Term]
@@ -2212,9 +2184,9 @@ property_value: end_ypb "39.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 38 and under 39." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300091
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300091
 relationship: immediately_preceded_by HsapDv:0000131 ! 37-year-old human stage
 
 [Term]
@@ -2225,9 +2197,9 @@ property_value: end_ypb "40.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 39 and under 40." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300092
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000238 ! fourth decade human stage
-xref: EV:0300092
 relationship: immediately_preceded_by HsapDv:0000132 ! 38-year-old human stage
 
 [Term]
@@ -2238,9 +2210,9 @@ property_value: end_ypb "41.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 40 and under 41." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300093
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300093
 relationship: immediately_preceded_by HsapDv:0000133 ! 39-year-old human stage
 
 [Term]
@@ -2251,9 +2223,9 @@ property_value: end_ypb "42.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 41 and under 42." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300094
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300094
 relationship: immediately_preceded_by HsapDv:0000134 ! 40-year-old human stage
 
 [Term]
@@ -2264,9 +2236,9 @@ property_value: end_ypb "43.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 42 and under 43." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300095
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300095
 relationship: immediately_preceded_by HsapDv:0000135 ! 41-year-old human stage
 
 [Term]
@@ -2277,9 +2249,9 @@ property_value: end_ypb "44.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 43 and under 44." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300096
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300096
 relationship: immediately_preceded_by HsapDv:0000136 ! 42-year-old human stage
 
 [Term]
@@ -2290,9 +2262,9 @@ property_value: end_ypb "45.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 44 and under 45." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300097
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300097
 relationship: immediately_preceded_by HsapDv:0000137 ! 43-year-old human stage
 
 [Term]
@@ -2302,9 +2274,6 @@ namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 45." [Bgee:curator "Bgee"]
 synonym: "Middle Aged + Aged" RELATED []
 synonym: "45+ years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000087 ! human adult stage
-relationship: immediately_preceded_by HsapDv:0000088 ! human early adulthood stage
 property_value: start_ypb "45.0" xsd:float
 is_obsolete: true
 consider: HsapDv:0000267
@@ -2316,8 +2285,6 @@ name: human middle aged stage
 namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 45 and under 65." [Bgee:curator "Bgee"]
 synonym: "45-64 years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000226 ! human prime adult stage
 property_value: start_ypb "45.0" xsd:float
 property_value: end_ypb "65.0" xsd:float
 is_obsolete: true
@@ -2344,9 +2311,9 @@ property_value: end_ypb "46.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 45 and under 46." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300098
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300098
 relationship: immediately_preceded_by HsapDv:0000138 ! 44-year-old human stage
 
 [Term]
@@ -2357,9 +2324,9 @@ property_value: end_ypb "47.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 46 and under 47." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300099
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300099
 relationship: immediately_preceded_by HsapDv:0000139 ! 45-year-old human stage
 
 [Term]
@@ -2370,9 +2337,9 @@ property_value: end_ypb "48.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 47 and under 48." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300100
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300100
 relationship: immediately_preceded_by HsapDv:0000140 ! 46-year-old human stage
 
 [Term]
@@ -2383,9 +2350,9 @@ property_value: end_ypb "49.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 48 and under 49." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300101
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300101
 relationship: immediately_preceded_by HsapDv:0000141 ! 47-year-old human stage
 
 [Term]
@@ -2396,9 +2363,9 @@ property_value: end_ypb "50.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 49 and under 50." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300102
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000239 ! fifth decade human stage
-xref: EV:0300102
 relationship: immediately_preceded_by HsapDv:0000142 ! 48-year-old human stage
 
 [Term]
@@ -2409,9 +2376,9 @@ property_value: end_ypb "51.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 50 and under 51." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300103
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300103
 relationship: immediately_preceded_by HsapDv:0000143 ! 49-year-old human stage
 
 [Term]
@@ -2422,9 +2389,9 @@ property_value: end_ypb "52.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 51 and under 52." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300104
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300104
 relationship: immediately_preceded_by HsapDv:0000144 ! 50-year-old human stage
 
 [Term]
@@ -2435,9 +2402,9 @@ property_value: end_ypb "53.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 52 and under 53." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300105
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300105
 relationship: immediately_preceded_by HsapDv:0000145 ! 51-year-old human stage
 
 [Term]
@@ -2448,9 +2415,9 @@ property_value: end_ypb "54.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 53 and under 54." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300106
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300106
 relationship: immediately_preceded_by HsapDv:0000146 ! 52-year-old human stage
 
 [Term]
@@ -2461,9 +2428,9 @@ property_value: end_ypb "55.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 54 and under 55." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300107
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300107
 relationship: immediately_preceded_by HsapDv:0000147 ! 53-year-old human stage
 
 [Term]
@@ -2474,9 +2441,9 @@ property_value: end_ypb "56.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 55 and under 56." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300108
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300108
 relationship: immediately_preceded_by HsapDv:0000148 ! 54-year-old human stage
 
 [Term]
@@ -2487,9 +2454,9 @@ property_value: end_ypb "57.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 56 and under 57." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300109
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300109
 relationship: immediately_preceded_by HsapDv:0000149 ! 55-year-old human stage
 
 [Term]
@@ -2500,9 +2467,9 @@ property_value: end_ypb "58.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 57 and under 58." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300110
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300110
 relationship: immediately_preceded_by HsapDv:0000150 ! 56-year-old human stage
 
 [Term]
@@ -2513,9 +2480,9 @@ property_value: end_ypb "59.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 58 and under 59." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300111
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300111
 relationship: immediately_preceded_by HsapDv:0000151 ! 57-year-old human stage
 
 [Term]
@@ -2526,9 +2493,9 @@ property_value: end_ypb "60.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 59 and under 60." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300112
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000240 ! sixth decade human stage
-xref: EV:0300112
 relationship: immediately_preceded_by HsapDv:0000152 ! 58-year-old human stage
 
 [Term]
@@ -2539,9 +2506,9 @@ property_value: end_ypb "61.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 60 and under 61." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300113
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300113
 relationship: immediately_preceded_by HsapDv:0000153 ! 59-year-old human stage
 
 [Term]
@@ -2552,9 +2519,9 @@ property_value: end_ypb "62.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 61 and under 62." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300114
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300114
 relationship: immediately_preceded_by HsapDv:0000154 ! 60-year-old human stage
 
 [Term]
@@ -2565,9 +2532,9 @@ property_value: end_ypb "63.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 62 and under 63." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300115
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300115
 relationship: immediately_preceded_by HsapDv:0000155 ! 61-year-old human stage
 
 [Term]
@@ -2578,9 +2545,9 @@ property_value: end_ypb "64.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 63 and under 64." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300116
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300116
 relationship: immediately_preceded_by HsapDv:0000156 ! 62-year-old human stage
 
 [Term]
@@ -2591,9 +2558,9 @@ property_value: end_ypb "65.0" xsd:float
 namespace: human_developmental_stage
 def: "Middle aged stage that refers to an adult who is over 64 and under 65." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300117
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300117
 relationship: immediately_preceded_by HsapDv:0000157 ! 63-year-old human stage
 
 [Term]
@@ -2603,10 +2570,6 @@ namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 65." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
 synonym: "65+ years" EXACT []
-is_a: HsapDv:0000000 ! human life cycle stage
-xref: UBERON:0007222
-relationship: part_of HsapDv:0000091 ! human late adulthood stage
-relationship: immediately_preceded_by HsapDv:0000092 ! human middle aged stage
 property_value: start_ypb "65.0" xsd:float
 is_obsolete: true
 consider: HsapDv:0000227
@@ -2632,8 +2595,6 @@ name: 65-79 year-old human stage
 namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is under 80." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: part_of HsapDv:0000227 ! human late adult stage
 property_value: start_ypb "65.0" xsd:float
 property_value: end_ypb "80.0" xsd:float
 is_obsolete: true
@@ -2658,9 +2619,9 @@ property_value: end_ypb "66.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 65 and under 66." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300118
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300118
 relationship: immediately_preceded_by HsapDv:0000158 ! 64-year-old human stage
 
 [Term]
@@ -2671,9 +2632,9 @@ property_value: end_ypb "67.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 66 and under 67." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300119
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300119
 relationship: immediately_preceded_by HsapDv:0000159 ! 65-year-old human stage
 
 [Term]
@@ -2684,9 +2645,9 @@ property_value: end_ypb "68.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 67 and under 68." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300120
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300120
 relationship: immediately_preceded_by HsapDv:0000160 ! 66-year-old human stage
 
 [Term]
@@ -2697,9 +2658,9 @@ property_value: end_ypb "69.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 68 and under 69." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300121
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300121
 relationship: immediately_preceded_by HsapDv:0000161 ! 67-year-old human stage
 
 [Term]
@@ -2710,9 +2671,9 @@ property_value: end_ypb "70.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 69 and under 70." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300122
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000241 ! seventh decade human stage
-xref: EV:0300122
 relationship: immediately_preceded_by HsapDv:0000162 ! 68-year-old human stage
 
 [Term]
@@ -2723,9 +2684,9 @@ property_value: end_ypb "71.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 70 and under 71." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300124
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300124
 relationship: immediately_preceded_by HsapDv:0000163 ! 69-year-old human stage
 
 [Term]
@@ -2736,9 +2697,9 @@ property_value: end_ypb "72.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 71 and under 72." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300125
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300125
 relationship: immediately_preceded_by HsapDv:0000164 ! 70-year-old human stage
 
 [Term]
@@ -2749,9 +2710,9 @@ property_value: end_ypb "73.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 72 and under 73." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300126
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300126
 relationship: immediately_preceded_by HsapDv:0000165 ! 71-year-old human stage
 
 [Term]
@@ -2762,9 +2723,9 @@ property_value: end_ypb "74.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 73 and under 74." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300127
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300127
 relationship: immediately_preceded_by HsapDv:0000166 ! 72-year-old human stage
 
 [Term]
@@ -2775,9 +2736,9 @@ property_value: end_ypb "75.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 74 and under 75." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300128
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300128
 relationship: immediately_preceded_by HsapDv:0000167 ! 73-year-old human stage
 
 [Term]
@@ -2788,9 +2749,9 @@ property_value: end_ypb "76.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 75 and under 76." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300129
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300129
 relationship: immediately_preceded_by HsapDv:0000168 ! 74-year-old human stage
 
 [Term]
@@ -2801,9 +2762,9 @@ property_value: end_ypb "77.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 76 and under 77." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300130
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300130
 relationship: immediately_preceded_by HsapDv:0000169 ! 75-year-old human stage
 
 [Term]
@@ -2814,9 +2775,9 @@ property_value: end_ypb "78.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 77 and under 78." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300131
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300131
 relationship: immediately_preceded_by HsapDv:0000170 ! 76-year-old human stage
 
 [Term]
@@ -2827,9 +2788,9 @@ property_value: end_ypb "79.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 78 and under 79." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300132
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300132
 relationship: immediately_preceded_by HsapDv:0000171 ! 77-year-old human stage
 
 [Term]
@@ -2840,9 +2801,9 @@ property_value: end_ypb "80.0" xsd:float
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 79 and under 80." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: EV:0300133
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000242 ! eighth decade human stage
-xref: EV:0300133
 relationship: immediately_preceded_by HsapDv:0000172 ! 78-year-old human stage
 
 [Term]
@@ -3293,9 +3254,6 @@ id: HsapDv:0000235
 name: first decade human stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 0 and under 10 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 property_value: end_ypb "10.0" xsd:float
 property_value: start_ypb "0.0" xsd:float
 is_obsolete: true
@@ -3308,11 +3266,6 @@ id: HsapDv:0000236
 name: second decade human stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 10 and under 20 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
-relationship: immediately_preceded_by HsapDv:0000235 ! first decade human stage
-relationship: part_of HsapDv:0010000 ! postnatal stage
 property_value: end_ypb "20.0" xsd:float
 property_value: start_ypb "10.0" xsd:float
 is_obsolete: true
@@ -3326,7 +3279,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 20 and under 30." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000268 ! 15-19 year-old
 relationship: part_of HsapDv:0000266 ! young adult stage
 property_value: end_ypb "30.0" xsd:float
@@ -3338,8 +3290,6 @@ name: fourth decade human stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 30 and under 40 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
-is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000237 ! third decade human stage
 relationship: part_of HsapDv:0000266 ! young adult stage
 property_value: end_ypb "40.0" xsd:float
@@ -3352,7 +3302,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 40 and under 50 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000238 ! fourth decade human stage
 relationship: part_of HsapDv:0000267 ! human middle aged stage
 property_value: end_ypb "50.0" xsd:float
@@ -3365,7 +3314,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 50 and under 60 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000239 ! fifth decade human stage
 relationship: part_of HsapDv:0000267 ! human middle aged stage
 property_value: end_ypb "60.0" xsd:float
@@ -3378,7 +3326,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 60 and under 70 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000240 ! sixth decade human stage
 relationship: part_of HsapDv:0000272 ! 60-79 year-old human stage
 property_value: end_ypb "70.0" xsd:float
@@ -3391,7 +3338,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 70 and under 80 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000241 ! seventh decade human stage
 relationship: part_of HsapDv:0000272 ! 60-79 year-old human stage
 property_value: end_ypb "80.0" xsd:float
@@ -3404,7 +3350,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 80 and under 90 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000242 ! eighth decade human stage
 relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
 property_value: end_ypb "90.0" xsd:float
@@ -3417,7 +3362,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 90 and under 100 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade human stage
 relationship: part_of HsapDv:0000095 ! 80 year-old and over human stage
 property_value: end_ypb "100.0" xsd:float
@@ -3430,7 +3374,6 @@ namespace: human_developmental_stage
 def: "Human stage that refers to a human who is over 100 and under 110 years old." [Bgee:curator]
 is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! human life cycle stage
-relationship: only_in_taxon NCBITaxon:9606
 relationship: immediately_preceded_by HsapDv:0000244 ! tenth decade human stage
 relationship: part_of HsapDv:0000247 ! centenarian human stage
 property_value: end_ypb "110.0" xsd:float
