@@ -1109,6 +1109,7 @@ name: nursing stage
 namespace: human_developmental_stage
 def: "Human developmental stage that covers the first period from birth, with breast feeding and/or bottled substitute, and that stops at language acquisition." [Bgee:curator "Bgee"]
 comment: The definition of an age for human weaning is difficult to define due to individual and cultural variations. The natural age of weaning in humans could be 2.5 years, with maximum 7.0 years (see https://www.health-e-learning.com/articles/A_Natural_Age_of_Weaning.pdf), but we decide to stop this period at 1 year-old, before usually language acquisition.
+synonym: "under 1 year old" EXACT []
 xref: UBERON:0018685
 is_a: HsapDv:0000000 ! human life cycle stage
 relationship: part_of HsapDv:0000264 ! pediatric stage
