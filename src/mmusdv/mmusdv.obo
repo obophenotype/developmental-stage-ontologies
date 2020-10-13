@@ -715,7 +715,7 @@ def: "Mouse developmental stage that covers the period from birth until 22 days 
 comment: Age of weaning is 22 days (see https://genomics.senescence.info/species/entry.php?species=Mus_musculus).
 xref: UBERON:0018685
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! immature stage
+relationship: part_of MmusDv:0000043 ! mouse immature stage
 property_value: start_dpb "0.0" xsd:float
 property_value: end_dpb "22.0" xsd:float
 
@@ -767,7 +767,7 @@ id: MmusDv:0000112
 name: premature stage
 namespace: mouse_developmental_stage
 def: "Mouse developmental stage that covers the period from P4 starting at TS28 until 5 weeks old." [Bgee:curator "Bgee"]
-comment: It is commonly accepted that mouse reaches sexual maturity by six weeks of age (see http://www.ahc.umn.edu/rar/breeding.html). Theiler makes a distinction between TS28, Postnatal Development, and TS27, Newborn Mouse. We consider 'postnatal' to cover the period after the 'newborn' stage and continuing to adulthood (see https://github.com/obophenotype/developmental-stage-ontologies/issues/23). We start then the definition of premature stage at P4, following TS27 (P0 to P3).
+comment: It is commonly accepted that mouse reaches sexual maturity by six weeks of age (see http://www.ahc.umn.edu/rar/breeding.html). We start this stage at P4 because TS27 'newborn' stage is not defined as a postnatal stage.
 synonym: "infant stage" RELATED []
 property_value: start_wpb "0.6" xsd:float
 property_value: end_wpb "6.0" xsd:float
@@ -1191,7 +1191,7 @@ def: "Mouse developmental stage that refers to a sexually mature adult mouse whi
 xref: UBERON:0000113
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000092 ! postnatal stage
-relationship: immediately_preceded_by MmusDv:0000043 ! immature stage
+relationship: immediately_preceded_by MmusDv:0000043 ! mouse immature stage
 property_value: start_wpb "6.0" xsd:float
 property_value: start_mpb "1.5" xsd:float
 
