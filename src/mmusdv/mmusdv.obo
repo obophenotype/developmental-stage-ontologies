@@ -7,7 +7,7 @@ ontology: mmusdv
 
 [Term]
 id: MmusDv:0000000
-name: mouse life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -15,7 +15,7 @@ xref: UBERON:0000105
 
 [Term]
 id: MmusDv:0000001
-name: mouse life cycle
+name: life cycle
 namespace: mouse_developmental_stage
 def: "Temporal interval that defines mouse life from prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
@@ -37,7 +37,7 @@ property_value: end_ypb "0.0" xsd:float
 
 [Term]
 id: MmusDv:0000002
-name: embryonic mouse stage
+name: embryonic stage
 namespace: mouse_developmental_stage
 def: "Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage." [Bgee:curator "Bgee"]
 comment: By embryo we mean in the sense of up to the 2nd week postfertilization (beginning of Theiler stage 23), we treat fetus as a separate stage.
@@ -696,7 +696,7 @@ property_value: start_wpb "0.0" xsd:float
 
 [Term]
 id: MmusDv:0000043
-name: mouse immature stage
+name: immature stage
 namespace: mouse_developmental_stage
 def: "Mouse developmental stage that covers the period from birth until 5 weeks old." [Bgee:curator "Bgee"]
 comment: It is commonly accepted that mouse reaches sexual maturity by six weeks of age (see http://www.ahc.umn.edu/rar/breeding.html).
@@ -1184,7 +1184,7 @@ property_value: end_dpb "42.0" xsd:float
 
 [Term]
 id: MmusDv:0000110
-name: mouse mature stage
+name: mature stage
 namespace: mouse_developmental_stage
 synonym: "mature" EXACT []
 def: "Mouse developmental stage that refers to a sexually mature adult mouse which is over 6 weeks old." [Bgee:curator "Bgee"]
@@ -1213,7 +1213,7 @@ consider: MmusDv:0000136
 
 [Term]
 id: MmusDv:0000136
-name: mouse prime adult stage
+name: prime adult stage
 namespace: mouse_developmental_stage
 def: "Mature stage that refers to a adult mouse which is over 6 weeks and under 18 months old." [Bgee:curator "Bgee"]
 comment: Mice over 18 months old are considered as old (see https://www.jax.org/news-and-insights/jax-blog/2017/november/when-are-mice-considered-old).
@@ -2089,7 +2089,7 @@ property_value: end_mpb "18.0" xsd:float
 
 [Term]
 id: MmusDv:0000134
-name: mouse late adult stage
+name: late adult stage
 namespace: mouse_developmental_stage
 def: "Mature stage that refers to an adult mouse which is over 18 months old." [Bgee:curator "Bgee"]
 comment: Mice from 18 months are considered as old and show presence of senescent changes in almost all biomarkers (see https://www.jax.org/news-and-insights/jax-blog/2017/november/when-are-mice-considered-old).
