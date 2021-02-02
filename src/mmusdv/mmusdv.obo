@@ -860,6 +860,7 @@ id: MmusDv:0000177
 name: infant stage
 namespace: mouse_developmental_stage
 def: "Nursing stage that follows the neonate stage in mouse and ends at weaning, at 22 days old." [Bgee:curator "Bgee"]
+xref: UBERON:0034920
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000138 ! nursing stage
 relationship: immediately_preceded_by MmusDv:0000036 ! Theiler stage 27
@@ -1077,6 +1078,7 @@ name: juvenile stage
 namespace: mouse_developmental_stage
 def: "Mouse stage that refers to a weaned mouse which is over 23 days old, while still being an sexually immature mouse." [Bgee:curator "Bgee"]
 subset: granular_stage
+xref: UBERON:0034919
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000043 ! immature stage
 relationship: immediately_preceded_by MmusDv:0000177 ! infant stage
