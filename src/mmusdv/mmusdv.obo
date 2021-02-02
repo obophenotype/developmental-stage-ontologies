@@ -715,9 +715,9 @@ def: "Mouse developmental stage that covers the period from birth until 22 days 
 comment: Age of weaning is 22 days (see https://genomics.senescence.info/species/entry.php?species=Mus_musculus).
 xref: UBERON:0018685
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
+relationship: part_of MmusDv:0000043 ! immature stage
 property_value: start_dpb "0.0" xsd:float
-property_value: end_dpb "22.0" xsd:float
+property_value: end_dpb "23.0" xsd:float
 
 [Term]
 id: MmusDv:0000096
@@ -856,14 +856,26 @@ is_obsolete: true
 consider: MmusDv:0000139
 
 [Term]
+id: MmusDv:0000177
+name: infant stage
+namespace: mouse_developmental_stage
+def: "Nursing stage that follows the neonate stage in mouse and ends at weaning, at 22 days old." [Bgee:curator "Bgee"]
+is_a: MmusDv:0000000 ! mouse life cycle stage
+relationship: part_of MmusDv:0000138 ! nursing stage
+relationship: immediately_preceded_by MmusDv:0000036 ! Theiler stage 27
+property_value: start_wpb "0.6" xsd:float
+property_value: end_wpb "1.0" xsd:float
+property_value: start_dpb "4.0" xsd:float
+property_value: end_dpb "23.0" xsd:float
+
+[Term]
 id: MmusDv:0000139
 name: 4-6 days
 namespace: mouse_developmental_stage
 def: "Immature stage that refers to the newborn mouse which is over 4 days and under 7 days old." [Bgee:curator "Bgee"]
 comment: This stage starts at P4.
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000138 ! nursing stage
-relationship: immediately_preceded_by MmusDv:0000036 ! Theiler stage 27
+relationship: part_of MmusDv:0000177 ! infant stage
 property_value: start_wpb "0.6" xsd:float
 property_value: end_wpb "1.0" xsd:float
 property_value: start_dpb "4.0" xsd:float
@@ -877,6 +889,7 @@ def: "Immature stage that refers to a mouse which is over 4 and under 5 days old
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000139 ! 4-6 days
+relationship: immediately_preceded_by MmusDv:0000036 ! Theiler stage 27
 property_value: start_dpb "4.0" xsd:float
 property_value: end_dpb "5.0" xsd:float
 
@@ -920,7 +933,7 @@ name: 1-week-old stage
 namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 7 days and under 14 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000138 ! nursing stage
+relationship: part_of MmusDv:0000177 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000139 ! 4-6 days
 property_value: start_wpb "1.0" xsd:float
 property_value: end_wpb "2.0" xsd:float
@@ -1027,7 +1040,7 @@ name: 2-week-old stage
 namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 14 days and under 21 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000138 ! nursing stage
+relationship: part_of MmusDv:0000177 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000140 ! 1-week-old stage
 property_value: start_wpb "2.0" xsd:float
 property_value: end_wpb "3.0" xsd:float
@@ -1041,7 +1054,7 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 21 and under 22 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000138 ! nursing stage
+relationship: part_of MmusDv:0000177 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000141 ! 2-week-old stage
 property_value: start_dpb "21.0" xsd:float
 property_value: end_dpb "22.0" xsd:float
@@ -1053,10 +1066,22 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 22 and under 23 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000138 ! nursing stage
+relationship: part_of MmusDv:0000177 ! infant stage
 relationship: immediately_preceded_by MmusDv:0000142 ! 21-day-old stage
 property_value: start_dpb "22.0" xsd:float
 property_value: end_dpb "23.0" xsd:float
+
+[Term]
+id: MmusDv:0000178
+name: juvenile stage
+namespace: mouse_developmental_stage
+def: "Mouse stage that refers to a weaned mouse which is over 23 days old, while still being an sexually immature mouse." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: MmusDv:0000000 ! mouse life cycle stage
+relationship: part_of MmusDv:0000043 ! immature stage
+relationship: immediately_preceded_by MmusDv:0000177 ! infant stage
+property_value: start_dpb "23.0" xsd:float
+property_value: end_dpb "24.0" xsd:float
 
 [Term]
 id: MmusDv:0000144
@@ -1065,8 +1090,8 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 23 and under 24 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
-relationship: immediately_preceded_by MmusDv:0000138 ! nursing stage
+relationship: part_of MmusDv:0000178 ! juvenile stage
+relationship: immediately_preceded_by MmusDv:0000143 ! 22-day-old stage
 property_value: start_dpb "23.0" xsd:float
 property_value: end_dpb "24.0" xsd:float
 
@@ -1077,7 +1102,7 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 24 and under 25 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
+relationship: part_of MmusDv:0000178 ! juvenile stage
 relationship: immediately_preceded_by MmusDv:0000144 ! 23-day-old stage
 property_value: start_dpb "24.0" xsd:float
 property_value: end_dpb "25.0" xsd:float
@@ -1089,7 +1114,7 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 25 and under 26 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
+relationship: part_of MmusDv:0000178 ! juvenile stage
 relationship: immediately_preceded_by MmusDv:0000145 ! 24-day-old stage
 property_value: start_dpb "21.0" xsd:float
 property_value: end_dpb "22.0" xsd:float
@@ -1101,7 +1126,7 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 26 and under 27 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
+relationship: part_of MmusDv:0000178 ! juvenile stage
 relationship: immediately_preceded_by MmusDv:0000146 ! 25-day-old stage
 property_value: start_dpb "26.0" xsd:float
 property_value: end_dpb "27.0" xsd:float
@@ -1113,7 +1138,7 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 27 and under 28 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
+relationship: part_of MmusDv:0000178 ! juvenile stage
 relationship: immediately_preceded_by MmusDv:0000147 ! 26-day-old stage
 property_value: start_dpb "27.0" xsd:float
 property_value: end_dpb "28.0" xsd:float
@@ -1150,7 +1175,7 @@ name: 4-week-old stage
 namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 28 days and under 35 days old." [Bgee:curator "Bgee"]
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
+relationship: part_of MmusDv:0000178 ! juvenile stage
 relationship: immediately_preceded_by MmusDv:0000148 ! 27-day-old stage
 property_value: start_wpb "4.0" xsd:float
 property_value: end_wpb "5.0" xsd:float
@@ -1175,7 +1200,7 @@ namespace: mouse_developmental_stage
 def: "Immature stage that refers to a mouse which is over 35 days and under 42 days old." [Bgee:curator "Bgee"]
 comment: This stage is usually the stage during which the sexual maturity occurs.
 is_a: MmusDv:0000000 ! mouse life cycle stage
-relationship: part_of MmusDv:0000043 ! mouse immature stage
+relationship: part_of MmusDv:0000178 ! juvenile stage
 relationship: immediately_preceded_by MmusDv:0000149 ! 4-week-old stage
 property_value: start_wpb "5.0" xsd:float
 property_value: end_wpb "6.0" xsd:float
@@ -1191,7 +1216,7 @@ def: "Mouse developmental stage that refers to a sexually mature adult mouse whi
 xref: UBERON:0000113
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000092 ! postnatal stage
-relationship: immediately_preceded_by MmusDv:0000043 ! mouse immature stage
+relationship: immediately_preceded_by MmusDv:0000043 ! immature stage
 property_value: start_wpb "6.0" xsd:float
 property_value: start_mpb "1.5" xsd:float
 
