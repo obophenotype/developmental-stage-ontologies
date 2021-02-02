@@ -1979,6 +1979,7 @@ comment: Mice middle-aged group is used in the literature to investigate progres
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000136 ! mouse prime adult stage
 relationship: immediately_preceded_by MmusDv:0000080 ! 9-month-old stage
+relationship: immediately_preceded_by MmusDv:0000153 ! young adult stage
 property_value: start_mpb "10.0" xsd:float
 property_value: end_mpb "18.0" xsd:float
 
@@ -2097,6 +2098,7 @@ xref: UBERON:0007222
 is_a: MmusDv:0000000 ! mouse life cycle stage
 relationship: part_of MmusDv:0000110 ! mouse mature stage
 relationship: immediately_preceded_by MmusDv:0000088 ! 17-month-old stage
+relationship: immediately_preceded_by MmusDv:0000136 ! prime adult stage
 property_value: start_mpb "18.0" xsd:float
 
 [Term]
