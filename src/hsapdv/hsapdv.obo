@@ -1088,6 +1088,7 @@ def: "Human developmental stage that covers the whole of human life post birth."
 xref: UBERON:0000092
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000001 ! life cycle
+relationship: immediately_preceded_by HsapDv:0000045 ! prenatal stage
 property_value: start_ypb "0.0" xsd:float
 created_by: dos
 
@@ -2608,8 +2609,7 @@ namespace: human_developmental_stage
 def: "Late adult stage that refers to an adult who is under 80 years old." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: part_of HsapDv:0000227 ! 
-late adult stage
+relationship: part_of HsapDv:0000227 ! late adult stage
 property_value: start_ypb "60.0" xsd:float
 property_value: end_ypb "80.0" xsd:float
 
@@ -3279,7 +3279,6 @@ id: HsapDv:0000237
 name: third decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 20 and under 30 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000268 ! 15-19 year-old
 relationship: part_of HsapDv:0000266 ! young adult stage
@@ -3291,7 +3290,7 @@ id: HsapDv:0000238
 name: fourth decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 30 and under 40 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
+is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000237 ! third decade stage
 relationship: part_of HsapDv:0000266 ! young adult stage
 property_value: end_ypb "40.0" xsd:float
@@ -3302,7 +3301,6 @@ id: HsapDv:0000239
 name: fifth decade human stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 40 and under 50 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000238 ! fourth decade stage
 relationship: part_of HsapDv:0000267 ! middle aged stage
@@ -3314,7 +3312,6 @@ id: HsapDv:0000240
 name: sixth decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 50 and under 60 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000239 ! fifth decade stage
 relationship: part_of HsapDv:0000267 ! middle aged stage
@@ -3326,7 +3323,6 @@ id: HsapDv:0000241
 name: seventh decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 60 and under 70 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000240 ! sixth decade stage
 relationship: part_of HsapDv:0000272 ! 60-79 year-old stage
@@ -3338,7 +3334,6 @@ id: HsapDv:0000242
 name: eighth decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 70 and under 80 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000241 ! seventh decade stage
 relationship: part_of HsapDv:0000272 ! 60-79 year-old stage
@@ -3350,7 +3345,6 @@ id: HsapDv:0000243
 name: ninth decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 80 and under 90 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000242 ! eighth decade stage
 relationship: part_of HsapDv:0000095 ! 80 year-old and over stage
@@ -3362,7 +3356,6 @@ id: HsapDv:0000244
 name: tenth decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 90 and under 100 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade stage
 relationship: part_of HsapDv:0000095 ! 80 year-old and over stage
@@ -3374,7 +3367,6 @@ id: HsapDv:0000245
 name: eleventh decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to a human who is over 100 and under 110 years old." [Bgee:curator]
-is_a: UBERON:0000105 ! life cycle stage
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000244 ! tenth decade stage
 relationship: part_of HsapDv:0000247 ! centenarian stage
