@@ -35,15 +35,55 @@ property_value: end_dpf "21.0" xsd:float
 property_value: end_mph "0.0" xsd:float
 
 [Term]
+id: GgalDv:0000063
+name: Early cleavage stage
+namespace: chicken_developmental_stage
+def: "Before laying stage during which the shell membrane of egg is formed in isthmus of oviduct." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+comment: This stage covers the first 3.5-4.5 hours of development after fertilization.
+synonym: "HH early cleavage" EXACT []
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+property_value: start_dpf "0.0" xsd:float
+property_value: end_dpf "0.15" xsd:float
+
+[Term]
+id: GgalDv:0000064
+name: During cleavage stage
+namespace: chicken_developmental_stage
+def: "Before laying stage during which the germ wall is formed from marginal periblast." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+comment: This stage describes a period between the early stage and the late stage as reported in Hamburger Hamilton Stages description (see https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages).
+synonym: "HH during cleavage" EXACT []
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000063 ! Early cleavage stage
+property_value: start_dpf "0.15" xsd:float
+property_value: end_dpf "0.2" xsd:float
+
+[Term]
+id: GgalDv:0000065
+name: Late cleavage stage
+namespace: chicken_developmental_stage
+def: "Before laying stage during which the shell of egg is formed in uterus." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+comment: This stage covers the first 4.5-24 hours of development after fertilization.
+synonym: "HH during cleavage" EXACT []
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000064 ! During cleavage stage
+property_value: start_dpf "0.2" xsd:float
+property_value: end_dpf "1.0" xsd:float
+
+[Term]
 id: GgalDv:0000010
 name: Hamburger Hamilton stage 1
 namespace: chicken_developmental_stage
 def: "Prenatal stage starting the incubation period and usually defined by the presence of the primitive streak (embryonic shield)." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
-comment: This stage starts at dpf (days post fertilization) 1.
+comment: Starts at day 1 post-fertilization, after laying. This stage covers the first 6 hours following laying.
 synonym: "HH1" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000065 ! Late cleavage stage
 property_value: start_dpf "1.0" xsd:float
+property_value: start_dpf "1.25" xsd:float
 
 [Term]
 id: GgalDv:0000011
@@ -52,10 +92,21 @@ namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 6-7 hours of incubation.
 synonym: "HH1-2" RELATED []
+is_obsolete: true
+consider: GgalDv:0000060
+
+[Term]
+id: GgalDv:0000060
+name: Hamburger Hamilton stages 2
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+comment: Usually obtained after 6-7 hours of incubation.
+synonym: "HH2" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "1.0" xsd:float
-property_value: end_dpf "1.25" xsd:float
+relationship: immediately_preceded_by GgalDv:0000010 ! Hamburger Hamilton stage 1
+property_value: start_dpf "1.25" xsd:float
+property_value: end_dpf "1.5" xsd:float
 
 [Term]
 id: GgalDv:0000012
@@ -66,8 +117,9 @@ comment: Usually obtained after 12-13 hours of incubation.
 synonym: "HH3" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "1.25" xsd:float
-property_value: end_dpf "1.5" xsd:float
+relationship: immediately_preceded_by GgalDv:0000060 ! Hamburger Hamilton stage 2
+property_value: start_dpf "1.5" xsd:float
+property_value: end_dpf "1.75" xsd:float
 
 [Term]
 id: GgalDv:0000013
@@ -78,8 +130,9 @@ comment: Usually obtained after 18-19 hours of incubation.
 synonym: "HH4" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "1.5" xsd:float
-property_value: end_dpf "1.75" xsd:float
+relationship: immediately_preceded_by GgalDv:0000012 ! Hamburger Hamilton stage 3
+property_value: start_dpf "1.75" xsd:float
+property_value: end_dpf "1.8" xsd:float
 
 [Term]
 id: GgalDv:0000014
@@ -88,21 +141,48 @@ namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by head process (notochord), head fold." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 19-25 hours of incubation.
 synonym: "HH5-6" EXACT []
+is_obsolete: true
+consider: GgalDv:0000061
+consider: GgalDv:0000062
+
+[Term]
+id: GgalDv:0000061
+name: Hamburger Hamilton stages 5
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by head process (notochord) formation." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+comment: Usually obtained after 19-22 hours of incubation.
+synonym: "HH5" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "1.75" xsd:float
+relationship: immediately_preceded_by GgalDv:0000013 ! Hamburger Hamilton stage 4
+property_value: start_dpf "1.8" xsd:float
+property_value: end_dpf "1.9" xsd:float
+
+[Term]
+id: GgalDv:0000062
+name: Hamburger Hamilton stages 6
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by head fold formation." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+comment: Usually obtained after 23-25 hours of incubation.
+synonym: "HH6" EXACT []
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000061 ! Hamburger Hamilton stage 5
+property_value: start_dpf "1.9" xsd:float
 property_value: end_dpf "2.0" xsd:float
 
 [Term]
 id: GgalDv:0000015
 name: Hamburger Hamilton stage 7
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by the first 1 visible somite and neural folds." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
-comment: Usually obtained after 23-26 hours of incubation.
-synonym: "HH7" EXACT []
+def: "Prenatal stage on incubation period defined by the first somite and coelom, then up to 3 somites and neural folds." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+comment: Usually obtained after 23-26 hours of incubation. Includes the stage described as '7 to 8-' at https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages.
+synonym: "HH7" RELATED []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000061 ! Hamburger Hamilton stage 6
 property_value: start_dpf "2.0" xsd:float
+property_value: end_dpf "2.1" xsd:float
 
 [Term]
 id: GgalDv:0000016
@@ -111,10 +191,8 @@ namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by up to 3 somites and coelom." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 23-26 hours of incubation.
 synonym: "HH7 to 8-" RELATED []
-is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "2.0" xsd:float
-property_value: end_dpf "2.1" xsd:float
+is_obsolete: true
+consider: GgalDv:0000015
 
 [Term]
 id: GgalDv:0000017
@@ -125,6 +203,7 @@ comment: Usually obtained after 26-29 hours of incubation.
 synonym: "HH8" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000015 ! Hamburger Hamilton stage 7
 property_value: start_dpf "2.1" xsd:float
 property_value: end_dpf "2.2" xsd:float
 
@@ -137,6 +216,7 @@ comment: Usually obtained after 29-33 hours of incubation.
 synonym: "HH9" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000017 ! Hamburger Hamilton stage 8
 property_value: start_dpf "2.2" xsd:float
 property_value: end_dpf "2.4" xsd:float
 
@@ -148,9 +228,9 @@ def: "Prenatal stage on incubation period defined by 8-9 somites and anterior am
 comment: Usually obtained at ca. 33 hours of incubation.
 synonym: "HH9+ to 10-" RELATED []
 is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "2.4" xsd:float
-property_value: end_dpf "2.41" xsd:float
+relationship: part_of GgalDv:0000018 ! Hamburger Hamilton stage 9
+property_value: start_dpf "2.3" xsd:float
+property_value: end_dpf "2.4" xsd:float
 
 [Term]
 id: GgalDv:0000020
@@ -161,6 +241,7 @@ comment: Usually obtained after 33-38 hours of incubation.
 synonym: "HH11" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000018 ! Hamburger Hamilton stages 9+ to 10-
 property_value: start_dpf "2.41" xsd:float
 property_value: end_dpf "2.6" xsd:float
 
@@ -173,6 +254,7 @@ comment: Usually obtained after 40-45 hours of incubation.
 synonym: "HH12" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000020 ! Hamburger Hamilton stage 10
 property_value: start_dpf "2.6" xsd:float
 property_value: end_dpf "2.9" xsd:float
 
@@ -185,6 +267,7 @@ comment: Usually obtained after 45-49 hours of incubation.
 synonym: "HH12" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000021 ! Hamburger Hamilton stage 11
 property_value: start_dpf "2.9" xsd:float
 property_value: end_dpf "3.0" xsd:float
 
@@ -197,6 +280,7 @@ comment: Usually obtained after 48-52 hours of incubation.
 synonym: "HH13" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000022 ! Hamburger Hamilton stage 12
 property_value: start_dpf "3.0" xsd:float
 property_value: end_dpf "3.2" xsd:float
 
@@ -206,7 +290,7 @@ name: Hamburger Hamilton stages 13+ to 14-
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 20-21 somites and tail bud." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after ca.50-52 hours of incubation.
-synonym: "HH13+ to 14-" RELATED []
+synonym: "HH13+ to 14-" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000023 ! Hamburger Hamilton stage 13
 property_value: start_dpf "3.1" xsd:float
@@ -221,8 +305,9 @@ comment: Usually obtained after 50-53 hours of incubation.
 synonym: "HH14" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "3.1" xsd:float
-property_value: end_dpf "3.21" xsd:float
+relationship: immediately_preceded_by GgalDv:0000024 ! Hamburger Hamilton stages 13+ to 14-
+property_value: start_dpf "3.2" xsd:float
+property_value: end_dpf "3.25" xsd:float
 
 [Term]
 id: GgalDv:0000026
@@ -232,8 +317,8 @@ def: "Prenatal stage on incubation period defined by 23 somites and premandibula
 comment: Usually obtained after ca.50-54 hours of incubation.
 synonym: "HH14+ to 15-" RELATED []
 is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "3.1" xsd:float
+relationship: part_of GgalDv:0000025 ! Hamburger Hamilton stage 14
+property_value: start_dpf "3.21" xsd:float
 property_value: end_dpf "3.25" xsd:float
 
 [Term]
@@ -245,7 +330,8 @@ comment: Usually obtained after 50-55 hours of incubation.
 synonym: "HH15" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "3.1" xsd:float
+relationship: immediately_preceded_by GgalDv:0000026 ! Hamburger Hamilton stages 14+ to 15-
+property_value: start_dpf "3.25" xsd:float
 property_value: end_dpf "3.3" xsd:float
 
 [Term]
@@ -257,6 +343,7 @@ comment: Usually obtained after 51-56 hours of incubation.
 synonym: "HH16" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000027 ! Hamburger Hamilton stage 15
 property_value: start_dpf "3.15" xsd:float
 property_value: end_dpf "3.35" xsd:float
 
@@ -269,7 +356,8 @@ comment: Usually obtained after 52-64 hours of incubation.
 synonym: "HH17" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "3.2" xsd:float
+relationship: immediately_preceded_by GgalDv:0000028 ! Hamburger Hamilton stage 16
+property_value: start_dpf "3.35" xsd:float
 property_value: end_dpf "3.7" xsd:float
 
 [Term]
@@ -281,7 +369,9 @@ comment: Usually obtained after 3 days of incubation.
 synonym: "HH18" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "4.0" xsd:float
+relationship: immediately_preceded_by GgalDv:0000029 ! Hamburger Hamilton stage 17
+property_value: start_dpf "3.7" xsd:float
+property_value: end_dpf "3.75" xsd:float
 
 [Term]
 id: GgalDv:0000031
@@ -292,7 +382,9 @@ comment: Usually obtained after 3.0-3.5 days of incubation.
 synonym: "HH19" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "4.0" xsd:float
+relationship: immediately_preceded_by GgalDv:0000030 ! Hamburger Hamilton stage 18
+property_value: start_dpf "3.75" xsd:float
+property_value: end_dpf "3.8" xsd:float
 
 [Term]
 id: GgalDv:0000032
@@ -301,10 +393,6 @@ namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 50-53 hours of incubation.
 synonym: "HH20" EXACT []
-is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "3.1" xsd:float
-property_value: end_dpf "3.21" xsd:float
 is_obsolete: true
 replaced_by: GgalDv:0000034
 
@@ -317,7 +405,8 @@ comment: Usually obtained after 3.0-3.5 days of incubation.
 synonym: "HH20" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "4.0" xsd:float
+relationship: immediately_preceded_by GgalDv:0000031 ! Hamburger Hamilton stage 19
+property_value: start_dpf "3.8" xsd:float
 property_value: end_dpf "4.5" xsd:float
 
 [Term]
@@ -327,10 +416,6 @@ namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 50-53 hours of incubation.
 synonym: "HH14" EXACT []
-is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "3.1" xsd:float
-property_value: end_dpf "3.21" xsd:float
 is_obsolete: true
 replaced_by: GgalDv:0000035
 
@@ -343,6 +428,7 @@ comment: Usually obtained after 3.5 days of incubation.
 synonym: "HH21" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000034 ! Hamburger Hamilton stage 20
 property_value: start_dpf "4.5" xsd:float
 property_value: end_dpf "4.6" xsd:float
 
@@ -355,6 +441,7 @@ comment: Usually obtained after 3.5-4.0 days of incubation.
 synonym: "HH22" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000035 ! Hamburger Hamilton stage 21
 property_value: start_dpf "4.6" xsd:float
 property_value: end_dpf "5.0" xsd:float
 
@@ -367,6 +454,7 @@ comment: Usually obtained after 4.0 days of incubation.
 synonym: "HH23" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000036 ! Hamburger Hamilton stage 22
 property_value: start_dpf "5.0" xsd:float
 property_value: end_dpf "5.5" xsd:float
 
@@ -379,6 +467,7 @@ comment: Usually obtained after 4.5 days of incubation.
 synonym: "HH24" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000037 ! Hamburger Hamilton stage 23
 property_value: start_dpf "5.5" xsd:float
 property_value: end_dpf "5.6" xsd:float
 
@@ -391,6 +480,7 @@ comment: Usually obtained after 4.5-5.0 days of incubation.
 synonym: "HH25" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000038 ! Hamburger Hamilton stage 24
 property_value: start_dpf "5.6" xsd:float
 property_value: end_dpf "6.0" xsd:float
 
@@ -403,6 +493,7 @@ comment: Usually obtained after 5.0 days of incubation.
 synonym: "HH26" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000039 ! Hamburger Hamilton stage 25
 property_value: start_dpf "6.0" xsd:float
 property_value: end_dpf "6.1" xsd:float
 
@@ -415,7 +506,8 @@ comment: Usually obtained after 5.0-5.5 days of incubation.
 synonym: "HH27" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-property_value: start_dpf "6.0" xsd:float
+relationship: immediately_preceded_by GgalDv:0000040 ! Hamburger Hamilton stage 26
+property_value: start_dpf "6.1" xsd:float
 property_value: end_dpf "6.5" xsd:float
 
 [Term]
@@ -427,6 +519,7 @@ comment: Usually obtained after 5.5-6.0 days of incubation.
 synonym: "HH28" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000041 ! Hamburger Hamilton stage 27
 property_value: start_dpf "6.5" xsd:float
 property_value: end_dpf "7.0" xsd:float
 
@@ -439,6 +532,7 @@ comment: Usually obtained after 6.0-6.5 days of incubation.
 synonym: "HH29" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000042 ! Hamburger Hamilton stage 28
 property_value: start_dpf "7.0" xsd:float
 property_value: end_dpf "7.5" xsd:float
 
@@ -451,6 +545,7 @@ comment: Usually obtained after 6.5-7.0 days of incubation.
 synonym: "HH30" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000043 ! Hamburger Hamilton stage 29
 property_value: start_dpf "7.5" xsd:float
 property_value: end_dpf "8.0" xsd:float
 
@@ -463,6 +558,7 @@ comment: Usually obtained after 7.0-7.5 days of incubation.
 synonym: "HH31" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000044 ! Hamburger Hamilton stage 30
 property_value: start_dpf "8.0" xsd:float
 property_value: end_dpf "8.5" xsd:float
 
@@ -475,6 +571,7 @@ comment: Usually obtained after 7.5 days of incubation.
 synonym: "HH32" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000045 ! Hamburger Hamilton stage 31
 property_value: start_dpf "8.5" xsd:float
 property_value: end_dpf "8.6" xsd:float
 
@@ -487,6 +584,7 @@ comment: Usually obtained after 7.5-8.0 days of incubation.
 synonym: "HH33" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000046 ! Hamburger Hamilton stage 32
 property_value: start_dpf "8.6" xsd:float
 property_value: end_dpf "9.0" xsd:float
 
@@ -499,6 +597,7 @@ comment: Usually obtained after 8.0 days of incubation.
 synonym: "HH34" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000046 ! Hamburger Hamilton stage 33
 property_value: start_dpf "9.0" xsd:float
 property_value: end_dpf "9.5" xsd:float
 
@@ -511,6 +610,7 @@ comment: Usually obtained after 8.5-9.0 days of incubation (means, 9.5 up to 10 
 synonym: "HH35" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000047 ! Hamburger Hamilton stage 34
 property_value: start_dpf "9.5" xsd:float
 property_value: end_dpf "11.0" xsd:float
 
@@ -523,6 +623,7 @@ comment: Usually obtained after 10.0 days of incubation (means, 11 days after fe
 synonym: "HH36" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000048 ! Hamburger Hamilton stage 35
 property_value: start_dpf "11.0" xsd:float
 property_value: end_dpf "12.0" xsd:float
 
@@ -535,6 +636,7 @@ comment: Usually obtained after 11.0 days of incubation.
 synonym: "HH37" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000049 ! Hamburger Hamilton stage 36
 property_value: start_dpf "12.0" xsd:float
 property_value: end_dpf "13.0" xsd:float
 
@@ -547,6 +649,7 @@ comment: Usually obtained after 12.0 days of incubation.
 synonym: "HH38" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000050 ! Hamburger Hamilton stage 37
 property_value: start_dpf "13.0" xsd:float
 property_value: end_dpf "14.0" xsd:float
 
@@ -559,6 +662,7 @@ comment: Usually obtained after 13.0 days of incubation.
 synonym: "HH39" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000051 ! Hamburger Hamilton stage 38
 property_value: start_dpf "14.0" xsd:float
 property_value: end_dpf "15.0" xsd:float
 
@@ -571,6 +675,7 @@ comment: Usually obtained after 14.0 days of incubation.
 synonym: "HH40" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000052 ! Hamburger Hamilton stage 39
 property_value: start_dpf "15.0" xsd:float
 property_value: end_dpf "16.0" xsd:float
 
@@ -583,6 +688,7 @@ comment: Usually obtained after 15.0 days of incubation.
 synonym: "HH41" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000053 ! Hamburger Hamilton stage 40
 property_value: start_dpf "16.0" xsd:float
 property_value: end_dpf "17.0" xsd:float
 
@@ -595,6 +701,7 @@ comment: Usually obtained after 16.0 days of incubation.
 synonym: "HH42" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000054 ! Hamburger Hamilton stage 41
 property_value: start_dpf "17.0" xsd:float
 property_value: end_dpf "18.0" xsd:float
 
@@ -607,6 +714,7 @@ comment: Usually obtained after 17.0 days of incubation.
 synonym: "HH43" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000055 ! Hamburger Hamilton stage 42
 property_value: start_dpf "18.0" xsd:float
 property_value: end_dpf "19.0" xsd:float
 
@@ -619,6 +727,7 @@ comment: Usually obtained after 18.0 days of incubation.
 synonym: "HH44" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000056 ! Hamburger Hamilton stage 43
 property_value: start_dpf "19.0" xsd:float
 property_value: end_dpf "20.0" xsd:float
 
@@ -631,6 +740,7 @@ comment: Usually obtained after 19.0-20.0 days of incubation.
 synonym: "HH45" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000057 ! Hamburger Hamilton stage 44
 property_value: start_dpf "20.0" xsd:float
 property_value: end_dpf "21.0" xsd:float
 
@@ -669,6 +779,7 @@ comment: Usually obtained after 20.0-21.0 days of incubation. We consider this s
 synonym: "HH46" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000058 ! Hamburger Hamilton stage 45
 property_value: start_dpf "21.0" xsd:float
 property_value: end_dpf "22.0" xsd:float
 
