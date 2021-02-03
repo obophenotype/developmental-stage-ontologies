@@ -1614,6 +1614,7 @@ name: juvenile stage
 namespace: human_developmental_stage
 def: "Pediatric stage that refers to a human who is over 5 and under 15 years old." [Bgee:curator "Bgee"]
 xref: HP:0003621
+xref: UBERON:0034919
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000264 ! pediatric stage
 relationship: immediately_preceded_by HsapDv:0000265 ! child stage
@@ -1788,7 +1789,7 @@ id: HsapDv:0000258
 name: adult stage
 namespace: human_developmental_stage
 def: "Human developmental stage that refers to a sexually mature human." [Bgee:curator "Bgee"]
-comment: We follow HPO (Human Phenotype Ontology) definition of adult onset (HP:0003581) to define the start of the stage.
+comment: HPO (Human Phenotype Ontology) considers HP:0003581 (adult onset) as 'at the age of 16 years or later', but this adult stage directly follows the pediatric onset (HP:0410280) defined 'as before the age of 15 years' (see https://github.com/obophenotype/human-phenotype-ontology/issues/6099). To be consistent, we consider adult stage as starting at 15 years.
 synonym: "mature stage" EXACT []
 xref: UBERON:0000113
 xref: HP:0003581
