@@ -65,7 +65,7 @@ name: Late cleavage stage
 namespace: chicken_developmental_stage
 def: "Before laying stage during which the shell of egg is formed in uterus." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: This stage covers the first 4.5-24 hours of development after fertilization.
-synonym: "HH during cleavage" EXACT []
+synonym: "HH late cleavage" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
 relationship: immediately_preceded_by GgalDv:0000064 ! During cleavage stage
@@ -242,7 +242,7 @@ synonym: "HH11" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
 relationship: immediately_preceded_by GgalDv:0000018 ! Hamburger Hamilton stages 9+ to 10-
-property_value: start_dpf "2.41" xsd:float
+property_value: start_dpf "2.4" xsd:float
 property_value: end_dpf "2.6" xsd:float
 
 [Term]
@@ -251,7 +251,7 @@ name: Hamburger Hamilton stage 11
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 13 somites and 5 neuromeres of hindbrain." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 40-45 hours of incubation.
-synonym: "HH12" EXACT []
+synonym: "HH11" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
 relationship: immediately_preceded_by GgalDv:0000020 ! Hamburger Hamilton stage 10
@@ -344,7 +344,7 @@ synonym: "HH16" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
 relationship: immediately_preceded_by GgalDv:0000027 ! Hamburger Hamilton stage 15
-property_value: start_dpf "3.15" xsd:float
+property_value: start_dpf "3.3" xsd:float
 property_value: end_dpf "3.35" xsd:float
 
 [Term]
@@ -745,6 +745,19 @@ property_value: start_dpf "20.0" xsd:float
 property_value: end_dpf "21.0" xsd:float
 
 [Term]
+id: GgalDv:0000076
+name: postnatal stage
+namespace: chicken_developmental_stage
+def: "Chicken developmental stage that covers the whole of chicken life post hatching." [Bgee:curator "Bgee"]
+comment: Chicken reach sexual maturity by five months of age.
+xref: UBERON:0000092
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000001 ! chicken life cycle
+relationship: immediately_preceded_by GgalDv:0000002 ! prenatal stage
+property_value: start_dpf "21.0" xsd:float
+property_value: start_mph "0.0" xsd:float
+
+[Term]
 id: GgalDv:0000003
 name: immature stage
 namespace: chicken_developmental_stage
@@ -752,7 +765,7 @@ def: "Chicken developmental stage that covers the period from hatching until 5 m
 comment: Chicken reach sexual maturity by five months of age.
 xref: UBERON:0000112
 is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000001 ! chicken life cycle
+relationship: part_of GgalDv:0000076 ! postnatal stage
 relationship: immediately_preceded_by GgalDv:0000002 ! prenatal stage
 property_value: start_dpf "21.0" xsd:float
 property_value: start_mph "0.0" xsd:float
@@ -763,6 +776,7 @@ id: GgalDv:0000004
 name: hatchling stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers." [Bgee:curator "Bgee"]
+synonym: "under-1-month-old chicken stage" EXACT []
 xref: UBERON:0007221
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000003 ! immature stage
@@ -775,13 +789,135 @@ id: GgalDv:0000059
 name: Hamburger Hamilton stage 46
 namespace: chicken_developmental_stage
 def: "Newly-hatched chick." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
-comment: Usually obtained after 20.0-21.0 days of incubation. We consider this stage encompassing the first day after hatching.
+comment: Usually obtained after 20.0-21.0 days of incubation. We consider this stage encompassing the first 24 hours after hatching.
 synonym: "HH46" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000004 ! hatchling stage
 relationship: immediately_preceded_by GgalDv:0000058 ! Hamburger Hamilton stage 45
 property_value: start_dpf "21.0" xsd:float
 property_value: end_dpf "22.0" xsd:float
+property_value: start_dph "0.0" xsd:float
+property_value: end_dph "1.0" xsd:float
+
+[Term]
+id: GgalDv:0000066
+name: 1-day-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 1 and under 2 days after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000059 ! Hamburger Hamilton stage 46
+property_value: start_dph "1.0" xsd:float
+property_value: end_dph "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000067
+name: 2-day-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 2 and under 3 days after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000066 ! 1-day-old stage
+property_value: start_dph "2.0" xsd:float
+property_value: end_dph "3.0" xsd:float
+
+[Term]
+id: GgalDv:0000068
+name: 3-day-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 3 and under 4 days after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000067 ! 2-day-old stage
+property_value: start_dph "3.0" xsd:float
+property_value: end_dph "4.0" xsd:float
+
+[Term]
+id: GgalDv:0000069
+name: 4-day-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 4 and under 5 days after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000068 ! 3-day-old stage
+property_value: start_dph "4.0" xsd:float
+property_value: end_dph "5.0" xsd:float
+
+[Term]
+id: GgalDv:0000070
+name: 5-day-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 5 and under 6 days after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000069 ! 4-day-old stage
+property_value: start_dph "5.0" xsd:float
+property_value: end_dph "6.0" xsd:float
+
+[Term]
+id: GgalDv:0000071
+name: 6-day-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 6 and under 7 days after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000070 ! 5-day-old stage
+property_value: start_dph "6.0" xsd:float
+property_value: end_dph "7.0" xsd:float
+
+[Term]
+id: GgalDv:0000072
+name: 1-week-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 7 days and under 14 days after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000071 ! 6-day-old stage
+property_value: start_wph "1.0" xsd:float
+property_value: end_wph "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000073
+name: 2-week-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 2 and under 3 weeks after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000072 ! 1-week-old stage
+property_value: start_wph "2.0" xsd:float
+property_value: end_wph "3.0" xsd:float
+
+[Term]
+id: GgalDv:0000074
+name: 3-week-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 3 and under 4 weeks after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000073 ! 2-week-old stage
+property_value: start_wph "3.0" xsd:float
+property_value: end_wph "4.0" xsd:float
+
+[Term]
+id: GgalDv:0000075
+name: 4-week-old stage
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 4 and under 5 weeks after hatching." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000074 ! 3-week-old stage
+property_value: start_wph "4.0" xsd:float
+property_value: end_wph "5.0" xsd:float
 
 [Term]
 id: GgalDv:0000005
@@ -803,28 +939,140 @@ synonym: "mature" EXACT []
 def: "Chicken developmental stage that refers to a sexually mature adult chicken, which is over 5 months old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
 is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000001 ! chicken life cycle
+relationship: part_of GgalDv:0000076 ! postnatal stage
 property_value: start_mph "5.0" xsd:float
 relationship: preceded_by GgalDv:0000003 ! immature stage
+
+[Term]
+id: GgalDv:0000077
+name: prime adult stage
+namespace: chicken_developmental_stage
+def: "Chicken developmental stage that refers to a chicken who is over 5 months and under 4 years old." [Bgee:curator "Bgee"]
+comment: Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We arbitrary consider 4 years old as the upper limit of the prime adult stage.
+xref: UBERON:0018241
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000006 ! mature stage
+relationship: immediately_preceded_by GgalDv:0000005 ! juvenile stage
+property_value: start_mph "5.0" xsd:float
+property_value: end_mph "48.0" xsd:float
+property_value: start_yph "0.4.0" xsd:float
+property_value: end_yph "4.0" xsd:float
 
 [Term]
 id: GgalDv:0000007
 name: early adult stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old." [Bgee:curator "Bgee"]
-is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000006 ! mature stage
 property_value: start_mph "5.0" xsd:float
+property_value: end_mph "12.0" xsd:float
+is_obsolete: true
+consider: GgalDv:0000078
+
+[Term]
+id: GgalDv:0000078
+name: young adult stage
+namespace: chicken_developmental_stage
+def: "Chicken developmental stage that refers to a chicken who is over 5 months and under 2 years old." [Bgee:curator "Bgee"]
+comment: Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We define here the usual period when egg laying in females is the more active.
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000077 ! prime adult stage
+property_value: start_mph "5.0" xsd:float
+property_value: end_mph "24.0" xsd:float
+property_value: start_yph "0.4.0" xsd:float
+property_value: end_yph "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000081
+name: 5-month-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 5 and under 6 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000005 ! juvenile stage
+property_value: start_mph "5.0" xsd:float
+property_value: end_mph "6.0" xsd:float
+
+[Term]
+id: GgalDv:0000082
+name: 6-month-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 6 and under 7 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000081 ! 5-month-old chicken stage
+property_value: start_mph "6.0" xsd:float
+property_value: end_mph "7.0" xsd:float
+
+[Term]
+id: GgalDv:0000083
+name: 7-month-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 7 and under 8 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000082 ! 6-month-old chicken stage
+property_value: start_mph "7.0" xsd:float
+property_value: end_mph "8.0" xsd:float
+
+[Term]
+id: GgalDv:0000084
+name: 8-month-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 8 and under 9 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000083 ! 7-month-old chicken stage
+property_value: start_mph "8.0" xsd:float
+property_value: end_mph "9.0" xsd:float
+
+[Term]
+id: GgalDv:0000085
+name: 9-month-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 9 and under 10 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000084 ! 8-month-old chicken stage
+property_value: start_mph "9.0" xsd:float
+property_value: end_mph "10.0" xsd:float
+
+[Term]
+id: GgalDv:0000086
+name: 10-month-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 10 and under 11 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000085 ! 9-month-old chicken stage
+property_value: start_mph "10.0" xsd:float
+property_value: end_mph "11.0" xsd:float
+
+[Term]
+id: GgalDv:0000087
+name: 11-month-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 11 and under 12 months old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000086 ! 10-month-old chicken stage
+property_value: start_mph "11.0" xsd:float
 property_value: end_mph "12.0" xsd:float
 
 [Term]
 id: GgalDv:0000008
-name: 1-year-old chicken stage
+name: 1-year-old stage
 namespace: chicken_developmental_stage
 def: "Mature stage that refers to a chicken who is over 12 and under 24 months old." [Bgee:curator "Bgee"]
 is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000006 ! mature stage
-relationship: immediately_preceded_by GgalDv:0000007 ! early adult stage
+relationship: part_of GgalDv:0000078 ! young adult stage
+relationship: immediately_preceded_by GgalDv:0000087 ! 11-month-old chicken stage
 property_value: start_mph "12.0" xsd:float
 property_value: end_mph "24.0" xsd:float
 
@@ -833,10 +1081,57 @@ id: GgalDv:0000009
 name: 2-year-old and over chicken stage
 namespace: chicken_developmental_stage
 def: "Mature stage that refers to a chicken who is over 24 months old." [Bgee:curator "Bgee"]
+property_value: start_mph "24.0" xsd:float
+is_obsolete: true
+consider: GgalDv:0000088
+consider: GgalDv:0000088
+
+[Term]
+id: GgalDv:0000079
+name: middle adult stage
+namespace: chicken_developmental_stage
+def: "Chicken developmental stage that refers to a chicken who is over 2 and under 4 years old." [Bgee:curator "Bgee"]
+comment: Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We arbitrary define 4 years as the limit before senescence.
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000077 ! prime adult stage
+relationship: immediately_preceded_by GgalDv:0000078 ! young adult stage
+property_value: start_yph "2.0" xsd:float
+property_value: end_yph "4.0" xsd:float
+
+[Term]
+id: GgalDv:0000088
+name: 2-year-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 2 and under 3 years old." [Bgee:curator "Bgee"]
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000079 ! middle adult stage
+relationship: immediately_preceded_by GgalDv:0000008 ! 1-year-old chicken stage
+property_value: start_yph "2.0" xsd:float
+property_value: end_yph "3.0" xsd:float
+
+[Term]
+id: GgalDv:0000089
+name: 3-year-old stage
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000079 ! middle adult stage
+relationship: immediately_preceded_by GgalDv:0000088 ! 2-year-old chicken stage
+property_value: start_yph "3.0" xsd:float
+property_value: end_yph "4.0" xsd:float
+
+[Term]
+id: GgalDv:0000080
+name: late adult stage
+namespace: chicken_developmental_stage
+def: "Chicken developmental stage that refers to a chicken who is over 4 years old." [Bgee:curator "Bgee"]
+synonym: "4-year-old and over stage" EXACT []
+comment: Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We arbitrary define 4 years as the limit before senescence.
+xref: UBERON:0007222
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000006 ! mature stage
-relationship: immediately_preceded_by GgalDv:0000008 ! 1-year-old chicken stage
-property_value: start_mph "24.0" xsd:float
+relationship: immediately_preceded_by GgalDv:0000079 ! middle adult stage
+property_value: start_yph "4.0" xsd:float
 
 [Typedef]
 id: part_of
@@ -910,3 +1205,22 @@ comment: This is a shortcut annotation that can be expanded to an OWL axiom, or 
 property_value: has_unit UO:0000035 ! month
 is_a: has_end_time
 
+[Typedef]
+id: start_yph
+name: start, years post hatching
+namespace: pufferfish_stages_ontology
+def: "Count of number of years intervening between the start of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the organism is one year old has the value 1." []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000036
+is_metadata_tag: true
+is_a: has_start_time
+
+[Typedef]
+id: end_yph
+name: end, years post hatching
+namespace: pufferfish_stages_ontology
+def: "Count of number of years intervening between the end of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the organism is one year old has the value 2" []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000036
+is_metadata_tag: true
+is_a: has_end_time
