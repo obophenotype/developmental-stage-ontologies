@@ -750,7 +750,7 @@ name: postnatal stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the whole of chicken life post hatching." [Bgee:curator "Bgee"]
 comment: Chicken reach sexual maturity by five months of age.
-xref: UBERON:0000092
+xref: UBERON:0000066
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
 relationship: immediately_preceded_by GgalDv:0000002 ! prenatal stage
