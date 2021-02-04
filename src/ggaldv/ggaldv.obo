@@ -35,40 +35,39 @@ property_value: end_dpf "21.0" xsd:float
 property_value: end_mph "0.0" xsd:float
 
 [Term]
+id: GgalDv:0000064
+name: cleavage stage
+namespace: chicken_developmental_stage
+def: "Chicken embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107 "adapted from"]
+comment: This stage occurs during the period before laying, and encompasses the 24 first hours of embryo development (see https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages).
+xref: UBERON:0000107
+is_a: GgalDv:0000000 ! chicken life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+property_value: start_dpf "0.0" xsd:float
+property_value: end_dpf "1.2" xsd:float
+
+[Term]
 id: GgalDv:0000063
-name: Early cleavage stage
+name: early cleavage stage
 namespace: chicken_developmental_stage
 def: "Before laying stage during which the shell membrane of egg is formed in isthmus of oviduct." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: This stage covers the first 3.5-4.5 hours of development after fertilization.
 synonym: "HH early cleavage" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000064 ! cleavage stage
 property_value: start_dpf "0.0" xsd:float
-property_value: end_dpf "0.15" xsd:float
-
-[Term]
-id: GgalDv:0000064
-name: During cleavage stage
-namespace: chicken_developmental_stage
-def: "Before laying stage during which the germ wall is formed from marginal periblast." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
-comment: This stage describes a period between the early stage and the late stage as reported in Hamburger Hamilton Stages description (see https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages).
-synonym: "HH during cleavage" EXACT []
-is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000063 ! Early cleavage stage
-property_value: start_dpf "0.15" xsd:float
 property_value: end_dpf "0.2" xsd:float
 
 [Term]
 id: GgalDv:0000065
-name: Late cleavage stage
+name: late cleavage stage
 namespace: chicken_developmental_stage
 def: "Before laying stage during which the shell of egg is formed in uterus." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: This stage covers the first 4.5-24 hours of development after fertilization.
 synonym: "HH late cleavage" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000064 ! During cleavage stage
+relationship: part_of GgalDv:0000064 ! cleavage stage
+relationship: immediately_preceded_by GgalDv:0000063 ! early cleavage stage
 property_value: start_dpf "0.2" xsd:float
 property_value: end_dpf "1.0" xsd:float
 
@@ -81,7 +80,7 @@ comment: Starts at day 1 post-fertilization, after laying. This stage covers the
 synonym: "HH1" EXACT []
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000065 ! Late cleavage stage
+relationship: immediately_preceded_by GgalDv:0000065 ! late cleavage stage
 property_value: start_dpf "1.0" xsd:float
 property_value: start_dpf "1.25" xsd:float
 
@@ -753,7 +752,7 @@ comment: Chicken reach sexual maturity by five months of age.
 xref: UBERON:0000066
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000001 ! chicken life cycle
-relationship: immediately_preceded_by GgalDv:0000002 ! prenatal stage
+relationship: preceded_by GgalDv:0000002 ! prenatal stage
 property_value: start_dpf "21.0" xsd:float
 property_value: start_mph "0.0" xsd:float
 
@@ -766,7 +765,6 @@ comment: Chicken reach sexual maturity by five months of age.
 xref: UBERON:0000112
 is_a: GgalDv:0000000 ! chicken life cycle stage
 relationship: part_of GgalDv:0000076 ! postnatal stage
-relationship: immediately_preceded_by GgalDv:0000002 ! prenatal stage
 property_value: start_dpf "21.0" xsd:float
 property_value: start_mph "0.0" xsd:float
 property_value: end_mph "5.0" xsd:float
