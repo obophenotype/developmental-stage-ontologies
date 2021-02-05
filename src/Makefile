@@ -8,7 +8,7 @@ BRIDGE_PARAMS_SUFFIX:=-bridge-params.tsv
 BRIDGE_UBERON_SUFFIX:=-bridge-to-uberon.obo
 COMPOSITE_UBERON_SUFFIX:=-uberon.obo
 
-ONT_PREFIXES:= acardv btaudv cfamdv cpordv danadv dmojdv dpsedv dsimdv dvirdv dyakdv ecabdv eeurdv fcatdv ggaldv ggordv hsapdv mdomdv mmuldv mmusdv oanadv ocundv olatdv ppandv ppygdv ptrodv rnordv sscrdv tnigdv
+ONT_PREFIXES:= acardv btaudv cfamdv cpordv danadv dmojdv dpsedv dsimdv dvirdv dyakdv ecabdv eeurdv fcatdv ggaldv ggordv hsapdv mdomdv mmuldv mmusdv oanadv oaridv ocundv olatdv pdumdv ppandv ppygdv ptrodv rnordv sscrdv tnigdv
 
 #trick inspired from http://blog.jgc.org/2012/01/using-gnu-makes-define-and-eval-to.html
 all: $(foreach d,$(ONT_PREFIXES), $d/$d.owl $d/$d$(COMPOSITE_UBERON_SUFFIX))
