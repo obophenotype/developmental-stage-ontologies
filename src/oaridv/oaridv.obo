@@ -1,9 +1,9 @@
 format-version: 1.2
-date: 24:01:2017 13:00
+date: 05:02:2021 13:48
 saved-by: ann
 default-namespace: sheep_stages_ontology
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-ontology: OariDv
+ontology: oaridv
 
 [Term]
 id: OariDv:0000000
@@ -26,8 +26,7 @@ id: OariDv:0000002
 name: prenatal stage
 namespace: sheep_developmental_stage
 def: "Sheep life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
-comment: Embryo develops in 146 days (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries). 
-Bgee_curator_notes: Bgee prenatal stage definition differs from Uberon embryonic stage definition by the notion of birth for stage ending, while Uberon ends with fully formed embryo. We maybe have to correct our too precise definition.
+comment: Embryo develops in 146 days (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries). Bgee_curator_notes: Bgee prenatal stage definition differs from Uberon embryonic stage definition by the notion of birth for stage ending, while Uberon ends with fully formed embryo. We maybe have to correct our too precise definition.
 xref: UBERON:0000068
 is_a: OariDv:0000000 ! sheep life cycle stage
 relationship: part_of OariDv:0000001 ! sheep life cycle

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:02:2014 17:09
+date: 05:02:2021 13:48
 saved-by: fbb
 default-namespace: chicken_stages_ontology
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
@@ -734,7 +734,7 @@ property_value: end_dpf "20.0" xsd:float
 id: GgalDv:0000058
 name: Hamburger Hamilton stage 45
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by yolk sac half enclosed in body cavity, chorio-allantoic membrane containing less blood and "sticky" in living embryo." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by yolk sac half enclosed in body cavity, chorio-allantoic membrane containing less blood and 'sticky' in living embryo." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 19.0-20.0 days of incubation.
 synonym: "HH45" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
