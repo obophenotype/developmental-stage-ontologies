@@ -696,7 +696,7 @@ property_value: end_dpf "91.0" xsd:float
 
 [Term]
 id: HsapDv:0000051
-name: 14th week post-fertilization human stage
+name: 14th week post-fertilization stage
 namespace: human_developmental_stage
 def: "Fetal stage when the fetus is over 13 and under 14 weeks of development." [Bgee:curator "Bgee"]
 subset: granular_stage
@@ -1119,7 +1119,7 @@ property_value: end_ypb "1.0" xsd:float
 
 [Term]
 id: HsapDv:0000082
-name: newborn human stage 
+name: newborn stage 
 namespace: human_developmental_stage
 def: "Immature stage that refers to a newborn who is under 32 days old." [Bgee:curator "Bgee"]
 synonym: "neonate" RELATED []
@@ -1196,7 +1196,7 @@ namespace: human_developmental_stage
 def: "Immature stage that refers to an infant who is over 28 days and is under 12 months old." [Bgee:curator "Bgee"]
 comment: We consider that this pediatric stage refers to an infant who is over 28 days and under 12 months old, to follow HPO (Human Phenotype Ontology) which considers infant as between 28 days to one year of life, based on the ethymology of the word (infant), meaning not speaking, see HP:0003593 (Infantile onset) and see Peter Robinson's comment [[HPO:probinson] at https://github.com/obophenotype/human-phenotype-ontology/issues/5119#issuecomment-578882539.
 synonym: "infantile stage" EXACT []
-synonym: "under-1-year-old human stage" EXACT []
+synonym: "under-1-year-old stage" EXACT []
 xref: HP:0003593
 xref: UBERON:0034920
 is_a: HsapDv:0000000 ! life cycle stage
@@ -1209,7 +1209,7 @@ property_value: end_mpb "12.0" xsd:float
 
 [Term]
 id: HsapDv:0000256
-name: under-1-year-old human stage
+name: under-1-year-old stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 31 days and is under 12 months old." [Bgee:curator "Bgee"]
 synonym: "1-11 months" EXACT []
@@ -1222,7 +1222,7 @@ consider: HsapDv:0000261
 
 [Term]
 id: HsapDv:0000174
-name: 1-month-old human stage
+name: 1-month-old stage
 namespace: human_developmental_stage
 def: "Infant stage that refers to an infant who is over 1 and under 2 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
@@ -1852,7 +1852,7 @@ relationship: immediately_preceded_by HsapDv:0000111 ! 17-year-old stage
 
 [Term]
 id: HsapDv:0000087
-name: human adult stage
+name: adult stage
 namespace: human_developmental_stage
 def: "Human developmental stage that refers to an adult who is over 19." [Bgee:curator "Bgee"]
 synonym: "19+ years" EXACT []
@@ -1865,7 +1865,7 @@ consider: HsapDv:0000258
 id: HsapDv:0000226
 name: prime adult stage
 namespace: human_developmental_stage
-def: "A human life cycle stage that starts at sexual maturity of the human adult, and ends before senescence." [Bgee:curator "Bgee"]
+def: "A life cycle stage that starts at sexual maturity of the human adult, and ends before senescence." [Bgee:curator "Bgee"]
 comment: We start this stage at 15 years to follow the Human Phenotype Ontology defintion of adult onset (HP:0003581), and we ends the stage at 60 years, the start of late onset in HPO (HP:0003584). 
 xref: UBERON:0018241
 is_a: HsapDv:0000000 ! life cycle stage
@@ -1875,7 +1875,7 @@ property_value: end_ypb "60.0" xsd:float
 
 [Term]
 id: HsapDv:0000088
-name: human early adulthood stage
+name: early adulthood stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is under 45." [Bgee:curator "Bgee"]
 synonym: "19-44 years" EXACT []
@@ -1998,7 +1998,7 @@ relationship: immediately_preceded_by HsapDv:0000117 ! 23-year-old stage
 
 [Term]
 id: HsapDv:0000090
-name: 25-44 year-old human stage
+name: 25-44 year-old stage
 namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is over 25 and under 45." [Bgee:curator "Bgee"]
 property_value: start_ypb "25.0" xsd:float
@@ -2272,7 +2272,7 @@ relationship: immediately_preceded_by HsapDv:0000137 ! 43-year-old stage
 
 [Term]
 id: HsapDv:0000091
-name: human late adulthood stage
+name: late adulthood stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 45." [Bgee:curator "Bgee"]
 synonym: "Middle Aged + Aged" RELATED []
@@ -2284,7 +2284,7 @@ consider: HsapDv:0000227
 
 [Term]
 id: HsapDv:0000092
-name: human middle aged stage
+name: middle aged stage
 namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 45 and under 65." [Bgee:curator "Bgee"]
 synonym: "45-64 years" EXACT []
@@ -2568,7 +2568,7 @@ relationship: immediately_preceded_by HsapDv:0000157 ! 63-year-old stage
 
 [Term]
 id: HsapDv:0000093
-name: human aged stage
+name: aged stage
 namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 65." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
@@ -2594,7 +2594,7 @@ property_value: start_ypb "60.0" xsd:float
 
 [Term]
 id: HsapDv:0000094
-name: 65-79 year-old human stage
+name: 65-79 year-old stage
 namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is under 80." [Bgee:curator "Bgee"]
 synonym: "elderly" RELATED []
@@ -3254,7 +3254,7 @@ relationship: immediately_preceded_by HsapDv:0000254 ! 113-year-old stage
 
 [Term]
 id: HsapDv:0000235
-name: first decade human stage
+name: first decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 0 and under 10 years old." [Bgee:curator]
 property_value: end_ypb "10.0" xsd:float
@@ -3266,7 +3266,7 @@ consider: HsapDv:0000265
 
 [Term]
 id: HsapDv:0000236
-name: second decade human stage
+name: second decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 10 and under 20 years old." [Bgee:curator]
 property_value: end_ypb "20.0" xsd:float
@@ -3299,7 +3299,7 @@ property_value: start_ypb "30.0" xsd:float
 
 [Term]
 id: HsapDv:0000239
-name: fifth decade human stage
+name: fifth decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 40 and under 50 years old." [Bgee:curator]
 is_a: HsapDv:0000000 ! life cycle stage
