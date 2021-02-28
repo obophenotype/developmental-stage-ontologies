@@ -52,6 +52,7 @@ def: "Prenatal stage consisting of division of cells in the early sheep embryo."
 comment: As far as we know, no information available about the time the first division occurs, we assume 24 after fertilization.
 is_a: OariDv:0000000 ! sheep life cycle stage
 relationship: part_of OariDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by OariDv:0000009 ! zygote stage
 property_value: start_dpf "1.0" xsd:float
 property_value: end_dpf "6.0" xsd:float
 
