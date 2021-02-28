@@ -179,7 +179,7 @@ comment: Usually obtained after 23-26 hours of incubation. Includes the stage de
 synonym: "HH7" RELATED []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000061 ! Hamburger Hamilton stage 6
+relationship: immediately_preceded_by GgalDv:0000062 ! Hamburger Hamilton stage 6
 property_value: start_dpf "2.0" xsd:float
 property_value: end_dpf "2.1" xsd:float
 
@@ -227,7 +227,8 @@ def: "Prenatal stage on incubation period defined by 8-9 somites and anterior am
 comment: Usually obtained at ca. 33 hours of incubation.
 synonym: "HH9+ to 10-" RELATED []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000018 ! Hamburger Hamilton stage 9
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000018 ! Hamburger Hamilton stage 9
 property_value: start_dpf "2.3" xsd:float
 property_value: end_dpf "2.4" xsd:float
 
@@ -240,7 +241,7 @@ comment: Usually obtained after 33-38 hours of incubation.
 synonym: "HH11" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000018 ! Hamburger Hamilton stages 9+ to 10-
+relationship: immediately_preceded_by GgalDv:0000019 ! Hamburger Hamilton stages 9+ to 10-
 property_value: start_dpf "2.4" xsd:float
 property_value: end_dpf "2.6" xsd:float
 
@@ -291,7 +292,8 @@ def: "Prenatal stage on incubation period defined by 20-21 somites and tail bud.
 comment: Usually obtained after ca.50-52 hours of incubation.
 synonym: "HH13+ to 14-" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000023 ! Hamburger Hamilton stage 13
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000023 ! Hamburger Hamilton stage 13
 property_value: start_dpf "3.1" xsd:float
 property_value: end_dpf "3.2" xsd:float
 
@@ -316,7 +318,8 @@ def: "Prenatal stage on incubation period defined by 23 somites and premandibula
 comment: Usually obtained after ca.50-54 hours of incubation.
 synonym: "HH14+ to 15-" RELATED []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000025 ! Hamburger Hamilton stage 14
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000025 ! Hamburger Hamilton stage 14
 property_value: start_dpf "3.21" xsd:float
 property_value: end_dpf "3.25" xsd:float
 
@@ -575,7 +578,7 @@ property_value: start_dpf "8.5" xsd:float
 property_value: end_dpf "8.6" xsd:float
 
 [Term]
-id: GgalDv:0000046
+id: GgalDv:0000047
 name: Hamburger Hamilton stage 33
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by web on radial margin of wing and 1st digit." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -588,7 +591,7 @@ property_value: start_dpf "8.6" xsd:float
 property_value: end_dpf "9.0" xsd:float
 
 [Term]
-id: GgalDv:0000047
+id: GgalDv:0000048
 name: Hamburger Hamilton stage 34
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by nictitating membrane." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -596,12 +599,12 @@ comment: Usually obtained after 8.0 days of incubation.
 synonym: "HH34" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000046 ! Hamburger Hamilton stage 33
+relationship: immediately_preceded_by GgalDv:0000047 ! Hamburger Hamilton stage 33
 property_value: start_dpf "9.0" xsd:float
 property_value: end_dpf "9.5" xsd:float
 
 [Term]
-id: GgalDv:0000048
+id: GgalDv:0000049
 name: Hamburger Hamilton stage 35
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by phalanges in toes." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -609,12 +612,12 @@ comment: Usually obtained after 8.5-9.0 days of incubation (means, 9.5 up to 10 
 synonym: "HH35" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000047 ! Hamburger Hamilton stage 34
+relationship: immediately_preceded_by GgalDv:0000048 ! Hamburger Hamilton stage 34
 property_value: start_dpf "9.5" xsd:float
 property_value: end_dpf "11.0" xsd:float
 
 [Term]
-id: GgalDv:0000049
+id: GgalDv:0000050
 name: Hamburger Hamilton stage 36
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of 3rd toe from tip to middle of metatarsal joint = 5.4 ±0.3 mm, length of beak from anterior angle of nostril to tip of bill = 2.5mm, primordium of comb, labial groove, uropygial gland." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -622,12 +625,12 @@ comment: Usually obtained after 10.0 days of incubation (means, 11 days after fe
 synonym: "HH36" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000048 ! Hamburger Hamilton stage 35
+relationship: immediately_preceded_by GgalDv:0000049 ! Hamburger Hamilton stage 35
 property_value: start_dpf "11.0" xsd:float
 property_value: end_dpf "12.0" xsd:float
 
 [Term]
-id: GgalDv:0000050
+id: GgalDv:0000051
 name: Hamburger Hamilton stage 37
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of 3rd toe = 7.4 ±0.3mm; length of beak = 3.0 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -635,12 +638,12 @@ comment: Usually obtained after 11.0 days of incubation.
 synonym: "HH37" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000049 ! Hamburger Hamilton stage 36
+relationship: immediately_preceded_by GgalDv:0000050 ! Hamburger Hamilton stage 36
 property_value: start_dpf "12.0" xsd:float
 property_value: end_dpf "13.0" xsd:float
 
 [Term]
-id: GgalDv:0000051
+id: GgalDv:0000052
 name: Hamburger Hamilton stage 38
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of 3rd toe = 8.4 ± 0.3 mm; length of beak = 3.1 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -648,12 +651,12 @@ comment: Usually obtained after 12.0 days of incubation.
 synonym: "HH38" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000050 ! Hamburger Hamilton stage 37
+relationship: immediately_preceded_by GgalDv:0000051 ! Hamburger Hamilton stage 37
 property_value: start_dpf "13.0" xsd:float
 property_value: end_dpf "14.0" xsd:float
 
 [Term]
-id: GgalDv:0000052
+id: GgalDv:0000053
 name: Hamburger Hamilton stage 39
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of 3rd toe = 9.8 ± 0.3 mm; length of beak = 3.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -661,12 +664,12 @@ comment: Usually obtained after 13.0 days of incubation.
 synonym: "HH39" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000051 ! Hamburger Hamilton stage 38
+relationship: immediately_preceded_by GgalDv:0000052 ! Hamburger Hamilton stage 38
 property_value: start_dpf "14.0" xsd:float
 property_value: end_dpf "15.0" xsd:float
 
 [Term]
-id: GgalDv:0000053
+id: GgalDv:0000054
 name: Hamburger Hamilton stage 40
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of beak = 4.0 mm; length of 3rd toe = 12.7 ± 0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -674,12 +677,12 @@ comment: Usually obtained after 14.0 days of incubation.
 synonym: "HH40" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000052 ! Hamburger Hamilton stage 39
+relationship: immediately_preceded_by GgalDv:0000053 ! Hamburger Hamilton stage 39
 property_value: start_dpf "15.0" xsd:float
 property_value: end_dpf "16.0" xsd:float
 
 [Term]
-id: GgalDv:0000054
+id: GgalDv:0000055
 name: Hamburger Hamilton stage 41
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of beak from anterior angle of nostril to tip of upper bill = 4.5 mm; length of 3rd toe = 14.9 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -687,12 +690,12 @@ comment: Usually obtained after 15.0 days of incubation.
 synonym: "HH41" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000053 ! Hamburger Hamilton stage 40
+relationship: immediately_preceded_by GgalDv:0000054 ! Hamburger Hamilton stage 40
 property_value: start_dpf "16.0" xsd:float
 property_value: end_dpf "17.0" xsd:float
 
 [Term]
-id: GgalDv:0000055
+id: GgalDv:0000056
 name: Hamburger Hamilton stage 42
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of beak = 4.8 mm; length of 3rd toe = 16.7 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -700,12 +703,12 @@ comment: Usually obtained after 16.0 days of incubation.
 synonym: "HH42" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000054 ! Hamburger Hamilton stage 41
+relationship: immediately_preceded_by GgalDv:0000055 ! Hamburger Hamilton stage 41
 property_value: start_dpf "17.0" xsd:float
 property_value: end_dpf "18.0" xsd:float
 
 [Term]
-id: GgalDv:0000056
+id: GgalDv:0000057
 name: Hamburger Hamilton stage 43
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of beak = 5.0 mm; length of 3rd toe = 18.6 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -713,12 +716,12 @@ comment: Usually obtained after 17.0 days of incubation.
 synonym: "HH43" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000055 ! Hamburger Hamilton stage 42
+relationship: immediately_preceded_by GgalDv:0000056 ! Hamburger Hamilton stage 42
 property_value: start_dpf "18.0" xsd:float
 property_value: end_dpf "19.0" xsd:float
 
 [Term]
-id: GgalDv:0000057
+id: GgalDv:0000058
 name: Hamburger Hamilton stage 44
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by length of beak = 5.7 mm; length of 3rd toe = 20.4 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -726,12 +729,12 @@ comment: Usually obtained after 18.0 days of incubation.
 synonym: "HH44" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000056 ! Hamburger Hamilton stage 43
+relationship: immediately_preceded_by GgalDv:0000057 ! Hamburger Hamilton stage 43
 property_value: start_dpf "19.0" xsd:float
 property_value: end_dpf "20.0" xsd:float
 
 [Term]
-id: GgalDv:0000058
+id: GgalDv:0000059
 name: Hamburger Hamilton stage 45
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by yolk sac half enclosed in body cavity, chorio-allantoic membrane containing less blood and 'sticky' in living embryo." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -739,7 +742,7 @@ comment: Usually obtained after 19.0-20.0 days of incubation.
 synonym: "HH45" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000057 ! Hamburger Hamilton stage 44
+relationship: immediately_preceded_by GgalDv:0000058 ! Hamburger Hamilton stage 44
 property_value: start_dpf "20.0" xsd:float
 property_value: end_dpf "21.0" xsd:float
 
@@ -783,7 +786,7 @@ property_value: start_mph "0.0" xsd:float
 property_value: end_mph "1.0" xsd:float
 
 [Term]
-id: GgalDv:0000059
+id: GgalDv:0000090
 name: Hamburger Hamilton stage 46
 namespace: chicken_developmental_stage
 def: "Newly-hatched chick." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
@@ -791,7 +794,7 @@ comment: Usually obtained after 20.0-21.0 days of incubation. We consider this s
 synonym: "HH46" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000004 ! hatchling stage
-relationship: immediately_preceded_by GgalDv:0000058 ! Hamburger Hamilton stage 45
+relationship: immediately_preceded_by GgalDv:0000059 ! Hamburger Hamilton stage 45
 property_value: start_dpf "21.0" xsd:float
 property_value: end_dpf "22.0" xsd:float
 property_value: start_dph "0.0" xsd:float
@@ -805,7 +808,7 @@ def: "Immature chicken that is over 1 and under 2 days after hatching." [Bgee:cu
 subset: granular_stage
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000004 ! hatchling stage
-relationship: immediately_preceded_by GgalDv:0000059 ! Hamburger Hamilton stage 46
+relationship: immediately_preceded_by GgalDv:0000090 ! Hamburger Hamilton stage 46
 property_value: start_dph "1.0" xsd:float
 property_value: end_dph "2.0" xsd:float
 
