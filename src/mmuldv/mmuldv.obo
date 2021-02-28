@@ -553,6 +553,7 @@ comment: The females of this species reach menopause at about the age of 25 (see
 xref: UBERON:0007222
 is_a: MmulDv:0000000 ! rhesus life cycle stage
 relationship: part_of MmulDv:0000021 ! mature stage
+relationship: immediately_preceded_by MmulDv:0000022 ! adulthood stage
 property_value: start_ypb "25.0" xsd:float
 
 [Term]
