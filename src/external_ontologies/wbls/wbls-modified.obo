@@ -688,80 +688,6 @@ created_by: jl16
 creation_date: 2015-03-19T10:49:23Z
 
 [Term]
-id: WBls:0000077
-name: Brugia sheathed microfilaria
-alt_id: WBls:0000662
-def: "A Brugia microfilaria life stage in which larvae are surrounded by a membrane thought to be derived from the vitelline membrane, hence \"sheathed\"." [WB:dr, WB:mb, WB:WBPerson2987]
-synonym: "Brugia immature microfilaria" EXACT []
-synonym: "immature microfilaria Bma" RELATED []
-synonym: "sheathed microfilaria" BROAD []
-synonym: "sheathed microfilaria Bma" EXACT []
-is_a: WBls:0000110 ! sheathed microfilaria
-is_a: WBls:0000665 ! Brugia microfilaria
-created_by: danielaraciti
-creation_date: 2012-05-30T09:23:44Z
-
-[Term]
-id: WBls:0000079
-name: Brugia L1
-def: "The first stage larva." [WB:dr, WB:mb]
-synonym: "L1" BROAD []
-synonym: "L1 larva Bma" EXACT []
-is_a: WBls:0000106 ! L1 larval stage
-relationship: part_of WBls:0000097 ! Brugia larval stage
-relationship: starts_at_end_of WBls:0000663 ! Brugia unsheathed microfilaria
-created_by: danielaraciti
-creation_date: 2012-05-30T09:29:36Z
-
-[Term]
-id: WBls:0000080
-name: Brugia L2
-def: "The second stage larva. Derived from flight muscles of vector host; some development in vitro, with L1 to L2 moulting, has been demonstrated but rarely; these are often staged by hours or days post blood meal." [WB:dr, WB:mb]
-synonym: "L2" BROAD []
-synonym: "L2 larva Bma" EXACT []
-is_a: WBls:0000107 ! L2 larval stage
-relationship: part_of WBls:0000097 ! Brugia larval stage
-relationship: starts_at_end_of WBls:0000079 ! Brugia L1
-created_by: danielaraciti
-creation_date: 2012-05-30T09:30:40Z
-
-[Term]
-id: WBls:0000081
-name: Brugia L3
-def: "The third stage larva." [WB:dr, WB:mb]
-synonym: "L3" BROAD []
-synonym: "L3 larva Bma" EXACT []
-is_a: WBls:0000108 ! L3 larval stage
-relationship: part_of WBls:0000097 ! Brugia larval stage
-relationship: starts_at_end_of WBls:0000080 ! Brugia L2
-created_by: danielaraciti
-creation_date: 2012-05-30T09:31:06Z
-
-[Term]
-id: WBls:0000082
-name: Brugia L4
-def: "The fourth stage larva. Should be conditioned by days post infection; as moulting is not synchronous, some samples are defined as L3/L4, indicating a mix of individuals as late L3, moulting, and early L4." [WB:dr, WB:mb]
-synonym: "L4" BROAD []
-synonym: "L4 larva Bma" EXACT []
-is_a: WBls:0000109 ! L4 larval stage
-relationship: part_of WBls:0000097 ! Brugia larval stage
-relationship: starts_at_end_of WBls:0000081 ! Brugia L3
-created_by: danielaraciti
-creation_date: 2012-05-30T09:31:38Z
-
-[Term]
-id: WBls:0000083
-name: Brugia adult
-def: "The life-stage that begins when a B. malayi individual is fully-developed and has reached maturity. Adult B. malayi (or at least adult females) can live for 10 years in a human host, and can outlive their rodent laboratory hosts; it is usual to state the chronological age of the nematodes in days or months post-infection, and occasionally post-patency (the production of first microfilariae)." [WB:dr, WB:mb]
-synonym: "adult" BROAD []
-synonym: "adult Bma" EXACT []
-is_a: WBls:0000104 ! nematode adult
-relationship: part_of WBls:0000093 ! Brugia postembryonic stage
-relationship: starts_at_end_of WBls:0000100 ! Brugia young adult
-created_by: danielaraciti
-creation_date: 2012-05-30T09:32:18Z
-
-[Term]
 id: WBls:0000084
 name: 14-cell embryo Ce
 def: "E-cell has divided into Ea and Ep. Contains 14 cells." [WB:dr, WB:WBPaper00046121]
@@ -849,122 +775,6 @@ relationship: part_of WBls:0000010 ! gastrulating embryo Ce
 relationship: preceded_by WBls:0000012 ! 88-cell embryo Ce
 created_by: danielaraciti
 creation_date: 2012-10-16T15:37:30Z
-
-[Term]
-id: WBls:0000091
-name: Brugia life stage
-def: "Any Brugia developmental stage, including embryo, larva and adult stage." [WB:dr, WB:jl, WB:mb]
-synonym: "all stages Bma" BROAD []
-is_a: WBls:0000059 ! parasitic nematode stage
-created_by: danielaraciti
-creation_date: 2013-11-12T03:18:57Z
-
-[Term]
-id: WBls:0000092
-name: Brugia embryo
-def: "The whole period of embryogenesis in a roundworm of the genus Brugia, from the formation of an egg until hatching." [WB:dr, WB:WBPerson2987]
-synonym: "embryo" BROAD []
-synonym: "embryo Bma" EXACT []
-is_a: WBls:0000091 ! Brugia life stage
-is_a: WBls:0000102 ! nematode embryo
-created_by: danielaraciti
-creation_date: 2013-11-12T04:48:28Z
-
-[Term]
-id: WBls:0000093
-name: Brugia postembryonic stage
-def: "A developemental life stage in a roundworm of the genus Brugia that occurs from egg hatching until death." [WB:dr, WB:WBPerson2987]
-synonym: "postembryonic Bma" EXACT []
-synonym: "postembryonic stage" BROAD []
-is_a: WBls:0000091 ! Brugia life stage
-relationship: starts_at_end_of WBls:0000092 ! Brugia embryo
-created_by: danielaraciti
-creation_date: 2013-11-12T04:50:29Z
-
-[Term]
-id: WBls:0000094
-name: Brugia early embryo
-def: "Proliferates from 1 to 100 cells. As the Brugia female reproductive tract is long (>10 cm), it is possible to dissect it and select early embryos just by isolating early parts of the post-spermatheca uterus." [WB:dr, WB:mb]
-synonym: "early embryo" BROAD []
-synonym: "early embryo Bma" EXACT []
-is_a: WBls:0000091 ! Brugia life stage
-relationship: part_of WBls:0000092 ! Brugia embryo
-created_by: danielaraciti
-creation_date: 2013-11-12T04:55:53Z
-
-[Term]
-id: WBls:0000095
-name: Brugia middle embryo
-def: "Proliferates from 100 cells to Lima bean stage." [WB:dr, WB:mb]
-synonym: "middle embryo" BROAD []
-synonym: "middle embryo Bma" EXACT []
-is_a: WBls:0000091 ! Brugia life stage
-relationship: part_of WBls:0000092 ! Brugia embryo
-relationship: starts_at_end_of WBls:0000094 ! Brugia early embryo
-created_by: danielaraciti
-creation_date: 2013-11-12T04:59:19Z
-
-[Term]
-id: WBls:0000096
-name: Brugia late embryo
-def: "From Lima bean to hatching." [WB:dr, WB:mb]
-synonym: "late embryo" BROAD []
-synonym: "late embryo Bma" EXACT []
-is_a: WBls:0000091 ! Brugia life stage
-relationship: part_of WBls:0000092 ! Brugia embryo
-relationship: starts_at_end_of WBls:0000095 ! Brugia middle embryo
-created_by: danielaraciti
-creation_date: 2013-11-12T05:00:28Z
-
-[Term]
-id: WBls:0000097
-name: Brugia larval stage
-def: "A developmental life stage of a roundworm of the genus Brugia that occurs from egg hatching until adulthood." [WB:dr, WB:WBPerson2987]
-synonym: "larva Bma" EXACT []
-synonym: "larval stage" BROAD []
-is_a: WBls:0000105 ! nematode larval stage
-relationship: part_of WBls:0000093 ! Brugia postembryonic stage
-relationship: starts_at_end_of WBls:0000092 ! Brugia embryo
-created_by: danielaraciti
-creation_date: 2013-11-12T05:12:19Z
-
-[Term]
-id: WBls:0000098
-name: Brugia L3i
-def: "Also known as infective L3, or iL3; i.e. isolated from the vector salivary glands; these samples may-should be conditioned by age, which is usually counted in days from the blood meal." [WB:dr, WB:mb]
-synonym: "Brugia vector-derived L3" EXACT []
-synonym: "iL3" RELATED []
-synonym: "infective L3" RELATED []
-synonym: "L3i" BROAD []
-synonym: "vector-derived L3 Bma" EXACT []
-is_a: WBls:0000081 ! Brugia L3
-is_a: WBls:0000679 ! nematode infective stage larva
-created_by: danielaraciti
-creation_date: 2013-11-12T05:23:54Z
-
-[Term]
-id: WBls:0000099
-name: Brugia post-infection L3
-def: "Derived from the host after reintroduction by vector feeding or manual inoculation; these piL3 samples are often-should be conditioned by age (hours or days post-infection)." [WB:dr, WB:mb]
-synonym: "piL3" RELATED []
-synonym: "post-infection L3" BROAD []
-synonym: "post-infection L3 Bma" EXACT []
-is_a: WBls:0000091 ! Brugia life stage
-relationship: part_of WBls:0000081 ! Brugia L3
-created_by: danielaraciti
-creation_date: 2013-11-12T05:24:59Z
-
-[Term]
-id: WBls:0000100
-name: Brugia young adult
-def: "The animals have a significant \"prepatent\" period in the host, where they have moulted to adults but not yet started producing eggs or sperm; this stage is usually-should be conditioned by days post infection, with day 26 to approximately day 60 being the \"young adult\" in most systems - but note that the speed of development is different in different host genotypes." [WB:dr, WB:mb]
-synonym: "young adult" BROAD []
-synonym: "young adult Bma" EXACT []
-is_a: WBls:0000091 ! Brugia life stage
-relationship: part_of WBls:0000093 ! Brugia postembryonic stage
-relationship: starts_at_end_of WBls:0000082 ! Brugia L4
-created_by: danielaraciti
-creation_date: 2013-11-12T05:37:52Z
 
 [Term]
 id: WBls:0000101
@@ -7677,21 +7487,6 @@ created_by: danielaraciti
 creation_date: 2014-04-25T09:29:36Z
 
 [Term]
-id: WBls:0000663
-name: Brugia unsheathed microfilaria
-alt_id: WBls:0000078
-def: "In the mosquito, the microfilariae shed sheaths, penetrate the midgut, and migrate to the thoracic muscles were the microfilariae increase in size, molt, and develop into infective larvae (L1 and L3) over a span of 7-21 days." [WB:dr, WB:mb]
-synonym: "Brugia mature microfilaria" EXACT []
-synonym: "mature microfilaria Bma" EXACT []
-synonym: "unsheathed microfilaria" BROAD []
-synonym: "unsheathed microfilaria Bma" EXACT []
-is_a: WBls:0000665 ! Brugia microfilaria
-is_a: WBls:0000666 ! unsheathed microfilaria
-relationship: starts_at_end_of WBls:0000077 ! Brugia sheathed microfilaria
-created_by: danielaraciti
-creation_date: 2014-11-10T09:29:36Z
-
-[Term]
 id: WBls:0000664
 name: microfilaria
 def: "An early stage in the life cycle of some parasitic nematodes which develops from the egg and precedes the L1 stage." [WB:dr, WB:jl]
@@ -7702,18 +7497,6 @@ synonym: "microfilariae" EXACT []
 is_a: WBls:0000105 ! nematode larval stage
 created_by: danielaraciti
 creation_date: 2014-11-25T09:23:44Z
-
-[Term]
-id: WBls:0000665
-name: Brugia microfilaria
-def: "An early stage in the life cycle of Brugia species, which develops from the egg and precedes the L1 stage." [WB:dr, WB:mb]
-synonym: "Brugia MF" EXACT []
-synonym: "microfilaria" BROAD []
-synonym: "microfilaria Bma" EXACT []
-is_a: WBls:0000664 ! microfilaria
-relationship: part_of WBls:0000097 ! Brugia larval stage
-created_by: danielaraciti
-creation_date: 2014-11-25T09:25:34Z
 
 [Term]
 id: WBls:0000666
