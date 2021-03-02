@@ -679,15 +679,6 @@ def: "A developemental life stage of a worm" [WB:WBPerson2987]
 created_by: danielaraciti
 
 [Term]
-id: WBls:0000076
-name: Strongyloides life stage
-def: "Any Strongyloides developmental stage, including free-living and parasitic stages." [WB:jl]
-synonym: "all stages Strongyloides" EXACT []
-is_a: WBls:0000101 ! Nematode life stage
-created_by: jl16
-creation_date: 2015-03-19T10:49:23Z
-
-[Term]
 id: WBls:0000084
 name: 14-cell embryo Ce
 def: "E-cell has divided into Ea and Ep. Contains 14 cells." [WB:dr, WB:WBPaper00046121]
@@ -7602,26 +7593,6 @@ relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: preceded_by WBls:0000111 ! 16-18 days post-L4 adult hermaphrodite Ce
 
 [Term]
-id: WBls:0000677
-name: Strongyloides free-living stage
-def: "The stage of the Strongyloides life-cycle that occurs entirely outside of a host or vector organism." [WB:jl]
-synonym: "free-living stage" BROAD []
-is_a: WBls:0000001 ! free-living nematode stage
-is_a: WBls:0000076 ! Strongyloides life stage
-created_by: jl16
-creation_date: 2015-03-19T10:51:48Z
-
-[Term]
-id: WBls:0000678
-name: Strongyloides parasitic stage
-def: "The stage of the Strongyloides life-cycle that occurs entirely or partially inside a host or vector organism." [WB:jl]
-synonym: "parasitic stage" BROAD []
-is_a: WBls:0000059 ! parasitic nematode stage
-is_a: WBls:0000076 ! Strongyloides life stage
-created_by: jl16
-creation_date: 2015-03-19T10:52:41Z
-
-[Term]
 id: WBls:0000679
 name: nematode infective stage larva
 def: "Larval stage that is capable of infecting a host organism." [WB:jl]
@@ -7630,41 +7601,6 @@ synonym: "infective larva" NARROW []
 is_a: WBls:0000105 ! nematode larval stage
 created_by: jl16
 creation_date: 2015-03-19T11:21:35Z
-
-[Term]
-id: WBls:0000680
-name: Strongyloides infective L3
-def: "Strongyloides infective stage L3 larval stage. This stage can develop as a part of a free-living life-cycle, or from a parasitic, parthenogenic female stage." [WB:jl]
-synonym: "infective L3" BROAD []
-synonym: "Strongyloides iL3" EXACT []
-synonym: "Strongyloides infective stage larva" EXACT []
-is_a: WBls:0000108 ! L3 larval stage
-is_a: WBls:0000678 ! Strongyloides parasitic stage
-is_a: WBls:0000679 ! nematode infective stage larva
-created_by: jl16
-creation_date: 2015-03-19T11:27:15Z
-
-[Term]
-id: WBls:0000681
-name: Strongyloides parasitic female
-def: "The Strongyloides life-cycle stage during which a female adult worm produces larval progeny parthenogenetically within the host organism." [WB:jl]
-synonym: "parasitic female" BROAD []
-synonym: "Strongyloides L5" EXACT []
-is_a: WBls:0000104 ! nematode adult
-is_a: WBls:0000678 ! Strongyloides parasitic stage
-created_by: jl16
-creation_date: 2015-03-19T11:36:03Z
-
-[Term]
-id: WBls:0000682
-name: Strongyloides free-living adult
-def: "The Strongyloides life-cycle stage in which male and female adult worms reproduce sexually and live entirely outside a host organism." [WB:jl]
-synonym: "free-living adult" BROAD []
-synonym: "Strongyloides free-living L5" EXACT []
-is_a: WBls:0000104 ! nematode adult
-is_a: WBls:0000677 ! Strongyloides free-living stage
-created_by: jl16
-creation_date: 2015-03-19T11:48:09Z
 
 [Term]
 id: WBls:0000683
@@ -7963,14 +7899,6 @@ created_by: fr7
 creation_date: 2017-06-09T10:28:52Z
 
 [Term]
-id: WBls:0000729
-name: Strongyloides free living adult female
-def: "Adult female Strongyloides living entirely outside of a host or vector organism." [WB:fr]
-is_a: WBls:0000682 ! Strongyloides free-living adult
-created_by: fr7
-creation_date: 2017-07-28T14:28:29Z
-
-[Term]
 id: WBls:0000730
 name: Onchocerca L1 larva
 def: "L1 larvae that develop from the microfilariae in the arthropod vector." [WB:fr]
@@ -8074,53 +8002,6 @@ def: "Any developmental stage of a nematode of the Onchocerca genus." [WB:fr]
 is_a: WBls:0000101 ! Nematode life stage
 created_by: fr7
 creation_date: 2017-06-09T10:18:45Z
-
-[Term]
-id: WBls:0000742
-name: Strongyloides free living adult male
-def: "Adult male Strongyloides living entirely outside of a host or vector organism." [WB:fr]
-is_a: WBls:0000682 ! Strongyloides free-living adult
-created_by: fr7
-creation_date: 2017-07-28T14:34:19Z
-
-[Term]
-id: WBls:0000793
-name: Strongyloides post free-living L1
-def: "Strongyloides L1 larval stage that is the progeny of free-living adult worms as a part of a of free-living life-cycle." [WB:jl]
-synonym: "post free-living L1" BROAD []
-is_a: WBls:0000106 ! L1 larval stage
-is_a: WBls:0000677 ! Strongyloides free-living stage
-created_by: jl16
-creation_date: 2015-11-25T11:38:04Z
-
-[Term]
-id: WBls:0000794
-name: Strongyloides post parasitic L1
-def: "Strongyloides  L1 larval stage that is the progeny of a parasitic adult female as a part of a of parasitic life-cycle." [WB:jl]
-synonym: "post parasitic L1" BROAD []
-is_a: WBls:0000106 ! L1 larval stage
-is_a: WBls:0000678 ! Strongyloides parasitic stage
-created_by: jl16
-creation_date: 2015-11-25T11:39:14Z
-
-[Term]
-id: WBls:0000795
-name: Strongyloides post parasitic L3
-def: "Strongyloides infective L3 stage that develops from a parasitic adult female as part of a parasitic life-cycle." [WB:jl]
-synonym: "post parasitic L3" BROAD []
-is_a: WBls:0000680 ! Strongyloides infective L3
-created_by: jl16
-creation_date: 2015-11-25T11:55:54Z
-
-[Term]
-id: WBls:0000796
-name: Strongyloides post free-living L3
-def: "Strongyloides infective L3 stage that develops from free-living adult worms as part of a free-living life-cycle." [WB:jl]
-synonym: "free-living L3" BROAD []
-is_a: WBls:0000677 ! Strongyloides free-living stage
-is_a: WBls:0000680 ! Strongyloides infective L3
-created_by: jl16
-creation_date: 2015-11-25T11:57:47Z
 
 [Term]
 id: WBls:0000797
