@@ -7,7 +7,7 @@ ontology: oaridv
 
 [Term]
 id: OariDv:0000000
-name: sheep life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -15,11 +15,11 @@ xref: UBERON:0000105
 
 [Term]
 id: OariDv:0000001
-name: sheep life cycle
+name: life cycle
 namespace: sheep_developmental_stage
 def: "Temporal interval that defines sheep life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 
 [Term]
 id: OariDv:0000002
@@ -28,8 +28,8 @@ namespace: sheep_developmental_stage
 def: "Sheep life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 146 days (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries). Bgee_curator_notes: Bgee prenatal stage definition differs from Uberon embryonic stage definition by the notion of birth for stage ending, while Uberon ends with fully formed embryo. We maybe have to correct our too precise definition.
 xref: UBERON:0000068
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000001 ! sheep life cycle
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000001 ! life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "146.0" xsd:float
 property_value: end_mpf "4.8" xsd:float
@@ -40,7 +40,7 @@ name: zygote stage
 namespace: sheep_developmental_stage
 def: "A stage at which the organism is a single cell produced by means of sexual reproduction." [UBERON:0000106]
 xref: UBERON:0000106
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000002 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
 
@@ -49,8 +49,9 @@ id: OariDv:0000010
 name: cleavage stage
 namespace: sheep_developmental_stage
 def: "Prenatal stage consisting of division of cells in the early sheep embryo." [UBERON:0000107 "adapted from"]
-comment: As far as we know, no information available about the time the first division occurs, we assume 24 after fertilization.
-is_a: OariDv:0000000 ! sheep life cycle stage
+comment: First division occurs 24 hours after fertilisation, see http://dx.doi.org/10.1016/j.smallrumres.2016.12.016, Table 1.
+xref: UBERON:0000107
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000002 ! prenatal stage
 relationship: immediately_preceded_by OariDv:0000009 ! zygote stage
 property_value: start_dpf "1.0" xsd:float
@@ -62,7 +63,7 @@ name: day 1-3 cleavage stage
 namespace: sheep_developmental_stage
 def: "Cleavage stage during which the sheep embryo undergoes the first 3 days of development." [Bgee:curator "Bgee"]
 comment: At this stage, the 2-8 cells egg is still in the oviduct, and the morula (16–32 cells) stage embryo enters the uterus from the oviduct on day 4 after mating (day 0 = estrus/mating) (see doi:10.1530/rep.1.00398).
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000010 ! cleavage stage
 relationship: immediately_preceded_by OariDv:0000009 ! zygote stage
 property_value: start_dpf "1.0" xsd:float
@@ -74,10 +75,23 @@ name: day 4-5 morula stage
 namespace: sheep_developmental_stage
 def: "Cleavage stage during which the sheep embryo (16-32 cells egg) undergoes the fourth and fith days of development." [Bgee:curator "Bgee"]
 comment: The morula (16–32 cells) stage embryo enters the uterus from the oviduct on day 4 after mating (day 0 = estrus/mating) (see doi:10.1530/rep.1.00398).
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000010 ! cleavage stage
 relationship: immediately_preceded_by OariDv:0000011 ! day 1-3 cleavage stage
 property_value: start_dpf "4.0" xsd:float
+property_value: end_dpf "6.0" xsd:float
+
+[Term]
+id: OariDv:0000025
+name: blastula stage
+namespace: sheep_developmental_stage
+def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
+comment: TE Spencer (see doi:10.1530/rep.1.00398) reports formation of the sheep blastocyst at day 6.
+xref: UBERON:0000108
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by OariDv:0000012 ! day 4-5 morula stage
+property_value: start_dpf "1.0" xsd:float
 property_value: end_dpf "6.0" xsd:float
 
 [Term]
@@ -85,9 +99,9 @@ id: OariDv:0000013
 name: day 6-9 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the sheep embryo develops into a spherical blastocyst and performs zona hatching." [doi:10.1530/rep.1.00398]
-comment: The blastocyst is formed on day 6, and the zona pellucida is shed between days 8 and 9. The blastocyst is spherical on day 8, measures 200 micron in diameter and contains approximately 300 cells. (see doi:10.1530/rep.1.00398).
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+comment: The blastocyst is formed on day 6, and the zona pellucida is shed between days 8 and 9. The blastocyst is spherical on day 8, measures 200 micron in diameter and contains approximately 300 cells (see doi:10.1530/rep.1.00398).
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000025 ! blastula stage
 relationship: immediately_preceded_by OariDv:0000012 ! day 4-5 morula stage
 property_value: start_dpf "6.0" xsd:float
 property_value: end_dpf "10.0" xsd:float
@@ -97,8 +111,8 @@ id: OariDv:0000014
 name: day 10 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the sheep embryo measures 400–900 micron in diameter and contains approximately 3000 cells." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000025 ! blastula stage
 relationship: immediately_preceded_by OariDv:0000013 ! day 6-9 embryonic stage
 property_value: start_dpf "10.0" xsd:float
 property_value: end_dpf "11.0" xsd:float
@@ -108,19 +122,32 @@ id: OariDv:0000015
 name: day 11 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the sheep embryo starts to elongate into tubular blastocyst." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000025 ! blastula stage
 relationship: immediately_preceded_by OariDv:0000014 ! day 10 embryonic stage
 property_value: start_dpf "11.0" xsd:float
 property_value: end_dpf "12.0" xsd:float
+
+[Term]
+id: OariDv:0000026
+name: gastrula stage
+namespace: sheep_developmental_stage
+def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109 "adapted from"]
+xref: UBERON:0000109
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by OariDv:0000015 ! day 11 embryonic stage
+property_value: start_dpf "12.0" xsd:float
+property_value: end_dpf "15.0" xsd:float
 
 [Term]
 id: OariDv:0000016
 name: day 12 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the sheep embryo has elongated markedly, reaching a length of 10–22 mm." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+comment: Formation of the primitive streak (start of the gastrula stage) occurs at day 12 (see http://dx.doi.org/10.1016/j.smallrumres.2016.12.016, Table 1).
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000026 ! gastrula stage
 relationship: immediately_preceded_by OariDv:0000015 ! day 11 embryonic stage
 property_value: start_dpf "12.0" xsd:float
 property_value: end_dpf "13.0" xsd:float
@@ -130,8 +157,8 @@ id: OariDv:0000017
 name: day 13 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the conceptus, first located in the uterine horn ipsilateral to the corpus luteum, elongates into the contralateral horn." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000026 ! gastrula stage
 relationship: immediately_preceded_by OariDv:0000016 ! day 12 embryonic stage
 property_value: start_dpf "13.0" xsd:float
 property_value: end_dpf "14.0" xsd:float
@@ -141,19 +168,32 @@ id: OariDv:0000018
 name: day 14 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the filamentous conceptus is about 10 cm long and the primitive streak appears, with somites soon thereafter." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000026 ! gastrula stage
 relationship: immediately_preceded_by OariDv:0000017 ! day 13 embryonic stage
 property_value: start_dpf "14.0" xsd:float
 property_value: end_dpf "15.0" xsd:float
+
+[Term]
+id: OariDv:0000027
+name: neurula stage
+namespace: sheep_developmental_stage
+def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110 "adapted from"]
+comment: Formation of the neural groove in sheep appears at day 15 (see http://dx.doi.org/10.1016/j.smallrumres.2016.12.016, Table 1).
+xref: UBERON:0000110
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by OariDv:0000017 ! day 13 embryonic stage
+property_value: start_dpf "15.0" xsd:float
+property_value: end_dpf "17.0" xsd:float
 
 [Term]
 id: OariDv:0000019
 name: day 15 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the apposition stage starts, with first intimate cellular contacts between the trophoblast and the uterine epithelium." [doi:10.1007/978-1-4615-1881-5]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000027 ! neurula stage
 relationship: immediately_preceded_by OariDv:0000018 ! day 14 embryonic stage
 property_value: start_dpf "15.0" xsd:float
 property_value: end_dpf "16.0" xsd:float
@@ -163,19 +203,31 @@ id: OariDv:0000020
 name: day 16 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the trophoblast begins to adhere firmly to the endometrial lumenal epithelium." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000027 ! neurula stage
 relationship: immediately_preceded_by OariDv:0000019 ! day 15 embryonic stage
 property_value: start_dpf "16.0" xsd:float
 property_value: end_dpf "17.0" xsd:float
+
+[Term]
+id: OariDv:0000028
+name: organogenesis stage
+namespace: sheep_developmental_stage
+def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111 "adapted from"]
+xref: UBERON:0000111
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by OariDv:0000020 ! day 16 embryonic stage
+property_value: start_dpf "17.0" xsd:float
+property_value: end_dpf "146.0" xsd:float
 
 [Term]
 id: OariDv:0000021
 name: day 17-19 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the tubular blastocyst reaches a length of 25 cm or more by day 17 and resembles a long filament composed mainly of extraembryonic trophoblast." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000028 ! organogenesis stage
 relationship: immediately_preceded_by OariDv:0000020 ! day 16 embryonic stage
 property_value: start_dpf "17.0" xsd:float
 property_value: end_dpf "20.0" xsd:float
@@ -185,8 +237,8 @@ id: OariDv:0000022
 name: day 20 embryonic stage
 namespace: sheep_developmental_stage
 def: "Embryonic stage during which the embryo undergoes the twentieth day of development, while adhesion is fully completed." [doi:10.1530/rep.1.00398]
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000028 ! organogenesis stage
 relationship: immediately_preceded_by OariDv:0000021 ! day 17-19 embryonic stage
 property_value: start_dpf "20.0" xsd:float
 property_value: end_dpf "21.0" xsd:float
@@ -195,11 +247,24 @@ property_value: end_dpf "21.0" xsd:float
 id: OariDv:0000023
 name: day 21 and over embryonic stage
 namespace: sheep_developmental_stage
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000002 ! prenatal stage
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000028 ! organogenesis stage
 relationship: immediately_preceded_by OariDv:0000022 ! day 20 embryonic stage
 property_value: start_dpf "21.0" xsd:float
 property_value: end_dpf "146.0" xsd:float
+
+[Term]
+id: OariDv:0000024
+name: postnatal stage
+namespace: sheep_developmental_stage
+def: "Sheep developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000001 ! life cycle
+relationship: immediately_preceded_by OariDv:0000023 ! day 21 and over embryonic stage
+property_value: start_dpf "146.0" xsd:float
+property_value: start_mpb "0.0" xsd:float
+property_value: start_ypb "0.0" xsd:float
 
 [Term]
 id: OariDv:0000003
@@ -208,8 +273,8 @@ namespace: sheep_developmental_stage
 def: "Sheep developmental stage that covers the period from birth until about 18 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: sheep reach sexual maturity by 914 days of age for male, 548 days for female (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries).
 xref: UBERON:0000112
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000001 ! sheep life cycle
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000024 ! postnatal stage
 relationship: immediately_preceded_by OariDv:0000002 ! prenatal stage
 property_value: start_dpf "146.0" xsd:float
 property_value: start_mpf "4.8" xsd:float
@@ -223,7 +288,7 @@ namespace: sheep_developmental_stage
 def: "Sheep developmental stage that covers the period from birth until about 6 months old, at which point individuals wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 182 days (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries). 
 xref: UBERON:0018685
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000003 ! immature stage
 property_value: start_dpf "146.0" xsd:float
 property_value: start_mpf "4.8" xsd:float
@@ -236,7 +301,7 @@ name: juvenile stage
 namespace: sheep_developmental_stage
 def: "Sheep developmental stage that covers the period from 6 months old, when individuals wean, until about 18 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: sheep reach sexual maturity by 914 days of age for male, 548 days for female (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries).
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000003 ! immature stage
 relationship: immediately_preceded_by OariDv:0000004 ! suckling stage
 property_value: start_mpb "6.0" xsd:float
@@ -249,8 +314,8 @@ namespace: sheep_developmental_stage
 synonym: "mature" EXACT []
 def: "Sheep developmental stage that refers to a sexually mature adult sheep, which is usually over 18 months old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
-is_a: OariDv:0000000 ! sheep life cycle stage
-relationship: part_of OariDv:0000001 ! sheep life cycle
+is_a: OariDv:0000000 ! life cycle stage
+relationship: part_of OariDv:0000024 ! postnatal stage
 relationship: immediately_preceded_by OariDv:0000003 ! immature stage
 property_value: start_ypb "1.5" xsd:float
 
@@ -262,7 +327,7 @@ def: "Mature stage that refers to a sheep who is over 18 months old and under ab
 comment: Domestic sheep exhibit gradual senescence. The onset of reproductive senescence has been shown to occur at 5 and 6 years of age. One captive specimen lived 22.8 years (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries).
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000006 ! mature stage
 property_value: start_ypb "1.5" xsd:float
 property_value: end_ypb "6.0" xsd:float
@@ -275,7 +340,7 @@ namespace: sheep_developmental_stage
 def: "Mature stage that refers to a sheep who is over 6 years old." [Bgee:curator "Bgee"]
 comment: Domestic sheep exhibit gradual senescence. The onset of reproductive senescence has been shown to occur at 5 and 6 years of age. One captive specimen lived 22.8 years (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries).
 xref: UBERON:0007222
-is_a: OariDv:0000000 ! sheep life cycle stage
+is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000006 ! mature stage
 relationship: immediately_preceded_by OariDv:0000007 ! adulthood stage
 property_value: start_ypb "6.0" xsd:float
