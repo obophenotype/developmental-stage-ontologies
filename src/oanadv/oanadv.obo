@@ -7,7 +7,7 @@ ontology: oanadv
 
 [Term]
 id: OanaDv:0000000
-name: platypus life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -15,11 +15,11 @@ xref: UBERON:0000105
 
 [Term]
 id: OanaDv:0000001
-name: platypus life cycle
+name: life cycle
 namespace: platypus_developmental_stage
 def: "Temporal interval that defines platypus life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
-is_a: OanaDv:0000000 ! platypus life cycle stage
+is_a: OanaDv:0000000 ! life cycle stage
 
 [Term]
 id: OanaDv:0000002
@@ -28,10 +28,22 @@ namespace: platypus_developmental_stage
 def: "Platypus life cycle that starts with fertilization and ends with hatching." [Bgee:curator "Bgee"]
 comment: Estimated gestation periods are 27 days and incubation periods are 10 days (see http://animaldiversity.ummz.umich.edu/accounts/Ornithorhynchus_anatinus/#reproduction).
 xref: UBERON:0000068
-is_a: OanaDv:0000000 ! platypus life cycle stage
-relationship: part_of OanaDv:0000001 ! platypus life cycle
+is_a: OanaDv:0000000 ! life cycle stage
+relationship: part_of OanaDv:0000001 ! life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "37.0" xsd:float
+
+[Term]
+id: OanaDv:0000007
+name: postnatal stage
+namespace: platypus_developmental_stage
+def: "Platypus developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: OanaDv:0000000 ! life cycle stage
+relationship: part_of OanaDv:0000001 ! life cycle
+relationship: immediately_preceded_by OanaDv:0000002 ! prenatal stage
+property_value: start_dpf "37.0" xsd:float
+property_value: start_mph "0.0" xsd:float
 
 [Term]
 id: OanaDv:0000003
@@ -40,8 +52,8 @@ namespace: platypus_developmental_stage
 def: "Platypus developmental stage that covers the period from hatching until 1.5 year old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
 xref: UBERON:0000112
-is_a: OanaDv:0000000 ! platypus life cycle stage
-relationship: part_of OanaDv:0000001 ! platypus life cycle
+is_a: OanaDv:0000000 ! life cycle stage
+relationship: part_of OanaDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by OanaDv:0000002 ! prenatal stage
 property_value: start_dpf "37.0" xsd:float
 property_value: start_mph "0.0" xsd:float
@@ -55,8 +67,8 @@ synonym: "mature" EXACT []
 def: "Platypus developmental stage that refers to a sexually mature adult platypus, which is over about 1.5 year old." [Bgee:curator "Bgee"]
 comment: Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus).
 xref: UBERON:0000113
-is_a: OanaDv:0000000 ! platypus life cycle stage
-relationship: part_of OanaDv:0000001 ! platypus life cycle
+is_a: OanaDv:0000000 ! life cycle stage
+relationship: part_of OanaDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by OanaDv:0000003 ! immature stage
 property_value: start_mph "18.3" xsd:float
 
@@ -68,7 +80,7 @@ def: "Mature stage that refers to a adult platypus which is over 1.5 and under 1
 comment: Females are thought likely to become sexually mature in their second year, with breeding confirmed still to take place in animals over 9 years old. (see http://en.wikipedia.org/wiki/Platypus). We decided to consider 10 years the upper limit for breeding age, before aged stage.
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
-is_a: OanaDv:0000000 ! platypus life cycle stage
+is_a: OanaDv:0000000 ! life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage
 property_value: start_mph "18.3" xsd:float
 property_value: end_mph "120.0" xsd:float
@@ -80,7 +92,7 @@ namespace: platypus_developmental_stage
 def: "Mature stage that refers to a adult platypus which is over 10 years." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of platypuses. They can live up to 12 years in the wild (see http://www.mspca.org/programs/wildlife-resources/species-information/about-platypuss.html) and one captive specimen was at least 22.6 years old when it died (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus). Over 10 years old is usually no more a breeding age.
 xref: UBERON:0007222
-is_a: OanaDv:0000000 ! platypus life cycle stage
+is_a: OanaDv:0000000 ! life cycle stage
 relationship: part_of OanaDv:0000004 ! mature stage
 relationship: immediately_preceded_by OanaDv:0000005 ! adulthood stage
 property_value: start_mph "120.0" xsd:float
