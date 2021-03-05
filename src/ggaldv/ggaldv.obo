@@ -72,6 +72,18 @@ property_value: start_dpf "0.2" xsd:float
 property_value: end_dpf "1.0" xsd:float
 
 [Term]
+id: GgalDv:0000091
+name: blastula stage
+namespace: chicken_developmental_stage
+def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
+xref: UBERON:0000108
+is_a: GgalDv:0000000 ! life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000065 ! late cleavage stage
+property_value: start_dpf "1.0" xsd:float
+property_value: end_dpf "1.5" xsd:float
+
+[Term]
 id: GgalDv:0000010
 name: Hamburger Hamilton stage 1
 namespace: chicken_developmental_stage
@@ -79,8 +91,7 @@ def: "Prenatal stage starting the incubation period and usually defined by the p
 comment: Starts at day 1 post-fertilization, after laying. This stage covers the first 6 hours following laying.
 synonym: "HH1" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000065 ! late cleavage stage
+relationship: part_of GgalDv:0000091 ! blastula stage
 property_value: start_dpf "1.0" xsd:float
 property_value: start_dpf "1.25" xsd:float
 
@@ -102,10 +113,22 @@ def: "Prenatal stage on incubation period during which the initial primitive str
 comment: Usually obtained after 6-7 hours of incubation.
 synonym: "HH2" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000091 ! blastula stage
 relationship: immediately_preceded_by GgalDv:0000010 ! Hamburger Hamilton stage 1
 property_value: start_dpf "1.25" xsd:float
 property_value: end_dpf "1.5" xsd:float
+
+[Term]
+id: GgalDv:0000092
+name: gastrula stage
+namespace: chicken_developmental_stage
+def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109 "adapted from"]
+xref: UBERON:0000109
+is_a: GgalDv:0000000 ! life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000060 ! Hamburger Hamilton stages 2
+property_value: start_dpf "1.5" xsd:float
+property_value: end_dpf "1.8" xsd:float
 
 [Term]
 id: GgalDv:0000012
@@ -115,8 +138,7 @@ def: "Prenatal stage on incubation period defined by the intermediate primitive 
 comment: Usually obtained after 12-13 hours of incubation.
 synonym: "HH3" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000060 ! Hamburger Hamilton stage 2
+relationship: part_of GgalDv:0000092 ! gastrula stage
 property_value: start_dpf "1.5" xsd:float
 property_value: end_dpf "1.75" xsd:float
 
@@ -128,7 +150,7 @@ def: "Prenatal stage on incubation period defined by the definitive primitive st
 comment: Usually obtained after 18-19 hours of incubation.
 synonym: "HH4" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000092 ! gastrula stage
 relationship: immediately_preceded_by GgalDv:0000012 ! Hamburger Hamilton stage 3
 property_value: start_dpf "1.75" xsd:float
 property_value: end_dpf "1.8" xsd:float
@@ -145,6 +167,18 @@ consider: GgalDv:0000061
 consider: GgalDv:0000062
 
 [Term]
+id: GgalDv:0000093
+name: neurula stage
+namespace: chicken_developmental_stage
+def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110 "adapted from"]
+xref: UBERON:0000110
+is_a: GgalDv:0000000 ! life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000013 ! Hamburger Hamilton stages 4
+property_value: start_dpf "1.8" xsd:float
+property_value: end_dpf "2.0" xsd:float
+
+[Term]
 id: GgalDv:0000061
 name: Hamburger Hamilton stages 5
 namespace: chicken_developmental_stage
@@ -152,8 +186,7 @@ def: "Prenatal stage on incubation period defined by head process (notochord) fo
 comment: Usually obtained after 19-22 hours of incubation.
 synonym: "HH5" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000013 ! Hamburger Hamilton stage 4
+relationship: part_of GgalDv:0000093 ! neurula stage
 property_value: start_dpf "1.8" xsd:float
 property_value: end_dpf "1.9" xsd:float
 
@@ -165,10 +198,22 @@ def: "Prenatal stage on incubation period defined by head fold formation." [http
 comment: Usually obtained after 23-25 hours of incubation.
 synonym: "HH6" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000093 ! neurula stage
 relationship: immediately_preceded_by GgalDv:0000061 ! Hamburger Hamilton stage 5
 property_value: start_dpf "1.9" xsd:float
 property_value: end_dpf "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000094
+name: organogenesis stage
+namespace: chicken_developmental_stage
+def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111 "adapted from"]
+xref: UBERON:0000111
+is_a: GgalDv:0000000 ! life cycle stage
+relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: immediately_preceded_by GgalDv:0000062 ! Hamburger Hamilton stages 6
+property_value: start_dpf "2.0" xsd:float
+property_value: end_dpf "21.0" xsd:float
 
 [Term]
 id: GgalDv:0000015
@@ -178,8 +223,7 @@ def: "Prenatal stage on incubation period defined by the first somite and coelom
 comment: Usually obtained after 23-26 hours of incubation. Includes the stage described as '7 to 8-' at https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages.
 synonym: "HH7" RELATED []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000062 ! Hamburger Hamilton stage 6
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 property_value: start_dpf "2.0" xsd:float
 property_value: end_dpf "2.1" xsd:float
 
@@ -201,7 +245,7 @@ def: "Prenatal stage on incubation period defined by 4 somites and blood islands
 comment: Usually obtained after 26-29 hours of incubation.
 synonym: "HH8" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000015 ! Hamburger Hamilton stage 7
 property_value: start_dpf "2.1" xsd:float
 property_value: end_dpf "2.2" xsd:float
@@ -214,7 +258,7 @@ def: "Prenatal stage on incubation period defined by 7 somites and primary optic
 comment: Usually obtained after 29-33 hours of incubation.
 synonym: "HH9" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000017 ! Hamburger Hamilton stage 8
 property_value: start_dpf "2.2" xsd:float
 property_value: end_dpf "2.4" xsd:float
@@ -227,8 +271,7 @@ def: "Prenatal stage on incubation period defined by 8-9 somites and anterior am
 comment: Usually obtained at ca. 33 hours of incubation.
 synonym: "HH9+ to 10-" RELATED []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000018 ! Hamburger Hamilton stage 9
+relationship: part_of GgalDv:0000018 ! Hamburger Hamilton stage 9
 property_value: start_dpf "2.3" xsd:float
 property_value: end_dpf "2.4" xsd:float
 
@@ -238,9 +281,9 @@ name: Hamburger Hamilton stage 10
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 10 somites and 3 primary brain vesicles." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 33-38 hours of incubation.
-synonym: "HH11" EXACT []
+synonym: "HH10" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000019 ! Hamburger Hamilton stages 9+ to 10-
 property_value: start_dpf "2.4" xsd:float
 property_value: end_dpf "2.6" xsd:float
@@ -253,7 +296,7 @@ def: "Prenatal stage on incubation period defined by 13 somites and 5 neuromeres
 comment: Usually obtained after 40-45 hours of incubation.
 synonym: "HH11" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000020 ! Hamburger Hamilton stage 10
 property_value: start_dpf "2.6" xsd:float
 property_value: end_dpf "2.9" xsd:float
@@ -266,7 +309,7 @@ def: "Prenatal stage on incubation period defined by 16 somites and telencephalo
 comment: Usually obtained after 45-49 hours of incubation.
 synonym: "HH12" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000021 ! Hamburger Hamilton stage 11
 property_value: start_dpf "2.9" xsd:float
 property_value: end_dpf "3.0" xsd:float
@@ -279,7 +322,7 @@ def: "Prenatal stage on incubation period defined by 19 somites and atrioventric
 comment: Usually obtained after 48-52 hours of incubation.
 synonym: "HH13" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000022 ! Hamburger Hamilton stage 12
 property_value: start_dpf "3.0" xsd:float
 property_value: end_dpf "3.2" xsd:float
@@ -292,8 +335,7 @@ def: "Prenatal stage on incubation period defined by 20-21 somites and tail bud.
 comment: Usually obtained after ca.50-52 hours of incubation.
 synonym: "HH13+ to 14-" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000023 ! Hamburger Hamilton stage 13
+relationship: part_of GgalDv:0000023 ! Hamburger Hamilton stage 13
 property_value: start_dpf "3.1" xsd:float
 property_value: end_dpf "3.2" xsd:float
 
@@ -305,7 +347,7 @@ def: "Prenatal stage on incubation period defined by 22 somites, trunk flexure, 
 comment: Usually obtained after 50-53 hours of incubation.
 synonym: "HH14" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000024 ! Hamburger Hamilton stages 13+ to 14-
 property_value: start_dpf "3.2" xsd:float
 property_value: end_dpf "3.25" xsd:float
@@ -318,8 +360,7 @@ def: "Prenatal stage on incubation period defined by 23 somites and premandibula
 comment: Usually obtained after ca.50-54 hours of incubation.
 synonym: "HH14+ to 15-" RELATED []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
-relationship: immediately_preceded_by GgalDv:0000025 ! Hamburger Hamilton stage 14
+relationship: part_of GgalDv:0000025 ! Hamburger Hamilton stage 14
 property_value: start_dpf "3.21" xsd:float
 property_value: end_dpf "3.25" xsd:float
 
@@ -331,7 +372,7 @@ def: "Prenatal stage on incubation period defined by 24-27 somites and visceral 
 comment: Usually obtained after 50-55 hours of incubation.
 synonym: "HH15" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000026 ! Hamburger Hamilton stages 14+ to 15-
 property_value: start_dpf "3.25" xsd:float
 property_value: end_dpf "3.3" xsd:float
@@ -344,7 +385,7 @@ def: "Prenatal stage on incubation period defined by 226-28 somites, wing bud, p
 comment: Usually obtained after 51-56 hours of incubation.
 synonym: "HH16" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000027 ! Hamburger Hamilton stage 15
 property_value: start_dpf "3.3" xsd:float
 property_value: end_dpf "3.35" xsd:float
@@ -357,7 +398,7 @@ def: "Prenatal stage on incubation period defined by 29-32 somites, leg bud and 
 comment: Usually obtained after 52-64 hours of incubation.
 synonym: "HH17" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000028 ! Hamburger Hamilton stage 16
 property_value: start_dpf "3.35" xsd:float
 property_value: end_dpf "3.7" xsd:float
@@ -370,7 +411,7 @@ def: "Prenatal stage on incubation period defined by 30-36 somites extending bey
 comment: Usually obtained after 3 days of incubation.
 synonym: "HH18" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000029 ! Hamburger Hamilton stage 17
 property_value: start_dpf "3.7" xsd:float
 property_value: end_dpf "3.75" xsd:float
@@ -383,7 +424,7 @@ def: "Prenatal stage on incubation period defined by 37- 40 somites extending in
 comment: Usually obtained after 3.0-3.5 days of incubation.
 synonym: "HH19" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000030 ! Hamburger Hamilton stage 18
 property_value: start_dpf "3.75" xsd:float
 property_value: end_dpf "3.8" xsd:float
@@ -406,7 +447,7 @@ def: "Prenatal stage on incubation period defined by 40-43 somites, rotation com
 comment: Usually obtained after 3.0-3.5 days of incubation.
 synonym: "HH20" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000031 ! Hamburger Hamilton stage 19
 property_value: start_dpf "3.8" xsd:float
 property_value: end_dpf "4.5" xsd:float
@@ -429,7 +470,7 @@ def: "Prenatal stage on incubation period defined by 43-44 somites, visceral arc
 comment: Usually obtained after 3.5 days of incubation.
 synonym: "HH21" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000034 ! Hamburger Hamilton stage 20
 property_value: start_dpf "4.5" xsd:float
 property_value: end_dpf "4.6" xsd:float
@@ -442,7 +483,7 @@ def: "Prenatal stage on incubation period defined by somites extending to tip of
 comment: Usually obtained after 3.5-4.0 days of incubation.
 synonym: "HH22" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000035 ! Hamburger Hamilton stage 21
 property_value: start_dpf "4.6" xsd:float
 property_value: end_dpf "5.0" xsd:float
@@ -455,7 +496,7 @@ def: "Prenatal stage on incubation period when dorsal contour from hindbrain to 
 comment: Usually obtained after 4.0 days of incubation.
 synonym: "HH23" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000036 ! Hamburger Hamilton stage 22
 property_value: start_dpf "5.0" xsd:float
 property_value: end_dpf "5.5" xsd:float
@@ -468,7 +509,7 @@ def: "Prenatal stage on incubation period defined by toe plate." [https://embryo
 comment: Usually obtained after 4.5 days of incubation.
 synonym: "HH24" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000037 ! Hamburger Hamilton stage 23
 property_value: start_dpf "5.5" xsd:float
 property_value: end_dpf "5.6" xsd:float
@@ -481,7 +522,7 @@ def: "Prenatal stage on incubation period defined by elbow and knee joints." [ht
 comment: Usually obtained after 4.5-5.0 days of incubation.
 synonym: "HH25" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000038 ! Hamburger Hamilton stage 24
 property_value: start_dpf "5.6" xsd:float
 property_value: end_dpf "6.0" xsd:float
@@ -494,7 +535,7 @@ def: "Prenatal stage on incubation period defined by 1st 3 toes." [https://embry
 comment: Usually obtained after 5.0 days of incubation.
 synonym: "HH26" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000039 ! Hamburger Hamilton stage 25
 property_value: start_dpf "6.0" xsd:float
 property_value: end_dpf "6.1" xsd:float
@@ -507,7 +548,7 @@ def: "Prenatal stage on incubation period defined by beak." [https://embryology.
 comment: Usually obtained after 5.0-5.5 days of incubation.
 synonym: "HH27" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000040 ! Hamburger Hamilton stage 26
 property_value: start_dpf "6.1" xsd:float
 property_value: end_dpf "6.5" xsd:float
@@ -520,7 +561,7 @@ def: "Prenatal stage on incubation period defined by 3 digits, 4 toes." [https:/
 comment: Usually obtained after 5.5-6.0 days of incubation.
 synonym: "HH28" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000041 ! Hamburger Hamilton stage 27
 property_value: start_dpf "6.5" xsd:float
 property_value: end_dpf "7.0" xsd:float
@@ -533,7 +574,7 @@ def: "Prenatal stage on incubation period defined by rudiment of 5th toe." [http
 comment: Usually obtained after 6.0-6.5 days of incubation.
 synonym: "HH29" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000042 ! Hamburger Hamilton stage 28
 property_value: start_dpf "7.0" xsd:float
 property_value: end_dpf "7.5" xsd:float
@@ -546,7 +587,7 @@ def: "Prenatal stage on incubation period defined by feather germs, scleral papi
 comment: Usually obtained after 6.5-7.0 days of incubation.
 synonym: "HH30" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000043 ! Hamburger Hamilton stage 29
 property_value: start_dpf "7.5" xsd:float
 property_value: end_dpf "8.0" xsd:float
@@ -559,7 +600,7 @@ def: "Prenatal stage on incubation period defined by web between 1st and 2nd dig
 comment: Usually obtained after 7.0-7.5 days of incubation.
 synonym: "HH31" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000044 ! Hamburger Hamilton stage 30
 property_value: start_dpf "8.0" xsd:float
 property_value: end_dpf "8.5" xsd:float
@@ -572,7 +613,7 @@ def: "Prenatal stage on incubation period when anterior tip of mandible has reac
 comment: Usually obtained after 7.5 days of incubation.
 synonym: "HH32" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000045 ! Hamburger Hamilton stage 31
 property_value: start_dpf "8.5" xsd:float
 property_value: end_dpf "8.6" xsd:float
@@ -585,7 +626,7 @@ def: "Prenatal stage on incubation period defined by web on radial margin of win
 comment: Usually obtained after 7.5-8.0 days of incubation.
 synonym: "HH33" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000046 ! Hamburger Hamilton stage 32
 property_value: start_dpf "8.6" xsd:float
 property_value: end_dpf "9.0" xsd:float
@@ -598,7 +639,7 @@ def: "Prenatal stage on incubation period defined by nictitating membrane." [htt
 comment: Usually obtained after 8.0 days of incubation.
 synonym: "HH34" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000047 ! Hamburger Hamilton stage 33
 property_value: start_dpf "9.0" xsd:float
 property_value: end_dpf "9.5" xsd:float
@@ -611,7 +652,7 @@ def: "Prenatal stage on incubation period defined by phalanges in toes." [https:
 comment: Usually obtained after 8.5-9.0 days of incubation (means, 9.5 up to 10 days after fertilization. We put the upper limit to 11 days after fertilization, in sake of time continuity with the next HH stage).
 synonym: "HH35" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000048 ! Hamburger Hamilton stage 34
 property_value: start_dpf "9.5" xsd:float
 property_value: end_dpf "11.0" xsd:float
@@ -624,7 +665,7 @@ def: "Prenatal stage on incubation period defined by length of 3rd toe from tip 
 comment: Usually obtained after 10.0 days of incubation (means, 11 days after fertilization).
 synonym: "HH36" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000049 ! Hamburger Hamilton stage 35
 property_value: start_dpf "11.0" xsd:float
 property_value: end_dpf "12.0" xsd:float
@@ -637,7 +678,7 @@ def: "Prenatal stage on incubation period defined by length of 3rd toe = 7.4 ±0.
 comment: Usually obtained after 11.0 days of incubation.
 synonym: "HH37" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000050 ! Hamburger Hamilton stage 36
 property_value: start_dpf "12.0" xsd:float
 property_value: end_dpf "13.0" xsd:float
@@ -650,7 +691,7 @@ def: "Prenatal stage on incubation period defined by length of 3rd toe = 8.4 ± 0
 comment: Usually obtained after 12.0 days of incubation.
 synonym: "HH38" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000051 ! Hamburger Hamilton stage 37
 property_value: start_dpf "13.0" xsd:float
 property_value: end_dpf "14.0" xsd:float
@@ -663,7 +704,7 @@ def: "Prenatal stage on incubation period defined by length of 3rd toe = 9.8 ± 0
 comment: Usually obtained after 13.0 days of incubation.
 synonym: "HH39" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000052 ! Hamburger Hamilton stage 38
 property_value: start_dpf "14.0" xsd:float
 property_value: end_dpf "15.0" xsd:float
@@ -676,7 +717,7 @@ def: "Prenatal stage on incubation period defined by length of beak = 4.0 mm; le
 comment: Usually obtained after 14.0 days of incubation.
 synonym: "HH40" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000053 ! Hamburger Hamilton stage 39
 property_value: start_dpf "15.0" xsd:float
 property_value: end_dpf "16.0" xsd:float
@@ -689,7 +730,7 @@ def: "Prenatal stage on incubation period defined by length of beak from anterio
 comment: Usually obtained after 15.0 days of incubation.
 synonym: "HH41" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000054 ! Hamburger Hamilton stage 40
 property_value: start_dpf "16.0" xsd:float
 property_value: end_dpf "17.0" xsd:float
@@ -702,7 +743,7 @@ def: "Prenatal stage on incubation period defined by length of beak = 4.8 mm; le
 comment: Usually obtained after 16.0 days of incubation.
 synonym: "HH42" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000055 ! Hamburger Hamilton stage 41
 property_value: start_dpf "17.0" xsd:float
 property_value: end_dpf "18.0" xsd:float
@@ -715,7 +756,7 @@ def: "Prenatal stage on incubation period defined by length of beak = 5.0 mm; le
 comment: Usually obtained after 17.0 days of incubation.
 synonym: "HH43" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000056 ! Hamburger Hamilton stage 42
 property_value: start_dpf "18.0" xsd:float
 property_value: end_dpf "19.0" xsd:float
@@ -728,7 +769,7 @@ def: "Prenatal stage on incubation period defined by length of beak = 5.7 mm; le
 comment: Usually obtained after 18.0 days of incubation.
 synonym: "HH44" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000057 ! Hamburger Hamilton stage 43
 property_value: start_dpf "19.0" xsd:float
 property_value: end_dpf "20.0" xsd:float
@@ -741,7 +782,7 @@ def: "Prenatal stage on incubation period defined by yolk sac half enclosed in b
 comment: Usually obtained after 19.0-20.0 days of incubation.
 synonym: "HH45" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
-relationship: part_of GgalDv:0000002 ! prenatal stage
+relationship: part_of GgalDv:0000094 ! organogenesis stage
 relationship: immediately_preceded_by GgalDv:0000058 ! Hamburger Hamilton stage 44
 property_value: start_dpf "20.0" xsd:float
 property_value: end_dpf "21.0" xsd:float
@@ -778,6 +819,7 @@ name: hatchling stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers." [Bgee:curator "Bgee"]
 synonym: "under-1-month-old chicken stage" EXACT []
+synonym: "neonate stage" RELATED []
 xref: UBERON:0007221
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000003 ! immature stage
@@ -926,6 +968,7 @@ name: juvenile stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the period from 4 weeks old, when individuals are fully feathered, until 5 months old." [Bgee:curator "Bgee"]
 comment: Chicken reach sexual maturity by five months of age.
+xref: UBERON:0034919
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000003 ! immature stage
 relationship: immediately_preceded_by GgalDv:0000004 ! hatchling stage
@@ -1002,7 +1045,7 @@ def: "Mature stage that refers to a chicken who is over 6 and under 7 months old
 subset: granular_stage
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000078 ! young adult stage
-relationship: immediately_preceded_by GgalDv:0000081 ! 5-month-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000081 ! 5-month-old stage
 property_value: start_mph "6.0" xsd:float
 property_value: end_mph "7.0" xsd:float
 
@@ -1014,7 +1057,7 @@ def: "Mature stage that refers to a chicken who is over 7 and under 8 months old
 subset: granular_stage
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000078 ! young adult stage
-relationship: immediately_preceded_by GgalDv:0000082 ! 6-month-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000082 ! 6-month-old stage
 property_value: start_mph "7.0" xsd:float
 property_value: end_mph "8.0" xsd:float
 
@@ -1026,7 +1069,7 @@ def: "Mature stage that refers to a chicken who is over 8 and under 9 months old
 subset: granular_stage
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000078 ! young adult stage
-relationship: immediately_preceded_by GgalDv:0000083 ! 7-month-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000083 ! 7-month-old stage
 property_value: start_mph "8.0" xsd:float
 property_value: end_mph "9.0" xsd:float
 
@@ -1038,7 +1081,7 @@ def: "Mature stage that refers to a chicken who is over 9 and under 10 months ol
 subset: granular_stage
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000078 ! young adult stage
-relationship: immediately_preceded_by GgalDv:0000084 ! 8-month-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000084 ! 8-month-old stage
 property_value: start_mph "9.0" xsd:float
 property_value: end_mph "10.0" xsd:float
 
@@ -1050,7 +1093,7 @@ def: "Mature stage that refers to a chicken who is over 10 and under 11 months o
 subset: granular_stage
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000078 ! young adult stage
-relationship: immediately_preceded_by GgalDv:0000085 ! 9-month-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000085 ! 9-month-old stage
 property_value: start_mph "10.0" xsd:float
 property_value: end_mph "11.0" xsd:float
 
@@ -1062,7 +1105,7 @@ def: "Mature stage that refers to a chicken who is over 11 and under 12 months o
 subset: granular_stage
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000078 ! young adult stage
-relationship: immediately_preceded_by GgalDv:0000086 ! 10-month-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000086 ! 10-month-old stage
 property_value: start_mph "11.0" xsd:float
 property_value: end_mph "12.0" xsd:float
 
@@ -1073,7 +1116,7 @@ namespace: chicken_developmental_stage
 def: "Mature stage that refers to a chicken who is over 12 and under 24 months old." [Bgee:curator "Bgee"]
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000078 ! young adult stage
-relationship: immediately_preceded_by GgalDv:0000087 ! 11-month-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000087 ! 11-month-old stage
 property_value: start_mph "12.0" xsd:float
 property_value: end_mph "24.0" xsd:float
 
@@ -1106,7 +1149,7 @@ namespace: chicken_developmental_stage
 def: "Mature stage that refers to a chicken who is over 2 and under 3 years old." [Bgee:curator "Bgee"]
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000079 ! middle adult stage
-relationship: immediately_preceded_by GgalDv:0000008 ! 1-year-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000008 ! 1-year-old stage
 property_value: start_yph "2.0" xsd:float
 property_value: end_yph "3.0" xsd:float
 
@@ -1117,7 +1160,7 @@ namespace: chicken_developmental_stage
 def: "Mature stage that refers to a chicken who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000079 ! middle adult stage
-relationship: immediately_preceded_by GgalDv:0000088 ! 2-year-old chicken stage
+relationship: immediately_preceded_by GgalDv:0000088 ! 2-year-old stage
 property_value: start_yph "3.0" xsd:float
 property_value: end_yph "4.0" xsd:float
 
