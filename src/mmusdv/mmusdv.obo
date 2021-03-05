@@ -116,6 +116,7 @@ name: blastula stage
 namespace: mouse_developmental_stage
 def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
 comment: The blastula follows the morula and precedes the gastrula in the developmental sequence.
+xref: UBERON:0000108
 is_a: MmusDv:0000000 ! life cycle stage
 relationship: part_of MmusDv:0000002 ! embryonic stage
 relationship: preceded_by MmusDv:0000004 ! cleavage stage
