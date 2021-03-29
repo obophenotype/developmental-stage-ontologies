@@ -742,7 +742,7 @@ xref: XUO:0000071
 xref: UBERON:0007221
 xref: EMAPA:TS27 ! TS27 (null)
 synonym: "TS27" RELATED [EMAPA:TS27]
-synonym: "newborn stage" EXACT[] [UBERON:cjm]
+synonym: "newborn stage" EXACT [UBERON:cjm]
 synonym: "P0" RELATED [UBERON:cjm]
 is_a: MmusDv:0000000 ! life cycle stage
 relationship: part_of MmusDv:0000138 ! nursing stage
