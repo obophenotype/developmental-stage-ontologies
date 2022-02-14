@@ -1,6 +1,6 @@
 format-version: 1.2
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dpsedv.owl>) VersionIRI(<null>))) [Axioms: 159 Logical Axioms: 23]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 56 Logical Axioms: 15]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 76 Logical Axioms: 9]
 ontology: uberon/bridge/dpsedv/dpsedv-uberon.obo
 
 [Term]
@@ -42,39 +42,45 @@ property_value: start_dph "9.0" xsd:float
 
 [Term]
 id: UBERON:0000066
+synonym: "fully formed stage" BROAD []
+xref: DpseDv:0000005
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 relationship: immediately_preceded_by UBERON:0000070 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
-relationship: only_in_taxon NCBITaxon:7237 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 
 [Term]
 id: UBERON:0000068
+synonym: "embryonic stage" BROAD []
+xref: DpseDv:0000002
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
-relationship: only_in_taxon NCBITaxon:7237 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 
 [Term]
 id: UBERON:0000069
+synonym: "larval stage" BROAD []
+xref: DpseDv:0000003
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
-relationship: only_in_taxon NCBITaxon:7237 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 
 [Term]
 id: UBERON:0000070
+synonym: "P-stage" BROAD []
+xref: DpseDv:0000004
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 relationship: immediately_preceded_by UBERON:0000069 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
-relationship: only_in_taxon NCBITaxon:7237 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 
 [Term]
 id: UBERON:0000104
+synonym: "Drosophila pseudobscura life cycle" BROAD []
+xref: DpseDv:0000001
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
-relationship: only_in_taxon NCBITaxon:7237 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
 
 [Term]
 id: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:7237 {gci_relation="part_of", gci_filler="NCBITaxon:7237"}
+synonym: "Drosophila pseudobscura life cycle stage" BROAD []
+xref: DpseDv:0000000
 
 [Typedef]
 id: end_dph

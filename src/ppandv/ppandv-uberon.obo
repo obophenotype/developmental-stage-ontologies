@@ -1,24 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv.owl>) VersionIRI(<null>))) [Axioms: 585 Logical Axioms: 116]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 186 Logical Axioms: 49]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv.owl>) VersionIRI(<null>))) [Axioms: 600 Logical Axioms: 119]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 224 Logical Axioms: 42]
 ontology: uberon/bridge/ppandv/ppandv-uberon.obo
-
-[Term]
-id: PpanDv:0000005
-name: juvenile stage (bonobo)
-namespace: bonobo_developmental_stage
-def: "Bonobo developmental stage that covers the period from about 21 months old, when individuals wean, until about 8.5 years old, when individuals reach sexual maturity." [Bgee:curator]
-comment: bonobo females reach sexual maturity by 3194 days of age (see http://genomics.senescence.info/species/entry.php?species=Pan_paniscus).
-is_a: UBERON:0000105
-relationship: immediately_preceded_by UBERON:0018685
-relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of UBERON:0000112
-property_value: end_mpb "106.5" xsd:float
-property_value: end_ypb "8.75" xsd:float
-property_value: IAO:0000589 "juvenile stage (bonobo)" xsd:string
-property_value: start_mpb "21.0" xsd:float
-property_value: start_ypb "1.7" xsd:float
 
 [Term]
 id: PpanDv:0000006
@@ -28,7 +12,7 @@ def: "Juvenile stage that refers to a bonobo who is over 21 and under 22 months 
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_mpb "22.0" xsd:float
 property_value: IAO:0000589 "21-month-old stage (bonobo)" xsd:string
 property_value: start_mpb "21.0" xsd:float
@@ -42,7 +26,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000006 ! 21-month-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_mpb "23.0" xsd:float
 property_value: IAO:0000589 "22-month-old stage (bonobo)" xsd:string
 property_value: start_mpb "22.0" xsd:float
@@ -56,7 +40,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000007 ! 22-month-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_mpb "24.0" xsd:float
 property_value: IAO:0000589 "23-month-old stage (bonobo)" xsd:string
 property_value: start_mpb "23.0" xsd:float
@@ -70,7 +54,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000008 ! 23-month-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_mpb "36.0" xsd:float
 property_value: end_ypb "3.0" xsd:float
 property_value: IAO:0000589 "2-year-old stage (bonobo)" xsd:string
@@ -86,7 +70,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000009 ! 2-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "4.0" xsd:float
 property_value: IAO:0000589 "3-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "3.0" xsd:float
@@ -100,7 +84,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000010 ! 3-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "5.0" xsd:float
 property_value: IAO:0000589 "4-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "4.0" xsd:float
@@ -114,7 +98,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000011 ! 4-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "6.0" xsd:float
 property_value: IAO:0000589 "5-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "5.0" xsd:float
@@ -128,7 +112,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000012 ! 5-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "7.0" xsd:float
 property_value: IAO:0000589 "6-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "6.0" xsd:float
@@ -142,7 +126,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000013 ! 6-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "8.0" xsd:float
 property_value: IAO:0000589 "7-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "7.0" xsd:float
@@ -157,7 +141,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PpanDv:0000014 ! 7-year-old stage (bonobo)
 relationship: only_in_taxon NCBITaxon:9597
-relationship: part_of PpanDv:0000005 ! juvenile stage (bonobo)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "8.75" xsd:float
 property_value: IAO:0000589 "8-year-old immature stage (bonobo)" xsd:string
 property_value: start_ypb "8.0" xsd:float
@@ -471,51 +455,75 @@ property_value: IAO:0000589 "29-year-old stage (bonobo)" xsd:string
 property_value: start_ypb "29.0" xsd:float
 
 [Term]
-id: UBERON:0000068
+id: UBERON:0000066
+synonym: "postnatal stage" BROAD []
+xref: PpanDv:0000041
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+
+[Term]
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: PpanDv:0000002
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 
 [Term]
 id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: PpanDv:0000001
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 
 [Term]
 id: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+synonym: "life cycle stage" BROAD []
+xref: PpanDv:0000000
 
 [Term]
 id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: PpanDv:0000003
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 
 [Term]
 id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: PpanDv:0000016
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 relationship: preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 
 [Term]
 id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: PpanDv:0000040
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 relationship: preceded_by UBERON:0018241 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 
 [Term]
 id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: PpanDv:0000017
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 
 [Term]
 id: UBERON:0018685
+synonym: "nursing stage" BROAD []
+xref: PpanDv:0000004
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
-relationship: only_in_taxon NCBITaxon:9597 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+relationship: part_of UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+
+[Term]
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: PpanDv:0000005
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
+relationship: immediately_preceded_by UBERON:0018685 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 relationship: part_of UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9597"}
 
 [Typedef]

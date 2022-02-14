@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv.owl>) VersionIRI(<null>))) [Axioms: 481 Logical Axioms: 94]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 158 Logical Axioms: 42]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv.owl>) VersionIRI(<null>))) [Axioms: 619 Logical Axioms: 130]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 236 Logical Axioms: 46]
 ontology: uberon/bridge/mdomdv/mdomdv-uberon.obo
 
 [Term]
@@ -256,18 +256,6 @@ property_value: IAO:0000589 "20-month-old stage (opossum)" xsd:string
 property_value: start_mpb "20.0" xsd:float
 
 [Term]
-id: MdomDv:0000025
-name: aged stage (opossum)
-namespace: opossum_developmental_stage
-def: "Mature stage that refers to a adult opossum which is over 21 months." [Bgee:curator]
-comment: The life span of opossums is very short. The average female probably lives through one breeding season (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html). In the wild, two years is the standard lifespan (http://animaldiversity.ummz.umich.edu/accounts/Monodelphis_domestica/). We arbitraly consider 20 months as the upper limit for the adult, before aged stage. This is to improve as far as information is available..
-is_a: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of UBERON:0000113
-property_value: IAO:0000589 "aged stage (opossum)" xsd:string
-property_value: start_mpb "21.0" xsd:float
-
-[Term]
 id: MdomDv:0000026
 name: 21-month-old stage (opossum)
 namespace: opossum_developmental_stage
@@ -275,7 +263,7 @@ def: "Aged stage that refers to a opossum which is over 21 and under 22 months o
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000025 ! aged stage (opossum)
+relationship: part_of UBERON:0007222
 property_value: end_mpb "22.0" xsd:float
 property_value: IAO:0000589 "21-month-old stage (opossum)" xsd:string
 property_value: start_mpb "21.0" xsd:float
@@ -289,7 +277,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000026 ! 21-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000025 ! aged stage (opossum)
+relationship: part_of UBERON:0007222
 property_value: end_mpb "23.0" xsd:float
 property_value: IAO:0000589 "22-month-old stage (opossum)" xsd:string
 property_value: start_mpb "22.0" xsd:float
@@ -303,7 +291,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000027 ! 22-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000025 ! aged stage (opossum)
+relationship: part_of UBERON:0007222
 property_value: end_mpb "24.0" xsd:float
 property_value: IAO:0000589 "23-month-old stage (opossum)" xsd:string
 property_value: start_mpb "23.0" xsd:float
@@ -317,7 +305,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000028 ! 23-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000025 ! aged stage (opossum)
+relationship: part_of UBERON:0007222
 property_value: end_mpb "25.0" xsd:float
 property_value: IAO:0000589 "24-month-old stage (opossum)" xsd:string
 property_value: start_mpb "24.0" xsd:float
@@ -331,7 +319,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000029 ! 24-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000025 ! aged stage (opossum)
+relationship: part_of UBERON:0007222
 property_value: end_mpb "26.0" xsd:float
 property_value: IAO:0000589 "25-month-old stage (opossum)" xsd:string
 property_value: start_mpb "25.0" xsd:float
@@ -345,7 +333,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by MdomDv:0000030 ! 25-month-old stage (opossum)
 relationship: only_in_taxon NCBITaxon:13616
-relationship: part_of MdomDv:0000025 ! aged stage (opossum)
+relationship: part_of UBERON:0007222
 property_value: IAO:0000589 "26-month-old and over stage (opossum)" xsd:string
 property_value: start_mpb "26.0" xsd:float
 
@@ -364,52 +352,233 @@ property_value: IAO:0000589 "infant stage (opossum)" xsd:string
 property_value: start_wpb "2.0" xsd:float
 
 [Term]
+id: MdomDv:0000034
+name: 2-week-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to an infant opossum which is over 2 and under 3 weeks old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000033 ! infant stage (opossum)
+property_value: end_wpb "3.0" xsd:float
+property_value: IAO:0000589 "2-week-old stage (opossum)" xsd:string
+property_value: start_wpb "2.0" xsd:float
+
+[Term]
+id: MdomDv:0000035
+name: 3-week-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to an infant opossum which is over 3 and under 4 weeks old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000034 ! 2-week-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000033 ! infant stage (opossum)
+property_value: end_wpb "4.0" xsd:float
+property_value: IAO:0000589 "3-week-old stage (opossum)" xsd:string
+property_value: start_dpb "21.0" xsd:float
+property_value: start_wpb "3.0" xsd:float
+
+[Term]
+id: MdomDv:0000036
+name: 4-week-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to an infant opossum which is over 4 and under 5 weeks old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000035 ! 3-week-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000033 ! infant stage (opossum)
+property_value: end_wpb "5.0" xsd:float
+property_value: IAO:0000589 "4-week-old stage (opossum)" xsd:string
+property_value: start_wpb "4.0" xsd:float
+
+[Term]
+id: MdomDv:0000037
+name: 5-week-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to an infant opossum which is over 5 and under 6 weeks old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000036 ! 4-week-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000033 ! infant stage (opossum)
+property_value: end_wpb "6.0" xsd:float
+property_value: IAO:0000589 "5-week-old stage (opossum)" xsd:string
+property_value: start_wpb "5.0" xsd:float
+
+[Term]
+id: MdomDv:0000038
+name: 6-week-old and over weaning stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to an infant opossum which is over 6 and under 7.5 weeks old, the time when usually opossum weaning occurs." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000037 ! 5-week-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000033 ! infant stage (opossum)
+property_value: end_wpb "7.5" xsd:float
+property_value: IAO:0000589 "6-week-old and over weaning stage (opossum)" xsd:string
+property_value: start_wpb "6.0" xsd:float
+
+[Term]
+id: MdomDv:0000039
+name: 14-day-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to a 2-week-old opossum which is over 14 and under 15 days old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000034 ! 2-week-old stage (opossum)
+property_value: end_dpb "15.0" xsd:float
+property_value: IAO:0000589 "14-day-old stage (opossum)" xsd:string
+property_value: start_dpb "14.0" xsd:float
+
+[Term]
+id: MdomDv:0000040
+name: 15-day-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to a 2-week-old opossum which is over 15 and under 16 days old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000039 ! 14-day-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000034 ! 2-week-old stage (opossum)
+property_value: end_dpb "16.0" xsd:float
+property_value: IAO:0000589 "15-day-old stage (opossum)" xsd:string
+property_value: start_dpb "15.0" xsd:float
+
+[Term]
+id: MdomDv:0000041
+name: 16-day-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to a 2-week-old opossum which is over 16 and under 17 days old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000040 ! 15-day-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000034 ! 2-week-old stage (opossum)
+property_value: end_dpb "17.0" xsd:float
+property_value: IAO:0000589 "16-day-old stage (opossum)" xsd:string
+property_value: start_dpb "16.0" xsd:float
+
+[Term]
+id: MdomDv:0000042
+name: 17-day-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to a 2-week-old opossum which is over 17 and under 18 days old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000041 ! 16-day-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000034 ! 2-week-old stage (opossum)
+property_value: end_dpb "18.0" xsd:float
+property_value: IAO:0000589 "17-day-old stage (opossum)" xsd:string
+property_value: start_dpb "17.0" xsd:float
+
+[Term]
+id: MdomDv:0000043
+name: 18-day-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to a 2-week-old opossum which is over 18 and under 19 days old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000042 ! 17-day-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000034 ! 2-week-old stage (opossum)
+property_value: end_dpb "19.0" xsd:float
+property_value: IAO:0000589 "18-day-old stage (opossum)" xsd:string
+property_value: start_dpb "18.0" xsd:float
+
+[Term]
+id: MdomDv:0000044
+name: 19-day-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to a 2-week-old opossum which is over 19 and under 20 days old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000043 ! 18-day-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000034 ! 2-week-old stage (opossum)
+property_value: end_dpb "20.0" xsd:float
+property_value: IAO:0000589 "19-day-old stage (opossum)" xsd:string
+property_value: start_dpb "19.0" xsd:float
+
+[Term]
+id: MdomDv:0000045
+name: 20-day-old stage (opossum)
+namespace: opossum_developmental_stage
+def: "Infant stage that refers to a 2-week-old opossum which is over 20 and under 21 days old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by MdomDv:0000044 ! 19-day-old stage (opossum)
+relationship: only_in_taxon NCBITaxon:13616
+relationship: part_of MdomDv:0000034 ! 2-week-old stage (opossum)
+property_value: end_dpb "21.0" xsd:float
+property_value: IAO:0000589 "20-day-old stage (opossum)" xsd:string
+property_value: start_dpb "20.0" xsd:float
+
+[Term]
 id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: MdomDv:0000002
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 
 [Term]
 id: UBERON:0000104
+synonym: "opossum life cycle" BROAD []
+xref: MdomDv:0000001
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 
 [Term]
 id: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
+synonym: "opossum life cycle stage" BROAD []
+xref: MdomDv:0000000
 
 [Term]
 id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: MdomDv:0000003
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 
 [Term]
 id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: MdomDv:0000006
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
+relationship: immediately_preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 
 [Term]
 id: UBERON:0007221
+synonym: "neonate stage" BROAD []
+xref: MdomDv:0000004
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: part_of UBERON:0018685 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 
 [Term]
-id: UBERON:0018241
+id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: MdomDv:0000025
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
+relationship: immediately_preceded_by UBERON:0018241 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
+relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
+
+[Term]
+id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: MdomDv:0000007
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 
 [Term]
 id: UBERON:0018685
+synonym: "nursing stage" BROAD []
+xref: MdomDv:0000032
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
-relationship: only_in_taxon NCBITaxon:13616 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: part_of UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
 relationship: preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:13616"}
+
+[Typedef]
+id: end_dpb
+name: end, days post birth
+namespace: opossum_stages_ontology
+def: "Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2" []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033
+is_metadata_tag: true
 
 [Typedef]
 id: end_dpf
@@ -483,6 +652,15 @@ namespace: opossum_stages_ontology
 def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
 xref: BFO:0000062
 is_transitive: true
+
+[Typedef]
+id: start_dpb
+name: start, days post birth
+namespace: opossum_stages_ontology
+def: "Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1." []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033
+is_metadata_tag: true
 
 [Typedef]
 id: start_dpf

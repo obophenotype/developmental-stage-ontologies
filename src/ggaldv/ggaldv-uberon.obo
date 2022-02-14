@@ -1,86 +1,86 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggaldv.owl>) VersionIRI(<null>))) [Axioms: 459 Logical Axioms: 73]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 156 Logical Axioms: 40]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggaldv.owl>) VersionIRI(<null>))) [Axioms: 1199 Logical Axioms: 250]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 452 Logical Axioms: 95]
 ontology: uberon/bridge/ggaldv/ggaldv-uberon.obo
 
 [Term]
-id: GgalDv:0000005
-name: juvenile stage (chicken)
+id: GgalDv:0000004
+name: hatchling stage (chicken)
 namespace: chicken_developmental_stage
-def: "Chicken developmental stage that covers the period from 4 weeks old, when individuals are fully feathered, until 5 months old." [Bgee:curator]
-comment: Chicken reach sexual maturity by five months of age.
+def: "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers." [Bgee:curator]
+comment: For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 hwith UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221
+synonym: "neonate stage" RELATED []
+synonym: "under-1-month-old chicken stage" EXACT []
 is_a: UBERON:0000105
-relationship: immediately_preceded_by UBERON:0007221
 relationship: only_in_taxon NCBITaxon:9031
 relationship: part_of UBERON:0000112
-property_value: end_mph "5.0" xsd:float
-property_value: IAO:0000589 "juvenile stage (chicken)" xsd:string
-property_value: start_mph "1.0" xsd:float
+property_value: end_mph "1.0" xsd:float
+property_value: IAO:0000589 "hatchling stage (chicken)" xsd:string
+property_value: start_dpf "21.0" xsd:float
+property_value: start_mph "0.0" xsd:float
 
 [Term]
 id: GgalDv:0000007
-name: early adult stage (chicken)
+name: early adult stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old." [Bgee:curator]
-is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000113
 property_value: end_mph "12.0" xsd:float
 property_value: IAO:0000589 "early adult stage (chicken)" xsd:string
 property_value: start_mph "5.0" xsd:float
+is_obsolete: true
+consider: GgalDv:0000078
 
 [Term]
 id: GgalDv:0000008
-name: 1-year-old chicken stage (chicken)
+name: 1-year-old stage (chicken)
 namespace: chicken_developmental_stage
 def: "Mature stage that refers to a chicken who is over 12 and under 24 months old." [Bgee:curator]
 is_a: UBERON:0000105
-relationship: immediately_preceded_by GgalDv:0000007 ! early adult stage (chicken)
+relationship: immediately_preceded_by GgalDv:0000087 ! 11-month-old stage (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000113
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
 property_value: end_mph "24.0" xsd:float
-property_value: IAO:0000589 "1-year-old chicken stage (chicken)" xsd:string
+property_value: IAO:0000589 "1-year-old stage (chicken)" xsd:string
 property_value: start_mph "12.0" xsd:float
 
 [Term]
 id: GgalDv:0000009
-name: 2-year-old and over chicken stage (chicken)
+name: 2-year-old and over stage
 namespace: chicken_developmental_stage
 def: "Mature stage that refers to a chicken who is over 24 months old." [Bgee:curator]
-is_a: UBERON:0000105
-relationship: immediately_preceded_by GgalDv:0000008 ! 1-year-old chicken stage (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000113
-property_value: IAO:0000589 "2-year-old and over chicken stage (chicken)" xsd:string
+property_value: IAO:0000589 "2-year-old and over stage (chicken)" xsd:string
 property_value: start_mph "24.0" xsd:float
+is_obsolete: true
+consider: GgalDv:0000088
 
 [Term]
 id: GgalDv:0000010
 name: Hamburger Hamilton stage 1 (chicken)
 namespace: chicken_developmental_stage
 def: "Prenatal stage starting the incubation period and usually defined by the presence of the primitive streak (embryonic shield)." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
-comment: This stage starts at dpf (days post fertilization) 1.
+comment: Starts at day 1 post-fertilization, after laying. This stage covers the first 6 hours following laying.
 synonym: "HH1" EXACT []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000108
 property_value: IAO:0000589 "Hamburger Hamilton stage 1 (chicken)" xsd:string
 property_value: start_dpf "1.0" xsd:float
+property_value: start_dpf "1.25" xsd:float
 
 [Term]
 id: GgalDv:0000011
-name: Hamburger Hamilton stages 1-2 (chicken)
+name: Hamburger Hamilton stages 1-2
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after 6-7 hours of incubation.
 synonym: "HH1-2" RELATED []
-is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "1.25" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stages 1-2 (chicken)" xsd:string
-property_value: start_dpf "1.0" xsd:float
+is_obsolete: true
+consider: GgalDv:0000060
 
 [Term]
 id: GgalDv:0000012
@@ -91,10 +91,10 @@ comment: Usually obtained after 12-13 hours of incubation.
 synonym: "HH3" EXACT []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "1.5" xsd:float
+relationship: part_of UBERON:0000109
+property_value: end_dpf "1.75" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 3 (chicken)" xsd:string
-property_value: start_dpf "1.25" xsd:float
+property_value: start_dpf "1.5" xsd:float
 
 [Term]
 id: GgalDv:0000013
@@ -104,52 +104,51 @@ def: "Prenatal stage on incubation period defined by the definitive primitive st
 comment: Usually obtained after 18-19 hours of incubation.
 synonym: "HH4" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000012 ! Hamburger Hamilton stage 3 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "1.75" xsd:float
+relationship: part_of UBERON:0000109
+property_value: end_dpf "1.8" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 4 (chicken)" xsd:string
-property_value: start_dpf "1.5" xsd:float
+property_value: start_dpf "1.75" xsd:float
 
 [Term]
 id: GgalDv:0000014
-name: Hamburger Hamilton stages 5-6 (chicken)
+name: Hamburger Hamilton stages 5-6
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by head process (notochord), head fold." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after 19-25 hours of incubation.
 synonym: "HH5-6" EXACT []
-is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "2.0" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stages 5-6 (chicken)" xsd:string
-property_value: start_dpf "1.75" xsd:float
+is_obsolete: true
+consider: GgalDv:0000061
+consider: GgalDv:0000062
 
 [Term]
 id: GgalDv:0000015
 name: Hamburger Hamilton stage 7 (chicken)
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by the first 1 visible somite and neural folds." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
-comment: Usually obtained after 23-26 hours of incubation.
-synonym: "HH7" EXACT []
+def: "Prenatal stage on incubation period defined by the first somite and coelom, then up to 3 somites and neural folds." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 23-26 hours of incubation. Includes the stage described as '7 to 8-' at https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages.
+synonym: "HH7" RELATED []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
+property_value: end_dpf "2.1" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 7 (chicken)" xsd:string
 property_value: start_dpf "2.0" xsd:float
 
 [Term]
 id: GgalDv:0000016
-name: Hamburger Hamilton stages 7 to 8- (chicken)
+name: Hamburger Hamilton stages 7 to 8-
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by up to 3 somites and coelom." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after 23-26 hours of incubation.
 synonym: "HH7 to 8-" RELATED []
-is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "2.1" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stages 7 to 8- (chicken)" xsd:string
-property_value: start_dpf "2.0" xsd:float
+is_obsolete: true
+consider: GgalDv:0000015
 
 [Term]
 id: GgalDv:0000017
@@ -159,8 +158,9 @@ def: "Prenatal stage on incubation period defined by 4 somites and blood islands
 comment: Usually obtained after 26-29 hours of incubation.
 synonym: "HH8" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000015 ! Hamburger Hamilton stage 7 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "2.2" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 8 (chicken)" xsd:string
 property_value: start_dpf "2.1" xsd:float
@@ -173,8 +173,9 @@ def: "Prenatal stage on incubation period defined by 7 somites and primary optic
 comment: Usually obtained after 29-33 hours of incubation.
 synonym: "HH9" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000017 ! Hamburger Hamilton stage 8 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "2.4" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 9 (chicken)" xsd:string
 property_value: start_dpf "2.2" xsd:float
@@ -188,10 +189,10 @@ comment: Usually obtained at ca. 33 hours of incubation.
 synonym: "HH9+ to 10-" RELATED []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "2.41" xsd:float
+relationship: part_of GgalDv:0000018 ! Hamburger Hamilton stage 9 (chicken)
+property_value: end_dpf "2.4" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stages 9+ to 10- (chicken)" xsd:string
-property_value: start_dpf "2.4" xsd:float
+property_value: start_dpf "2.3" xsd:float
 
 [Term]
 id: GgalDv:0000020
@@ -199,13 +200,14 @@ name: Hamburger Hamilton stage 10 (chicken)
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 10 somites and 3 primary brain vesicles." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after 33-38 hours of incubation.
-synonym: "HH11" EXACT []
+synonym: "HH10" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000019 ! Hamburger Hamilton stages 9+ to 10- (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "2.6" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 10 (chicken)" xsd:string
-property_value: start_dpf "2.41" xsd:float
+property_value: start_dpf "2.4" xsd:float
 
 [Term]
 id: GgalDv:0000021
@@ -213,10 +215,11 @@ name: Hamburger Hamilton stage 11 (chicken)
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 13 somites and 5 neuromeres of hindbrain." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after 40-45 hours of incubation.
-synonym: "HH12" EXACT []
+synonym: "HH11" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000020 ! Hamburger Hamilton stage 10 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "2.9" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 11 (chicken)" xsd:string
 property_value: start_dpf "2.6" xsd:float
@@ -229,8 +232,9 @@ def: "Prenatal stage on incubation period defined by 16 somites and telencephalo
 comment: Usually obtained after 45-49 hours of incubation.
 synonym: "HH12" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000021 ! Hamburger Hamilton stage 11 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "3.0" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 12 (chicken)" xsd:string
 property_value: start_dpf "2.9" xsd:float
@@ -243,8 +247,9 @@ def: "Prenatal stage on incubation period defined by 19 somites and atrioventric
 comment: Usually obtained after 48-52 hours of incubation.
 synonym: "HH13" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000022 ! Hamburger Hamilton stage 12 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "3.2" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 13 (chicken)" xsd:string
 property_value: start_dpf "3.0" xsd:float
@@ -255,7 +260,7 @@ name: Hamburger Hamilton stages 13+ to 14- (chicken)
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 20-21 somites and tail bud." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after ca.50-52 hours of incubation.
-synonym: "HH13+ to 14-" RELATED []
+synonym: "HH13+ to 14-" EXACT []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
 relationship: part_of GgalDv:0000023 ! Hamburger Hamilton stage 13 (chicken)
@@ -271,11 +276,12 @@ def: "Prenatal stage on incubation period defined by 22 somites, trunk flexure, 
 comment: Usually obtained after 50-53 hours of incubation.
 synonym: "HH14" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000024 ! Hamburger Hamilton stages 13+ to 14- (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "3.21" xsd:float
+relationship: part_of UBERON:0000111
+property_value: end_dpf "3.25" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 14 (chicken)" xsd:string
-property_value: start_dpf "3.1" xsd:float
+property_value: start_dpf "3.2" xsd:float
 
 [Term]
 id: GgalDv:0000026
@@ -286,10 +292,10 @@ comment: Usually obtained after ca.50-54 hours of incubation.
 synonym: "HH14+ to 15-" RELATED []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of GgalDv:0000025 ! Hamburger Hamilton stage 14 (chicken)
 property_value: end_dpf "3.25" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stages 14+ to 15- (chicken)" xsd:string
-property_value: start_dpf "3.1" xsd:float
+property_value: start_dpf "3.21" xsd:float
 
 [Term]
 id: GgalDv:0000027
@@ -299,11 +305,12 @@ def: "Prenatal stage on incubation period defined by 24-27 somites and visceral 
 comment: Usually obtained after 50-55 hours of incubation.
 synonym: "HH15" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000026 ! Hamburger Hamilton stages 14+ to 15- (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "3.3" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 15 (chicken)" xsd:string
-property_value: start_dpf "3.1" xsd:float
+property_value: start_dpf "3.25" xsd:float
 
 [Term]
 id: GgalDv:0000028
@@ -313,11 +320,12 @@ def: "Prenatal stage on incubation period defined by 226-28 somites, wing bud, p
 comment: Usually obtained after 51-56 hours of incubation.
 synonym: "HH16" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000027 ! Hamburger Hamilton stage 15 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "3.35" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 16 (chicken)" xsd:string
-property_value: start_dpf "3.15" xsd:float
+property_value: start_dpf "3.3" xsd:float
 
 [Term]
 id: GgalDv:0000029
@@ -327,11 +335,12 @@ def: "Prenatal stage on incubation period defined by 29-32 somites, leg bud and 
 comment: Usually obtained after 52-64 hours of incubation.
 synonym: "HH17" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000028 ! Hamburger Hamilton stage 16 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
 property_value: end_dpf "3.7" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 17 (chicken)" xsd:string
-property_value: start_dpf "3.2" xsd:float
+property_value: start_dpf "3.35" xsd:float
 
 [Term]
 id: GgalDv:0000030
@@ -341,85 +350,928 @@ def: "Prenatal stage on incubation period defined by 30-36 somites extending bey
 comment: Usually obtained after 3 days of incubation.
 synonym: "HH18" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000029 ! Hamburger Hamilton stage 17 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
+property_value: end_dpf "3.75" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 18 (chicken)" xsd:string
-property_value: start_dpf "4.0" xsd:float
+property_value: start_dpf "3.7" xsd:float
 
 [Term]
 id: GgalDv:0000031
 name: Hamburger Hamilton stage 19 (chicken)
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 37- 40 somites extending into tail and maxillary process ." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
-comment: Usually obtained after 3-3.5 days of incubation.
+comment: Usually obtained after 3.0-3.5 days of incubation.
 synonym: "HH19" EXACT []
 is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000030 ! Hamburger Hamilton stage 18 (chicken)
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
+relationship: part_of UBERON:0000111
+property_value: end_dpf "3.8" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 19 (chicken)" xsd:string
-property_value: start_dpf "4.0" xsd:float
+property_value: start_dpf "3.75" xsd:float
 
 [Term]
 id: GgalDv:0000032
-name: Hamburger Hamilton stage 20 (chicken)
+name: Hamburger Hamilton stage 20
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after 50-53 hours of incubation.
 synonym: "HH20" EXACT []
-is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "3.21" xsd:float
 property_value: IAO:0000589 "Hamburger Hamilton stage 20 (chicken)" xsd:string
-property_value: start_dpf "3.1" xsd:float
+is_obsolete: true
+replaced_by: GgalDv:0000034
 
 [Term]
 id: GgalDv:0000033
-name: Hamburger Hamilton stage 21 (chicken)
+name: Hamburger Hamilton stage 21
 namespace: chicken_developmental_stage
 def: "Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
 comment: Usually obtained after 50-53 hours of incubation.
 synonym: "HH14" EXACT []
+relationship: only_in_taxon NCBITaxon:9031
+property_value: IAO:0000589 "Hamburger Hamilton stage 21 (chicken)" xsd:string
+is_obsolete: true
+replaced_by: GgalDv:0000035
+
+[Term]
+id: GgalDv:0000034
+name: Hamburger Hamilton stage 20 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by 40-43 somites, rotation completed, eye pigment." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 3.0-3.5 days of incubation.
+synonym: "HH20" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000031 ! Hamburger Hamilton stage 19 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "4.5" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 20 (chicken)" xsd:string
+property_value: start_dpf "3.8" xsd:float
+
+[Term]
+id: GgalDv:0000035
+name: Hamburger Hamilton stage 21 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by 43-44 somites, visceral arch IV, cleft 4." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 3.5 days of incubation.
+synonym: "HH21" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000034 ! Hamburger Hamilton stage 20 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "4.6" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 21 (chicken)" xsd:string
+property_value: start_dpf "4.5" xsd:float
+
+[Term]
+id: GgalDv:0000036
+name: Hamburger Hamilton stage 22 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by somites extending to tip of tail." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 3.5-4.0 days of incubation.
+synonym: "HH22" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000035 ! Hamburger Hamilton stage 21 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "5.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 22 (chicken)" xsd:string
+property_value: start_dpf "4.6" xsd:float
+
+[Term]
+id: GgalDv:0000037
+name: Hamburger Hamilton stage 23 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period when dorsal contour from hindbrain to tail is a curved line." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 4.0 days of incubation.
+synonym: "HH23" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000036 ! Hamburger Hamilton stage 22 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "5.5" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 23 (chicken)" xsd:string
+property_value: start_dpf "5.0" xsd:float
+
+[Term]
+id: GgalDv:0000038
+name: Hamburger Hamilton stage 24 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by toe plate." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 4.5 days of incubation.
+synonym: "HH24" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000037 ! Hamburger Hamilton stage 23 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "5.6" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 24 (chicken)" xsd:string
+property_value: start_dpf "5.5" xsd:float
+
+[Term]
+id: GgalDv:0000039
+name: Hamburger Hamilton stage 25 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by elbow and knee joints." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 4.5-5.0 days of incubation.
+synonym: "HH25" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000038 ! Hamburger Hamilton stage 24 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "6.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 25 (chicken)" xsd:string
+property_value: start_dpf "5.6" xsd:float
+
+[Term]
+id: GgalDv:0000040
+name: Hamburger Hamilton stage 26 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by 1st 3 toes." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 5.0 days of incubation.
+synonym: "HH26" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000039 ! Hamburger Hamilton stage 25 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "6.1" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 26 (chicken)" xsd:string
+property_value: start_dpf "6.0" xsd:float
+
+[Term]
+id: GgalDv:0000041
+name: Hamburger Hamilton stage 27 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by beak." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 5.0-5.5 days of incubation.
+synonym: "HH27" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000040 ! Hamburger Hamilton stage 26 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "6.5" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 27 (chicken)" xsd:string
+property_value: start_dpf "6.1" xsd:float
+
+[Term]
+id: GgalDv:0000042
+name: Hamburger Hamilton stage 28 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by 3 digits, 4 toes." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 5.5-6.0 days of incubation.
+synonym: "HH28" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000041 ! Hamburger Hamilton stage 27 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "7.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 28 (chicken)" xsd:string
+property_value: start_dpf "6.5" xsd:float
+
+[Term]
+id: GgalDv:0000043
+name: Hamburger Hamilton stage 29 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by rudiment of 5th toe." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 6.0-6.5 days of incubation.
+synonym: "HH29" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000042 ! Hamburger Hamilton stage 28 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "7.5" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 29 (chicken)" xsd:string
+property_value: start_dpf "7.0" xsd:float
+
+[Term]
+id: GgalDv:0000044
+name: Hamburger Hamilton stage 30 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by feather germs, scleral papillae, egg tooth." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 6.5-7.0 days of incubation.
+synonym: "HH30" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000043 ! Hamburger Hamilton stage 29 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "8.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 30 (chicken)" xsd:string
+property_value: start_dpf "7.5" xsd:float
+
+[Term]
+id: GgalDv:0000045
+name: Hamburger Hamilton stage 31 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by web between 1st and 2nd digits." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 7.0-7.5 days of incubation.
+synonym: "HH31" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000044 ! Hamburger Hamilton stage 30 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "8.5" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 31 (chicken)" xsd:string
+property_value: start_dpf "8.0" xsd:float
+
+[Term]
+id: GgalDv:0000046
+name: Hamburger Hamilton stage 32 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period when anterior tip of mandible has reached beak." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 7.5 days of incubation.
+synonym: "HH32" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000045 ! Hamburger Hamilton stage 31 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "8.6" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 32 (chicken)" xsd:string
+property_value: start_dpf "8.5" xsd:float
+
+[Term]
+id: GgalDv:0000047
+name: Hamburger Hamilton stage 33 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by web on radial margin of wing and 1st digit." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 7.5-8.0 days of incubation.
+synonym: "HH33" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000046 ! Hamburger Hamilton stage 32 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "9.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 33 (chicken)" xsd:string
+property_value: start_dpf "8.6" xsd:float
+
+[Term]
+id: GgalDv:0000048
+name: Hamburger Hamilton stage 34 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by nictitating membrane." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 8.0 days of incubation.
+synonym: "HH34" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000047 ! Hamburger Hamilton stage 33 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "9.5" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 34 (chicken)" xsd:string
+property_value: start_dpf "9.0" xsd:float
+
+[Term]
+id: GgalDv:0000049
+name: Hamburger Hamilton stage 35 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by phalanges in toes." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 8.5-9.0 days of incubation (means, 9.5 up to 10 days after fertilization. We put the upper limit to 11 days after fertilization, in sake of time continuity with the next HH stage).
+synonym: "HH35" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000048 ! Hamburger Hamilton stage 34 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "11.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 35 (chicken)" xsd:string
+property_value: start_dpf "9.5" xsd:float
+
+[Term]
+id: GgalDv:0000050
+name: Hamburger Hamilton stage 36 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of 3rd toe from tip to middle of metatarsal joint = 5.4 �0.3 mm, length of beak from anterior angle of nostril to tip of bill = 2.5mm, primordium of comb, labial groove, uropygial gland." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 10.0 days of incubation (means, 11 days after fertilization).
+synonym: "HH36" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000049 ! Hamburger Hamilton stage 35 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "12.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 36 (chicken)" xsd:string
+property_value: start_dpf "11.0" xsd:float
+
+[Term]
+id: GgalDv:0000051
+name: Hamburger Hamilton stage 37 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of 3rd toe = 7.4 �0.3mm; length of beak = 3.0 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 11.0 days of incubation.
+synonym: "HH37" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000050 ! Hamburger Hamilton stage 36 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "13.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 37 (chicken)" xsd:string
+property_value: start_dpf "12.0" xsd:float
+
+[Term]
+id: GgalDv:0000052
+name: Hamburger Hamilton stage 38 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of 3rd toe = 8.4 � 0.3 mm; length of beak = 3.1 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 12.0 days of incubation.
+synonym: "HH38" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000051 ! Hamburger Hamilton stage 37 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "14.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 38 (chicken)" xsd:string
+property_value: start_dpf "13.0" xsd:float
+
+[Term]
+id: GgalDv:0000053
+name: Hamburger Hamilton stage 39 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of 3rd toe = 9.8 � 0.3 mm; length of beak = 3.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 13.0 days of incubation.
+synonym: "HH39" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000052 ! Hamburger Hamilton stage 38 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "15.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 39 (chicken)" xsd:string
+property_value: start_dpf "14.0" xsd:float
+
+[Term]
+id: GgalDv:0000054
+name: Hamburger Hamilton stage 40 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of beak = 4.0 mm; length of 3rd toe = 12.7 � 0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 14.0 days of incubation.
+synonym: "HH40" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000053 ! Hamburger Hamilton stage 39 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "16.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 40 (chicken)" xsd:string
+property_value: start_dpf "15.0" xsd:float
+
+[Term]
+id: GgalDv:0000055
+name: Hamburger Hamilton stage 41 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of beak from anterior angle of nostril to tip of upper bill = 4.5 mm; length of 3rd toe = 14.9 � 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 15.0 days of incubation.
+synonym: "HH41" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000054 ! Hamburger Hamilton stage 40 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "17.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 41 (chicken)" xsd:string
+property_value: start_dpf "16.0" xsd:float
+
+[Term]
+id: GgalDv:0000056
+name: Hamburger Hamilton stage 42 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of beak = 4.8 mm; length of 3rd toe = 16.7 � 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 16.0 days of incubation.
+synonym: "HH42" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000055 ! Hamburger Hamilton stage 41 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "18.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 42 (chicken)" xsd:string
+property_value: start_dpf "17.0" xsd:float
+
+[Term]
+id: GgalDv:0000057
+name: Hamburger Hamilton stage 43 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of beak = 5.0 mm; length of 3rd toe = 18.6 � 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 17.0 days of incubation.
+synonym: "HH43" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000056 ! Hamburger Hamilton stage 42 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "19.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 43 (chicken)" xsd:string
+property_value: start_dpf "18.0" xsd:float
+
+[Term]
+id: GgalDv:0000058
+name: Hamburger Hamilton stage 44 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by length of beak = 5.7 mm; length of 3rd toe = 20.4 � 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 18.0 days of incubation.
+synonym: "HH44" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000057 ! Hamburger Hamilton stage 43 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "20.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 44 (chicken)" xsd:string
+property_value: start_dpf "19.0" xsd:float
+
+[Term]
+id: GgalDv:0000059
+name: Hamburger Hamilton stage 45 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by yolk sac half enclosed in body cavity, chorio-allantoic membrane containing less blood and 'sticky' in living embryo." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 19.0-20.0 days of incubation.
+synonym: "HH45" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000058 ! Hamburger Hamilton stage 44 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000111
+property_value: end_dpf "21.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 45 (chicken)" xsd:string
+property_value: start_dpf "20.0" xsd:float
+
+[Term]
+id: GgalDv:0000060
+name: Hamburger Hamilton stages 2 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 6-7 hours of incubation.
+synonym: "HH2" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000010 ! Hamburger Hamilton stage 1 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000108
+property_value: end_dpf "1.5" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stages 2 (chicken)" xsd:string
+property_value: start_dpf "1.25" xsd:float
+
+[Term]
+id: GgalDv:0000061
+name: Hamburger Hamilton stages 5 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by head process (notochord) formation." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 19-22 hours of incubation.
+synonym: "HH5" EXACT []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9031
-relationship: part_of UBERON:0000068
-property_value: end_dpf "3.21" xsd:float
-property_value: IAO:0000589 "Hamburger Hamilton stage 21 (chicken)" xsd:string
-property_value: start_dpf "3.1" xsd:float
+relationship: part_of UBERON:0000110
+property_value: end_dpf "1.9" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stages 5 (chicken)" xsd:string
+property_value: start_dpf "1.8" xsd:float
+
+[Term]
+id: GgalDv:0000062
+name: Hamburger Hamilton stages 6 (chicken)
+namespace: chicken_developmental_stage
+def: "Prenatal stage on incubation period defined by head fold formation." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 23-25 hours of incubation.
+synonym: "HH6" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000061 ! Hamburger Hamilton stages 5 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000110
+property_value: end_dpf "2.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stages 6 (chicken)" xsd:string
+property_value: start_dpf "1.9" xsd:float
+
+[Term]
+id: GgalDv:0000063
+name: early cleavage stage (chicken)
+namespace: chicken_developmental_stage
+def: "Before laying stage during which the shell membrane of egg is formed in isthmus of oviduct." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: This stage covers the first 3.5-4.5 hours of development after fertilization.
+synonym: "HH early cleavage" EXACT []
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000107
+property_value: end_dpf "0.2" xsd:float
+property_value: IAO:0000589 "early cleavage stage (chicken)" xsd:string
+property_value: start_dpf "0.0" xsd:float
+
+[Term]
+id: GgalDv:0000065
+name: late cleavage stage (chicken)
+namespace: chicken_developmental_stage
+def: "Before laying stage during which the shell of egg is formed in uterus." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: This stage covers the first 4.5-24 hours of development after fertilization.
+synonym: "HH late cleavage" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000063 ! early cleavage stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0000107
+property_value: end_dpf "1.0" xsd:float
+property_value: IAO:0000589 "late cleavage stage (chicken)" xsd:string
+property_value: start_dpf "0.2" xsd:float
+
+[Term]
+id: GgalDv:0000066
+name: 1-day-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 1 and under 2 days after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000090 ! Hamburger Hamilton stage 46 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_dph "2.0" xsd:float
+property_value: IAO:0000589 "1-day-old stage (chicken)" xsd:string
+property_value: start_dph "1.0" xsd:float
+
+[Term]
+id: GgalDv:0000067
+name: 2-day-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 2 and under 3 days after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000066 ! 1-day-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_dph "3.0" xsd:float
+property_value: IAO:0000589 "2-day-old stage (chicken)" xsd:string
+property_value: start_dph "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000068
+name: 3-day-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 3 and under 4 days after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000067 ! 2-day-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_dph "4.0" xsd:float
+property_value: IAO:0000589 "3-day-old stage (chicken)" xsd:string
+property_value: start_dph "3.0" xsd:float
+
+[Term]
+id: GgalDv:0000069
+name: 4-day-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 4 and under 5 days after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000068 ! 3-day-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_dph "5.0" xsd:float
+property_value: IAO:0000589 "4-day-old stage (chicken)" xsd:string
+property_value: start_dph "4.0" xsd:float
+
+[Term]
+id: GgalDv:0000070
+name: 5-day-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 5 and under 6 days after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000069 ! 4-day-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_dph "6.0" xsd:float
+property_value: IAO:0000589 "5-day-old stage (chicken)" xsd:string
+property_value: start_dph "5.0" xsd:float
+
+[Term]
+id: GgalDv:0000071
+name: 6-day-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 6 and under 7 days after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000070 ! 5-day-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_dph "7.0" xsd:float
+property_value: IAO:0000589 "6-day-old stage (chicken)" xsd:string
+property_value: start_dph "6.0" xsd:float
+
+[Term]
+id: GgalDv:0000072
+name: 1-week-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 7 days and under 14 days after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000071 ! 6-day-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_wph "2.0" xsd:float
+property_value: IAO:0000589 "1-week-old stage (chicken)" xsd:string
+property_value: start_wph "1.0" xsd:float
+
+[Term]
+id: GgalDv:0000073
+name: 2-week-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 2 and under 3 weeks after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000072 ! 1-week-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_wph "3.0" xsd:float
+property_value: IAO:0000589 "2-week-old stage (chicken)" xsd:string
+property_value: start_wph "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000074
+name: 3-week-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 3 and under 4 weeks after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000073 ! 2-week-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_wph "4.0" xsd:float
+property_value: IAO:0000589 "3-week-old stage (chicken)" xsd:string
+property_value: start_wph "3.0" xsd:float
+
+[Term]
+id: GgalDv:0000075
+name: 4-week-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Immature chicken that is over 4 and under 5 weeks after hatching." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000074 ! 3-week-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_wph "5.0" xsd:float
+property_value: IAO:0000589 "4-week-old stage (chicken)" xsd:string
+property_value: start_wph "4.0" xsd:float
+
+[Term]
+id: GgalDv:0000078
+name: young adult stage (chicken)
+namespace: chicken_developmental_stage
+def: "Chicken developmental stage that refers to a chicken who is over 5 months and under 2 years old." [Bgee:curator]
+comment: Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We define here the usual period when egg laying in females is the more active.
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0018241
+property_value: end_mph "24.0" xsd:float
+property_value: end_yph "2.0" xsd:float
+property_value: IAO:0000589 "young adult stage (chicken)" xsd:string
+property_value: start_mph "5.0" xsd:float
+property_value: start_yph "0.4.0" xsd:float
+
+[Term]
+id: GgalDv:0000079
+name: middle adult stage (chicken)
+namespace: chicken_developmental_stage
+def: "Chicken developmental stage that refers to a chicken who is over 2 and under 4 years old." [Bgee:curator]
+comment: Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We arbitrary define 4 years as the limit before senescence.
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000078 ! young adult stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of UBERON:0018241
+property_value: end_yph "4.0" xsd:float
+property_value: IAO:0000589 "middle adult stage (chicken)" xsd:string
+property_value: start_yph "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000081
+name: 5-month-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 5 and under 6 months old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0034919
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
+property_value: end_mph "6.0" xsd:float
+property_value: IAO:0000589 "5-month-old stage (chicken)" xsd:string
+property_value: start_mph "5.0" xsd:float
+
+[Term]
+id: GgalDv:0000082
+name: 6-month-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 6 and under 7 months old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000081 ! 5-month-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
+property_value: end_mph "7.0" xsd:float
+property_value: IAO:0000589 "6-month-old stage (chicken)" xsd:string
+property_value: start_mph "6.0" xsd:float
+
+[Term]
+id: GgalDv:0000083
+name: 7-month-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 7 and under 8 months old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000082 ! 6-month-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
+property_value: end_mph "8.0" xsd:float
+property_value: IAO:0000589 "7-month-old stage (chicken)" xsd:string
+property_value: start_mph "7.0" xsd:float
+
+[Term]
+id: GgalDv:0000084
+name: 8-month-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 8 and under 9 months old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000083 ! 7-month-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
+property_value: end_mph "9.0" xsd:float
+property_value: IAO:0000589 "8-month-old stage (chicken)" xsd:string
+property_value: start_mph "8.0" xsd:float
+
+[Term]
+id: GgalDv:0000085
+name: 9-month-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 9 and under 10 months old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000084 ! 8-month-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
+property_value: end_mph "10.0" xsd:float
+property_value: IAO:0000589 "9-month-old stage (chicken)" xsd:string
+property_value: start_mph "9.0" xsd:float
+
+[Term]
+id: GgalDv:0000086
+name: 10-month-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 10 and under 11 months old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000085 ! 9-month-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
+property_value: end_mph "11.0" xsd:float
+property_value: IAO:0000589 "10-month-old stage (chicken)" xsd:string
+property_value: start_mph "10.0" xsd:float
+
+[Term]
+id: GgalDv:0000087
+name: 11-month-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 11 and under 12 months old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000086 ! 10-month-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000078 ! young adult stage (chicken)
+property_value: end_mph "12.0" xsd:float
+property_value: IAO:0000589 "11-month-old stage (chicken)" xsd:string
+property_value: start_mph "11.0" xsd:float
+
+[Term]
+id: GgalDv:0000088
+name: 2-year-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 2 and under 3 years old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000008 ! 1-year-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000079 ! middle adult stage (chicken)
+property_value: end_yph "3.0" xsd:float
+property_value: IAO:0000589 "2-year-old stage (chicken)" xsd:string
+property_value: start_yph "2.0" xsd:float
+
+[Term]
+id: GgalDv:0000089
+name: 3-year-old stage (chicken)
+namespace: chicken_developmental_stage
+def: "Mature stage that refers to a chicken who is over 3 and under 4 years old." [Bgee:curator]
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000088 ! 2-year-old stage (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000079 ! middle adult stage (chicken)
+property_value: end_yph "4.0" xsd:float
+property_value: IAO:0000589 "3-year-old stage (chicken)" xsd:string
+property_value: start_yph "3.0" xsd:float
+
+[Term]
+id: GgalDv:0000090
+name: Hamburger Hamilton stage 46 (chicken)
+namespace: chicken_developmental_stage
+def: "Newly-hatched chick." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages]
+comment: Usually obtained after 20.0-21.0 days of incubation. We consider this stage encompassing the first 24 hours after hatching.
+synonym: "HH46" EXACT []
+is_a: UBERON:0000105
+relationship: immediately_preceded_by GgalDv:0000059 ! Hamburger Hamilton stage 45 (chicken)
+relationship: only_in_taxon NCBITaxon:9031
+relationship: part_of GgalDv:0000004 ! hatchling stage (chicken)
+property_value: end_dpf "22.0" xsd:float
+property_value: end_dph "1.0" xsd:float
+property_value: IAO:0000589 "Hamburger Hamilton stage 46 (chicken)" xsd:string
+property_value: start_dpf "21.0" xsd:float
+property_value: start_dph "0.0" xsd:float
+
+[Term]
+id: UBERON:0000066
+synonym: "postnatal stage" BROAD []
+xref: GgalDv:0000076
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: GgalDv:0000002
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9031 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: GgalDv:0000001
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9031 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9031 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+synonym: "life cycle stage" BROAD []
+xref: GgalDv:0000000
+
+[Term]
+id: UBERON:0000107
+synonym: "cleavage stage" BROAD []
+xref: GgalDv:0000064
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000108
+synonym: "blastula stage" BROAD []
+xref: GgalDv:0000091
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: immediately_preceded_by GgalDv:0000065 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! late cleavage stage (chicken)
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: GgalDv:0000092
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: immediately_preceded_by GgalDv:0000060 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! Hamburger Hamilton stages 2 (chicken)
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000110
+synonym: "neurula stage" BROAD []
+xref: GgalDv:0000093
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: immediately_preceded_by GgalDv:0000013 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! Hamburger Hamilton stage 4 (chicken)
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000111
+synonym: "organogenesis stage" BROAD []
+xref: GgalDv:0000094
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: immediately_preceded_by GgalDv:0000062 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! Hamburger Hamilton stages 6 (chicken)
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: GgalDv:0000003
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9031 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: GgalDv:0000006
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9031 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 
 [Term]
-id: UBERON:0007221
+id: UBERON:0007222
+synonym: "late adult stage" BROAD []
+xref: GgalDv:0000080
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9031 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: immediately_preceded_by GgalDv:0000079 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! middle adult stage (chicken)
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0018241
+synonym: "prime adult stage" BROAD []
+xref: GgalDv:0000077
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0034919 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: GgalDv:0000005
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
+relationship: immediately_preceded_by GgalDv:0000004 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! hatchling stage (chicken)
+relationship: immediately_preceded_by GgalDv:0000075 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! 4-week-old stage (chicken)
 relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:9031", gci_relation="part_of"}
 
 [Typedef]
@@ -438,6 +1290,15 @@ namespace: chicken_stages_ontology
 def: "Count of number of months intervening between the end of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
+is_metadata_tag: true
+
+[Typedef]
+id: end_yph
+name: end, years post hatching
+namespace: pufferfish_stages_ontology
+def: "Count of number of years intervening between the end of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the organism is one year old has the value 2" []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000036
 is_metadata_tag: true
 
 [Typedef]
@@ -502,5 +1363,14 @@ namespace: chicken_stages_ontology
 def: "Count of number of months intervening between the start of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
+is_metadata_tag: true
+
+[Typedef]
+id: start_yph
+name: start, years post hatching
+namespace: pufferfish_stages_ontology
+def: "Count of number of years intervening between the start of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the organism is one year old has the value 1." []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000036
 is_metadata_tag: true
 
