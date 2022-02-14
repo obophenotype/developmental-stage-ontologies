@@ -820,7 +820,7 @@ namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers." [Bgee:curator "Bgee"]
 synonym: "under-1-month-old chicken stage" EXACT []
 synonym: "neonate stage" RELATED []
-xref: UBERON:0007221
+comment: For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 hwith UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000003 ! immature stage
 property_value: start_dpf "21.0" xsd:float
@@ -972,6 +972,7 @@ xref: UBERON:0034919
 is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000003 ! immature stage
 relationship: immediately_preceded_by GgalDv:0000004 ! hatchling stage
+relationship: immediately_preceded_by GgalDv:0000075 ! 4-week-old stage
 property_value: start_mph "1.0" xsd:float
 property_value: end_mph "5.0" xsd:float
 
