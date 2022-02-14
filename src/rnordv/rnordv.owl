@@ -210,6 +210,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consider</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
@@ -386,7 +394,7 @@
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stage</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000000</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat life cycle stage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life cycle stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
@@ -408,7 +416,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000001</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaginal plug normally persists 12 - 24 hours and may lasts as long as 48 hours (see http://web.jhu.edu/animalcare/procedures/rat.html).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat life cycle</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life cycle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000001"/>
@@ -522,12 +530,12 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.</obo:IAO_0000115>
-        <rnordv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.75</rnordv:end_dpf>
+        <rnordv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</rnordv:end_dpf>
         <rnordv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</rnordv:start_dpf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000109</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000005</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage covers the blastocyst uterus implantation period, from Standard Witschi Stage 8 up to 11 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 4 up to 6 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&amp;printsec=frontcover&amp;hl=fr#v=onepage&amp;q&amp;f=false &quot;Table 12.17, p.510&quot;)</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage covers the blastocyst uterus implantation period, from Standard Witschi Stage 8 up to 12 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 4 up to 6 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&amp;printsec=frontcover&amp;hl=fr#v=onepage&amp;q&amp;f=false &quot;Table 12.17, p.510&quot;)</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrula stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -546,7 +554,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -613,7 +621,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -625,7 +633,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic stage during which somites 26-28(upper lumbar) up to somites 39-40(caudal) appear.</obo:IAO_0000115>
         <rnordv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.375</rnordv:end_dpf>
         <rnordv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</rnordv:start_dpf>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000111</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000008</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage corresponds to Standard Witschi Stage 18 up to 24 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 12 up to 13 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&amp;printsec=frontcover&amp;hl=fr#v=onepage&amp;q&amp;f=false &quot;Table 12.17, p.510&quot;)</rdfs:comment>
@@ -647,7 +654,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -680,7 +687,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -747,7 +754,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000061"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -782,7 +789,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immature stage that covers the period from birth until 16 days of age.</obo:IAO_0000115>
@@ -791,6 +798,7 @@
         <rnordv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</rnordv:start_dpf>
         <rnordv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</rnordv:start_wpb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007221</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neonate stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000013</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage describes the post-natal period when the fetus becomes a breathing and suckling nestling during the first 16 days (22 to 38 days total age), while eyelids remain sealed and external ear ducts are plugged with periderm (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline).</rdfs:comment>
@@ -808,26 +816,13 @@
     <!-- http://purl.obolibrary.org/obo/RnorDv_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000013"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immature stage that refers to a rat which is over 2 weeks and under 10 weeks old.</obo:IAO_0000115>
-        <rnordv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</rnordv:end_wpb>
-        <rnordv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</rnordv:start_wpb>
+        <oboInOwl:consider rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000057</oboInOwl:consider>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000014</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends when the rat becomes sexually mature (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infant stage</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000014"/>
@@ -845,7 +840,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000061"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -878,7 +873,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that refers to a sexually mature adult rat, which is over 10 and under 11 weeks old.</obo:IAO_0000115>
@@ -905,7 +900,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -938,7 +933,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -973,7 +968,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1105,7 +1100,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1138,7 +1133,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1171,7 +1166,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1204,7 +1199,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1237,7 +1232,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1270,7 +1265,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1303,7 +1298,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1336,7 +1331,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1369,7 +1364,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1402,7 +1397,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1435,7 +1430,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1468,7 +1463,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1501,7 +1496,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1534,7 +1529,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1567,7 +1562,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1600,7 +1595,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1633,7 +1628,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1666,7 +1661,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1799,7 +1794,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1832,7 +1827,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1865,7 +1860,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1898,7 +1893,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2150,6 +2145,229 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000108</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RnorDv_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000111</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000055</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organogenesis stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000111</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RnorDv_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that covers the period from birth until weaning.</obo:IAO_0000115>
+        <rnordv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</rnordv:end_wpb>
+        <rnordv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</rnordv:start_dpf>
+        <rnordv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</rnordv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018685</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000056</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weaning occurs at about 25 days of age (see https://embryology.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nursing stage stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that covers the period from birth until weaning.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RnorDv_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immature stage that refers to a rat which is over 2 weeks and still not weaned.</obo:IAO_0000115>
+        <rnordv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</rnordv:end_wpb>
+        <rnordv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</rnordv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034920</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000057</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends at weaning, at about 25 days of age (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infant stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immature stage that refers to a rat which is over 2 weeks and still not weaned.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RnorDv_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immature stage that refers to a weaned rat which is under 10 weeks old.</obo:IAO_0000115>
+        <rnordv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</rnordv:end_wpb>
+        <rnordv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</rnordv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034919</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000058</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends at weaning, at about 25 days of age (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immature stage that refers to a weaned rat which is under 10 weeks old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RnorDv_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that refers to a sexually mature adult rat, which is over 10 weeks old, and under 18 months old.</obo:IAO_0000115>
+        <rnordv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</rnordv:end_mpb>
+        <rnordv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</rnordv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000059</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senescence in rat starts at about 19 months old (see https://www.criver.com/products-services/discovery-services/pharmacology-studies/neuroscience-models-assays/alzheimers-disease-studies/aged-rats-and-mice-cognitive-decline?region=3696)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prime adult stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that refers to a sexually mature adult rat, which is over 10 weeks old, and under 18 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RnorDv_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that refers to a sexually mature adult rat, which is over 18 months old.</obo:IAO_0000115>
+        <rnordv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</rnordv:start_mpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:007222</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000060</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">late adult stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000060"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that refers to a sexually mature adult rat, which is over 18 months old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RnorDv_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that covers the period from birth until late adulthood.</obo:IAO_0000115>
+        <rnordv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</rnordv:start_dpf>
+        <rnordv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</rnordv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000061</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postnatal stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000061"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that covers the period from birth until late adulthood.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
