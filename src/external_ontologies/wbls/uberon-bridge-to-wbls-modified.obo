@@ -3,77 +3,620 @@ data-version: 2021-02-16
 property_value: seeAlso "http://purl.obolibrary.org/obo/uberon/references/reference_0000026" xsd:anyURI
 
 [Term]
+id: WBls:0000058
+intersection_of: UBERON:0000112 ! sexually immature stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: UBERON:0000112
+xref: WBls:0000058
+
+[Term]
+id: WBls:0000825
+intersection_of: UBERON:0000104 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: UBERON:0000104
+xref: WBls:0000825
+
+[Term]
 id: WBls:0000041 ! 
 property_value: IAO:0000589 "fully formed stage (worm)" xsd:string
 intersection_of: UBERON:0000066 ! fully formed stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000104
+property_value: IAO:0000589 "fully formed stage (worm)" xsd:string
+intersection_of: UBERON:0000066 ! fully formed stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000056
+property_value: IAO:0000589 "fully formed stage (worm)" xsd:string
+intersection_of: UBERON:0000066 ! fully formed stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000057
+property_value: IAO:0000589 "fully formed stage (worm)" xsd:string
+intersection_of: UBERON:0000066 ! fully formed stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: UBERON:0000066
+xref: WBls:0000041
+xref: WBls:0000056
+xref: WBls:0000057
+xref: WBls:0000104
 
 [Term]
 id: WBls:0000003 ! 
 property_value: IAO:0000589 "embryo stage (worm)" xsd:string
 intersection_of: UBERON:0000068 ! embryo stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
 
 [Term]
-id: WBls:0000092 ! 
-property_value: IAO:0000589 "embryo stage (worm)" xsd:string
-intersection_of: UBERON:0000068 ! embryo stage
-intersection_of: part_of NCBITaxon:6237
+id: UBERON:0000068
+xref: WBls:0000003
+xref: WBls:0000102
+xref: WBls:0000004
 
 [Term]
 id: WBls:0000102 ! 
 property_value: IAO:0000589 "embryo stage (worm)" xsd:string
 intersection_of: UBERON:0000068 ! embryo stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
 
 [Term]
 id: WBls:0000022 ! 
 property_value: IAO:0000589 "post-embryonic stage (worm)" xsd:string
 intersection_of: UBERON:0000092 ! post-embryonic stage
-intersection_of: part_of NCBITaxon:6237
-
-[Term]
-id: WBls:0000093 ! 
-property_value: IAO:0000589 "post-embryonic stage (worm)" xsd:string
-intersection_of: UBERON:0000092 ! post-embryonic stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
 
 [Term]
 id: WBls:0000103 ! 
 property_value: IAO:0000589 "post-embryonic stage (worm)" xsd:string
 intersection_of: UBERON:0000092 ! post-embryonic stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: UBERON:0000092
+xref: WBls:0000022
+xref: WBls:0000103
 
 [Term]
 id: WBls:0000002 ! 
 property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
 intersection_of: UBERON:0000105 ! life cycle stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000822
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000823
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000803
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000804
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000805
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000806
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000807
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000808
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000809
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000810
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000811
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000812
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000813
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000814
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000815
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000816
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000817
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000818
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000819
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000820
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000821
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000824
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000101
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000001
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000075
+property_value: IAO:0000589 "life cycle stage (worm)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: UBERON:0000105
+xref: WBls:0000002
+xref: WBls:0000822
+xref: WBls:0000823
+xref: WBls:0000803
+xref: WBls:0000804
+xref: WBls:0000805
+xref: WBls:0000806
+xref: WBls:0000807
+xref: WBls:0000808
+xref: WBls:0000809
+xref: WBls:0000810
+xref: WBls:0000811
+xref: WBls:0000812
+xref: WBls:0000813
+xref: WBls:0000814
+xref: WBls:0000815
+xref: WBls:0000816
+xref: WBls:0000817
+xref: WBls:0000818
+xref: WBls:0000819
+xref: WBls:0000820
+xref: WBls:0000821
+xref: WBls:0000822
+xref: WBls:0000824
+xref: WBls:0000101
+xref: WBls:0000001
+xref: WBls:0000075
 
 [Term]
 id: WBls:0000005 ! 
 property_value: IAO:0000589 "blastula stage (worm)" xsd:string
 intersection_of: UBERON:0000108 ! blastula stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
 
 [Term]
 id: WBls:0000010 ! 
 property_value: IAO:0000589 "gastrula stage (worm)" xsd:string
 intersection_of: UBERON:0000109 ! gastrula stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
 
 [Term]
 id: WBls:0000023 ! 
 property_value: IAO:0000589 "nematode larval stage (worm)" xsd:string
 intersection_of: UBERON:0004729 ! nematode larval stage
-intersection_of: part_of NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000105
+property_value: IAO:0000589 "nematode larval stage (worm)" xsd:string
+intersection_of: UBERON:0004729 ! nematode larval stage
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: UBERON:0004729
+xref: WBls:0000023
+xref: WBls:0000105
+
+[Term]
+id: UBERON:0000108
+xref: WBls:0000005
+xref: WBls:0000144
+xref: WBls:0000153
+xref: WBls:0000120
+xref: WBls:0000180
+xref: WBls:0000136
+xref: WBls:0000117
+xref: WBls:0000129
+xref: WBls:0000197
+xref: WBls:0000192
+xref: WBls:0000207
+xref: WBls:0000150
+xref: WBls:0000196
+xref: WBls:0000130
+xref: WBls:0000210
+xref: WBls:0000112
+xref: WBls:0000193
+xref: WBls:0000199
+xref: WBls:0000201
+xref: WBls:0000191
+xref: WBls:0000135
+xref: WBls:0000159
+xref: WBls:0000146
+xref: WBls:0000202
+xref: WBls:0000113
+xref: WBls:0000184
+xref: WBls:0000156
+xref: WBls:0000182
+xref: WBls:0000173
+xref: WBls:0000154
+xref: WBls:0000119
+xref: WBls:0000114
+xref: WBls:0000205
+xref: WBls:0000161
+xref: WBls:0000139
+xref: WBls:0000163
+xref: WBls:0000118
+xref: WBls:0000194
+xref: WBls:0000133
+xref: WBls:0000143
+xref: WBls:0000127
+xref: WBls:0000167
+xref: WBls:0000172
+xref: WBls:0000198
+xref: WBls:0000209
+xref: WBls:0000151
+xref: WBls:0000121
+xref: WBls:0000204
+xref: WBls:0000164
+xref: WBls:0000126
+xref: WBls:0000140
+xref: WBls:0000160
+xref: WBls:0000177
+xref: WBls:0000179
+xref: WBls:0000157
+xref: WBls:0000168
+xref: WBls:0000170
+xref: WBls:0000206
+xref: WBls:0000195
+xref: WBls:0000147
+xref: WBls:0000122
+xref: WBls:0000166
+xref: WBls:0000178
+xref: WBls:0000116
+xref: WBls:0000123
+xref: WBls:0000134
+xref: WBls:0000115
+xref: WBls:0000138
+xref: WBls:0000189
+xref: WBls:0000152
+xref: WBls:0000128
+xref: WBls:0000137
+xref: WBls:0000183
+xref: WBls:0000200
+xref: WBls:0000185
+xref: WBls:0000186
+xref: WBls:0000208
+xref: WBls:0000158
+xref: WBls:0000175
+xref: WBls:0000155
+xref: WBls:0000171
+xref: WBls:0000148
+xref: WBls:0000145
+xref: WBls:0000162
+xref: WBls:0000141
+xref: WBls:0000149
+xref: WBls:0000132
+xref: WBls:0000211
+xref: WBls:0000190
+xref: WBls:0000125
+xref: WBls:0000169
+xref: WBls:0000176
+xref: WBls:0000174
+xref: WBls:0000181
+xref: WBls:0000124
+xref: WBls:0000187
+xref: WBls:0000142
+xref: WBls:0000188
+xref: WBls:0000131
+xref: WBls:0000165
+xref: WBls:0000203
+
+[Term]
+id: UBERON:0000109
+xref: WBls:0000010
+xref: WBls:0000212
+xref: WBls:0000295
+xref: WBls:0000280
+xref: WBls:0000234
+xref: WBls:0000263
+xref: WBls:0000229
+xref: WBls:0000361
+xref: WBls:0000217
+xref: WBls:0000372
+xref: WBls:0000349
+xref: WBls:0000264
+xref: WBls:0000298
+xref: WBls:0000347
+xref: WBls:0000258
+xref: WBls:0000381
+xref: WBls:0000226
+xref: WBls:0000270
+xref: WBls:0000341
+xref: WBls:0000267
+xref: WBls:0000248
+xref: WBls:0000249
+xref: WBls:0000251
+xref: WBls:0000219
+xref: WBls:0000330
+xref: WBls:0000245
+xref: WBls:0000335
+xref: WBls:0000350
+xref: WBls:0000294
+xref: WBls:0000312
+xref: WBls:0000300
+xref: WBls:0000346
+xref: WBls:0000224
+xref: WBls:0000342
+xref: WBls:0000266
+xref: WBls:0000273
+xref: WBls:0000311
+xref: WBls:0000284
+xref: WBls:0000366
+xref: WBls:0000394
+xref: WBls:0000291
+xref: WBls:0000318
+xref: WBls:0000254
+xref: WBls:0000314
+xref: WBls:0000241
+xref: WBls:0000395
+xref: WBls:0000231
+xref: WBls:0000375
+xref: WBls:0000379
+xref: WBls:0000391
+xref: WBls:0000268
+xref: WBls:0000389
+xref: WBls:0000386
+xref: WBls:0000274
+xref: WBls:0000215
+xref: WBls:0000225
+xref: WBls:0000303
+xref: WBls:0000316
+xref: WBls:0000306
+xref: WBls:0000337
+xref: WBls:0000227
+xref: WBls:0000237
+xref: WBls:0000296
+xref: WBls:0000340
+xref: WBls:0000286
+xref: WBls:0000371
+xref: WBls:0000252
+xref: WBls:0000354
+xref: WBls:0000331
+xref: WBls:0000260
+xref: WBls:0000390
+xref: WBls:0000297
+xref: WBls:0000343
+xref: WBls:0000232
+xref: WBls:0000369
+xref: WBls:0000322
+xref: WBls:0000362
+xref: WBls:0000304
+xref: WBls:0000289
+xref: WBls:0000310
+xref: WBls:0000313
+xref: WBls:0000358
+xref: WBls:0000365
+xref: WBls:0000240
+xref: WBls:0000292
+xref: WBls:0000377
+xref: WBls:0000382
+xref: WBls:0000235
+xref: WBls:0000216
+xref: WBls:0000385
+xref: WBls:0000333
+xref: WBls:0000393
+xref: WBls:0000351
+xref: WBls:0000388
+xref: WBls:0000315
+xref: WBls:0000244
+xref: WBls:0000281
+xref: WBls:0000220
+xref: WBls:0000367
+xref: WBls:0000290
+xref: WBls:0000277
+xref: WBls:0000214
+xref: WBls:0000384
+xref: WBls:0000368
+xref: WBls:0000302
+xref: WBls:0000305
+xref: WBls:0000262
+xref: WBls:0000287
+xref: WBls:0000324
+xref: WBls:0000259
+xref: WBls:0000317
+xref: WBls:0000279
+xref: WBls:0000243
+xref: WBls:0000242
+xref: WBls:0000339
+xref: WBls:0000380
+xref: WBls:0000308
+xref: WBls:0000239
+xref: WBls:0000283
+xref: WBls:0000327
+xref: WBls:0000221
+xref: WBls:0000247
+xref: WBls:0000246
+xref: WBls:0000233
+xref: WBls:0000370
+xref: WBls:0000320
+xref: WBls:0000301
+xref: WBls:0000307
+xref: WBls:0000338
+xref: WBls:0000321
+xref: WBls:0000378
+xref: WBls:0000392
+xref: WBls:0000374
+xref: WBls:0000213
+xref: WBls:0000396
+xref: WBls:0000359
+xref: WBls:0000326
+xref: WBls:0000282
+xref: WBls:0000353
+xref: WBls:0000400
+xref: WBls:0000356
+xref: WBls:0000265
+xref: WBls:0000309
+xref: WBls:0000398
+xref: WBls:0000401
+xref: WBls:0000334
+xref: WBls:0000348
+xref: WBls:0000299
+xref: WBls:0000230
+xref: WBls:0000357
+xref: WBls:0000363
+xref: WBls:0000288
+xref: WBls:0000272
+xref: WBls:0000278
+xref: WBls:0000236
+xref: WBls:0000345
+xref: WBls:0000397
+xref: WBls:0000383
+xref: WBls:0000250
+xref: WBls:0000269
+xref: WBls:0000323
+xref: WBls:0000275
+xref: WBls:0000373
+xref: WBls:0000276
+xref: WBls:0000329
+xref: WBls:0000352
+xref: WBls:0000325
+xref: WBls:0000328
+xref: WBls:0000364
+xref: WBls:0000261
+xref: WBls:0000293
+xref: WBls:0000255
+xref: WBls:0000257
+xref: WBls:0000332
+xref: WBls:0000319
+xref: WBls:0000376
+xref: WBls:0000222
+xref: WBls:0000228
+xref: WBls:0000399
+xref: WBls:0000336
+xref: WBls:0000285
+xref: WBls:0000360
+xref: WBls:0000253
+xref: WBls:0000355
+xref: WBls:0000256
+xref: WBls:0000344
+xref: WBls:0000271
+xref: WBls:0000238
+xref: WBls:0000223
+xref: WBls:0000387
+xref: WBls:0000218
+
+[Term]
+id: WBls:0000056
+property_value: IAO:0000589 "adult male Ce (nematode)" xsd:string
+intersection_of: UBERON:0000066
+intersection_of: part_of NCBITaxon:6239
+
+[Term]
+id: WBls:0000057
+property_value: IAO:0000589 "adult hermaphrodite Ce (nematode)" xsd:string
+intersection_of: UBERON:0000066 ! adult Ce
+intersection_of: part_of NCBITaxon:6239
 
 [Term]
 id: WBls:ENTITY
 name: WBls entity
 intersection_of: UBERON:0001062 ! anatomical entity
-intersection_of: part_of NCBITaxon:6237
-relationship: only_in_taxon NCBITaxon:6237
+intersection_of: part_of NCBITaxon:6239
+relationship: only_in_taxon NCBITaxon:6239
 
 [Typedef]
 id: part_of
