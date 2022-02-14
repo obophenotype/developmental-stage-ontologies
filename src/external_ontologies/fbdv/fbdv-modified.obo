@@ -31,14 +31,11 @@ property_value: http://purl.org/dc/elements/1.1/title "FlyBase Developmental Ont
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
 property_value: IAO:0000700 FBdv:00000000
 property_value: IAO:0000700 FBdv:00005259
-property_value: IAO:0000700 FBdv:00007013
-property_value: IAO:0000700 FBdv:00007024
 property_value: owl:versionInfo "2021-01-13" xsd:string
 
 [Term]
 id: FBdv:00000000
 name: Drosophila life
-alt_id: FBdv_root:00000000
 def: "The life of an individual of the species Drosophila melanogaster, from fertilization to death." [FBC:DOS]
 synonym: "Drosophila life cycle" EXACT []
 
@@ -67,12 +64,12 @@ name: oogenesis
 comment: Temporal ordering number - 10000.
 synonym: "oogenesis stage" EXACT []
 xref: GO:0048477
-is_a: FBdv:00007009 ! developmental process
+is_a: FBdv:00005259
+relationship: part_of FBdv:00005286 ! egg stage
 
 [Term]
 id: FBdv:00005259
 name: developmental stage
-alt_id: FBdv:00007010
 def: "A temporal subdivision of a developmental process." [FBC:DOS]
 created_by: djs93
 creation_date: 2009-10-01T05:56:56Z
@@ -310,6 +307,7 @@ name: egg stage
 def: "The stage of the Drosophila life-cycle from maturation of an egg to the end of fertilization. At the beginning of this stage, the nucleus is arrested in meiotic metaphase I. The completion of meiosis and the start of protein synthesis are triggered by ovulation. If the female has already mated, fertilization begins during meiosis." [FlyBase:FBrf0064779]
 comment: Temporal ordering number - 10290.
 is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00000000 ! Drosophila life
 
 [Term]
 id: FBdv:00005287
@@ -323,18 +321,18 @@ relationship: part_of FBdv:00005286 ! egg stage
 [Term]
 id: FBdv:00005288
 name: fertilized egg stage
-comment: Temporal ordering number - 10.
+comment: Temporal ordering number - 24.
 is_a: FBdv:00005259 ! developmental stage
-relationship: immediately_preceded_by FBdv:00005287 ! unfertilized egg stage
-relationship: part_of FBdv:00005286 ! egg stage
+relationship: part_of FBdv:00005289 ! embryonic stage
 
 [Term]
 id: FBdv:00005289
 name: embryonic stage
 def: "The stage of the Drosophila life-cycle from fertilization to hatching." [FBC:DOS]
 comment: Temporal ordering number - 20.
-is_a: FBdv:00007012 ! life stage
-relationship: immediately_preceded_by FBdv:00005288 ! fertilized egg stage
+is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00000000 ! Drosophila life
+relationship: preceded_by FBdv:00005286 ! egg stage
 
 [Term]
 id: FBdv:00005290
@@ -360,7 +358,7 @@ id: FBdv:00005292
 name: embryonic cycle 1
 def: "The first mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 50.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005288 ! fertilized egg stage
 relationship: part_of FBdv:00005291 ! embryonic stage 1
 
@@ -378,7 +376,7 @@ id: FBdv:00005294
 name: embryonic cycle 2
 def: "The second mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 60.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005292 ! embryonic cycle 1
 relationship: part_of FBdv:00005293 ! embryonic stage 2
 
@@ -387,7 +385,7 @@ id: FBdv:00005295
 name: embryonic cycle 3
 def: "The third mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 80.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005291 ! embryonic stage 1
 relationship: immediately_preceded_by FBdv:00005294 ! embryonic cycle 2
 relationship: part_of FBdv:00005293 ! embryonic stage 2
@@ -397,7 +395,7 @@ id: FBdv:00005296
 name: embryonic cycle 4
 def: "The fourth mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 90.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005295 ! embryonic cycle 3
 relationship: part_of FBdv:00005293 ! embryonic stage 2
 
@@ -406,7 +404,7 @@ id: FBdv:00005297
 name: embryonic cycle 5
 def: "The fifth mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 100.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005296 ! embryonic cycle 4
 relationship: part_of FBdv:00005293 ! embryonic stage 2
 
@@ -415,7 +413,7 @@ id: FBdv:00005298
 name: embryonic cycle 6
 def: "The sixth mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 110.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005297 ! embryonic cycle 5
 relationship: part_of FBdv:00005293 ! embryonic stage 2
 
@@ -424,7 +422,7 @@ id: FBdv:00005299
 name: embryonic cycle 7
 def: "The seventh mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 120.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005298 ! embryonic cycle 6
 relationship: part_of FBdv:00005293 ! embryonic stage 2
 
@@ -433,7 +431,7 @@ id: FBdv:00005300
 name: embryonic cycle 8
 def: "The eighth mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 130.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005299 ! embryonic cycle 7
 relationship: part_of FBdv:00005293 ! embryonic stage 2
 
@@ -452,7 +450,7 @@ id: FBdv:00005302
 name: embryonic cycle 9
 def: "The ninth mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 150.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005293 ! embryonic stage 2
 relationship: immediately_preceded_by FBdv:00005300 ! embryonic cycle 8
 relationship: part_of FBdv:00005301 ! embryonic stage 3
@@ -462,7 +460,7 @@ id: FBdv:00005303
 name: embryonic cycle 10
 def: "The tenth mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 180.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005301 ! embryonic stage 3
 relationship: immediately_preceded_by FBdv:00005302 ! embryonic cycle 9
 relationship: part_of FBdv:00005306 ! embryonic stage 4
@@ -501,7 +499,7 @@ id: FBdv:00005307
 name: embryonic cycle 11
 def: "The 11th mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 185.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005303 ! embryonic cycle 10
 relationship: part_of FBdv:00005306 ! embryonic stage 4
 
@@ -510,7 +508,7 @@ id: FBdv:00005308
 name: embryonic cycle 12
 def: "The 12th mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 190.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005307 ! embryonic cycle 11
 relationship: part_of FBdv:00005306 ! embryonic stage 4
 
@@ -519,7 +517,7 @@ id: FBdv:00005309
 name: embryonic cycle 13
 def: "The 13th mitotic cell cycle of embryogenesis. This occurs synchronously across the embryo." [FlyBase:FBrf0049535]
 comment: Temporal ordering number - 200.
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005308 ! embryonic cycle 12
 relationship: part_of FBdv:00005306 ! embryonic stage 4
 
@@ -546,7 +544,7 @@ name: embryonic cycle 14
 def: "The 14th mitotic cell cycle of embryogenesis. This is the first round of nuclear division to occur in a cellularized embryo, so this is the first round of cell division. Embryonic cycle 14 mitosis is asynchronous across the embryo, but occurs synchronously within discrete domains, known as mitotic domains." [FlyBase:FBrf0049535, FlyBase:FBrf0089570]
 comment: Temporal ordering number - 255. The asynchronous nature of cycle 14 divisions means that this is not very useful for annotating stage. If possible a standard embryonic stage should be used instead.
 synonym: "first blastoderm mitosis" EXACT [FlyBase:FBrf0089570]
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: part_of FBdv:00005289 ! embryonic stage
 
 [Term]
@@ -555,7 +553,7 @@ name: embryonic cycle 14A
 def: "The interphase of embryonic cycle 14. This begins at the same time as cellularization and is of variable length depending on cell identity: embryonic cycle 14 M phase (14B) is asynchronous across the embryo, but occurs synchronously within discrete domains, known as mitotic domains." [[FlyBase:FBrf0039741]
 comment: Temporal ordering number - 256.
 synonym: "embryonic cycle 14 interphase" EXACT [FBC:DOS]
-is_a: FBdv:00007022 ! embryonic cycle interphase
+is_a: FBdv:00005259
 relationship: part_of FBdv:00005312 ! embryonic cycle 14
 
 [Term]
@@ -564,7 +562,7 @@ name: embryonic cycle 14B
 def: "The M-phase of embryonic cycle 14. This is asynchronous across the embryo, but occurs synchronously within discrete domains, known as mitotic domains." [FlyBase:FBrf0039741]
 comment: Temporal ordering number - 257. Not to be confused with mitotic domain 14B, which is a domain of cells in the dorsal midline of the head that don't undergo a 14th division (Foe, 1989). The asynchronous nature of cycle 14 divisions means that this is not very useful for annotating stage. If possible a standard embryonic stage should be used instead.
 synonym: "embryonic cycle 14 M-phase" EXACT [FBC:DOS]
-is_a: FBdv:00007023 ! embryonic cycle M-phase
+is_a: FBdv:00005259
 relationship: part_of FBdv:00005312 ! embryonic cycle 14
 
 [Term]
@@ -573,7 +571,7 @@ name: embryonic cycle 15
 def: "The 15th cell cycle of embryogenesis. Asynchronous." [FlyBase:FBrf0089570]
 comment: Temporal ordering number - 285. The asynchronous nature of cycle 15 divisions means that this is not very useful for annotating stage. If possible a standard embryonic stage should be used instead.
 synonym: "second blastoderm mitosis" EXACT [FlyBase:FBrf0089570]
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005312 ! embryonic cycle 14
 relationship: part_of FBdv:00005289 ! embryonic stage
 
@@ -583,7 +581,7 @@ name: embryonic cycle 16
 def: "The 16th cell cycle division of embryogenesis. Asynchronous." [FlyBase:FBrf0089570]
 comment: Temporal ordering number - 295. The asynchronous nature of cycle 16 divisions means that this is not very useful for annotating stage. If possible a standard embryonic stage should be used instead.
 synonym: "third blastoderm mitosis" EXACT [FlyBase:FBrf0089570]
-is_a: FBdv:00007011 ! embryonic cycle
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005315 ! embryonic cycle 15
 relationship: part_of FBdv:00005289 ! embryonic stage
 
@@ -768,7 +766,8 @@ id: FBdv:00005336
 name: larval stage
 def: "The stage of the Drosophila life-cycle from hatching to the beginning of puparium formation." [FBC:DOS]
 comment: Temporal ordering number - 400.
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00000000 ! Drosophila life
 relationship: immediately_preceded_by FBdv:00005289 ! embryonic stage
 relationship: immediately_preceded_by FBdv:00005335 ! embryonic stage 17
 relationship: immediately_preceded_by FBdv:00007018 ! embryonic stage 17(iv)
@@ -780,7 +779,7 @@ def: "The first larval instar begins at hatching and ends at the first larval mo
 comment: Temporal ordering number - 410.
 synonym: "first instar larva" EXACT []
 synonym: "L1" EXACT []
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
 relationship: immediately_preceded_by FBdv:00005289 ! embryonic stage
 relationship: immediately_preceded_by FBdv:00005333 ! late embryonic stage
 relationship: immediately_preceded_by FBdv:00005335 ! embryonic stage 17
@@ -794,7 +793,7 @@ def: "The second larval instar begins at the first larval molt and ends at the s
 comment: Temporal ordering number - 420.
 synonym: "L2" EXACT []
 synonym: "second instar larva" EXACT []
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
 relationship: immediately_preceded_by FBdv:00005337 ! first instar larval stage
 relationship: part_of FBdv:00005336 ! larval stage
 
@@ -805,7 +804,7 @@ def: "The third larval instar begins at the second larval molt and ends at pupar
 comment: Temporal ordering number - 430.
 synonym: "L3" EXACT []
 synonym: "third instar larva" RELATED []
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
 relationship: immediately_preceded_by FBdv:00005338 ! second instar larval stage
 relationship: part_of FBdv:00005336 ! larval stage
 
@@ -838,7 +837,7 @@ id: FBdv:00005342
 name: prepupal stage
 def: "The prepupal stage begins at puparium formation and ends when larval/pupal apolysis is complete, as indicated by the completion of imaginal head sac eversion and the expulsion of the oral armature of the larva. Duration at 25 degrees C: approximately 12 hours. (120-132.2 hours after egg laying; 0-12.2 hours after puparium formation)." [FlyBase:FBrf0036849, FlyBase:FBrf0048355]
 comment: Temporal ordering number - 500.
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
 relationship: immediately_preceded_by FBdv:00005336 ! larval stage
 relationship: immediately_preceded_by FBdv:00005339 ! third instar larval stage
 relationship: immediately_preceded_by FBdv:00007005 ! third instar larval stage L2
@@ -923,7 +922,7 @@ name: pupal stage
 def: "The pupal stage starts once larval/pupal apolysis is complete as indicated by the expulsion of the larval armature. Early in this stage, the legs and wings reach full extension along the abdomen. The stage ends when the pupal cuticle separates from the underlying epidermis (pupal/adult apolysis), and the eye cup becomes yellow at its periphery. Duration at 25 degrees C: approximately 32 hours. (132.2-164.3 hours after egg laying; 12.2-44.3 hours after puparium formation)." [FlyBase:FBrf0036849, FlyBase:FBrf0048355]
 comment: Temporal ordering number - 570. DISAMBIGUATION: In Drosophila lab vernacular, the term 'pupal stage' is often used to refer to the entire period from formation of the puparium to eclosion. However, this does not correspond to the standard usage of 'pupal stage' for Cyclorrhaphous flies (for discussion see: FBrf0087128). Briefly: formation of the puparium (hardening of the larval cuticle) marks the beginning of the pre-pupal stage. The pupal stage begins following pupal/larval apolysis - detachment of the larval epidermis from the puparium. In Drosophila, the outward sign of the completion of apolysis is the eversion of the head and expulsion of the larval mouthparts (FBrf0036849). We use P-stage to refer to the stage from pupariation to eclosion, and restrict pupal stage to its standard usage.
 synonym: "phanerocephalic pupa" EXACT [FlyBase:FBrf0036849]
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
 relationship: immediately_preceded_by FBdv:00005342 ! prepupal stage
 relationship: part_of FBdv:00007001 ! P-stage
 
@@ -1140,7 +1139,8 @@ id: FBdv:00005369
 name: adult stage
 def: "The stage of the Drosophila life-cycle from eclosion to death." [FBC:DOS]
 comment: Temporal ordering number - 770.
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00000000 ! Drosophila life
 relationship: immediately_preceded_by FBdv:00005366 ! pharate adult stage P15
 relationship: immediately_preceded_by FBdv:00005368 ! pharate adult stage P15(ii)
 relationship: immediately_preceded_by FBdv:00006011 ! pharate adult stage
@@ -1181,7 +1181,7 @@ id: FBdv:00006011
 name: pharate adult stage
 def: "The developing adult after pupal-adult apolysis, i.e.- from stage P8 (when yellow eye color first becomes visible through the pupal case), to eclosion. Duration at 25 degrees C: approximately 55.7 hours (164.3-220 hours after egg laying; 44.3-100 hours after puparium formation)." [FlyBase:FBrf0036849, FlyBase:FBrf0048355, FlyBase:FBrf0049147]
 comment: Temporal ordering number - 625.
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
 relationship: immediately_preceded_by FBdv:00005349 ! pupal stage
 relationship: immediately_preceded_by FBdv:00005354 ! pupal stage P7
 relationship: part_of FBdv:00007001 ! P-stage
@@ -1198,22 +1198,14 @@ relationship: immediately_preceded_by FBdv:00005371 ! adult stage A2
 relationship: part_of FBdv:00007025 ! immature adult stage
 
 [Term]
-id: FBdv:00007000
-name: spermatogenesis
-comment: Temporal ordering number - 20000.
-xref: GO:0007283
-is_a: FBdv:00007009 ! developmental process
-created_by: david
-creation_date: 2008-06-05T04:51:08Z
-
-[Term]
 id: FBdv:00007001
 name: P-stage
 def: "The stage of the Drosophila life-cycle from the formation of the puparium (beginning of the prepupal stage) to eclosion." [FBC:DOS]
 comment: Temporal ordering number - 490. DISAMBIGUATION: In Drosophila lab vernacular, the term 'pupal stage' is often used to refer to the entire period from formation of the puparium to eclosion. However, this does not correspond to the standard usage of 'pupal stage' for cyclorrhaphous flies (for discussion see: FBrf0087128). Briefly: formation of the puparium (hardening of the larval cuticle) marks the beginning of the pre-pupal stage. The pupal stage begins following pupal/larval apolysis - detachment of the larval epidermis from the puparium. In Drosophila, the outward sign of the completion of apolysis is the eversion of the head an expulsion of the larval mouthparts (FBrf0036849). We use P-stage to refer to the stage from pupariation to eclosion, and restrict pupal stage to its standard usage.
 synonym: "metamorphosis" BROAD []
 synonym: "pupal stage" RELATED []
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00000000 ! Drosophila life
 relationship: immediately_preceded_by FBdv:00005336 ! larval stage
 relationship: immediately_preceded_by FBdv:00005339 ! third instar larval stage
 relationship: immediately_preceded_by FBdv:00007005 ! third instar larval stage L2
@@ -1236,6 +1228,7 @@ def: "Oogenesis stage that begins when endochorion begins to form at the anterio
 comment: Temporal ordering number - 10150.
 is_a: FBdv:00005259 ! developmental stage
 relationship: part_of FBdv:00005273 ! oogenesis stage S11
+relationship: immediately_preceded_by FBdv:00007002 ! oogenesis stage S11a
 
 [Term]
 id: FBdv:00007004
@@ -1265,6 +1258,7 @@ def: "Oogenesis stage during which the number of nurse cell nuclei at the anteri
 comment: Temporal ordering number - 10250.
 is_a: FBdv:00005259 ! developmental stage
 relationship: part_of FBdv:00005278 ! oogenesis stage S13
+relationship: immediately_preceded_by FBdv:00005282 ! oogenesis stage S13D
 created_by: david
 creation_date: 2008-11-13T06:27:57Z
 
@@ -1283,47 +1277,6 @@ creation_date: 2008-12-11T01:19:53Z
 id: FBdv:00007008
 name: occurrent
 is_obsolete: true
-
-[Term]
-id: FBdv:00007009
-name: developmental process
-xref: GO:0032502
-is_a: FBdv:00007024 ! biological process
-created_by: djs93
-creation_date: 2009-10-01T05:56:42Z
-
-[Term]
-id: FBdv:00007011
-name: embryonic cycle
-def: "A cycle of nuclear division during the embryogenesis of Drosophila melanogaster. The first 13 cycles are synchronous throughout the embryo and occur their timing relative to other developmental processes is invariant. Later nuclear division cycles are asynchronous across the embryo although may be more locally synchronized." [FlyBase:FBrf0049535, FlyBase:FBrf0089570]
-is_a: FBdv:00007024 ! biological process
-created_by: djs93
-creation_date: 2009-10-01T05:57:41Z
-
-[Term]
-id: FBdv:00007012
-name: life stage
-def: "A temporal subdivision of a Drosophila life, delimited by major transitions in the circumstances of the organism, such as: fertilization; hatching; pupal ecdysis; eclosion." [FBC:DOS]
-synonym: "life cycle stage" EXACT []
-is_a: FBdv:00005259 ! developmental stage
-relationship: part_of FBdv:00000000 ! Drosophila life
-created_by: djs93
-creation_date: 2009-10-01T05:59:22Z
-
-[Term]
-id: FBdv:00007013
-name: age
-def: "Temporal subdivision of life based on time elapsed since some key developmental transition, such as fertilization, hatching or eclosion." [FBC:DOS]
-created_by: djs93
-creation_date: 2010-09-29T12:25:36Z
-
-[Term]
-id: FBdv:00007014
-name: adult age in days
-def: "Temporal subdivision of adulthood in days post-eclosion." [FBC:DOS]
-is_a: FBdv:00007013 ! age
-created_by: djs93
-creation_date: 2010-09-29T12:28:05Z
 
 [Term]
 id: FBdv:00007015
@@ -1397,30 +1350,11 @@ relationship: immediately_preceded_by FBdv:00007020 ! third instar - partially c
 relationship: part_of FBdv:00005341 ! wandering third instar larval stage
 
 [Term]
-id: FBdv:00007022
-name: embryonic cycle interphase
-def: "The interphase (GO:0051325) of an embryonic cycle." [FBC:DOS]
-is_a: FBdv:00007024 ! biological process
-relationship: part_of FBdv:00007011 ! embryonic cycle
-
-[Term]
-id: FBdv:00007023
-name: embryonic cycle M-phase
-def: "The M-phase (GO:0000279) of an embryonic cycle." [FBC:DOS]
-is_a: FBdv:00007024 ! biological process
-relationship: part_of FBdv:00007011 ! embryonic cycle
-
-[Term]
-id: FBdv:00007024
-name: biological process
-xref: GO:0008150
-
-[Term]
 id: FBdv:00007025
 name: immature adult stage
 def: "The developmental stage that lasts from eclosion of the adult from the pupal case until tanning is complete (the end of adult stage A3)." [FBC:DOS]
 comment: Temporal ordering number - 782.
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
 relationship: immediately_preceded_by FBdv:00006011 ! pharate adult stage
 relationship: immediately_preceded_by FBdv:00007001 ! P-stage
 relationship: part_of FBdv:00007075 ! day 0 of adulthood
@@ -1431,7 +1365,8 @@ creation_date: 2013-01-08T20:06:59Z
 id: FBdv:00007026
 name: mature adult stage
 def: "Life stage from the end of adult stage A3, when tanning is complete, to death." [FBC:DOS]
-is_a: FBdv:00007012 ! life stage
+is_a: FBdv:00005259 ! developmental stage
+relationship: part_of FBdv:00000000 ! Drosophila life
 relationship: immediately_preceded_by FBdv:00006012 ! adult stage A3
 relationship: immediately_preceded_by FBdv:00007025 ! immature adult stage
 created_by: djs93
@@ -1442,7 +1377,7 @@ id: FBdv:00007075
 name: day 0 of adulthood
 def: "The day of eclosion." [FBC:DOS]
 comment: Temporal ordering number - 780.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00005366 ! pharate adult stage P15
 relationship: immediately_preceded_by FBdv:00005368 ! pharate adult stage P15(ii)
 relationship: immediately_preceded_by FBdv:00006011 ! pharate adult stage
@@ -1454,7 +1389,7 @@ id: FBdv:00007076
 name: day 1 of adulthood
 def: "1st day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 810.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007075 ! day 0 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1463,7 +1398,7 @@ id: FBdv:00007077
 name: day 2 of adulthood
 def: "2nd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 820.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007076 ! day 1 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1472,7 +1407,7 @@ id: FBdv:00007078
 name: day 3 of adulthood
 def: "3rd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 830.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007077 ! day 2 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1481,7 +1416,7 @@ id: FBdv:00007079
 name: day 4 of adulthood
 def: "4th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 840.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007078 ! day 3 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1490,7 +1425,7 @@ id: FBdv:00007080
 name: day 5 of adulthood
 def: "5th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 850.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007079 ! day 4 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1499,7 +1434,7 @@ id: FBdv:00007081
 name: day 6 of adulthood
 def: "6th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 860.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007080 ! day 5 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1508,7 +1443,7 @@ id: FBdv:00007082
 name: day 7 of adulthood
 def: "7th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 870.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007081 ! day 6 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1517,7 +1452,7 @@ id: FBdv:00007083
 name: day 8 of adulthood
 def: "8th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 880.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007082 ! day 7 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1526,7 +1461,7 @@ id: FBdv:00007084
 name: day 9 of adulthood
 def: "9th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 890.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007083 ! day 8 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1535,7 +1470,7 @@ id: FBdv:00007085
 name: day 10 of adulthood
 def: "10th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 900.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007084 ! day 9 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1544,7 +1479,7 @@ id: FBdv:00007086
 name: day 11 of adulthood
 def: "11th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 910.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007085 ! day 10 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1553,7 +1488,7 @@ id: FBdv:00007087
 name: day 12 of adulthood
 def: "12th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 920.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007086 ! day 11 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1562,7 +1497,7 @@ id: FBdv:00007088
 name: day 13 of adulthood
 def: "13th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 930.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007087 ! day 12 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1571,7 +1506,7 @@ id: FBdv:00007089
 name: day 14 of adulthood
 def: "14th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 940.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007088 ! day 13 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1580,7 +1515,7 @@ id: FBdv:00007090
 name: day 15 of adulthood
 def: "15th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 950.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007089 ! day 14 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1589,7 +1524,7 @@ id: FBdv:00007091
 name: day 16 of adulthood
 def: "16th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 960.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007090 ! day 15 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1598,7 +1533,7 @@ id: FBdv:00007092
 name: day 17 of adulthood
 def: "17th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 970.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007091 ! day 16 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1607,7 +1542,7 @@ id: FBdv:00007093
 name: day 18 of adulthood
 def: "18th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 980.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007092 ! day 17 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1616,7 +1551,7 @@ id: FBdv:00007094
 name: day 19 of adulthood
 def: "19th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 990.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007093 ! day 18 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1625,7 +1560,7 @@ id: FBdv:00007095
 name: day 20 of adulthood
 def: "20th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1000.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007094 ! day 19 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1634,7 +1569,7 @@ id: FBdv:00007096
 name: day 21 of adulthood
 def: "21st day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1010.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007095 ! day 20 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1643,7 +1578,7 @@ id: FBdv:00007097
 name: day 22 of adulthood
 def: "22nd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1020.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007096 ! day 21 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1652,7 +1587,7 @@ id: FBdv:00007098
 name: day 23 of adulthood
 def: "23rd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1030.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007097 ! day 22 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1661,7 +1596,7 @@ id: FBdv:00007099
 name: day 24 of adulthood
 def: "24th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1040.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007098 ! day 23 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1670,7 +1605,7 @@ id: FBdv:00007100
 name: day 25 of adulthood
 def: "25th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1050.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007099 ! day 24 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1679,7 +1614,7 @@ id: FBdv:00007101
 name: day 26 of adulthood
 def: "26th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1060.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007100 ! day 25 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1688,7 +1623,7 @@ id: FBdv:00007102
 name: day 27 of adulthood
 def: "27th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1070.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007101 ! day 26 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1697,7 +1632,7 @@ id: FBdv:00007103
 name: day 28 of adulthood
 def: "28th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1080.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007102 ! day 27 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1706,7 +1641,7 @@ id: FBdv:00007104
 name: day 29 of adulthood
 def: "29th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1090.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007103 ! day 28 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1715,7 +1650,7 @@ id: FBdv:00007105
 name: day 30 of adulthood
 def: "30th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1100.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007104 ! day 29 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1724,7 +1659,7 @@ id: FBdv:00007106
 name: day 31 of adulthood
 def: "31st day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1110.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007105 ! day 30 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1733,7 +1668,7 @@ id: FBdv:00007107
 name: day 32 of adulthood
 def: "32nd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1120.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007106 ! day 31 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1742,7 +1677,7 @@ id: FBdv:00007108
 name: day 33 of adulthood
 def: "33rd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1130.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007107 ! day 32 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1751,7 +1686,7 @@ id: FBdv:00007109
 name: day 34 of adulthood
 def: "34th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1140.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007108 ! day 33 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1760,7 +1695,7 @@ id: FBdv:00007110
 name: day 35 of adulthood
 def: "35th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1150.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007109 ! day 34 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1769,7 +1704,7 @@ id: FBdv:00007111
 name: day 36 of adulthood
 def: "36th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1160.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007110 ! day 35 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1778,7 +1713,7 @@ id: FBdv:00007112
 name: day 37 of adulthood
 def: "37th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1170.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007111 ! day 36 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1787,7 +1722,7 @@ id: FBdv:00007113
 name: day 38 of adulthood
 def: "38th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1180.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007112 ! day 37 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1796,7 +1731,7 @@ id: FBdv:00007114
 name: day 39 of adulthood
 def: "39th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1190.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007113 ! day 38 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1805,7 +1740,7 @@ id: FBdv:00007115
 name: day 40 of adulthood
 def: "40th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1200.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007114 ! day 39 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1814,7 +1749,7 @@ id: FBdv:00007116
 name: day 41 of adulthood
 def: "41st day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1210.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007115 ! day 40 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1823,7 +1758,7 @@ id: FBdv:00007117
 name: day 42 of adulthood
 def: "42nd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1220.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007116 ! day 41 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1832,7 +1767,7 @@ id: FBdv:00007118
 name: day 43 of adulthood
 def: "43rd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1230.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007117 ! day 42 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1841,7 +1776,7 @@ id: FBdv:00007119
 name: day 44 of adulthood
 def: "44th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1240.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007118 ! day 43 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1850,7 +1785,7 @@ id: FBdv:00007120
 name: day 45 of adulthood
 def: "45th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1250.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007119 ! day 44 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1859,7 +1794,7 @@ id: FBdv:00007121
 name: day 46 of adulthood
 def: "46th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1260.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007120 ! day 45 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1868,7 +1803,7 @@ id: FBdv:00007122
 name: day 47 of adulthood
 def: "47th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1270.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007121 ! day 46 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1877,7 +1812,7 @@ id: FBdv:00007123
 name: day 48 of adulthood
 def: "48th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1280.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007122 ! day 47 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1886,7 +1821,7 @@ id: FBdv:00007124
 name: day 49 of adulthood
 def: "49th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1290.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007123 ! day 48 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1895,7 +1830,7 @@ id: FBdv:00007125
 name: day 50 of adulthood
 def: "50th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1300.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007124 ! day 49 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1904,7 +1839,7 @@ id: FBdv:00007126
 name: day 51 of adulthood
 def: "51st day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1310.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007125 ! day 50 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1913,7 +1848,7 @@ id: FBdv:00007127
 name: day 52 of adulthood
 def: "52nd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1320.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007126 ! day 51 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1922,7 +1857,7 @@ id: FBdv:00007128
 name: day 53 of adulthood
 def: "53rd day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1330.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007127 ! day 52 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1931,7 +1866,7 @@ id: FBdv:00007129
 name: day 54 of adulthood
 def: "54th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1340.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007128 ! day 53 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1940,7 +1875,7 @@ id: FBdv:00007130
 name: day 55 of adulthood
 def: "55th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1350.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007129 ! day 54 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1949,7 +1884,7 @@ id: FBdv:00007131
 name: day 56 of adulthood
 def: "56th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1360.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007130 ! day 55 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1958,7 +1893,7 @@ id: FBdv:00007132
 name: day 57 of adulthood
 def: "57th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1370.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007131 ! day 56 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1967,7 +1902,7 @@ id: FBdv:00007133
 name: day 58 of adulthood
 def: "58th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1380.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007132 ! day 57 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1976,7 +1911,7 @@ id: FBdv:00007134
 name: day 59 of adulthood
 def: "59th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1390.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007133 ! day 58 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
@@ -1985,7 +1920,7 @@ id: FBdv:00007135
 name: day 60 of adulthood
 def: "60th day after eclosion." [FBC:DOS]
 comment: Temporal ordering number - 1400.
-is_a: FBdv:00007014 ! adult age in days
+is_a: FBdv:00005259
 relationship: immediately_preceded_by FBdv:00007134 ! day 59 of adulthood
 relationship: part_of FBdv:00005369 ! adult stage
 
