@@ -1,27 +1,13 @@
 [Term]
-id: DsimDv:0000007
-property_value: IAO:0000589 "days 5-8 of fully formed stage (Drosophila simulans)" xsd:string
-relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
-
-[Term]
 id: DsimDv:0000004
 property_value: IAO:0000589 "P-stage (Drosophila simulans)" xsd:string
-relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
 intersection_of: UBERON:0000070
 intersection_of: part_of NCBITaxon:7240
 
 [Term]
-id: DsimDv:0000005
-property_value: IAO:0000589 "fully formed stage (Drosophila simulans)" xsd:string
-relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
-intersection_of: UBERON:0000066
-intersection_of: part_of NCBITaxon:7240
-
-[Term]
-id: DsimDv:0000001
-property_value: IAO:0000589 "Drosophila simulans life cycle (Drosophila simulans)" xsd:string
-relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
-intersection_of: UBERON:0000104
+id: DsimDv:0000003
+property_value: IAO:0000589 "larval stage (Drosophila simulans)" xsd:string
+intersection_of: UBERON:0000069
 intersection_of: part_of NCBITaxon:7240
 
 [Term]
@@ -30,30 +16,68 @@ property_value: IAO:0000589 "days 1-4 of fully formed stage (Drosophila simulans
 relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
 
 [Term]
+id: DsimDv:0000001
+property_value: IAO:0000589 "Drosophila simulans life cycle (Drosophila simulans)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:7240
+
+[Term]
 id: DsimDv:0000002
 property_value: IAO:0000589 "embryonic stage (Drosophila simulans)" xsd:string
-relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
 intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:7240
+
+[Term]
+id: DsimDv:0000007
+property_value: IAO:0000589 "days 5-8 of fully formed stage (Drosophila simulans)" xsd:string
+relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
+
+[Term]
+id: DsimDv:0000005
+property_value: IAO:0000589 "fully formed stage (Drosophila simulans)" xsd:string
+intersection_of: UBERON:0000066
 intersection_of: part_of NCBITaxon:7240
 
 [Term]
 id: DsimDv:0000000
 property_value: IAO:0000589 "Drosophila simulans life cycle stage (Drosophila simulans)" xsd:string
-relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
 intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:7240
-
-[Term]
-id: DsimDv:0000003
-property_value: IAO:0000589 "larval stage (Drosophila simulans)" xsd:string
-relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
-intersection_of: UBERON:0000069
 intersection_of: part_of NCBITaxon:7240
 
 [Term]
 id: DsimDv:0000008
 property_value: IAO:0000589 "day 9 and more of fully formed stage (Drosophila simulans)" xsd:string
 relationship: only_in_taxon NCBITaxon:7240 ! Drosophila simulans
+
+[Term]
+id: UBERON:0000068
+synonym: "embryonic stage" BROAD []
+xref: DsimDv:0000002
+
+[Term]
+id: UBERON:0000070
+synonym: "P-stage" BROAD []
+xref: DsimDv:0000004
+
+[Term]
+id: UBERON:0000105
+synonym: "Drosophila simulans life cycle stage" BROAD []
+xref: DsimDv:0000000
+
+[Term]
+id: UBERON:0000069
+synonym: "larval stage" BROAD []
+xref: DsimDv:0000003
+
+[Term]
+id: UBERON:0000104
+synonym: "Drosophila simulans life cycle" BROAD []
+xref: DsimDv:0000001
+
+[Term]
+id: UBERON:0000066
+synonym: "fully formed stage" BROAD []
+xref: DsimDv:0000005
 
 [Typedef]
 id: part_of

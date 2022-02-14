@@ -1,34 +1,23 @@
 [Term]
-id: MmusDv:0000083
-property_value: IAO:0000589 "12 month-old stage (mouse)" xsd:string
+id: MmusDv:0000130
+property_value: IAO:0000589 "26-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000032
-property_value: IAO:0000589 "Theiler stage 23 (mouse)" xsd:string
+id: MmusDv:0000015
+property_value: IAO:0000589 "Theiler stage 10 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000106
-property_value: IAO:0000589 "Theiler stage 10b (mouse)" xsd:string
+id: MmusDv:0000082
+property_value: IAO:0000589 "11-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000012
-property_value: IAO:0000589 "Theiler stage 08 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000003
-property_value: IAO:0000589 "Theiler stage 01 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000106
+id: MmusDv:0000097
+property_value: IAO:0000589 "late adult stage (mouse)" xsd:string
+intersection_of: UBERON:0007222
 intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000041
-property_value: IAO:0000589 "unknown (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
 id: MmusDv:0000022
@@ -36,23 +25,8 @@ property_value: IAO:0000589 "Theiler stage 15 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000056
-property_value: IAO:0000589 "12 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000029
-property_value: IAO:0000589 "Theiler stage 22 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000055
-property_value: IAO:0000589 "11 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000077
-property_value: IAO:0000589 "6 month-old stage (mouse)" xsd:string
+id: MmusDv:0000122
+property_value: IAO:0000589 "12-day-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -61,8 +35,86 @@ property_value: IAO:0000589 "16 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000085
-property_value: IAO:0000589 "14 month-old stage (mouse)" xsd:string
+id: MmusDv:0000175
+property_value: IAO:0000589 "29-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000143
+property_value: IAO:0000589 "22-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000068
+property_value: IAO:0000589 "19 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000115
+property_value: IAO:0000589 "5-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000103
+property_value: IAO:0000589 "Theiler stage 09a (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000134
+property_value: IAO:0000589 "late adult stage (mouse)" xsd:string
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000004
+property_value: IAO:0000589 "cleavage stage (mouse)" xsd:string
+intersection_of: UBERON:0000107
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000124
+property_value: IAO:0000589 "20-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000126
+property_value: IAO:0000589 "22-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000084
+property_value: IAO:0000589 "13-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000036
+property_value: IAO:0000589 "Theiler stage 27 (mouse)" xsd:string
+intersection_of: UBERON:0007221
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000132
+property_value: IAO:0000589 "28-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000145
+property_value: IAO:0000589 "24-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000157
+property_value: IAO:0000589 "11-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000002
+property_value: IAO:0000589 "embryonic stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000096
+property_value: IAO:0000589 "early immature stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -71,181 +123,8 @@ property_value: IAO:0000589 "10 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000067
-property_value: IAO:0000589 "18 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000053
-property_value: IAO:0000589 "9 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000111
-property_value: IAO:0000589 "Theiler stage 11a (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000025
-property_value: IAO:0000589 "Theiler stage 18 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000048
-property_value: IAO:0000589 "4 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000021
-property_value: IAO:0000589 "Theiler stage 14 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000089
-property_value: IAO:0000589 "18 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000109
-property_value: IAO:0000589 "Theiler stage 12b (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000066
-property_value: IAO:0000589 "17 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000046
-property_value: IAO:0000589 "2 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000078
-property_value: IAO:0000589 "7 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000010
-property_value: IAO:0000589 "Theiler stage 06 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000026
-property_value: IAO:0000589 "Theiler stage 19 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000104
-property_value: IAO:0000589 "Theiler stage 09b (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000099
-property_value: IAO:0000589 "26 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000033
-property_value: IAO:0000589 "Theiler stage 24 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000001
-property_value: IAO:0000589 "mouse life cycle (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
 id: MmusDv:0000014
 property_value: IAO:0000589 "Theiler stage 09 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000101
-property_value: IAO:0000589 "28 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000030
-property_value: IAO:0000589 "post-embryonic developmental stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000091
-property_value: IAO:0000589 "20 month-old stage and over (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000087
-property_value: IAO:0000589 "16 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000102
-property_value: IAO:0000589 "29 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000081
-property_value: IAO:0000589 "10 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000044
-property_value: IAO:0000589 "1-7 days (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000061
-property_value: IAO:0000589 "early adult stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000045
-property_value: IAO:0000589 "1 week (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000098
-property_value: IAO:0000589 "25 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000011
-property_value: IAO:0000589 "Theiler stage 07 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000058
-property_value: IAO:0000589 "14 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000063
-property_value: IAO:0000589 "3 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000043
-property_value: IAO:0000589 "immature stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000092
-property_value: IAO:0000589 "postpartum stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000066
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000059
-property_value: IAO:0000589 "15 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -254,8 +133,196 @@ property_value: IAO:0000589 "Theiler stage 25 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000090
-property_value: IAO:0000589 "19 month-old stage (mouse)" xsd:string
+id: MmusDv:0000129
+property_value: IAO:0000589 "25-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000045
+property_value: IAO:0000589 "1 week (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000089
+property_value: IAO:0000589 "18-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000077
+property_value: IAO:0000589 "6-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000121
+property_value: IAO:0000589 "11-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000156
+property_value: IAO:0000589 "10-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000076
+property_value: IAO:0000589 "aged adult stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000101
+property_value: IAO:0000589 "28 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000160
+property_value: IAO:0000589 "14-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000098
+property_value: IAO:0000589 "25 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000038
+property_value: IAO:0000589 "infant stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000167
+property_value: IAO:0000589 "21-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000117
+property_value: IAO:0000589 "7-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000073
+property_value: IAO:0000589 "23 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000177
+property_value: IAO:0000589 "infant stage (mouse)" xsd:string
+intersection_of: UBERON:0034920
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000176
+property_value: IAO:0000589 "30-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000009
+property_value: IAO:0000589 "Theiler stage 05 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000118
+property_value: IAO:0000589 "8-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000133
+property_value: IAO:0000589 "29-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000043
+property_value: IAO:0000589 "immature stage (mouse)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000071
+property_value: IAO:0000589 "21 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000150
+property_value: IAO:0000589 "5-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000106
+property_value: IAO:0000589 "Theiler stage 10b (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000102
+property_value: IAO:0000589 "29 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000146
+property_value: IAO:0000589 "25-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000165
+property_value: IAO:0000589 "19-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000144
+property_value: IAO:0000589 "23-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000013
+property_value: IAO:0000589 "gastrula stage (mouse)" xsd:string
+intersection_of: UBERON:0000109
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000056
+property_value: IAO:0000589 "12 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000152
+property_value: IAO:0000589 "7-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000173
+property_value: IAO:0000589 "27-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000019
+property_value: IAO:0000589 "Theiler stage 12 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000100
+property_value: IAO:0000589 "27 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000112
+property_value: IAO:0000589 "premature stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000035
+property_value: IAO:0000589 "Theiler stage 26 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000091
+property_value: IAO:0000589 "20-month-old stage and over (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000066
+property_value: IAO:0000589 "17 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000128
+property_value: IAO:0000589 "24-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -264,81 +331,44 @@ property_value: IAO:0000589 "Theiler stage 21 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000050
-property_value: IAO:0000589 "6 weeks (mouse)" xsd:string
+id: MmusDv:0000049
+property_value: IAO:0000589 "5 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000031
-property_value: IAO:0000589 "fetal stage (mouse)" xsd:string
+id: MmusDv:0000140
+property_value: IAO:0000589 "1-week-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0007220
+
+[Term]
+id: MmusDv:0000087
+property_value: IAO:0000589 "16-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000088
+property_value: IAO:0000589 "17-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000149
+property_value: IAO:0000589 "4-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000163
+property_value: IAO:0000589 "17-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000003
+property_value: IAO:0000589 "Theiler stage 01 (mouse)" xsd:string
+intersection_of: UBERON:0000106
 intersection_of: part_of NCBITaxon:10090
 
 [Term]
-id: MmusDv:0000009
-property_value: IAO:0000589 "Theiler stage 05 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000064
-property_value: IAO:0000589 "4 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000036
-property_value: IAO:0000589 "Theiler stage 27 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0007221
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000079
-property_value: IAO:0000589 "8 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000084
-property_value: IAO:0000589 "13 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000017
-property_value: IAO:0000589 "Theiler stage 11 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000110
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000018
-property_value: IAO:0000589 "organogenesis stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000111
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000040
-property_value: IAO:0000589 "adult stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000023
-property_value: IAO:0000589 "Theiler stage 16 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000057
-property_value: IAO:0000589 "13 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000095
-property_value: IAO:0000589 "Theiler stage 11d (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000020
-property_value: IAO:0000589 "Theiler stage 13 (mouse)" xsd:string
+id: MmusDv:0000037
+property_value: IAO:0000589 "Theiler stage 28 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -347,8 +377,255 @@ property_value: IAO:0000589 "Theiler stage 02 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000006
-property_value: IAO:0000589 "Theiler stage 03 (mouse)" xsd:string
+id: MmusDv:0000025
+property_value: IAO:0000589 "Theiler stage 18 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000161
+property_value: IAO:0000589 "15-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000061
+property_value: IAO:0000589 "early adult stage (mouse)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000086
+property_value: IAO:0000589 "15-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000107
+property_value: IAO:0000589 "Theiler stage 10c (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000155
+property_value: IAO:0000589 "9-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000062
+property_value: IAO:0000589 "2-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000075
+property_value: IAO:0000589 "middle aged stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000069
+property_value: IAO:0000589 "5-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000131
+property_value: IAO:0000589 "27-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000116
+property_value: IAO:0000589 "6-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000168
+property_value: IAO:0000589 "22-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000055
+property_value: IAO:0000589 "11 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000064
+property_value: IAO:0000589 "4-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000154
+property_value: IAO:0000589 "8-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000026
+property_value: IAO:0000589 "Theiler stage 19 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000047
+property_value: IAO:0000589 "3-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000059
+property_value: IAO:0000589 "15 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000120
+property_value: IAO:0000589 "10-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000172
+property_value: IAO:0000589 "26-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000164
+property_value: IAO:0000589 "18-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000108
+property_value: IAO:0000589 "Theiler stage 12a (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000099
+property_value: IAO:0000589 "26 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000063
+property_value: IAO:0000589 "3-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000000
+property_value: IAO:0000589 "life cycle stage (mouse)" xsd:string
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000166
+property_value: IAO:0000589 "20-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000139
+property_value: IAO:0000589 "4-6 days (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000044
+property_value: IAO:0000589 "1-7 days (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000031
+property_value: IAO:0000589 "fetal stage (mouse)" xsd:string
+intersection_of: UBERON:0007220
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000033
+property_value: IAO:0000589 "Theiler stage 24 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000174
+property_value: IAO:0000589 "28-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000114
+property_value: IAO:0000589 "4-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000021
+property_value: IAO:0000589 "Theiler stage 14 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000105
+property_value: IAO:0000589 "Theiler stage 10a (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000092
+property_value: IAO:0000589 "postnatal stage (mouse)" xsd:string
+intersection_of: UBERON:0000066
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000040
+property_value: IAO:0000589 "adult stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000136
+property_value: IAO:0000589 "prime adult stage (mouse)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000030
+property_value: IAO:0000589 "post-embryonic developmental stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000039
+property_value: IAO:0000589 "adolescent stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000020
+property_value: IAO:0000589 "Theiler stage 13 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000083
+property_value: IAO:0000589 "12-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000170
+property_value: IAO:0000589 "24-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000109
+property_value: IAO:0000589 "Theiler stage 12b (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000057
+property_value: IAO:0000589 "13 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000078
+property_value: IAO:0000589 "7-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000138
+property_value: IAO:0000589 "nursing stage (mouse)" xsd:string
+intersection_of: UBERON:0018685
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000110
+property_value: IAO:0000589 "mature stage (mouse)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000113
+property_value: IAO:0000589 "4-7 days (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000024
+property_value: IAO:0000589 "Theiler stage 17 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -358,12 +635,96 @@ relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
 id: MmusDv:0000080
-property_value: IAO:0000589 "9 month-old stage (mouse)" xsd:string
+property_value: IAO:0000589 "9-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000073
-property_value: IAO:0000589 "23 weeks (mouse)" xsd:string
+id: MmusDv:0000178
+property_value: IAO:0000589 "juvenile stage (mouse)" xsd:string
+intersection_of: UBERON:0034919
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000018
+property_value: IAO:0000589 "organogenesis stage (mouse)" xsd:string
+intersection_of: UBERON:0000111
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000074
+property_value: IAO:0000589 "24 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000135
+property_value: IAO:0000589 "middle aged stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000058
+property_value: IAO:0000589 "14 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000137
+property_value: IAO:0000589 "3-6 month-old mature stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000001
+property_value: IAO:0000589 "life cycle (mouse)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000029
+property_value: IAO:0000589 "Theiler stage 22 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000023
+property_value: IAO:0000589 "Theiler stage 16 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000053
+property_value: IAO:0000589 "9 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000007
+property_value: IAO:0000589 "blastula stage (mouse)" xsd:string
+intersection_of: UBERON:0000108
+intersection_of: part_of NCBITaxon:10090
+
+[Term]
+id: MmusDv:0000153
+property_value: IAO:0000589 "young adult stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000125
+property_value: IAO:0000589 "21-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000011
+property_value: IAO:0000589 "Theiler stage 07 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000127
+property_value: IAO:0000589 "23-month-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000147
+property_value: IAO:0000589 "26-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000081
+property_value: IAO:0000589 "10-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -372,40 +733,13 @@ property_value: IAO:0000589 "7 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000093
-property_value: IAO:0000589 "Theiler stage 11b (mouse)" xsd:string
+id: MmusDv:0000010
+property_value: IAO:0000589 "Theiler stage 06 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000002
-property_value: IAO:0000589 "embryonic mouse stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000062
-property_value: IAO:0000589 "2 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000105
-property_value: IAO:0000589 "Theiler stage 10a (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000076
-property_value: IAO:0000589 "aged adult stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000000
-property_value: IAO:0000589 "mouse life cycle stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000071
-property_value: IAO:0000589 "21 weeks (mouse)" xsd:string
+id: MmusDv:0000119
+property_value: IAO:0000589 "9-day-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -414,106 +748,44 @@ property_value: IAO:0000589 "neurula stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000088
-property_value: IAO:0000589 "17 month-old stage (mouse)" xsd:string
+id: MmusDv:0000111
+property_value: IAO:0000589 "Theiler stage 11a (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000024
-property_value: IAO:0000589 "Theiler stage 17 (mouse)" xsd:string
+id: MmusDv:0000079
+property_value: IAO:0000589 "8-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000072
-property_value: IAO:0000589 "22 weeks (mouse)" xsd:string
+id: MmusDv:0000158
+property_value: IAO:0000589 "12-week-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000112
-property_value: IAO:0000589 "premature stage (mouse)" xsd:string
+id: MmusDv:0000032
+property_value: IAO:0000589 "Theiler stage 23 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000112
+
+[Term]
+id: MmusDv:0000067
+property_value: IAO:0000589 "18 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000042
+property_value: IAO:0000589 "prenatal stage (mouse)" xsd:string
+intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:10090
 
 [Term]
-id: MmusDv:0000096
-property_value: IAO:0000589 "early immature stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0007221
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000049
-property_value: IAO:0000589 "5 weeks (mouse)" xsd:string
+id: MmusDv:0000142
+property_value: IAO:0000589 "21-day-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000035
-property_value: IAO:0000589 "Theiler stage 26 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000113
-property_value: IAO:0000589 "4-7 days (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000097
-property_value: IAO:0000589 "late adult stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0007222
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000100
-property_value: IAO:0000589 "27 weeks (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000107
-property_value: IAO:0000589 "Theiler stage 10c (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000039
-property_value: IAO:0000589 "adolescent stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000108
-property_value: IAO:0000589 "Theiler stage 12a (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000004
-property_value: IAO:0000589 "cleavage stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000107
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000069
-property_value: IAO:0000589 "5 month-old stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000075
-property_value: IAO:0000589 "middle aged stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000037
-property_value: IAO:0000589 "Theiler stage 28 (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000007
-property_value: IAO:0000589 "blastula stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-
-[Term]
-id: MmusDv:0000015
-property_value: IAO:0000589 "Theiler stage 10 (mouse)" xsd:string
+id: MmusDv:0000041
+property_value: IAO:0000589 "unknown (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -522,13 +794,33 @@ property_value: IAO:0000589 "Theiler stage 11c (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000047
-property_value: IAO:0000589 "3 weeks (mouse)" xsd:string
+id: MmusDv:0000006
+property_value: IAO:0000589 "Theiler stage 03 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000038
-property_value: IAO:0000589 "infant stage (mouse)" xsd:string
+id: MmusDv:0000008
+property_value: IAO:0000589 "Theiler stage 04 (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000159
+property_value: IAO:0000589 "13-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000169
+property_value: IAO:0000589 "23-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000046
+property_value: IAO:0000589 "2 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000095
+property_value: IAO:0000589 "Theiler stage 11d (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
@@ -537,65 +829,190 @@ property_value: IAO:0000589 "Theiler stage 20 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
+id: MmusDv:0000048
+property_value: IAO:0000589 "4 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000171
+property_value: IAO:0000589 "25-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000162
+property_value: IAO:0000589 "16-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000141
+property_value: IAO:0000589 "2-week-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000072
+property_value: IAO:0000589 "22 weeks (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: MmusDv:0000148
+property_value: IAO:0000589 "27-day-old stage (mouse)" xsd:string
+relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
 id: MmusDv:0000070
 property_value: IAO:0000589 "20 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000068
-property_value: IAO:0000589 "19 weeks (mouse)" xsd:string
+id: MmusDv:0000093
+property_value: IAO:0000589 "Theiler stage 11b (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000013
-property_value: IAO:0000589 "gastrula stage (mouse)" xsd:string
+id: MmusDv:0000012
+property_value: IAO:0000589 "Theiler stage 08 (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000109
+
+[Term]
+id: MmusDv:0000017
+property_value: IAO:0000589 "Theiler stage 11 (mouse)" xsd:string
+intersection_of: UBERON:0000110
 intersection_of: part_of NCBITaxon:10090
 
 [Term]
-id: MmusDv:0000086
-property_value: IAO:0000589 "15 month-old stage (mouse)" xsd:string
+id: MmusDv:0000123
+property_value: IAO:0000589 "13-day-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000019
-property_value: IAO:0000589 "Theiler stage 12 (mouse)" xsd:string
+id: MmusDv:0000151
+property_value: IAO:0000589 "6-week-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000074
-property_value: IAO:0000589 "24 weeks (mouse)" xsd:string
+id: MmusDv:0000104
+property_value: IAO:0000589 "Theiler stage 09b (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000042
-property_value: IAO:0000589 "prenatal stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000082
-property_value: IAO:0000589 "11 month-old stage (mouse)" xsd:string
+id: MmusDv:0000090
+property_value: IAO:0000589 "19-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000110
-property_value: IAO:0000589 "mature stage (mouse)" xsd:string
-relationship: only_in_taxon NCBITaxon:10090 ! mouse
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:10090
-
-[Term]
-id: MmusDv:0000103
-property_value: IAO:0000589 "Theiler stage 09a (mouse)" xsd:string
+id: MmusDv:0000085
+property_value: IAO:0000589 "14-month-old stage (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
 
 [Term]
-id: MmusDv:0000008
-property_value: IAO:0000589 "Theiler stage 04 (mouse)" xsd:string
+id: MmusDv:0000050
+property_value: IAO:0000589 "6 weeks (mouse)" xsd:string
 relationship: only_in_taxon NCBITaxon:10090 ! mouse
+
+[Term]
+id: UBERON:0000107
+synonym: "cleavage stage" BROAD []
+xref: MmusDv:0000004
+
+[Term]
+id: UBERON:0007222
+synonym: "late adult stage" BROAD []
+xref: MmusDv:0000134
+
+[Term]
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: MmusDv:0000043
+
+[Term]
+id: UBERON:0000106
+synonym: "Theiler stage 01" BROAD []
+xref: MmusDv:0000003
+
+[Term]
+id: UBERON:0007221
+synonym: "Theiler stage 27" BROAD []
+xref: MmusDv:0000036
+
+[Term]
+id: UBERON:0000108
+synonym: "blastula stage" BROAD []
+xref: MmusDv:0000007
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: MmusDv:0000000
+
+[Term]
+id: UBERON:0018241
+synonym: "early adult stage" BROAD []
+xref: MmusDv:0000061
+
+[Term]
+id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: MmusDv:0000110
+
+[Term]
+id: UBERON:0018685
+synonym: "nursing stage" BROAD []
+xref: MmusDv:0000138
+
+[Term]
+id: UBERON:0007220
+synonym: "fetal stage" BROAD []
+xref: MmusDv:0000031
+
+[Term]
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: MmusDv:0000013
+
+[Term]
+id: UBERON:0000111
+synonym: "organogenesis stage" BROAD []
+xref: MmusDv:0000018
+
+[Term]
+id: UBERON:0000066
+synonym: "postnatal stage" BROAD []
+xref: MmusDv:0000092
+
+[Term]
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: MmusDv:0000178
+
+[Term]
+id: UBERON:0007222
+synonym: "late adult stage" BROAD []
+xref: MmusDv:0000097
+
+[Term]
+id: UBERON:0018241
+synonym: "prime adult stage" BROAD []
+xref: MmusDv:0000136
+
+[Term]
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: MmusDv:0000042
+
+[Term]
+id: UBERON:0000110
+synonym: "Theiler stage 11" BROAD []
+xref: MmusDv:0000017
+
+[Term]
+id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: MmusDv:0000001
+
+[Term]
+id: UBERON:0034920
+synonym: "infant stage" BROAD []
+xref: MmusDv:0000177
 
 [Typedef]
 id: part_of
