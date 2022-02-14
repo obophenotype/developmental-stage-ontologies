@@ -1,0 +1,501 @@
+format-version: 1.2
+subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
+synonymtypedef: PLURAL "PLURAL"
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs/2021-02-16/uberon/bridge/uberon-bridge-to-zfs.owl>))) [Axioms: 136 Logical Axioms: 19]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/zfs.owl>) VersionIRI(<http://purl.obolibrary.org/obo/zfs/releases/2020-03-10/zfs.owl>))) [Axioms: 458 Logical Axioms: 148]
+ontology: uberon/bridge/external_ontologies/zfs/zfs-uberon.obo
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/zfs#develops_from> \"http://purl.obolibrary.org/obo/zfs#develops_from\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/zfs#part_of> \"http://purl.obolibrary.org/obo/zfs#part_of\"^^xsd:string)\n)
+
+[Term]
+id: UBERON:0000069
+synonym: "larval stage" BROAD []
+xref: ZFS:0000048
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by ZFS:0007000 {gci_relation="part_of", gci_filler="NCBITaxon:7954"} ! hatching (Danio)
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+synonym: "unknown" BROAD []
+xref: ZFS:0000000
+xref: ZFS:0100000
+
+[Term]
+id: UBERON:0000106
+synonym: "zygote stage" BROAD []
+xref: ZFS:0000001
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0000107
+synonym: "cleavage stage" BROAD []
+xref: ZFS:0000046
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0000108
+synonym: "blastula stage" BROAD []
+xref: ZFS:0000045
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: ZFS:0000047
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by UBERON:0000108 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0000112
+synonym: "sexually immature stage" BROAD []
+xref: ZFS:0000051
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by UBERON:0000069 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0000113
+synonym: "post-juvenile adult stage" BROAD []
+xref: ZFS:0000044
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by ZFS:0000043 {gci_relation="part_of", gci_filler="NCBITaxon:7954"} ! Juvenile:Days 45-89 (Danio)
+
+[Term]
+id: UBERON:0001062
+relationship: only_in_taxon NCBITaxon:7954 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0004707
+synonym: "pharyngula stage" BROAD []
+xref: ZFS:0000050
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by ZFS:0000049 {gci_relation="part_of", gci_filler="NCBITaxon:7954"} ! segmentation (Danio)
+
+[Term]
+id: UBERON:0007232
+synonym: "2 cell stage" BROAD []
+xref: ZFS:0000002
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: part_of UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0007233
+synonym: "4 cell stage" BROAD []
+xref: ZFS:0000003
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by UBERON:0007232 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: part_of UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: UBERON:0007236
+synonym: "8 cell stage" BROAD []
+xref: ZFS:0000004
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: immediately_preceded_by UBERON:0007233 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+relationship: part_of UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
+
+[Term]
+id: ZFS:0000005
+name: Cleavage:16-cell (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-20
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0007236
+relationship: part_of UBERON:0000107
+
+[Term]
+id: ZFS:0000006
+name: Cleavage:32-cell (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-25
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000005 ! Cleavage:16-cell (Danio)
+relationship: part_of UBERON:0000107
+
+[Term]
+id: ZFS:0000007
+name: Cleavage:64-cell (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-28
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000006 ! Cleavage:32-cell (Danio)
+relationship: part_of UBERON:0000107
+
+[Term]
+id: ZFS:0000008
+name: Blastula:128-cell (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-7
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000007 ! Cleavage:64-cell (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000009
+name: Blastula:256-cell (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-1
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000008 ! Blastula:128-cell (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000010
+name: Blastula:512-cell (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-14
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000009 ! Blastula:256-cell (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000011
+name: Blastula:1k-cell (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-22
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000010 ! Blastula:512-cell (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000012
+name: Blastula:High (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-27
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000011 ! Blastula:1k-cell (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000013
+name: Blastula:Oblong (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-24
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000012 ! Blastula:High (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000014
+name: Blastula:Sphere (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-21
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000013 ! Blastula:Oblong (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000015
+name: Blastula:Dome (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-19
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000014 ! Blastula:Sphere (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000016
+name: Blastula:30%-epiboly (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-17
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000015 ! Blastula:Dome (Danio)
+relationship: part_of UBERON:0000108
+
+[Term]
+id: ZFS:0000017
+name: Gastrula:50%-epiboly (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-6
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000016 ! Blastula:30%-epiboly (Danio)
+relationship: part_of UBERON:0000109
+
+[Term]
+id: ZFS:0000018
+name: Gastrula:Germ-ring (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-3
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000017 ! Gastrula:50%-epiboly (Danio)
+relationship: part_of UBERON:0000109
+
+[Term]
+id: ZFS:0000019
+name: Gastrula:Shield (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-2
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000018 ! Gastrula:Germ-ring (Danio)
+relationship: part_of UBERON:0000109
+
+[Term]
+id: ZFS:0000020
+name: Gastrula:75%-epiboly (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-18
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000019 ! Gastrula:Shield (Danio)
+relationship: part_of UBERON:0000109
+
+[Term]
+id: ZFS:0000021
+name: Gastrula:90%-epiboly (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-29
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000020 ! Gastrula:75%-epiboly (Danio)
+relationship: part_of UBERON:0000109
+
+[Term]
+id: ZFS:0000022
+name: Gastrula:Bud (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-12
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000021 ! Gastrula:90%-epiboly (Danio)
+relationship: part_of UBERON:0000109
+
+[Term]
+id: ZFS:0000023
+name: Segmentation:1-4 somites (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-23
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000022 ! Gastrula:Bud (Danio)
+relationship: part_of ZFS:0000049 ! segmentation (Danio)
+
+[Term]
+id: ZFS:0000024
+name: Segmentation:5-9 somites (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-5
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000023 ! Segmentation:1-4 somites (Danio)
+relationship: part_of ZFS:0000049 ! segmentation (Danio)
+
+[Term]
+id: ZFS:0000025
+name: Segmentation:10-13 somites (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-020626-1
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000024 ! Segmentation:5-9 somites (Danio)
+relationship: part_of ZFS:0000049 ! segmentation (Danio)
+
+[Term]
+id: ZFS:0000026
+name: Segmentation:14-19 somites (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-30
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000025 ! Segmentation:10-13 somites (Danio)
+relationship: part_of ZFS:0000049 ! segmentation (Danio)
+
+[Term]
+id: ZFS:0000027
+name: Segmentation:20-25 somites (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-16
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000026 ! Segmentation:14-19 somites (Danio)
+relationship: part_of ZFS:0000049 ! segmentation (Danio)
+
+[Term]
+id: ZFS:0000028
+name: Segmentation:26+ somites (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-34
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000027 ! Segmentation:20-25 somites (Danio)
+relationship: part_of ZFS:0000049 ! segmentation (Danio)
+
+[Term]
+id: ZFS:0000029
+name: Pharyngula:Prim-5 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-10
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000028 ! Segmentation:26+ somites (Danio)
+relationship: part_of UBERON:0004707
+
+[Term]
+id: ZFS:0000030
+name: Pharyngula:Prim-15 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-32
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000029 ! Pharyngula:Prim-5 (Danio)
+relationship: part_of UBERON:0004707
+
+[Term]
+id: ZFS:0000031
+name: Pharyngula:Prim-25 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-13
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000030 ! Pharyngula:Prim-15 (Danio)
+relationship: part_of UBERON:0004707
+
+[Term]
+id: ZFS:0000032
+name: Pharyngula:High-pec (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-31
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000031 ! Pharyngula:Prim-25 (Danio)
+relationship: part_of UBERON:0004707
+
+[Term]
+id: ZFS:0000033
+name: Hatching:Long-pec (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-9
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000032 ! Pharyngula:High-pec (Danio)
+relationship: part_of ZFS:0007000 ! hatching (Danio)
+
+[Term]
+id: ZFS:0000034
+name: Hatching:Pec-fin (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-26
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000033 ! Hatching:Long-pec (Danio)
+relationship: part_of ZFS:0007000 ! hatching (Danio)
+
+[Term]
+id: ZFS:0000035
+name: Larval:Protruding-mouth (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-8
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000034 ! Hatching:Pec-fin (Danio)
+relationship: part_of UBERON:0000069
+
+[Term]
+id: ZFS:0000036
+name: Larval:Day 4 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-35
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000035 ! Larval:Protruding-mouth (Danio)
+relationship: part_of UBERON:0000069
+
+[Term]
+id: ZFS:0000037
+name: Larval:Day 5 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-36
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000036 ! Larval:Day 4 (Danio)
+relationship: part_of UBERON:0000069
+
+[Term]
+id: ZFS:0000038
+name: Larval:Day 6 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-37
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000037 ! Larval:Day 5 (Danio)
+relationship: part_of UBERON:0000069
+
+[Term]
+id: ZFS:0000039
+name: Larval:Days 7-13 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-47
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000038 ! Larval:Day 6 (Danio)
+relationship: part_of UBERON:0000069
+
+[Term]
+id: ZFS:0000040
+name: Larval:Days 14-20 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-48
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000039 ! Larval:Days 7-13 (Danio)
+relationship: part_of UBERON:0000069
+
+[Term]
+id: ZFS:0000041
+name: Larval:Days 21-29 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-49
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000040 ! Larval:Days 14-20 (Danio)
+relationship: part_of UBERON:0000069
+
+[Term]
+id: ZFS:0000042
+name: Juvenile:Days 30-44 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-51
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000041 ! Larval:Days 21-29 (Danio)
+relationship: part_of UBERON:0000112
+
+[Term]
+id: ZFS:0000043
+name: Juvenile:Days 45-89 (Danio)
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-52
+is_a: UBERON:0000105
+relationship: immediately_preceded_by ZFS:0000042 ! Juvenile:Days 30-44 (Danio)
+relationship: part_of UBERON:0000112
+
+[Term]
+id: ZFS:0000049
+name: segmentation (Danio)
+namespace: zebrafish_stages
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0000109
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "segmentation (ZFS)" xsd:string
+
+[Term]
+id: ZFS:0007000
+name: hatching (Danio)
+namespace: zebrafish_stages
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0004707
+created_by: yvonne
+creation_date: 2014-11-05T08:33:09Z
+
+[Typedef]
+id: RO:0002225
+equivalent_to: develops_from
+
+[Typedef]
+id: develops_from
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+namespace: zebrafish_anatomical_ontology
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+xref: RO:0002087
+is_a: preceded_by ! preceded_by
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
+
+[Typedef]
+id: part_of
+name: part of
+namespace: zebrafish_anatomical_ontology
+xref: BFO:0000050
+is_transitive: true
+equivalent_to: part_of ! part of
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+namespace: zebrafish_anatomical_ontology
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
+
