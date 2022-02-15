@@ -70,10 +70,6 @@ name: cleavage and blastula stage
 namespace: rat_developmental_stage
 def: "Embryonic stage that starts with the one-cell zygote in the oviduct and ends with the free blastocyst in the uterus." [Bgee:curator "Bgee"]
 comment: This stage covers the first 5 days of the embryonic development, from Standard Witschi Stage 1 up to 7 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 1 up to 4 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
-is_a: RnorDv:0000000 ! life cycle stage
-relationship: part_of RnorDv:0000003 ! embryonic stage
-property_value: start_dpc "0.45" xsd:float
-property_value: end_dpc "5.0" xsd:float
 is_obsolete: true
 
 [Term]
