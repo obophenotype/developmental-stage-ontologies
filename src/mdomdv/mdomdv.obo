@@ -81,6 +81,7 @@ name: infant stage
 namespace: opossum_developmental_stage
 def: "Nursing stage that covers the period from 2 weeks old, when the young is transferred to the nest or carried on the mother's back, until about 2 months old (age of weaning)." [Bgee:curator "Bgee"]
 comment: Opossum weaning is at 53 days (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+xref: UBERON:0034920
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000032 ! nursing stage
 relationship: immediately_preceded_by MdomDv:0000004 ! neonate stage
