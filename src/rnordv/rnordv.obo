@@ -584,7 +584,7 @@ name: late adult stage
 namespace: rat_developmental_stage
 synonym: "mature" EXACT []
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 18 months old." [Bgee:curator "Bgee"]
-xref: UBERON:007222
+xref: UBERON:0007222
 is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000015 ! mature
 relationship: preceded_by RnorDv:0000059 ! prime adult stage
