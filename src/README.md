@@ -1,3 +1,108 @@
+## Modifications made to external ontologies
+
+### `FBdv:00007001 P-stage`
+
+#### Modifications
+
+* This term has been removed from the ontology
+* All its children terms (`FBdv:00005342 prepupal stage`, `FBdv:00005349 pupal stage`, `FBdv:00006011 pharate adult stage`) were mapped to its parent term `UBERON:0000092 post-embryonic stage`
+* An xref to `FBdv:00007001 P-stage` has been artificially added to `UBERON:0000092 post-embryonic stage`, in order to not loose annotations mapped to this term.
+
+#### Motivation
+
+Bgee currently stores the developmental stage ontology as a nested set model, which has several limitations. Notably, a term can only have one parent through a `part_of` relation, in any species. In the other Drosophila species used in Bgee, the term `UBERON:0000070 pupal stage` is a child of `UBERON:0000092 post-embryonic stage`. In FBdv, it is a child of `FBdv:00007001 P-stage` (`FBdv:00005349 pupal stage` mapped to `UBERON:0000070`).
+
+As a result, either we would:
+
+* keep the term `FBdv:00005349 pupal stage` unmapped to `UBERON:0000070`. This would mean that we couldn't compare the pupal stages in Drosophila melanogaster and other Drosophila species (currently, in Bgee, mapping between developmental stages is not captured through formal annotations as [for the anatomical similarity mappings](https://github.com/BgeeDB/anatomical-similarity-annotations/), but simply by considering UBERON terms equivalent in different species)
+* Discard the term `FBdv:00007001 P-stage` so that the term `FBdv:00005349 pupal stage`, mapped to `UBERON:0000070`, would be a child of `UBERON:0000092 post-embryonic stage`, as in other Drosophila species.
+
+#### Long-term fix
+
+* allows formal mapping between developmental stages
+* and/or stop storing the developmental stage ontology as a nested set model, so that a term can have different parents in different species.
+
+### `preceded_by` relations for larval terms in WBls
+
+#### Modifications
+
+* We have arbitrarily assigned some `preceded_by` relations to terms in WBls. The resulting structure is:
+
+    UBERON:0004729 nematode larval stage
+        WBls:0000024 L1 larva Ce (C elegans)
+        WBls:0000026 L1-L2 molt Ce (C elegans)
+            WBls:0000025 L1-L2 lethargus Ce (C elegans)
+            WBls:0000042 L1-L2 ecdysis Ce (C elegans)
+        WBls:0000043 L1-L2d molt Ce (C elegans)
+            WBls:0000044 L1-L2d lethargus Ce (C elegans)
+            WBls:0000045 L1-L2d ecdysis Ce (C elegans)
+        WBls:0000027 L2 larva Ce (C elegans)
+        WBls:0000046 L2d larva Ce (C elegans)
+        WBls:0000029 L2-L3 molt Ce (C elegans)
+            WBls:0000028 L2-L3 lethargus Ce (C elegans)
+            WBls:0000047 L2-L3 ecdysis Ce (C elegans)
+        WBls:0000031 L2d-dauer molt Ce (C elegans)
+            WBls:0000030 L2d-dauer lethargus Ce (C elegans)
+            WBls:0000048 L2d-dauer ecdysis Ce (C elegans)
+        WBls:0000053 L2d-L3 molt Ce (C elegans)
+            WBls:0000054 L2d-L3 lethargus Ce (C elegans)
+            WBls:0000055 L2d-L3 ecdysis Ce (C elegans)
+        WBls:0000035 L3 larva Ce (C elegans)
+        WBls:0000032 dauer larva Ce (C elegans)
+        WBls:0000037 L3-L4 molt Ce (C elegans)
+            WBls:0000036 L3-L4 lethargus Ce (C elegans)
+            WBls:0000049 L3-L4 ecdysis Ce (C elegans)
+        WBls:0000052 post dauer stage Ce (C elegans)
+        WBls:0000034 postdauer-L4 molt Ce (C elegans)
+            WBls:0000033 postdauer-L4 lethargus Ce (C elegans)
+            WBls:0000051 postdauer-L4 ecdysis Ce (C elegans)
+        WBls:0000038 L4 larva Ce (C elegans)
+        WBls:0000040 L4-adult molt Ce (C elegans)
+            WBls:0000039 L4-adult lethargus Ce (C elegans)
+            WBls:0000050 L4-adult ecdysis (C elegans)
+
+#### Motivation
+
+* See https://github.com/obophenotype/developmental-stage-ontologies/issues/30
+
+#### Long-term fix
+
+Either we could:
+
+* subclassing the problematic WBls classes (see https://github.com/obophenotype/developmental-stage-ontologies/issues/30#issuecomment-234290607)
+* and/or stop storing the developmental stage ontology as a nested set model in Bgee, so that a term can have any precedence relations (e.g., `preceded_by (Dauer OR L3)`)
+
+### `preceded_by` relations between some `embryonic cycle` terms in FBdv
+
+#### Modifications
+
+* We have arbitrarily assigned some `preceded_by` relations to the terms `FBdv:00005312 embryonic cycle 14`, `FBdv:00005315 embryonic cycle 15`, and `FBdv:00005316 embryonic cycle 16`. The resulting structure is:
+
+    UBERON:0000068 embryo stage
+        [...]
+        UBERON:0000109 gastrula stage (mapped to `FBdv:00005317 gastrula stage`)
+
+        FBdv:00005312 embryonic cycle 14 (Drosophila)
+            FBdv:00005313 embryonic cycle 14A (Drosophila)
+            FBdv:00005314 embryonic cycle 14B (Drosophila)
+        FBdv:00005315 embryonic cycle 15 (Drosophila)
+        FBdv:00005316 embryonic cycle 16 (Drosophila)
+
+        FBdv:00005321 extended germ band stage
+        [...]
+
+#### Motivation
+
+* See https://github.com/FlyBase/drosophila-anatomy-developmental-ontology/issues/37, notably https://github.com/FlyBase/drosophila-anatomy-developmental-ontology/issues/37#issuecomment-111154721
+
+#### Long-term fix
+
+Either:
+
+* we could simply discard these terms, as in Bgee release 13. In practice they are not used in annotations (see comment of the related terms, e.g.: "The asynchronous nature of cycle 14 divisions means that this is not very useful for annotating stage")
+* or we could stop storing the developmental stage ontology as a nested set model in Bgee, so that a term can have no precedence relations
+
+
 ## Diff between ssso-merged-uberon.obo and ssso-merged-uberon-modified.obo
 
 * HsapDv:0000002 was not correctly merged with UBERON:0000068, merging it. As a result, addition of XRefs for UBERON:0000068 to: EV:0300001, FMA:72652, HP:0011460.
