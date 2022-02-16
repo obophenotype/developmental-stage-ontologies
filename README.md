@@ -17,7 +17,7 @@ For documentation about development of developmental stage ontologies, see https
 
 ### Namespaces
 
-All species-specific developmental stage ontologies developed as part of this project are present in the [src folder](src/), each in a subdirectory. The nomanclature for naming these ontologies is: first letter of genus name + three first letters of species name + 'dv' suffix. For example, for Homo sapiens, the corresponding namespace is hsapdv, and files related to this ontology are present in [src/hsapdv/](src/hsapdv/).
+All species-specific developmental stage ontologies developed as part of this project are present in the [src folder](src/), each in a subdirectory. The nomenclature for naming these ontologies is: first letter of genus name + three first letters of species name + 'dv' suffix. For example, for Homo sapiens, the corresponding namespace is hsapdv, and files related to this ontology are present in [src/hsapdv/](src/hsapdv/).
 
 ### Source files
 
@@ -34,7 +34,7 @@ For each of this directory, the [Makefile](src/Makefile) will generate several d
 
 * namespace.owl (for instance, [hsapdv.owl](src/hsapdv/hsapdv.owl)): the source ontology in OWL format
 * namespace-bridge-to-uberon.obo (for instance, [hsapdv-bridge-to-uberon.obo](src/hsapdv/hsapdv-bridge-to-uberon.obo)): a bridge file allowing to merge the species-specific ontology within the structure of [life-stages-minimal.obo](src/life-stages-minimal.obo). For ontologies developed as part of this project, this bridge is automatically produced using the xrefs in the source ontology, while for external ontologies this bridge is generated probably manually.
-* namespace-uberon.obo (for instance, [hsapdv-uberon.obo](src/hsapdv/hsapdv-uberon.obo)): the species-specific ontology merged withing the structure of [life-stages-minimal.obo](src/life-stages-minimal.obo).
+* namespace-uberon.obo (for instance, [hsapdv-uberon.obo](src/hsapdv/hsapdv-uberon.obo)): the species-specific ontology merged within the structure of [life-stages-minimal.obo](src/life-stages-minimal.obo).
 
 ## External ontologies
 

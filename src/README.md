@@ -28,6 +28,7 @@ As a result, either we would:
 
 * We have arbitrarily assigned some `preceded_by` relations to terms in WBls. The resulting structure is:
 
+```
     UBERON:0004729 nematode larval stage
         WBls:0000024 L1 larva Ce (C elegans)
         WBls:0000026 L1-L2 molt Ce (C elegans)
@@ -60,6 +61,7 @@ As a result, either we would:
         WBls:0000040 L4-adult molt Ce (C elegans)
             WBls:0000039 L4-adult lethargus Ce (C elegans)
             WBls:0000050 L4-adult ecdysis (C elegans)
+```
 
 #### Motivation
 
@@ -78,6 +80,7 @@ Either we could:
 
 * We have arbitrarily assigned some `preceded_by` relations to the terms `FBdv:00005312 embryonic cycle 14`, `FBdv:00005315 embryonic cycle 15`, and `FBdv:00005316 embryonic cycle 16`. The resulting structure is:
 
+```
     UBERON:0000068 embryo stage
         [...]
         UBERON:0000109 gastrula stage (mapped to `FBdv:00005317 gastrula stage`)
@@ -90,6 +93,7 @@ Either we could:
 
         FBdv:00005321 extended germ band stage
         [...]
+```
 
 #### Motivation
 
