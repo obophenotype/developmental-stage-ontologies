@@ -224,6 +224,7 @@ id: MdomDv:0000005
 name: juvenile stage
 namespace: opossum_developmental_stage
 def: "Immature stage that covers the period from 2 months old (age of weaning) until 4 months old, before sexual maturity." [Bgee:curator "Bgee"]
+xref: UBERON:0034919
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000003 ! immature stage
 relationship: immediately_preceded_by MdomDv:0000033 ! infant stage
