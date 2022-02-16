@@ -301,6 +301,7 @@ name: juvenile stage
 namespace: sheep_developmental_stage
 def: "Sheep developmental stage that covers the period from 6 months old, when individuals wean, until about 18 months old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
 comment: sheep reach sexual maturity by 914 days of age for male, 548 days for female (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries).
+xref: UBERON:0034919
 is_a: OariDv:0000000 ! life cycle stage
 relationship: part_of OariDv:0000003 ! immature stage
 relationship: immediately_preceded_by OariDv:0000004 ! suckling stage
