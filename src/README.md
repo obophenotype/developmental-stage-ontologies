@@ -109,14 +109,21 @@ Either:
 
 ## Diff between ssso-merged-uberon.obo and ssso-merged-uberon-modified.obo
 
-* HsapDv:0000002 was not correctly merged with UBERON:0000068, merging it. As a result, addition of XRefs for UBERON:0000068 to: EV:0300001, FMA:72652, HP:0011460.
-* MmusDv:0000002 was not correctly merged with UBERON:0000068, merging it.
-* RnorDv:0000003 was not correctly merged with UBERON:0000068, merging it.
-* SscrDv:0000079 was not correctly merged with UBERON:0000068, merging it.
-* Fix an error of mapping for RnorDv:0000060 (mapped to UBERON:007222 instead of UBERON:0007222)
+### The followings are erroneous changes
+
+* HsapDv:0000002 has been incorrectly merged with UBERON:0000068. As a result, addition of XRefs for UBERON:0000068 to: EV:0300001, FMA:72652, HP:0011460.
+* MmusDv:0000002 has been incorrectly merged with UBERON:0000068.
+* RnorDv:0000003 has been incorrectly merged with UBERON:0000068.
+* SscrDv:0000079 has been incorrectly merged with UBERON:0000068.
+
+These changes are kept, because for now we want each term to have only one parent. Without these changes, for instance "UBERON:0000106 zygote stage" would be part of HsapDv:0000002 in human, but part of UBERON:0000068 in some other species.
+
+### Correct changes
+
+* Fixed an error of mapping for RnorDv:0000060 (mapped to UBERON:007222 instead of UBERON:0007222)
 * Relations outgoing from obsolete RnorDv:0000004 removed.
 
-All the previous corrections have been applied to the source species-specific ontologies
+These corrections have been applied to the source species-specific ontologies
 
 * Removal of incorrect relation UBERON:0000106 part_of UBERON:0000107
 * Replacement of relations UBERON:0004728 is_a UBERON:0000069, UBERON:0004729 is_a UBERON:0000069, UBERON:0004730 is_a UBERON:0000069, UBERON:0009849 is_a UBERON:0004728, with part_of relations
