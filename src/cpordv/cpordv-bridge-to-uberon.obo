@@ -1,13 +1,7 @@
 [Term]
-id: CporDv:0000002
-property_value: IAO:0000589 "prenatal stage (cavy)" xsd:string
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:10141
-
-[Term]
-id: CporDv:0000003
-property_value: IAO:0000589 "immature stage (cavy)" xsd:string
-intersection_of: UBERON:0000112
+id: CporDv:0000001
+property_value: IAO:0000589 "cavy life cycle (cavy)" xsd:string
+intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:10141
 
 [Term]
@@ -17,9 +11,9 @@ intersection_of: UBERON:0000113
 intersection_of: part_of NCBITaxon:10141
 
 [Term]
-id: CporDv:0000001
-property_value: IAO:0000589 "cavy life cycle (cavy)" xsd:string
-intersection_of: UBERON:0000104
+id: CporDv:0000005
+property_value: IAO:0000589 "adulthood stage (cavy)" xsd:string
+intersection_of: UBERON:0018241
 intersection_of: part_of NCBITaxon:10141
 
 [Term]
@@ -29,41 +23,22 @@ intersection_of: UBERON:0007222
 intersection_of: part_of NCBITaxon:10141
 
 [Term]
+id: CporDv:0000003
+property_value: IAO:0000589 "immature stage (cavy)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:10141
+
+[Term]
+id: CporDv:0000002
+property_value: IAO:0000589 "prenatal stage (cavy)" xsd:string
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:10141
+
+[Term]
 id: CporDv:0000000
 property_value: IAO:0000589 "cavy life cycle stage (cavy)" xsd:string
 intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:10141
-
-[Term]
-id: CporDv:0000005
-property_value: IAO:0000589 "adulthood stage (cavy)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:10141
-
-[Term]
-id: UBERON:0000113
-synonym: "mature stage" BROAD []
-xref: CporDv:0000004
-
-[Term]
-id: UBERON:0000068
-synonym: "prenatal stage" BROAD []
-xref: CporDv:0000002
-
-[Term]
-id: UBERON:0000104
-synonym: "cavy life cycle" BROAD []
-xref: CporDv:0000001
-
-[Term]
-id: UBERON:0000105
-synonym: "cavy life cycle stage" BROAD []
-xref: CporDv:0000000
-
-[Term]
-id: UBERON:0018241
-synonym: "adulthood stage" BROAD []
-xref: CporDv:0000005
 
 [Term]
 id: UBERON:0000112
@@ -71,9 +46,34 @@ synonym: "immature stage" BROAD []
 xref: CporDv:0000003
 
 [Term]
+id: UBERON:0000105
+synonym: "cavy life cycle stage" BROAD []
+xref: CporDv:0000000
+
+[Term]
 id: UBERON:0007222
 synonym: "aged stage" BROAD []
 xref: CporDv:0000006
+
+[Term]
+id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: CporDv:0000005
+
+[Term]
+id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: CporDv:0000004
+
+[Term]
+id: UBERON:0000104
+synonym: "cavy life cycle" BROAD []
+xref: CporDv:0000001
+
+[Term]
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: CporDv:0000002
 
 [Typedef]
 id: part_of

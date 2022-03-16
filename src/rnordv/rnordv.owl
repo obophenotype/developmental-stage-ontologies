@@ -488,16 +488,7 @@
     <!-- http://purl.obolibrary.org/obo/RnorDv_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic stage that starts with the one-cell zygote in the oviduct and ends with the free blastocyst in the uterus.</obo:IAO_0000115>
-        <rnordv:end_dpc rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</rnordv:end_dpc>
-        <rnordv:start_dpc rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.45</rnordv:start_dpc>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000004</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage covers the first 5 days of the embryonic development, from Standard Witschi Stage 1 up to 7 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 1 up to 4 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&amp;printsec=frontcover&amp;hl=fr#v=onepage&amp;q&amp;f=false &quot;Table 12.17, p.510&quot;)</rdfs:comment>
@@ -2324,7 +2315,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat developmental stage that refers to a sexually mature adult rat, which is over 18 months old.</obo:IAO_0000115>
         <rnordv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</rnordv:start_mpb>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:007222</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007222</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RnorDv:0000060</oboInOwl:id>

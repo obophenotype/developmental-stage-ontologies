@@ -518,6 +518,7 @@
         <mdomdv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mdomdv:end_mpb>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</mdomdv:start_mpb>
         <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</mdomdv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034919</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000005</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
@@ -1425,6 +1426,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that covers the period from 2 weeks old, when the young is transferred to the nest or carried on the mother&apos;s back, until about 2 months old (age of weaning).</obo:IAO_0000115>
         <mdomdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</mdomdv:end_wpb>
         <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</mdomdv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034920</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000033</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opossum weaning is at 53 days (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).</rdfs:comment>

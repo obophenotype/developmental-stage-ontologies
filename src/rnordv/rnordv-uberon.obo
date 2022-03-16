@@ -1,6 +1,6 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv.owl>) VersionIRI(<null>))) [Axioms: 818 Logical Axioms: 173]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv.owl>) VersionIRI(<null>))) [Axioms: 814 Logical Axioms: 171]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 340 Logical Axioms: 62]
 ontology: uberon/bridge/rnordv/rnordv-uberon.obo
 
@@ -20,10 +20,12 @@ property_value: start_dpf "0.0" xsd:float
 
 [Term]
 id: RnorDv:0000004
-name: cleavage and blastula stage (rat)
+name: cleavage and blastula stage
 namespace: rat_developmental_stage
 def: "Embryonic stage that starts with the one-cell zygote in the oviduct and ends with the free blastocyst in the uterus." [Bgee:curator]
 comment: This stage covers the first 5 days of the embryonic development, from Standard Witschi Stage 1 up to 7 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 1 up to 4 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
+relationship: only_in_taxon NCBITaxon:10116
+property_value: IAO:0000589 "cleavage and blastula stage (rat)" xsd:string
 is_obsolete: true
 
 [Term]
@@ -369,7 +371,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000034 ! 18-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "20.0" xsd:float
 property_value: IAO:0000589 "19-month-old stage (rat)" xsd:string
 property_value: start_mpb "19.0" xsd:float
@@ -383,7 +385,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000035 ! 19-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "21.0" xsd:float
 property_value: IAO:0000589 "20-month-old stage (rat)" xsd:string
 property_value: start_mpb "20.0" xsd:float
@@ -397,7 +399,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000036 ! 20-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "22.0" xsd:float
 property_value: IAO:0000589 "21-month-old stage (rat)" xsd:string
 property_value: start_mpb "21.0" xsd:float
@@ -411,7 +413,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000037 ! 21-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "23.0" xsd:float
 property_value: IAO:0000589 "22-month-old stage (rat)" xsd:string
 property_value: start_mpb "22.0" xsd:float
@@ -425,7 +427,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000038 ! 22-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "24.0" xsd:float
 property_value: IAO:0000589 "23-month-old stage (rat)" xsd:string
 property_value: start_mpb "23.0" xsd:float
@@ -439,7 +441,7 @@ comment: This stage was created to match age provided by GEO Rat expression data
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 relationship: preceded_by RnorDv:0000039 ! 23-month-old stage (rat)
 property_value: end_mpb "27.0" xsd:float
 property_value: IAO:0000589 "24-26-month-old stage (rat)" xsd:string
@@ -496,7 +498,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000043 ! 26-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "28.0" xsd:float
 property_value: IAO:0000589 "27-month-old stage (rat)" xsd:string
 property_value: start_mpb "27.0" xsd:float
@@ -510,7 +512,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000044 ! 27-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "29.0" xsd:float
 property_value: IAO:0000589 "28-month-old stage (rat)" xsd:string
 property_value: start_mpb "28.0" xsd:float
@@ -524,7 +526,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000045 ! 28-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "30.0" xsd:float
 property_value: IAO:0000589 "29-month-old stage (rat)" xsd:string
 property_value: start_mpb "29.0" xsd:float
@@ -538,7 +540,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by RnorDv:0000046 ! 29-month-old stage (rat)
 relationship: only_in_taxon NCBITaxon:10116
-relationship: part_of UBERON:007222
+relationship: part_of UBERON:0007222
 property_value: end_mpb "31.0" xsd:float
 property_value: IAO:0000589 "30-month-old stage (rat)" xsd:string
 property_value: start_mpb "30.0" xsd:float
@@ -704,6 +706,14 @@ is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
 relationship: part_of UBERON:0018685 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
 
 [Term]
+id: UBERON:0007222
+synonym: "late adult stage" BROAD []
+xref: RnorDv:0000060
+is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
+relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
+relationship: preceded_by UBERON:0018241 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
+
+[Term]
 id: UBERON:0018241
 synonym: "prime adult stage" BROAD []
 xref: RnorDv:0000059
@@ -732,14 +742,6 @@ xref: RnorDv:0000057
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
 relationship: immediately_preceded_by UBERON:0007221 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
 relationship: part_of UBERON:0018685 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
-
-[Term]
-id: UBERON:007222
-synonym: "late adult stage" BROAD []
-xref: RnorDv:0000060
-is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
-relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
-relationship: preceded_by UBERON:0018241 {gci_relation="part_of", gci_filler="NCBITaxon:10116"}
 
 [Typedef]
 id: end_dpc

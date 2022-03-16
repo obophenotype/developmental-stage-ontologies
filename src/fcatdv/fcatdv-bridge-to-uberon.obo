@@ -1,13 +1,7 @@
 [Term]
-id: FcatDv:0000002
-property_value: IAO:0000589 "prenatal stage (cat)" xsd:string
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:9685
-
-[Term]
-id: FcatDv:0000001
-property_value: IAO:0000589 "life cycle (cat)" xsd:string
-intersection_of: UBERON:0000104
+id: FcatDv:0000000
+property_value: IAO:0000589 "life cycle stage (cat)" xsd:string
+intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:9685
 
 [Term]
@@ -23,15 +17,15 @@ intersection_of: UBERON:0000112
 intersection_of: part_of NCBITaxon:9685
 
 [Term]
-id: FcatDv:0000000
-property_value: IAO:0000589 "life cycle stage (cat)" xsd:string
-intersection_of: UBERON:0000105
+id: FcatDv:0000002
+property_value: IAO:0000589 "prenatal stage (cat)" xsd:string
+intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:9685
 
 [Term]
-id: FcatDv:0000004
-property_value: IAO:0000589 "mature stage (cat)" xsd:string
-intersection_of: UBERON:0000113
+id: FcatDv:0000001
+property_value: IAO:0000589 "life cycle (cat)" xsd:string
+intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:9685
 
 [Term]
@@ -47,24 +41,10 @@ intersection_of: UBERON:0000066
 intersection_of: part_of NCBITaxon:9685
 
 [Term]
-id: UBERON:0007222
-synonym: "aged stage" BROAD []
-xref: FcatDv:0000006
-
-[Term]
-id: UBERON:0000112
-synonym: "immature stage" BROAD []
-xref: FcatDv:0000003
-
-[Term]
-id: UBERON:0000113
-synonym: "mature stage" BROAD []
-xref: FcatDv:0000004
-
-[Term]
-id: UBERON:0000068
-synonym: "prenatal stage" BROAD []
-xref: FcatDv:0000002
+id: FcatDv:0000004
+property_value: IAO:0000589 "mature stage (cat)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:9685
 
 [Term]
 id: UBERON:0000104
@@ -72,9 +52,19 @@ synonym: "life cycle" BROAD []
 xref: FcatDv:0000001
 
 [Term]
-id: UBERON:0018241
-synonym: "adulthood stage" BROAD []
-xref: FcatDv:0000005
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: FcatDv:0000002
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: FcatDv:0000000
+
+[Term]
+id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: FcatDv:0000004
 
 [Term]
 id: UBERON:0000066
@@ -82,9 +72,19 @@ synonym: "postnatal stage" BROAD []
 xref: FcatDv:0000007
 
 [Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: FcatDv:0000000
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: FcatDv:0000003
+
+[Term]
+id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: FcatDv:0000006
+
+[Term]
+id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: FcatDv:0000005
 
 [Typedef]
 id: part_of

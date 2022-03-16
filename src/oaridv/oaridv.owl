@@ -506,6 +506,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheep developmental stage that covers the period from 6 months old, when individuals wean, until about 18 months old, when individuals reach sexual maturity.</obo:IAO_0000115>
         <oaridv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</oaridv:end_ypb>
         <oaridv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</oaridv:start_mpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034919</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sheep_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OariDv:0000005</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sheep reach sexual maturity by 914 days of age for male, 548 days for female (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries).</rdfs:comment>
