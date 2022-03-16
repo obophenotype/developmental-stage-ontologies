@@ -1,62 +1,41 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 synonymtypedef: PLURAL "PLURAL"
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs/2021-02-16/uberon/bridge/uberon-bridge-to-zfs.owl>))) [Axioms: 136 Logical Axioms: 19]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs/2022-02-21/uberon/bridge/uberon-bridge-to-zfs.owl>))) [Axioms: 176 Logical Axioms: 18]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/zfs.owl>) VersionIRI(<http://purl.obolibrary.org/obo/zfs/releases/2020-03-10/zfs.owl>))) [Axioms: 458 Logical Axioms: 148]
 ontology: uberon/bridge/external_ontologies/zfs/zfs-uberon.obo
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/zfs#develops_from> \"http://purl.obolibrary.org/obo/zfs#develops_from\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/zfs#part_of> \"http://purl.obolibrary.org/obo/zfs#part_of\"^^xsd:string)\n)
 
 [Term]
 id: UBERON:0000069
-synonym: "larval stage" BROAD []
-xref: ZFS:0000048
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by ZFS:0007000 {gci_relation="part_of", gci_filler="NCBITaxon:7954"} ! hatching (Danio)
 
 [Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-synonym: "unknown" BROAD []
-xref: ZFS:0000000
-xref: ZFS:0100000
-
-[Term]
 id: UBERON:0000106
-synonym: "zygote stage" BROAD []
-xref: ZFS:0000001
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 
 [Term]
 id: UBERON:0000107
-synonym: "cleavage stage" BROAD []
-xref: ZFS:0000046
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 
 [Term]
 id: UBERON:0000108
-synonym: "blastula stage" BROAD []
-xref: ZFS:0000045
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 
 [Term]
 id: UBERON:0000109
-synonym: "gastrula stage" BROAD []
-xref: ZFS:0000047
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by UBERON:0000108 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 
 [Term]
 id: UBERON:0000112
-synonym: "sexually immature stage" BROAD []
-xref: ZFS:0000051
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by UBERON:0000069 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 
 [Term]
 id: UBERON:0000113
-synonym: "post-juvenile adult stage" BROAD []
-xref: ZFS:0000044
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by ZFS:0000043 {gci_relation="part_of", gci_filler="NCBITaxon:7954"} ! Juvenile:Days 45-89 (Danio)
 
@@ -66,31 +45,23 @@ relationship: only_in_taxon NCBITaxon:7954 {gci_relation="part_of", gci_filler="
 
 [Term]
 id: UBERON:0004707
-synonym: "pharyngula stage" BROAD []
-xref: ZFS:0000050
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by ZFS:0000049 {gci_relation="part_of", gci_filler="NCBITaxon:7954"} ! segmentation (Danio)
 
 [Term]
 id: UBERON:0007232
-synonym: "2 cell stage" BROAD []
-xref: ZFS:0000002
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: part_of UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 
 [Term]
 id: UBERON:0007233
-synonym: "4 cell stage" BROAD []
-xref: ZFS:0000003
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by UBERON:0007232 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: part_of UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 
 [Term]
 id: UBERON:0007236
-synonym: "8 cell stage" BROAD []
-xref: ZFS:0000004
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: immediately_preceded_by UBERON:0007233 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
 relationship: part_of UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:7954"}
@@ -452,8 +423,6 @@ name: segmentation (Danio)
 namespace: zebrafish_stages
 is_a: UBERON:0000105
 relationship: immediately_preceded_by UBERON:0000109
-relationship: part_of UBERON:0000111
-property_value: IAO:0000589 "segmentation (ZFS)" xsd:string
 
 [Term]
 id: ZFS:0007000
@@ -469,7 +438,97 @@ id: RO:0002225
 equivalent_to: develops_from
 
 [Typedef]
+id: dc-contributor
+name: contributor
+xref: http://purl.org/dc/elements/1.1/contributor
+is_metadata_tag: true
+
+[Typedef]
+id: dc-creator
+name: creator
+xref: http://purl.org/dc/elements/1.1/creator
+is_metadata_tag: true
+
+[Typedef]
+id: dc-description
+name: description
+xref: http://purl.org/dc/elements/1.1/description
+is_metadata_tag: true
+
+[Typedef]
+id: dc-publisher
+name: publisher
+xref: http://purl.org/dc/elements/1.1/publisher
+is_metadata_tag: true
+
+[Typedef]
+id: dc-source
+name: derived from resource
+xref: http://purl.org/dc/elements/1.1/source
+is_metadata_tag: true
+
+[Typedef]
+id: dc-title
+name: title
+xref: http://purl.org/dc/elements/1.1/title
+is_metadata_tag: true
+
+[Typedef]
+id: dcterms-isReferencedBy
+name: is referenced by
+xref: http://purl.org/dc/terms/isReferencedBy
+is_metadata_tag: true
+
+[Typedef]
+id: dcterms-references
+name: references
+xref: http://purl.org/dc/terms/references
+is_metadata_tag: true
+
+[Typedef]
 id: develops_from
+
+[Typedef]
+id: doap-GitRepository
+name: Git repository
+xref: http://usefulinc.com/ns/doap#GitRepository
+is_metadata_tag: true
+
+[Typedef]
+id: doap-SVNRepository
+name: SVN repository
+xref: http://usefulinc.com/ns/doap#SVNRepository
+is_metadata_tag: true
+
+[Typedef]
+id: doap-bug-database
+name: bug database
+xref: http://usefulinc.com/ns/doap#bug-database
+is_metadata_tag: true
+
+[Typedef]
+id: doap-wiki
+name: wiki
+xref: http://usefulinc.com/ns/doap#wiki
+is_metadata_tag: true
+
+[Typedef]
+id: example_of_usage
+name: example of usage
+xref: IAO:0000122
+is_metadata_tag: true
+
+[Typedef]
+id: foaf-depicted_by
+name: depicted_by
+xref: http://xmlns.com/foaf/0.1/depicted_by
+is_metadata_tag: true
+
+[Typedef]
+id: foaf-homepage
+name: homepage
+xref: http://xmlns.com/foaf/0.1/homepage
+is_metadata_tag: true
 
 [Typedef]
 id: immediately_preceded_by
@@ -498,4 +557,10 @@ namespace: zebrafish_anatomical_ontology
 def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
 xref: BFO:0000062
 is_transitive: true
+
+[Typedef]
+id: seeAlso
+name: see also
+xref: http://www.w3.org/2000/01/rdf-schema#seeAlso
+is_metadata_tag: true
 
