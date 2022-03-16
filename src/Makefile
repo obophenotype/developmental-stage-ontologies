@@ -1,3 +1,5 @@
+.PHONY: clean
+
 OBO=http://purl.obolibrary.org/obo
 
 #add a file named utils/owltools.vmoptions to define JVM options
@@ -21,6 +23,8 @@ clean:
 #	$(foreach o, $(ONT_PREFIXES), @rm -f $o/$o.owl $o/$o$(BRIDGE_UBERON_SUFFIX) $o/$o$(COMPOSITE_UBERON_SUFFIX))
 	@rm -f external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX)
 	@rm -f external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX)
+	@rm -f external_ontologies/xao/xao-dev-stages$(COMPOSITE_UBERON_SUFFIX)
+	@rm -f external_ontologies/wbls/wbls$(COMPOSITE_UBERON_SUFFIX)
 	@rm -f ssso-merged.obo
 	@rm -f ssso-merged-uberon.obo
 
@@ -68,22 +72,29 @@ external_ontologies/fbdv/fbdv.obo:
 	@$(CURL) http://purl.obolibrary.org/obo/fbdv.obo $(APPEND_CURL_COMMAND)
 external_ontologies/fbdv/uberon-bridge-to-fbdv.obo:
 	@$(CURL) http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.obo $(APPEND_CURL_COMMAND)
+external_ontologies/wbls/wbls.obo:
+	@$(CURL) http://purl.obolibrary.org/obo/wbls.obo $(APPEND_CURL_COMMAND)
+external_ontologies/wbls/uberon-bridge-to-wbls.obo:
+	@$(CURL) http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.obo $(APPEND_CURL_COMMAND)
+external_ontologies/xao/uberon-bridge-to-xao.obo:
+	@$(CURL) http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.obo $(APPEND_CURL_COMMAND)
 
-external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX): external_ontologies/zfs/zfs.obo external_ontologies/zfs/uberon-bridge-to-zfs-modified.obo
+external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX): external_ontologies/zfs/zfs.obo external_ontologies/zfs/uberon-bridge-to-zfs.obo
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies  --reasoner elk --merge-species-ontology -s "Danio" -t NCBITaxon:7954 -o -f obo --no-check $@
 
-external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX): external_ontologies/fbdv/fbdv-modified.obo external_ontologies/fbdv/uberon-bridge-to-fbdv-modified.obo
+external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX): external_ontologies/fbdv/fbdv.obo external_ontologies/fbdv/uberon-bridge-to-fbdv.obo
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies  --reasoner elk --merge-species-ontology -s "fruit fly" -t NCBITaxon:7227 -o -f obo --no-check $@
 
-external_ontologies/wbls/wbls$(COMPOSITE_UBERON_SUFFIX): external_ontologies/wbls/wbls-modified.obo external_ontologies/wbls/uberon-bridge-to-wbls-modified.obo
+external_ontologies/wbls/wbls$(COMPOSITE_UBERON_SUFFIX): external_ontologies/wbls/wbls.obo external_ontologies/wbls/uberon-bridge-to-wbls.obo
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies --reasoner elk --merge-species-ontology -s "nematode" -t NCBITaxon:6237 -o -f obo --no-check $@
-#	$(OWLTOOLS)  --create-ontology uberon/bridge/$@.temp $^ --merge-support-ontologies --reasoner elk -o -f obo --no-check $@
-#	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $@.temp --reasoner elk --merge-species-ontology -s "nematodes" -t NCBITaxon:6237 -o -f obo --no-check $@
+
+external_ontologies/xao/xao-dev-stages$(COMPOSITE_UBERON_SUFFIX): external_ontologies/xao/xao-dev-stages.obo external_ontologies/xao/uberon-bridge-to-xao.obo
+	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies --reasoner elk --merge-species-ontology -s "Xenopus" -t NCBITaxon:8353 -o -f obo --no-check $@
 
 ALL_OBO := $(patsubst %, */%.obo,$(ONT_PREFIXES))
-ssso-merged.obo: life-stages-minimal.obo $(ALL_OBO) external_ontologies/zfs/zfs.obo external_ontologies/fbdv/fbdv-modified.obo
+ssso-merged.obo: life-stages-minimal.obo $(ALL_OBO) external_ontologies/zfs/zfs.obo external_ontologies/fbdv/fbdv.obo external_ontologies/wbls/wbls.obo external_ontologies/xao/xao-dev-stages.obo
 	@$(OWLTOOLS) --create-ontology $(OBO)/uberon/stages-merged.owl $^ --merge-support-ontologies -o -f obo --no-check $@
 
-ALL_COMPOSITE_OBO := $(patsubst %, */%-uberon.obo,$(ONT_PREFIXES))
-ssso-merged-uberon.obo: life-stages-minimal.obo $(ALL_COMPOSITE_OBO) external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX) external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX) external_ontologies/wbls/wbls-uberon-modified.obo
+ALL_COMPOSITE_OBO := $(patsubst %, */%$(COMPOSITE_UBERON_SUFFIX),$(ONT_PREFIXES))
+ssso-merged-uberon.obo: life-stages-minimal.obo $(ALL_COMPOSITE_OBO) external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX) external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX) external_ontologies/wbls/wbls$(COMPOSITE_UBERON_SUFFIX) external_ontologies/xao/xao-dev-stages$(COMPOSITE_UBERON_SUFFIX)
 	@$(OWLTOOLS) --create-ontology $(OBO)/uberon/ssso-merged-uberon.owl $^ --merge-support-ontologies -o -f obo --no-check $@
