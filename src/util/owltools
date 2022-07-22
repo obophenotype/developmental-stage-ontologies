@@ -43,7 +43,7 @@ else
     then
         JAVAARGS="$JAVAARGS -Xmx$OWLTOOLS_MEMORY"
     else
-        JAVAARGS="$JAVAARGS -Xmx4G"
+        JAVAARGS="$JAVAARGS -Xmx10G"
     fi
 fi
 

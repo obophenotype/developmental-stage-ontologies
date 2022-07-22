@@ -7,7 +7,7 @@ ontology: fcatdv
 
 [Term]
 id: FcatDv:0000000
-name: cat life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -15,33 +15,46 @@ xref: UBERON:0000105
 
 [Term]
 id: FcatDv:0000001
-name: cat life cycle
+name: life cycle
 namespace: cat_developmental_stage
 def: "Temporal interval that defines cat life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
-is_a: FcatDv:0000000 ! cat life cycle stage
+is_a: FcatDv:0000000 ! life cycle stage
 
 [Term]
 id: FcatDv:0000002
 name: prenatal stage
 namespace: cat_developmental_stage
-def: "cat life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
-comment: estimated gestation period is 65 days (http://genomics.senescence.info/species/entry.php?species=Felis_catus).
+def: "Cat life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
+comment: Estimated gestation period is 65 days (http://genomics.senescence.info/species/entry.php?species=Felis_catus).
 xref: UBERON:0000068
-is_a: FcatDv:0000000 ! cat life cycle stage
-relationship: part_of FcatDv:0000001 ! cat life cycle
+is_a: FcatDv:0000000 ! life cycle stage
+relationship: part_of FcatDv:0000001 ! life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "65.0" xsd:float
+
+[Term]
+id: FcatDv:0000007
+name: postnatal stage
+namespace: cat_developmental_stage
+def: "Cat developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: FcatDv:0000000 ! life cycle stage
+relationship: part_of FcatDv:0000001 ! life cycle
+relationship: immediately_preceded_by FcatDv:0000002 ! prenatal stage
+property_value: start_dpf "65.0" xsd:float
+property_value: start_dpb "0.0" xsd:float
+property_value: start_mpb "0.0" xsd:float
 
 [Term]
 id: FcatDv:0000003
 name: immature stage
 namespace: cat_developmental_stage
-def: "cat life cycle stage that starts at birth and ends at the reach of sexual maturity (9.6 months post-birth)." [Bgee:curator "Bgee"]
-comment: cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.
+def: "Cat life cycle stage that starts at birth and ends at the reach of sexual maturity (9.6 months post-birth)." [Bgee:curator "Bgee"]
+comment: Cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.
 xref: UBERON:0000112
-is_a: FcatDv:0000000 ! cat life cycle stage
-relationship: part_of FcatDv:0000001 ! cat life cycle
+is_a: FcatDv:0000000 ! life cycle stage
+relationship: part_of FcatDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by FcatDv:0000002 ! prenatal stage
 property_value: start_dpf "65.0" xsd:float
 property_value: start_dpb "0.0" xsd:float
@@ -54,11 +67,11 @@ id: FcatDv:0000004
 name: mature stage
 namespace: cat_developmental_stage
 synonym: "mature" EXACT []
-def: "cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends with death." [Bgee:curator "Bgee"]
-comment: cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.
+def: "Cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends with death." [Bgee:curator "Bgee"]
+comment: Cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.
 xref: UBERON:0000113
-is_a: FcatDv:0000000 ! cat life cycle stage
-relationship: part_of FcatDv:0000001 ! cat life cycle
+is_a: FcatDv:0000000 ! life cycle stage
+relationship: part_of FcatDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by FcatDv:0000003 ! immature stage
 property_value: start_mpb "9.6" xsd:float
 
@@ -66,11 +79,11 @@ property_value: start_mpb "9.6" xsd:float
 id: FcatDv:0000005
 name: adulthood stage
 namespace: cat_developmental_stage
-def: "cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends at senior age (10 years post-birth)." [Bgee:curator "Bgee"]
+def: "Cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends at senior age (10 years post-birth)." [Bgee:curator "Bgee"]
 comment: Note that adulthood in cats is very heterogenous, depending on factors such as the size and/or the breed. Ref: http://icatcare.org/advice/life-stages
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
-is_a: FcatDv:0000000 ! cat life cycle stage
+is_a: FcatDv:0000000 ! life cycle stage
 relationship: part_of FcatDv:0000004 ! mature stage
 property_value: start_mpb "9.6" xsd:float
 property_value: end_mpb "120.0" xsd:float
@@ -79,10 +92,10 @@ property_value: end_mpb "120.0" xsd:float
 id: FcatDv:0000006
 name: aged stage
 namespace: cat_developmental_stage
-def: "cat life cycle stage that starts at senior age (10 years post-birth) and ends with death." [Bgee:curator "Bgee"]
+def: "Cat life cycle stage that starts at senior age (10 years post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of cats. They can live up to 30 years in captivity (http://genomics.senescence.info/species/entry.php?species=Felis_catus).
 xref: UBERON:0007222
-is_a: FcatDv:0000000 ! cat life cycle stage
+is_a: FcatDv:0000000 ! life cycle stage
 relationship: part_of FcatDv:0000004 ! mature stage
 relationship: immediately_preceded_by FcatDv:0000005 ! adulthood stage
 property_value: start_mpb "120.0" xsd:float

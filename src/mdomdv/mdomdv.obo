@@ -81,6 +81,7 @@ name: infant stage
 namespace: opossum_developmental_stage
 def: "Nursing stage that covers the period from 2 weeks old, when the young is transferred to the nest or carried on the mother's back, until about 2 months old (age of weaning)." [Bgee:curator "Bgee"]
 comment: Opossum weaning is at 53 days (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).
+xref: UBERON:0034920
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000032 ! nursing stage
 relationship: immediately_preceded_by MdomDv:0000004 ! neonate stage
@@ -214,7 +215,7 @@ namespace: opossum_developmental_stage
 def: "Infant stage that refers to an infant opossum which is over 6 and under 7.5 weeks old, the time when usually opossum weaning occurs." [Bgee:curator "Bgee"]
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000033 ! infant stage
-relationship: immediately_preceded_by MdomDv:0000036 ! 4-week-old stage
+relationship: immediately_preceded_by MdomDv:0000037 ! 5-week-old stage
 property_value: start_wpb "6.0" xsd:float
 property_value: end_wpb "7.5" xsd:float
 
@@ -223,6 +224,7 @@ id: MdomDv:0000005
 name: juvenile stage
 namespace: opossum_developmental_stage
 def: "Immature stage that covers the period from 2 months old (age of weaning) until 4 months old, before sexual maturity." [Bgee:curator "Bgee"]
+xref: UBERON:0034919
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000003 ! immature stage
 relationship: immediately_preceded_by MdomDv:0000033 ! infant stage
@@ -239,6 +241,7 @@ def: "Opossum developmental stage that refers to a sexually mature adult opossum
 xref: UBERON:0000113
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000001 ! opossum life cycle
+relationship: immediately_preceded_by MdomDv:0000003 ! immature stage
 property_value: start_mpb "4.0" xsd:float
 
 [Term]
@@ -466,6 +469,7 @@ comment: The life span of opossums is very short. The average female probably li
 xref: UBERON:0007222
 is_a: MdomDv:0000000 ! opossum life cycle stage
 relationship: part_of MdomDv:0000006 ! mature stage
+relationship: immediately_preceded_by MdomDv:0000007 ! adulthood stage
 property_value: start_mpb "21.0" xsd:float
 
 [Term]

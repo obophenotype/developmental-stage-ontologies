@@ -1,22 +1,8 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>) VersionIRI(<null>))) [Axioms: 682 Logical Axioms: 148]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 230 Logical Axioms: 60]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>) VersionIRI(<null>))) [Axioms: 697 Logical Axioms: 151]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 268 Logical Axioms: 53]
 ontology: uberon/bridge/ptrodv/ptrodv-uberon.obo
-
-[Term]
-id: PtroDv:0000005
-name: juvenile stage (chimpanzee)
-namespace: chimpanzee_developmental_stage
-def: "Chimpanzee developmental stage that covers the period from 3 years old, when individuals wean, until 8 years old, when individuals reach sexual maturity." [Bgee:curator]
-comment: Chimpanzee reach sexual maturity by 2920 days of age for male, 3376 days for female (see http://genomics.senescence.info/species/entry.php?species=Pan_troglodytes).
-is_a: UBERON:0000105
-relationship: immediately_preceded_by UBERON:0018685
-relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of UBERON:0000112
-property_value: end_ypb "8.0" xsd:float
-property_value: IAO:0000589 "juvenile stage (chimpanzee)" xsd:string
-property_value: start_ypb "3.0" xsd:float
 
 [Term]
 id: PtroDv:0000006
@@ -26,7 +12,7 @@ def: "Juvenile stage that refers to a chimpanzee who is under 4 years old." [Bge
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000005 ! juvenile stage (chimpanzee)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "4.0" xsd:float
 property_value: IAO:0000589 "3-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "3.0" xsd:float
@@ -40,7 +26,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000006 ! 3-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000005 ! juvenile stage (chimpanzee)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "5.0" xsd:float
 property_value: IAO:0000589 "4-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "4.0" xsd:float
@@ -54,7 +40,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000007 ! 4-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000005 ! juvenile stage (chimpanzee)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "6.0" xsd:float
 property_value: IAO:0000589 "5-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "5.0" xsd:float
@@ -68,7 +54,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000008 ! 5-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000005 ! juvenile stage (chimpanzee)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "7.0" xsd:float
 property_value: IAO:0000589 "6-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "6.0" xsd:float
@@ -82,7 +68,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000009 ! 6-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000005 ! juvenile stage (chimpanzee)
+relationship: part_of UBERON:0034919
 property_value: end_ypb "8.0" xsd:float
 property_value: IAO:0000589 "7-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "7.0" xsd:float
@@ -458,7 +444,7 @@ def: "Aged stage that refers to a chimpanzee who is over 34 under 35 years old."
 subset: granular_stage
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "35.0" xsd:float
 property_value: IAO:0000589 "34-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "34.0" xsd:float
@@ -472,7 +458,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000040 ! 34-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "36.0" xsd:float
 property_value: IAO:0000589 "35-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "35.0" xsd:float
@@ -486,7 +472,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000041 ! 35-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "37.0" xsd:float
 property_value: IAO:0000589 "36-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "36.0" xsd:float
@@ -500,7 +486,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000042 ! 36-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "38.0" xsd:float
 property_value: IAO:0000589 "37-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "37.0" xsd:float
@@ -514,7 +500,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000043 ! 37-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "39.0" xsd:float
 property_value: IAO:0000589 "38-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "38.0" xsd:float
@@ -528,7 +514,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000044 ! 38-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "40.0" xsd:float
 property_value: IAO:0000589 "39-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "39.0" xsd:float
@@ -542,7 +528,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000045 ! 39-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "41.0" xsd:float
 property_value: IAO:0000589 "40-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "40.0" xsd:float
@@ -556,7 +542,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000046 ! 40-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "42.0" xsd:float
 property_value: IAO:0000589 "41-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "41.0" xsd:float
@@ -570,7 +556,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000047 ! 41-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "43.0" xsd:float
 property_value: IAO:0000589 "42-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "42.0" xsd:float
@@ -584,7 +570,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000048 ! 42-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "44.0" xsd:float
 property_value: IAO:0000589 "43-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "43.0" xsd:float
@@ -598,7 +584,7 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000049 ! 43-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: end_ypb "45.0" xsd:float
 property_value: IAO:0000589 "44-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "44.0" xsd:float
@@ -612,56 +598,80 @@ subset: granular_stage
 is_a: UBERON:0000105
 relationship: immediately_preceded_by PtroDv:0000050 ! 44-year-old stage (chimpanzee)
 relationship: only_in_taxon NCBITaxon:9598
-relationship: part_of PtroDv:0000019 ! 14-year-old stage (chimpanzee)
+relationship: part_of UBERON:0007222
 property_value: IAO:0000589 "45-year-old and over stage (chimpanzee)" xsd:string
 property_value: start_ypb "45.0" xsd:float
 
 [Term]
-id: UBERON:0000068
+id: UBERON:0000066
+synonym: "postnatal stage" BROAD []
+xref: PtroDv:0000052
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: PtroDv:0000002
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: PtroDv:0000001
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+synonym: "life cycle stage" BROAD []
+xref: PtroDv:0000000
 
 [Term]
 id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: PtroDv:0000003
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: PtroDv:0000011
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: PtroDv:0000039
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: preceded_by PtroDv:0000007 {gci_filler="NCBITaxon:9598", gci_relation="part_of"} ! 4-year-old stage (chimpanzee)
+relationship: preceded_by UBERON:0018241 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: PtroDv:0000012
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: part_of UBERON:0000113 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Term]
 id: UBERON:0018685
+synonym: "nursing stage" BROAD []
+xref: PtroDv:0000004
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
-relationship: only_in_taxon NCBITaxon:9598 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: PtroDv:0000005
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0018685 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 relationship: part_of UBERON:0000112 {gci_filler="NCBITaxon:9598", gci_relation="part_of"}
 
 [Typedef]

@@ -480,6 +480,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lizard developmental stage that refers to a lizard who is over 24 months old.</obo:IAO_0000115>
         <acardv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</acardv:start_mph>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007222</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lizard_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AcarDv:0000006</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green anoles can live up to seven years in captivity (see http://genomics.senescence.info/species/entry.php?species=Anolis_carolinensis). We arbitraly consider over 2 years as the starting point for aged stage. This is to improve as far as information is available.</rdfs:comment>

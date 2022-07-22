@@ -7,7 +7,7 @@ ontology: rnordv
 
 [Term]
 id: RnorDv:0000000
-name: rat life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -15,12 +15,12 @@ xref: UBERON:0000105
 
 [Term]
 id: RnorDv:0000001
-name: rat life cycle
+name: life cycle
 namespace: rat_developmental_stage
 def: "Temporal interval that defines rat life from prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 comment: Vaginal plug normally persists 12 - 24 hours and may lasts as long as 48 hours (see http://web.jhu.edu/animalcare/procedures/rat.html).
 xref: UBERON:0000104
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 property_value: start_dpf "0.0" xsd:float
 property_value: start_dpc "0.45" xsd:float
 
@@ -31,8 +31,8 @@ namespace: rat_developmental_stage
 def: "Prenatal stage that starts with fertilization and ends with the fully formed embryo." [UBERON:0000068 "adapted from"]
 comment: Rat birth occurs at the 22nd day of development (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages).
 xref: UBERON:0000068
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000001 ! rat life cycle
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000001 ! life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: start_dpc "0.45" xsd:float
 property_value: end_dpf "22.0" xsd:float
@@ -44,7 +44,7 @@ name: embryonic stage
 namespace: rat_developmental_stage
 def: "Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage." [Bgee:curator "Bgee"]
 comment: This stage covers the first 16 days of the embryonic development, from Standard Witschi Stage 1 until Standard Witschi Stage 33 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline), we treat fetus as a separate stage.
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000002 ! prenatal stage
 property_value: start_dpf "0.0" xsd:float
 property_value: start_dpc "0.45" xsd:float
@@ -58,7 +58,7 @@ def: "Embryonic stage defined by one-cell embryo (in oviduct)" [https://embryolo
 comment: Starts the rat embroynic development. Occurs during the first day after fertilization (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
 synonym: "zygote stage" EXACT []
 xref: UBERON:0000106
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 property_value: start_dpf "0.0" xsd:float
 property_value: start_dpc "0.45" xsd:float
@@ -70,10 +70,6 @@ name: cleavage and blastula stage
 namespace: rat_developmental_stage
 def: "Embryonic stage that starts with the one-cell zygote in the oviduct and ends with the free blastocyst in the uterus." [Bgee:curator "Bgee"]
 comment: This stage covers the first 5 days of the embryonic development, from Standard Witschi Stage 1 up to 7 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 1 up to 4 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000003 ! embryonic stage
-property_value: start_dpc "0.45" xsd:float
-property_value: end_dpc "5.0" xsd:float
 is_obsolete: true
 
 [Term]
@@ -83,7 +79,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic stage consisting of division of cells in the early embryo." [UBERON:0000107 "adapted from"]
 comment: The different cells derived from cleavage are called blastomeres and form a compact mass called the morula. Cleavage ends with the formation of the blastula.
 xref: UBERON:0000107
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 relationship: preceded_by RnorDv:0000048 ! Witschi stage 1
 property_value: start_dpf "1.0" xsd:float
@@ -95,7 +91,7 @@ name: Witschi stage 2
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by 2-cells embryo (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
 comment: This stage occurs during the second day after fertilization (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000048 ! Witschi stage 1
 property_value: start_dpf "1.0" xsd:float
@@ -107,7 +103,7 @@ name: Witschi stage 3
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by 4-cells embryo (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
 comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000050 ! Witschi stage 2
 property_value: start_dpf "2.0" xsd:float
@@ -119,7 +115,7 @@ name: Witschi stage 4
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by an embryo of 8-12 cells (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
 comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000051 ! Witschi stage 3
 property_value: start_dpf "3.0" xsd:float
@@ -131,7 +127,7 @@ name: Witschi stage 5
 namespace: mouse_developmental_stage
 def: "Cleavage stage defined by the morula (in oviduct)" [https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline "adapted from"]
 comment: This stage occurs during the third day of rat development (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Development_Stages).
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000049 ! cleavage stage
 relationship: immediately_preceded_by RnorDv:0000052 ! Witschi stage 4
 property_value: start_dpf "3.25" xsd:float
@@ -144,7 +140,7 @@ namespace: mouse_developmental_stage
 def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
 comment: Covers Witschi stages 6 and 7, during days 4 and 5 of the embryonic development, when blastocyst is still free in the uterus (see https://embryology.med.unsw.edu.au/embryology/index.php/Rat_Timeline#Day_4).
 xref: UBERON:0000108
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 relationship: immediately_preceded_by RnorDv:0000053 ! Witschi stage 5
 property_value: start_dpf "3.5" xsd:float
@@ -155,13 +151,13 @@ id: RnorDv:0000005
 name: gastrula stage
 namespace: rat_developmental_stage
 def: "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage." [UBERON:0000109 "adapted from"]
-comment: This stage covers the blastocyst uterus implantation period, from Standard Witschi Stage 8 up to 11 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 4 up to 6 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
+comment: This stage covers the blastocyst uterus implantation period, from Standard Witschi Stage 8 up to 12 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 4 up to 6 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
 xref: UBERON:0000109
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 relationship: immediately_preceded_by RnorDv:0000054 ! blastula stage
 property_value: start_dpf "5.0" xsd:float
-property_value: end_dpf "7.75" xsd:float
+property_value: end_dpf "8.5" xsd:float
 
 [Term]
 id: RnorDv:0000006
@@ -169,8 +165,8 @@ name: primitive streak stage
 namespace: rat_developmental_stage
 def: "Embryonic stage during which the primitive streak appears." [Bgee:curator "Bgee"]
 comment: This stage corresponds to Standard Witschi Stage 12 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 6 up to 7 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000003 ! embryonic stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000005 ! gastrula stage
 relationship: immediately_preceded_by RnorDv:0000005 ! gastrula stage
 property_value: start_dpf "7.75" xsd:float
 property_value: end_dpf "8.5" xsd:float
@@ -182,11 +178,21 @@ namespace: rat_developmental_stage
 def: "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate." [UBERON:0000110 "adapted from"]
 comment: This stage corresponds to Standard Witschi Stage 13 up to 17 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 7 up to 12 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
 xref: UBERON:0000110
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000003 ! embryonic stage
 relationship: immediately_preceded_by RnorDv:0000006 ! primitive streak stage
 property_value: start_dpf "8.5" xsd:float
 property_value: end_dpf "11.0" xsd:float
+
+[Term]
+id: RnorDv:0000055
+name: organogenesis stage
+namespace: rat_developmental_stage
+def: "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism." [UBERON:0000111 "adapted from"]
+xref: UBERON:0000111
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000003 ! embryonic stage
+relationship: immediately_preceded_by RnorDv:0000007 ! neurula stage
 
 [Term]
 id: RnorDv:0000008
@@ -194,9 +200,8 @@ name: tail bud embryo stage
 namespace: rat_developmental_stage
 def: "Embryonic stage during which somites 26-28(upper lumbar) up to somites 39-40(caudal) appear." [http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages "adapted from"]
 comment: This stage corresponds to Standard Witschi Stage 18 up to 24 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 12 up to 13 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
-xref: UBERON:0000111
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000003 ! embryonic stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000055 ! organogenesis stage
 relationship: immediately_preceded_by RnorDv:0000007 ! neurula stage
 property_value: start_dpf "11.0" xsd:float
 property_value: end_dpf "12.375" xsd:float
@@ -207,8 +212,8 @@ name: complete embryo stage
 namespace: rat_developmental_stage
 def: "Embryonic stage during which somites 41-42(caudal) appear and tail and allantoic stalk rise to the placenta." [http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages "adapted from"]
 comment: This stage corresponds to Standard Witschi Stage 25 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 14 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000003 ! embryonic stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000055 ! organogenesis stage
 relationship: immediately_preceded_by RnorDv:0000008 ! tail bud embryo stage
 property_value: start_dpf "12.375" xsd:float
 property_value: end_dpf "12.5" xsd:float
@@ -219,8 +224,8 @@ name: metamorphosing embryo stage
 namespace: rat_developmental_stage
 def: "Embryonic stage during which somites 43-45 (caudal) up to somite 65 (usually this is last caudal) appear." [http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Development_Stages "adapted from"]
 comment: This stage corresponds to Standard Witschi Stage 26 up to 33 (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to human Carnegie stage 15 up to 22 (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000003 ! embryonic stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000055 ! organogenesis stage
 relationship: immediately_preceded_by RnorDv:0000009 ! complete embryo stage
 property_value: start_dpf "12.5" xsd:float
 property_value: end_dpf "16.0" xsd:float
@@ -232,11 +237,23 @@ namespace: rat_developmental_stage
 def: "Prenatal stage that starts with the fully formed embryo and ends at birth." [Bgee:curator "Bgee"]
 comment: This stage corresponds to Standard Witschi Stage 34 up to 35 ante-natal (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline). Refers to the human fetal period (Carnegie stage 23 and later) (see http://books.google.ch/books?id=yr1ZRO8H0ysC&printsec=frontcover&hl=fr#v=onepage&q&f=false "Table 12.17, p.510")
 xref: UBERON:0007220
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000002 ! prenatal stage
 relationship: preceded_by RnorDv:0000003 ! embryonic stage
 property_value: start_dpf "16" xsd:float
 property_value: end_dpf "22.0" xsd:float
+
+[Term]
+id: RnorDv:0000061
+name: postnatal stage
+namespace: rat_developmental_stage
+def: "Rat developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000001 ! life cycle
+relationship: immediately_preceded_by RnorDv:0000002 ! prenatal stage
+property_value: start_dpf "22.0" xsd:float
+property_value: start_wpb "0.0" xsd:float
 
 [Term]
 id: RnorDv:0000012
@@ -245,26 +262,53 @@ namespace: rat_developmental_stage
 def: "Rat developmental stage that covers the period from birth until about 10 weeks old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Rats reach sexual maturity by 70 days of age for male and 90 days of age for female (see http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
 xref: UBERON:0000112
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000001 ! rat life cycle
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000061 ! postnatal stage
 relationship: immediately_preceded_by RnorDv:0000002 ! prenatal stage
 property_value: start_dpf "22.0" xsd:float
 property_value: start_wpb "0.0" xsd:float
 property_value: end_wpb "10.0" xsd:float
 
 [Term]
+id: RnorDv:0000056
+name: nursing stage stage
+namespace: rat_developmental_stage
+def: "Rat developmental stage that covers the period from birth until weaning." [Bgee:curator "Bgee"]
+comment: Weaning occurs at about 25 days of age (see https://embryology.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline).
+xref: UBERON:0018685
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000012 ! immature stage
+property_value: start_dpf "22.0" xsd:float
+property_value: start_wpb "0.0" xsd:float
+property_value: end_wpb "3.5" xsd:float
+
+[Term]
 id: RnorDv:0000013
 name: early immature stage
 namespace: rat_developmental_stage
 def: "Immature stage that covers the period from birth until 16 days of age." [Bgee:curator "Bgee"]
+synonym: "neonate stage" EXACT []
 comment: This stage describes the post-natal period when the fetus becomes a breathing and suckling nestling during the first 16 days (22 to 38 days total age), while eyelids remain sealed and external ear ducts are plugged with periderm (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline).
 xref: UBERON:0007221
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000012 ! immature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000056 ! nursing stage
 property_value: start_dpf "22.0" xsd:float
 property_value: end_dpf "38.0" xsd:float
 property_value: start_wpb "0.0" xsd:float
 property_value: end_wpb "2.0" xsd:float
+
+[Term]
+id: RnorDv:0000057
+name: infant stage
+namespace: rat_developmental_stage
+def: "Immature stage that refers to a rat which is over 2 weeks and still not weaned." [Bgee:curator "Bgee"]
+comment: This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends at weaning, at about 25 days of age (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
+xref: UBERON:0034920
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000056 ! nursing stage
+relationship: immediately_preceded_by RnorDv:0000013 ! early immature stage
+property_value: start_wpb "2.0" xsd:float
+property_value: end_wpb "3.5" xsd:float
 
 [Term]
 id: RnorDv:0000014
@@ -272,10 +316,20 @@ name: infant stage
 namespace: rat_developmental_stage
 def: "Immature stage that refers to a rat which is over 2 weeks and under 10 weeks old." [Bgee:curator "Bgee"]
 comment: This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends when the rat becomes sexually mature (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_obsolete: true
+consider: RnorDv:0000057
+
+[Term]
+id: RnorDv:0000058
+name: juvenile stage
+namespace: rat_developmental_stage
+def: "Immature stage that refers to a weaned rat which is under 10 weeks old." [Bgee:curator "Bgee"]
+comment: This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends at weaning, at about 25 days of age (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
+xref: UBERON:0034919
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000012 ! immature stage
 relationship: immediately_preceded_by RnorDv:0000013 ! early immature stage
-property_value: start_wpb "2.0" xsd:float
+property_value: start_wpb "3.5" xsd:float
 property_value: end_wpb "10.0" xsd:float
 
 [Term]
@@ -285,10 +339,23 @@ namespace: rat_developmental_stage
 synonym: "mature" EXACT []
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 10 weeks old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000001 ! rat life cycle
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000061 ! postnatal stage
 relationship: preceded_by RnorDv:0000012 ! immature stage
 property_value: start_wpb "10.0" xsd:float
+
+[Term]
+id: RnorDv:0000059
+name: prime adult stage
+namespace: rat_developmental_stage
+synonym: "mature" EXACT []
+def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 10 weeks old, and under 18 months old." [Bgee:curator "Bgee"]
+comment: Senescence in rat starts at about 19 months old (see https://www.criver.com/products-services/discovery-services/pharmacology-studies/neuroscience-models-assays/alzheimers-disease-studies/aged-rats-and-mice-cognitive-decline?region=3696)
+xref: UBERON:0018241
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000015 ! mature
+property_value: start_wpb "10.0" xsd:float
+property_value: end_mpb "18.0" xsd:float
 
 [Term]
 id: RnorDv:0000016
@@ -296,8 +363,8 @@ name: 10-week-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 10 and under 11 weeks old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 property_value: start_wpb "10.0" xsd:float
 property_value: end_wpb "11.0" xsd:float
 
@@ -307,8 +374,8 @@ name: 11-week-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 11 and under 12 weeks old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000016 ! 10-week-old stage
 property_value: start_wpb "11.0" xsd:float
 property_value: end_wpb "12.0" xsd:float
@@ -319,8 +386,8 @@ name: 3-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 3 and under 4 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000017 ! 11-week-old stage
 property_value: start_wpb "12.0" xsd:float
 property_value: end_wpb "13.0" xsd:float
@@ -333,8 +400,8 @@ name: 4-6-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 4 and under 7 months old." [Bgee:curator "Bgee"]
 comment: This stage was created to match age provided by GEO Rat expression data.
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: preceded_by RnorDv:0000018 ! 3-month-old stage
 property_value: start_mpb "4.0" xsd:float
 property_value: end_mpb "7.0" xsd:float
@@ -345,7 +412,7 @@ name: 4-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 4 and under 5 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000019 ! 4-6-month-old stage
 relationship: immediately_preceded_by RnorDv:0000018 ! 3-month-old stage
 property_value: start_mpb "4.0" xsd:float
@@ -357,7 +424,7 @@ name: 5-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 5 and under 6 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000019 ! 4-6-month-old stage
 relationship: immediately_preceded_by RnorDv:0000020 ! 4-month-old stage
 property_value: start_mpb "5.0" xsd:float
@@ -369,7 +436,7 @@ name: 6-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 6 and under 7 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000019 ! 4-6-month-old stage
 relationship: immediately_preceded_by RnorDv:0000021 ! 5-month-old stage
 property_value: start_mpb "6.0" xsd:float
@@ -381,8 +448,8 @@ name: 7-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 7 and under 8 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000022 ! 6-month-old stage
 property_value: start_mpb "7.0" xsd:float
 property_value: end_mpb "8.0" xsd:float
@@ -393,8 +460,8 @@ name: 8-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 8 and under 9 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000023 ! 7-month-old stage
 property_value: start_mpb "8.0" xsd:float
 property_value: end_mpb "9.0" xsd:float
@@ -405,8 +472,8 @@ name: 9-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000024 ! 8-month-old stage
 property_value: start_mpb "9.0" xsd:float
 property_value: end_mpb "10.0" xsd:float
@@ -417,8 +484,8 @@ name: 10-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 10 and under 11 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000025 ! 9-month-old stage
 property_value: start_mpb "10.0" xsd:float
 property_value: end_mpb "11.0" xsd:float
@@ -429,8 +496,8 @@ name: 11-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 11 and under 12 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000026 ! 10-month-old stage
 property_value: start_mpb "11.0" xsd:float
 property_value: end_mpb "12.0" xsd:float
@@ -441,8 +508,8 @@ name: 12-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 12 and under 13 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000027 ! 11-month-old stage
 property_value: start_mpb "12.0" xsd:float
 property_value: end_mpb "13.0" xsd:float
@@ -453,8 +520,8 @@ name: 13-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 13 and under 14 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000028 ! 12-month-old stage
 property_value: start_mpb "13.0" xsd:float
 property_value: end_mpb "14.0" xsd:float
@@ -465,8 +532,8 @@ name: 14-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 14 and under 15 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000029 ! 13-month-old stage
 property_value: start_mpb "14.0" xsd:float
 property_value: end_mpb "15.0" xsd:float
@@ -477,8 +544,8 @@ name: 15-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 15 and under 16 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000030 ! 14-month-old stage
 property_value: start_mpb "15.0" xsd:float
 property_value: end_mpb "16.0" xsd:float
@@ -489,8 +556,8 @@ name: 16-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 16 and under 17 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000031 ! 15-month-old stage
 property_value: start_mpb "16.0" xsd:float
 property_value: end_mpb "17.0" xsd:float
@@ -501,11 +568,23 @@ name: 17-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 17 and under 18 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000059 ! prime adult stage
 relationship: immediately_preceded_by RnorDv:0000032 ! 16-month-old stage
 property_value: start_mpb "17.0" xsd:float
 property_value: end_mpb "18.0" xsd:float
+
+[Term]
+id: RnorDv:0000060
+name: late adult stage
+namespace: rat_developmental_stage
+synonym: "mature" EXACT []
+def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 18 months old." [Bgee:curator "Bgee"]
+xref: UBERON:0007222
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000015 ! mature
+relationship: preceded_by RnorDv:0000059 ! prime adult stage
+property_value: start_mpb "18.0" xsd:float
 
 [Term]
 id: RnorDv:0000034
@@ -513,8 +592,8 @@ name: 18-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 18 and under 19 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000033 ! 17-month-old stage
 property_value: start_mpb "18.0" xsd:float
 property_value: end_mpb "19.0" xsd:float
@@ -525,8 +604,8 @@ name: 19-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 19 and under 20 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000034 ! 18-month-old stage
 property_value: start_mpb "19.0" xsd:float
 property_value: end_mpb "20.0" xsd:float
@@ -537,8 +616,8 @@ name: 20-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 20 and under 21 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000035 ! 19-month-old stage
 property_value: start_mpb "20.0" xsd:float
 property_value: end_mpb "21.0" xsd:float
@@ -549,8 +628,8 @@ name: 21-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 21 and under 22 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000036 ! 20-month-old stage
 property_value: start_mpb "21.0" xsd:float
 property_value: end_mpb "22.0" xsd:float
@@ -561,8 +640,8 @@ name: 22-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 22 and under 23 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000037 ! 21-month-old stage
 property_value: start_mpb "22.0" xsd:float
 property_value: end_mpb "23.0" xsd:float
@@ -573,8 +652,8 @@ name: 23-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 23 and under 24 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000038 ! 22-month-old stage
 property_value: start_mpb "23.0" xsd:float
 property_value: end_mpb "24.0" xsd:float
@@ -586,8 +665,8 @@ namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 24 and under 27 months old." [Bgee:curator "Bgee"]
 comment: This stage was created to match age provided by GEO Rat expression data.
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: preceded_by RnorDv:0000039 ! 23-month-old stage
 property_value: start_mpb "24.0" xsd:float
 property_value: end_mpb "27.0" xsd:float
@@ -598,7 +677,7 @@ name: 24-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 24 and under 25 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000040 ! 24-26-month-old stage
 relationship: immediately_preceded_by RnorDv:0000039 ! 23-month-old stage
 property_value: start_mpb "24.0" xsd:float
@@ -610,7 +689,7 @@ name: 25-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 25 and under 26 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000040 ! 24-26-month-old stage
 relationship: immediately_preceded_by RnorDv:0000041 ! 24-month-old stage
 property_value: start_mpb "25.0" xsd:float
@@ -622,7 +701,7 @@ name: 26-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 26 and under 27 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
+is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000040 ! 24-26-month-old stage
 relationship: immediately_preceded_by RnorDv:0000042 ! 25-month-old stage
 property_value: start_mpb "26.0" xsd:float
@@ -634,8 +713,8 @@ name: 27-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 27 and under 28 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000043 ! 26-month-old stage
 property_value: start_mpb "27.0" xsd:float
 property_value: end_mpb "28.0" xsd:float
@@ -646,8 +725,8 @@ name: 28-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 28 and under 29 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000044 ! 27-month-old stage
 property_value: start_mpb "28.0" xsd:float
 property_value: end_mpb "29.0" xsd:float
@@ -658,8 +737,8 @@ name: 29-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 29 and under 30 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000045 ! 28-month-old stage
 property_value: start_mpb "29.0" xsd:float
 property_value: end_mpb "30.0" xsd:float
@@ -670,8 +749,8 @@ name: 30-month-old stage
 namespace: rat_developmental_stage
 def: "Rat developmental stage that refers to a sexually mature adult rat, which is over 30 and under 31 months old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: RnorDv:0000000 ! rat life cycle stage
-relationship: part_of RnorDv:0000015 ! mature stage
+is_a: RnorDv:0000000 ! life cycle stage
+relationship: part_of RnorDv:0000060 ! late adult stage
 relationship: immediately_preceded_by RnorDv:0000046 ! 29-month-old stage
 property_value: start_mpb "30.0" xsd:float
 property_value: end_mpb "31.0" xsd:float

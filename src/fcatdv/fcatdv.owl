@@ -362,7 +362,7 @@
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stage</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat_stages_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FcatDv:0000000</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life cycle stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000000"/>
@@ -381,7 +381,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000104</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FcatDv:0000001</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life cycle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000001"/>
@@ -402,19 +402,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts with fertilisation and ends with birth.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts with fertilisation and ends with birth.</obo:IAO_0000115>
         <fcatdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.0</fcatdv:end_dpf>
         <fcatdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</fcatdv:start_dpf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000068</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FcatDv:0000002</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estimated gestation period is 65 days (http://genomics.senescence.info/species/entry.php?species=Felis_catus).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimated gestation period is 65 days (http://genomics.senescence.info/species/entry.php?species=Felis_catus).</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prenatal stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts with fertilisation and ends with birth.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts with fertilisation and ends with birth.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -427,7 +427,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -436,7 +436,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at birth and ends at the reach of sexual maturity (9.6 months post-birth).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at birth and ends at the reach of sexual maturity (9.6 months post-birth).</obo:IAO_0000115>
         <fcatdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">289.0</fcatdv:end_dpb>
         <fcatdv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</fcatdv:end_mpb>
         <fcatdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</fcatdv:start_dpb>
@@ -445,13 +445,13 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000112</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FcatDv:0000003</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at birth and ends at the reach of sexual maturity (9.6 months post-birth).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at birth and ends at the reach of sexual maturity (9.6 months post-birth).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -464,7 +464,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -473,19 +473,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends with death.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends with death.</obo:IAO_0000115>
         <fcatdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</fcatdv:start_mpb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000113</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FcatDv:0000004</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cats reach sexual maturity when 289 days old: http://genomics.senescence.info/species/entry.php?species=Felis_catus.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends with death.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends with death.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -501,7 +501,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends at senior age (10 years post-birth).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends at senior age (10 years post-birth).</obo:IAO_0000115>
         <fcatdv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">120.0</fcatdv:end_mpb>
         <fcatdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</fcatdv:start_mpb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
@@ -514,7 +514,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000005"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends at senior age (10 years post-birth).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at sexual maturity (9.6 months post-birth) and ends at senior age (10 years post-birth).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -536,7 +536,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at senior age (10 years post-birth) and ends with death.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at senior age (10 years post-birth) and ends with death.</obo:IAO_0000115>
         <fcatdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">120.0</fcatdv:start_mpb>
         <fcatdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</fcatdv:start_ypb>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007222</oboInOwl:hasDbXref>
@@ -548,7 +548,41 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat life cycle stage that starts at senior age (10 years post-birth) and ends with death.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat life cycle stage that starts at senior age (10 years post-birth) and ends with death.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FcatDv_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FcatDv_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat developmental stage that covers the period from birth until late adulthood.</obo:IAO_0000115>
+        <fcatdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</fcatdv:start_dpb>
+        <fcatdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.0</fcatdv:start_dpf>
+        <fcatdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</fcatdv:start_mpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FcatDv:0000007</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postnatal stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FcatDv_0000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cat developmental stage that covers the period from birth until late adulthood.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>

@@ -7,7 +7,7 @@ ontology: ecabdv
 
 [Term]
 id: EcabDv:0000000
-name: horse life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -15,23 +15,36 @@ xref: UBERON:0000105
 
 [Term]
 id: EcabDv:0000001
-name: horse life cycle
+name: life cycle
 namespace: horse_developmental_stage
 def: "Temporal interval that defines horse life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
-is_a: EcabDv:0000000 ! horse life cycle stage
+is_a: EcabDv:0000000 ! life cycle stage
 
 [Term]
 id: EcabDv:0000002
 name: prenatal stage
 namespace: horse_developmental_stage
-def: "horse life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
-comment: estimated gestation period is 337 days (http://genomics.senescence.info/species/entry.php?species=Equus_caballus).
+def: "Horse life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
+comment: Estimated gestation period is 337 days (http://genomics.senescence.info/species/entry.php?species=Equus_caballus).
 xref: UBERON:0000068
-is_a: EcabDv:0000000 ! horse life cycle stage
-relationship: part_of EcabDv:0000001 ! horse life cycle
+is_a: EcabDv:0000000 ! life cycle stage
+relationship: part_of EcabDv:0000001 ! life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "337.0" xsd:float
+
+[Term]
+id: EcabDv:0000007
+name: postnatal stage
+namespace: horse_developmental_stage
+def: "Horse developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: EcabDv:0000000 ! life cycle stage
+relationship: part_of EcabDv:0000001 ! life cycle
+relationship: immediately_preceded_by EcabDv:0000002 ! prenatal stage
+property_value: start_dpf "337.0" xsd:float
+property_value: start_mpb "0.0" xsd:float
+property_value: start_ypb "0.0" xsd:float
 
 [Term]
 id: EcabDv:0000003
@@ -40,8 +53,8 @@ namespace: horse_developmental_stage
 def: "horse life cycle stage that starts at birth and ends at the reach of sexual maturity (2.6 years post-birth)." [Bgee:curator "Bgee"]
 comment: Male and female horse reach sexual maturity in different ages: 973 days post-birth for females and 914 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Equus_caballus). Thus, we arbitrary set the boundary between immature and mature stages to 943 days old, i.e. 2.6 years (mean value of male and female maturity).
 xref: UBERON:0000112
-is_a: EcabDv:0000000 ! horse life cycle stage
-relationship: part_of EcabDv:0000001 ! horse life cycle
+is_a: EcabDv:0000000 ! life cycle stage
+relationship: part_of EcabDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by EcabDv:0000002 ! prenatal stage
 property_value: start_dpf "337.0" xsd:float
 property_value: start_mpb "0.0" xsd:float
@@ -57,8 +70,8 @@ synonym: "mature" EXACT []
 def: "horse life cycle stage that starts at sexual maturity (2.6 years post-birth) and ends with death." [Bgee:curator "Bgee"]
 comment: Male and female horse reach sexual maturity in different ages: 973 days post-birth for females and 914 days post birth for males (http://genomics.senescence.info/species/entry.php?species=Equus_caballus). Thus, we arbitrary set the boundary between immature and mature stages to 943 days old, i.e. 2.6 years (mean value of male and female maturity).
 xref: UBERON:0000113
-is_a: EcabDv:0000000 ! horse life cycle stage
-relationship: part_of EcabDv:0000001 ! horse life cycle
+is_a: EcabDv:0000000 ! life cycle stage
+relationship: part_of EcabDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by EcabDv:0000003 ! immature stage
 property_value: start_mpb "31.4" xsd:float
 property_value: start_ypb "2.6" xsd:float
@@ -71,7 +84,7 @@ def: "horse life cycle stage that starts at sexual maturity (2.6 years post-birt
 comment: Note that adulthood in horses is very heterogenous, depending on factors such as the size and/or the breed. Ref: http://www.dspca.ie/BasicEquineCare
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
-is_a: EcabDv:0000000 ! horse life cycle stage
+is_a: EcabDv:0000000 ! life cycle stage
 relationship: part_of EcabDv:0000004 ! mature stage
 property_value: start_mpb "31.4" xsd:float
 property_value: end_mpb "240.0" xsd:float
@@ -85,7 +98,7 @@ namespace: horse_developmental_stage
 def: "horse life cycle stage that starts at senior age (20 years post-birth)." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of horses. They can live up to 57 years in captivity (http://genomics.senescence.info/species/entry.php?species=Equus_caballus).
 xref: UBERON:0007222
-is_a: EcabDv:0000000 ! horse life cycle stage
+is_a: EcabDv:0000000 ! life cycle stage
 relationship: part_of EcabDv:0000004 ! mature stage
 relationship: immediately_preceded_by EcabDv:0000005 ! adulthood stage
 property_value: start_mpb "240.0" xsd:float

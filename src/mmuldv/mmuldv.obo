@@ -7,20 +7,19 @@ ontology: mmuldv
 
 [Term]
 id: MmulDv:0000000
-name: rhesus life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
 xref: UBERON:0000105
-relationship: only_in_taxon NCBITaxon:9544 ! Macaca mulatta
 
 [Term]
 id: MmulDv:0000001
-name: rhesus life cycle
+name: life cycle
 namespace: rhesus_macaque_developmental_stage
 def: "Temporal interval that defines rhesus life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 
 [Term]
 id: MmulDv:0000002
@@ -29,11 +28,24 @@ namespace: rhesus_macaque_developmental_stage
 def: "Rhesus life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
 comment: Embryo develops in 165 days (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
 xref: UBERON:0000068
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000001 ! life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "165.0" xsd:float
 property_value: end_mpf "5.5" xsd:float
+
+[Term]
+id: MmulDv:0000052
+name: postnatal stage
+namespace: rhesus_macaque_developmental_stage
+def: "Rhesus developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000001 ! life cycle
+relationship: immediately_preceded_by MmulDv:0000002 ! prenatal stage
+property_value: start_dpf "165.0" xsd:float
+property_value: start_mpf "5.5" xsd:float
+property_value: start_ypb "0.0" xsd:float
 
 [Term]
 id: MmulDv:0000003
@@ -42,8 +54,8 @@ namespace: rhesus_macaque_developmental_stage
 def: "Rhesus developmental stage that covers the period from birth until 3.5 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: Rhesus reach sexual maturity by 2007 days of age for male, 1231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
 xref: UBERON:0000112
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000052 ! postnatal stage
 relationship: immediately_preceded_by MmulDv:0000002 ! prenatal stage
 property_value: start_dpf "165.0" xsd:float
 property_value: start_mpf "5.5" xsd:float
@@ -57,7 +69,7 @@ namespace: rhesus_macaque_developmental_stage
 def: "Rhesus developmental stage that covers the period from birth until about 9 months old, at which point individuals usually wean." [Bgee:curator "Bgee"]
 comment: Age of weaning is 292 days, so close to 9.7 months (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
 xref: UBERON:0018685
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000003 ! immature stage
 property_value: start_dpf "165.0" xsd:float
 property_value: start_mpf "5.5" xsd:float
@@ -71,19 +83,31 @@ id: MmulDv:0000046
 name: newborn stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus newborn who is under 32 days old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+xref: UBERON:0007221
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000004 ! nursing stage
 property_value: start_mpb "0.0" xsd:float
 property_value: end_mpb "1.0" xsd:float
+
+[Term]
+id: MmulDv:0000053
+name: infant stage
+namespace: rhesus_macaque_developmental_stage
+def: "Nursing stage that refers to a rhesus who is over one month old and not weaned." [Bgee:curator "Bgee"]
+xref: UBERON:0034920
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000004 ! nursing stage
+relationship: immediately_preceded_by MmulDv:0000046 ! newborn stage
+property_value: start_mpb "1.0" xsd:float
+property_value: end_mpb "9.7" xsd:float
 
 [Term]
 id: MmulDv:0000005
 name: 1-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 1 and under 2 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
-relationship: immediately_preceded_by MmulDv:0000046 ! newborn stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 property_value: start_mpb "1.0" xsd:float
 property_value: end_mpb "2.0" xsd:float
 
@@ -92,8 +116,8 @@ id: MmulDv:0000006
 name: 2-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 2 and under 3 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 relationship: immediately_preceded_by MmulDv:0000005 ! 1-month-old stage
 property_value: start_mpb "2.0" xsd:float
 property_value: end_mpb "3.0" xsd:float
@@ -103,9 +127,9 @@ id: MmulDv:0000007
 name: 3-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 3 and under 4 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by MmulDv:0000006 ! 2-month-old stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+relationship: part_of MmulDv:0000053 ! infant stage
 property_value: start_mpb "3.0" xsd:float
 property_value: end_mpb "4.0" xsd:float
 
@@ -114,8 +138,8 @@ id: MmulDv:0000008
 name: 4-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 4 and under 5 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 relationship: immediately_preceded_by MmulDv:0000007 ! 3-month-old stage
 property_value: start_mpb "4.0" xsd:float
 property_value: end_mpb "5.0" xsd:float
@@ -125,8 +149,8 @@ id: MmulDv:0000009
 name: 5-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 5 and under 6 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 relationship: immediately_preceded_by MmulDv:0000008 ! 4-month-old stage
 property_value: start_mpb "5.0" xsd:float
 property_value: end_mpb "6.0" xsd:float
@@ -136,8 +160,8 @@ id: MmulDv:0000010
 name: 6-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 6 and under 7 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 relationship: immediately_preceded_by MmulDv:0000009 ! 5-month-old stage
 property_value: start_mpb "6.0" xsd:float
 property_value: end_mpb "7.0" xsd:float
@@ -147,8 +171,8 @@ id: MmulDv:0000011
 name: 7-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 7 and under 8 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 relationship: immediately_preceded_by MmulDv:0000010 ! 6-month-old stage
 property_value: start_mpb "7.0" xsd:float
 property_value: end_mpb "8.0" xsd:float
@@ -158,8 +182,8 @@ id: MmulDv:0000012
 name: 8-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a rhesus who is over 8 and under 9 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 relationship: immediately_preceded_by MmulDv:0000011 ! 7-month-old stage
 property_value: start_mpb "8.0" xsd:float
 property_value: end_mpb "9.0" xsd:float
@@ -170,8 +194,8 @@ name: 9-month-old nursing stage
 namespace: rhesus_macaque_developmental_stage
 def: "Nursing stage that refers to a nursing rhesus who is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 comment: Age of weaning is 292 days, so close to 9.7 months (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We consider a 9-month-old nursing stage and 9-month-old weaning stage.
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000004 ! nursing stage
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000053 ! infant stage
 relationship: immediately_preceded_by MmulDv:0000012 ! 8-month-old stage
 property_value: start_mpb "9.0" xsd:float
 property_value: end_mpb "9.7" xsd:float
@@ -182,9 +206,10 @@ name: juvenile stage
 namespace: rhesus_macaque_developmental_stage
 def: "Rhesus developmental stage that covers the period from about 9 months old, when individuals usually wean, until 3.5 years old, when individuals usually reach sexual maturity." [Bgee:curator "Bgee"]
 comment: This stage starts at 9.7 months, the usually weaning age. We consider a 9-month-old nursing stage and 9-month-old weaning stage. Rhesus reach sexual maturity by 2007 days of age for male, 1231 days for female (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+xref: UBERON:0034919
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000003 ! immature stage
-relationship: preceded_by MmulDv:0000004 ! nursing stage
+relationship: preceded_by MmulDv:0000053 ! infant stage
 property_value: start_ypb "0.8" xsd:float
 property_value: end_ypb "3.5" xsd:float
 
@@ -194,7 +219,7 @@ name: 9-month-old weaning stage
 namespace: rhesus_macaque_developmental_stage
 def: "Juvenile stage stage that refers to a rhesus who is over 9 and under 10 months old." [Bgee:curator "Bgee"]
 comment: During this period, juvenile rhesus usually wean (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta).
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000014 ! juvenile stage
 property_value: start_mpb "9.7" xsd:float
 property_value: end_mpb "10.0" xsd:float
@@ -204,7 +229,7 @@ id: MmulDv:0000016
 name: 10-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Juvenile stage stage that refers to a rhesus who is over 10 and under 11 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000014 ! juvenile stage
 relationship: immediately_preceded_by MmulDv:0000015 ! 9-month-old weaning stage
 property_value: start_mpb "10.0" xsd:float
@@ -215,7 +240,7 @@ id: MmulDv:0000017
 name: 11-month-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Juvenile stage stage that refers to a rhesus who is over 11 and under 12 months old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000014 ! juvenile stage
 relationship: immediately_preceded_by MmulDv:0000016 ! 10-month-old stage
 property_value: start_mpb "9.7" xsd:float
@@ -226,7 +251,7 @@ id: MmulDv:0000018
 name: 1-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Juvenile stage stage that refers to a rhesus who is over 1 and under 2 years old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000014 ! juvenile stage
 relationship: immediately_preceded_by MmulDv:0000017 ! 11-month-old stage
 property_value: start_ypb "1.0" xsd:float
@@ -237,7 +262,7 @@ id: MmulDv:0000019
 name: 2-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Juvenile stage stage that refers to a rhesus who is over 2 and under 3 years old." [Bgee:curator "Bgee"]
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000014 ! juvenile stage
 relationship: immediately_preceded_by MmulDv:0000018 ! 1-year-old stage
 property_value: start_ypb "2.0" xsd:float
@@ -249,7 +274,7 @@ name: 3-year-old immature stage
 namespace: rhesus_macaque_developmental_stage
 def: "Juvenile stage stage that refers to a rhesus who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
 comment: Rhesus reach sexual maturity at about 3.5 years, so we consider a 3-year-old immature stage and a 3-year-old mature stage.
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000014 ! juvenile stage
 relationship: immediately_preceded_by MmulDv:0000019 ! 2-year-old stage
 property_value: start_ypb "3.0" xsd:float
@@ -262,8 +287,8 @@ namespace: rhesus_macaque_developmental_stage
 synonym: "mature" EXACT []
 def: "Developmental stage that refers to a sexually mature adult rhesus, which is usually over 3,5 years old." [Bgee:curator "Bgee"]
 xref: UBERON:0000113
-is_a: MmulDv:0000000 ! rhesus life cycle stage
-relationship: part_of MmulDv:0000001 ! rhesus life cycle
+is_a: MmulDv:0000000 ! life cycle stage
+relationship: part_of MmulDv:0000052 ! postnatal stage
 relationship: preceded_by MmulDv:0000003 ! immature stage
 property_value: start_ypb "3.5" xsd:float
 
@@ -274,8 +299,9 @@ namespace: rhesus_macaque_developmental_stage
 def: "Mature stage that refers to a rhesus who is over 3 and under 25 years old, the usual upper limit for breeding age." [Bgee:curator "Bgee"]
 comment: This stage actually starts at about 3.5 years, the age of sexual maturity. See 3-year-old immature stage and 3-year-old mature stage. The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the upper limit for adulthood stage, before geriatric age.
 synonym: "breeding age" RELATED []
+synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000021 ! mature stage
 property_value: start_ypb "3.5" xsd:float
 property_value: end_ypb "25.0" xsd:float
@@ -287,7 +313,7 @@ namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a mature rhesus who is over 3 and under 4 years old." [Bgee:curator "Bgee"]
 comment: Rhesus reach sexual maturity at about 3.5 years, so we consider a 3-year-old immature stage and a 3-year-old mature stage.
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 property_value: start_ypb "3.5" xsd:float
 property_value: end_ypb "4.0" xsd:float
@@ -298,7 +324,7 @@ name: 4-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a mature rhesus who is over 4 and under 5 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000023 ! 3-year-old stage
 property_value: start_ypb "4.0" xsd:float
@@ -310,7 +336,7 @@ name: 5-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a mature rhesus who is over 5 and under 6 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000024 ! 4-year-old stage
 property_value: start_ypb "5.0" xsd:float
@@ -322,7 +348,7 @@ name: 6-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a mature rhesus who is over 6 and under 7 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000025 ! 5-year-old stage
 property_value: start_ypb "6.0" xsd:float
@@ -334,7 +360,7 @@ name: 7-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 7 and under 8 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000026 ! 6-year-old stage
 property_value: start_ypb "7.0" xsd:float
@@ -346,7 +372,7 @@ name: 8-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 8 and under 9 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000027 ! 7-year-old stage
 property_value: start_ypb "8.0" xsd:float
@@ -358,7 +384,7 @@ name: 9-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 9 and under 10 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000028 ! 8-year-old stage
 property_value: start_ypb "9.0" xsd:float
@@ -370,7 +396,7 @@ name: 10-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 10 and under 11 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000029 ! 9-year-old stage
 property_value: start_ypb "10.0" xsd:float
@@ -382,7 +408,7 @@ name: 11-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 11 and under 12 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000030 ! 10-year-old stage
 property_value: start_ypb "11.0" xsd:float
@@ -394,7 +420,7 @@ name: 12-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 12 and under 13 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000031 ! 11-year-old stage
 property_value: start_ypb "12.0" xsd:float
@@ -406,7 +432,7 @@ name: 13-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 13 and under 14 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000032 ! 12-year-old stage
 property_value: start_ypb "13.0" xsd:float
@@ -418,7 +444,7 @@ name: 14-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 14 and under 15 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000033 ! 13-year-old stage
 property_value: start_ypb "14.0" xsd:float
@@ -430,7 +456,7 @@ name: 15-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 15 and under 16 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000034 ! 14-year-old stage
 property_value: start_ypb "15.0" xsd:float
@@ -442,7 +468,7 @@ name: 16-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 16 and under 17 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000035 ! 15-year-old stage
 property_value: start_ypb "16.0" xsd:float
@@ -454,7 +480,7 @@ name: 17-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 17 and under 18 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000036 ! 16-year-old stage
 property_value: start_ypb "17.0" xsd:float
@@ -466,7 +492,7 @@ name: 18-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 18 and under 19 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000037 ! 17-year-old stage
 property_value: start_ypb "18.0" xsd:float
@@ -478,7 +504,7 @@ name: 19-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 19 and under 20 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000038 ! 18-year-old stage
 property_value: start_ypb "19.0" xsd:float
@@ -490,7 +516,7 @@ name: 20-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 20 and under 21 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000039 ! 19-year-old stage
 property_value: start_ypb "20.0" xsd:float
@@ -502,7 +528,7 @@ name: 21-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 21 and under 22 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000040 ! 20-year-old stage
 property_value: start_ypb "21.0" xsd:float
@@ -514,7 +540,7 @@ name: 22-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 22 and under 23 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000041 ! 21-year-old stage
 property_value: start_ypb "22.0" xsd:float
@@ -526,7 +552,7 @@ name: 23-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 23 and under 24 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000042 ! 22-year-old stage
 property_value: start_ypb "23.0" xsd:float
@@ -538,7 +564,7 @@ name: 24-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Adulthood stage stage that refers to a rhesus who is over 24 and under 25 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000022 ! adulthood stage
 relationship: immediately_preceded_by MmulDv:0000043 ! 23-year-old stage
 property_value: start_ypb "24.0" xsd:float
@@ -551,8 +577,9 @@ namespace: rhesus_macaque_developmental_stage
 def: "Mature stage that refers to a rhesus who is over 25 years old, the usual upper limit for breeding age." [Bgee:curator "Bgee"]
 comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.
 xref: UBERON:0007222
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000021 ! mature stage
+relationship: immediately_preceded_by MmulDv:0000022 ! adulthood stage
 property_value: start_ypb "25.0" xsd:float
 
 [Term]
@@ -562,7 +589,7 @@ namespace: rhesus_macaque_developmental_stage
 def: "Aged stage stage that refers to a rhesus who is over 25 and under 26 years old." [Bgee:curator "Bgee"]
 comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000045 ! aged stage
 property_value: start_ypb "25.0" xsd:float
 property_value: end_ypb "26.0" xsd:float
@@ -574,7 +601,7 @@ namespace: rhesus_macaque_developmental_stage
 def: "Aged stage stage that refers to a rhesus who is over 26 and under 27 years old." [Bgee:curator "Bgee"]
 comment: The females of this species reach menopause at about the age of 25 (see http://genomics.senescence.info/species/entry.php?species=Macaca_mulatta). We decided to consider this age as the starting time for geriatric age.
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000045 ! aged stage
 relationship: immediately_preceded_by MmulDv:0000047 ! 25-year-old stage
 property_value: start_ypb "26.0" xsd:float
@@ -586,7 +613,7 @@ name: 27-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Aged stage stage that refers to a rhesus who is over 27 and under 28 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000045 ! aged stage
 relationship: immediately_preceded_by MmulDv:0000048 ! 26-year-old stage
 property_value: start_ypb "27.0" xsd:float
@@ -598,7 +625,7 @@ name: 28-year-old stage
 namespace: rhesus_macaque_developmental_stage
 def: "Aged stage stage that refers to a rhesus who is over 28 and under 29 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000045 ! aged stage
 relationship: immediately_preceded_by MmulDv:0000049 ! 27-year-old stage
 property_value: start_ypb "28.0" xsd:float
@@ -610,7 +637,7 @@ name: 29 year-old and over stage
 namespace: rhesus_macaque_developmental_stage
 def: "Aged stage stage that refers to a rhesus who is over 29 years old." [Bgee:curator "Bgee"]
 subset: granular_stage
-is_a: MmulDv:0000000 ! rhesus life cycle stage
+is_a: MmulDv:0000000 ! life cycle stage
 relationship: part_of MmulDv:0000045 ! aged stage
 relationship: immediately_preceded_by MmulDv:0000050 ! 28-year-old stage
 property_value: start_ypb "29.0" xsd:float

@@ -31,11 +31,20 @@ foreach my $id (keys %n) {
     print "id: $id\n";
     printf('property_value: IAO:0000589 "%s (%s)" xsd:string', $name, $taxname);
     print "\n";
-    print "relationship: only_in_taxon $taxid ! $taxname\n";
-    if ($x{$id}) {
+    if (!$x{$id}) {
+        print "relationship: only_in_taxon $taxid ! $taxname\n";
+    } else {
         print "intersection_of: $x{$id}\n";
         print "intersection_of: part_of $taxid\n";
     }
+    print "\n";
+}
+
+foreach my $id (keys %x) {
+    print "[Term]\n";
+    print "id: $x{$id}\n";
+    print "synonym: \"$n{$id}\" BROAD []\n";
+    print "xref: $id\n";
     print "\n";
 }
 

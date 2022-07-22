@@ -7,7 +7,7 @@ ontology: cfamdv
 
 [Term]
 id: CfamDv:0000000
-name: dog life cycle stage
+name: life cycle stage
 def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
 synonym: "developmental stage" EXACT []
 synonym: "stage" NARROW []
@@ -15,33 +15,46 @@ xref: UBERON:0000105
 
 [Term]
 id: CfamDv:0000001
-name: dog life cycle
+name: life cycle
 namespace: dog_developmental_stage
 def: "Temporal interval that defines dog life from fertilisation to death." [Bgee:curator "Bgee"]
 xref: UBERON:0000104
-is_a: CfamDv:0000000 ! dog life cycle stage
+is_a: CfamDv:0000000 ! life cycle stage
 
 [Term]
 id: CfamDv:0000002
 name: prenatal stage
 namespace: dog_developmental_stage
 def: "Dog life cycle stage that starts with fertilisation and ends with birth." [Bgee:curator "Bgee"]
-comment: estimated gestation time of 63 days (http://genomics.senescence.info/species/entry.php?species=Canis_familiaris)
+comment: Estimated gestation time of 63 days (http://genomics.senescence.info/species/entry.php?species=Canis_familiaris)
 xref: UBERON:0000068
-is_a: CfamDv:0000000 ! dog life cycle stage
-relationship: part_of CfamDv:0000001 ! dog life cycle
+is_a: CfamDv:0000000 ! life cycle stage
+relationship: part_of CfamDv:0000001 ! life cycle
 property_value: start_dpf "0.0" xsd:float
 property_value: end_dpf "63.0" xsd:float
+
+[Term]
+id: CfamDv:0000007
+name: postnatal stage
+namespace: dog_developmental_stage
+def: "Dog developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: CfamDv:0000000 ! life cycle stage
+relationship: part_of CfamDv:0000001 ! life cycle
+relationship: immediately_preceded_by CfamDv:0000002 ! prenatal stage
+property_value: start_dpf "63.0" xsd:float
+property_value: start_dpb "0.0" xsd:float
+property_value: start_mpb "0.0" xsd:float
 
 [Term]
 id: CfamDv:0000003
 name: immature stage
 namespace: dog_developmental_stage
 def: "Dog life cycle stage that starts at birth and ends at the reach of sexual maturity (17 months post-birth)." [Bgee:curator "Bgee"]
-comment: male and female dog reach maturity at 510 days of age (http://genomics.senescence.info/species/entry.php?species=Canis_familiaris).
+comment: Male and female dog reach maturity at 510 days of age (http://genomics.senescence.info/species/entry.php?species=Canis_familiaris).
 xref: UBERON:0000112
-is_a: CfamDv:0000000 ! dog life cycle stage
-relationship: part_of CfamDv:0000001 ! dog life cycle
+is_a: CfamDv:0000000 ! life cycle stage
+relationship: part_of CfamDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by CfamDv:0000002 ! prenatal stage
 property_value: start_dpf "63.0" xsd:float
 property_value: start_dpb "0.0" xsd:float
@@ -57,8 +70,8 @@ synonym: "mature" EXACT []
 def: "Dog life cycle stage that starts at sexual maturity (over 17 months) and ends with death." [Bgee:curator "Bgee"]
 comment: Male and female dog reach sexual maturity by 510 days of age (http://genomics.senescence.info/species/entry.php?species=Canis_familiaris).
 xref: UBERON:0000113
-is_a: CfamDv:0000000 ! dog life cycle stage
-relationship: part_of CfamDv:0000001 ! dog life cycle
+is_a: CfamDv:0000000 ! life cycle stage
+relationship: part_of CfamDv:0000007 ! postnatal stage
 relationship: immediately_preceded_by CfamDv:0000003 ! immature stage
 property_value: start_dpb "510.0" xsd:float
 property_value: start_mpb "17.0" xsd:float
@@ -71,7 +84,7 @@ def: "Dog life cycle stage that starts at sexual maturity (over 17 months) and e
 comment: Note that adulthood in dogs is very heterogenous, depending on factors such as the size and/or the breed. Ref: http://www.lowchensaustralia.com/breeding/pupstages.htm; http://www.petplace.com/article/dogs/keeping-your-dog-healthy/senior-dog-care/when-is-a-dog-considered-senior.
 synonym: "prime adult stage" EXACT []
 xref: UBERON:0018241
-is_a: CfamDv:0000000 ! dog life cycle stage
+is_a: CfamDv:0000000 ! life cycle stage
 relationship: part_of CfamDv:0000004 ! mature stage
 property_value: start_mpb "17.0" xsd:float
 property_value: end_mpb "72.0" xsd:float
@@ -85,7 +98,7 @@ namespace: dog_developmental_stage
 def: "Dog life cycle stage that starts at senior age (over 6 years) and ends with death." [Bgee:curator "Bgee"]
 comment: There is little information on the longevity of dogs, and depends on factors such as the size and/or the breed. Maximum ongevity in captivity has been reported to 24 years. 
 xref: UBERON:0007222
-is_a: CfamDv:0000000 ! dog life cycle stage
+is_a: CfamDv:0000000 ! life cycle stage
 relationship: part_of CfamDv:0000004 ! mature stage
 relationship: immediately_preceded_by CfamDv:0000005 ! adulthood stage
 property_value: start_mpb "72.0" xsd:float

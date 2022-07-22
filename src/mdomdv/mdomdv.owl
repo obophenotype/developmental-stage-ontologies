@@ -37,6 +37,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/mdomdv#end_dpb -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mdomdv#end_dpb">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2</obo:IAO_0000115>
+        <mdomdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_dpb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end, days post birth</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/mdomdv#end_dpf -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mdomdv#end_dpf">
@@ -118,6 +132,20 @@
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has unit</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mdomdv#start_dpb -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mdomdv#start_dpb">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1.</obo:IAO_0000115>
+        <mdomdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_dpb</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start, days post birth</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -490,6 +518,7 @@
         <mdomdv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mdomdv:end_mpb>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</mdomdv:start_mpb>
         <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</mdomdv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034919</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000005</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
@@ -511,6 +540,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opossum developmental stage that refers to a sexually mature adult opossum, which is usually over 4 months old.</obo:IAO_0000115>
@@ -1124,11 +1159,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature stage that refers to a adult opossum which is over 21 months.</obo:IAO_0000115>
         <mdomdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</mdomdv:start_mpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007222</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000025</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The life span of opossums is very short. The average female probably lives through one breeding season (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html). In the wild, two years is the standard lifespan (http://animaldiversity.ummz.umich.edu/accounts/Monodelphis_domestica/). We arbitraly consider 20 months as the upper limit for the adult, before aged stage. This is to improve as far as information is available..</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The life span of opossums is very short. The average female probably lives through one breeding season (see http://www.mspca.org/programs/wildlife-resources/species-information/about-opossums.html). In the wild, two years is the standard lifespan (http://animaldiversity.ummz.umich.edu/accounts/Monodelphis_domestica/). We arbitraly consider 20 months as the upper limit for the adult, before aged stage. This is to improve as far as information is available.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aged stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1384,6 +1426,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that covers the period from 2 weeks old, when the young is transferred to the nest or carried on the mother&apos;s back, until about 2 months old (age of weaning).</obo:IAO_0000115>
         <mdomdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</mdomdv:end_wpb>
         <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</mdomdv:start_wpb>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034920</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000033</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opossum weaning is at 53 days (see http://genomics.senescence.info/species/entry.php?species=Monodelphis_domestica).</rdfs:comment>
@@ -1393,6 +1436,379 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nursing stage that covers the period from 2 weeks old, when the young is transferred to the nest or carried on the mother&apos;s back, until about 2 months old (age of weaning).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 2 and under 3 weeks old.</obo:IAO_0000115>
+        <mdomdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</mdomdv:end_wpb>
+        <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</mdomdv:start_wpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000034</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-week-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 2 and under 3 weeks old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 3 and under 4 weeks old.</obo:IAO_0000115>
+        <mdomdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mdomdv:end_wpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</mdomdv:start_dpb>
+        <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</mdomdv:start_wpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000035</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-week-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 3 and under 4 weeks old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 4 and under 5 weeks old.</obo:IAO_0000115>
+        <mdomdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</mdomdv:end_wpb>
+        <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mdomdv:start_wpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000036</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-week-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 4 and under 5 weeks old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 5 and under 6 weeks old.</obo:IAO_0000115>
+        <mdomdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mdomdv:end_wpb>
+        <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</mdomdv:start_wpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000037</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-week-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 5 and under 6 weeks old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 6 and under 7.5 weeks old, the time when usually opossum weaning occurs.</obo:IAO_0000115>
+        <mdomdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</mdomdv:end_wpb>
+        <mdomdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mdomdv:start_wpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000038</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-week-old and over weaning stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to an infant opossum which is over 6 and under 7.5 weeks old, the time when usually opossum weaning occurs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 14 and under 15 days old.</obo:IAO_0000115>
+        <mdomdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</mdomdv:end_dpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</mdomdv:start_dpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000039</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14-day-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 14 and under 15 days old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 15 and under 16 days old.</obo:IAO_0000115>
+        <mdomdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</mdomdv:end_dpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</mdomdv:start_dpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000040</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15-day-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 15 and under 16 days old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 16 and under 17 days old.</obo:IAO_0000115>
+        <mdomdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</mdomdv:end_dpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</mdomdv:start_dpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000041</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16-day-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 16 and under 17 days old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 17 and under 18 days old.</obo:IAO_0000115>
+        <mdomdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</mdomdv:end_dpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</mdomdv:start_dpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000042</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17-day-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 17 and under 18 days old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 18 and under 19 days old.</obo:IAO_0000115>
+        <mdomdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mdomdv:end_dpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</mdomdv:start_dpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000043</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18-day-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 18 and under 19 days old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 19 and under 20 days old.</obo:IAO_0000115>
+        <mdomdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</mdomdv:end_dpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mdomdv:start_dpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000044</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19-day-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 19 and under 20 days old.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MdomDv_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MdomDv_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 20 and under 21 days old.</obo:IAO_0000115>
+        <mdomdv:end_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</mdomdv:end_dpb>
+        <mdomdv:start_dpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</mdomdv:start_dpb>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opossum_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MdomDv:0000045</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-day-old stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MdomDv_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infant stage that refers to a 2-week-old opossum which is over 20 and under 21 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
