@@ -324,7 +324,6 @@ id: RnorDv:0000058
 name: juvenile stage
 namespace: rat_developmental_stage
 def: "Immature stage that refers to a weaned rat which is under 10 weeks old." [Bgee:curator "Bgee"]
-comment: This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends at weaning, at about 25 days of age (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
 xref: UBERON:0034919
 is_a: RnorDv:0000000 ! life cycle stage
 relationship: part_of RnorDv:0000012 ! immature stage
