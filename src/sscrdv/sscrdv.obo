@@ -670,7 +670,7 @@ property_value: end_mpb "3.0" xsd:float
 id: SscrDv:0000017
 name: 8-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 56 days and under 64 days old." [Bgee:curator "Bgee"]
+def: "2 month-old stage that refers to a pig which is over 56 days and under 64 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000039 ! 2 month-old stage
@@ -682,7 +682,7 @@ property_value: end_wpb "9.0" xsd:float
 id: SscrDv:0000040
 name: 9-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 63 days and under 71 days old." [Bgee:curator "Bgee"]
+def: "2 month-old stage that refers to a pig which is over 63 days and under 71 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000039 ! 2 month-old stage
@@ -694,7 +694,7 @@ property_value: end_wpb "10.0" xsd:float
 id: SscrDv:0000041
 name: 10-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 70 days and under 78 days old." [Bgee:curator "Bgee"]
+def: "2 month-old stage that refers to a pig which is over 70 days and under 78 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000039 ! 2 month-old stage
@@ -706,7 +706,7 @@ property_value: end_wpb "11.0" xsd:float
 id: SscrDv:0000042
 name: 11-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 77 days and under 85 days old." [Bgee:curator "Bgee"]
+def: "2 month-old stage that refers to a pig which is over 77 days and under 85 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000039 ! 2 month-old stage
@@ -731,7 +731,7 @@ property_value: end_mpb "4.0" xsd:float
 id: SscrDv:0000044
 name: 12-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 84 days and under 92 days old." [Bgee:curator "Bgee"]
+def: "3 month-old stage that refers to a pig which is over 84 days and under 92 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000043 ! 3 month-old stage
@@ -743,7 +743,7 @@ property_value: end_wpb "13.0" xsd:float
 id: SscrDv:0000045
 name: 13-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 91 days and under 99 days old." [Bgee:curator "Bgee"]
+def: "3 month-old stage that refers to a pig which is over 91 days and under 99 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000043 ! 3 month-old stage
@@ -755,7 +755,7 @@ property_value: end_wpb "14.0" xsd:float
 id: SscrDv:0000046
 name: 14-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 98 days and under 106 days old." [Bgee:curator "Bgee"]
+def: "3 month-old stage that refers to a pig which is over 98 days and under 106 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000043 ! 3 month-old stage
@@ -767,7 +767,7 @@ property_value: end_wpb "15.0" xsd:float
 id: SscrDv:0000047
 name: 15-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 105 days and under 113 days old." [Bgee:curator "Bgee"]
+def: "3 month-old stage that refers to a pig which is over 105 days and under 113 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000043 ! 3 month-old stage
@@ -792,7 +792,7 @@ property_value: end_mpb "5.0" xsd:float
 id: SscrDv:0000049
 name: 16-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 112 days and under 120 days old." [Bgee:curator "Bgee"]
+def: "4 month-old stage that refers to a pig which is over 112 days and under 120 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000048 ! 4 month-old stage
@@ -804,7 +804,7 @@ property_value: end_wpb "17.0" xsd:float
 id: SscrDv:0000050
 name: 17-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 119 days and under 127 days old." [Bgee:curator "Bgee"]
+def: "4 month-old stage that refers to a pig which is over 119 days and under 127 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000048 ! 4 month-old stage
@@ -816,7 +816,7 @@ property_value: end_wpb "18.0" xsd:float
 id: SscrDv:0000051
 name: 18-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 126 days and under 134 days old." [Bgee:curator "Bgee"]
+def: "4 month-old stage that refers to a pig which is over 126 days and under 134 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000048 ! 4 month-old stage
@@ -828,7 +828,7 @@ property_value: end_wpb "19.0" xsd:float
 id: SscrDv:0000052
 name: 19-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 133 days and under 141 days old." [Bgee:curator "Bgee"]
+def: "4 month-old stage that refers to a pig which is over 133 days and under 141 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000048 ! 4 month-old stage
@@ -840,7 +840,7 @@ property_value: end_wpb "20.0" xsd:float
 id: SscrDv:0000053
 name: 20-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 140 days and under 148 days old." [Bgee:curator "Bgee"]
+def: "4 month-old stage that refers to a pig which is over 140 days and under 148 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000048 ! 4 month-old stage
@@ -865,7 +865,7 @@ property_value: end_mpb "6.0" xsd:float
 id: SscrDv:0000055
 name: 21-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 147 days and under 155 days old." [Bgee:curator "Bgee"]
+def: "5 month-old stage that refers to a pig which is over 147 days and under 155 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000054 ! 5 month-old stage
@@ -877,7 +877,7 @@ property_value: end_wpb "22.0" xsd:float
 id: SscrDv:0000056
 name: 22-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 154 days and under 162 days old." [Bgee:curator "Bgee"]
+def: "5 month-old stage that refers to a pig which is over 154 days and under 162 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000054 ! 5 month-old stage
@@ -889,7 +889,7 @@ property_value: end_wpb "23.0" xsd:float
 id: SscrDv:0000057
 name: 23-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 161 days and under 169 days old." [Bgee:curator "Bgee"]
+def: "5 month-old stage that refers to a pig which is over 161 days and under 169 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000054 ! 5 month-old stage
@@ -901,7 +901,7 @@ property_value: end_wpb "24.0" xsd:float
 id: SscrDv:0000058
 name: 24-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 168 days and under 176 days old." [Bgee:curator "Bgee"]
+def: "5 month-old stage that refers to a pig which is over 168 days and under 176 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: part_of SscrDv:0000054 ! 5 month-old stage
