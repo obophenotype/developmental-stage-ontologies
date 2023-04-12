@@ -84,6 +84,7 @@ name: Carnegie stage 02
 namespace: human_developmental_stage
 def: "Embryonic stage during which cell division occurs with reduction in cytoplasmic volume, and formation of inner and outer cell mass." [http://embryology.med.unsw.edu.au/embryology/index.php?title=Carnegie_stage_table "adapted from"]
 comment: Usually starts between day 2 and day 3 post-fertilization.
+synonym: "cleavage stage" BROAD []
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: part_of HsapDv:0000002 ! embryonic stage
 xref: UBERON:0000107
