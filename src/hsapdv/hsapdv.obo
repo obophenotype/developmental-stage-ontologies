@@ -1135,7 +1135,7 @@ consider: HsapDv:0000262
 
 [Term]
 id: HsapDv:0000262
-name: newborn stage
+name: newborn stage (0-28 days)
 namespace: human_developmental_stage
 def: "Immature stage that refers to a human newborn within the first 28 days of life." [Bgee:curator "Bgee"]
 comment: We follow HPO (Human Phenotype Ontology) definition for neonatal period, see HP:0003623 (Neonatal onset) Onset of signs or symptoms of disease within the first 28 days of life..
