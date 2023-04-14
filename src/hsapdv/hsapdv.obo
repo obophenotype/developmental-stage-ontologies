@@ -1107,7 +1107,7 @@ consider: HsapDv:0000264
 
 [Term]
 id: HsapDv:0000260
-name: nursing stage
+name: nursing stage (0-11 months)
 namespace: human_developmental_stage
 def: "Human developmental stage that covers the first period from birth, with breast feeding and/or bottled substitute, and that stops at language acquisition." [Bgee:curator "Bgee"]
 comment: The definition of an age for human weaning is difficult to define due to individual and cultural variations. The natural age of weaning in humans could be 2.5 years, with maximum 7.0 years (see https://www.health-e-learning.com/articles/A_Natural_Age_of_Weaning.pdf), but we decide to stop this period at 1 year-old, before usually language acquisition.
@@ -1376,7 +1376,7 @@ relationship: immediately_preceded_by HsapDv:0000183 ! 10-month-old stage
 
 [Term]
 id: HsapDv:0000265
-name: child stage
+name: child stage (1-4 yo)
 namespace: human_developmental_stage
 def: "Human stage that refers to a child who is over 12 months and under 5 years old." [Bgee:curator "Bgee"]
 comment: We follow HPO (Human Phenotype Ontology) definition for child period, see HP:0011463 (Childhood onset).
@@ -1611,7 +1611,7 @@ relationship: immediately_preceded_by HsapDv:0000097 ! 3-year-old stage
 
 [Term]
 id: HsapDv:0000271
-name: juvenile stage
+name: juvenile stage (5-14 yo)
 namespace: human_developmental_stage
 def: "Pediatric stage that refers to a human who is over 5 and under 15 years old." [Bgee:curator "Bgee"]
 xref: HP:0003621
