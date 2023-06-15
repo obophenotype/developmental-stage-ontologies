@@ -2208,7 +2208,7 @@ relationship: immediately_preceded_by HsapDv:0000132 ! 38-year-old stage
 
 [Term]
 id: HsapDv:0000134
-name: 40-year-old tage
+name: 40-year-old stage
 property_value: start_ypb "40.0" xsd:float
 property_value: end_ypb "41.0" xsd:float
 namespace: human_developmental_stage
