@@ -1,69 +1,6 @@
 [Term]
-id: MdomDv:0000025
-property_value: IAO:0000589 "aged stage (opossum)" xsd:string
-intersection_of: UBERON:0007222
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
 id: MdomDv:0000045
 property_value: IAO:0000589 "20-day-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000029
-property_value: IAO:0000589 "24-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000037
-property_value: IAO:0000589 "5-week-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000004
-property_value: IAO:0000589 "neonate stage (opossum)" xsd:string
-intersection_of: UBERON:0007221
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000010
-property_value: IAO:0000589 "6-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000030
-property_value: IAO:0000589 "25-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000017
-property_value: IAO:0000589 "13-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000021
-property_value: IAO:0000589 "17-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000007
-property_value: IAO:0000589 "adulthood stage (opossum)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000042
-property_value: IAO:0000589 "17-day-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000034
-property_value: IAO:0000589 "2-week-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000014
-property_value: IAO:0000589 "10-month-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
@@ -72,77 +9,8 @@ property_value: IAO:0000589 "16-day-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
-id: MdomDv:0000022
-property_value: IAO:0000589 "18-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000000
-property_value: IAO:0000589 "opossum life cycle stage (opossum)" xsd:string
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000023
-property_value: IAO:0000589 "19-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000028
-property_value: IAO:0000589 "23-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000026
-property_value: IAO:0000589 "21-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000043
-property_value: IAO:0000589 "18-day-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000008
-property_value: IAO:0000589 "4-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000003
-property_value: IAO:0000589 "immature stage (opossum)" xsd:string
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000035
-property_value: IAO:0000589 "3-week-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000006
-property_value: IAO:0000589 "mature stage (opossum)" xsd:string
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000015
-property_value: IAO:0000589 "11-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000001
-property_value: IAO:0000589 "opossum life cycle (opossum)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000040
-property_value: IAO:0000589 "15-day-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000027
-property_value: IAO:0000589 "22-month-old stage (opossum)" xsd:string
+id: MdomDv:0000029
+property_value: IAO:0000589 "24-month-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
@@ -151,71 +19,8 @@ property_value: IAO:0000589 "14-day-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
-id: MdomDv:0000019
-property_value: IAO:0000589 "15-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000002
-property_value: IAO:0000589 "prenatal stage (opossum)" xsd:string
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000020
-property_value: IAO:0000589 "16-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000009
-property_value: IAO:0000589 "5-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000024
-property_value: IAO:0000589 "20-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000031
-property_value: IAO:0000589 "26-month-old and over stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000012
-property_value: IAO:0000589 "8-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000032
-property_value: IAO:0000589 "nursing stage (opossum)" xsd:string
-intersection_of: UBERON:0018685
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000011
-property_value: IAO:0000589 "7-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000044
-property_value: IAO:0000589 "19-day-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000005
-property_value: IAO:0000589 "juvenile stage (opossum)" xsd:string
-intersection_of: UBERON:0034919
-intersection_of: part_of NCBITaxon:13616
-
-[Term]
-id: MdomDv:0000016
-property_value: IAO:0000589 "12-month-old stage (opossum)" xsd:string
-relationship: only_in_taxon NCBITaxon:13616 ! opossum
-
-[Term]
-id: MdomDv:0000038
-property_value: IAO:0000589 "6-week-old and over weaning stage (opossum)" xsd:string
+id: MdomDv:0000017
+property_value: IAO:0000589 "13-month-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
@@ -225,8 +30,165 @@ intersection_of: UBERON:0034920
 intersection_of: part_of NCBITaxon:13616
 
 [Term]
+id: MdomDv:0000023
+property_value: IAO:0000589 "19-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000008
+property_value: IAO:0000589 "4-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000044
+property_value: IAO:0000589 "19-day-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000012
+property_value: IAO:0000589 "8-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000010
+property_value: IAO:0000589 "6-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000004
+property_value: IAO:0000589 "neonate stage (opossum)" xsd:string
+intersection_of: UBERON:0007221
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
 id: MdomDv:0000013
 property_value: IAO:0000589 "9-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000006
+property_value: IAO:0000589 "mature stage (opossum)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000027
+property_value: IAO:0000589 "22-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000019
+property_value: IAO:0000589 "15-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000037
+property_value: IAO:0000589 "5-week-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000030
+property_value: IAO:0000589 "25-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000020
+property_value: IAO:0000589 "16-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000022
+property_value: IAO:0000589 "18-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000032
+property_value: IAO:0000589 "nursing stage (opossum)" xsd:string
+intersection_of: UBERON:0018685
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000001
+property_value: IAO:0000589 "opossum life cycle (opossum)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000005
+property_value: IAO:0000589 "juvenile stage (opossum)" xsd:string
+intersection_of: UBERON:0034919
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000003
+property_value: IAO:0000589 "immature stage (opossum)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000038
+property_value: IAO:0000589 "6-week-old and over weaning stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000028
+property_value: IAO:0000589 "23-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000014
+property_value: IAO:0000589 "10-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000016
+property_value: IAO:0000589 "12-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000040
+property_value: IAO:0000589 "15-day-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000009
+property_value: IAO:0000589 "5-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000042
+property_value: IAO:0000589 "17-day-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000015
+property_value: IAO:0000589 "11-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000011
+property_value: IAO:0000589 "7-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000007
+property_value: IAO:0000589 "adulthood stage (opossum)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000036
+property_value: IAO:0000589 "4-week-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000026
+property_value: IAO:0000589 "21-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000024
+property_value: IAO:0000589 "20-month-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
@@ -235,24 +197,47 @@ property_value: IAO:0000589 "14-month-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
-id: MdomDv:0000036
-property_value: IAO:0000589 "4-week-old stage (opossum)" xsd:string
+id: MdomDv:0000034
+property_value: IAO:0000589 "2-week-old stage (opossum)" xsd:string
 relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
-id: UBERON:0000112
-synonym: "immature stage" BROAD []
-xref: MdomDv:0000003
+id: MdomDv:0000043
+property_value: IAO:0000589 "18-day-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
-id: UBERON:0007221
-synonym: "neonate stage" BROAD []
-xref: MdomDv:0000004
+id: MdomDv:0000021
+property_value: IAO:0000589 "17-month-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
 
 [Term]
-id: UBERON:0034919
-synonym: "juvenile stage" BROAD []
-xref: MdomDv:0000005
+id: MdomDv:0000031
+property_value: IAO:0000589 "26-month-old and over stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000002
+property_value: IAO:0000589 "prenatal stage (opossum)" xsd:string
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000035
+property_value: IAO:0000589 "3-week-old stage (opossum)" xsd:string
+relationship: only_in_taxon NCBITaxon:13616 ! opossum
+
+[Term]
+id: MdomDv:0000025
+property_value: IAO:0000589 "aged stage (opossum)" xsd:string
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:13616
+
+[Term]
+id: MdomDv:0000000
+property_value: IAO:0000589 "opossum life cycle stage (opossum)" xsd:string
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:13616
 
 [Term]
 id: UBERON:0000104
@@ -260,9 +245,9 @@ synonym: "opossum life cycle" BROAD []
 xref: MdomDv:0000001
 
 [Term]
-id: UBERON:0007222
-synonym: "aged stage" BROAD []
-xref: MdomDv:0000025
+id: UBERON:0018685
+synonym: "nursing stage" BROAD []
+xref: MdomDv:0000032
 
 [Term]
 id: UBERON:0018241
@@ -270,19 +255,24 @@ synonym: "adulthood stage" BROAD []
 xref: MdomDv:0000007
 
 [Term]
-id: UBERON:0034920
-synonym: "infant stage" BROAD []
-xref: MdomDv:0000033
-
-[Term]
 id: UBERON:0000113
 synonym: "mature stage" BROAD []
 xref: MdomDv:0000006
 
 [Term]
-id: UBERON:0018685
-synonym: "nursing stage" BROAD []
-xref: MdomDv:0000032
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: MdomDv:0000005
+
+[Term]
+id: UBERON:0007221
+synonym: "neonate stage" BROAD []
+xref: MdomDv:0000004
+
+[Term]
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: MdomDv:0000003
 
 [Term]
 id: UBERON:0000105
@@ -290,9 +280,19 @@ synonym: "opossum life cycle stage" BROAD []
 xref: MdomDv:0000000
 
 [Term]
+id: UBERON:0034920
+synonym: "infant stage" BROAD []
+xref: MdomDv:0000033
+
+[Term]
 id: UBERON:0000068
 synonym: "prenatal stage" BROAD []
 xref: MdomDv:0000002
+
+[Term]
+id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: MdomDv:0000025
 
 [Typedef]
 id: part_of

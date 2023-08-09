@@ -1,317 +1,6 @@
 [Term]
-id: SscrDv:0000079
-property_value: IAO:0000589 "early embryonic stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000032
-property_value: IAO:0000589 "35-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000045
-property_value: IAO:0000589 "13-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000034
-property_value: IAO:0000589 "37-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000067
-property_value: IAO:0000589 "3-year-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000027
-property_value: IAO:0000589 "30-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000051
-property_value: IAO:0000589 "18-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000030
-property_value: IAO:0000589 "33-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000056
-property_value: IAO:0000589 "22-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000058
-property_value: IAO:0000589 "24-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000001
-property_value: IAO:0000589 "life cycle (pig)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000086
-property_value: IAO:0000589 "organogenesis stage (pig)" xsd:string
-intersection_of: UBERON:0000111
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000088
-property_value: IAO:0000589 "cleavage stage (pig)" xsd:string
-intersection_of: UBERON:0000107
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000008
-property_value: IAO:0000589 "aged stage (pig)" xsd:string
-intersection_of: UBERON:0007222
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000006
-property_value: IAO:0000589 "mature stage (pig)" xsd:string
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000081
-property_value: IAO:0000589 "ridge limb stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000016
-property_value: IAO:0000589 "7-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000077
-property_value: IAO:0000589 "5-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000018
-property_value: IAO:0000589 "21-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000043
-property_value: IAO:0000589 "3-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000090
-property_value: IAO:0000589 "gastrula stage (pig)" xsd:string
-intersection_of: UBERON:0000109
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000029
-property_value: IAO:0000589 "32-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000011
-property_value: IAO:0000589 "2-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000069
-property_value: IAO:0000589 "5-year-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000066
-property_value: IAO:0000589 "2-year-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000068
-property_value: IAO:0000589 "4-year-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000040
-property_value: IAO:0000589 "9-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000028
-property_value: IAO:0000589 "31-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
 id: SscrDv:0000026
 property_value: IAO:0000589 "29-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000061
-property_value: IAO:0000589 "8-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000021
-property_value: IAO:0000589 "24-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000019
-property_value: IAO:0000589 "22-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000042
-property_value: IAO:0000589 "11-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000009
-property_value: IAO:0000589 "first 0-6 postnatal days (pig)" xsd:string
-intersection_of: UBERON:0007221
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000057
-property_value: IAO:0000589 "23-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000044
-property_value: IAO:0000589 "12-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000035
-property_value: IAO:0000589 "38-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000089
-property_value: IAO:0000589 "blastula stage (pig)" xsd:string
-intersection_of: UBERON:0000108
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000007
-property_value: IAO:0000589 "adulthood stage (pig)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000059
-property_value: IAO:0000589 "6-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000033
-property_value: IAO:0000589 "36-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000087
-property_value: IAO:0000589 "zygote stage (pig)" xsd:string
-intersection_of: UBERON:0000106
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000071
-property_value: IAO:0000589 "7-year-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000076
-property_value: IAO:0000589 "4-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000078
-property_value: IAO:0000589 "6-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000017
-property_value: IAO:0000589 "8-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000041
-property_value: IAO:0000589 "10-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000013
-property_value: IAO:0000589 "4-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000048
-property_value: IAO:0000589 "4-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000046
-property_value: IAO:0000589 "14-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000020
-property_value: IAO:0000589 "23-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000060
-property_value: IAO:0000589 "7-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000083
-property_value: IAO:0000589 "paddle limb stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000055
-property_value: IAO:0000589 "21-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000037
-property_value: IAO:0000589 "40-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000062
-property_value: IAO:0000589 "9-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000022
-property_value: IAO:0000589 "25-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000064
-property_value: IAO:0000589 "11-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000003
-property_value: IAO:0000589 "immature stage (pig)" xsd:string
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000024
-property_value: IAO:0000589 "27-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000074
-property_value: IAO:0000589 "2-day-old stage (pig)" xsd:string
 relationship: only_in_taxon NCBITaxon:9823 ! pig
 
 [Term]
@@ -321,102 +10,20 @@ intersection_of: UBERON:0034919
 intersection_of: part_of NCBITaxon:9823
 
 [Term]
-id: SscrDv:0000072
-property_value: IAO:0000589 "0-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000039
-property_value: IAO:0000589 "2-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000053
-property_value: IAO:0000589 "20-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000085
-property_value: IAO:0000589 "infant stage (pig)" xsd:string
-intersection_of: UBERON:0034920
+id: SscrDv:0000008
+property_value: IAO:0000589 "aged stage (pig)" xsd:string
+intersection_of: UBERON:0007222
 intersection_of: part_of NCBITaxon:9823
 
 [Term]
-id: SscrDv:0000070
-property_value: IAO:0000589 "6-year-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000015
-property_value: IAO:0000589 "6-week-old stage (pig)" xsd:string
+id: SscrDv:0000042
+property_value: IAO:0000589 "11-week-old stage (pig)" xsd:string
 relationship: only_in_taxon NCBITaxon:9823 ! pig
 
 [Term]
 id: SscrDv:0000052
 property_value: IAO:0000589 "19-week-old stage (pig)" xsd:string
 relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000047
-property_value: IAO:0000589 "15-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000054
-property_value: IAO:0000589 "5-month-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000073
-property_value: IAO:0000589 "1-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000065
-property_value: IAO:0000589 "1-year-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000025
-property_value: IAO:0000589 "28-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000031
-property_value: IAO:0000589 "34-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000050
-property_value: IAO:0000589 "17-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000036
-property_value: IAO:0000589 "39-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000038
-property_value: IAO:0000589 "41-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000000
-property_value: IAO:0000589 "life cycle stage (pig)" xsd:string
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:9823
-
-[Term]
-id: SscrDv:0000014
-property_value: IAO:0000589 "5-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000080
-property_value: IAO:0000589 "late embryonic stage (pig)" xsd:string
-intersection_of: UBERON:0007220
-intersection_of: part_of NCBITaxon:9823
 
 [Term]
 id: SscrDv:0000012
@@ -430,39 +37,19 @@ intersection_of: UBERON:0018685
 intersection_of: part_of NCBITaxon:9823
 
 [Term]
-id: SscrDv:0000063
-property_value: IAO:0000589 "10-month-old stage (pig)" xsd:string
+id: SscrDv:0000073
+property_value: IAO:0000589 "1-day-old stage (pig)" xsd:string
 relationship: only_in_taxon NCBITaxon:9823 ! pig
 
 [Term]
-id: SscrDv:0000075
-property_value: IAO:0000589 "3-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000023
-property_value: IAO:0000589 "26-day-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000002
-property_value: IAO:0000589 "prenatal stage (pig)" xsd:string
-intersection_of: UBERON:0000068
+id: SscrDv:0000009
+property_value: IAO:0000589 "first 0-6 postnatal days (pig)" xsd:string
+intersection_of: UBERON:0007221
 intersection_of: part_of NCBITaxon:9823
 
 [Term]
-id: SscrDv:0000049
-property_value: IAO:0000589 "16-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000010
-property_value: IAO:0000589 "1-week-old stage (pig)" xsd:string
-relationship: only_in_taxon NCBITaxon:9823 ! pig
-
-[Term]
-id: SscrDv:0000082
-property_value: IAO:0000589 "bud limb stage (pig)" xsd:string
+id: SscrDv:0000020
+property_value: IAO:0000589 "23-day-old stage (pig)" xsd:string
 relationship: only_in_taxon NCBITaxon:9823 ! pig
 
 [Term]
@@ -472,35 +59,438 @@ intersection_of: UBERON:0000110
 intersection_of: part_of NCBITaxon:9823
 
 [Term]
+id: SscrDv:0000037
+property_value: IAO:0000589 "40-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000002
+property_value: IAO:0000589 "prenatal stage (pig)" xsd:string
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000014
+property_value: IAO:0000589 "5-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000054
+property_value: IAO:0000589 "5-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000059
+property_value: IAO:0000589 "6-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000019
+property_value: IAO:0000589 "22-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000063
+property_value: IAO:0000589 "10-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000044
+property_value: IAO:0000589 "12-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000087
+property_value: IAO:0000589 "zygote stage (pig)" xsd:string
+intersection_of: UBERON:0000106
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000049
+property_value: IAO:0000589 "16-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000081
+property_value: IAO:0000589 "ridge limb stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000031
+property_value: IAO:0000589 "34-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000058
+property_value: IAO:0000589 "24-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000015
+property_value: IAO:0000589 "6-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000018
+property_value: IAO:0000589 "21-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000055
+property_value: IAO:0000589 "21-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000045
+property_value: IAO:0000589 "13-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000048
+property_value: IAO:0000589 "4-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000007
+property_value: IAO:0000589 "adulthood stage (pig)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000032
+property_value: IAO:0000589 "35-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000076
+property_value: IAO:0000589 "4-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000082
+property_value: IAO:0000589 "bud limb stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000023
+property_value: IAO:0000589 "26-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000001
+property_value: IAO:0000589 "life cycle (pig)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000070
+property_value: IAO:0000589 "6-year-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000085
+property_value: IAO:0000589 "infant stage (pig)" xsd:string
+intersection_of: UBERON:0034920
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000088
+property_value: IAO:0000589 "cleavage stage (pig)" xsd:string
+intersection_of: UBERON:0000107
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000041
+property_value: IAO:0000589 "10-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000060
+property_value: IAO:0000589 "7-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000011
+property_value: IAO:0000589 "2-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000051
+property_value: IAO:0000589 "18-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000035
+property_value: IAO:0000589 "38-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000038
+property_value: IAO:0000589 "41-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000017
+property_value: IAO:0000589 "8-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000057
+property_value: IAO:0000589 "23-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000066
+property_value: IAO:0000589 "2-year-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000047
+property_value: IAO:0000589 "15-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000089
+property_value: IAO:0000589 "blastula stage (pig)" xsd:string
+intersection_of: UBERON:0000108
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
 id: SscrDv:0000084
 property_value: IAO:0000589 "postnatal stage (pig)" xsd:string
 intersection_of: UBERON:0000066
 intersection_of: part_of NCBITaxon:9823
 
 [Term]
-id: UBERON:0000109
-synonym: "gastrula stage" BROAD []
-xref: SscrDv:0000090
+id: SscrDv:0000034
+property_value: IAO:0000589 "37-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000039
+property_value: IAO:0000589 "2-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000043
+property_value: IAO:0000589 "3-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000053
+property_value: IAO:0000589 "20-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000086
+property_value: IAO:0000589 "organogenesis stage (pig)" xsd:string
+intersection_of: UBERON:0000111
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000069
+property_value: IAO:0000589 "5-year-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000013
+property_value: IAO:0000589 "4-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000064
+property_value: IAO:0000589 "11-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000072
+property_value: IAO:0000589 "0-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000036
+property_value: IAO:0000589 "39-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000065
+property_value: IAO:0000589 "1-year-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000068
+property_value: IAO:0000589 "4-year-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000030
+property_value: IAO:0000589 "33-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000080
+property_value: IAO:0000589 "late embryonic stage (pig)" xsd:string
+intersection_of: UBERON:0007220
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000078
+property_value: IAO:0000589 "6-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000075
+property_value: IAO:0000589 "3-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000027
+property_value: IAO:0000589 "30-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000090
+property_value: IAO:0000589 "gastrula stage (pig)" xsd:string
+intersection_of: UBERON:0000109
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000021
+property_value: IAO:0000589 "24-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000003
+property_value: IAO:0000589 "immature stage (pig)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000074
+property_value: IAO:0000589 "2-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000079
+property_value: IAO:0000589 "early embryonic stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000062
+property_value: IAO:0000589 "9-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000061
+property_value: IAO:0000589 "8-month-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000010
+property_value: IAO:0000589 "1-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000050
+property_value: IAO:0000589 "17-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000040
+property_value: IAO:0000589 "9-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000022
+property_value: IAO:0000589 "25-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000033
+property_value: IAO:0000589 "36-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000016
+property_value: IAO:0000589 "7-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000056
+property_value: IAO:0000589 "22-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000083
+property_value: IAO:0000589 "paddle limb stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000046
+property_value: IAO:0000589 "14-week-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000067
+property_value: IAO:0000589 "3-year-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000028
+property_value: IAO:0000589 "31-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000025
+property_value: IAO:0000589 "28-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000006
+property_value: IAO:0000589 "mature stage (pig)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000077
+property_value: IAO:0000589 "5-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000071
+property_value: IAO:0000589 "7-year-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000000
+property_value: IAO:0000589 "life cycle stage (pig)" xsd:string
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:9823
+
+[Term]
+id: SscrDv:0000024
+property_value: IAO:0000589 "27-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: SscrDv:0000029
+property_value: IAO:0000589 "32-day-old stage (pig)" xsd:string
+relationship: only_in_taxon NCBITaxon:9823 ! pig
+
+[Term]
+id: UBERON:0007220
+synonym: "late embryonic stage" BROAD []
+xref: SscrDv:0000080
+
+[Term]
+id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: SscrDv:0000001
 
 [Term]
 id: UBERON:0000110
 synonym: "neurula stage" BROAD []
 xref: SscrDv:0000091
-
-[Term]
-id: UBERON:0000112
-synonym: "immature stage" BROAD []
-xref: SscrDv:0000003
-
-[Term]
-id: UBERON:0000108
-synonym: "blastula stage" BROAD []
-xref: SscrDv:0000089
-
-[Term]
-id: UBERON:0000066
-synonym: "postnatal stage" BROAD []
-xref: SscrDv:0000084
 
 [Term]
 id: UBERON:0018685
@@ -513,44 +503,24 @@ synonym: "first 0-6 postnatal days" BROAD []
 xref: SscrDv:0000009
 
 [Term]
-id: UBERON:0000068
-synonym: "prenatal stage" BROAD []
-xref: SscrDv:0000002
+id: UBERON:0000108
+synonym: "blastula stage" BROAD []
+xref: SscrDv:0000089
 
 [Term]
-id: UBERON:0000113
-synonym: "mature stage" BROAD []
-xref: SscrDv:0000006
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: SscrDv:0000003
 
 [Term]
-id: UBERON:0007222
-synonym: "aged stage" BROAD []
-xref: SscrDv:0000008
+id: UBERON:0000066
+synonym: "postnatal stage" BROAD []
+xref: SscrDv:0000084
 
 [Term]
-id: UBERON:0007220
-synonym: "late embryonic stage" BROAD []
-xref: SscrDv:0000080
-
-[Term]
-id: UBERON:0000106
-synonym: "zygote stage" BROAD []
-xref: SscrDv:0000087
-
-[Term]
-id: UBERON:0034920
-synonym: "infant stage" BROAD []
-xref: SscrDv:0000085
-
-[Term]
-id: UBERON:0018241
-synonym: "adulthood stage" BROAD []
-xref: SscrDv:0000007
-
-[Term]
-id: UBERON:0034919
-synonym: "juvenile stage" BROAD []
-xref: SscrDv:0000005
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: SscrDv:0000090
 
 [Term]
 id: UBERON:0000105
@@ -558,9 +528,34 @@ synonym: "life cycle stage" BROAD []
 xref: SscrDv:0000000
 
 [Term]
-id: UBERON:0000104
-synonym: "life cycle" BROAD []
-xref: SscrDv:0000001
+id: UBERON:0000106
+synonym: "zygote stage" BROAD []
+xref: SscrDv:0000087
+
+[Term]
+id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: SscrDv:0000008
+
+[Term]
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: SscrDv:0000005
+
+[Term]
+id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: SscrDv:0000006
+
+[Term]
+id: UBERON:0000107
+synonym: "cleavage stage" BROAD []
+xref: SscrDv:0000088
+
+[Term]
+id: UBERON:0034920
+synonym: "infant stage" BROAD []
+xref: SscrDv:0000085
 
 [Term]
 id: UBERON:0000111
@@ -568,9 +563,14 @@ synonym: "organogenesis stage" BROAD []
 xref: SscrDv:0000086
 
 [Term]
-id: UBERON:0000107
-synonym: "cleavage stage" BROAD []
-xref: SscrDv:0000088
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: SscrDv:0000002
+
+[Term]
+id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: SscrDv:0000007
 
 [Typedef]
 id: part_of
