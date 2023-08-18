@@ -138,7 +138,7 @@ remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/fcatdv.owl>) VersionIRI(<null>))) [Axioms: 217 Logical Axioms: 20]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggaldv.owl>) VersionIRI(<null>))) [Axioms: 1199 Logical Axioms: 250]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggordv.owl>) VersionIRI(<null>))) [Axioms: 479 Logical Axioms: 93]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>) VersionIRI(<null>))) [Axioms: 3249 Logical Axioms: 701]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>) VersionIRI(<null>))) [Axioms: 3252 Logical Axioms: 701]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mdomdv.owl>) VersionIRI(<null>))) [Axioms: 621 Logical Axioms: 130]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmuldv.owl>) VersionIRI(<null>))) [Axioms: 722 Logical Axioms: 152]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mmusdv.owl>) VersionIRI(<null>))) [Axioms: 2251 Logical Axioms: 391]
@@ -146,8 +146,8 @@ remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oaridv.owl>) VersionIRI(<null>))) [Axioms: 440 Logical Axioms: 81]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ocundv.owl>) VersionIRI(<null>))) [Axioms: 211 Logical Axioms: 17]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ppandv.owl>) VersionIRI(<null>))) [Axioms: 600 Logical Axioms: 119]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>) VersionIRI(<null>))) [Axioms: 697 Logical Axioms: 151]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv.owl>) VersionIRI(<null>))) [Axioms: 814 Logical Axioms: 171]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>) VersionIRI(<null>))) [Axioms: 708 Logical Axioms: 154]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/rnordv.owl>) VersionIRI(<null>))) [Axioms: 813 Logical Axioms: 171]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/SscrDv.owl>) VersionIRI(<null>))) [Axioms: 1167 Logical Axioms: 266]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/life-stages-minimal.owl>) VersionIRI(<null>))) [Axioms: 2039 Logical Axioms: 168]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/wbls/wbls-simple.owl>) VersionIRI(<http://purl.obolibrary.org/obo/wbls/wbls-simple/wbls/releases/2023-07-10/wbls-simple.owl/wbls/wbls-simple.owl>))) [Axioms: 8866 Logical Axioms: 2730]
@@ -5578,6 +5578,7 @@ name: Carnegie stage 02
 namespace: human_developmental_stage
 def: "Embryonic stage during which cell division occurs with reduction in cytoplasmic volume, and formation of inner and outer cell mass." [http://embryology.med.unsw.edu.au/embryology/index.php?title=Carnegie_stage_table]
 comment: Usually starts between day 2 and day 3 post-fertilization.
+synonym: "cleavage stage" BROAD []
 synonym: "CS02" EXACT [EHDAA2:CS02]
 xref: EHDAA2:CS02
 xref: FMA:295884
@@ -6736,7 +6737,7 @@ subset: granular_stage
 xref: EV:0300056
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000098 ! 4-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "6.0" xsd:float
 property_value: start_ypb "5.0" xsd:float
 
@@ -6749,7 +6750,7 @@ subset: granular_stage
 xref: EV:0300057
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000099 ! 5-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "7.0" xsd:float
 property_value: start_ypb "6.0" xsd:float
 
@@ -6762,7 +6763,7 @@ subset: granular_stage
 xref: EV:0300058
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000100 ! 6-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "8.0" xsd:float
 property_value: start_ypb "7.0" xsd:float
 
@@ -6775,7 +6776,7 @@ subset: granular_stage
 xref: EV:0300059
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000101 ! 7-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "9.0" xsd:float
 property_value: start_ypb "8.0" xsd:float
 
@@ -6788,7 +6789,7 @@ subset: granular_stage
 xref: EV:0300060
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000102 ! 8-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "10.0" xsd:float
 property_value: start_ypb "9.0" xsd:float
 
@@ -6801,7 +6802,7 @@ subset: granular_stage
 xref: EV:0300061
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000103 ! 9-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "11.0" xsd:float
 property_value: start_ypb "10.0" xsd:float
 
@@ -6814,7 +6815,7 @@ subset: granular_stage
 xref: EV:0300062
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000104 ! 10-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "12.0" xsd:float
 property_value: start_ypb "11.0" xsd:float
 
@@ -6827,7 +6828,7 @@ subset: granular_stage
 xref: EV:0300063
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000105 ! 11-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "13.0" xsd:float
 property_value: start_ypb "12.0" xsd:float
 
@@ -6840,7 +6841,7 @@ subset: granular_stage
 xref: EV:0300065
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000106 ! 12-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "14.0" xsd:float
 property_value: start_ypb "13.0" xsd:float
 
@@ -6853,7 +6854,7 @@ subset: granular_stage
 xref: EV:0300066
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000107 ! 13-year-old stage
-relationship: part_of HsapDv:0000271 ! juvenile stage
+relationship: part_of HsapDv:0000271 ! juvenile stage (5-14 yo)
 property_value: end_ypb "15.0" xsd:float
 property_value: start_ypb "14.0" xsd:float
 
@@ -7184,7 +7185,7 @@ property_value: start_ypb "39.0" xsd:float
 
 [Term]
 id: HsapDv:0000134
-name: 40-year-old tage
+name: 40-year-old stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 40 and under 41 years old." [Bgee:curator]
 subset: granular_stage
@@ -7203,7 +7204,7 @@ def: "Adult stage that refers to an adult who is over 41 and under 42 years old.
 subset: granular_stage
 xref: EV:0300094
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: immediately_preceded_by HsapDv:0000134 ! 40-year-old tage
+relationship: immediately_preceded_by HsapDv:0000134 ! 40-year-old stage
 relationship: part_of HsapDv:0000239 ! fifth decade stage
 property_value: end_ypb "42.0" xsd:float
 property_value: start_ypb "41.0" xsd:float
@@ -8567,7 +8568,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a child who is over 12 and under 24 months old." [Bgee:curator]
 synonym: "12-23 months" EXACT []
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: part_of HsapDv:0000265 ! child stage
+relationship: part_of HsapDv:0000265 ! child stage (1-4 yo)
 property_value: end_mpb "24.0" xsd:float
 property_value: end_ypb "2.0" xsd:float
 property_value: start_mpb "12.0" xsd:float
@@ -8711,7 +8712,7 @@ property_value: start_ypb "15.0" xsd:float
 
 [Term]
 id: HsapDv:0000260
-name: nursing stage
+name: nursing stage (0-11 months)
 namespace: human_developmental_stage
 def: "Human developmental stage that covers the first period from birth, with breast feeding and/or bottled substitute, and that stops at language acquisition." [Bgee:curator]
 comment: The definition of an age for human weaning is difficult to define due to individual and cultural variations. The natural age of weaning in humans could be 2.5 years, with maximum 7.0 years (see https://www.health-e-learning.com/articles/A_Natural_Age_of_Weaning.pdf), but we decide to stop this period at 1 year-old, before usually language acquisition.
@@ -8733,8 +8734,8 @@ synonym: "under-1-year-old stage" EXACT []
 xref: HP:0003593
 xref: UBERON:0034920
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: immediately_preceded_by HsapDv:0000262 ! newborn stage
-relationship: part_of HsapDv:0000260 ! nursing stage
+relationship: immediately_preceded_by HsapDv:0000262 ! newborn stage (0-28 days)
+relationship: part_of HsapDv:0000260 ! nursing stage (0-11 months)
 property_value: end_mpb "12.0" xsd:float
 property_value: end_ypb "1.0" xsd:float
 property_value: start_mpb "0.92" xsd:float
@@ -8742,7 +8743,7 @@ property_value: start_ypb "0.077" xsd:float
 
 [Term]
 id: HsapDv:0000262
-name: newborn stage
+name: newborn stage (0-28 days)
 namespace: human_developmental_stage
 def: "Immature stage that refers to a human newborn within the first 28 days of life." [Bgee:curator]
 comment: We follow HPO (Human Phenotype Ontology) definition for neonatal period, see HP:0003623 (Neonatal onset) Onset of signs or symptoms of disease within the first 28 days of life..
@@ -8751,7 +8752,7 @@ synonym: "neonate" RELATED []
 xref: HP:0003623
 xref: UBERON:0007221
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: part_of HsapDv:0000260 ! nursing stage
+relationship: part_of HsapDv:0000260 ! nursing stage (0-11 months)
 property_value: end_mpb "0.92" xsd:float
 property_value: end_ypb "0.077" xsd:float
 property_value: start_mpb "0.0" xsd:float
@@ -8773,7 +8774,7 @@ property_value: start_ypb "0.0" xsd:float
 
 [Term]
 id: HsapDv:0000265
-name: child stage
+name: child stage (1-4 yo)
 namespace: human_developmental_stage
 def: "Human stage that refers to a child who is over 12 months and under 5 years old." [Bgee:curator]
 comment: We follow HPO (Human Phenotype Ontology) definition for child period, see HP:0011463 (Childhood onset).
@@ -8828,19 +8829,19 @@ def: "Child stage that refers to a child who is over 2 and under 5 years old." [
 comment: We define here a child who is over 2 years and less than 5 years, and weaned.
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000246 ! 1-year-old stage
-relationship: part_of HsapDv:0000265 ! child stage
+relationship: part_of HsapDv:0000265 ! child stage (1-4 yo)
 property_value: end_ypb "5.0" xsd:float
 property_value: start_ypb "2.0" xsd:float
 
 [Term]
 id: HsapDv:0000271
-name: juvenile stage
+name: juvenile stage (5-14 yo)
 namespace: human_developmental_stage
 def: "Pediatric stage that refers to a human who is over 5 and under 15 years old." [Bgee:curator]
 xref: HP:0003621
 xref: UBERON:0034919
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: immediately_preceded_by HsapDv:0000265 ! child stage
+relationship: immediately_preceded_by HsapDv:0000265 ! child stage (1-4 yo)
 relationship: part_of HsapDv:0000264 ! pediatric stage
 property_value: end_ypb "15.0" xsd:float
 property_value: start_ypb "5.0" xsd:float
@@ -14012,6 +14013,18 @@ property_value: start_mpf "7.5" xsd:float
 property_value: start_ypb "0.0" xsd:float
 
 [Term]
+id: PtroDv:0000053
+name: 45-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is over 45 and under 46 years old." [Bgee:curator]
+subset: granular_stage
+is_a: PtroDv:0000000 ! life cycle stage
+relationship: immediately_preceded_by PtroDv:0000050 ! 44-year-old stage
+relationship: part_of PtroDv:0000039 ! aged stage
+property_value: end_ypb "46.0" xsd:float
+property_value: start_ypb "45.0" xsd:float
+
+[Term]
 id: RnorDv:0000000
 name: life cycle stage
 namespace: rat_stages_ontology
@@ -14717,7 +14730,6 @@ id: RnorDv:0000058
 name: juvenile stage
 namespace: rat_developmental_stage
 def: "Immature stage that refers to a weaned rat which is under 10 weeks old." [Bgee:curator]
-comment: This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends at weaning, at about 25 days of age (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).
 xref: UBERON:0034919
 is_a: RnorDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by RnorDv:0000013 ! early immature stage
@@ -14970,7 +14982,7 @@ property_value: start_wpb "7.0" xsd:float
 id: SscrDv:0000017
 name: 8-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 56 days and under 64 days old." [Bgee:curator]
+def: "2 month-old stage that refers to a pig which is over 56 days and under 64 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000016 ! 7-week-old stage
@@ -15247,7 +15259,7 @@ property_value: start_wpb "8.0" xsd:float
 id: SscrDv:0000040
 name: 9-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 63 days and under 71 days old." [Bgee:curator]
+def: "2 month-old stage that refers to a pig which is over 63 days and under 71 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000017 ! 8-week-old stage
@@ -15259,7 +15271,7 @@ property_value: start_wpb "9.0" xsd:float
 id: SscrDv:0000041
 name: 10-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 70 days and under 78 days old." [Bgee:curator]
+def: "2 month-old stage that refers to a pig which is over 70 days and under 78 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000040 ! 9-week-old stage
@@ -15271,7 +15283,7 @@ property_value: start_wpb "10.0" xsd:float
 id: SscrDv:0000042
 name: 11-week-old stage
 namespace: pig_developmental_stage
-def: "2 month-old stage that refers to a mouse which is over 77 days and under 85 days old." [Bgee:curator]
+def: "2 month-old stage that refers to a pig which is over 77 days and under 85 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000041 ! 10-week-old stage
@@ -15296,7 +15308,7 @@ property_value: start_wpb "12.0" xsd:float
 id: SscrDv:0000044
 name: 12-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 84 days and under 92 days old." [Bgee:curator]
+def: "3 month-old stage that refers to a pig which is over 84 days and under 92 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000042 ! 11-week-old stage
@@ -15308,7 +15320,7 @@ property_value: start_wpb "12.0" xsd:float
 id: SscrDv:0000045
 name: 13-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 91 days and under 99 days old." [Bgee:curator]
+def: "3 month-old stage that refers to a pig which is over 91 days and under 99 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000044 ! 12-week-old stage
@@ -15320,7 +15332,7 @@ property_value: start_wpb "13.0" xsd:float
 id: SscrDv:0000046
 name: 14-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 98 days and under 106 days old." [Bgee:curator]
+def: "3 month-old stage that refers to a pig which is over 98 days and under 106 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000045 ! 13-week-old stage
@@ -15332,7 +15344,7 @@ property_value: start_wpb "14.0" xsd:float
 id: SscrDv:0000047
 name: 15-week-old stage
 namespace: pig_developmental_stage
-def: "3 month-old stage that refers to a mouse which is over 105 days and under 113 days old." [Bgee:curator]
+def: "3 month-old stage that refers to a pig which is over 105 days and under 113 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000046 ! 14-week-old stage
@@ -15357,7 +15369,7 @@ property_value: start_wpb "16.0" xsd:float
 id: SscrDv:0000049
 name: 16-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 112 days and under 120 days old." [Bgee:curator]
+def: "4 month-old stage that refers to a pig which is over 112 days and under 120 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000047 ! 15-week-old stage
@@ -15369,7 +15381,7 @@ property_value: start_wpb "16.0" xsd:float
 id: SscrDv:0000050
 name: 17-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 119 days and under 127 days old." [Bgee:curator]
+def: "4 month-old stage that refers to a pig which is over 119 days and under 127 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000049 ! 16-week-old stage
@@ -15381,7 +15393,7 @@ property_value: start_wpb "17.0" xsd:float
 id: SscrDv:0000051
 name: 18-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 126 days and under 134 days old." [Bgee:curator]
+def: "4 month-old stage that refers to a pig which is over 126 days and under 134 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000050 ! 17-week-old stage
@@ -15393,7 +15405,7 @@ property_value: start_wpb "18.0" xsd:float
 id: SscrDv:0000052
 name: 19-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 133 days and under 141 days old." [Bgee:curator]
+def: "4 month-old stage that refers to a pig which is over 133 days and under 141 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000051 ! 18-week-old stage
@@ -15405,7 +15417,7 @@ property_value: start_wpb "19.0" xsd:float
 id: SscrDv:0000053
 name: 20-week-old stage
 namespace: pig_developmental_stage
-def: "4 month-old stage that refers to a mouse which is over 140 days and under 148 days old." [Bgee:curator]
+def: "4 month-old stage that refers to a pig which is over 140 days and under 148 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000052 ! 19-week-old stage
@@ -15430,7 +15442,7 @@ property_value: start_wpb "21.0" xsd:float
 id: SscrDv:0000055
 name: 21-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 147 days and under 155 days old." [Bgee:curator]
+def: "5 month-old stage that refers to a pig which is over 147 days and under 155 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000053 ! 20-week-old stage
@@ -15442,7 +15454,7 @@ property_value: start_wpb "21.0" xsd:float
 id: SscrDv:0000056
 name: 22-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 154 days and under 162 days old." [Bgee:curator]
+def: "5 month-old stage that refers to a pig which is over 154 days and under 162 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000055 ! 21-week-old stage
@@ -15454,7 +15466,7 @@ property_value: start_wpb "22.0" xsd:float
 id: SscrDv:0000057
 name: 23-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 161 days and under 169 days old." [Bgee:curator]
+def: "5 month-old stage that refers to a pig which is over 161 days and under 169 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000056 ! 22-week-old stage
@@ -15466,7 +15478,7 @@ property_value: start_wpb "23.0" xsd:float
 id: SscrDv:0000058
 name: 24-week-old stage
 namespace: pig_developmental_stage
-def: "5 month-old stage that refers to a mouse which is over 168 days and under 176 days old." [Bgee:curator]
+def: "5 month-old stage that refers to a pig which is over 168 days and under 176 days old." [Bgee:curator]
 subset: granular_stage
 is_a: SscrDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SscrDv:0000057 ! 23-week-old stage
@@ -28065,8 +28077,8 @@ is_a: part_of ! part_of
 id: in_deep_part_of
 name: in_deep_part_of
 namespace: uberon
-def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the deep portion." [http://orcid.org/0000-0002-6601-2165]
 def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the deep portion." [BSPO:cjm]
+def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the deep portion." [http://orcid.org/0000-0002-6601-2165]
 xref: BSPO:0001101
 is_a: part_of ! part_of
 

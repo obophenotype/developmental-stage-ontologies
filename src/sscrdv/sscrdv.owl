@@ -954,7 +954,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 56 days and under 64 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 56 days and under 64 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -965,7 +965,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000017"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 56 days and under 64 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 56 days and under 64 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1709,7 +1709,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 63 days and under 71 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 63 days and under 71 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -1720,7 +1720,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000040"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 63 days and under 71 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 63 days and under 71 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1742,7 +1742,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 70 days and under 78 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 70 days and under 78 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -1753,7 +1753,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000041"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 70 days and under 78 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 70 days and under 78 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1775,7 +1775,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 77 days and under 85 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 77 days and under 85 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -1786,7 +1786,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000042"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a mouse which is over 77 days and under 85 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 month-old stage that refers to a pig which is over 77 days and under 85 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1842,7 +1842,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 84 days and under 92 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 84 days and under 92 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -1853,7 +1853,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000044"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 84 days and under 92 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 84 days and under 92 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1875,7 +1875,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 91 days and under 99 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 91 days and under 99 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -1886,7 +1886,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000045"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 91 days and under 99 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 91 days and under 99 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1908,7 +1908,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 98 days and under 106 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 98 days and under 106 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -1919,7 +1919,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000046"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 98 days and under 106 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 98 days and under 106 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1941,7 +1941,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 105 days and under 113 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 105 days and under 113 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -1952,7 +1952,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000047"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a mouse which is over 105 days and under 113 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 month-old stage that refers to a pig which is over 105 days and under 113 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2008,7 +2008,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 112 days and under 120 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 112 days and under 120 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2019,7 +2019,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000049"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 112 days and under 120 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 112 days and under 120 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2041,7 +2041,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 119 days and under 127 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 119 days and under 127 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2052,7 +2052,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000050"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 119 days and under 127 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 119 days and under 127 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2074,7 +2074,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 126 days and under 134 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 126 days and under 134 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2085,7 +2085,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 126 days and under 134 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 126 days and under 134 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2107,7 +2107,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 133 days and under 141 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 133 days and under 141 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2118,7 +2118,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000052"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 133 days and under 141 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 133 days and under 141 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2140,7 +2140,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 140 days and under 148 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 140 days and under 148 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2151,7 +2151,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000053"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a mouse which is over 140 days and under 148 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 month-old stage that refers to a pig which is over 140 days and under 148 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2207,7 +2207,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 147 days and under 155 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 147 days and under 155 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2218,7 +2218,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000055"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 147 days and under 155 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 147 days and under 155 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2240,7 +2240,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 154 days and under 162 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 154 days and under 162 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2251,7 +2251,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000056"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 154 days and under 162 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 154 days and under 162 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2273,7 +2273,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 161 days and under 169 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 161 days and under 169 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2284,7 +2284,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000057"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 161 days and under 169 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 161 days and under 169 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2306,7 +2306,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000057"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 168 days and under 176 days old.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 168 days and under 176 days old.</obo:IAO_0000115>
         <SscrDv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</SscrDv:end_wpb>
         <SscrDv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</SscrDv:start_wpb>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig_developmental_stage</oboInOwl:hasOBONamespace>
@@ -2317,7 +2317,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SscrDv_0000058"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a mouse which is over 168 days and under 176 days old.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 month-old stage that refers to a pig which is over 168 days and under 176 days old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bgee:curator</oboInOwl:hasDbXref>
     </owl:Axiom>
     

@@ -1,59 +1,16 @@
 [Term]
-id: MmulDv:0000053
-property_value: IAO:0000589 "infant stage (macaque)" xsd:string
-intersection_of: UBERON:0034920
-intersection_of: part_of NCBITaxon:9544
-
-[Term]
-id: MmulDv:0000013
-property_value: IAO:0000589 "9-month-old nursing stage (macaque)" xsd:string
+id: MmulDv:0000038
+property_value: IAO:0000589 "18-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000003
-property_value: IAO:0000589 "immature stage (macaque)" xsd:string
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:9544
-
-[Term]
-id: MmulDv:0000042
-property_value: IAO:0000589 "22-year-old stage (macaque)" xsd:string
+id: MmulDv:0000029
+property_value: IAO:0000589 "9-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
 id: MmulDv:0000023
 property_value: IAO:0000589 "3-year-old mature stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000046
-property_value: IAO:0000589 "newborn stage (macaque)" xsd:string
-intersection_of: UBERON:0007221
-intersection_of: part_of NCBITaxon:9544
-
-[Term]
-id: MmulDv:0000030
-property_value: IAO:0000589 "10-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000035
-property_value: IAO:0000589 "15-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000031
-property_value: IAO:0000589 "11-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000034
-property_value: IAO:0000589 "14-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000012
-property_value: IAO:0000589 "8-month-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
@@ -63,127 +20,13 @@ intersection_of: UBERON:0000066
 intersection_of: part_of NCBITaxon:9544
 
 [Term]
-id: MmulDv:0000043
-property_value: IAO:0000589 "23-year-old stage (macaque)" xsd:string
+id: MmulDv:0000027
+property_value: IAO:0000589 "7-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000002
-property_value: IAO:0000589 "prenatal stage (macaque)" xsd:string
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:9544
-
-[Term]
-id: MmulDv:0000026
-property_value: IAO:0000589 "6-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000039
-property_value: IAO:0000589 "19-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000038
-property_value: IAO:0000589 "18-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000037
-property_value: IAO:0000589 "17-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000006
-property_value: IAO:0000589 "2-month-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000022
-property_value: IAO:0000589 "adulthood stage (macaque)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:9544
-
-[Term]
-id: MmulDv:0000016
-property_value: IAO:0000589 "10-month-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000044
-property_value: IAO:0000589 "24-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000025
-property_value: IAO:0000589 "5-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000020
-property_value: IAO:0000589 "3-year-old immature stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000033
-property_value: IAO:0000589 "13-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000021
-property_value: IAO:0000589 "mature stage (macaque)" xsd:string
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:9544
-
-[Term]
-id: MmulDv:0000049
-property_value: IAO:0000589 "27-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000050
-property_value: IAO:0000589 "28-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000001
-property_value: IAO:0000589 "life cycle (macaque)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:9544
-
-[Term]
-id: MmulDv:0000015
-property_value: IAO:0000589 "9-month-old weaning stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000010
-property_value: IAO:0000589 "6-month-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000051
-property_value: IAO:0000589 "29 year-old and over stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000048
-property_value: IAO:0000589 "26-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000005
-property_value: IAO:0000589 "1-month-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000047
-property_value: IAO:0000589 "25-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000011
-property_value: IAO:0000589 "7-month-old stage (macaque)" xsd:string
+id: MmulDv:0000024
+property_value: IAO:0000589 "4-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
@@ -193,40 +36,86 @@ intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:9544
 
 [Term]
-id: MmulDv:0000032
-property_value: IAO:0000589 "12-year-old stage (macaque)" xsd:string
+id: MmulDv:0000042
+property_value: IAO:0000589 "22-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000027
-property_value: IAO:0000589 "7-year-old stage (macaque)" xsd:string
+id: MmulDv:0000010
+property_value: IAO:0000589 "6-month-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000028
-property_value: IAO:0000589 "8-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000029
-property_value: IAO:0000589 "9-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000014
-property_value: IAO:0000589 "juvenile stage (macaque)" xsd:string
-intersection_of: UBERON:0034919
+id: MmulDv:0000021
+property_value: IAO:0000589 "mature stage (macaque)" xsd:string
+intersection_of: UBERON:0000113
 intersection_of: part_of NCBITaxon:9544
 
 [Term]
-id: MmulDv:0000004
-property_value: IAO:0000589 "nursing stage (macaque)" xsd:string
-intersection_of: UBERON:0018685
+id: MmulDv:0000036
+property_value: IAO:0000589 "16-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000035
+property_value: IAO:0000589 "15-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000053
+property_value: IAO:0000589 "infant stage (macaque)" xsd:string
+intersection_of: UBERON:0034920
 intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000015
+property_value: IAO:0000589 "9-month-old weaning stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000030
+property_value: IAO:0000589 "10-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000016
+property_value: IAO:0000589 "10-month-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000022
+property_value: IAO:0000589 "adulthood stage (macaque)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000005
+property_value: IAO:0000589 "1-month-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000006
+property_value: IAO:0000589 "2-month-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
 id: MmulDv:0000041
 property_value: IAO:0000589 "21-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000008
+property_value: IAO:0000589 "4-month-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000049
+property_value: IAO:0000589 "27-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000043
+property_value: IAO:0000589 "23-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
@@ -235,13 +124,33 @@ property_value: IAO:0000589 "1-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000017
-property_value: IAO:0000589 "11-month-old stage (macaque)" xsd:string
+id: MmulDv:0000051
+property_value: IAO:0000589 "29 year-old and over stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000040
-property_value: IAO:0000589 "20-year-old stage (macaque)" xsd:string
+id: MmulDv:0000044
+property_value: IAO:0000589 "24-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000047
+property_value: IAO:0000589 "25-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000032
+property_value: IAO:0000589 "12-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000011
+property_value: IAO:0000589 "7-month-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000020
+property_value: IAO:0000589 "3-year-old immature stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
@@ -251,23 +160,42 @@ intersection_of: UBERON:0007222
 intersection_of: part_of NCBITaxon:9544
 
 [Term]
-id: MmulDv:0000008
-property_value: IAO:0000589 "4-month-old stage (macaque)" xsd:string
+id: MmulDv:0000046
+property_value: IAO:0000589 "newborn stage (macaque)" xsd:string
+intersection_of: UBERON:0007221
+intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000001
+property_value: IAO:0000589 "life cycle (macaque)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000048
+property_value: IAO:0000589 "26-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000007
-property_value: IAO:0000589 "3-month-old stage (macaque)" xsd:string
+id: MmulDv:0000014
+property_value: IAO:0000589 "juvenile stage (macaque)" xsd:string
+intersection_of: UBERON:0034919
+intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000003
+property_value: IAO:0000589 "immature stage (macaque)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000009
+property_value: IAO:0000589 "5-month-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000036
-property_value: IAO:0000589 "16-year-old stage (macaque)" xsd:string
-relationship: only_in_taxon NCBITaxon:9544 ! macaque
-
-[Term]
-id: MmulDv:0000024
-property_value: IAO:0000589 "4-year-old stage (macaque)" xsd:string
+id: MmulDv:0000017
+property_value: IAO:0000589 "11-month-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
@@ -276,9 +204,86 @@ property_value: IAO:0000589 "2-year-old stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
 
 [Term]
-id: MmulDv:0000009
-property_value: IAO:0000589 "5-month-old stage (macaque)" xsd:string
+id: MmulDv:0000013
+property_value: IAO:0000589 "9-month-old nursing stage (macaque)" xsd:string
 relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000007
+property_value: IAO:0000589 "3-month-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000004
+property_value: IAO:0000589 "nursing stage (macaque)" xsd:string
+intersection_of: UBERON:0018685
+intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000050
+property_value: IAO:0000589 "28-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000039
+property_value: IAO:0000589 "19-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000033
+property_value: IAO:0000589 "13-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000028
+property_value: IAO:0000589 "8-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000034
+property_value: IAO:0000589 "14-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000037
+property_value: IAO:0000589 "17-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000040
+property_value: IAO:0000589 "20-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000002
+property_value: IAO:0000589 "prenatal stage (macaque)" xsd:string
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:9544
+
+[Term]
+id: MmulDv:0000012
+property_value: IAO:0000589 "8-month-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000026
+property_value: IAO:0000589 "6-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000031
+property_value: IAO:0000589 "11-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: MmulDv:0000025
+property_value: IAO:0000589 "5-year-old stage (macaque)" xsd:string
+relationship: only_in_taxon NCBITaxon:9544 ! macaque
+
+[Term]
+id: UBERON:0000066
+synonym: "postnatal stage" BROAD []
+xref: MmulDv:0000052
 
 [Term]
 id: UBERON:0018241
@@ -286,14 +291,14 @@ synonym: "adulthood stage" BROAD []
 xref: MmulDv:0000022
 
 [Term]
+id: UBERON:0034920
+synonym: "infant stage" BROAD []
+xref: MmulDv:0000053
+
+[Term]
 id: UBERON:0000104
 synonym: "life cycle" BROAD []
 xref: MmulDv:0000001
-
-[Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: MmulDv:0000000
 
 [Term]
 id: UBERON:0007221
@@ -306,19 +311,14 @@ synonym: "aged stage" BROAD []
 xref: MmulDv:0000045
 
 [Term]
-id: UBERON:0000066
-synonym: "postnatal stage" BROAD []
-xref: MmulDv:0000052
-
-[Term]
 id: UBERON:0034919
 synonym: "juvenile stage" BROAD []
 xref: MmulDv:0000014
 
 [Term]
-id: UBERON:0018685
-synonym: "nursing stage" BROAD []
-xref: MmulDv:0000004
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: MmulDv:0000003
 
 [Term]
 id: UBERON:0000068
@@ -326,19 +326,19 @@ synonym: "prenatal stage" BROAD []
 xref: MmulDv:0000002
 
 [Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: MmulDv:0000000
+
+[Term]
+id: UBERON:0018685
+synonym: "nursing stage" BROAD []
+xref: MmulDv:0000004
+
+[Term]
 id: UBERON:0000113
 synonym: "mature stage" BROAD []
 xref: MmulDv:0000021
-
-[Term]
-id: UBERON:0034920
-synonym: "infant stage" BROAD []
-xref: MmulDv:0000053
-
-[Term]
-id: UBERON:0000112
-synonym: "immature stage" BROAD []
-xref: MmulDv:0000003
 
 [Typedef]
 id: part_of

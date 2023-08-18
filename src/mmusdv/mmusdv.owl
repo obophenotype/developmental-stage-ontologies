@@ -10,6 +10,7 @@
      xmlns:mmusdv="http://purl.obolibrary.org/obo/mmusdv#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mmusdv.owl">
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000090"/>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05:02:2021 13:48</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_stages_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>

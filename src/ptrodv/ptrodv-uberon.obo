@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>) VersionIRI(<null>))) [Axioms: 697 Logical Axioms: 151]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 268 Logical Axioms: 53]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ptrodv.owl>) VersionIRI(<null>))) [Axioms: 708 Logical Axioms: 154]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 272 Logical Axioms: 54]
 ontology: uberon/bridge/ptrodv/ptrodv-uberon.obo
 
 [Term]
@@ -600,6 +600,20 @@ relationship: immediately_preceded_by PtroDv:0000050 ! 44-year-old stage (chimpa
 relationship: only_in_taxon NCBITaxon:9598
 relationship: part_of UBERON:0007222
 property_value: IAO:0000589 "45-year-old and over stage (chimpanzee)" xsd:string
+property_value: start_ypb "45.0" xsd:float
+
+[Term]
+id: PtroDv:0000053
+name: 45-year-old stage (chimpanzee)
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is over 45 and under 46 years old." [Bgee:curator]
+subset: granular_stage
+is_a: UBERON:0000105
+relationship: immediately_preceded_by PtroDv:0000050 ! 44-year-old stage (chimpanzee)
+relationship: only_in_taxon NCBITaxon:9598
+relationship: part_of UBERON:0007222
+property_value: end_ypb "46.0" xsd:float
+property_value: IAO:0000589 "45-year-old stage (chimpanzee)" xsd:string
 property_value: start_ypb "45.0" xsd:float
 
 [Term]

@@ -10,6 +10,7 @@
      xmlns:cfamdv="http://purl.obolibrary.org/obo/cfamdv#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cfamdv.owl">
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/CfamDv_0000000"/>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19:06:2016 14:23</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dog_stages_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>

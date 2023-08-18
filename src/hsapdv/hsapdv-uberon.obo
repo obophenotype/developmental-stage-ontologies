@@ -1,6 +1,6 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>) VersionIRI(<null>))) [Axioms: 3249 Logical Axioms: 701]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>) VersionIRI(<null>))) [Axioms: 3252 Logical Axioms: 701]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 1128 Logical Axioms: 259]
 ontology: uberon/bridge/hsapdv/hsapdv-uberon.obo
 
@@ -1774,7 +1774,7 @@ property_value: start_ypb "39.0" xsd:float
 
 [Term]
 id: HsapDv:0000134
-name: 40-year-old tage (human)
+name: 40-year-old stage (human)
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 40 and under 41 years old." [Bgee:curator]
 subset: granular_stage
@@ -1784,7 +1784,7 @@ relationship: immediately_preceded_by HsapDv:0000133 ! 39-year-old stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000239 ! fifth decade stage (human)
 property_value: end_ypb "41.0" xsd:float
-property_value: IAO:0000589 "40-year-old tage (human)" xsd:string
+property_value: IAO:0000589 "40-year-old stage (human)" xsd:string
 property_value: start_ypb "40.0" xsd:float
 
 [Term]
@@ -1795,7 +1795,7 @@ def: "Adult stage that refers to an adult who is over 41 and under 42 years old.
 subset: granular_stage
 xref: EV:0300094
 is_a: UBERON:0000105
-relationship: immediately_preceded_by HsapDv:0000134 ! 40-year-old tage (human)
+relationship: immediately_preceded_by HsapDv:0000134 ! 40-year-old stage (human)
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of HsapDv:0000239 ! fifth decade stage (human)
 property_value: end_ypb "42.0" xsd:float
@@ -3351,7 +3351,7 @@ def: "Child stage that refers to a child who is over 12 and under 24 months old.
 synonym: "12-23 months" EXACT []
 is_a: UBERON:0000105
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000265 ! child stage (human)
+relationship: part_of HsapDv:0000265 ! child stage (1-4 yo) (human)
 property_value: end_mpb "24.0" xsd:float
 property_value: end_ypb "2.0" xsd:float
 property_value: IAO:0000589 "1-year-old stage (human)" xsd:string
@@ -3502,7 +3502,7 @@ consider: HsapDv:0000261
 
 [Term]
 id: HsapDv:0000265
-name: child stage (human)
+name: child stage (1-4 yo) (human)
 namespace: human_developmental_stage
 def: "Human stage that refers to a child who is over 12 months and under 5 years old." [Bgee:curator]
 comment: We follow HPO (Human Phenotype Ontology) definition for child period, see HP:0011463 (Childhood onset).
@@ -3514,7 +3514,7 @@ relationship: immediately_preceded_by UBERON:0034920
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of UBERON:0000112
 property_value: end_ypb "5.0" xsd:float
-property_value: IAO:0000589 "child stage (human)" xsd:string
+property_value: IAO:0000589 "child stage (1-4 yo) (human)" xsd:string
 property_value: start_ypb "1.0" xsd:float
 
 [Term]
@@ -3566,7 +3566,7 @@ comment: We define here a child who is over 2 years and less than 5 years, and w
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000246 ! 1-year-old stage (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000265 ! child stage (human)
+relationship: part_of HsapDv:0000265 ! child stage (1-4 yo) (human)
 property_value: end_ypb "5.0" xsd:float
 property_value: IAO:0000589 "2-4 year-old child stage (human)" xsd:string
 property_value: start_ypb "2.0" xsd:float
@@ -3697,7 +3697,7 @@ relationship: part_of UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITa
 
 [Term]
 id: UBERON:0007221
-synonym: "newborn stage" BROAD []
+synonym: "newborn stage (0-28 days)" BROAD []
 xref: HsapDv:0000262
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9606"}
 relationship: part_of UBERON:0018685 {gci_relation="part_of", gci_filler="NCBITaxon:9606"}
@@ -3719,17 +3719,17 @@ relationship: part_of UBERON:0000113 {gci_relation="part_of", gci_filler="NCBITa
 
 [Term]
 id: UBERON:0018685
-synonym: "nursing stage" BROAD []
+synonym: "nursing stage (0-11 months)" BROAD []
 xref: HsapDv:0000260
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9606"}
 relationship: part_of UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9606"}
 
 [Term]
 id: UBERON:0034919
-synonym: "juvenile stage" BROAD []
+synonym: "juvenile stage (5-14 yo)" BROAD []
 xref: HsapDv:0000271
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9606"}
-relationship: immediately_preceded_by HsapDv:0000265 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! child stage (human)
+relationship: immediately_preceded_by HsapDv:0000265 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! child stage (1-4 yo) (human)
 relationship: part_of UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9606"}
 
 [Term]

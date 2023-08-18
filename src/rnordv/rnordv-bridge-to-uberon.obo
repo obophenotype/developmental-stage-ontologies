@@ -1,91 +1,12 @@
 [Term]
-id: RnorDv:0000061
-property_value: IAO:0000589 "postnatal stage (rat)" xsd:string
-intersection_of: UBERON:0000066
+id: RnorDv:0000055
+property_value: IAO:0000589 "organogenesis stage (rat)" xsd:string
+intersection_of: UBERON:0000111
 intersection_of: part_of NCBITaxon:10116
 
 [Term]
-id: RnorDv:0000040
-property_value: IAO:0000589 "24-26-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000036
-property_value: IAO:0000589 "20-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000026
-property_value: IAO:0000589 "10-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000051
-property_value: IAO:0000589 "Witschi stage 3 (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000027
-property_value: IAO:0000589 "11-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000034
-property_value: IAO:0000589 "18-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000011
-property_value: IAO:0000589 "fetal stage (rat)" xsd:string
-intersection_of: UBERON:0007220
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000037
-property_value: IAO:0000589 "21-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000009
-property_value: IAO:0000589 "complete embryo stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000024
-property_value: IAO:0000589 "8-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000001
-property_value: IAO:0000589 "life cycle (rat)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000019
-property_value: IAO:0000589 "4-6-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000059
-property_value: IAO:0000589 "prime adult stage (rat)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000045
-property_value: IAO:0000589 "28-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000049
-property_value: IAO:0000589 "cleavage stage (rat)" xsd:string
-intersection_of: UBERON:0000107
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000022
-property_value: IAO:0000589 "6-month-old stage (rat)" xsd:string
+id: RnorDv:0000035
+property_value: IAO:0000589 "19-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
@@ -94,47 +15,8 @@ property_value: IAO:0000589 "16-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000000
-property_value: IAO:0000589 "life cycle stage (rat)" xsd:string
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000033
-property_value: IAO:0000589 "17-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000023
-property_value: IAO:0000589 "7-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000015
-property_value: IAO:0000589 "mature stage (rat)" xsd:string
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000055
-property_value: IAO:0000589 "organogenesis stage (rat)" xsd:string
-intersection_of: UBERON:0000111
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000005
-property_value: IAO:0000589 "gastrula stage (rat)" xsd:string
-intersection_of: UBERON:0000109
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000050
-property_value: IAO:0000589 "Witschi stage 2 (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000010
-property_value: IAO:0000589 "metamorphosing embryo stage (rat)" xsd:string
+id: RnorDv:0000030
+property_value: IAO:0000589 "14-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
@@ -143,73 +25,24 @@ property_value: IAO:0000589 "12-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000038
-property_value: IAO:0000589 "22-month-old stage (rat)" xsd:string
+id: RnorDv:0000052
+property_value: IAO:0000589 "Witschi stage 4 (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000041
-property_value: IAO:0000589 "24-month-old stage (rat)" xsd:string
+id: RnorDv:0000050
+property_value: IAO:0000589 "Witschi stage 2 (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000060
-property_value: IAO:0000589 "late adult stage (rat)" xsd:string
-intersection_of: UBERON:0007222
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000004
-property_value: IAO:0000589 "cleavage and blastula stage (rat)" xsd:string
+id: RnorDv:0000034
+property_value: IAO:0000589 "18-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000029
-property_value: IAO:0000589 "13-month-old stage (rat)" xsd:string
+id: RnorDv:0000051
+property_value: IAO:0000589 "Witschi stage 3 (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000039
-property_value: IAO:0000589 "23-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000007
-property_value: IAO:0000589 "neurula stage (rat)" xsd:string
-intersection_of: UBERON:0000110
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000042
-property_value: IAO:0000589 "25-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000006
-property_value: IAO:0000589 "primitive streak stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000043
-property_value: IAO:0000589 "26-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000056
-property_value: IAO:0000589 "nursing stage stage (rat)" xsd:string
-intersection_of: UBERON:0018685
-intersection_of: part_of NCBITaxon:10116
-
-[Term]
-id: RnorDv:0000016
-property_value: IAO:0000589 "10-week-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000048
-property_value: IAO:0000589 "Witschi stage 1 (rat)" xsd:string
-intersection_of: UBERON:0000106
-intersection_of: part_of NCBITaxon:10116
 
 [Term]
 id: RnorDv:0000054
@@ -223,13 +56,19 @@ property_value: IAO:0000589 "15-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000014
-property_value: IAO:0000589 "infant stage (rat)" xsd:string
+id: RnorDv:0000059
+property_value: IAO:0000589 "prime adult stage (rat)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000039
+property_value: IAO:0000589 "23-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000017
-property_value: IAO:0000589 "11-week-old stage (rat)" xsd:string
+id: RnorDv:0000033
+property_value: IAO:0000589 "17-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
@@ -239,41 +78,36 @@ intersection_of: UBERON:0034920
 intersection_of: part_of NCBITaxon:10116
 
 [Term]
-id: RnorDv:0000021
-property_value: IAO:0000589 "5-month-old stage (rat)" xsd:string
+id: RnorDv:0000037
+property_value: IAO:0000589 "21-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000046
-property_value: IAO:0000589 "29-month-old stage (rat)" xsd:string
+id: RnorDv:0000053
+property_value: IAO:0000589 "Witschi stage 5 (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000003
-property_value: IAO:0000589 "embryonic stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000030
-property_value: IAO:0000589 "14-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000020
-property_value: IAO:0000589 "4-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000058
-property_value: IAO:0000589 "juvenile stage (rat)" xsd:string
-intersection_of: UBERON:0034919
+id: RnorDv:0000061
+property_value: IAO:0000589 "postnatal stage (rat)" xsd:string
+intersection_of: UBERON:0000066
 intersection_of: part_of NCBITaxon:10116
 
 [Term]
-id: RnorDv:0000002
-property_value: IAO:0000589 "prenatal stage (rat)" xsd:string
-intersection_of: UBERON:0000068
+id: RnorDv:0000056
+property_value: IAO:0000589 "nursing stage stage (rat)" xsd:string
+intersection_of: UBERON:0018685
 intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000008
+property_value: IAO:0000589 "tail bud embryo stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000036
+property_value: IAO:0000589 "20-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
 id: RnorDv:0000018
@@ -281,24 +115,16 @@ property_value: IAO:0000589 "3-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000044
-property_value: IAO:0000589 "27-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
+id: RnorDv:0000060
+property_value: IAO:0000589 "late adult stage (rat)" xsd:string
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:10116
 
 [Term]
-id: RnorDv:0000047
-property_value: IAO:0000589 "30-month-old stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000052
-property_value: IAO:0000589 "Witschi stage 4 (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
-
-[Term]
-id: RnorDv:0000008
-property_value: IAO:0000589 "tail bud embryo stage (rat)" xsd:string
-relationship: only_in_taxon NCBITaxon:10116 ! rat
+id: RnorDv:0000048
+property_value: IAO:0000589 "Witschi stage 1 (rat)" xsd:string
+intersection_of: UBERON:0000106
+intersection_of: part_of NCBITaxon:10116
 
 [Term]
 id: RnorDv:0000012
@@ -307,8 +133,135 @@ intersection_of: UBERON:0000112
 intersection_of: part_of NCBITaxon:10116
 
 [Term]
-id: RnorDv:0000053
-property_value: IAO:0000589 "Witschi stage 5 (rat)" xsd:string
+id: RnorDv:0000010
+property_value: IAO:0000589 "metamorphosing embryo stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000001
+property_value: IAO:0000589 "life cycle (rat)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000045
+property_value: IAO:0000589 "28-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000004
+property_value: IAO:0000589 "cleavage and blastula stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000042
+property_value: IAO:0000589 "25-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000009
+property_value: IAO:0000589 "complete embryo stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000040
+property_value: IAO:0000589 "24-26-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000015
+property_value: IAO:0000589 "mature stage (rat)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000023
+property_value: IAO:0000589 "7-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000005
+property_value: IAO:0000589 "gastrula stage (rat)" xsd:string
+intersection_of: UBERON:0000109
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000044
+property_value: IAO:0000589 "27-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000041
+property_value: IAO:0000589 "24-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000027
+property_value: IAO:0000589 "11-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000019
+property_value: IAO:0000589 "4-6-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000014
+property_value: IAO:0000589 "infant stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000011
+property_value: IAO:0000589 "fetal stage (rat)" xsd:string
+intersection_of: UBERON:0007220
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000000
+property_value: IAO:0000589 "life cycle stage (rat)" xsd:string
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000049
+property_value: IAO:0000589 "cleavage stage (rat)" xsd:string
+intersection_of: UBERON:0000107
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000026
+property_value: IAO:0000589 "10-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000002
+property_value: IAO:0000589 "prenatal stage (rat)" xsd:string
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000043
+property_value: IAO:0000589 "26-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000024
+property_value: IAO:0000589 "8-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000047
+property_value: IAO:0000589 "30-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000021
+property_value: IAO:0000589 "5-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000016
+property_value: IAO:0000589 "10-week-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
@@ -318,19 +271,71 @@ intersection_of: UBERON:0007221
 intersection_of: part_of NCBITaxon:10116
 
 [Term]
+id: RnorDv:0000017
+property_value: IAO:0000589 "11-week-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000029
+property_value: IAO:0000589 "13-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000046
+property_value: IAO:0000589 "29-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000007
+property_value: IAO:0000589 "neurula stage (rat)" xsd:string
+intersection_of: UBERON:0000110
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000003
+property_value: IAO:0000589 "embryonic stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
 id: RnorDv:0000025
 property_value: IAO:0000589 "9-month-old stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: RnorDv:0000035
-property_value: IAO:0000589 "19-month-old stage (rat)" xsd:string
+id: RnorDv:0000006
+property_value: IAO:0000589 "primitive streak stage (rat)" xsd:string
 relationship: only_in_taxon NCBITaxon:10116 ! rat
 
 [Term]
-id: UBERON:0034920
-synonym: "infant stage" BROAD []
-xref: RnorDv:0000057
+id: RnorDv:0000058
+property_value: IAO:0000589 "juvenile stage (rat)" xsd:string
+intersection_of: UBERON:0034919
+intersection_of: part_of NCBITaxon:10116
+
+[Term]
+id: RnorDv:0000022
+property_value: IAO:0000589 "6-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000020
+property_value: IAO:0000589 "4-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: RnorDv:0000038
+property_value: IAO:0000589 "22-month-old stage (rat)" xsd:string
+relationship: only_in_taxon NCBITaxon:10116 ! rat
+
+[Term]
+id: UBERON:0000110
+synonym: "neurula stage" BROAD []
+xref: RnorDv:0000007
+
+[Term]
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: RnorDv:0000005
 
 [Term]
 id: UBERON:0000108
@@ -343,24 +348,9 @@ synonym: "late adult stage" BROAD []
 xref: RnorDv:0000060
 
 [Term]
-id: UBERON:0000106
-synonym: "Witschi stage 1" BROAD []
-xref: RnorDv:0000048
-
-[Term]
-id: UBERON:0007221
-synonym: "early immature stage" BROAD []
-xref: RnorDv:0000013
-
-[Term]
-id: UBERON:0000112
-synonym: "immature stage" BROAD []
-xref: RnorDv:0000012
-
-[Term]
-id: UBERON:0018685
-synonym: "nursing stage stage" BROAD []
-xref: RnorDv:0000056
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: RnorDv:0000058
 
 [Term]
 id: UBERON:0018241
@@ -368,9 +358,29 @@ synonym: "prime adult stage" BROAD []
 xref: RnorDv:0000059
 
 [Term]
-id: UBERON:0000109
-synonym: "gastrula stage" BROAD []
-xref: RnorDv:0000005
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: RnorDv:0000002
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: RnorDv:0000000
+
+[Term]
+id: UBERON:0007220
+synonym: "fetal stage" BROAD []
+xref: RnorDv:0000011
+
+[Term]
+id: UBERON:0000107
+synonym: "cleavage stage" BROAD []
+xref: RnorDv:0000049
+
+[Term]
+id: UBERON:0000106
+synonym: "Witschi stage 1" BROAD []
+xref: RnorDv:0000048
 
 [Term]
 id: UBERON:0000104
@@ -383,29 +393,14 @@ synonym: "organogenesis stage" BROAD []
 xref: RnorDv:0000055
 
 [Term]
-id: UBERON:0000113
-synonym: "mature stage" BROAD []
-xref: RnorDv:0000015
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: RnorDv:0000012
 
 [Term]
-id: UBERON:0007220
-synonym: "fetal stage" BROAD []
-xref: RnorDv:0000011
-
-[Term]
-id: UBERON:0000068
-synonym: "prenatal stage" BROAD []
-xref: RnorDv:0000002
-
-[Term]
-id: UBERON:0034919
-synonym: "juvenile stage" BROAD []
-xref: RnorDv:0000058
-
-[Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: RnorDv:0000000
+id: UBERON:0034920
+synonym: "infant stage" BROAD []
+xref: RnorDv:0000057
 
 [Term]
 id: UBERON:0000066
@@ -413,14 +408,19 @@ synonym: "postnatal stage" BROAD []
 xref: RnorDv:0000061
 
 [Term]
-id: UBERON:0000110
-synonym: "neurula stage" BROAD []
-xref: RnorDv:0000007
+id: UBERON:0018685
+synonym: "nursing stage stage" BROAD []
+xref: RnorDv:0000056
 
 [Term]
-id: UBERON:0000107
-synonym: "cleavage stage" BROAD []
-xref: RnorDv:0000049
+id: UBERON:0007221
+synonym: "early immature stage" BROAD []
+xref: RnorDv:0000013
+
+[Term]
+id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: RnorDv:0000015
 
 [Typedef]
 id: part_of

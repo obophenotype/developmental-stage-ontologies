@@ -1,25 +1,13 @@
 [Term]
-id: CfamDv:0000005
-property_value: IAO:0000589 "adulthood stage (dog)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:9615
-
-[Term]
-id: CfamDv:0000004
-property_value: IAO:0000589 "mature stage (dog)" xsd:string
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:9615
-
-[Term]
 id: CfamDv:0000007
 property_value: IAO:0000589 "postnatal stage (dog)" xsd:string
 intersection_of: UBERON:0000066
 intersection_of: part_of NCBITaxon:9615
 
 [Term]
-id: CfamDv:0000006
-property_value: IAO:0000589 "aged stage (dog)" xsd:string
-intersection_of: UBERON:0007222
+id: CfamDv:0000005
+property_value: IAO:0000589 "adulthood stage (dog)" xsd:string
+intersection_of: UBERON:0018241
 intersection_of: part_of NCBITaxon:9615
 
 [Term]
@@ -41,15 +29,22 @@ intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:9615
 
 [Term]
+id: CfamDv:0000006
+property_value: IAO:0000589 "aged stage (dog)" xsd:string
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9615
+
+[Term]
 id: CfamDv:0000000
 property_value: IAO:0000589 "life cycle stage (dog)" xsd:string
 intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:9615
 
 [Term]
-id: UBERON:0007222
-synonym: "aged stage" BROAD []
-xref: CfamDv:0000006
+id: CfamDv:0000004
+property_value: IAO:0000589 "mature stage (dog)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:9615
 
 [Term]
 id: UBERON:0000112
@@ -57,9 +52,9 @@ synonym: "immature stage" BROAD []
 xref: CfamDv:0000003
 
 [Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: CfamDv:0000000
+id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: CfamDv:0000005
 
 [Term]
 id: UBERON:0000068
@@ -67,14 +62,9 @@ synonym: "prenatal stage" BROAD []
 xref: CfamDv:0000002
 
 [Term]
-id: UBERON:0018241
-synonym: "adulthood stage" BROAD []
-xref: CfamDv:0000005
-
-[Term]
-id: UBERON:0000104
-synonym: "life cycle" BROAD []
-xref: CfamDv:0000001
+id: UBERON:0000066
+synonym: "postnatal stage" BROAD []
+xref: CfamDv:0000007
 
 [Term]
 id: UBERON:0000113
@@ -82,9 +72,19 @@ synonym: "mature stage" BROAD []
 xref: CfamDv:0000004
 
 [Term]
-id: UBERON:0000066
-synonym: "postnatal stage" BROAD []
-xref: CfamDv:0000007
+id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: CfamDv:0000001
+
+[Term]
+id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: CfamDv:0000006
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: CfamDv:0000000
 
 [Typedef]
 id: part_of
