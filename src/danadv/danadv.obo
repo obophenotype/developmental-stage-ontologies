@@ -3,6 +3,7 @@ date: 19:06:2016 14:23
 saved-by: ame
 default-namespace: Dananassae_stages_ontology
 ontology: danadv
+property_value: IAO:0000700 DanaDv:0000000
 
 [Term]
 id: DanaDv:0000000

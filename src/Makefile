@@ -65,7 +65,7 @@ CURL := curl -s -S -L -f -R
 APPEND_CURL_COMMAND = -z $@ -o $@.tmp && mv -f $@.tmp $@ 2>/dev/null || rm -f $@.tmp $@
 
 external_ontologies/zfs/zfs.obo:
-	@$(CURL) http://purl.obolibrary.org/obo/zfs.obo $(APPEND_CURL_COMMAND)
+	@$(CURL) https://raw.githubusercontent.com/obophenotype/developmental-stage-ontologies/master/src/zfs/zfs.obo $(APPEND_CURL_COMMAND)
 external_ontologies/zfs/uberon-bridge-to-zfs.obo:
 	@$(CURL) http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs.obo $(APPEND_CURL_COMMAND)
 external_ontologies/fbdv/fbdv.obo:
@@ -98,3 +98,60 @@ ssso-merged.obo: life-stages-minimal.obo $(ALL_OBO) external_ontologies/zfs/zfs.
 ALL_COMPOSITE_OBO := $(patsubst %, */%$(COMPOSITE_UBERON_SUFFIX),$(ONT_PREFIXES))
 ssso-merged-uberon.obo: life-stages-minimal.obo $(ALL_COMPOSITE_OBO) external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX) external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX) external_ontologies/wbls/wbls$(COMPOSITE_UBERON_SUFFIX) external_ontologies/xao/xao-dev-stages$(COMPOSITE_UBERON_SUFFIX)
 	@$(OWLTOOLS) --create-ontology $(OBO)/uberon/ssso-merged-uberon.owl $^ --merge-support-ontologies -o -f obo --no-check $@
+
+.PRECIOUS:  ssso-merged.obo
+.PRECIOUS:  ssso-merged-uberon.obo
+.PRECIOUS:  sscrdv/sscrdv.owl
+.PRECIOUS:  sscrdv/sscrdv-bridge-to-uberon.obo
+.PRECIOUS:  rnordv/rnordv.owl
+.PRECIOUS:  rnordv/rnordv-bridge-to-uberon.obo
+.PRECIOUS:  ptrodv/ptrodv.owl
+.PRECIOUS:  ptrodv/ptrodv-bridge-to-uberon.obo
+.PRECIOUS:  ppandv/ppandv.owl
+.PRECIOUS:  ppandv/ppandv-bridge-to-uberon.obo
+.PRECIOUS:  ocundv/ocundv.owl
+.PRECIOUS:  ocundv/ocundv-bridge-to-uberon.obo
+.PRECIOUS:  oaridv/oaridv.owl
+.PRECIOUS:  oaridv/oaridv-bridge-to-uberon.obo
+.PRECIOUS:  oanadv/oanadv.owl
+.PRECIOUS:  oanadv/oanadv-bridge-to-uberon.obo
+.PRECIOUS:  mmusdv/mmusdv.owl
+.PRECIOUS:  mmusdv/mmusdv-bridge-to-uberon.obo
+.PRECIOUS:  mmuldv/mmuldv.owl
+.PRECIOUS:  mmuldv/mmuldv-bridge-to-uberon.obo
+.PRECIOUS:  mdomdv/mdomdv.owl
+.PRECIOUS:  mdomdv/mdomdv-bridge-to-uberon.obo
+.PRECIOUS:  Makefile
+.PRECIOUS:  hsapdv/hsapdv.owl
+.PRECIOUS:  hsapdv/hsapdv-bridge-to-uberon.obo
+.PRECIOUS:  ggordv/ggordv.owl
+.PRECIOUS:  ggordv/ggordv-bridge-to-uberon.obo
+.PRECIOUS:  ggaldv/ggaldv.owl
+.PRECIOUS:  ggaldv/ggaldv-bridge-to-uberon.obo
+.PRECIOUS:  fcatdv/fcatdv.owl
+.PRECIOUS:  fcatdv/fcatdv-bridge-to-uberon.obo
+.PRECIOUS:  external_ontologies/zfs/zfs.obo
+.PRECIOUS:  external_ontologies/zfs/zfs-uberon.obo
+.PRECIOUS:  external_ontologies/zfs/uberon-bridge-to-zfs.obo
+.PRECIOUS:  external_ontologies/xao/xao-dev-stages-uberon.obo
+.PRECIOUS:  external_ontologies/xao/uberon-bridge-to-xao.obo
+.PRECIOUS:  external_ontologies/wbls/wbls.obo
+.PRECIOUS:  external_ontologies/wbls/wbls-uberon.obo
+.PRECIOUS:  external_ontologies/wbls/uberon-bridge-to-wbls.obo
+.PRECIOUS:  external_ontologies/fbdv/uberon-bridge-to-fbdv.obo
+.PRECIOUS:  external_ontologies/fbdv/fbdv.obo
+.PRECIOUS:  external_ontologies/fbdv/fbdv-uberon.obo
+.PRECIOUS:  ecabdv/ecabdv.owl
+.PRECIOUS:  ecabdv/ecabdv-bridge-to-uberon.obo
+.PRECIOUS:  dsimdv/dsimdv.owl
+.PRECIOUS:  dsimdv/dsimdv-bridge-to-uberon.obo
+.PRECIOUS:  dpsedv/dpsedv.owl
+.PRECIOUS:  dpsedv/dpsedv-bridge-to-uberon.obo
+.PRECIOUS:  cpordv/cpordv.owl
+.PRECIOUS:  cpordv/cpordv-bridge-to-uberon.obo
+.PRECIOUS:  cfamdv/cfamdv.owl
+.PRECIOUS:  cfamdv/cfamdv-bridge-to-uberon.obo
+.PRECIOUS:  btaudv/btaudv.owl
+.PRECIOUS:  btaudv/btaudv-bridge-to-uberon.obo
+.PRECIOUS:  acardv/acardv.owl
+.PRECIOUS:  acardv/acardv-bridge-to-uberon.obo
