@@ -640,7 +640,7 @@ relationship: part_of PtroDv:0000039 ! aged stage
 relationship: immediately_preceded_by PtroDv:0000050 ! 44-year-old stage
 property_value: start_ypb "45.0" xsd:float
 
-Term]
+[Term]
 id: PtroDv:0000053
 name: 45-year-old stage
 namespace: chimpanzee_developmental_stage

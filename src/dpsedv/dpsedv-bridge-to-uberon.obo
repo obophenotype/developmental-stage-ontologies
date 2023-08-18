@@ -1,7 +1,13 @@
 [Term]
-id: DpseDv:0000003
-property_value: IAO:0000589 "larval stage (Drosophila pseudobscura)" xsd:string
-intersection_of: UBERON:0000069
+id: DpseDv:0000001
+property_value: IAO:0000589 "Drosophila pseudobscura life cycle (Drosophila pseudobscura)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:7237
+
+[Term]
+id: DpseDv:0000000
+property_value: IAO:0000589 "Drosophila pseudobscura life cycle stage (Drosophila pseudobscura)" xsd:string
+intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:7237
 
 [Term]
@@ -15,9 +21,21 @@ property_value: IAO:0000589 "days 5-8 of fully formed stage (Drosophila pseudobs
 relationship: only_in_taxon NCBITaxon:7237 ! Drosophila pseudobscura
 
 [Term]
+id: DpseDv:0000002
+property_value: IAO:0000589 "embryonic stage (Drosophila pseudobscura)" xsd:string
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:7237
+
+[Term]
 id: DpseDv:0000004
 property_value: IAO:0000589 "P-stage (Drosophila pseudobscura)" xsd:string
 intersection_of: UBERON:0000070
+intersection_of: part_of NCBITaxon:7237
+
+[Term]
+id: DpseDv:0000003
+property_value: IAO:0000589 "larval stage (Drosophila pseudobscura)" xsd:string
+intersection_of: UBERON:0000069
 intersection_of: part_of NCBITaxon:7237
 
 [Term]
@@ -32,37 +50,9 @@ property_value: IAO:0000589 "days 1-4 of fully formed stage (Drosophila pseudobs
 relationship: only_in_taxon NCBITaxon:7237 ! Drosophila pseudobscura
 
 [Term]
-id: DpseDv:0000000
-property_value: IAO:0000589 "Drosophila pseudobscura life cycle stage (Drosophila pseudobscura)" xsd:string
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:7237
-
-[Term]
-id: DpseDv:0000002
-property_value: IAO:0000589 "embryonic stage (Drosophila pseudobscura)" xsd:string
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:7237
-
-[Term]
-id: DpseDv:0000001
-property_value: IAO:0000589 "Drosophila pseudobscura life cycle (Drosophila pseudobscura)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:7237
-
-[Term]
-id: UBERON:0000105
-synonym: "Drosophila pseudobscura life cycle stage" BROAD []
-xref: DpseDv:0000000
-
-[Term]
-id: UBERON:0000068
-synonym: "embryonic stage" BROAD []
-xref: DpseDv:0000002
-
-[Term]
-id: UBERON:0000069
-synonym: "larval stage" BROAD []
-xref: DpseDv:0000003
+id: UBERON:0000104
+synonym: "Drosophila pseudobscura life cycle" BROAD []
+xref: DpseDv:0000001
 
 [Term]
 id: UBERON:0000066
@@ -70,14 +60,24 @@ synonym: "fully formed stage" BROAD []
 xref: DpseDv:0000005
 
 [Term]
+id: UBERON:0000069
+synonym: "larval stage" BROAD []
+xref: DpseDv:0000003
+
+[Term]
 id: UBERON:0000070
 synonym: "P-stage" BROAD []
 xref: DpseDv:0000004
 
 [Term]
-id: UBERON:0000104
-synonym: "Drosophila pseudobscura life cycle" BROAD []
-xref: DpseDv:0000001
+id: UBERON:0000068
+synonym: "embryonic stage" BROAD []
+xref: DpseDv:0000002
+
+[Term]
+id: UBERON:0000105
+synonym: "Drosophila pseudobscura life cycle stage" BROAD []
+xref: DpseDv:0000000
 
 [Typedef]
 id: part_of
