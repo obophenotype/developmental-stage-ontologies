@@ -640,6 +640,18 @@ relationship: part_of PtroDv:0000039 ! aged stage
 relationship: immediately_preceded_by PtroDv:0000050 ! 44-year-old stage
 property_value: start_ypb "45.0" xsd:float
 
+Term]
+id: PtroDv:0000053
+name: 45-year-old stage
+namespace: chimpanzee_developmental_stage
+def: "Aged stage that refers to a chimpanzee who is over 45 and under 46 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: PtroDv:0000000!  life cycle stage
+relationship: part_of PtroDv:0000039 ! aged stage
+relationship: immediately_preceded_by PtroDv:0000050 ! 44-year-old stage
+property_value: start_ypb "45.0" xsd:float
+property_value: end_ypb "46.0" xsd:float
+
 [Typedef]
 id: part_of
 name: part of
