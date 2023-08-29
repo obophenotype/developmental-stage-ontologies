@@ -6,6 +6,8 @@ subsetdef: granular_stage "Subset consisting of classes describing highly granul
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_stages
 ontology: zfs
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/3.0/
+
 
 [Term]
 id: ZFS:0000000
