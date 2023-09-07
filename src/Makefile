@@ -155,3 +155,20 @@ ssso-merged-uberon.obo: life-stages-minimal.obo $(ALL_COMPOSITE_OBO) external_on
 .PRECIOUS:  btaudv/btaudv-bridge-to-uberon.obo
 .PRECIOUS:  acardv/acardv.owl
 .PRECIOUS:  acardv/acardv-bridge-to-uberon.obo
+
+.PHONY: github-release
+github-release:
+	FILES=""; \
+	for dir in *; do \
+		if [ -d "$$dir" ]; then \
+			for ext in owl obo; do \
+				if [ -f "$$dir/`basename $$dir`.$$ext" ]; then \
+					FILES="$$FILES $$dir/`basename $$dir`.$$ext"; \
+				fi; \
+			done; \
+		fi; \
+	done; \
+	FILES="$$FILES ssso-merged-uberon.obo ssso-merged.obo"; \
+	test $(GHVERSION); \
+	ls -alt $$FILES; \
+	gh release create $(GHVERSION) --notes "TBD." --title "$(GHVERSION)" --draft $$FILES
