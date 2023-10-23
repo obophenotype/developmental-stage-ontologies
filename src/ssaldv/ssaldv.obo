@@ -378,6 +378,14 @@ relationship: part_of SsalDv:0000038 ! post-embryonic stage
 xref: UBERON:0000066
 
 [Term]
+id: SsalDv:0000068
+name: sexually immature fully formed stage
+namespace: atlantic_salmon_developmental_stage
+is_a: SsalDv:0000000 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000039 ! alevin stage
+relationship: part_of SsalDv:0000040 ! fully formed stage
+
+[Term]
 id: SsalDv:0000064
 name: juvenile stage
 namespace: atlantic_salmon_developmental_stage
@@ -444,6 +452,7 @@ xref: UBERON:0000112
 id: SsalDv:0000042
 name: sexually mature stage
 namespace: atlantic_salmon_developmental_stage
+synonym: "sexually mature fully formed stage" EXACT []
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000040 ! fully formed stage
 
@@ -530,8 +539,9 @@ relationship: part_of SsalDv:0000044 ! sexually immature pre-smolt stage
 
 [Term]
 id: SsalDv:0000047
-name: sexually immature juvenile post-smolt stage
+name: sexually immature smolt stage
 namespace: atlantic_salmon_developmental_stage
+synonym: "sexually immature juvenile post-smolt stage" EXACT []
 synonym: "smolt stage" RELATED []
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000043 ! sexually immature juvenile stage
@@ -546,8 +556,9 @@ relationship: part_of SsalDv:0000042 ! sexually mature stage
 
 [Term]
 id: SsalDv:0000049
-name: sexually mature juvenile post-smolt stage
+name: sexually mature smolt stage
 namespace: atlantic_salmon_developmental_stage
+synonym: "sexually mature juvenile post-smolt stage" EXACT []
 synonym: "smolt stage" RELATED []
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000051 ! sexually mature post-smolt stage
