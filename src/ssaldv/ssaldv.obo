@@ -606,6 +606,7 @@ id: SsalDv:0000055
 name: sexually mature adult stage
 namespace: atlantic_salmon_developmental_stage
 synonym: "adult stage" RELATED []
+xref: UBERON:0000113
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000051 ! sexually mature post-smolt stage
 
