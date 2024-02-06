@@ -366,6 +366,7 @@ synonym: "hatching stage" RELATED []
 synonym: "larval stage" EXACT []
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000038 ! post-embryonic stage
+relationship: part_of SsalDv:0000041 ! sexually immature stage
 xref: UBERON:0000069
 
 [Term]
