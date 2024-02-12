@@ -191,7 +191,7 @@ relationship: part_of SsalDv:0000016 ! gastrula stage
 id: SsalDv:0000020
 name: late gastrula:90% epiboly
 namespace: atlantic_salmon_developmental_stage
-comment: at 24 dpf (day post-fertilization) (PMID:23239145, Table 1)
+comment: at 24 dpf (day post-fertilization) (PMID:23239145, Table 1); 24 days at water temperature 7 means 168 day-degree (contributor https://github.com/garethgillard)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000019 ! mid gastrula:50% epiboly
 relationship: part_of SsalDv:0000016 ! gastrula stage
@@ -210,7 +210,7 @@ xref: UBERON:0000110
 id: SsalDv:0000022
 name: organogenesis stage
 namespace: atlantic_salmon_developmental_stage
-comment: while at day 17 post-fertilization, some somites are visible (see PMID:10393816 (Table 1)), we decide to follow the developmental description as from PMID:23239145, Table 1, and we describe organogenesis stage from day 27 post-fertilization.
+comment: while at day 17 post-fertilization, some somites are visible (see PMID:10393816 (Table 1)), we decide to follow the developmental description as from PMID:23239145, Table 1, and we describe organogenesis stage from day 27 post-fertilization; 34 days at water temperature 7 means 238 day-degree and describes organogenesis with vascularization, and 44 days at water temperature 7 means 308 day-degree and describes organogenesis with operculum covers part of first brachial arch (contributor https://github.com/garethgillard)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000021 ! neurula stage
 relationship: part_of SsalDv:0000002 ! embryo stage
@@ -361,7 +361,7 @@ xref: UBERON:0000092
 id: SsalDv:0000039
 name: alevin stage
 namespace: atlantic_salmon_developmental_stage
-comment: the alevin stage with the yolk sac typically attached describe the hatching stage in salmo salar, which may dure as long as 5 weeks, see http://www.krisweb.com/aqualife/lifecycle_early.htm
+comment: the alevin stage with the yolk sac typically attached describe the hatching stage in salmo salar, which may dure as long as 5 weeks, see http://www.krisweb.com/aqualife/lifecycle_early.htm; 85 days at water temperature 7 means 595 day-degree and may describe the alevin (after hatching period) (contributor https://github.com/garethgillard)
 synonym: "hatching stage" RELATED []
 synonym: "larval stage" EXACT []
 is_a: SsalDv:0000000 ! life cycle stage
