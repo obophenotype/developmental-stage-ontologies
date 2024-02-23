@@ -3069,7 +3069,7 @@ subset: granular_stage
 namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is over 100 years old." [Bgee:curator "Bgee"]
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: part_of HsapDv:0000095 ! 80 year-old and over stage
+relationship: part_of HsapDv:0000274 ! 90 year-old and over stage
 relationship: immediately_preceded_by HsapDv:0000225 ! 99-year-old stage
 relationship: immediately_preceded_by HsapDv:0000244 ! tenth decade stage
 
@@ -3354,13 +3354,23 @@ property_value: end_ypb "90.0" xsd:float
 property_value: start_ypb "80.0" xsd:float
 
 [Term]
+id: HsapDv:0000274
+name: 90 year-old and over stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an adult who is over 90." [https://github.com/jahilton]
+is_a: HsapDv:0000000 ! life cycle stage
+relationship: preceded_by HsapDv:0000243 ! ninth decade stage
+relationship: part_of HsapDv:0000095 ! 80 year-old and over stage
+property_value: start_ypb "90.0" xsd:float
+
+[Term]
 id: HsapDv:0000244
 name: tenth decade stage
 namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 90 and under 100 years old." [Bgee:curator]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade stage
-relationship: part_of HsapDv:0000095 ! 80 year-old and over stage
+part_of HsapDv:0000274 ! 90 year-old and over stage
 property_value: end_ypb "100.0" xsd:float
 property_value: start_ypb "90.0" xsd:float
 
