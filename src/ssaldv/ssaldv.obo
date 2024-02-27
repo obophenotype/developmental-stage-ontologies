@@ -484,7 +484,7 @@ id: SsalDv:0000056
 name: day 0 of fry stage
 namespace: atlantic_salmon_developmental_stage
 def: "The day of the alevin leaving its yolk sac and beginning to be a fry." [Bgee:curator]
-comment: dedicated to PMID:32293070
+comment: dedicated to PMID:32293070; developmentally it makes sense to consider fry before feeding as a category. At least, when the yolk sac is depleted they are considered as at the fry stage. They fed then after that in experiments. They could feed before in the wild of course, so not completely tied to developmental stage, but a common point of difference the feeding (source: discussion with G.Gillard, https://github.com/garethgillard).
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000039 ! alevin stage
 relationship: part_of SsalDv:0000045 ! fry stage
