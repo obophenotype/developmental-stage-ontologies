@@ -547,7 +547,7 @@ synonym: "sexually immature juvenile post-smolt stage" EXACT []
 synonym: "smolt stage" RELATED []
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000043 ! sexually immature juvenile stage
-relationship: part_of SsalDv:0000041 ! sexually immature post-smolt stage
+relationship: part_of SsalDv:0000050 ! sexually immature post-smolt stage
 
 [Term]
 id: SsalDv:0000048
