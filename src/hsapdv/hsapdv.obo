@@ -3370,7 +3370,7 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 90 and under 100 years old." [Bgee:curator]
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade stage
-part_of HsapDv:0000274 ! 90 year-old and over stage
+relationship: part_of HsapDv:0000274 ! 90 year-old and over stage
 property_value: end_ypb "100.0" xsd:float
 property_value: start_ypb "90.0" xsd:float
 
