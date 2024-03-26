@@ -29,6 +29,7 @@ id: SsalDv:0000002
 name: embryo stage
 namespace: atlantic_salmon_developmental_stage
 is_a: SsalDv:0000000 ! life cycle stage
+relationship: part_of SsalDv:0000001 ! life cycle
 xref: UBERON:0000068
 
 [Term]
@@ -355,6 +356,7 @@ id: SsalDv:0000038
 name: post-embryonic stage
 namespace: atlantic_salmon_developmental_stage
 is_a: SsalDv:0000000 ! life cycle stage
+relationship: part_of SsalDv:0000001 ! life cycle
 xref: UBERON:0000092
 
 [Term]
