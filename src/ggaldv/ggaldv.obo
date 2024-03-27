@@ -661,7 +661,7 @@ property_value: end_dpf "11.0" xsd:float
 id: GgalDv:0000050
 name: Hamburger Hamilton stage 36
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of 3rd toe from tip to middle of metatarsal joint = 5.4 ±0.3 mm, length of beak from anterior angle of nostril to tip of bill = 2.5mm, primordium of comb, labial groove, uropygial gland." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of 3rd toe from tip to middle of metatarsal joint = 5.4 ï¿½0.3 mm, length of beak from anterior angle of nostril to tip of bill = 2.5mm, primordium of comb, labial groove, uropygial gland." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 10.0 days of incubation (means, 11 days after fertilization).
 synonym: "HH36" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -674,7 +674,7 @@ property_value: end_dpf "12.0" xsd:float
 id: GgalDv:0000051
 name: Hamburger Hamilton stage 37
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of 3rd toe = 7.4 ±0.3mm; length of beak = 3.0 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of 3rd toe = 7.4 ï¿½0.3mm; length of beak = 3.0 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 11.0 days of incubation.
 synonym: "HH37" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -687,7 +687,7 @@ property_value: end_dpf "13.0" xsd:float
 id: GgalDv:0000052
 name: Hamburger Hamilton stage 38
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of 3rd toe = 8.4 ± 0.3 mm; length of beak = 3.1 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of 3rd toe = 8.4 ï¿½ 0.3 mm; length of beak = 3.1 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 12.0 days of incubation.
 synonym: "HH38" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -700,7 +700,7 @@ property_value: end_dpf "14.0" xsd:float
 id: GgalDv:0000053
 name: Hamburger Hamilton stage 39
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of 3rd toe = 9.8 ± 0.3 mm; length of beak = 3.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of 3rd toe = 9.8 ï¿½ 0.3 mm; length of beak = 3.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 13.0 days of incubation.
 synonym: "HH39" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -713,7 +713,7 @@ property_value: end_dpf "15.0" xsd:float
 id: GgalDv:0000054
 name: Hamburger Hamilton stage 40
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of beak = 4.0 mm; length of 3rd toe = 12.7 ± 0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of beak = 4.0 mm; length of 3rd toe = 12.7 ï¿½ 0.5 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 14.0 days of incubation.
 synonym: "HH40" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -726,7 +726,7 @@ property_value: end_dpf "16.0" xsd:float
 id: GgalDv:0000055
 name: Hamburger Hamilton stage 41
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of beak from anterior angle of nostril to tip of upper bill = 4.5 mm; length of 3rd toe = 14.9 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of beak from anterior angle of nostril to tip of upper bill = 4.5 mm; length of 3rd toe = 14.9 ï¿½ 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 15.0 days of incubation.
 synonym: "HH41" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -739,7 +739,7 @@ property_value: end_dpf "17.0" xsd:float
 id: GgalDv:0000056
 name: Hamburger Hamilton stage 42
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of beak = 4.8 mm; length of 3rd toe = 16.7 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of beak = 4.8 mm; length of 3rd toe = 16.7 ï¿½ 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 16.0 days of incubation.
 synonym: "HH42" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -752,7 +752,7 @@ property_value: end_dpf "18.0" xsd:float
 id: GgalDv:0000057
 name: Hamburger Hamilton stage 43
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of beak = 5.0 mm; length of 3rd toe = 18.6 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of beak = 5.0 mm; length of 3rd toe = 18.6 ï¿½ 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 17.0 days of incubation.
 synonym: "HH43" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -765,7 +765,7 @@ property_value: end_dpf "19.0" xsd:float
 id: GgalDv:0000058
 name: Hamburger Hamilton stage 44
 namespace: chicken_developmental_stage
-def: "Prenatal stage on incubation period defined by length of beak = 5.7 mm; length of 3rd toe = 20.4 ± 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
+def: "Prenatal stage on incubation period defined by length of beak = 5.7 mm; length of 3rd toe = 20.4 ï¿½ 0.8 mm." [https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages "adapted from"]
 comment: Usually obtained after 18.0 days of incubation.
 synonym: "HH44" EXACT []
 is_a: GgalDv:0000000 ! life cycle stage
@@ -1000,7 +1000,7 @@ relationship: part_of GgalDv:0000006 ! mature stage
 relationship: immediately_preceded_by GgalDv:0000005 ! juvenile stage
 property_value: start_mph "5.0" xsd:float
 property_value: end_mph "48.0" xsd:float
-property_value: start_yph "0.4.0" xsd:float
+property_value: start_yph "0.4" xsd:float
 property_value: end_yph "4.0" xsd:float
 
 [Term]
@@ -1023,7 +1023,7 @@ is_a: GgalDv:0000000 ! life cycle stage
 relationship: part_of GgalDv:0000077 ! prime adult stage
 property_value: start_mph "5.0" xsd:float
 property_value: end_mph "24.0" xsd:float
-property_value: start_yph "0.4.0" xsd:float
+property_value: start_yph "0.4" xsd:float
 property_value: end_yph "2.0" xsd:float
 
 [Term]
