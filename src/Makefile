@@ -133,6 +133,8 @@ ssso-merged-uberon.obo: life-stages-minimal.obo $(ALL_COMPOSITE_OBO) external_on
 .PRECIOUS:  external_ontologies/zfs/zfs.obo
 .PRECIOUS:  external_ontologies/zfs/zfs-uberon.obo
 .PRECIOUS:  external_ontologies/zfs/uberon-bridge-to-zfs.obo
+.PRECIOUS:  olatdv/olatdv-bridge-to-uberon.obo
+.PRECIOUS:  pdumdv/pdumdv-bridge-to-uberon.obo
 .PRECIOUS:  external_ontologies/xao/xao-dev-stages-uberon.obo
 .PRECIOUS:  external_ontologies/xao/uberon-bridge-to-xao.obo
 .PRECIOUS:  external_ontologies/wbls/wbls.obo
