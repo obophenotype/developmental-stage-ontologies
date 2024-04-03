@@ -2830,7 +2830,7 @@
         <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</ggaldv:end_mph>
         <ggaldv:end_yph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</ggaldv:end_yph>
         <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:start_mph>
-        <ggaldv:start_yph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4.0</ggaldv:start_yph>
+        <ggaldv:start_yph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</ggaldv:start_yph>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018241</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000077</oboInOwl:id>
@@ -2860,7 +2860,7 @@
         <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ggaldv:end_mph>
         <ggaldv:end_yph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</ggaldv:end_yph>
         <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:start_mph>
-        <ggaldv:start_yph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4.0</ggaldv:start_yph>
+        <ggaldv:start_yph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</ggaldv:start_yph>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GgalDv:0000078</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We define here the usual period when egg laying in females is the more active.</rdfs:comment>
