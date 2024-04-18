@@ -427,6 +427,7 @@ namespace: atlantic_salmon_developmental_stage
 def: "Fully formed organism at post-smolt stage without described sexual maturity status." [Bgee:curator]
 comment: this stage may be used when no information is available about the sexual maturity at post-smolt stage.
 is_a: SsalDv:0000000 ! life cycle stage
+relationship: preceded_by SsalDv:0000062 ! pre-smolt stage
 relationship: part_of SsalDv:0000040 ! fully formed stage
 
 [Term]
