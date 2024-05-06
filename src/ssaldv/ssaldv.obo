@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:04:2024 18:33
+date: 06:05:2024 16:20
 saved-by: ann
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
@@ -198,22 +198,12 @@ relationship: immediately_preceded_by SsalDv:0000019 ! mid gastrula:50% epiboly
 relationship: part_of SsalDv:0000016 ! gastrula stage
 
 [Term]
-id: SsalDv:0000021
-name: neurula stage
-namespace: atlantic_salmon_developmental_stage
-comment: not sure the UBERON xref should be present, none fish are so far linked to UBERON:0000110, neurula stage sounds to overlap gastrulation stages in Salmo salar, see 'At day 15 post-fertilization, neural tube formation and 20-30% epiboly' (PMID: 10393816 (Table 1), 1999).
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: preceded_by SsalDv:0000016 ! gastrula stage
-relationship: part_of SsalDv:0000002 ! embryo stage
-xref: UBERON:0000110
-
-[Term]
 id: SsalDv:0000022
 name: organogenesis stage
 namespace: atlantic_salmon_developmental_stage
 comment: while at day 17 post-fertilization, some somites are visible (see PMID:10393816 (Table 1)), we decide to follow the developmental description as from PMID:23239145, Table 1, and we describe organogenesis stage from day 27 post-fertilization; 34 days at water temperature 7 means 238 day-degree and describes organogenesis with vascularization, and 44 days at water temperature 7 means 308 day-degree and describes organogenesis with operculum covers part of first brachial arch (contributor https://github.com/garethgillard)
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: immediately_preceded_by SsalDv:0000021 ! neurula stage
+relationship: immediately_preceded_by SsalDv:0000020 ! late gastrula:90% epiboly
 relationship: part_of SsalDv:0000002 ! embryo stage
 xref: UBERON:0000111
 
@@ -232,7 +222,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: development of eyes (visible laterally), at 19 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: preceded_by SsalDv:0000023 ! 10-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000025
@@ -241,7 +231,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: otic vesicle formed; 90–100 % epiboly, at 20 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: preceded_by SsalDv:0000024 ! 15-16-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000026
@@ -250,7 +240,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: start of segmentation of hindbrain into five rhombomeres; development of branchial chamber; cardiac tube in pericardial chamber, at 21 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000025 ! 18-21-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000027
@@ -259,7 +249,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: forebrain/midbrain boundary appearing; optic lens visible, at 22 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000026 ! 22-24-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000028
@@ -268,7 +258,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: gut and stomach primordia visible; myotomes acquiring chevron shape; midbrain/hindbrain boundary apparent; one branchial arch visible; heart tube bending forwards, at 23 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000027 ! 27-28-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000029
@@ -277,7 +267,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: choroid fissure complete; lumen in stomach and gut; operculum visible, at 24 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000028 ! 31-34-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000030
@@ -286,7 +276,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: hindgut formation; tail detached from yolk at most caudal somites; otoliths present in otic vesicles, at 25 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000029 ! 36-37-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000031
@@ -295,7 +285,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: separation of ventral mid-body from yolk; heart tube moved to the left; slow heart beat apparent; posterior end of pronephros level with end of gut; hindgut turned ventrally towards future anus, at 26 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000030 ! 38-40-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000032
@@ -304,7 +294,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: blood flow in dorsal aorta; two branchial arches; pectoral fin buds at somites 2–4 (45–47 somites), and weak sporadic contractions of the trunk (47–50 somites), at 27 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000031 ! 41-44-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000033
@@ -313,7 +303,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: two-chambered heart with double beat and faster heart rate; movement in response to dechorionation; lens separate from optic cup; rhombomere divisions starting to disappear; anus formed at level of somites 37–38, at 28 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000032 ! 45-50-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000034
@@ -322,7 +312,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: circulation visible along gut; rhombomere divisions almost disappeared; jaw developing; mesenchyme in caudal fin-fold, at 29 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000033 ! 49-52-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000035
@@ -331,7 +321,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: rhythmic movements observed in situ; strong movements in response to dechorionation; olfactory organ present; hatching glands apparent; dorsal and ventral fin-folds present; rhombomeres no longer distinct; three branchial arches; pectoral fin as high as it is wide, at 32 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000034 ! 53-55-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000036
@@ -340,7 +330,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: at 33 dpf in PMID:10393816 (Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: immediately_preceded_by SsalDv:0000035 ! 62-64-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000037
@@ -349,7 +339,7 @@ namespace: atlantic_salmon_developmental_stage
 comment: eyed, at 51 dpf (day post-fertilization) (PMID:23239145, Table 1)
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: preceded_by SsalDv:0000036 ! 63-64-somite-stage
-relationship: part_of SsalDv:0000014 ! organogenesis stage
+relationship: part_of SsalDv:0000022 ! organogenesis stage
 
 [Term]
 id: SsalDv:0000038
@@ -381,68 +371,10 @@ relationship: part_of SsalDv:0000038 ! post-embryonic stage
 xref: UBERON:0000066
 
 [Term]
-id: SsalDv:0000068
-name: sexually immature fully formed stage
-namespace: atlantic_salmon_developmental_stage
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000064
-name: juvenile stage
-namespace: atlantic_salmon_developmental_stage
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: preceded_by SsalDv:0000039 ! alevin stage
-relationship: part_of SsalDv:0000041 ! sexually immature stage
-xref: UBERON:0034919
-
-[Term]
-id: SsalDv:0000065
-name: parr stage
-namespace: atlantic_salmon_developmental_stage
-comment: stage description from G.Gillard (https://github.com/garethgillard), months 6-9, 10-15 cm.
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000064 ! juvenile stage
-
-[Term]
-id: SsalDv:0000066
-name: smolt stage
-namespace: atlantic_salmon_developmental_stage
-comment: stage description from G.Gillard (https://github.com/garethgillard), months 9-12, 10-20 cm.
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000064 ! juvenile stage
-
-[Term]
-id: SsalDv:0000062
-name: pre-smolt stage
-namespace: atlantic_salmon_developmental_stage
-def: "Juvenile organism at pre-smolt stage without described sexual maturity status." [Bgee:curator]
-comment: this stage may be used when no information is available about the sexual maturity at pre-smolt stage.
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000040 ! fully formed stage
-
-[Term]
-id: SsalDv:0000063
-name: post-smolt stage
-namespace: atlantic_salmon_developmental_stage
-def: "Fully formed organism at post-smolt stage without described sexual maturity status." [Bgee:curator]
-comment: this stage may be used when no information is available about the sexual maturity at post-smolt stage.
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: preceded_by SsalDv:0000062 ! pre-smolt stage
-relationship: part_of SsalDv:0000040 ! fully formed stage
-
-[Term]
-id: SsalDv:0000067
-name: adult stage
-namespace: atlantic_salmon_developmental_stage
-def: "Post-smolt adult organism without described sexual maturity status" [Bgee:curator]
-comment: this stage may be used when no information is available about the sexual maturity at adult stage.
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000063 ! post-smolt stage
-
-[Term]
 id: SsalDv:0000041
 name: sexually immature stage
 namespace: atlantic_salmon_developmental_stage
+synonym: "juvenile stage" BROAD []
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000040 ! fully formed stage
 xref: UBERON:0000112
@@ -451,157 +383,93 @@ xref: UBERON:0000112
 id: SsalDv:0000042
 name: sexually mature stage
 namespace: atlantic_salmon_developmental_stage
-comment: in salmon development, this stage involves that the smoltification process has occured; may be merged with SsalDv:0000051 and SsalDv:0000055 in future; stage description from G.Gillard (https://github.com/garethgillard), months 12-28, 70-75 cm.
 synonym: "sexually mature fully formed stage" EXACT []
 is_a: SsalDv:0000000 ! life cycle stage
 relationship: part_of SsalDv:0000040 ! fully formed stage
+relationship: preceded_by SsalDv:0000041 ! sexually immature stage
 xref: UBERON:0000113
 
 [Term]
 id: SsalDv:0000043
-name: sexually immature juvenile stage
-namespace: atlantic_salmon_developmental_stage
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000044
-name: sexually immature pre-smolt stage
-namespace: atlantic_salmon_developmental_stage
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000045
 name: fry stage
 namespace: atlantic_salmon_developmental_stage
 comment: comment: stage description from G.Gillard (https://github.com/garethgillard), months 3-6, 5-8 cm. Approximately 4- 5 weeks after hatching the young fish makes its way through the gravel and begins active feeding. At this point they are approximately 3 inches long and are called "fry" or fingerlings. One year after hatching the fry change coloring and acquire distinctive markings on their flanks which now distinguishes them as "parr" (http://www.uky.edu/~agrdanny/flyfish/life.htm).
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000064 ! juvenile stage
+relationship: immediately_preceded_by SsalDv:0000039 ! alevin stage
+relationship: part_of SsalDv:0000041 ! sexually immature stage
 
 [Term]
-id: SsalDv:0000056
+id: SsalDv:0000044
 name: day 0 of fry stage
 namespace: atlantic_salmon_developmental_stage
 def: "The day of the alevin leaving its yolk sac and beginning to be a fry." [Bgee:curator]
 comment: dedicated to PMID:32293070; developmentally it makes sense to consider fry before feeding as a category. At least, when the yolk sac is depleted they are considered as at the fry stage. They fed then after that in experiments. They could feed before in the wild of course, so not completely tied to developmental stage, but a common point of difference the feeding (source: discussion with G.Gillard, https://github.com/garethgillard).
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: immediately_preceded_by SsalDv:0000039 ! alevin stage
-relationship: part_of SsalDv:0000045 ! fry stage
+relationship: part_of SsalDv:0000043 ! fry stage
 
 [Term]
-id: SsalDv:0000057
+id: SsalDv:0000045
 name: day 1 of fry stage
 namespace: atlantic_salmon_developmental_stage
 def: "First day of the life of the Salmon salar living as a fry and actively feeding." [Bgee:curator]
 comment: dedicated to PMID:32293070
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000045 ! fry stage
+relationship: part_of SsalDv:0000043 ! fry stage
+relationship: immediately_preceded_by SsalDv:0000044 ! day 0 of fry stage
 
 [Term]
-id: SsalDv:0000058
+id: SsalDv:0000046
 name: day 48 of fry stage
 namespace: atlantic_salmon_developmental_stage
 comment: dedicated to PMID:32293070
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000045 ! fry stage
+relationship: part_of SsalDv:0000043 ! fry stage
+relationship: preceded_by SsalDv:0000045 ! day 1 of fry stage
 
 [Term]
-id: SsalDv:0000059
+id: SsalDv:0000047
 name: day 65 of fry stage
 namespace: atlantic_salmon_developmental_stage
 comment: dedicated to PMID:32293070
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000045 ! fry stage
+relationship: part_of SsalDv:0000043 ! fry stage
+relationship: preceded_by SsalDv:0000046 ! day 48 of fry stage
 
 [Term]
-id: SsalDv:0000060
+id: SsalDv:0000048
 name: day 77 of fry stage
 namespace: atlantic_salmon_developmental_stage
 comment: dedicated to PMID:32293070
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000045 ! fry stage
+relationship: part_of SsalDv:0000043 ! fry stage
+relationship: preceded_by SsalDv:0000047 ! day 65 of fry stage
 
 [Term]
-id: SsalDv:0000061
+id: SsalDv:0000049
 name: day 94 of fry stage
 namespace: atlantic_salmon_developmental_stage
 comment: dedicated to PMID:32293070
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000045 ! fry stage
-
-[Term]
-id: SsalDv:0000046
-name: sexually immature parr stage
-namespace: atlantic_salmon_developmental_stage
-synonym: "parr stage" RELATED []
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000047
-name: sexually immature smolt stage
-namespace: atlantic_salmon_developmental_stage
-synonym: "sexually immature juvenile post-smolt stage" EXACT []
-synonym: "smolt stage" RELATED []
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000048
-name: sexually mature juvenile stage
-namespace: atlantic_salmon_developmental_stage
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000049
-name: sexually mature smolt stage
-namespace: atlantic_salmon_developmental_stage
-synonym: "sexually mature juvenile post-smolt stage" EXACT []
-synonym: "smolt stage" RELATED []
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000050
-name: sexually immature post-smolt stage
-namespace: atlantic_salmon_developmental_stage
-is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000041 ! sexually immature stage
+relationship: part_of SsalDv:0000043 ! fry stage
+relationship: preceded_by SsalDv:0000048 ! day 77 of fry stage
 
 [Term]
 id: SsalDv:0000051
-name: sexually mature post-smolt stage
+name: parr stage
 namespace: atlantic_salmon_developmental_stage
-comment: same as SsalDv:0000042; may be merged with SsalDv:0000042 and SsalDv:0000055 in future.
+comment: stage description from G.Gillard (https://github.com/garethgillard), months 6-9, 10-15 cm.
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000042 ! sexually mature stage
-xref: UBERON:0000113
+relationship: part_of SsalDv:0000041 ! sexually immature stage
+relationship: preceded_by SsalDv:0000043 ! fry stage
 
 [Term]
 id: SsalDv:0000052
-name: sexually mature pre-smolt stage
+name: smolt stage
 namespace: atlantic_salmon_developmental_stage
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000053
-name: sexually mature parr stage
-namespace: atlantic_salmon_developmental_stage
-synonym: "parr stage" RELATED []
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000054
-name: sexually immature adult stage
-namespace: atlantic_salmon_developmental_stage
-synonym: "adult stage" RELATED []
-is_obsolete: true
-
-[Term]
-id: SsalDv:0000055
-name: sexually mature adult stage
-namespace: atlantic_salmon_developmental_stage
-comment: same as SsalDv:0000042; may be merged with SsalDv:0000042 and SsalDv:0000051 in future.
-synonym: "adult stage" RELATED []
-xref: UBERON:0000113
+comment: stage description from G.Gillard (https://github.com/garethgillard), months 9-12, 10-20 cm.
 is_a: SsalDv:0000000 ! life cycle stage
-relationship: part_of SsalDv:0000051 ! sexually mature post-smolt stage
+relationship: part_of SsalDv:0000041 ! sexually immature stage
+relationship: preceded_by SsalDv:0000051 ! parr stage
 
 [Typedef]
 id: immediately_preceded_by
