@@ -1012,7 +1012,7 @@ property_value: end_mph "24.0" xsd:float
 property_value: end_yph "2.0" xsd:float
 property_value: IAO:0000589 "young adult stage (chicken)" xsd:string
 property_value: start_mph "5.0" xsd:float
-property_value: start_yph "0.4.0" xsd:float
+property_value: start_yph "0.4" xsd:float
 
 [Term]
 id: GgalDv:0000079
