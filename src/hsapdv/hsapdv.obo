@@ -7,6 +7,7 @@ subsetdef: granular_stage "Subset consisting of classes describing highly granul
 treat-xrefs-as-equivalent: EV
 treat-xrefs-as-equivalent: XUO
 ontology: hsapdv
+property_value: IAO:0000700 HsapDv:0000000
 
 [Term]
 id: HsapDv:0000000

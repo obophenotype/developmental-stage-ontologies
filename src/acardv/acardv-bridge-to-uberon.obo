@@ -1,25 +1,19 @@
 [Term]
-id: AcarDv:0000000
-property_value: IAO:0000589 "lizard life cycle stage (anolis)" xsd:string
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:28377
-
-[Term]
-id: AcarDv:0000001
-property_value: IAO:0000589 "lizard life cycle (anolis)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:28377
-
-[Term]
 id: AcarDv:0000005
 property_value: IAO:0000589 "adulthood stage (anolis)" xsd:string
 intersection_of: UBERON:0018241
 intersection_of: part_of NCBITaxon:28377
 
 [Term]
-id: AcarDv:0000004
-property_value: IAO:0000589 "mature stage (anolis)" xsd:string
-intersection_of: UBERON:0000113
+id: AcarDv:0000003
+property_value: IAO:0000589 "immature stage (anolis)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:28377
+
+[Term]
+id: AcarDv:0000000
+property_value: IAO:0000589 "lizard life cycle stage (anolis)" xsd:string
+intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:28377
 
 [Term]
@@ -35,35 +29,16 @@ intersection_of: UBERON:0007222
 intersection_of: part_of NCBITaxon:28377
 
 [Term]
-id: AcarDv:0000003
-property_value: IAO:0000589 "immature stage (anolis)" xsd:string
-intersection_of: UBERON:0000112
+id: AcarDv:0000001
+property_value: IAO:0000589 "lizard life cycle (anolis)" xsd:string
+intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:28377
 
 [Term]
-id: UBERON:0000105
-synonym: "lizard life cycle stage" BROAD []
-xref: AcarDv:0000000
-
-[Term]
-id: UBERON:0000113
-synonym: "mature stage" BROAD []
-xref: AcarDv:0000004
-
-[Term]
-id: UBERON:0000068
-synonym: "prenatal stage" BROAD []
-xref: AcarDv:0000002
-
-[Term]
-id: UBERON:0007222
-synonym: "aged stage" BROAD []
-xref: AcarDv:0000006
-
-[Term]
-id: UBERON:0000104
-synonym: "lizard life cycle" BROAD []
-xref: AcarDv:0000001
+id: AcarDv:0000004
+property_value: IAO:0000589 "mature stage (anolis)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:28377
 
 [Term]
 id: UBERON:0018241
@@ -74,6 +49,31 @@ xref: AcarDv:0000005
 id: UBERON:0000112
 synonym: "immature stage" BROAD []
 xref: AcarDv:0000003
+
+[Term]
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: AcarDv:0000002
+
+[Term]
+id: UBERON:0000105
+synonym: "lizard life cycle stage" BROAD []
+xref: AcarDv:0000000
+
+[Term]
+id: UBERON:0000104
+synonym: "lizard life cycle" BROAD []
+xref: AcarDv:0000001
+
+[Term]
+id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: AcarDv:0000006
+
+[Term]
+id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: AcarDv:0000004
 
 [Typedef]
 id: part_of

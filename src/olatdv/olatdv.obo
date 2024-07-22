@@ -3,6 +3,7 @@ default-namespace: medaka_ontology
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 remark: adapted from MFO by Thorsten Henrich
 ontology: olatdv
+property_value: IAO:0000700 OlatDv:0000010
 
 [Term]
 id: OlatDv:0000010
