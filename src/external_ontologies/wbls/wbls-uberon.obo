@@ -1,6 +1,6 @@
 format-version: 1.2
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls/2023-07-25/uberon/bridge/uberon-bridge-to-wbls.owl>))) [Axioms: 170 Logical Axioms: 14]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/wbls/wbls-simple.owl>) VersionIRI(<http://purl.obolibrary.org/obo/wbls/wbls-simple/wbls/releases/2024-01-16/wbls-simple.owl/wbls/wbls-simple.owl>))) [Axioms: 8866 Logical Axioms: 2730]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/wbls/wbls-simple.owl>) VersionIRI(<http://purl.obolibrary.org/obo/wbls/wbls-simple/wbls/releases/2024-04-09/wbls-simple.owl/wbls/wbls-simple.owl>))) [Axioms: 8866 Logical Axioms: 2730]
 ontology: uberon/bridge/external_ontologies/wbls/wbls-uberon.obo
 
 [Term]
@@ -9749,5 +9749,5 @@ comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
 xref: RO:0002087
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
-is_a: preceded_by ! preceded_by
+is_a: preceded_by ! preceded by
 

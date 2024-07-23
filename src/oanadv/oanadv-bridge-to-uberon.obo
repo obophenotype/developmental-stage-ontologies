@@ -1,16 +1,4 @@
 [Term]
-id: OanaDv:0000003
-property_value: IAO:0000589 "immature stage (platypus)" xsd:string
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:9258
-
-[Term]
-id: OanaDv:0000007
-property_value: IAO:0000589 "postnatal stage (platypus)" xsd:string
-intersection_of: UBERON:0000066
-intersection_of: part_of NCBITaxon:9258
-
-[Term]
 id: OanaDv:0000002
 property_value: IAO:0000589 "prenatal stage (platypus)" xsd:string
 intersection_of: UBERON:0000068
@@ -23,15 +11,21 @@ intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:9258
 
 [Term]
+id: OanaDv:0000005
+property_value: IAO:0000589 "adulthood stage (platypus)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9258
+
+[Term]
 id: OanaDv:0000004
 property_value: IAO:0000589 "mature stage (platypus)" xsd:string
 intersection_of: UBERON:0000113
 intersection_of: part_of NCBITaxon:9258
 
 [Term]
-id: OanaDv:0000005
-property_value: IAO:0000589 "adulthood stage (platypus)" xsd:string
-intersection_of: UBERON:0018241
+id: OanaDv:0000007
+property_value: IAO:0000589 "postnatal stage (platypus)" xsd:string
+intersection_of: UBERON:0000066
 intersection_of: part_of NCBITaxon:9258
 
 [Term]
@@ -41,15 +35,16 @@ intersection_of: UBERON:0007222
 intersection_of: part_of NCBITaxon:9258
 
 [Term]
+id: OanaDv:0000003
+property_value: IAO:0000589 "immature stage (platypus)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:9258
+
+[Term]
 id: OanaDv:0000001
 property_value: IAO:0000589 "life cycle (platypus)" xsd:string
 intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:9258
-
-[Term]
-id: UBERON:0000104
-synonym: "life cycle" BROAD []
-xref: OanaDv:0000001
 
 [Term]
 id: UBERON:0007222
@@ -57,14 +52,19 @@ synonym: "aged stage" BROAD []
 xref: OanaDv:0000006
 
 [Term]
+id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: OanaDv:0000001
+
+[Term]
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: OanaDv:0000003
+
+[Term]
 id: UBERON:0018241
 synonym: "adulthood stage" BROAD []
 xref: OanaDv:0000005
-
-[Term]
-id: UBERON:0000068
-synonym: "prenatal stage" BROAD []
-xref: OanaDv:0000002
 
 [Term]
 id: UBERON:0000113
@@ -72,19 +72,19 @@ synonym: "mature stage" BROAD []
 xref: OanaDv:0000004
 
 [Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: OanaDv:0000000
-
-[Term]
 id: UBERON:0000066
 synonym: "postnatal stage" BROAD []
 xref: OanaDv:0000007
 
 [Term]
-id: UBERON:0000112
-synonym: "immature stage" BROAD []
-xref: OanaDv:0000003
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: OanaDv:0000002
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: OanaDv:0000000
 
 [Typedef]
 id: part_of

@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: fbdv/releases/2024-02-21
-date: 21:02:2024 14:18
+data-version: fbdv/releases/2024-06-13
+date: 13:06:2024 09:02
 subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
 subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
 subsetdef: goslim_aspergillus "Aspergillus GO slim"
@@ -14,25 +14,24 @@ subsetdef: goslim_plant "Plant GO slim"
 subsetdef: goslim_pombe "Fission yeast GO slim"
 subsetdef: goslim_yeast "Yeast GO slim"
 subsetdef: gosubset_prok "Prokaryotic GO subset"
-subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
-subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
-subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
-subsetdef: ro-eco ""
 default-namespace: FlyBase_development_CV
 namespace-id-rule: * FBdv:$sequence(8,7000,10000)$
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: terms http://purl.org/dc/terms/ 
 ontology: fbdv.obo
-property_value: http://purl.org/dc/elements/1.1/creator "http://orcid.org/0000-0002-1373-1705" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "http://orcid.org/0000-0002-7073-9172" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "https://orcid.org/0000-0001-5948-3092" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "https://orcid.org/0000-0002-0027-0858" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "An ontology of Drosophila melanogaster developmental stages." xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "Drosophila Developmental Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "https://creativecommons.org/licenses/by/4.0/" xsd:string
+property_value: dc:creator "http://orcid.org/0000-0002-1373-1705" xsd:string
+property_value: dc:creator "http://orcid.org/0000-0002-7073-9172" xsd:string
+property_value: dc:creator "https://orcid.org/0000-0001-5948-3092" xsd:string
+property_value: dc:creator "https://orcid.org/0000-0002-0027-0858" xsd:string
+property_value: dc:description "An ontology of Drosophila melanogaster developmental stages." xsd:string
+property_value: dc:title "Drosophila Developmental Ontology" xsd:string
 property_value: IAO:0000700 FBdv:00000000
 property_value: IAO:0000700 FBdv:00005259
 property_value: IAO:0000700 FBdv:00007013
 property_value: IAO:0000700 FBdv:00007024
-property_value: owl:versionInfo "2024-02-21" xsd:string
+property_value: owl:versionInfo "2024-06-13" xsd:string
+property_value: terms:license "https://creativecommons.org/licenses/by/4.0/" xsd:string
 
 [Term]
 id: FBdv:00000000
@@ -74,8 +73,8 @@ id: FBdv:00005259
 name: developmental stage
 alt_id: FBdv:00007010
 def: "A temporal subdivision of a developmental process." [FBC:DOS]
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2009-10-01T05:56:56Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2009-10-01T05:56:56Z" xsd:string
 
 [Term]
 id: FBdv:00005261
@@ -831,8 +830,8 @@ comment: Temporal ordering number - 440.
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005339 ! substage of third instar larval stage
 relationship: RO:0002087 FBdv:00005338 ! immediately preceded by second instar larval stage
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2008-11-13T11:51:56Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2008-11-13T11:51:56Z" xsd:string
 
 [Term]
 id: FBdv:00005341
@@ -844,8 +843,8 @@ synonym: "post-feeding larva" BROAD []
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00007007 ! substage of late third instar larval stage
 relationship: RO:0002087 FBdv:00005340 ! immediately preceded by early third instar larval stage
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2008-11-13T11:55:46Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2008-11-13T11:55:46Z" xsd:string
 
 [Term]
 id: FBdv:00005342
@@ -1226,8 +1225,8 @@ def: "The developmental process by which male germ line stem cells self renew or
 comment: Temporal ordering number - 20000.
 xref: GO:0007283
 is_a: FBdv:00007009 ! developmental process
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2008-06-05T04:51:08Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2008-06-05T04:51:08Z" xsd:string
 
 [Term]
 id: FBdv:00007001
@@ -1244,8 +1243,8 @@ relationship: RO:0002087 FBdv:00007007 ! immediately preceded by late third inst
 relationship: RO:0002090 FBdv:00005369 ! immediately precedes adult stage
 relationship: RO:0002090 FBdv:00005370 ! immediately precedes adult stage A1
 relationship: RO:0002090 FBdv:00007025 ! immediately precedes immature adult stage
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2008-06-05T04:51:40Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2008-06-05T04:51:40Z" xsd:string
 
 [Term]
 id: FBdv:00007002
@@ -1291,8 +1290,8 @@ def: "Oogenesis stage during which the number of nurse cell nuclei at the anteri
 comment: Temporal ordering number - 10250.
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005278 ! substage of oogenesis stage S13
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2008-11-13T06:27:57Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2008-11-13T06:27:57Z" xsd:string
 
 [Term]
 id: FBdv:00007007
@@ -1302,8 +1301,8 @@ comment: Temporal ordering number - 450.
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005339 ! substage of third instar larval stage
 relationship: RO:0002087 FBdv:00005340 ! immediately preceded by early third instar larval stage
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2008-12-11T01:19:53Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2008-12-11T01:19:53Z" xsd:string
 
 [Term]
 id: FBdv:00007008
@@ -1316,16 +1315,16 @@ name: developmental process
 def: "A biological process whose specific outcome is the progression of an integrated living unit (an anatomical structure or an entire organism) over time from an initial condition to a later condition." [GO:0032502]
 xref: GO:0032502
 is_a: FBdv:00007024 ! biological process
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2009-10-01T05:56:42Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2009-10-01T05:56:42Z" xsd:string
 
 [Term]
 id: FBdv:00007011
 name: embryonic cycle
 def: "A cycle of nuclear division during the embryogenesis of Drosophila melanogaster. The first 13 cycles are synchronous throughout the embryo and occur their timing relative to other developmental processes is invariant. Later nuclear division cycles are asynchronous across the embryo although may be more locally synchronized." [FlyBase:FBrf0049535, FlyBase:FBrf0089570]
 is_a: FBdv:00007024 ! biological process
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2009-10-01T05:57:41Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2009-10-01T05:57:41Z" xsd:string
 
 [Term]
 id: FBdv:00007012
@@ -1334,23 +1333,23 @@ def: "A temporal subdivision of a Drosophila life, delimited by major transition
 synonym: "life cycle stage" EXACT []
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00000000 ! substage of Drosophila life
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2009-10-01T05:59:22Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2009-10-01T05:59:22Z" xsd:string
 
 [Term]
 id: FBdv:00007013
 name: age
 def: "Temporal subdivision of life based on time elapsed since some key developmental transition, such as fertilization, hatching or eclosion." [FBC:DOS]
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2010-09-29T12:25:36Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2010-09-29T12:25:36Z" xsd:string
 
 [Term]
 id: FBdv:00007014
 name: adult age in days
 def: "Temporal subdivision of adulthood in days post-eclosion." [FBC:DOS]
 is_a: FBdv:00007013 ! age
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2010-09-29T12:28:05Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2010-09-29T12:28:05Z" xsd:string
 
 [Term]
 id: FBdv:00007015
@@ -1360,8 +1359,8 @@ comment: Temporal ordering number - 391. Should not be used to stage embryos who
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: RO:0002087 FBdv:00005334 ! immediately preceded by embryonic stage 16
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2011-04-26T11:57:15Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2011-04-26T11:57:15Z" xsd:string
 
 [Term]
 id: FBdv:00007016
@@ -1371,8 +1370,8 @@ comment: Temporal ordering number - 392. Should not be used to stage embryos who
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: RO:0002087 FBdv:00007015 ! immediately preceded by embryonic stage 17(i)
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2011-04-26T12:00:15Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2011-04-26T12:00:15Z" xsd:string
 
 [Term]
 id: FBdv:00007017
@@ -1382,8 +1381,8 @@ comment: Temporal ordering number - 393. Should not be used to stage embryos who
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: RO:0002087 FBdv:00007016 ! immediately preceded by embryonic stage 17(ii)
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2011-04-26T12:01:18Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2011-04-26T12:01:18Z" xsd:string
 
 [Term]
 id: FBdv:00007018
@@ -1393,8 +1392,8 @@ comment: Temporal ordering number - 394. Should not be used to stage embryos who
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: RO:0002087 FBdv:00007017 ! immediately preceded by embryonic stage 17(iii)
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2011-04-26T12:03:14Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2011-04-26T12:03:14Z" xsd:string
 
 [Term]
 id: FBdv:00007019
@@ -1453,8 +1452,8 @@ relationship: FBdv:00018001 FBdv:00007075 ! substage of day 0 of adulthood
 relationship: RO:0002087 FBdv:00006011 ! immediately preceded by pharate adult stage
 relationship: RO:0002087 FBdv:00007001 ! immediately preceded by P-stage
 relationship: RO:0002090 FBdv:00007026 ! immediately precedes mature adult stage
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2013-01-08T20:06:59Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2013-01-08T20:06:59Z" xsd:string
 
 [Term]
 id: FBdv:00007026
@@ -1463,8 +1462,8 @@ def: "Life stage from the end of adult stage A3, when tanning is complete, to de
 is_a: FBdv:00007012 ! life stage
 relationship: RO:0002087 FBdv:00006012 ! immediately preceded by adult stage A3
 relationship: RO:0002087 FBdv:00007025 ! immediately preceded by immature adult stage
-property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date "2013-01-10T13:03:54Z" xsd:string
+property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
+property_value: terms:date "2013-01-10T13:03:54Z" xsd:string
 
 [Term]
 id: FBdv:00007075
@@ -2036,8 +2035,8 @@ comment: Temporal ordering number - 1410.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:00007135 ! immediately preceded by day 60 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010002
@@ -2047,8 +2046,8 @@ comment: Temporal ordering number - 1420.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010001 ! immediately preceded by day 61 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010003
@@ -2058,8 +2057,8 @@ comment: Temporal ordering number - 1430.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010002 ! immediately preceded by day 62 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010004
@@ -2069,8 +2068,8 @@ comment: Temporal ordering number - 1440.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010003 ! immediately preceded by day 63 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010005
@@ -2080,8 +2079,8 @@ comment: Temporal ordering number - 1450.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010004 ! immediately preceded by day 64 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010006
@@ -2091,8 +2090,8 @@ comment: Temporal ordering number - 1460.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010005 ! immediately preceded by day 65 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010007
@@ -2102,8 +2101,8 @@ comment: Temporal ordering number - 1470.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010006 ! immediately preceded by day 66 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010008
@@ -2113,8 +2112,8 @@ comment: Temporal ordering number - 1480.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010007 ! immediately preceded by day 67 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010009
@@ -2124,8 +2123,8 @@ comment: Temporal ordering number - 1490.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010008 ! immediately preceded by day 68 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010010
@@ -2135,8 +2134,8 @@ comment: Temporal ordering number - 1500.
 is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: RO:0002087 FBdv:0010009 ! immediately preceded by day 69 of adulthood
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
+property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Typedef]
 id: FBdv:00018001
@@ -2157,32 +2156,16 @@ def: "A part of relation that applies only between occurrents." []
 id: RO:0002087
 name: immediately preceded by
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000118 "starts_at_end_of" xsd:string
 inverse_of: RO:0002090 ! immediately precedes
 
 [Typedef]
 id: RO:0002090
 name: immediately precedes
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
-subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
-property_value: IAO:0000118 "ends_at_start_of" xsd:string
-property_value: IAO:0000118 "meets" xsd:string
-property_value: RO:0002575 BFO:0000063
 
 [Typedef]
 id: RO:0002092
 name: happens during
 comment: X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000118 "d" xsd:string
-property_value: IAO:0000118 "during" xsd:string
-property_value: seeAlso "https://wiki.geneontology.org/Happens_during" xsd:anyURI
 is_transitive: true
 

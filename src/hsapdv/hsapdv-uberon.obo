@@ -1,7 +1,7 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>) VersionIRI(<null>))) [Axioms: 3252 Logical Axioms: 701]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 1128 Logical Axioms: 259]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/hsapdv.owl>) VersionIRI(<null>))) [Axioms: 3261 Logical Axioms: 704]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 1132 Logical Axioms: 260]
 ontology: uberon/bridge/hsapdv/hsapdv-uberon.obo
 
 [Term]
@@ -3325,7 +3325,7 @@ def: "Human stage that refers to an individual who is over 90 and under 100 year
 is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade stage (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000095 ! 80 year-old and over stage (human)
+relationship: part_of HsapDv:0000274 ! 90 year-old and over stage (human)
 property_value: end_ypb "100.0" xsd:float
 property_value: IAO:0000589 "tenth decade stage (human)" xsd:string
 property_value: start_ypb "90.0" xsd:float
@@ -3368,7 +3368,7 @@ is_a: UBERON:0000105
 relationship: immediately_preceded_by HsapDv:0000225 ! 99-year-old stage (human)
 relationship: immediately_preceded_by HsapDv:0000244 ! tenth decade stage (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000095 ! 80 year-old and over stage (human)
+relationship: part_of HsapDv:0000274 ! 90 year-old and over stage (human)
 property_value: end_ypb "101.0" xsd:float
 property_value: IAO:0000589 "centenarian stage (human)" xsd:string
 property_value: start_ypb "100.0" xsd:float
@@ -3597,6 +3597,18 @@ relationship: part_of UBERON:0034920
 property_value: end_mpb "2.0" xsd:float
 property_value: IAO:0000589 "1-month-old stage (human)" xsd:string
 property_value: start_mpb "0.92" xsd:float
+
+[Term]
+id: HsapDv:0000274
+name: 90 year-old and over stage (human)
+namespace: human_developmental_stage
+def: "Human stage that refers to an adult who is over 90." [https://github.com/jahilton]
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over stage (human)
+relationship: preceded_by HsapDv:0000243 ! ninth decade stage (human)
+property_value: IAO:0000589 "90 year-old and over stage (human)" xsd:string
+property_value: start_ypb "90.0" xsd:float
 
 [Term]
 id: UBERON:0000066
