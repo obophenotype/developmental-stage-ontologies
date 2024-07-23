@@ -1,0 +1,537 @@
+format-version: 1.2
+subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
+synonymtypedef: PLURAL "PLURAL"
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ssaldv.obo.owl>) VersionIRI(<null>))) [Axioms: 470 Logical Axioms: 144]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 284 Logical Axioms: 51]
+ontology: uberon/bridge/ssaldv/ssaldv-uberon.obo
+
+[Term]
+id: SsalDv:0000008
+name: 16-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 51 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0007236
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107
+property_value: IAO:0000589 "16-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000009
+name: 32-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 56 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000008 ! 16-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107
+property_value: IAO:0000589 "32-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000010
+name: 64-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 63 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000009 ! 32-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107
+property_value: IAO:0000589 "64-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000011
+name: 128-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 69 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000010 ! 64-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107
+property_value: IAO:0000589 "128-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000013
+name: early blastula stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 5 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000011 ! 128-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000108
+property_value: IAO:0000589 "early blastula stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000014
+name: mid blastula stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 7 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000013 ! early blastula stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000108
+property_value: IAO:0000589 "mid blastula stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000015
+name: late blastula stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 10 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000014 ! mid blastula stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000108
+property_value: IAO:0000589 "late blastula stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000017
+name: early gastrula:10% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 13 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000015 ! late blastula stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109
+property_value: IAO:0000589 "early gastrula:10% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000018
+name: pre-mid gastrula:30% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 17 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000017 ! early gastrula:10% epiboly (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109
+property_value: IAO:0000589 "pre-mid gastrula:30% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000019
+name: mid gastrula:50% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 21 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000018 ! pre-mid gastrula:30% epiboly (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109
+property_value: IAO:0000589 "mid gastrula:50% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000020
+name: late gastrula:90% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 24 dpf (day post-fertilization) (PMID:23239145, Table 1); 24 days at water temperature 7 means 168 day-degree (contributor https://github.com/garethgillard)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000019 ! mid gastrula:50% epiboly (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109
+property_value: IAO:0000589 "late gastrula:90% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000023
+name: 10-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 27 dpf (day post-fertilization) (PMID:23239145, Table 1) but at about 18 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "10-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000024
+name: 15-16-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: development of eyes (visible laterally), at 19 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+relationship: preceded_by SsalDv:0000023 ! 10-somite-stage (salmon)
+property_value: IAO:0000589 "15-16-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000025
+name: 18-21-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: otic vesicle formed; 90–100 % epiboly, at 20 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+relationship: preceded_by SsalDv:0000024 ! 15-16-somite-stage (salmon)
+property_value: IAO:0000589 "18-21-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000026
+name: 22-24-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: start of segmentation of hindbrain into five rhombomeres; development of branchial chamber; cardiac tube in pericardial chamber, at 21 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000025 ! 18-21-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "22-24-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000027
+name: 27-28-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: forebrain/midbrain boundary appearing; optic lens visible, at 22 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000026 ! 22-24-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "27-28-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000028
+name: 31-34-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: gut and stomach primordia visible; myotomes acquiring chevron shape; midbrain/hindbrain boundary apparent; one branchial arch visible; heart tube bending forwards, at 23 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000027 ! 27-28-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "31-34-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000029
+name: 36-37-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: choroid fissure complete; lumen in stomach and gut; operculum visible, at 24 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000028 ! 31-34-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "36-37-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000030
+name: 38-40-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: hindgut formation; tail detached from yolk at most caudal somites; otoliths present in otic vesicles, at 25 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000029 ! 36-37-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "38-40-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000031
+name: 41-44-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: separation of ventral mid-body from yolk; heart tube moved to the left; slow heart beat apparent; posterior end of pronephros level with end of gut; hindgut turned ventrally towards future anus, at 26 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000030 ! 38-40-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "41-44-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000032
+name: 45-50-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: blood flow in dorsal aorta; two branchial arches; pectoral fin buds at somites 2–4 (45–47 somites), and weak sporadic contractions of the trunk (47–50 somites), at 27 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000031 ! 41-44-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "45-50-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000033
+name: 49-52-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: two-chambered heart with double beat and faster heart rate; movement in response to dechorionation; lens separate from optic cup; rhombomere divisions starting to disappear; anus formed at level of somites 37–38, at 28 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000032 ! 45-50-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "49-52-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000034
+name: 53-55-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: circulation visible along gut; rhombomere divisions almost disappeared; jaw developing; mesenchyme in caudal fin-fold, at 29 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000033 ! 49-52-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "53-55-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000035
+name: 62-64-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: rhythmic movements observed in situ; strong movements in response to dechorionation; olfactory organ present; hatching glands apparent; dorsal and ventral fin-folds present; rhombomeres no longer distinct; three branchial arches; pectoral fin as high as it is wide, at 32 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000034 ! 53-55-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "62-64-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000036
+name: 63-64-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 33 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000035 ! 62-64-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+property_value: IAO:0000589 "63-64-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000037
+name: 65-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: eyed, at 51 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111
+relationship: preceded_by SsalDv:0000036 ! 63-64-somite-stage (salmon)
+property_value: IAO:0000589 "65-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000043
+name: fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: comment: stage description from G.Gillard (https://github.com/garethgillard), months 3-6, 5-8 cm. Approximately 4- 5 weeks after hatching the young fish makes its way through the gravel and begins active feeding. At this point they are approximately 3 inches long and are called "fry" or fingerlings. One year after hatching the fry change coloring and acquire distinctive markings on their flanks which now distinguishes them as "parr" (http://www.uky.edu/~agrdanny/flyfish/life.htm).
+is_a: UBERON:0000105
+relationship: immediately_preceded_by UBERON:0000069
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000112
+property_value: IAO:0000589 "fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000044
+name: day 0 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+def: "The day of the alevin leaving its yolk sac and beginning to be a fry." [Bgee:curator]
+comment: dedicated to PMID:32293070; developmentally it makes sense to consider fry before feeding as a category. At least, when the yolk sac is depleted they are considered as at the fry stage. They fed then after that in experiments. They could feed before in the wild of course, so not completely tied to developmental stage, but a common point of difference the feeding (source: discussion with G.Gillard, https://github.com/garethgillard).
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+property_value: IAO:0000589 "day 0 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000045
+name: day 1 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+def: "First day of the life of the Salmon salar living as a fry and actively feeding." [Bgee:curator]
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105
+relationship: immediately_preceded_by SsalDv:0000044 ! day 0 of fry stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+property_value: IAO:0000589 "day 1 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000046
+name: day 48 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000045 ! day 1 of fry stage (salmon)
+property_value: IAO:0000589 "day 48 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000047
+name: day 65 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000046 ! day 48 of fry stage (salmon)
+property_value: IAO:0000589 "day 65 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000048
+name: day 77 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000047 ! day 65 of fry stage (salmon)
+property_value: IAO:0000589 "day 77 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000049
+name: day 94 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000048 ! day 77 of fry stage (salmon)
+property_value: IAO:0000589 "day 94 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000051
+name: parr stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: stage description from G.Gillard (https://github.com/garethgillard), months 6-9, 10-15 cm.
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000112
+relationship: preceded_by SsalDv:0000043 ! fry stage (salmon)
+property_value: IAO:0000589 "parr stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000052
+name: smolt stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: stage description from G.Gillard (https://github.com/garethgillard), months 9-12, 10-20 cm.
+is_a: UBERON:0000105
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000112
+relationship: preceded_by SsalDv:0000051 ! parr stage (salmon)
+property_value: IAO:0000589 "smolt stage (salmon)" xsd:string
+
+[Term]
+id: UBERON:0000066
+synonym: "fully formed stage" BROAD []
+xref: SsalDv:0000040
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000069 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000092 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000068
+synonym: "embryo stage" BROAD []
+xref: SsalDv:0000002
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000069
+synonym: "alevin stage" BROAD []
+xref: SsalDv:0000039
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000092 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000092
+synonym: "post-embryonic stage" BROAD []
+xref: SsalDv:0000038
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: SsalDv:0000001
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: SsalDv:0000000
+
+[Term]
+id: UBERON:0000106
+synonym: "zygote stage" BROAD []
+xref: SsalDv:0000003
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000107
+synonym: "cleavage stage" BROAD []
+xref: SsalDv:0000004
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000106 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000108
+synonym: "blastula stage" BROAD []
+xref: SsalDv:0000012
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: preceded_by UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: SsalDv:0000016
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: preceded_by UBERON:0000108 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000111
+synonym: "organogenesis stage" BROAD []
+xref: SsalDv:0000022
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: immediately_preceded_by SsalDv:0000020 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! late gastrula:90% epiboly (salmon)
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000112
+synonym: "sexually immature stage" BROAD []
+xref: SsalDv:0000041
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0000113
+synonym: "sexually mature stage" BROAD []
+xref: SsalDv:0000042
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0007232
+synonym: "2-cell stage" BROAD []
+xref: SsalDv:0000005
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0000106 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0007233
+synonym: "4-cell stage" BROAD []
+xref: SsalDv:0000006
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0007232 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Term]
+id: UBERON:0007236
+synonym: "8-cell stage" BROAD []
+xref: SsalDv:0000007
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: immediately_preceded_by UBERON:0007233 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+relationship: part_of UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"}
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+namespace: zebrafish_anatomical_ontology
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+xref: RO:0002087
+is_a: preceded_by ! preceded_by
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
+
+[Typedef]
+id: part_of
+name: part of
+namespace: salmo_salar_anatomical_ontology
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+namespace: salmo_salar_anatomical_ontology
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
+
