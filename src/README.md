@@ -8,7 +8,10 @@ Right now the release process is broken and needs to be redone, ideally in an OD
 - `sh odk.sh make all -B` (this will fail)
 - Discard any changes in Git that resulted in the deletion of files
 - `sh odk.sh make all` (without -B)
-
+- Ensure no file is deleted, make a PR, get it reviewed by a member of the Uberon team
+- Merge into master
+- Locally pull changes on master
+- Run `make github-release GHVERSION=v202X-MM-DD` (fill in the correct version)
 
 
 ## OLD NOTES
