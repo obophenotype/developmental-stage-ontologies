@@ -14,4 +14,6 @@
 #
 # To your entire user directory by adding '-v /Users/username/:/work'
 
-docker run -e ROBOT_JAVA_ARGS='-Xmx25G' -e JAVA_OPTS='-Xmx25G' -v $PWD/:/work -w /work --rm -ti obolibrary/odkfull "$@"
+ODK_TAG=v1.5.2
+docker pull obolibrary/odkfull:$ODK_TAG
+docker run -e ROBOT_JAVA_ARGS='-Xmx8G' -e JAVA_OPTS='-Xmx8G' -v $PWD/:/work -w /work --rm -ti obolibrary/odkfull:$ODK_TAG "$@"
