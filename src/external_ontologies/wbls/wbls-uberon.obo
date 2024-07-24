@@ -9749,5 +9749,5 @@ comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
 xref: RO:0002087
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
-is_a: preceded_by ! preceded by
+is_a: preceded_by ! preceded_by
 
