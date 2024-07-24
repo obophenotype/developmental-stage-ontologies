@@ -1,33 +1,64 @@
 [Term]
-id: SsalDv:0000016
-property_value: IAO:0000589 "gastrula stage (salmon)" xsd:string
-intersection_of: UBERON:0000109
+id: SsalDv:0000047
+property_value: IAO:0000589 "day 65 of fry stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000000
+property_value: IAO:0000589 "life cycle stage (salmon)" xsd:string
+intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: SsalDv:0000046
-property_value: IAO:0000589 "day 48 of fry stage (salmon)" xsd:string
+id: SsalDv:0000030
+property_value: IAO:0000589 "38-40-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000032
-property_value: IAO:0000589 "45-50-somite-stage (salmon)" xsd:string
+id: SsalDv:0000029
+property_value: IAO:0000589 "36-37-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000024
-property_value: IAO:0000589 "15-16-somite-stage (salmon)" xsd:string
+id: SsalDv:0000049
+property_value: IAO:0000589 "day 94 of fry stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000004
-property_value: IAO:0000589 "cleavage stage (salmon)" xsd:string
-intersection_of: UBERON:0000107
+id: SsalDv:0000011
+property_value: IAO:0000589 "128-cell stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000027
+property_value: IAO:0000589 "27-28-somite-stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000052
+property_value: IAO:0000589 "smolt stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000003
+property_value: IAO:0000589 "zygote stage (salmon)" xsd:string
+intersection_of: UBERON:0000106
 intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: SsalDv:0000037
-property_value: IAO:0000589 "65-somite-stage (salmon)" xsd:string
+id: SsalDv:0000038
+property_value: IAO:0000589 "post-embryonic stage (salmon)" xsd:string
+intersection_of: UBERON:0000092
+intersection_of: part_of NCBITaxon:8030
+
+[Term]
+id: SsalDv:0000008
+property_value: IAO:0000589 "16-cell stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000033
+property_value: IAO:0000589 "49-52-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
@@ -41,115 +72,10 @@ property_value: IAO:0000589 "day 0 of fry stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000026
-property_value: IAO:0000589 "22-24-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000006
-property_value: IAO:0000589 "4-cell stage (salmon)" xsd:string
-intersection_of: UBERON:0007233
-intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000033
-property_value: IAO:0000589 "49-52-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000011
-property_value: IAO:0000589 "128-cell stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000035
-property_value: IAO:0000589 "62-64-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
 id: SsalDv:0000041
 property_value: IAO:0000589 "sexually immature stage (salmon)" xsd:string
 intersection_of: UBERON:0000112
 intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000030
-property_value: IAO:0000589 "38-40-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000038
-property_value: IAO:0000589 "post-embryonic stage (salmon)" xsd:string
-intersection_of: UBERON:0000092
-intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000052
-property_value: IAO:0000589 "smolt stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000039
-property_value: IAO:0000589 "alevin stage (salmon)" xsd:string
-intersection_of: UBERON:0000069
-intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000001
-property_value: IAO:0000589 "life cycle (salmon)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000040
-property_value: IAO:0000589 "fully formed stage (salmon)" xsd:string
-intersection_of: UBERON:0000066
-intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000008
-property_value: IAO:0000589 "16-cell stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000028
-property_value: IAO:0000589 "31-34-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000010
-property_value: IAO:0000589 "64-cell stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000029
-property_value: IAO:0000589 "36-37-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000009
-property_value: IAO:0000589 "32-cell stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000031
-property_value: IAO:0000589 "41-44-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000015
-property_value: IAO:0000589 "late blastula stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000045
-property_value: IAO:0000589 "day 1 of fry stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000025
-property_value: IAO:0000589 "18-21-somite-stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
 id: SsalDv:0000005
@@ -158,24 +84,8 @@ intersection_of: UBERON:0007232
 intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: SsalDv:0000000
-property_value: IAO:0000589 "life cycle stage (salmon)" xsd:string
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000048
-property_value: IAO:0000589 "day 77 of fry stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000020
-property_value: IAO:0000589 "late gastrula:90% epiboly (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000018
-property_value: IAO:0000589 "pre-mid gastrula:30% epiboly (salmon)" xsd:string
+id: SsalDv:0000035
+property_value: IAO:0000589 "62-64-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
@@ -184,25 +94,14 @@ property_value: IAO:0000589 "mid gastrula:50% epiboly (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000049
-property_value: IAO:0000589 "day 94 of fry stage (salmon)" xsd:string
-relationship: only_in_taxon NCBITaxon:8030 ! salmon
-
-[Term]
-id: SsalDv:0000012
-property_value: IAO:0000589 "blastula stage (salmon)" xsd:string
-intersection_of: UBERON:0000108
+id: SsalDv:0000002
+property_value: IAO:0000589 "embryo stage (salmon)" xsd:string
+intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: SsalDv:0000042
-property_value: IAO:0000589 "sexually mature stage (salmon)" xsd:string
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:8030
-
-[Term]
-id: SsalDv:0000047
-property_value: IAO:0000589 "day 65 of fry stage (salmon)" xsd:string
+id: SsalDv:0000032
+property_value: IAO:0000589 "45-50-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
@@ -216,29 +115,40 @@ property_value: IAO:0000589 "63-64-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000003
-property_value: IAO:0000589 "zygote stage (salmon)" xsd:string
-intersection_of: UBERON:0000106
+id: SsalDv:0000006
+property_value: IAO:0000589 "4-cell stage (salmon)" xsd:string
+intersection_of: UBERON:0007233
 intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: SsalDv:0000023
-property_value: IAO:0000589 "10-somite-stage (salmon)" xsd:string
+id: SsalDv:0000024
+property_value: IAO:0000589 "15-16-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000043
-property_value: IAO:0000589 "fry stage (salmon)" xsd:string
+id: SsalDv:0000046
+property_value: IAO:0000589 "day 48 of fry stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000051
-property_value: IAO:0000589 "parr stage (salmon)" xsd:string
+id: SsalDv:0000042
+property_value: IAO:0000589 "sexually mature stage (salmon)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:8030
+
+[Term]
+id: SsalDv:0000010
+property_value: IAO:0000589 "64-cell stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000013
-property_value: IAO:0000589 "early blastula stage (salmon)" xsd:string
+id: SsalDv:0000025
+property_value: IAO:0000589 "18-21-somite-stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000045
+property_value: IAO:0000589 "day 1 of fry stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
@@ -248,15 +158,24 @@ intersection_of: UBERON:0000111
 intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: SsalDv:0000002
-property_value: IAO:0000589 "embryo stage (salmon)" xsd:string
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:8030
+id: SsalDv:0000026
+property_value: IAO:0000589 "22-24-somite-stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000007
-property_value: IAO:0000589 "8-cell stage (salmon)" xsd:string
-intersection_of: UBERON:0007236
+id: SsalDv:0000018
+property_value: IAO:0000589 "pre-mid gastrula:30% epiboly (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000031
+property_value: IAO:0000589 "41-44-somite-stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000004
+property_value: IAO:0000589 "cleavage stage (salmon)" xsd:string
+intersection_of: UBERON:0000107
 intersection_of: part_of NCBITaxon:8030
 
 [Term]
@@ -265,69 +184,90 @@ property_value: IAO:0000589 "53-55-somite-stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: SsalDv:0000027
-property_value: IAO:0000589 "27-28-somite-stage (salmon)" xsd:string
+id: SsalDv:0000001
+property_value: IAO:0000589 "life cycle (salmon)" xsd:string
+intersection_of: UBERON:0000104
+intersection_of: part_of NCBITaxon:8030
+
+[Term]
+id: SsalDv:0000013
+property_value: IAO:0000589 "early blastula stage (salmon)" xsd:string
 relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0007232
-synonym: "2-cell stage" BROAD []
-xref: SsalDv:0000005
+id: SsalDv:0000043
+property_value: IAO:0000589 "fry stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0000092
-synonym: "post-embryonic stage" BROAD []
-xref: SsalDv:0000038
+id: SsalDv:0000048
+property_value: IAO:0000589 "day 77 of fry stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0000069
-synonym: "alevin stage" BROAD []
-xref: SsalDv:0000039
+id: SsalDv:0000009
+property_value: IAO:0000589 "32-cell stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0000111
-synonym: "organogenesis stage" BROAD []
-xref: SsalDv:0000022
+id: SsalDv:0000039
+property_value: IAO:0000589 "alevin stage (salmon)" xsd:string
+intersection_of: UBERON:0000069
+intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: SsalDv:0000000
+id: SsalDv:0000020
+property_value: IAO:0000589 "late gastrula:90% epiboly (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0000068
-synonym: "embryo stage" BROAD []
-xref: SsalDv:0000002
+id: SsalDv:0000015
+property_value: IAO:0000589 "late blastula stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0000104
-synonym: "life cycle" BROAD []
-xref: SsalDv:0000001
+id: SsalDv:0000040
+property_value: IAO:0000589 "fully formed stage (salmon)" xsd:string
+intersection_of: UBERON:0000066
+intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: UBERON:0007233
-synonym: "4-cell stage" BROAD []
-xref: SsalDv:0000006
+id: SsalDv:0000051
+property_value: IAO:0000589 "parr stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0007236
-synonym: "8-cell stage" BROAD []
-xref: SsalDv:0000007
+id: SsalDv:0000012
+property_value: IAO:0000589 "blastula stage (salmon)" xsd:string
+intersection_of: UBERON:0000108
+intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: UBERON:0000109
-synonym: "gastrula stage" BROAD []
-xref: SsalDv:0000016
+id: SsalDv:0000016
+property_value: IAO:0000589 "gastrula stage (salmon)" xsd:string
+intersection_of: UBERON:0000109
+intersection_of: part_of NCBITaxon:8030
 
 [Term]
-id: UBERON:0000066
-synonym: "fully formed stage" BROAD []
-xref: SsalDv:0000040
+id: SsalDv:0000028
+property_value: IAO:0000589 "31-34-somite-stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
-id: UBERON:0000108
-synonym: "blastula stage" BROAD []
-xref: SsalDv:0000012
+id: SsalDv:0000037
+property_value: IAO:0000589 "65-somite-stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
+
+[Term]
+id: SsalDv:0000007
+property_value: IAO:0000589 "8-cell stage (salmon)" xsd:string
+intersection_of: UBERON:0007236
+intersection_of: part_of NCBITaxon:8030
+
+[Term]
+id: SsalDv:0000023
+property_value: IAO:0000589 "10-somite-stage (salmon)" xsd:string
+relationship: only_in_taxon NCBITaxon:8030 ! salmon
 
 [Term]
 id: UBERON:0000112
@@ -340,14 +280,74 @@ synonym: "sexually mature stage" BROAD []
 xref: SsalDv:0000042
 
 [Term]
-id: UBERON:0000106
-synonym: "zygote stage" BROAD []
-xref: SsalDv:0000003
+id: UBERON:0007232
+synonym: "2-cell stage" BROAD []
+xref: SsalDv:0000005
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: SsalDv:0000000
+
+[Term]
+id: UBERON:0000069
+synonym: "alevin stage" BROAD []
+xref: SsalDv:0000039
+
+[Term]
+id: UBERON:0000068
+synonym: "embryo stage" BROAD []
+xref: SsalDv:0000002
+
+[Term]
+id: UBERON:0000066
+synonym: "fully formed stage" BROAD []
+xref: SsalDv:0000040
+
+[Term]
+id: UBERON:0000108
+synonym: "blastula stage" BROAD []
+xref: SsalDv:0000012
+
+[Term]
+id: UBERON:0000111
+synonym: "organogenesis stage" BROAD []
+xref: SsalDv:0000022
+
+[Term]
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: SsalDv:0000016
+
+[Term]
+id: UBERON:0000092
+synonym: "post-embryonic stage" BROAD []
+xref: SsalDv:0000038
 
 [Term]
 id: UBERON:0000107
 synonym: "cleavage stage" BROAD []
 xref: SsalDv:0000004
+
+[Term]
+id: UBERON:0000106
+synonym: "zygote stage" BROAD []
+xref: SsalDv:0000003
+
+[Term]
+id: UBERON:0007236
+synonym: "8-cell stage" BROAD []
+xref: SsalDv:0000007
+
+[Term]
+id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: SsalDv:0000001
+
+[Term]
+id: UBERON:0007233
+synonym: "4-cell stage" BROAD []
+xref: SsalDv:0000006
 
 [Typedef]
 id: part_of

@@ -2,8 +2,7 @@
 
 OBO=http://purl.obolibrary.org/obo
 
-#add a file named utils/owltools.vmoptions to define JVM options
-OWLTOOLS:=util/owltools
+OWLTOOLS=owltools
 
 
 BRIDGE_PARAMS_SUFFIX:=-bridge-params.tsv
