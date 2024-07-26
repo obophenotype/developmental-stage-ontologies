@@ -1,6 +1,5 @@
 format-version: 1.2
 subsetdef: anatomical_site_slim ""
-subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: BrainName ""
 subsetdef: BrainName_Embargo ""
 subsetdef: cell_slim ""
@@ -22,37 +21,25 @@ subsetdef: FB_gloss ""
 subsetdef: feed_aligned "subset of classes that have logical defs text defs and synonyms aligned with FEED"
 subsetdef: FlyTed ""
 subsetdef: frequent_anatomy_items ""
-subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
 subsetdef: FT_new ""
 subsetdef: functional_classification "functional_classification"
 subsetdef: goantislim_grouping ""
 subsetdef: gocheck_do_not_annotate ""
-subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
-subsetdef: gocheck_do_not_manually_annotate ""
 subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
 subsetdef: goslim_aspergillus ""
-subsetdef: goslim_aspergillus "Aspergillus GO slim"
-subsetdef: goslim_candida ""
 subsetdef: goslim_candida "Candida GO slim"
 subsetdef: goslim_ChEMBL "ChEMBL GO slim"
 subsetdef: goslim_chembl "ChEMBL GO slim"
 subsetdef: goslim_generic ""
-subsetdef: goslim_generic "Generic GO slim"
 subsetdef: goslim_goa ""
-subsetdef: goslim_metagenomics ""
 subsetdef: goslim_metagenomics "Metagenomics GO slim"
-subsetdef: goslim_pir ""
 subsetdef: goslim_pir "PIR GO slim"
-subsetdef: goslim_plant ""
 subsetdef: goslim_plant "Plant GO slim"
-subsetdef: goslim_pombe ""
 subsetdef: goslim_pombe "Fission yeast GO slim"
 subsetdef: goslim_synapse ""
 subsetdef: goslim_virus ""
-subsetdef: goslim_yeast ""
 subsetdef: goslim_yeast "Yeast GO slim"
 subsetdef: gosubset_prok ""
-subsetdef: gosubset_prok "Prokaryotic GO subset"
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 subsetdef: grouping_class "Subset consisting of classes creating for grouping purposes"
 subsetdef: hidden_assertion ""
@@ -70,17 +57,14 @@ subsetdef: non_informative "abstract class brought in to group ontology classes 
 subsetdef: olfactory_system_draft ""
 subsetdef: organ_slim "organs, excluding individual muscles and skeletal elements"
 subsetdef: organism_views ""
-subsetdef: organism_views "Organism View slim"
 subsetdef: pheno_slim "Phenotype slim"
 subsetdef: phenotype_rcn "A subset specifically created for the 2012 Phenotype RCN meeting. Includes some human-specific terms that may eventually be removed when they are adequately represented with part of relationships in FMA"
 subsetdef: RD ""
 subsetdef: ro-eco ""
-subsetdef: sectional_anatomy_items ""
 subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 subsetdef: termgenie_unvetted ""
 subsetdef: TL_lineage_clone ""
 subsetdef: uberon_slim "Uberon slim - subset that excludes obscure terms and deep compositional terms"
-subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
 subsetdef: unverified_taxonomic_grouping "Indicates that the class encompasses classes from other AOs that have not been verified"
 subsetdef: upper_level "abstract upper-level terms not directly useful for analysis"
 subsetdef: vertebrate_core "core classes typically found across vertebrates. one purpose is to create a rough set of terms that could be used to start a new vertebrate AO"
@@ -118,7 +102,6 @@ synonymtypedef: NON_MAMMAL "synonym that is inappropriate for mammals"
 synonymtypedef: octopoda ""
 synonymtypedef: PENDING_REVIEW "expert consultation and attribution required"
 synonymtypedef: PLURAL ""
-synonymtypedef: PLURAL "PLURAL"
 synonymtypedef: scientific_name ""
 synonymtypedef: SENSU "taxonomic disambiguation"
 synonymtypedef: SMILES ""
@@ -141,22 +124,20 @@ remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/fcatdv/fcatdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 177 Logical Axioms: 20]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/ggaldv/ggaldv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 1298 Logical Axioms: 331]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/ggordv/ggordv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 473 Logical Axioms: 116]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/hsapdv/hsapdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 3617 Logical Axioms: 941]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/hsapdv/hsapdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 3628 Logical Axioms: 945]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/mdomdv/mdomdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 639 Logical Axioms: 165]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/mmuldv/mmuldv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 739 Logical Axioms: 194]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/mmusdv/mmusdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 2445 Logical Axioms: 548]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/oanadv/oanadv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 161 Logical Axioms: 20]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/oaridv/oaridv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 390 Logical Axioms: 94]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/ocundv/ocundv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 170 Logical Axioms: 17]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/olatdv/olatdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 521 Logical Axioms: 137]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/pdumdv/pdumdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 251 Logical Axioms: 59]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/ppandv/ppandv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 610 Logical Axioms: 151]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/ptrodv/ptrodv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 744 Logical Axioms: 198]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/rnordv/rnordv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 802 Logical Axioms: 214]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/ssaldv/ssaldv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 503 Logical Axioms: 179]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/bridge/sscrdv/sscrdv-uberon.obo.owl>) VersionIRI(<null>))) [Axioms: 1229 Logical Axioms: 339]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/life-stages-minimal.owl>) VersionIRI(<null>))) [Axioms: 2039 Logical Axioms: 168]
 ontology: uberon/ssso-merged-uberon
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002087> \"RO:0002087\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002087> \"starts_at_end_of\"^^xsd:string)\n)
 
 [Term]
 id: BtauDv:0000007
@@ -1270,7 +1251,7 @@ namespace: FlyBase_development_CV
 alt_id: FBdv:00007010
 def: "A temporal subdivision of a developmental process." [FBC:DOS]
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2009-10-01T05:56:56Z xsd:string
+property_value: http://purl.org/dc/terms/date "2009-10-01T05:56:56Z" xsd:string
 
 [Term]
 id: FBdv:00005261
@@ -2124,7 +2105,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005339 ! substage of third instar larval stage
 relationship: immediately_preceded_by FBdv:00005338 ! second instar larval stage
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2008-11-13T11:51:56Z xsd:string
+property_value: http://purl.org/dc/terms/date "2008-11-13T11:51:56Z" xsd:string
 
 [Term]
 id: FBdv:00005341
@@ -2138,7 +2119,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00007007 ! substage of late third instar larval stage
 relationship: immediately_preceded_by FBdv:00005340 ! early third instar larval stage
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2008-11-13T11:55:46Z xsd:string
+property_value: http://purl.org/dc/terms/date "2008-11-13T11:55:46Z" xsd:string
 
 [Term]
 id: FBdv:00005342
@@ -2560,7 +2541,7 @@ comment: Temporal ordering number - 20000.
 xref: GO:0007283
 is_a: FBdv:00007009 ! developmental process
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2008-06-05T04:51:08Z xsd:string
+property_value: http://purl.org/dc/terms/date "2008-06-05T04:51:08Z" xsd:string
 
 [Term]
 id: FBdv:00007001
@@ -2579,7 +2560,7 @@ relationship: RO:0002090 FBdv:00005369 ! immediately precedes adult stage
 relationship: RO:0002090 FBdv:00005370 ! immediately precedes adult stage A1
 relationship: RO:0002090 FBdv:00007025 ! immediately precedes immature adult stage
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2008-06-05T04:51:40Z xsd:string
+property_value: http://purl.org/dc/terms/date "2008-06-05T04:51:40Z" xsd:string
 
 [Term]
 id: FBdv:00007002
@@ -2631,7 +2612,7 @@ comment: Temporal ordering number - 10250.
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005278 ! substage of oogenesis stage S13
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2008-11-13T06:27:57Z xsd:string
+property_value: http://purl.org/dc/terms/date "2008-11-13T06:27:57Z" xsd:string
 
 [Term]
 id: FBdv:00007007
@@ -2643,7 +2624,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005339 ! substage of third instar larval stage
 relationship: immediately_preceded_by FBdv:00005340 ! early third instar larval stage
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2008-12-11T01:19:53Z xsd:string
+property_value: http://purl.org/dc/terms/date "2008-12-11T01:19:53Z" xsd:string
 
 [Term]
 id: FBdv:00007008
@@ -2659,7 +2640,7 @@ def: "A biological process whose specific outcome is the progression of an integ
 xref: GO:0032502
 is_a: FBdv:00007024 ! biological process
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2009-10-01T05:56:42Z xsd:string
+property_value: http://purl.org/dc/terms/date "2009-10-01T05:56:42Z" xsd:string
 
 [Term]
 id: FBdv:00007011
@@ -2668,7 +2649,7 @@ namespace: FlyBase_development_CV
 def: "A cycle of nuclear division during the embryogenesis of Drosophila melanogaster. The first 13 cycles are synchronous throughout the embryo and occur their timing relative to other developmental processes is invariant. Later nuclear division cycles are asynchronous across the embryo although may be more locally synchronized." [FlyBase:FBrf0049535, FlyBase:FBrf0089570]
 is_a: FBdv:00007024 ! biological process
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2009-10-01T05:57:41Z xsd:string
+property_value: http://purl.org/dc/terms/date "2009-10-01T05:57:41Z" xsd:string
 
 [Term]
 id: FBdv:00007012
@@ -2681,7 +2662,7 @@ intersection_of: UBERON:0000105 ! life cycle stage
 intersection_of: occurs_in NCBITaxon:7227
 relationship: FBdv:00018001 FBdv:00000000 ! substage of Drosophila life
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2009-10-01T05:59:22Z xsd:string
+property_value: http://purl.org/dc/terms/date "2009-10-01T05:59:22Z" xsd:string
 property_value: IAO:0000589 "life cycle stage (FBdv)" xsd:string
 
 [Term]
@@ -2690,7 +2671,7 @@ name: age
 namespace: FlyBase_development_CV
 def: "Temporal subdivision of life based on time elapsed since some key developmental transition, such as fertilization, hatching or eclosion." [FBC:DOS]
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2010-09-29T12:25:36Z xsd:string
+property_value: http://purl.org/dc/terms/date "2010-09-29T12:25:36Z" xsd:string
 
 [Term]
 id: FBdv:00007014
@@ -2699,7 +2680,7 @@ namespace: FlyBase_development_CV
 def: "Temporal subdivision of adulthood in days post-eclosion." [FBC:DOS]
 is_a: FBdv:00007013 ! age
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2010-09-29T12:28:05Z xsd:string
+property_value: http://purl.org/dc/terms/date "2010-09-29T12:28:05Z" xsd:string
 
 [Term]
 id: FBdv:00007015
@@ -2711,7 +2692,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00005334 ! embryonic stage 16
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2011-04-26T11:57:15Z xsd:string
+property_value: http://purl.org/dc/terms/date "2011-04-26T11:57:15Z" xsd:string
 
 [Term]
 id: FBdv:00007016
@@ -2723,7 +2704,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00007015 ! embryonic stage 17(i)
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2011-04-26T12:00:15Z xsd:string
+property_value: http://purl.org/dc/terms/date "2011-04-26T12:00:15Z" xsd:string
 
 [Term]
 id: FBdv:00007017
@@ -2735,7 +2716,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00007016 ! embryonic stage 17(ii)
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2011-04-26T12:01:18Z xsd:string
+property_value: http://purl.org/dc/terms/date "2011-04-26T12:01:18Z" xsd:string
 
 [Term]
 id: FBdv:00007018
@@ -2747,7 +2728,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00007017 ! embryonic stage 17(iii)
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2011-04-26T12:03:14Z xsd:string
+property_value: http://purl.org/dc/terms/date "2011-04-26T12:03:14Z" xsd:string
 
 [Term]
 id: FBdv:00007019
@@ -2814,7 +2795,7 @@ relationship: immediately_preceded_by FBdv:00006011 ! pharate adult stage
 relationship: immediately_preceded_by FBdv:00007001 ! P-stage
 relationship: RO:0002090 FBdv:00007026 ! immediately precedes mature adult stage
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2013-01-08T20:06:59Z xsd:string
+property_value: http://purl.org/dc/terms/date "2013-01-08T20:06:59Z" xsd:string
 
 [Term]
 id: FBdv:00007026
@@ -2825,7 +2806,7 @@ is_a: FBdv:00007012 ! life stage
 relationship: immediately_preceded_by FBdv:00006012 ! adult stage A3
 relationship: immediately_preceded_by FBdv:00007025 ! immature adult stage
 property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-7073-9172
-property_value: http://purl.org/dc/terms/date 2013-01-10T13:03:54Z xsd:string
+property_value: http://purl.org/dc/terms/date "2013-01-10T13:03:54Z" xsd:string
 
 [Term]
 id: FBdv:00007075
@@ -3461,7 +3442,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:00007135 ! day 60 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010002
@@ -3473,7 +3454,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010001 ! day 61 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010003
@@ -3485,7 +3466,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010002 ! day 62 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010004
@@ -3497,7 +3478,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010003 ! day 63 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010005
@@ -3509,7 +3490,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010004 ! day 64 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010006
@@ -3521,7 +3502,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010005 ! day 65 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010007
@@ -3533,7 +3514,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010006 ! day 66 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010008
@@ -3545,7 +3526,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010007 ! day 67 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010009
@@ -3557,7 +3538,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010008 ! day 68 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010010
@@ -3569,7 +3550,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010009 ! day 69 of adulthood
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-6095-8718
-property_value: http://purl.org/dc/terms/date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: http://purl.org/dc/terms/date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: GgalDv:0000004
@@ -8377,7 +8358,7 @@ def: "Human stage that refers to an individual who is over 90 and under 100 year
 is_a: UBERON:0000105 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000243 ! ninth decade stage (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000095 ! 80 year-old and over stage (human)
+relationship: part_of HsapDv:0000274 ! 90 year-old and over stage (human)
 property_value: end_ypb "100.0" xsd:float
 property_value: IAO:0000589 "tenth decade stage (human)" xsd:string
 property_value: start_ypb "90.0" xsd:float
@@ -8420,7 +8401,7 @@ is_a: UBERON:0000105 ! life cycle stage
 relationship: immediately_preceded_by HsapDv:0000225 ! 99-year-old stage (human)
 relationship: immediately_preceded_by HsapDv:0000244 ! tenth decade stage (human)
 relationship: only_in_taxon NCBITaxon:9606
-relationship: part_of HsapDv:0000095 ! 80 year-old and over stage (human)
+relationship: part_of HsapDv:0000274 ! 90 year-old and over stage (human)
 property_value: end_ypb "101.0" xsd:float
 property_value: IAO:0000589 "centenarian stage (human)" xsd:string
 property_value: start_ypb "100.0" xsd:float
@@ -8649,6 +8630,18 @@ relationship: part_of UBERON:0034920 ! infant stage
 property_value: end_mpb "2.0" xsd:float
 property_value: IAO:0000589 "1-month-old stage (human)" xsd:string
 property_value: start_mpb "0.92" xsd:float
+
+[Term]
+id: HsapDv:0000274
+name: 90 year-old and over stage (human)
+namespace: human_developmental_stage
+def: "Human stage that refers to an adult who is over 90." [https://github.com/jahilton]
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:9606
+relationship: part_of HsapDv:0000095 ! 80 year-old and over stage (human)
+relationship: preceded_by HsapDv:0000243 ! ninth decade stage (human)
+property_value: IAO:0000589 "90 year-old and over stage (human)" xsd:string
+property_value: start_ypb "90.0" xsd:float
 
 [Term]
 id: MdomDv:0000008
@@ -9781,10 +9774,10 @@ synonym: "TS05 (E3-5.5)" RELATED [EMAPA:TS05]
 xref: EMAPA:TS05
 xref: XUO:0000049
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker GO:0001835
 relationship: immediately_preceded_by MmusDv:0000008 ! Theiler stage 04 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000108 ! blastula stage
-property_value: has_stage_marker GO:0001835
 property_value: IAO:0000589 "Theiler stage 05 (mouse)" xsd:string
 property_value: start_dpc "4.0" xsd:float
 
@@ -9820,10 +9813,10 @@ synonym: "TS07 (E4.5-6)" RELATED [EMAPA:TS07]
 xref: EMAPA:TS07
 xref: XUO:0000051
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker GO:0007566
 relationship: immediately_preceded_by MmusDv:0000010 ! Theiler stage 06 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000108 ! blastula stage
-property_value: has_stage_marker GO:0007566
 property_value: IAO:0000589 "Theiler stage 07 (mouse)" xsd:string
 property_value: start_dpc "5.0" xsd:float
 
@@ -9859,10 +9852,10 @@ synonym: "TS09 (E6.25-7.25)" RELATED [EMAPA:TS09]
 xref: EMAPA:TS09
 xref: XUO:0000053
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker UBERON:0000926
 relationship: immediately_preceded_by MmusDv:0000012 ! Theiler stage 08 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000109 ! gastrula stage
-property_value: has_stage_marker UBERON:0000926
 property_value: IAO:0000589 "Theiler stage 09 (mouse)" xsd:string
 property_value: start_dpc "6.5" xsd:float
 
@@ -9878,12 +9871,12 @@ synonym: "TS10 (E6.5-7.75)" RELATED [EMAPA:TS10]
 xref: EMAPA:TS10
 xref: XUO:0000054
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker UBERON:0003888
+relationship: has_stage_marker UBERON:0004340
+relationship: has_stage_marker UBERON:0005971
 relationship: immediately_preceded_by MmusDv:0000014 ! Theiler stage 09 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000109 ! gastrula stage
-property_value: has_stage_marker UBERON:0003888
-property_value: has_stage_marker UBERON:0004340
-property_value: has_stage_marker UBERON:0005971
 property_value: IAO:0000589 "Theiler stage 10 (mouse)" xsd:string
 property_value: start_dpc "7.0" xsd:float
 
@@ -9911,10 +9904,10 @@ synonym: "TS12 (E7.5-8.75)" RELATED [EMAPA:TS12]
 xref: EMAPA:TS12
 xref: XUO:0000056
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker EMAPA:16173
 relationship: immediately_preceded_by UBERON:0000110 ! neurula stage
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker EMAPA:16173
 property_value: IAO:0000589 "Theiler stage 12 (mouse)" xsd:string
 property_value: start_dpc "8.0" xsd:float
 
@@ -9930,12 +9923,12 @@ synonym: "TS13 (E8-9.25)" RELATED [EMAPA:TS13]
 xref: EMAPA:TS13
 xref: XUO:0000057
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker EMAPA:16441
+relationship: has_stage_marker EMAPA:16445
+relationship: has_stage_marker EMAPA:16449
 relationship: immediately_preceded_by MmusDv:0000019 ! Theiler stage 12 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker EMAPA:16441
-property_value: has_stage_marker EMAPA:16445
-property_value: has_stage_marker EMAPA:16449
 property_value: IAO:0000589 "Theiler stage 13 (mouse)" xsd:string
 property_value: start_dpc "8.5" xsd:float
 
@@ -9951,13 +9944,13 @@ synonym: "TS14 (E8.5-9.75)" RELATED [EMAPA:TS14]
 xref: EMAPA:TS14
 xref: XUO:0000058
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker EMAPA:16445
+relationship: has_stage_marker EMAPA:16449
+relationship: has_stage_marker EMAPA:16453
+relationship: has_stage_marker EMAPA:16457
 relationship: immediately_preceded_by MmusDv:0000020 ! Theiler stage 13 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker EMAPA:16445
-property_value: has_stage_marker EMAPA:16449
-property_value: has_stage_marker EMAPA:16453
-property_value: has_stage_marker EMAPA:16457
 property_value: IAO:0000589 "Theiler stage 14 (mouse)" xsd:string
 property_value: start_dpc "9.0" xsd:float
 
@@ -9973,10 +9966,10 @@ synonym: "TS15 (E9-10.25)" RELATED [EMAPA:TS15]
 xref: EMAPA:TS15
 xref: XUO:0000059
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker UBERON:0005417
 relationship: immediately_preceded_by MmusDv:0000021 ! Theiler stage 14 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker UBERON:0005417
 property_value: IAO:0000589 "Theiler stage 15 (mouse)" xsd:string
 property_value: start_dpc "9.5" xsd:float
 
@@ -9992,10 +9985,10 @@ synonym: "TS16 (E9.5-10.75)" RELATED [EMAPA:TS16]
 xref: EMAPA:TS16
 xref: XUO:0000060
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker UBERON:0005418
 relationship: immediately_preceded_by MmusDv:0000022 ! Theiler stage 15 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker UBERON:0005418
 property_value: IAO:0000589 "Theiler stage 16 (mouse)" xsd:string
 property_value: start_dpc "10.0" xsd:float
 
@@ -10011,11 +10004,11 @@ synonym: "TS17 (E10-11.25)" RELATED [EMAPA:TS17]
 xref: EMAPA:TS17
 xref: XUO:0000061
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker EMAPA:18411
+relationship: has_stage_marker UBERON:0006259
 relationship: immediately_preceded_by MmusDv:0000023 ! Theiler stage 16 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker EMAPA:18411
-property_value: has_stage_marker UBERON:0006259
 property_value: IAO:0000589 "Theiler stage 17 (mouse)" xsd:string
 property_value: start_dpc "10.5" xsd:float
 
@@ -10031,10 +10024,10 @@ synonym: "TS18 (E10.5-11.25)" RELATED [EMAPA:TS18]
 xref: EMAPA:TS18
 xref: XUO:0000062
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker UBERON:0005870
 relationship: immediately_preceded_by MmusDv:0000024 ! Theiler stage 17 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker UBERON:0005870
 property_value: IAO:0000589 "Theiler stage 18 (mouse)" xsd:string
 property_value: start_dpc "11.0" xsd:float
 
@@ -10104,10 +10097,10 @@ synonym: "TS22 (E13.5-15)" RELATED [EMAPA:TS22]
 xref: EMAPA:TS22
 xref: XUO:0000066
 is_a: UBERON:0000105 ! life cycle stage
+relationship: has_stage_marker UBERON:0003606
 relationship: immediately_preceded_by MmusDv:0000028 ! Theiler stage 21 (mouse)
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of UBERON:0000111 ! organogenesis stage
-property_value: has_stage_marker UBERON:0003606
 property_value: IAO:0000589 "Theiler stage 22 (mouse)" xsd:string
 property_value: start_dpc "14.0" xsd:float
 
@@ -12198,716 +12191,6 @@ property_value: IAO:0000589 "day 21 and over embryonic stage (sheep)" xsd:string
 property_value: start_dpf "21.0" xsd:float
 
 [Term]
-id: OlatDv:0000010
-name: developmental stage
-namespace: medaka_ontology
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "developmental stage (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000020
-name: Medaka stage 0
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) -   Stage 0 Unfertilized eggs: The mature unfertilized egg is an oblate spheroid measuring average 1,245.9 +/-3.9 um (n=122) in horizontal diameter and a little less (average 1,169.9 +/- 4.0 um, n=122) in vertical diameter. The egg proper is closely surrounded by a thick egg envelope, the chorion. The perivitelline space between the chorion and the vitellus is very difficult to recognize using a light microscope. The micropyle located in the chorion at the animal pole is a small trumpet- or funnel-like structure. A number of short villi (non-attaching filaments; average 200.3 +/- 4.7 / egg, n=38) are distributed over the whole surface of the chorion. At spawning, eggs are held together in clumps by a tuft of long attaching filaments (average 29.6 +/- 1.3 / egg, n=38) on the chorion surface in the vegetal pole area of each egg [13]. A large, transparent yolk sphere is located in the center of each unfertilized egg. The cortical alveoli (vesicles, ca. 0.4-45 um in diameter) and oil droplets are embedded at random in the cortical cytoplasm. The cortical alveoli contain a transparent colloidal material and usually one or sometimes a few spherical bodies [16]. The size of the oil droplets usually varies according to differences in the temperature during and after oocyte maturation, in the time after ovulation and among the individual females. -  " [OlatDv:curators]
-synonym: "unfertilized eggs" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 0 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000030
-name: Medaka stage 1
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 3 min  Stage 1 (3 min) Activated egg stage: When an egg is stimulated by a spermatozoon arriving at the vitelline surface through the micropyle, a transient wave of increase in cytoplasmic free calcium starts at the point of sperm attachment [5,33]. The cortical alveoli in the vicinity of the micropyle also begin to break down (exocytosis of alveolar contents) about 9 sec after sperm attachment [17]. The wave of exocytosis begins to propagate over the whole egg surface and ends at the vegetal pole 154 sec after its beginning. As a result of the exocytosis of cortical alveoli into the narrow space between the chorion and the vitellus, the chorion thins and hardens [24] as it separates from the vitellus to form a wide perivitelline space. Swollen spherical bodies secreted from the cortical alveoli are faintly visible in the perivitelline space. A transient \"contractile wave\" of cortical cytoplasmic layer follows the wave of exocytosis [9,15]. Due to the oscillatory contractions following this distinct contractile wave, the cortical cytoplasm progressively accumulates toward the animal pole to form a thick cytoplasmic layer [1,26]. At 7-8 minutes after sperm entry, the second polar body is extruded onto the surface of the cytoplasm at the center of the area where the germinal vesicle broke down during oocyte maturation. - 3 min " [OlatDv:curators]
-synonym: "activated egg stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000020 ! Medaka stage 0
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 1 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000040
-name: Medaka stage 2a
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 30 min  Stage 2a (30 min) Blastodisc stage a: The male and the female pronuclei migrate toward and associate with each other at the center of the thick cytoplasmic disc at the animal pole. Chromosomes then appear and divide into two groups at the poles of the spindle marking the end of this stage. Oscillatory contractions cause the peripheral cortical cytoplasm to migrate toward the animal pole where it forms a convex, lens-shaped blastodisc. Meanwhile, oil droplets migrate toward the vegetal pole and begin coalescing. - 30 min " [OlatDv:curators]
-synonym: "blastodisc stage a" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 2a (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000050
-name: Medaka stage 2b
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 60 min  Stage 2b (60 min) Blastodisc stage b: The male and the female pronuclei migrate toward and associate with each other at the center of the thick cytoplasmic disc at the animal pole. Chromosomes then appear and divide into two groups at the poles of the spindle marking the end of this stage. The layer of cortical cytoplasm covering the yolk sphere is very thin except where it forms the cap-shaped blastodisc. By the end of this stage, most of the oil droplets from the animal hemisphere have already migrated to the vegetal hemisphere. Two dimple-like pits on the blastodisc serve as markers to locate the future blastomeres. - 60 min " [OlatDv:curators]
-synonym: "blastodisc stage b" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 2b (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000060
-name: Medaka stage 3
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 hr 5 min  Stage 3 (1 hr 5 min) 2 cell stage: The first cleavage plane is at a right angle to the axis between the second polar body (meiotic spindle) and the micropyle in 60-79% of eggs. The two blastomeres are highly rounded just after cleavage, but are comparatively flat just before the second cleavage. - 1 hr 5 min " [OlatDv:curators]
-synonym: "2 cell stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 3 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000070
-name: Medaka stage 4
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 hr 45 min  Stage 4 (1 hr 45 min) 4 cell stage: The second cleavage furrow develops on the two blastomeres at a right angle to the first cleavage plane. It deepens until each blastomere is divided into 2 of the same size. The oil droplets are larger but fewer and gather toward the vegetal pole. - 1 hr 45 min " [OlatDv:curators]
-synonym: "4 cell stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000060 ! Medaka stage 3
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 4 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000080
-name: Medaka stage 5
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 2 hrs 20 min  Stage 5 (2 hrs 20 min) 8 cell stage: The third cleavage plane is parallel to the first and divides the 4 blastomeres into 8 blastomeres. The blastoderm has bilaterally symmetrical rows of blastomeres and elongates along the axis of the second cleavage plane. - 2 hrs 20 min " [OlatDv:curators]
-synonym: "8 cell stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000070 ! Medaka stage 4
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 5 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000090
-name: Medaka stage 6
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 2 hrs 55 min  Stage 6 (2 hrs 55 min) 16 cell stage: The fourth cleavage plane, which is parallel to the second, divides the 2 rows of 4 blastomeres into 4 rows of 4 blastomeres. - 2 hrs 55 min " [OlatDv:curators]
-synonym: "16 cell stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000080 ! Medaka stage 5
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 6 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000100
-name: Medaka stage 7
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 3 hrs 30 min  Stage 7 (3 hrs 30 min) 32 cell stage: The fifth cleavage plane divides the marginal 12blastomeres meridionally into 24, and the central 4 blastomeres horizontally into 8 thereby forming 2 layers, an outer and an inner layer, in the central region. The number of marginal cells is 14. These observations agree with those of Matui [24], Gamo and Terajima [4] and Iwamatsu [11] but differ from the earlier reports of Kamito [21, cf. 30] in which cleavage was reported to continue to occur meridionally at least through the 32 cell stage. - 3 hrs 30 min " [OlatDv:curators]
-synonym: "32 cell stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000090 ! Medaka stage 6
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 7 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000110
-name: Medaka stage 8
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 4 hrs 5 min  Stage 8 (4 hrs 5 min) Early morula stage: The planes of the sixth and later cleavages are difficult to precisely trace. The blastomeres (64-128) have different cleavage planes depending on their positions within the dome-shaped blastoderm and are arranged in 3 layers. The peripheral blastomeres (21-24) are flattened in shape. The cells (30-35 m in diameter) are arranged in 3-4 layers but are still easily dissociated from each other [31]. - 4 hrs 5 min " [OlatDv:curators]
-synonym: "early morula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000100 ! Medaka stage 7
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 8 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000120
-name: Medaka stage 9
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 5 hrs 15 min  Stage 9 (5 hrs 15 min) Late morula stage: The blastodermal cells (256-512 blastomeres) are smaller than those of the previous stage and the number of marginal cells (30- 40) has increased. The blastodermal cells (central region, 25- 35 m in diameter) now form 4-5 layers. - 5 hrs 15 min " [OlatDv:curators]
-synonym: "late morula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000110 ! Medaka stage 8
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 9 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000130
-name: Medaka stage 10
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 6 hrs 30 min  Stage 10 (6 hrs 30 min) Early blastula stage: The blastoderm (about 1,000 cells) is still high (thick) as in the late morula stage, although its inner cells (20-30 m in diameter) are smaller. According to Kageyama [19], the 11th cleavage still takes place synchronously. Nuclei from the marginal cells (40, cf.[19]) migrate out of the cells and are distributed in a few rows in the periblast (cortical syncytial layer). - 6 hrs 30 min " [OlatDv:curators]
-synonym: "early blastula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000120 ! Medaka stage 9
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 10 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000140
-name: Medaka stage 11
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 8 hrs 15 min  Stage 11 (8 hrs 15 min) Late blastula stage: Projection of the underside of the blastoderm (central cells, about 20 m in diameter) into the yolk sphere is observed. In this stage, some blastomeres begin to cleave asynchronously and to migrate. Several (5-6) rows of periblast nuclei are visible around the blastoderm. - 8 hrs 15 min " [OlatDv:curators]
-synonym: "Late blastula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000130 ! Medaka stage 10
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 11 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000150
-name: Medaka stage 12
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 10 hrs 20 min  Stage 12 (10 hrs 20 min) Pre-early gastrula stage: The blastoderm has flattened down onto the yolk sphere so that its outer surface follows the curvature of the yolk sphere. The cell layers are slightly thicker on one side. The diameter of the cells in the central region of the blastoderm remains about 20 m. - 10 hrs 20 min " [OlatDv:curators]
-synonym: "pre-early gastrula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000140 ! Medaka stage 11
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 12 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000160
-name: Medaka stage 13
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 13 hrs 0 min  Stage 13 (13 hrs 0 min) Early gastrula stage: The blastoderm begins to expand (epiboly, about 1/4 of the yolk sphere) over the surface of the yolk sphere, and the presumptive region of the embryonic shield arises as a thickened margin (dorsal lip) of the blastoderm. It is difficult to recognize the boundaries of the flattened marginal cells. The diameter of the cells in the central region of the blastoderm is 15-20 m. - 13 hrs 0 min " [OlatDv:curators]
-synonym: "early gastrula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000150 ! Medaka stage 12
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 13 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000170
-name: Medaka stage 14
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 15 hrs 0 min  Stage 14 (15 hrs 0 min) Pre-mid gastrula stage: Epiboly progressively advances and the blastoderm covers about 1/3 of the yolk sphere. The germ ring is well-defined, and the embryonic shield increases in size. Weak, rhythmically undulating movements [3,29] begin to occur on the blastoderm but not on the uncovered yolk sphere. - 15 hrs 0 min " [OlatDv:curators]
-synonym: "pre-mid gastrula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000160 ! Medaka stage 13
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 14 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000180
-name: Medaka stage 15
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 17 hrs 30 min  Stage 15 (17 hrs 30 min) Mid gastrula stage: A streak is visible in the midline of the embryonic shield projecting into the germ ring area. The blastoderm covers about 1/2 of the yolk sphere. The nuclei of the marginal periblast are barely visible on the yolk sphere. - 17 hrs 30 min " [OlatDv:curators]
-synonym: "mid gastrula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000170 ! Medaka stage 14
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 15 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000190
-name: Medaka stage 16
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 21 hrs 0 min  Stage 16 (21 hrs 0 min) Late gastrula stage: The blastoderm covers 3/4 of the yolk sphere, and the embryonic shield (body) becomes more clearly visible as a narrow streak. The enveloping layer expands uniformly over the yolk sphere until this stage [18]. - 21 hrs 0 min " [OlatDv:curators]
-synonym: "Late gastrula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000180 ! Medaka stage 15
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 16 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000200
-name: Medaka stage 17
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 1 hr  Stage 17 (1 day 1 hr) Early neurula stage (Head formation): The yolk sphere is nearly covered by the thin blastoderm leaving a small area around the vegetal pole (yolk plug) ex- posed. The head (rudimentary brain) is recognized anteriorly in the distinct embryonic body. A beak-like mass of cells is seen in front of the head. A few small vacuoles (Kupffer's vesicles) appear at the underside of the caudal (posterior) end of the body, which is in contact with a small blastopore. - 1 day 1 hr " [OlatDv:curators]
-comment: Head formation
-synonym: "early neurula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000190 ! Medaka stage 16
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 17 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000210
-name: Medaka stage 18
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 2 hrs  Stage 18 (1 day 2 hrs) Late neurula stage (Optic bud formation): The brain and nerve cord in the arrow-shaped embryonic body codevelop as a solid rod of cells. A solid optic bud (rudimentary eye vesicle) appears on each side of the cephalic end. The beak- like cell mass is still visible. The Kufpper's vesicles enlarge somewhat. A small part of the yolk sphere still forms a blastopore at the vegetal pole. - 1 day 2 hrs " [OlatDv:curators]
-comment: Optic bud formation
-synonym: "late neurula stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000200 ! Medaka stage 17
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 18 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000220
-name: Medaka stage 19
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 3 hrs 30 min  Stage 19 (1 day 3 hrs 30 min) 2 somite stage: A groove appears in the dorsum of each optic lobe. At the end of this stage (3 somites), two slight knobs are recognized behind the optic vesicles. The blastopore is completely closed. The expansion of the enveloping layer is accomplished without an accompanying increase in the number of constituent cells [18]. - 1 day 3 hrs 30 min " [OlatDv:curators]
-synonym: "2 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000210 ! Medaka stage 18
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 19 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000230
-name: Medaka stage 20
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 7 hrs 30 min  Stage 20 (1 day 7 hrs 30 min) 4 somite stage: A paired placode of otic (auditory) vesicles appears at the posterior region of the head. Depressions begin to form at the dorsal surface of the eye vesicles. Three parts of the brain (the fore-, the mid- and the hind-brain) are discernible. - 1 day 7 hrs 30 min " [OlatDv:curators]
-synonym: "4 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000220 ! Medaka stage 19
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 20 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000240
-name: Medaka stage 21
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 10 hrs  Stage 21 (1 day 10 hrs) 6 somite stage (Brain and otic vesicle formation): The optic vesicles differentiate to form the optic cups and the lenses begin to form. The small otic vesicles appear, but they lack otolith. The three regions of the brain are well- defined, and the neural fold (neurocoele) is seen as a median line along the body. The flat body cavity is recognized on the surface of the yolk sphere bilateral to the mid-brain and hind- brain. - 1 day 10 hrs " [OlatDv:curators]
-comment: Brain and otic vesicle formation
-synonym: "6 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000230 ! Medaka stage 20
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 21 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000250
-name: Medaka stage 22
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 14 hrs  Stage 22 (1 day 14 hrs) 9 somite stage (Appearance of heart anlage): The tubular heart (heart anlage) appears underneath the head from the posterior end of the mid-brain to the anterior end of the hind-brain. The anlage of the hatching enzyme gland (cell mass) appears at the centroventral side of the hind-brain [28]. The body cavity extends further toward the posterior end of the eye vesicles. Melanophores appear on the yolk sphere. Incomplete lenses are present in the eyes, and the vesicular otocyst is defined. - 1 day 14 hrs " [OlatDv:curators]
-comment: Appearance of heart anlage
-synonym: "9 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000240 ! Medaka stage 21
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 22 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000260
-name: Medaka stage 23
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 17 hrs  Stage 23 (1 day 17 hrs) 12 somite stage (Formation of tubular heart): The anterior portion of the straight-tubed heart reaches beneath the posterior end of the eye vesicle. A pair of semi-circular Cuvierian ducts (blood vessels) and the vitello-caudal vein begin to form on the yolk sphere. Kupffer's vesicles shrink. The neurocoele is formed in the fore-, mid- and hind-brains. The spherical optic lenses are completed. A blood island becomes pronounced in the ventral region between the 6th and 11th somites. The anterior (the 3rd - 5th) somites assume a slightly dog-legged shape. The oil droplets have coalesced into a single large drop. - 1 day 17 hrs " [OlatDv:curators]
-comment: Formation of tubular heart
-synonym: "12 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000250 ! Medaka stage 22
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 23 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000270
-name: Medaka stage 24
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 1 day 20 hrs  Stage 24 (1 day 20 hrs) 16 somite stage (Start of heart beating): The anterior portion of the heart, which exhibits a slow (about 33-64/min) pulsation, extends up to the anterior end of the fore-brain. Cuvierian ducts and the vitello-caudal vein are still in- complete. Kupffer's vesicles have almost disappeared. Otoliths are not yet present in the otic vesicles. The embryonic body encircles nearly 1/2 of the yolk sphere. The gut (digestive) tube is observed ventral to the dogleg-shaped somites. - 1 day 20 hrs " [OlatDv:curators]
-comment: Start of heart beating
-synonym: "16 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000260 ! Medaka stage 23
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 24 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000280
-name: Medaka stage 25
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 2 days 2 hrs  Stage 25 (2 days 2 hrs) 18-19 somite stage (Onset of blood circulation): When blood circulation begins, the spherical blood cells are first pushed out of the blood island (7th-15th somites) toward the vitello-caudal vein (Fig. 1). The blood is pumped (70-80 heart- beats/min) from the heart out into the anterior cardinal vein and the dorsal aorta roots. The dorsal aorta branching off the perceptible bulbus arteriosus is paired anteriorly with continuations extending to the head as the internal carotid arteries. The carotid artery splits to form the optic plexus, which connects with the left and right ducts of Cuvier. The left and right dorsal aorta roots run caudally until they join to form the dorsal aorta. The dorsal aorta is unpaired through the trunk region and continues into the tail as the vitello-caudal artery (Fig. 1). A countercurrent of the blood stream from the heart into the aorta is still observed. Otoliths appear as two conglomerates of small granules lying against the inner surface of each well-expanded otocyst. The embryonic body encircles nearly 7/12 of the yolk sphere. The dogleg-shaped somites form a herringbone pattern between the 3rd and 10th somites. Kupffer's vesicles have disappeared completely. The bulge of the liver anlage appears at the 1st- 3rd somites just posterior to the future position of the left pectoral fin in the 19 somite stage. - 2 days 2 hrs " [OlatDv:curators]
-comment: Onset of blood circulation
-synonym: "18-19 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000270 ! Medaka stage 24
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 25 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000290
-name: Medaka stage 26
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 2 days 6 hrs  Stage 26 (2 days 6 hrs) 22 somite stage (Development of guanophores and vacuolization of the notochord): Blood containing globular blood cells is pumped out beyond the anterior region of the hind-brain. The caudal vein is observed in the region from the 1st to the 14th somites. The tip of the tail is completely free of the yolk sphere. The anlage of the liver, which first appeared at the 19 somite stage, is not yet well- developed. Red-brown colored guanophores, which first appeared at the ventral side of the mid-brain in the 20 somite embryo, are more clearly seen. Vacuolization of the notochord starts at its anterior region. Differentiating choroidea of the eyes begin to darken due to melanization. - 2 days 6 hrs " [OlatDv:curators]
-comment: Development of guanophores and vacuolization of the notochord
-synonym: "22 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000280 ! Medaka stage 25
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 26 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000300
-name: Medaka stage 27
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 2 days 10 hrs  Stage 27 (2 days 10 hrs) 24 somite stage (Appearance of pectoral fin bud): The tip of the tail where the notochord attaches is pointed. The embryonic body with the tail free from the yolk sphere encircles 5/8 of the yolk sphere. The rudiments of the pectoral fins protrude from the body trunk behind the base of the Cuvierian ducts. The eminences of liver rudiment are clearly seen on the left side beneath the 1st-3rd somites, and the gut tube can be seen beneath the 1st-13th somites curving to the left-ventral in the region between the 1st and 3rd somites. The arterial end of the heart has shifted to the right. The tail is free of the yolk sphere, and its vein is observed from the 10th to the 16th somites. - 2 days 10 hrs " [OlatDv:curators]
-comment: Appearance of pectoral fin bud
-synonym: "24 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000290 ! Medaka stage 26
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 27 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000310
-name: Medaka stage 28
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 2 days 16 hrs  Stage 28 (2 days 16 hrs) 30 somite stage (Onset of retinal pigmentation): The embryonic body with a caudal vein between the 10th and 22th somites encircles about 2/3 of the yolk sphere. Pigmentation advances around the retina, and several melanophores occupy the dorsal wall of the viscera beneath the 1st to the 5th somites. The bulge of the liver becomes definitive in the left side of the 3rd to 4th somites. The anlage of the pancreas appears as a ventral eminence on the right side beneath and slightly anterior to the 3rd somite. Three sinuous portions of the vitelline veins consisting of the left and right ducts of Cuvier and 4 sinuous portions of the vitello-caudal vein meander on the yolk sphere. The blood cells (8.7 m in diameter) flatten slightly. The posterior of the two otoliths in each otocyst is slightly larger than the anterior. - 2 days 16 hrs " [OlatDv:curators]
-comment: Onset of retinal pigmentation
-synonym: "30 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000300 ! Medaka stage 27
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 28 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000320
-name: Medaka stage 29
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 3 days 2 hrs  Stage 29 (3 days 2 hrs) 34 somite stage (Internal ear formation): The embryonic body encircles about 3/4 of the yolk sphere. The anlage of the pineal gland is recognized as a disc-shaped, round structure at the dorsal surface of the 3rd ventricle. In the heart, the sinus venosus, atrium, ventricle and bulbus arteriosus are differentiated. There is a large, transparent membranous protrusion inside the outer wall and another inside the inner wall of the otic vesicle (internal ear formation). In the region posterior to the eye (where gills will form), a group of large hatching enzyme cells has differentiated from endodermal cells [7,28]. A ventral eminence is prominent behind the otic vesicles, and an- other eminence (the presumptive swim bladder) is discernible at the ventral side of the 3rd somite. The pectoral fin is apparent, and membranous fins are also seen in the tail, which has 19 somites beyond the gut tube. Guanophores begin to disperse on the dorsal surface of the body trunk. The anterior tip of the notochord is located where the branches of the dorsal aorta join. - 3 days 2 hrs " [OlatDv:curators]
-comment: Internal ear formation
-synonym: "34 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000310 ! Medaka stage 28
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 29 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000330
-name: Medaka stage 30
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 3 days 10 hrs " [OlatDv:curators]
-comment: Blood vessel development
-synonym: "35 somite stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000320 ! Medaka stage 29
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 30 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000340
-name: Medaka stage 31
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 3 days 23 hrs  Stage 31 (3 days 23 hrs) Gill blood vessel formation stage: Large cells of the hatching enzyme gland migrate up to the region under the central part of the eye, which now has a cornea. Blood circulation is seen in the gill arches. Pigmentation of the melanophores in the choroidea proceeds as a dark network in the eye. The pronephric kidney appears as a bright structure adjacent to the 1st somite. The transparent, colorless gallbladder first appears at the posterior region of the liver. Four transparent, membranous protrusions (the structures of the internal ear) are recognized in the otic vesicles. The anterior region of the oral cavity is formed. The tail has 21 somites and a membranous fin which is wider on the ventral side. - 3 days 23 hrs " [OlatDv:curators]
-synonym: "Gill blood vessel formation stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000330 ! Medaka stage 30
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 31 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000350
-name: Medaka stage 32
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 4 days 5 hrs  Stage 32 (4 days 5 hrs) Somite completion stage (Formation of pronephros and air bladder): The swim (air)bladder is recognized as a transparent vacuolar body beneath the 3rd somite, and the distinct kidneys (pronephroi) lie in contact with the bilateral sides of the notochord in the 1st somite. In the otic vesicles, a tubular (semicircular canals) membranous labyrinth can be seen. In the posterior end of the tail, the somites are indistinct. The number of whole somites counted is 30. Two hours later, the blood stream is twisted in the posterior end of the tail. - 4 days 5 hrs " [OlatDv:curators]
-comment: Formation of pronephros and air bladder
-synonym: "somite completion stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000340 ! Medaka stage 31
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 32 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000360
-name: Medaka stage 33
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 4 days 10 hrs  Stage 33 (4 days 10 hrs) Stage at which notochord vacuolization is completed: The tail tip has not yet reached within inter ocular distance of the eye. Because the eyeball (choroidea) is very dark, the lenses can be seen only with strong trans illumination. The notochord is completely vacuolized to the end of the tail. The pineal gland is distinct at the dorsal surface of the vascularized forebrain. The tips of the membranous margins of the pectoral fins reach the 4th somite. - 4 days 10 hrs " [OlatDv:curators]
-synonym: "stage at which notochord vacuolization is completed" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000350 ! Medaka stage 32
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 33 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000370
-name: Medaka stage 34
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 5 days 1 hr  Stage 34 (5 days 1 hr) Pectoral fin blood circulation stage: The tip of the caudal fin has several melanophores and reaches the eye. Blood circulation is apparent in the pectoral fins, which frequently move (flutter). The choroidea of the eye becomes so black that it is almost impervious to light. - 5 days 1 hr " [OlatDv:curators]
-synonym: "pectoral fin blood circulation stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000360 ! Medaka stage 33
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 34 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000380
-name: Medaka stage 35
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 5 days 12 hrs  Stage 35 (5 days 12 hrs) Stage at which visceral blood vessels form: The tip of the caudal fin reaches beyond the posterior border of the eye. Guanophores are distributed from the head to the vicinity of the tail tip. Blood circulates through the internal tissues of the head and the viscera to Cuvier's ducts. The tubular structure of the spinal cord is revealed. The opening of the oral cavity to the mouth and the presence of several pit organs on the frontal bone can be recognized. - 5 days 12 hrs " [OlatDv:curators]
-synonym: "stage at which visceral blood vessels form" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000370 ! Medaka stage 34
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 35 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000390
-name: Medaka stage 36
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 6 days  Stage 36 (6 days) Heart development stage: The tip of the tail reaches the otic vesicle. Guanophores and melanophores are distributed on the dorsal wall (peritoneum) of the peritoneal cavity beneath the 1st to the 4th somites. The extent of flexion of the atrio-ventricular region of the heart increases so that in a lateral view, the atrium and the ventricle lie adjacent to each other. - 6 days " [OlatDv:curators]
-synonym: "heart development stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000380 ! Medaka stage 35
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 36 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000400
-name: Medaka stage 37
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 7 days  Stage 37 (7 days) Pericardial cavity formation stage: The tip of the tail lies just past the otic vesicle (total length ca. 3.1 mm). The pharyngeal teeth are visible in the posterior region of the gills between the otic vesicles. The pericardial cavity (cardiac sac) surrounding the heart is easily observed. The slowly moving gut tube has a narrow lumen. - 7 days " [OlatDv:curators]
-synonym: "pericardial cavity formation stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000390 ! Medaka stage 36
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 37 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000410
-name: Medaka stage 38
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 8 days  Stage 38 (8 days) Spleen development stage (Differentiation of caudal fin begins): The tip of the tail extends beyond the otic vesicle (total length ca. 3.6 mm), and the rudiments of the caudal fin rays can be seen within the round membranous fin. The spleen is recognized as a small reddish globule dorsal to the gut tube beneath the left region of the 3rd-4th somites. The gut tube curves to the left between the 1st and the 4th somites, appearing to detour around the swim bladder (3rd-4th somites). A large well- developed gallbladder can be identified by its yellow or yellowish green tint. Both eyes move actively at the same time accompanying movement of the mouth and the pectoral fins. - 8 days " [OlatDv:curators]
-comment: Differentiation of caudal fin begins
-synonym: "spleen development stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000400 ! Medaka stage 37
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 38 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000420
-name: Medaka stage 39
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) - 9 days  Stage 39 (9 days) Hatching stage: The tip of the tail extends to the base of the pectoral fin or to the posterior region of the swim bladder (total length 3.8- 4.2 mm). After hatching, the internal wall of the swim bladder expands remarkably. Cells of hatching gland have already disappeared. The embryos dissolve the inner layers of the chorion [27], tear the single outer layer by moving the body and escape from the chorion tail-first. - 9 days " [OlatDv:curators]
-synonym: "hatching stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000410 ! Medaka stage 38
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 39 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000430
-name: Medaka stage 40
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) -   Stage 40 1st fry stage: This period extends from hatching until fin rays appear in the caudal and pectoral fins (total length about 4.5 mm). -  " [OlatDv:curators]
-synonym: "1st fry stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000420 ! Medaka stage 39
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 40 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000440
-name: Medaka stage 41
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) -   Stage 41 2nd fry stage: This period begins after the appearance of jointed rays in the pectoral fins and continues until fin rays appear in the dorsal and anal fins (total length about 5.5 mm). -  " [OlatDv:curators]
-synonym: "2nd fry stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000430 ! Medaka stage 40
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 41 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000450
-name: Medaka stage 42
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) -   Stage 42 3rd fry stage: This stage follows the appearance of ventral fin rays and scales in addition and extends to the formation of the jointed fin rays in the dorsal and anal fins (total length about 7 mm). -  " [OlatDv:curators]
-synonym: "3rd fry stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000440 ! Medaka stage 41
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 42 (medaka)" xsd:string
-
-[Term]
-id: OlatDv:0000460
-name: Medaka stage 43
-namespace: medaka_ontology
-def: "Zoological Science 11: 825-839 (1994) -   Stage 43 1st young fish stage: This is the period before the secondary sexual characteristics are manifested (total length about 22 mm). -  " [OlatDv:curators]
-synonym: "1st young fish stage" EXACT []
-is_a: OlatDv:0000010 ! developmental stage
-relationship: immediately_preceded_by OlatDv:0000450 ! Medaka stage 42
-relationship: only_in_taxon NCBITaxon:8090
-property_value: IAO:0000589 "Medaka stage 43 (medaka)" xsd:string
-
-[Term]
-id: PdumDv:0000300
-name: stereoblastula - stereogastrula stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Cleaving embryo stage with the following key events: Spherical mass of dividing blastomeres whose cell lineage can no longer be followed by eye. Micromeres divide bilaterally. Epibody starts." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 7.00 hours till 13.00 hours.
-synonym: "7-13 ste" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by UBERON:0000107 ! cleavage stage
-property_value: IAO:0000589 "stereoblastula - stereogastrula stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0000400
-name: protrochophore stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Stereoblastula - Stereogastrula stage with the following key events: Pre-larva, slowly rotating in the jelly driven by the multi-ciliated equatorial prototroch cells. Apical tuft appears." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 13.00 hours till 24.00 hours.
-synonym: "13-24 pt" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0000300 ! stereoblastula - stereogastrula stage (Platynereis)
-property_value: IAO:0000589 "protrochophore stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0000500
-name: early trochophore stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Protrochophore stage with the following key events: Hatching larvae actively swimming in the water column, but yet without phototaxis. First pigment appears in the larval eyes. Telotroch forms apical ganglion forms. One serotonergic cell in the brain. First larval brain axon. Prototroch nerve develops. Ventral nerve cord is v-shaped." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 24.00 hours till 26.00 hours.
-synonym: "24-26 et" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0000400 ! protrochophore stage (Platynereis)
-property_value: IAO:0000589 "early trochophore stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0000600
-name: mid trochophore stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Early trochophore stage with the following key events: Free-swimming trochophores showing phototaxis. Increasing amount of shading pigment in the larval eyes. Stomodeal rosette starts forming and moves anteriorly. The body shape starts to change from spherical to conical. Variable: red pigment spots around the prototroch cells. Second cerebral commissure, future nuchal organ nerve and asymmetric axon develop. Three more serotonergic cells around apical ganglion. First commissure in the ventral nerve cord. Dorsal and ventral longitudinal muscles appear." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 26.00 hours till 40.00 hours.
-synonym: "26-40 mt" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0000500 ! early trochophore stage (Platynereis)
-property_value: IAO:0000589 "mid trochophore stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0000700
-name: late trochophore stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Mid-trochophore stage with the following key events: Distinct stomodeal opening surrounded by stomodeal rosette, first chaetae visible within the trunk. Three larval segments appear simultaneously, identifiable by the developing chaetae in the trunk. Macromeres narrower towards the posterior. Second commissure forms in the ventral nerve cord. Dorsal and ventral longitudinal muscles elongate." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 40.00 hours till 48.00 hours.
-synonym: "40-48 lt" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0000600 ! mid trochophore stage (Platynereis)
-property_value: IAO:0000589 "late trochophore stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0000800
-name: early metatrochophore stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Late trochophore stage with the following key events: Formation of the first paratroch at the posterior border of the second chaetigerous segment, chaetae reach the body wall. Number of cells contributing to the stomodeal rosette is slowly increasing. Red pigment at the telotroch can appear. Third commissure forms in the ventral nerve cord. Second and third pair of serotonergic cells in the ventral nerve cord. Oblique and parapodial muscles more numerous and elongate." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 48.00 hours till 51.00 hours.
-synonym: "48-51 emt" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0000700 ! late trochophore stage (Platynereis)
-property_value: IAO:0000589 "early metatrochophore stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0000900
-name: mid metatrochophore stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Early metatrochophore stage with the following key events: Pigment of the adult eyes clearly visible lateral-dorsally in the episphere. Chaetae outside the body wall, but parapodia not yet formed. Amount of pigment in the adult eyes increases. Chaetae elongate. The gut anlage becomes visible. Additional ring of cells surrounds the stomodeal opening from anterior to posterior. Stomodeum starts to invaginate into the head. Second paratroch forms at the posterior border of the first chaetigerous trunk segments. Increasing number of axons in the commissures. Convergent extension movements start in the ventral neuroectoderm and continue until 72hpf (Steinmetz et al., 2007). Fourth pair of serotonergic cells in the ventral nerve cord. Ventral medial longitudinal muscle starts forming." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 51.00 hours till 60.00 hours.
-synonym: "51-60 mmt" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0000800 ! early metatrochophore stage (Platynereis)
-property_value: IAO:0000589 "mid metatrochophore stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001000
-name: late metatrochophore stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Mid-metatrochophore stage with the following key events: Parapodia visible but cannot move yet. Chaetae of the third chaetigerous segment reach to the posterior end of the larvae. Body shape changes from conical to torpedo-like and slender. Formation of the akrotroch starts. Stomodeal opening becomes slit-like. Ventral medial longitudinal muscle elongates." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 60.00 hours till 66.00 hours.
-synonym: "60-66 lmt" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0000900 ! mid metatrochophore stage (Platynereis)
-property_value: IAO:0000589 "late metatrochophore stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001100
-name: early nectochaete stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Late metatrochophore stage with the following key events: Parapodia start moving independently. Formation of the metatroch. Akrotroch fully developed. Rapid elongation of the trunk. Antennae not visible yet. Anlage of the proctodeum becomes visible. Occasionally larvae crawl using their parapodia. Much stronger pigmentation in the adult eyes. Lipid droplets move posteriorly. 1-2 pigmented spots at the basis of each parapodium. Dorsal and ventral roots of the circumesophageal connectives approach each other. Further serotonergic cells in the ventral nerve cord. Muscles form anteriorly to the stomodeum." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 66.00 hours till 75.00 hours.
-synonym: "66-75 en" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001000 ! late metatrochophore stage (Platynereis)
-property_value: IAO:0000589 "early nectochaete stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001200
-name: mid nectochaete stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Early nectochaete stage with the following key events: Formation of the antero-dorsal pair of tentacular cirri, anal cirri and antennal stubs. Body shape changes from torpedo-like into worm-like. Head distinguishable from the trunk due to a constriction. Adult eyes grow in size and are only separated by a medial constriction. Jaws start forming. Macromeres start to cellularize and begin to form midgut epithelium. Proctodeum develops a cylindrical tube shape. The stomodeum and proctodeum get in contact with the midgut (Hauenschild and Fischer, 1969). Pigmented spots at the base of the parapodia increase in size. Additional pigment appears in the head region. Brain grows. Additional serotonergic cells in the brain. Segmental nerves can be identified. Muscles and nerves of the antennae, tentacular cirri anal cirri become visible." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 75.00 hours till 96.00 hours.
-synonym: "75-6d mn" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001100 ! early nectochaete stage (Platynereis)
-property_value: IAO:0000589 "mid nectochaete stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001300
-name: late nectochaete stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Mid-nectochaete stage with the following key events: Antennae elongate, palpi become visible, beginning of food intake. The antennae become long and slender. Palpi form on both sides of the mouth opening. The gut becomes functional and the larvae begin to feed. The midgut lumen is only slit-like. Lipid droplets begin to be resorbed to variable degree. Jaws grow rapidly and a secondary tooth is added. Transition progresses from pelago-benthic to fully benthic lifestyle. Brain continues to grow rapidly. Two additional serotonergic cells in the brain. Musculature around the stomodeum increases in complexity and a basket of muscles develops around the jaws to form the pharynx. Muscles and nerves, which are associated with the developing antennae, tentacular cirri, palpi and anal cirri increase in length. End of synchronized development." [PLATY:A.H.L.Fischer]
-comment: At a temperature of 18 C this stages lasts from 96.00 hours till 168.00 hours.
-synonym: "6d-2w ln" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001200 ! mid nectochaete stage (Platynereis)
-property_value: IAO:0000589 "late nectochaete stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001410
-name: three-segmented errant juvenile stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Late nectochaete stage with the following key events: No lipid droplets visible in the gut barrel-shaped midgut filled with food. Settlement metamorphosis completed during this stage. Growth of the fourth chaetigerous segment. Lipid droplets are totally resorbed. Jaws rapidly increase in size. More teeth are added. Spinning glands develop and start to form mucus. Palpi elongate slowly. Antennae, antero-dorsal tentacular cirri and anal cirri elongate rapidly. By the end of this stage, the forth chaetigerous segment is fully formed." [PLATY:A.H.L.Fischer]
-synonym: "3 seg" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001300 ! late nectochaete stage (Platynereis)
-property_value: IAO:0000589 "three-segmented errant juvenile stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001510
-name: 4- and 5-segmented errant juvenile stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Three-segmented errant juvenile stage with the following key events: Fourth chaetigerous body segment fully formed; fifth chaetigerous segment growing or fully formed. Jaws grow rapidly and more teeth are added. The antero-ventral tentacular cirri form. Fifth chaetigerous segment is formed by the posterior growth zone. Pharynx develops into an eversible proboscis." [PLATY:A.H.L.Fischer]
-synonym: "4-5 seg" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001410 ! three-segmented errant juvenile stage (Platynereis)
-property_value: IAO:0000589 "4- and 5-segmented errant juvenile stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001520
-name: cephalic metamorphosis stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following 4- and 5-segmented errant juvenile stage with the following key events: Loss of chaetae at the first pair of parapodia, which marks the beginning of the transformation of the first pair of parapodia into the posterior pair of tentacular cirri. The juveniles undergo cephalic metamorphosis by transforming the first pair of parapodia into the posterior pair of tentacular cirri. Larval eyes seem to disappear during metamorphosis. Palpi and antennae elongate slowly. Midgut elongates rapidly with the elongating body. Jaws grow in size and more teeth are added. Larvae build characteristic tubes in which they live." [PLATY:A.H.L.Fischer]
-synonym: "ceph m" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001510 ! 4- and 5-segmented errant juvenile stage (Platynereis)
-property_value: IAO:0000589 "cephalic metamorphosis stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001530
-name: small atokous worm stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Cephalic metamorphosis stage with the following key events: Cephalic metamorphosis is finished and the posterior pairs of tentacular cirri are formed. The posterior growth zone buds off a series of further segments. Less than fifty segments. Anterior segments grow in size. The diameter of the worm increases." [PLATY:A.H.L.Fischer]
-synonym: "s atok" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001520 ! cephalic metamorphosis stage (Platynereis)
-property_value: IAO:0000589 "small atokous worm stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001540
-name: large atokous worm stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Small atokous worm stage with the following key events: Tubicolous worm with more than 50 segments. Sexually immature atokous worms start to produce gametes in the coelom. Growth rate slows until they possess up to 70 segments and the gametes start to mature within the body cavity." [PLATY:A.H.L.Fischer]
-synonym: "l atok" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001530 ! small atokous worm stage (Platynereis)
-property_value: IAO:0000589 "large atokous worm stage (Platynereis)" xsd:string
-
-[Term]
-id: PdumDv:0001550
-name: sexual metamorphosis stage (Platynereis)
-namespace: platynereis_stage
-def: "Developmental stage following Large atokous worm stage with the following key events: End of food intake resulting in an empty gut. Eyes increase in size. Some of the chromatophores degenerate. Maturing females are yellow and maturing males are whitish (anterior) and red (posterior). Posterior parapodia flatten and develop paddle-like chaetae. Major portion of the musculature degenerate and new a muscle type for rapid swimming develops." [PLATY:A.H.L.Fischer]
-synonym: "sex" RELATED [PLATY:A.H.L.Fischer]
-is_a: UBERON:0000105 ! life cycle stage
-relationship: only_in_taxon NCBITaxon:6358
-relationship: preceded_by PdumDv:0001540 ! large atokous worm stage (Platynereis)
-property_value: IAO:0000589 "sexual metamorphosis stage (Platynereis)" xsd:string
-
-[Term]
 id: PpanDv:0000006
 name: 21-month-old stage (bonobo)
 namespace: bonobo_developmental_stage
@@ -14567,6 +13850,391 @@ property_value: IAO:0000589 "Witschi stage 5 (rat)" xsd:string
 property_value: start_dpf "3.25" xsd:float
 
 [Term]
+id: SsalDv:0000008
+name: 16-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 51 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by UBERON:0007236 ! 8 cell stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107 ! cleavage stage
+property_value: IAO:0000589 "16-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000009
+name: 32-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 56 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000008 ! 16-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107 ! cleavage stage
+property_value: IAO:0000589 "32-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000010
+name: 64-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 63 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000009 ! 32-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107 ! cleavage stage
+property_value: IAO:0000589 "64-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000011
+name: 128-cell stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 69 hpf (hour post-fertilization) (PMID:23239145, Table 1).
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000010 ! 64-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000107 ! cleavage stage
+property_value: IAO:0000589 "128-cell stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000013
+name: early blastula stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 5 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000011 ! 128-cell stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000108 ! blastula stage
+property_value: IAO:0000589 "early blastula stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000014
+name: mid blastula stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 7 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000013 ! early blastula stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000108 ! blastula stage
+property_value: IAO:0000589 "mid blastula stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000015
+name: late blastula stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 10 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000014 ! mid blastula stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000108 ! blastula stage
+property_value: IAO:0000589 "late blastula stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000017
+name: early gastrula:10% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 13 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000015 ! late blastula stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109 ! gastrula stage
+property_value: IAO:0000589 "early gastrula:10% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000018
+name: pre-mid gastrula:30% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 17 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000017 ! early gastrula:10% epiboly (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109 ! gastrula stage
+property_value: IAO:0000589 "pre-mid gastrula:30% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000019
+name: mid gastrula:50% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 21 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000018 ! pre-mid gastrula:30% epiboly (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109 ! gastrula stage
+property_value: IAO:0000589 "mid gastrula:50% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000020
+name: late gastrula:90% epiboly (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 24 dpf (day post-fertilization) (PMID:23239145, Table 1); 24 days at water temperature 7 means 168 day-degree (contributor https://github.com/garethgillard)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000019 ! mid gastrula:50% epiboly (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000109 ! gastrula stage
+property_value: IAO:0000589 "late gastrula:90% epiboly (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000023
+name: 10-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 27 dpf (day post-fertilization) (PMID:23239145, Table 1) but at about 18 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "10-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000024
+name: 15-16-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: development of eyes (visible laterally), at 19 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+relationship: preceded_by SsalDv:0000023 ! 10-somite-stage (salmon)
+property_value: IAO:0000589 "15-16-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000025
+name: 18-21-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: otic vesicle formed; 90–100 % epiboly, at 20 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+relationship: preceded_by SsalDv:0000024 ! 15-16-somite-stage (salmon)
+property_value: IAO:0000589 "18-21-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000026
+name: 22-24-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: start of segmentation of hindbrain into five rhombomeres; development of branchial chamber; cardiac tube in pericardial chamber, at 21 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000025 ! 18-21-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "22-24-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000027
+name: 27-28-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: forebrain/midbrain boundary appearing; optic lens visible, at 22 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000026 ! 22-24-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "27-28-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000028
+name: 31-34-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: gut and stomach primordia visible; myotomes acquiring chevron shape; midbrain/hindbrain boundary apparent; one branchial arch visible; heart tube bending forwards, at 23 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000027 ! 27-28-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "31-34-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000029
+name: 36-37-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: choroid fissure complete; lumen in stomach and gut; operculum visible, at 24 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000028 ! 31-34-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "36-37-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000030
+name: 38-40-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: hindgut formation; tail detached from yolk at most caudal somites; otoliths present in otic vesicles, at 25 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000029 ! 36-37-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "38-40-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000031
+name: 41-44-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: separation of ventral mid-body from yolk; heart tube moved to the left; slow heart beat apparent; posterior end of pronephros level with end of gut; hindgut turned ventrally towards future anus, at 26 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000030 ! 38-40-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "41-44-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000032
+name: 45-50-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: blood flow in dorsal aorta; two branchial arches; pectoral fin buds at somites 2–4 (45–47 somites), and weak sporadic contractions of the trunk (47–50 somites), at 27 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000031 ! 41-44-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "45-50-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000033
+name: 49-52-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: two-chambered heart with double beat and faster heart rate; movement in response to dechorionation; lens separate from optic cup; rhombomere divisions starting to disappear; anus formed at level of somites 37–38, at 28 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000032 ! 45-50-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "49-52-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000034
+name: 53-55-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: circulation visible along gut; rhombomere divisions almost disappeared; jaw developing; mesenchyme in caudal fin-fold, at 29 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000033 ! 49-52-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "53-55-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000035
+name: 62-64-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: rhythmic movements observed in situ; strong movements in response to dechorionation; olfactory organ present; hatching glands apparent; dorsal and ventral fin-folds present; rhombomeres no longer distinct; three branchial arches; pectoral fin as high as it is wide, at 32 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000034 ! 53-55-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "62-64-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000036
+name: 63-64-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: at 33 dpf in PMID:10393816 (Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000035 ! 62-64-somite-stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+property_value: IAO:0000589 "63-64-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000037
+name: 65-somite-stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: eyed, at 51 dpf (day post-fertilization) (PMID:23239145, Table 1)
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000111 ! organogenesis stage
+relationship: preceded_by SsalDv:0000036 ! 63-64-somite-stage (salmon)
+property_value: IAO:0000589 "65-somite-stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000043
+name: fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: comment: stage description from G.Gillard (https://github.com/garethgillard), months 3-6, 5-8 cm. Approximately 4- 5 weeks after hatching the young fish makes its way through the gravel and begins active feeding. At this point they are approximately 3 inches long and are called "fry" or fingerlings. One year after hatching the fry change coloring and acquire distinctive markings on their flanks which now distinguishes them as "parr" (http://www.uky.edu/~agrdanny/flyfish/life.htm).
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by UBERON:0000069 ! larval stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000112 ! sexually immature stage
+property_value: IAO:0000589 "fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000044
+name: day 0 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+def: "The day of the alevin leaving its yolk sac and beginning to be a fry." [Bgee:curator]
+comment: dedicated to PMID:32293070; developmentally it makes sense to consider fry before feeding as a category. At least, when the yolk sac is depleted they are considered as at the fry stage. They fed then after that in experiments. They could feed before in the wild of course, so not completely tied to developmental stage, but a common point of difference the feeding (source: discussion with G.Gillard, https://github.com/garethgillard).
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+property_value: IAO:0000589 "day 0 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000045
+name: day 1 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+def: "First day of the life of the Salmon salar living as a fry and actively feeding." [Bgee:curator]
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by SsalDv:0000044 ! day 0 of fry stage (salmon)
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+property_value: IAO:0000589 "day 1 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000046
+name: day 48 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000045 ! day 1 of fry stage (salmon)
+property_value: IAO:0000589 "day 48 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000047
+name: day 65 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000046 ! day 48 of fry stage (salmon)
+property_value: IAO:0000589 "day 65 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000048
+name: day 77 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000047 ! day 65 of fry stage (salmon)
+property_value: IAO:0000589 "day 77 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000049
+name: day 94 of fry stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: dedicated to PMID:32293070
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of SsalDv:0000043 ! fry stage (salmon)
+relationship: preceded_by SsalDv:0000048 ! day 77 of fry stage (salmon)
+property_value: IAO:0000589 "day 94 of fry stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000051
+name: parr stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: stage description from G.Gillard (https://github.com/garethgillard), months 6-9, 10-15 cm.
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000112 ! sexually immature stage
+relationship: preceded_by SsalDv:0000043 ! fry stage (salmon)
+property_value: IAO:0000589 "parr stage (salmon)" xsd:string
+
+[Term]
+id: SsalDv:0000052
+name: smolt stage (salmon)
+namespace: atlantic_salmon_developmental_stage
+comment: stage description from G.Gillard (https://github.com/garethgillard), months 9-12, 10-20 cm.
+is_a: UBERON:0000105 ! life cycle stage
+relationship: only_in_taxon NCBITaxon:8030
+relationship: part_of UBERON:0000112 ! sexually immature stage
+relationship: preceded_by SsalDv:0000051 ! parr stage (salmon)
+property_value: IAO:0000589 "smolt stage (salmon)" xsd:string
+
+[Term]
 id: SscrDv:0000010
 name: 1-week-old stage (pig)
 namespace: pig_developmental_stage
@@ -15607,6 +15275,7 @@ xref: OariDv:0000024
 xref: PpanDv:0000041
 xref: PtroDv:0000052
 xref: RnorDv:0000061
+xref: SsalDv:0000040
 xref: SscrDv:0000084
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! life cycle stage
@@ -15618,6 +15287,7 @@ is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! li
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9796", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9258", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9913"} ! life cycle stage
@@ -15640,9 +15310,11 @@ relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9598
 relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:9597"} ! embryo stage
 relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! embryo stage
 relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! embryo stage
+relationship: immediately_preceded_by UBERON:0000069 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! larval stage
 relationship: immediately_preceded_by UBERON:0000070 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! pupal stage
 relationship: immediately_preceded_by UBERON:0000070 {gci_filler="NCBITaxon:7240", gci_relation="part_of"} ! pupal stage
 relationship: part_of UBERON:0000092 ! post-embryonic stage
+relationship: part_of UBERON:0000092 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! post-embryonic stage
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9258", gci_relation="part_of"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9913"} ! life cycle
@@ -15664,12 +15336,13 @@ relationship: preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relat
 relationship: preceded_by UBERON:0000070 ! pupal stage
 relationship: preceded_by UBERON:0000111 ! organogenesis stage
 relationship: preceded_by UBERON:0004729 {gci_relation="part_of", gci_filler="NCBITaxon:6239"} ! nematode larval stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/566 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/566" xsd:anyURI
 
 [Term]
 id: UBERON:0000068
 name: embryo stage
 def: "A life cycle stage that starts with fertilization and ends with the fully formed embryo." [http://orcid.org/0000-0002-6601-2165]
+synonym: "embryo stage" BROAD []
 synonym: "embryogenesis" RELATED []
 synonym: "embryonic stage" BROAD []
 synonym: "embryonic stage" EXACT []
@@ -15694,9 +15367,11 @@ xref: OcunDv:0000002
 xref: PpanDv:0000002
 xref: PtroDv:0000002
 xref: RnorDv:0000002
+xref: SsalDv:0000002
 xref: SscrDv:0000002
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9986"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:7240", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"} ! life cycle stage
@@ -15739,6 +15414,7 @@ relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:9598", gci_relation=
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:10141", gci_relation="part_of"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! life cycle
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:7240", gci_relation="part_of"} ! life cycle
 
 [Term]
@@ -15746,6 +15422,7 @@ id: UBERON:0000069
 name: larval stage
 def: "A distinct juvenile stage many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle." [http://en.wikipedia.org/wiki/Larva]
 subset: efo_slim
+synonym: "alevin stage" BROAD []
 synonym: "ammocoete" NARROW SENSU [http://en.wikipedia.org/wiki/Larva]
 synonym: "ammocoete stage" NARROW SENSU [http://en.wikipedia.org/wiki/Larva]
 synonym: "bipinnaria" NARROW SENSU [http://en.wikipedia.org/wiki/Larva]
@@ -15783,12 +15460,15 @@ synonym: "zoea" NARROW SENSU [http://en.wikipedia.org/wiki/Larva]
 synonym: "zoea stage" NARROW SENSU [http://en.wikipedia.org/wiki/Larva]
 xref: DpseDv:0000003
 xref: DsimDv:0000003
+xref: SsalDv:0000039
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:7240", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! life cycle stage
 relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! embryo stage
 relationship: immediately_preceded_by UBERON:0000068 ! embryo stage
 relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:7240", gci_relation="part_of"} ! embryo stage
+relationship: part_of UBERON:0000092 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! post-embryonic stage
 relationship: part_of UBERON:0000092 ! post-embryonic stage
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:7240", gci_relation="part_of"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! life cycle
@@ -15821,20 +15501,24 @@ relationship: only_in_taxon NCBITaxon:33392
 relationship: part_of UBERON:0000092 ! post-embryonic stage
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:7240", gci_relation="part_of"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! life cycle
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/562 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/562" xsd:anyURI
 property_value: taxon_notes "The pupal stage is found only in holometabolous insects, those that undergo a complete metamorphosis, going through four life stages; embryo, larva, pupa and imago" xsd:string
 
 [Term]
 id: UBERON:0000092
 name: post-embryonic stage
 def: "stage succeeding embryo, including mature structure" [https://orcid.org/0000-0002-6601-2165]
+synonym: "post-embryonic stage" BROAD []
 synonym: "post-hatching stage" NARROW []
 synonym: "postembryonic" RELATED []
 synonym: "postembryonic stage" EXACT []
+xref: SsalDv:0000038
 is_a: UBERON:0000105 ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 relationship: immediately_preceded_by UBERON:0000068 ! embryo stage
+relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle
 relationship: part_of UBERON:0000104 ! life cycle
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/344 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/344" xsd:anyURI
 property_value: taxon_notes "In birds, the postnatal stage begins when the beak penetrates the shell (i.e., external pipping) (Brown et al. 1997)" xsd:string
 
 [Term]
@@ -15873,10 +15557,12 @@ xref: OcunDv:0000001
 xref: PpanDv:0000001
 xref: PtroDv:0000001
 xref: RnorDv:0000001
+xref: SsalDv:0000001
 xref: SscrDv:0000001
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:28377", gci_relation="part_of"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9258", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9796", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9615"} ! life cycle stage
@@ -15896,7 +15582,7 @@ is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9597"} ! lif
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:7237"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! life cycle stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/532 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/532" xsd:anyURI
 
 [Term]
 id: UBERON:0000105
@@ -15911,7 +15597,6 @@ synonym: "Drosophila simulans life cycle stage" BROAD []
 synonym: "life cycle stage" BROAD []
 synonym: "lizard life cycle stage" BROAD []
 synonym: "opossum life cycle stage" BROAD []
-synonym: "Platynereis life cycle stage" BROAD []
 synonym: "rabbit life cycle stage" BROAD []
 synonym: "stage" NARROW []
 xref: AcarDv:0000000
@@ -15931,10 +15616,10 @@ xref: MmusDv:0000000
 xref: OanaDv:0000000
 xref: OariDv:0000000
 xref: OcunDv:0000000
-xref: PdumDv:0000090
 xref: PpanDv:0000000
 xref: PtroDv:0000000
 xref: RnorDv:0000000
+xref: SsalDv:0000000
 xref: SscrDv:0000000
 property_value: editor_note "this class represents a proper part of the life cycle of an organism. The class 'life cycle' should not be placed here" xsd:string
 property_value: external_ontology_notes "the WBls class 'all stages' belongs here as it is the superclass of other WBls stages" xsd:string
@@ -15959,22 +15644,23 @@ synonym: "zygotum" RELATED LATIN [http://en.wikipedia.org/wiki/Zygote]
 xref: HsapDv:0000003
 xref: MmusDv:0000003
 xref: OariDv:0000009
-xref: PdumDv:0000100
 xref: RnorDv:0000048
+xref: SsalDv:0000003
 xref: SscrDv:0000087
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! life cycle stage
-is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 relationship: part_of HsapDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! embryonic stage (human)
 relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! embryonic stage (mouse)
 relationship: part_of RnorDv:0000003 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! embryonic stage (rat)
 relationship: part_of SscrDv:0000079 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! early embryonic stage (pig)
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 ! embryo stage
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! embryo stage
 property_value: homology_notes "As in all metazoans, eumetazoan development begins with a fertilized egg, or zygote.[well established][VHOG]" xsd:string {date_retrieved="2012-09-17", external_class="VHOG:0000745", ontology="VHOG", source="ISBN:978-0030259821 Ruppert EE, Fox RS, Barnes RD, Invertebrate zoology: a functional evolutionary approach (2003) p.107", source="http://bgee.unil.ch/"}
 
 [Term]
@@ -15984,26 +15670,26 @@ def: "The first few specialized divisions of an activated animal egg; Stage cons
 subset: efo_slim
 synonym: "Carnegie stage 02" BROAD []
 synonym: "cleavage stage" BROAD []
-synonym: "cleaving embryo stage" BROAD []
 xref: GgalDv:0000064
 xref: HsapDv:0000005
 xref: MmusDv:0000004
 xref: OariDv:0000010
-xref: PdumDv:0000200
 xref: RnorDv:0000049
+xref: SsalDv:0000004
 xref: SscrDv:0000088
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! life cycle stage
-is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 relationship: immediately_preceded_by UBERON:0000106 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! zygote stage
 relationship: immediately_preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! zygote stage
 relationship: immediately_preceded_by UBERON:0000106 ! zygote stage
 relationship: immediately_preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! zygote stage
+relationship: immediately_preceded_by UBERON:0000106 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! zygote stage
 relationship: part_of HsapDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! embryonic stage (human)
 relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! embryonic stage (mouse)
 relationship: part_of RnorDv:0000003 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! embryonic stage (rat)
@@ -16011,7 +15697,7 @@ relationship: part_of SscrDv:0000079 {gci_relation="part_of", gci_filler="NCBITa
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 ! embryo stage
-relationship: preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! zygote stage
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! embryo stage
 relationship: preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! zygote stage
 relationship: preceded_by UBERON:0000106 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! zygote stage
 
@@ -16026,9 +15712,11 @@ xref: HsapDv:0000006
 xref: MmusDv:0000007
 xref: OariDv:0000025
 xref: RnorDv:0000054
+xref: SsalDv:0000012
 xref: SscrDv:0000089
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! life cycle stage
@@ -16045,10 +15733,12 @@ relationship: part_of SscrDv:0000079 {gci_relation="part_of", gci_filler="NCBITa
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 ! embryo stage
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! embryo stage
 relationship: preceded_by UBERON:0000107 ! cleavage stage
+relationship: preceded_by UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! cleavage stage
 relationship: preceded_by UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! cleavage stage
 relationship: preceded_by UBERON:0000107 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! cleavage stage
-property_value: depicted_by http://upload.wikimedia.org/wikipedia/commons/c/c6/Blastulation.png xsd:anyURI
+property_value: depicted_by "http://upload.wikimedia.org/wikipedia/commons/c/c6/Blastulation.png" xsd:anyURI
 property_value: editor_note "consider adding a preceding stage 'morula stage' as part of cleavage" xsd:string
 
 [Term]
@@ -16068,7 +15758,9 @@ xref: HsapDv:0000010
 xref: MmusDv:0000013
 xref: OariDv:0000026
 xref: RnorDv:0000005
+xref: SsalDv:0000016
 xref: SscrDv:0000090
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! life cycle stage
@@ -16087,10 +15779,12 @@ relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITa
 relationship: part_of RnorDv:0000003 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! embryonic stage (rat)
 relationship: part_of SscrDv:0000079 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! early embryonic stage (pig)
 relationship: part_of UBERON:0000068 ! embryo stage
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! embryo stage
 relationship: preceded_by UBERON:0000108 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! blastula stage
 relationship: preceded_by UBERON:0000108 {source="BILS"} ! blastula stage
+relationship: preceded_by UBERON:0000108 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! blastula stage
 
 [Term]
 id: UBERON:0000110
@@ -16126,7 +15820,7 @@ relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9940", gci_relation=
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! embryo stage
 relationship: preceded_by UBERON:0000109 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! gastrula stage
 relationship: preceded_by UBERON:0000109 ! gastrula stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/343 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/343" xsd:anyURI
 
 [Term]
 id: UBERON:0000111
@@ -16139,7 +15833,9 @@ xref: HsapDv:0000015
 xref: MmusDv:0000018
 xref: OariDv:0000028
 xref: RnorDv:0000055
+xref: SsalDv:0000022
 xref: SscrDv:0000086
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! life cycle stage
@@ -16150,6 +15846,7 @@ is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! lif
 relationship: immediately_preceded_by GgalDv:0000062 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! Hamburger Hamilton stages 6 (chicken)
 relationship: immediately_preceded_by MmusDv:0000095 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! Theiler stage 11d (mouse)
 relationship: immediately_preceded_by OariDv:0000020 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! day 16 embryonic stage (sheep)
+relationship: immediately_preceded_by SsalDv:0000020 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! late gastrula:90% epiboly (salmon)
 relationship: immediately_preceded_by UBERON:0000110 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! neurula stage
 relationship: immediately_preceded_by UBERON:0000110 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! neurula stage
 relationship: only_in_taxon NCBITaxon:6072
@@ -16158,11 +15855,12 @@ relationship: part_of MmusDv:0000002 {gci_relation="part_of", gci_filler="NCBITa
 relationship: part_of RnorDv:0000003 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! embryonic stage (rat)
 relationship: part_of SscrDv:0000079 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! early embryonic stage (pig)
 relationship: part_of UBERON:0000068 ! embryo stage
+relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! embryo stage
 relationship: part_of UBERON:0000068 {gci_filler="NCBITaxon:9940", gci_relation="part_of"} ! embryo stage
 relationship: preceded_by UBERON:0000110 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! neurula stage
 relationship: preceded_by UBERON:0000110 ! neurula stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/533 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/533" xsd:anyURI
 
 [Term]
 id: UBERON:0000112
@@ -16172,6 +15870,7 @@ synonym: "immature stage" BROAD []
 synonym: "immature stage" EXACT [VHOG:FB]
 synonym: "juvenile stage" NARROW [XAO:1000010]
 synonym: "pediatric stage" BROAD []
+synonym: "sexually immature stage" BROAD []
 synonym: "subadult stage" RELATED [http://eol.org/schema/terms/subadult]
 xref: AcarDv:0000003
 xref: BtauDv:0000003
@@ -16191,6 +15890,7 @@ xref: OcunDv:0000003
 xref: PpanDv:0000003
 xref: PtroDv:0000003
 xref: RnorDv:0000012
+xref: SsalDv:0000041
 xref: SscrDv:0000003
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9615"} ! life cycle stage
@@ -16211,6 +15911,7 @@ is_a: UBERON:0000105 {gci_filler="NCBITaxon:9598", gci_relation="part_of"} ! lif
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:10141", gci_relation="part_of"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 relationship: immediately_preceded_by BtauDv:0000018 {gci_relation="part_of", gci_filler="NCBITaxon:9913"} ! ninth and over month of gestation (cow)
 relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:9598", gci_relation="part_of"} ! embryo stage
@@ -16231,6 +15932,7 @@ relationship: immediately_preceded_by UBERON:0000068 {gci_relation="part_of", gc
 relationship: immediately_preceded_by UBERON:0000068 {gci_filler="NCBITaxon:28377", gci_relation="part_of"} ! embryo stage
 relationship: immediately_preceded_by XAO:1000078 {gci_relation="part_of", gci_filler="NCBITaxon:8353"} ! NF stage 66
 relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! fully formed stage
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! fully formed stage
 relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:9615"} ! fully formed stage
 relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:9544", gci_relation="part_of"} ! fully formed stage
 relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:9258", gci_relation="part_of"} ! fully formed stage
@@ -16253,17 +15955,16 @@ relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:28377", gci_relation
 relationship: preceded_by UBERON:0000068 ! embryo stage
 relationship: preceded_by UBERON:0000069 {gci_relation="part_of", gci_filler="NCBITaxon:7955", source="ZFS"} ! larval stage
 property_value: external_definition "The stage of being a sexually immature adult animal[XAO:1000010]." xsd:string {source="XAO:1000010"}
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/427 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/427" xsd:anyURI
 property_value: taxon_notes "In mammals this would include infant (nourishment from lactation) and juvenile (prepubertal no longer dependent on mother)" xsd:string
 
 [Term]
 id: UBERON:0000113
 name: post-juvenile adult stage
 def: "The stage of being a sexually mature adult animal." [https://orcid.org/0000-0002-6601-2165]
-synonym: "adult (Heteronereis) stage" BROAD []
 synonym: "adult stage" BROAD []
 synonym: "mature stage" BROAD []
-synonym: "Medaka stage 44" BROAD []
+synonym: "sexually mature stage" BROAD []
 xref: AcarDv:0000004
 xref: BtauDv:0000004
 xref: CfamDv:0000004
@@ -16279,18 +15980,15 @@ xref: MmusDv:0000110
 xref: OanaDv:0000004
 xref: OariDv:0000006
 xref: OcunDv:0000004
-xref: OlatDv:0000470
-xref: PdumDv:0001600
 xref: PpanDv:0000016
 xref: PtroDv:0000011
 xref: RnorDv:0000015
+xref: SsalDv:0000042
 xref: SscrDv:0000006
-is_a: OlatDv:0000010 {gci_relation="part_of", gci_filler="NCBITaxon:8090"} ! developmental stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9031", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:13616"} ! life cycle stage
-is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9615"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9544", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:10141", gci_relation="part_of"} ! life cycle stage
@@ -16304,10 +16002,10 @@ is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! lif
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:28377", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9986"} ! life cycle stage
 is_a: UBERON:0000105 {gci_relation="part_of", gci_filler="NCBITaxon:9913"} ! life cycle stage
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9258", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 {gci_filler="NCBITaxon:9796", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
-relationship: immediately_preceded_by OlatDv:0000460 {gci_relation="part_of", gci_filler="NCBITaxon:8090"} ! Medaka stage 43
 relationship: immediately_preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9258", gci_relation="part_of"} ! sexually immature stage
 relationship: immediately_preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9913"} ! sexually immature stage
 relationship: immediately_preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! sexually immature stage
@@ -16337,11 +16035,12 @@ relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITa
 relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:9823"} ! fully formed stage
 relationship: part_of UBERON:0000066 {gci_relation="part_of", gci_filler="NCBITaxon:9685"} ! fully formed stage
 relationship: part_of UBERON:0000066 ! fully formed stage
+relationship: part_of UBERON:0000066 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! fully formed stage
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:10141", gci_relation="part_of"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:9986"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_relation="part_of", gci_filler="NCBITaxon:13616"} ! life cycle
 relationship: part_of UBERON:0000104 {gci_filler="NCBITaxon:28377", gci_relation="part_of"} ! life cycle
-relationship: preceded_by PdumDv:0001550 {gci_relation="part_of", gci_filler="NCBITaxon:6358"} ! sexual metamorphosis stage (Platynereis)
+relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! sexually immature stage
 relationship: preceded_by UBERON:0000112 ! sexually immature stage
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9544", gci_relation="part_of"} ! sexually immature stage
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9593", gci_relation="part_of"} ! sexually immature stage
@@ -16349,8 +16048,8 @@ relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9031", gci_relat
 relationship: preceded_by UBERON:0000112 {gci_filler="NCBITaxon:9598", gci_relation="part_of"} ! sexually immature stage
 relationship: preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! sexually immature stage
 relationship: preceded_by UBERON:0000112 {gci_relation="part_of", gci_filler="NCBITaxon:9597"} ! sexually immature stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/345 xsd:anyURI
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/499 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/345" xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/499" xsd:anyURI
 
 [Term]
 id: UBERON:0001062
@@ -16385,7 +16084,7 @@ synonym: "tadpole stage" NARROW SENSU [http://en.wikipedia.org/wiki/Larva]
 is_a: UBERON:0000069 ! larval stage
 relationship: only_in_taxon NCBITaxon:8292
 property_value: external_ontology_notes "the XAO class denotes a stage" xsd:string {external_ontology="XAO"}
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/534 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/534" xsd:anyURI
 
 [Term]
 id: UBERON:0004729
@@ -16393,7 +16092,7 @@ name: nematode larval stage
 def: "Nematode larval development begins with the newly hatched first-stage larva (L1) and ends with the end of the last larval stage (for example the fourth larval stage (L4) in C. elegans). Each stage of nematode larval development is characterized by proliferation of specific cell lineages and an increase in body size without alteration of the basic body plan. Nematode larval stages are separated by molts in which each stage-specific exoskeleton, or cuticle, is shed and replaced anew." [GO:0002119]
 is_a: UBERON:0000069 ! larval stage
 relationship: only_in_taxon NCBITaxon:6231
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/567 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/567" xsd:anyURI
 
 [Term]
 id: UBERON:0004730
@@ -16401,7 +16100,7 @@ name: instar larval stage
 def: "This begins with the newly hatched first-instar larva, through its maturation to the end of the last larval stage. An example of this process is found in Drosophila melanogaster." [GO:0002168]
 is_a: UBERON:0000069 ! larval stage
 relationship: only_in_taxon NCBITaxon:50557
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/526 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/526" xsd:anyURI
 
 [Term]
 id: UBERON:0007220
@@ -16436,7 +16135,7 @@ relationship: preceded_by RnorDv:0000003 {gci_relation="part_of", gci_filler="NC
 relationship: preceded_by RnorDv:0000010 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! metamorphosing embryo stage (rat)
 relationship: preceded_by UBERON:0000111 ! organogenesis stage
 relationship: preceded_by UBERON:0004707 ! pharyngula stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/355 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/355" xsd:anyURI
 
 [Term]
 id: UBERON:0007221
@@ -16482,7 +16181,7 @@ relationship: part_of UBERON:0018685 {gci_relation="part_of", gci_filler="NCBITa
 relationship: part_of UBERON:0018685 {gci_filler="NCBITaxon:9544", gci_relation="part_of"} ! nursing stage
 relationship: preceded_by UBERON:0000068 {gci_relation="part_of", gci_filler="NCBITaxon:13616"} ! embryo stage
 property_value: editor_note "consider splitting infant/newborn" xsd:string
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/350 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/350" xsd:anyURI
 
 [Term]
 id: UBERON:0007222
@@ -16574,40 +16273,55 @@ relationship: preceded_by UBERON:0018241 {gci_filler="NCBITaxon:9598", gci_relat
 relationship: preceded_by UBERON:0018241 {gci_relation="part_of", gci_filler="NCBITaxon:9597"} ! prime adult stage
 relationship: preceded_by UBERON:0018241 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! prime adult stage
 relationship: preceded_by UBERON:0018241 ! prime adult stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/495 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/495" xsd:anyURI
 
 [Term]
 id: UBERON:0007232
 name: 2 cell stage
+synonym: "2-cell stage" BROAD []
 synonym: "2-cell stage" EXACT [XAO:1000011]
 synonym: "Cleavage:2-cell" NARROW [ZFS:0000002]
 synonym: "NF stage 2 (2-cell)" NARROW SENSU [XAO:1000011]
 synonym: "two-cell stage" EXACT [OBOL:automatic]
+xref: SsalDv:0000005
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
+relationship: immediately_preceded_by UBERON:0000106 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! zygote stage
 relationship: immediately_preceded_by UBERON:0000106 ! zygote stage
 relationship: part_of UBERON:0000107 ! cleavage stage
+relationship: part_of UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! cleavage stage
 
 [Term]
 id: UBERON:0007233
 name: 4 cell stage
+synonym: "4-cell stage" BROAD []
 synonym: "4-cell stage" EXACT [XAO:1000013]
 synonym: "Cleavage:4-cell" NARROW [ZFS:0000003]
 synonym: "four-cell stage" EXACT [OBOL:automatic]
 synonym: "NF stage 3 (4-cell)" NARROW SENSU [XAO:1000013]
+xref: SsalDv:0000006
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 relationship: immediately_preceded_by UBERON:0007232 ! 2 cell stage
+relationship: immediately_preceded_by UBERON:0007232 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! 2 cell stage
 relationship: part_of UBERON:0000107 ! cleavage stage
+relationship: part_of UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! cleavage stage
 
 [Term]
 id: UBERON:0007236
 name: 8 cell stage
+synonym: "8-cell stage" BROAD []
 synonym: "8-cell stage" EXACT [XAO:1000014]
 synonym: "Cleavage:8-cell" NARROW [ZFS:0000004]
 synonym: "eight-cell stage" EXACT [OBOL:automatic]
 synonym: "NF stage 4 (8-cell)" NARROW SENSU [XAO:1000014]
+xref: SsalDv:0000007
+is_a: UBERON:0000105 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! life cycle stage
 is_a: UBERON:0000105 ! life cycle stage
 relationship: immediately_preceded_by UBERON:0007233 ! 4 cell stage
+relationship: immediately_preceded_by UBERON:0007233 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! 4 cell stage
 relationship: part_of UBERON:0000107 ! cleavage stage
+relationship: part_of UBERON:0000107 {gci_filler="NCBITaxon:8030", gci_relation="part_of"} ! cleavage stage
 
 [Term]
 id: UBERON:0009849
@@ -27954,7 +27668,7 @@ subset: ro-eco
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "d" xsd:string
 property_value: IAO:0000118 "during" xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Happens_during xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Happens_during" xsd:anyURI
 is_transitive: true
 
 [Typedef]
@@ -28204,13 +27918,6 @@ namespace: rabbit_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -28221,8 +27928,6 @@ namespace: rat_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of coitum, assuming that it takes place around midnight during a 7pm to 5am dark cycle (noon of the day on which the vaginal plug is found, the embryos are aged 0.5 days post coitum)." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Timed_Pregnancy]
 def: "Count of number of days intervening between the end of the stage and the time of coitum, defined as the time the vaginal plug is found. Note that the vaginal plug persists for 16-24 hours and may lasts as long as 48 hours." [http://web.jhu.edu/animalcare/procedures/rat.html]
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -28252,23 +27957,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -28282,8 +27970,6 @@ namespace: Dvirilis_stages_ontology
 namespace: Dyakuba_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the organism is one day old has the value 2." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be applirabbition-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -28312,21 +27998,6 @@ def: "Count of number of months intervening between the end of the stage and the
 def: "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -28343,13 +28014,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -28359,8 +28023,6 @@ namespace: chicken_stages_ontology
 namespace: lizard_stages_ontology
 def: "Count of number of months intervening between the end of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 property_value: has_unit UO:0000035
 is_metadata_tag: true
 
@@ -28382,12 +28044,6 @@ namespace: rat_stages_ontology
 def: "Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the mouse is one week old has the value 2" []
 def: "Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the rat is one week old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
 property_value: has_unit UO:0000034
 is_metadata_tag: true
 
@@ -28412,19 +28068,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
 is_metadata_tag: true
 
 [Typedef]
@@ -28433,7 +28076,6 @@ name: end, years post hatching
 namespace: pufferfish_stages_ontology
 def: "Count of number of years intervening between the end of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the organism is one year old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000036
 property_value: has_unit UO:0000036
 is_metadata_tag: true
 
@@ -28710,7 +28352,6 @@ namespace: mouse_stages_ontology
 namespace: opossum_stages_ontology
 namespace: orangutan_stages_ontology
 namespace: pig_stages_ontology
-namespace: platynereis_stage
 namespace: platypus_stages_ontology
 namespace: pufferfish_stages_ontology
 namespace: rabbit_stages_ontology
@@ -28853,8 +28494,8 @@ is_a: in_lateral_side_of ! in_lateral_side_of
 id: in_superficial_part_of
 name: in_superficial_part_of
 namespace: uberon
-def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the superficial portion." [BSPO:cjm]
 def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the superficial portion." [http://orcid.org/0000-0002-6601-2165]
+def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the superficial portion." [BSPO:cjm]
 xref: BSPO:0001100
 is_a: part_of ! part_of
 
@@ -28921,7 +28562,6 @@ namespace: human_stages_ontology
 def: "Defines the start and end of a stage with a duration of 1 month, relative to either the time of fertilization or last menstrual period of the mother (to be clarified), counting from one, in terms of a reference model. Thus if month_of_gestation=3, then the stage is 2 month in." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 xref: Wikipedia:Gestational_age
-property_value: has_unit UO:0000035
 property_value: has_unit UO:0000035
 is_metadata_tag: true
 
@@ -28991,12 +28631,12 @@ namespace: mouse_stages_ontology
 namespace: opossum_stages_ontology
 namespace: orangutan_stages_ontology
 namespace: pig_stages_ontology
-namespace: platynereis_stage
 namespace: platypus_stages_ontology
 namespace: pufferfish_stages_ontology
 namespace: rabbit_stages_ontology
 namespace: rat_stages_ontology
 namespace: rhesus_macaque_stages_ontology
+namespace: salmo_salar_anatomical_ontology
 namespace: sheep_stages_ontology
 namespace: uberon
 namespace: worm_development
@@ -29026,8 +28666,8 @@ property_value: RO:0040042 BFO:0000020
 property_value: RO:0040042 BFO:0000031
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
-property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Part_of xsd:anyURI
+property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Part_of" xsd:anyURI
 is_transitive: true
 is_a: RO:0002131 ! overlaps
 
@@ -29094,12 +28734,12 @@ namespace: mouse_stages_ontology
 namespace: opossum_stages_ontology
 namespace: orangutan_stages_ontology
 namespace: pig_stages_ontology
-namespace: platynereis_stage
 namespace: platypus_stages_ontology
 namespace: pufferfish_stages_ontology
 namespace: rabbit_stages_ontology
 namespace: rat_stages_ontology
 namespace: rhesus_macaque_stages_ontology
+namespace: salmo_salar_anatomical_ontology
 namespace: sheep_stages_ontology
 namespace: uberon
 namespace: worm_development
@@ -29112,12 +28752,11 @@ synonym: "is preceded by" EXACT [SIO:000249]
 synonym: "takes place after" EXACT [Allen:precedes]
 xref: BFO:0000062
 property_value: editor_note "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
-property_value: http://purl.org/dc/terms/source http://www.obofoundry.org/ro/#OBO_REL:preceded_by xsd:string
+property_value: http://purl.org/dc/terms/source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
 property_value: IAO:0000111 "preceded by" xsd:string
 property_value: IAO:0000118 "is preceded by" xsd:string
 property_value: IAO:0000118 "preceded_by" xsd:string
 holds_over_chain: part_of preceded_by
-is_transitive: true
 is_transitive: true
 is_a: RO:0002086 ! ends after
 
@@ -29247,13 +28886,6 @@ namespace: rabbit_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -29264,8 +28896,6 @@ namespace: rat_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of coitum, assuming that it takes place around midnight during a 7pm to 5am dark cycle (noon of the day on which the vaginal plug is found, the embryos are aged 0.5 days post coitum)." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Timed_Pregnancy]
 def: "Count of number of days intervening between the start of the stage and the time of coitum, defined as the time the vaginal plug is found. Note that the vaginal plug persists for 16-24 hours and may lasts as long as 48 hours." [http://web.jhu.edu/animalcare/procedures/rat.html]
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -29297,25 +28927,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -29329,8 +28940,6 @@ namespace: Dvirilis_stages_ontology
 namespace: Dyakuba_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the organism is one day old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -29359,21 +28968,6 @@ def: "Count of number of months intervening between the start of the stage and t
 def: "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -29390,13 +28984,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -29406,8 +28993,6 @@ namespace: chicken_stages_ontology
 namespace: lizard_stages_ontology
 def: "Count of number of months intervening between the start of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 property_value: has_unit UO:0000035
 is_metadata_tag: true
 
@@ -29429,12 +29014,6 @@ namespace: rat_stages_ontology
 def: "Count of number of weeks intervening between the start of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 0 for this property, and the period during which the mouse is one week old has the value 1." []
 def: "Count of number of weeks intervening between the start of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 0 for this property, and the period during which the rat is one week old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
 property_value: has_unit UO:0000034
 is_metadata_tag: true
 
@@ -29459,19 +29038,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
 is_metadata_tag: true
 
 [Typedef]
@@ -29480,7 +29046,6 @@ name: start, years post hatching
 namespace: pufferfish_stages_ontology
 def: "Count of number of years intervening between the start of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the organism is one year old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000036
 property_value: has_unit UO:0000036
 is_metadata_tag: true
 
