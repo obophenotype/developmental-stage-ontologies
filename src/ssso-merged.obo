@@ -1,6 +1,5 @@
 format-version: 1.2
 subsetdef: anatomical_site_slim ""
-subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: BrainName ""
 subsetdef: BrainName_Embargo ""
 subsetdef: cell_slim ""
@@ -22,36 +21,24 @@ subsetdef: FB_gloss ""
 subsetdef: feed_aligned "subset of classes that have logical defs text defs and synonyms aligned with FEED"
 subsetdef: FlyTed ""
 subsetdef: frequent_anatomy_items ""
-subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
 subsetdef: FT_new ""
 subsetdef: functional_classification "functional_classification"
 subsetdef: goantislim_grouping ""
-subsetdef: gocheck_do_not_annotate ""
 subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
-subsetdef: gocheck_do_not_manually_annotate ""
 subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
-subsetdef: goslim_aspergillus ""
 subsetdef: goslim_aspergillus "Aspergillus GO slim"
-subsetdef: goslim_candida ""
 subsetdef: goslim_candida "Candida GO slim"
 subsetdef: goslim_ChEMBL "ChEMBL GO slim"
 subsetdef: goslim_chembl "ChEMBL GO slim"
 subsetdef: goslim_generic ""
-subsetdef: goslim_generic "Generic GO slim"
 subsetdef: goslim_goa ""
 subsetdef: goslim_metagenomics ""
-subsetdef: goslim_metagenomics "Metagenomics GO slim"
 subsetdef: goslim_pir ""
-subsetdef: goslim_pir "PIR GO slim"
-subsetdef: goslim_plant ""
 subsetdef: goslim_plant "Plant GO slim"
-subsetdef: goslim_pombe ""
 subsetdef: goslim_pombe "Fission yeast GO slim"
 subsetdef: goslim_synapse ""
 subsetdef: goslim_virus ""
 subsetdef: goslim_yeast ""
-subsetdef: goslim_yeast "Yeast GO slim"
-subsetdef: gosubset_prok ""
 subsetdef: gosubset_prok "Prokaryotic GO subset"
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 subsetdef: grouping_class "Subset consisting of classes creating for grouping purposes"
@@ -66,17 +53,14 @@ subsetdef: mf_needs_review ""
 subsetdef: non_informative "abstract class brought in to group ontology classes but not informative"
 subsetdef: olfactory_system_draft ""
 subsetdef: organ_slim "organs, excluding individual muscles and skeletal elements"
-subsetdef: organism_views ""
 subsetdef: organism_views "Organism View slim"
 subsetdef: pheno_slim "Phenotype slim"
 subsetdef: phenotype_rcn "A subset specifically created for the 2012 Phenotype RCN meeting. Includes some human-specific terms that may eventually be removed when they are adequately represented with part of relationships in FMA"
 subsetdef: RD ""
 subsetdef: sectional_anatomy_items ""
-subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 subsetdef: termgenie_unvetted ""
 subsetdef: TL_lineage_clone ""
 subsetdef: uberon_slim "Uberon slim - subset that excludes obscure terms and deep compositional terms"
-subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
 subsetdef: unverified_taxonomic_grouping "Indicates that the class encompasses classes from other AOs that have not been verified"
 subsetdef: upper_level "abstract upper-level terms not directly useful for analysis"
 subsetdef: vertebrate_core "core classes typically found across vertebrates. one purpose is to create a rough set of terms that could be used to start a new vertebrate AO"
@@ -114,7 +98,6 @@ synonymtypedef: NON_MAMMAL "synonym that is inappropriate for mammals"
 synonymtypedef: octopoda ""
 synonymtypedef: PENDING_REVIEW "expert consultation and attribution required"
 synonymtypedef: PLURAL ""
-synonymtypedef: PLURAL "PLURAL"
 synonymtypedef: scientific_name ""
 synonymtypedef: SENSU "taxonomic disambiguation"
 synonymtypedef: SMILES ""
@@ -151,7 +134,6 @@ remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/xao.owl>) VersionIRI(<http://purl.obolibrary.org/obo/xao/releases/2021-03-04/xao.owl>))) [Axioms: 862 Logical Axioms: 251]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/zfs.owl>) VersionIRI(<null>))) [Axioms: 458 Logical Axioms: 148]
 ontology: uberon/stages-merged
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002087> \"RO:0002087\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002087> \"starts_at_end_of\"^^xsd:string)\n)
 
 [Term]
 id: AcarDv:0000000
@@ -1689,7 +1671,7 @@ namespace: FlyBase_development_CV
 alt_id: FBdv:00007010
 def: "A temporal subdivision of a developmental process." [FBC:DOS]
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2009-10-01T05:56:56Z xsd:string
+property_value: terms:date "2009-10-01T05:56:56Z" xsd:string
 
 [Term]
 id: FBdv:00005261
@@ -2526,7 +2508,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005339 ! substage of third instar larval stage
 relationship: immediately_preceded_by FBdv:00005338 ! second instar larval stage
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2008-11-13T11:51:56Z xsd:string
+property_value: terms:date "2008-11-13T11:51:56Z" xsd:string
 
 [Term]
 id: FBdv:00005341
@@ -2540,7 +2522,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00007007 ! substage of late third instar larval stage
 relationship: immediately_preceded_by FBdv:00005340 ! early third instar larval stage
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2008-11-13T11:55:46Z xsd:string
+property_value: terms:date "2008-11-13T11:55:46Z" xsd:string
 
 [Term]
 id: FBdv:00005342
@@ -2956,7 +2938,7 @@ comment: Temporal ordering number - 20000.
 xref: GO:0007283
 is_a: FBdv:00007009 ! developmental process
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2008-06-05T04:51:08Z xsd:string
+property_value: terms:date "2008-06-05T04:51:08Z" xsd:string
 
 [Term]
 id: FBdv:00007001
@@ -2975,7 +2957,7 @@ relationship: RO:0002090 FBdv:00005369 ! immediately precedes adult stage
 relationship: RO:0002090 FBdv:00005370 ! immediately precedes adult stage A1
 relationship: RO:0002090 FBdv:00007025 ! immediately precedes immature adult stage
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2008-06-05T04:51:40Z xsd:string
+property_value: terms:date "2008-06-05T04:51:40Z" xsd:string
 
 [Term]
 id: FBdv:00007002
@@ -3027,7 +3009,7 @@ comment: Temporal ordering number - 10250.
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005278 ! substage of oogenesis stage S13
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2008-11-13T06:27:57Z xsd:string
+property_value: terms:date "2008-11-13T06:27:57Z" xsd:string
 
 [Term]
 id: FBdv:00007007
@@ -3039,7 +3021,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005339 ! substage of third instar larval stage
 relationship: immediately_preceded_by FBdv:00005340 ! early third instar larval stage
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2008-12-11T01:19:53Z xsd:string
+property_value: terms:date "2008-12-11T01:19:53Z" xsd:string
 
 [Term]
 id: FBdv:00007008
@@ -3055,7 +3037,7 @@ def: "A biological process whose specific outcome is the progression of an integ
 xref: GO:0032502
 is_a: FBdv:00007024 ! biological process
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2009-10-01T05:56:42Z xsd:string
+property_value: terms:date "2009-10-01T05:56:42Z" xsd:string
 
 [Term]
 id: FBdv:00007011
@@ -3064,7 +3046,7 @@ namespace: FlyBase_development_CV
 def: "A cycle of nuclear division during the embryogenesis of Drosophila melanogaster. The first 13 cycles are synchronous throughout the embryo and occur their timing relative to other developmental processes is invariant. Later nuclear division cycles are asynchronous across the embryo although may be more locally synchronized." [FlyBase:FBrf0049535, FlyBase:FBrf0089570]
 is_a: FBdv:00007024 ! biological process
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2009-10-01T05:57:41Z xsd:string
+property_value: terms:date "2009-10-01T05:57:41Z" xsd:string
 
 [Term]
 id: FBdv:00007012
@@ -3075,7 +3057,7 @@ synonym: "life cycle stage" EXACT []
 is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00000000 ! substage of Drosophila life
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2009-10-01T05:59:22Z xsd:string
+property_value: terms:date "2009-10-01T05:59:22Z" xsd:string
 
 [Term]
 id: FBdv:00007013
@@ -3083,7 +3065,7 @@ name: age
 namespace: FlyBase_development_CV
 def: "Temporal subdivision of life based on time elapsed since some key developmental transition, such as fertilization, hatching or eclosion." [FBC:DOS]
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2010-09-29T12:25:36Z xsd:string
+property_value: terms:date "2010-09-29T12:25:36Z" xsd:string
 
 [Term]
 id: FBdv:00007014
@@ -3092,7 +3074,7 @@ namespace: FlyBase_development_CV
 def: "Temporal subdivision of adulthood in days post-eclosion." [FBC:DOS]
 is_a: FBdv:00007013 ! age
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2010-09-29T12:28:05Z xsd:string
+property_value: terms:date "2010-09-29T12:28:05Z" xsd:string
 
 [Term]
 id: FBdv:00007015
@@ -3104,7 +3086,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00005334 ! embryonic stage 16
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2011-04-26T11:57:15Z xsd:string
+property_value: terms:date "2011-04-26T11:57:15Z" xsd:string
 
 [Term]
 id: FBdv:00007016
@@ -3116,7 +3098,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00007015 ! embryonic stage 17(i)
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2011-04-26T12:00:15Z xsd:string
+property_value: terms:date "2011-04-26T12:00:15Z" xsd:string
 
 [Term]
 id: FBdv:00007017
@@ -3128,7 +3110,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00007016 ! embryonic stage 17(ii)
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2011-04-26T12:01:18Z xsd:string
+property_value: terms:date "2011-04-26T12:01:18Z" xsd:string
 
 [Term]
 id: FBdv:00007018
@@ -3140,7 +3122,7 @@ is_a: FBdv:00005259 ! developmental stage
 relationship: FBdv:00018001 FBdv:00005335 ! substage of embryonic stage 17
 relationship: immediately_preceded_by FBdv:00007017 ! embryonic stage 17(iii)
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2011-04-26T12:03:14Z xsd:string
+property_value: terms:date "2011-04-26T12:03:14Z" xsd:string
 
 [Term]
 id: FBdv:00007019
@@ -3207,7 +3189,7 @@ relationship: immediately_preceded_by FBdv:00006011 ! pharate adult stage
 relationship: immediately_preceded_by FBdv:00007001 ! P-stage
 relationship: RO:0002090 FBdv:00007026 ! immediately precedes mature adult stage
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2013-01-08T20:06:59Z xsd:string
+property_value: terms:date "2013-01-08T20:06:59Z" xsd:string
 
 [Term]
 id: FBdv:00007026
@@ -3218,7 +3200,7 @@ is_a: FBdv:00007012 ! life stage
 relationship: immediately_preceded_by FBdv:00006012 ! adult stage A3
 relationship: immediately_preceded_by FBdv:00007025 ! immature adult stage
 property_value: terms:contributor http://orcid.org/0000-0002-7073-9172
-property_value: terms:date 2013-01-10T13:03:54Z xsd:string
+property_value: terms:date "2013-01-10T13:03:54Z" xsd:string
 
 [Term]
 id: FBdv:00007075
@@ -3854,7 +3836,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:00007135 ! day 60 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010002
@@ -3866,7 +3848,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010001 ! day 61 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010003
@@ -3878,7 +3860,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010002 ! day 62 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010004
@@ -3890,7 +3872,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010003 ! day 63 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010005
@@ -3902,7 +3884,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010004 ! day 64 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010006
@@ -3914,7 +3896,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010005 ! day 65 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010007
@@ -3926,7 +3908,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010006 ! day 66 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010008
@@ -3938,7 +3920,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010007 ! day 67 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010009
@@ -3950,7 +3932,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010008 ! day 68 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FBdv:0010010
@@ -3962,7 +3944,7 @@ is_a: FBdv:00007014 ! adult age in days
 relationship: FBdv:00018001 FBdv:00005369 ! substage of adult stage
 relationship: immediately_preceded_by FBdv:0010009 ! day 69 of adulthood
 property_value: terms:contributor https://orcid.org/0000-0002-6095-8718
-property_value: terms:date 2024-01-15T17:54:59Z xsd:dateTime
+property_value: terms:date "2024-01-15T17:54:59Z" xsd:dateTime
 
 [Term]
 id: FcatDv:0000000
@@ -10315,9 +10297,9 @@ synonym: "TS05 (E3-5.5)" RELATED [EMAPA:TS05]
 xref: EMAPA:TS05
 xref: XUO:0000049
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker GO:0001835
 relationship: immediately_preceded_by MmusDv:0000008 ! Theiler stage 04
 relationship: part_of MmusDv:0000007 ! blastula stage
-property_value: has_stage_marker GO:0001835
 property_value: start_dpc "4.0" xsd:float
 
 [Term]
@@ -10350,9 +10332,9 @@ synonym: "TS07 (E4.5-6)" RELATED [EMAPA:TS07]
 xref: EMAPA:TS07
 xref: XUO:0000051
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker GO:0007566
 relationship: immediately_preceded_by MmusDv:0000010 ! Theiler stage 06
 relationship: part_of MmusDv:0000007 ! blastula stage
-property_value: has_stage_marker GO:0007566
 property_value: start_dpc "5.0" xsd:float
 
 [Term]
@@ -10395,9 +10377,9 @@ synonym: "TS09 (E6.25-7.25)" RELATED [EMAPA:TS09]
 xref: EMAPA:TS09
 xref: XUO:0000053
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker UBERON:0000926
 relationship: immediately_preceded_by MmusDv:0000012 ! Theiler stage 08
 relationship: part_of MmusDv:0000013 ! gastrula stage
-property_value: has_stage_marker UBERON:0000926
 property_value: start_dpc "6.5" xsd:float
 
 [Term]
@@ -10412,11 +10394,11 @@ synonym: "TS10 (E6.5-7.75)" RELATED [EMAPA:TS10]
 xref: EMAPA:TS10
 xref: XUO:0000054
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker UBERON:0003888
+relationship: has_stage_marker UBERON:0004340
+relationship: has_stage_marker UBERON:0005971
 relationship: immediately_preceded_by MmusDv:0000014 ! Theiler stage 09
 relationship: part_of MmusDv:0000013 ! gastrula stage
-property_value: has_stage_marker UBERON:0003888
-property_value: has_stage_marker UBERON:0004340
-property_value: has_stage_marker UBERON:0005971
 property_value: start_dpc "7.0" xsd:float
 
 [Term]
@@ -10443,9 +10425,9 @@ xref: EMAPA:TS11
 xref: UBERON:0000110
 xref: XUO:0000055
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker UBERON:0003075
 relationship: immediately_preceded_by MmusDv:0000015 ! Theiler stage 10
 relationship: part_of MmusDv:0000002 ! embryonic stage
-property_value: has_stage_marker UBERON:0003075
 property_value: start_dpc "7.5" xsd:float
 
 [Term]
@@ -10470,9 +10452,9 @@ synonym: "TS12 (E7.5-8.75)" RELATED [EMAPA:TS12]
 xref: EMAPA:TS12
 xref: XUO:0000056
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker EMAPA:16173
 relationship: immediately_preceded_by MmusDv:0000017 ! Theiler stage 11
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker EMAPA:16173
 property_value: start_dpc "8.0" xsd:float
 
 [Term]
@@ -10487,11 +10469,11 @@ synonym: "TS13 (E8-9.25)" RELATED [EMAPA:TS13]
 xref: EMAPA:TS13
 xref: XUO:0000057
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker EMAPA:16441
+relationship: has_stage_marker EMAPA:16445
+relationship: has_stage_marker EMAPA:16449
 relationship: immediately_preceded_by MmusDv:0000019 ! Theiler stage 12
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker EMAPA:16441
-property_value: has_stage_marker EMAPA:16445
-property_value: has_stage_marker EMAPA:16449
 property_value: start_dpc "8.5" xsd:float
 
 [Term]
@@ -10506,12 +10488,12 @@ synonym: "TS14 (E8.5-9.75)" RELATED [EMAPA:TS14]
 xref: EMAPA:TS14
 xref: XUO:0000058
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker EMAPA:16445
+relationship: has_stage_marker EMAPA:16449
+relationship: has_stage_marker EMAPA:16453
+relationship: has_stage_marker EMAPA:16457
 relationship: immediately_preceded_by MmusDv:0000020 ! Theiler stage 13
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker EMAPA:16445
-property_value: has_stage_marker EMAPA:16449
-property_value: has_stage_marker EMAPA:16453
-property_value: has_stage_marker EMAPA:16457
 property_value: start_dpc "9.0" xsd:float
 
 [Term]
@@ -10526,9 +10508,9 @@ synonym: "TS15 (E9-10.25)" RELATED [EMAPA:TS15]
 xref: EMAPA:TS15
 xref: XUO:0000059
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker UBERON:0005417
 relationship: immediately_preceded_by MmusDv:0000021 ! Theiler stage 14
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker UBERON:0005417
 property_value: start_dpc "9.5" xsd:float
 
 [Term]
@@ -10543,9 +10525,9 @@ synonym: "TS16 (E9.5-10.75)" RELATED [EMAPA:TS16]
 xref: EMAPA:TS16
 xref: XUO:0000060
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker UBERON:0005418
 relationship: immediately_preceded_by MmusDv:0000022 ! Theiler stage 15
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker UBERON:0005418
 property_value: start_dpc "10.0" xsd:float
 
 [Term]
@@ -10560,10 +10542,10 @@ synonym: "TS17 (E10-11.25)" RELATED [EMAPA:TS17]
 xref: EMAPA:TS17
 xref: XUO:0000061
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker EMAPA:18411
+relationship: has_stage_marker UBERON:0006259
 relationship: immediately_preceded_by MmusDv:0000023 ! Theiler stage 16
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker EMAPA:18411
-property_value: has_stage_marker UBERON:0006259
 property_value: start_dpc "10.5" xsd:float
 
 [Term]
@@ -10578,9 +10560,9 @@ synonym: "TS18 (E10.5-11.25)" RELATED [EMAPA:TS18]
 xref: EMAPA:TS18
 xref: XUO:0000062
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker UBERON:0005870
 relationship: immediately_preceded_by MmusDv:0000024 ! Theiler stage 17
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker UBERON:0005870
 property_value: start_dpc "11.0" xsd:float
 
 [Term]
@@ -10643,9 +10625,9 @@ synonym: "TS22 (E13.5-15)" RELATED [EMAPA:TS22]
 xref: EMAPA:TS22
 xref: XUO:0000066
 is_a: MmusDv:0000000 ! life cycle stage
+relationship: has_stage_marker UBERON:0003606
 relationship: immediately_preceded_by MmusDv:0000028 ! Theiler stage 21
 relationship: part_of MmusDv:0000018 ! organogenesis stage
-property_value: has_stage_marker UBERON:0003606
 property_value: start_dpc "14.0" xsd:float
 
 [Term]
@@ -16476,7 +16458,7 @@ relationship: part_of UBERON:0000092 ! post-embryonic stage
 relationship: preceded_by UBERON:0000070 ! pupal stage
 relationship: preceded_by UBERON:0000111 ! organogenesis stage
 relationship: preceded_by UBERON:0004729 {gci_relation="part_of", gci_filler="NCBITaxon:6239"} ! nematode larval stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/566 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/566" xsd:anyURI
 
 [Term]
 id: UBERON:0000068
@@ -16550,7 +16532,7 @@ relationship: dc-contributor https://github.com/mmc46
 relationship: immediately_preceded_by UBERON:0000069 ! larval stage
 relationship: only_in_taxon NCBITaxon:33392
 relationship: part_of UBERON:0000092 ! post-embryonic stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/562 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/562" xsd:anyURI
 property_value: taxon_notes "The pupal stage is found only in holometabolous insects, those that undergo a complete metamorphosis, going through four life stages; embryo, larva, pupa and imago" xsd:string
 
 [Term]
@@ -16563,7 +16545,7 @@ synonym: "postembryonic stage" EXACT []
 is_a: UBERON:0000105 ! life cycle stage
 relationship: immediately_preceded_by UBERON:0000068 ! embryo stage
 relationship: part_of UBERON:0000104 ! life cycle
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/344 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/344" xsd:anyURI
 property_value: taxon_notes "In birds, the postnatal stage begins when the beak penetrates the shell (i.e., external pipping) (Brown et al. 1997)" xsd:string
 
 [Term]
@@ -16576,7 +16558,7 @@ synonym: "entire lifespan" EXACT []
 synonym: "life" EXACT []
 synonym: "lifespan" EXACT []
 is_a: UBERON:0000105 ! life cycle stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/532 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/532" xsd:anyURI
 
 [Term]
 id: UBERON:0000105
@@ -16623,7 +16605,7 @@ subset: efo_slim
 is_a: UBERON:0000105 ! life cycle stage
 relationship: part_of UBERON:0000068 ! embryo stage
 relationship: preceded_by UBERON:0000107 ! cleavage stage
-property_value: depicted_by http://upload.wikimedia.org/wikipedia/commons/c/c6/Blastulation.png xsd:anyURI
+property_value: depicted_by "http://upload.wikimedia.org/wikipedia/commons/c/c6/Blastulation.png" xsd:anyURI
 property_value: editor_note "consider adding a preceding stage 'morula stage' as part of cleavage" xsd:string
 
 [Term]
@@ -16650,7 +16632,7 @@ is_a: UBERON:0000105 ! life cycle stage
 relationship: only_in_taxon NCBITaxon:6072
 relationship: part_of UBERON:0000068 ! embryo stage
 relationship: preceded_by UBERON:0000109 ! gastrula stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/343 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/343" xsd:anyURI
 
 [Term]
 id: UBERON:0000111
@@ -16661,7 +16643,7 @@ is_a: UBERON:0000105 ! life cycle stage
 relationship: only_in_taxon NCBITaxon:6072
 relationship: part_of UBERON:0000068 ! embryo stage
 relationship: preceded_by UBERON:0000110 ! neurula stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/533 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/533" xsd:anyURI
 
 [Term]
 id: UBERON:0000112
@@ -16676,7 +16658,7 @@ relationship: part_of UBERON:0000066 ! fully formed stage
 relationship: preceded_by UBERON:0000068 ! embryo stage
 relationship: preceded_by UBERON:0000069 {gci_relation="part_of", gci_filler="NCBITaxon:7955", source="ZFS"} ! larval stage
 property_value: external_definition "The stage of being a sexually immature adult animal[XAO:1000010]." xsd:string {source="XAO:1000010"}
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/427 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/427" xsd:anyURI
 property_value: taxon_notes "In mammals this would include infant (nourishment from lactation) and juvenile (prepubertal no longer dependent on mother)" xsd:string
 
 [Term]
@@ -16687,8 +16669,8 @@ synonym: "adult stage" BROAD []
 is_a: UBERON:0000105 ! life cycle stage
 relationship: part_of UBERON:0000066 ! fully formed stage
 relationship: preceded_by UBERON:0000112 ! sexually immature stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/345 xsd:anyURI
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/499 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/345" xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/499" xsd:anyURI
 
 [Term]
 id: UBERON:0004707
@@ -16716,7 +16698,7 @@ synonym: "tadpole stage" NARROW SENSU [http://en.wikipedia.org/wiki/Larva]
 is_a: UBERON:0000069 ! larval stage
 relationship: only_in_taxon NCBITaxon:8292
 property_value: external_ontology_notes "the XAO class denotes a stage" xsd:string {external_ontology="XAO"}
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/534 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/534" xsd:anyURI
 
 [Term]
 id: UBERON:0004729
@@ -16724,7 +16706,7 @@ name: nematode larval stage
 def: "Nematode larval development begins with the newly hatched first-stage larva (L1) and ends with the end of the last larval stage (for example the fourth larval stage (L4) in C. elegans). Each stage of nematode larval development is characterized by proliferation of specific cell lineages and an increase in body size without alteration of the basic body plan. Nematode larval stages are separated by molts in which each stage-specific exoskeleton, or cuticle, is shed and replaced anew." [GO:0002119]
 is_a: UBERON:0000069 ! larval stage
 relationship: only_in_taxon NCBITaxon:6231
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/567 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/567" xsd:anyURI
 
 [Term]
 id: UBERON:0004730
@@ -16732,7 +16714,7 @@ name: instar larval stage
 def: "This begins with the newly hatched first-instar larva, through its maturation to the end of the last larval stage. An example of this process is found in Drosophila melanogaster." [GO:0002168]
 is_a: UBERON:0000069 ! larval stage
 relationship: only_in_taxon NCBITaxon:50557
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/526 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/526" xsd:anyURI
 
 [Term]
 id: UBERON:0007220
@@ -16749,7 +16731,7 @@ relationship: part_of UBERON:0000068 ! embryo stage
 relationship: preceded_by RnorDv:0000010 {gci_relation="part_of", gci_filler="NCBITaxon:10116"} ! metamorphosing embryo stage
 relationship: preceded_by UBERON:0000111 ! organogenesis stage
 relationship: preceded_by UBERON:0004707 ! pharyngula stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/355 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/355" xsd:anyURI
 
 [Term]
 id: UBERON:0007221
@@ -16769,7 +16751,7 @@ is_a: UBERON:0000105 ! life cycle stage
 relationship: part_of UBERON:0000112 ! sexually immature stage
 relationship: part_of UBERON:0018685 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! nursing stage
 property_value: editor_note "consider splitting infant/newborn" xsd:string
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/350 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/350" xsd:anyURI
 
 [Term]
 id: UBERON:0007222
@@ -16781,7 +16763,7 @@ synonym: "geriatric stage" RELATED [EV:0300123]
 is_a: UBERON:0000105 ! life cycle stage
 relationship: part_of UBERON:0000113 ! post-juvenile adult stage
 relationship: preceded_by UBERON:0018241 ! prime adult stage
-property_value: seeAlso https://github.com/obophenotype/uberon/issues/495 xsd:anyURI
+property_value: seeAlso "https://github.com/obophenotype/uberon/issues/495" xsd:anyURI
 
 [Term]
 id: UBERON:0007232
@@ -28107,13 +28089,6 @@ namespace: rabbit_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -28124,8 +28099,6 @@ namespace: rat_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of coitum, assuming that it takes place around midnight during a 7pm to 5am dark cycle (noon of the day on which the vaginal plug is found, the embryos are aged 0.5 days post coitum)." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Timed_Pregnancy]
 def: "Count of number of days intervening between the end of the stage and the time of coitum, defined as the time the vaginal plug is found. Note that the vaginal plug persists for 16-24 hours and may lasts as long as 48 hours." [http://web.jhu.edu/animalcare/procedures/rat.html]
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -28155,23 +28128,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -28185,8 +28141,6 @@ namespace: Dvirilis_stages_ontology
 namespace: Dyakuba_stages_ontology
 def: "Count of number of days intervening between the end of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the organism is one day old has the value 2." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be applirabbition-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -28215,21 +28169,6 @@ def: "Count of number of months intervening between the end of the stage and the
 def: "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -28246,13 +28185,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -28262,8 +28194,6 @@ namespace: chicken_stages_ontology
 namespace: lizard_stages_ontology
 def: "Count of number of months intervening between the end of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 property_value: has_unit UO:0000035
 is_metadata_tag: true
 
@@ -28285,12 +28215,6 @@ namespace: rat_stages_ontology
 def: "Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the mouse is one week old has the value 2" []
 def: "Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the rat is one week old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
 property_value: has_unit UO:0000034
 is_metadata_tag: true
 
@@ -28315,19 +28239,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
 is_metadata_tag: true
 
 [Typedef]
@@ -28336,7 +28247,6 @@ name: end, years post hatching
 namespace: pufferfish_stages_ontology
 def: "Count of number of years intervening between the end of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the organism is one year old has the value 2" []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000036
 property_value: has_unit UO:0000036
 is_metadata_tag: true
 
@@ -28824,7 +28734,6 @@ def: "Defines the start and end of a stage with a duration of 1 month, relative 
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 xref: Wikipedia:Gestational_age
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -28924,8 +28833,8 @@ property_value: RO:0040042 BFO:0000020
 property_value: RO:0040042 BFO:0000031
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
-property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Part_of xsd:anyURI
+property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Part_of" xsd:anyURI
 is_transitive: true
 is_a: RO:0002131 ! overlaps
 
@@ -29010,12 +28919,11 @@ synonym: "is preceded by" EXACT [SIO:000249]
 synonym: "takes place after" EXACT [Allen:precedes]
 xref: BFO:0000062
 property_value: editor_note "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
-property_value: http://purl.org/dc/terms/source http://www.obofoundry.org/ro/#OBO_REL:preceded_by xsd:string
+property_value: http://purl.org/dc/terms/source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
 property_value: IAO:0000111 "preceded by" xsd:string
 property_value: IAO:0000118 "is preceded by" xsd:string
 property_value: IAO:0000118 "preceded_by" xsd:string
 holds_over_chain: part_of preceded_by
-is_transitive: true
 is_transitive: true
 is_a: RO:0002086 ! ends after
 
@@ -29145,13 +29053,6 @@ namespace: rabbit_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -29162,8 +29063,6 @@ namespace: rat_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of coitum, assuming that it takes place around midnight during a 7pm to 5am dark cycle (noon of the day on which the vaginal plug is found, the embryos are aged 0.5 days post coitum)." [http://php.med.unsw.edu.au/embryology/index.php?title=Mouse_Stages#Timed_Pregnancy]
 def: "Count of number of days intervening between the start of the stage and the time of coitum, defined as the time the vaginal plug is found. Note that the vaginal plug persists for 16-24 hours and may lasts as long as 48 hours." [http://web.jhu.edu/animalcare/procedures/rat.html]
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -29195,25 +29094,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 is_metadata_tag: true
 
 [Typedef]
@@ -29227,8 +29107,6 @@ namespace: Dvirilis_stages_ontology
 namespace: Dyakuba_stages_ontology
 def: "Count of number of days intervening between the start of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the organism is one day old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000033
-property_value: has_unit UO:0000033
 property_value: has_unit UO:0000033
 is_metadata_tag: true
 
@@ -29257,21 +29135,6 @@ def: "Count of number of months intervening between the start of the stage and t
 def: "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -29288,13 +29151,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]
@@ -29304,8 +29160,6 @@ namespace: chicken_stages_ontology
 namespace: lizard_stages_ontology
 def: "Count of number of months intervening between the start of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000035
-property_value: has_unit UO:0000035
 property_value: has_unit UO:0000035
 is_metadata_tag: true
 
@@ -29327,12 +29181,6 @@ namespace: rat_stages_ontology
 def: "Count of number of weeks intervening between the start of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 0 for this property, and the period during which the mouse is one week old has the value 1." []
 def: "Count of number of weeks intervening between the start of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 0 for this property, and the period during which the rat is one week old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
-property_value: has_unit UO:0000034
 property_value: has_unit UO:0000034
 is_metadata_tag: true
 
@@ -29357,19 +29205,6 @@ namespace: sheep_stages_ontology
 def: "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
-property_value: has_unit UO:0000036
 is_metadata_tag: true
 
 [Typedef]
@@ -29378,7 +29213,6 @@ name: start, years post hatching
 namespace: pufferfish_stages_ontology
 def: "Count of number of years intervening between the start of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the organism is one year old has the value 1." []
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
-property_value: has_unit UO:0000036
 property_value: has_unit UO:0000036
 is_metadata_tag: true
 

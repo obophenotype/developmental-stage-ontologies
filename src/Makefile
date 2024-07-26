@@ -3,7 +3,8 @@
 OBO=http://purl.obolibrary.org/obo
 
 OWLTOOLS=owltools
-
+ROBOT=robot
+ROBOT_CONVERT=$(ROBOT) convert --input $@ -f obo --check false --output $@
 
 BRIDGE_PARAMS_SUFFIX:=-bridge-params.tsv
 BRIDGE_UBERON_SUFFIX:=-bridge-to-uberon.obo
@@ -28,7 +29,7 @@ clean:
 	@rm -f ssso-merged-uberon.obo
 
 %.owl: %.obo
-	@$(OWLTOOLS) $< -o $@ 
+	@$(OWLTOOLS) $< -o $@
 
 %$(BRIDGE_UBERON_SUFFIX): %$(BRIDGE_PARAMS_SUFFIX) %.obo
 	@IFS_OLD=$$IFS; \
@@ -43,6 +44,7 @@ clean:
 	read speciesName taxId < $<; \
 	IFS=$$IFS_OLD; \
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $*.obo $*$(BRIDGE_UBERON_SUFFIX) --merge-support-ontologies  --reasoner elk --merge-species-ontology -s "$$speciesName" -t $$taxId -o -f obo --no-check $@
+	$(ROBOT_CONVERT)
 
 # cURL command, to download files only if more recently changed
 # (it was not working correctly with wget in our case)
@@ -80,23 +82,29 @@ external_ontologies/xao/uberon-bridge-to-xao.obo:
 
 external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX): external_ontologies/zfs/zfs.obo external_ontologies/zfs/uberon-bridge-to-zfs.obo
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies  --reasoner elk --merge-species-ontology -s "Danio" -t NCBITaxon:7954 -o -f obo --no-check $@
+	$(ROBOT_CONVERT)
 
 external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX): external_ontologies/fbdv/fbdv.obo external_ontologies/fbdv/uberon-bridge-to-fbdv.obo
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies  --reasoner elk --merge-species-ontology -s "fruit fly" -t NCBITaxon:7227 -o -f obo --no-check $@
+	$(ROBOT_CONVERT)
 
 external_ontologies/wbls/wbls$(COMPOSITE_UBERON_SUFFIX): external_ontologies/wbls/wbls.obo external_ontologies/wbls/uberon-bridge-to-wbls.obo
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies --reasoner elk --merge-species-ontology -s "nematode" -t NCBITaxon:6237 -o -f obo --no-check $@
+	$(ROBOT_CONVERT)
 
 external_ontologies/xao/xao-dev-stages$(COMPOSITE_UBERON_SUFFIX): external_ontologies/xao/xao-dev-stages.obo external_ontologies/xao/uberon-bridge-to-xao.obo
 	$(OWLTOOLS)  --create-ontology uberon/bridge/$@ $^ --merge-support-ontologies --reasoner elk --merge-species-ontology -s "Xenopus" -t NCBITaxon:8353 -o -f obo --no-check $@
+	$(ROBOT_CONVERT)
 
 ALL_OBO := $(patsubst %, */%.obo,$(ONT_PREFIXES))
 ssso-merged.obo: life-stages-minimal.obo $(ALL_OBO) external_ontologies/zfs/zfs.obo external_ontologies/fbdv/fbdv.obo external_ontologies/wbls/wbls.obo external_ontologies/xao/xao-dev-stages.obo
 	@$(OWLTOOLS) --create-ontology $(OBO)/uberon/stages-merged.owl $^ --merge-support-ontologies -o -f obo --no-check $@
+	$(ROBOT_CONVERT)
 
 ALL_COMPOSITE_OBO := $(patsubst %, */%$(COMPOSITE_UBERON_SUFFIX),$(ONT_PREFIXES))
 ssso-merged-uberon.obo: life-stages-minimal.obo $(ALL_COMPOSITE_OBO) external_ontologies/zfs/zfs$(COMPOSITE_UBERON_SUFFIX) external_ontologies/fbdv/fbdv$(COMPOSITE_UBERON_SUFFIX) external_ontologies/wbls/wbls$(COMPOSITE_UBERON_SUFFIX) external_ontologies/xao/xao-dev-stages$(COMPOSITE_UBERON_SUFFIX)
 	@$(OWLTOOLS) --create-ontology $(OBO)/uberon/ssso-merged-uberon.owl $^ --merge-support-ontologies -o -f obo --no-check $@
+	$(ROBOT_CONVERT)
 
 .PRECIOUS:  ssso-merged.obo
 .PRECIOUS:  ssso-merged-uberon.obo

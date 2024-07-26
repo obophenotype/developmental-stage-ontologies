@@ -1,34 +1,12 @@
 [Term]
-id: OariDv:0000011
-property_value: IAO:0000589 "day 1-3 cleavage stage (sheep)" xsd:string
+id: OariDv:0000017
+property_value: IAO:0000589 "day 13 embryonic stage (sheep)" xsd:string
 relationship: only_in_taxon NCBITaxon:9940 ! sheep
 
 [Term]
-id: OariDv:0000016
-property_value: IAO:0000589 "day 12 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000018
-property_value: IAO:0000589 "day 14 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000000
-property_value: IAO:0000589 "life cycle stage (sheep)" xsd:string
-intersection_of: UBERON:0000105
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000002
-property_value: IAO:0000589 "prenatal stage (sheep)" xsd:string
-intersection_of: UBERON:0000068
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000027
-property_value: IAO:0000589 "neurula stage (sheep)" xsd:string
-intersection_of: UBERON:0000110
+id: OariDv:0000008
+property_value: IAO:0000589 "aged stage (sheep)" xsd:string
+intersection_of: UBERON:0007222
 intersection_of: part_of NCBITaxon:9940
 
 [Term]
@@ -38,21 +16,15 @@ intersection_of: UBERON:0034919
 intersection_of: part_of NCBITaxon:9940
 
 [Term]
-id: OariDv:0000003
-property_value: IAO:0000589 "immature stage (sheep)" xsd:string
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000026
-property_value: IAO:0000589 "gastrula stage (sheep)" xsd:string
-intersection_of: UBERON:0000109
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000021
-property_value: IAO:0000589 "day 17-19 embryonic stage (sheep)" xsd:string
+id: OariDv:0000022
+property_value: IAO:0000589 "day 20 embryonic stage (sheep)" xsd:string
 relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000025
+property_value: IAO:0000589 "blastula stage (sheep)" xsd:string
+intersection_of: UBERON:0000108
+intersection_of: part_of NCBITaxon:9940
 
 [Term]
 id: OariDv:0000028
@@ -67,8 +39,25 @@ intersection_of: UBERON:0000106
 intersection_of: part_of NCBITaxon:9940
 
 [Term]
-id: OariDv:0000017
-property_value: IAO:0000589 "day 13 embryonic stage (sheep)" xsd:string
+id: OariDv:0000002
+property_value: IAO:0000589 "prenatal stage (sheep)" xsd:string
+intersection_of: UBERON:0000068
+intersection_of: part_of NCBITaxon:9940
+
+[Term]
+id: OariDv:0000013
+property_value: IAO:0000589 "day 6-9 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000000
+property_value: IAO:0000589 "life cycle stage (sheep)" xsd:string
+intersection_of: UBERON:0000105
+intersection_of: part_of NCBITaxon:9940
+
+[Term]
+id: OariDv:0000011
+property_value: IAO:0000589 "day 1-3 cleavage stage (sheep)" xsd:string
 relationship: only_in_taxon NCBITaxon:9940 ! sheep
 
 [Term]
@@ -78,73 +67,9 @@ intersection_of: UBERON:0018685
 intersection_of: part_of NCBITaxon:9940
 
 [Term]
-id: OariDv:0000014
-property_value: IAO:0000589 "day 10 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000025
-property_value: IAO:0000589 "blastula stage (sheep)" xsd:string
-intersection_of: UBERON:0000108
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000023
-property_value: IAO:0000589 "day 21 and over embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000022
-property_value: IAO:0000589 "day 20 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000019
-property_value: IAO:0000589 "day 15 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000007
-property_value: IAO:0000589 "adulthood stage (sheep)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000020
-property_value: IAO:0000589 "day 16 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000013
-property_value: IAO:0000589 "day 6-9 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000015
-property_value: IAO:0000589 "day 11 embryonic stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000024
-property_value: IAO:0000589 "postnatal stage (sheep)" xsd:string
-intersection_of: UBERON:0000066
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000012
-property_value: IAO:0000589 "day 4-5 morula stage (sheep)" xsd:string
-relationship: only_in_taxon NCBITaxon:9940 ! sheep
-
-[Term]
-id: OariDv:0000010
-property_value: IAO:0000589 "cleavage stage (sheep)" xsd:string
-intersection_of: UBERON:0000107
-intersection_of: part_of NCBITaxon:9940
-
-[Term]
-id: OariDv:0000008
-property_value: IAO:0000589 "aged stage (sheep)" xsd:string
-intersection_of: UBERON:0007222
+id: OariDv:0000026
+property_value: IAO:0000589 "gastrula stage (sheep)" xsd:string
+intersection_of: UBERON:0000109
 intersection_of: part_of NCBITaxon:9940
 
 [Term]
@@ -154,50 +79,85 @@ intersection_of: UBERON:0000113
 intersection_of: part_of NCBITaxon:9940
 
 [Term]
+id: OariDv:0000024
+property_value: IAO:0000589 "postnatal stage (sheep)" xsd:string
+intersection_of: UBERON:0000066
+intersection_of: part_of NCBITaxon:9940
+
+[Term]
+id: OariDv:0000020
+property_value: IAO:0000589 "day 16 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000012
+property_value: IAO:0000589 "day 4-5 morula stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000019
+property_value: IAO:0000589 "day 15 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000027
+property_value: IAO:0000589 "neurula stage (sheep)" xsd:string
+intersection_of: UBERON:0000110
+intersection_of: part_of NCBITaxon:9940
+
+[Term]
+id: OariDv:0000015
+property_value: IAO:0000589 "day 11 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000018
+property_value: IAO:0000589 "day 14 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000007
+property_value: IAO:0000589 "adulthood stage (sheep)" xsd:string
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9940
+
+[Term]
+id: OariDv:0000016
+property_value: IAO:0000589 "day 12 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000021
+property_value: IAO:0000589 "day 17-19 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000023
+property_value: IAO:0000589 "day 21 and over embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
+id: OariDv:0000014
+property_value: IAO:0000589 "day 10 embryonic stage (sheep)" xsd:string
+relationship: only_in_taxon NCBITaxon:9940 ! sheep
+
+[Term]
 id: OariDv:0000001
 property_value: IAO:0000589 "life cycle (sheep)" xsd:string
 intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:9940
 
 [Term]
-id: UBERON:0034919
-synonym: "juvenile stage" BROAD []
-xref: OariDv:0000005
+id: OariDv:0000010
+property_value: IAO:0000589 "cleavage stage (sheep)" xsd:string
+intersection_of: UBERON:0000107
+intersection_of: part_of NCBITaxon:9940
 
 [Term]
-id: UBERON:0000113
-synonym: "mature stage" BROAD []
-xref: OariDv:0000006
-
-[Term]
-id: UBERON:0018685
-synonym: "suckling stage" BROAD []
-xref: OariDv:0000004
-
-[Term]
-id: UBERON:0000104
-synonym: "life cycle" BROAD []
-xref: OariDv:0000001
-
-[Term]
-id: UBERON:0000112
-synonym: "immature stage" BROAD []
-xref: OariDv:0000003
-
-[Term]
-id: UBERON:0000107
-synonym: "cleavage stage" BROAD []
-xref: OariDv:0000010
-
-[Term]
-id: UBERON:0000110
-synonym: "neurula stage" BROAD []
-xref: OariDv:0000027
-
-[Term]
-id: UBERON:0000068
-synonym: "prenatal stage" BROAD []
-xref: OariDv:0000002
+id: OariDv:0000003
+property_value: IAO:0000589 "immature stage (sheep)" xsd:string
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:9940
 
 [Term]
 id: UBERON:0000106
@@ -205,19 +165,9 @@ synonym: "zygote stage" BROAD []
 xref: OariDv:0000009
 
 [Term]
-id: UBERON:0007222
-synonym: "aged stage" BROAD []
-xref: OariDv:0000008
-
-[Term]
-id: UBERON:0018241
-synonym: "adulthood stage" BROAD []
-xref: OariDv:0000007
-
-[Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: OariDv:0000000
+id: UBERON:0000107
+synonym: "cleavage stage" BROAD []
+xref: OariDv:0000010
 
 [Term]
 id: UBERON:0000111
@@ -230,14 +180,64 @@ synonym: "blastula stage" BROAD []
 xref: OariDv:0000025
 
 [Term]
-id: UBERON:0000109
-synonym: "gastrula stage" BROAD []
-xref: OariDv:0000026
+id: UBERON:0000104
+synonym: "life cycle" BROAD []
+xref: OariDv:0000001
+
+[Term]
+id: UBERON:0000068
+synonym: "prenatal stage" BROAD []
+xref: OariDv:0000002
+
+[Term]
+id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: OariDv:0000007
+
+[Term]
+id: UBERON:0000112
+synonym: "immature stage" BROAD []
+xref: OariDv:0000003
 
 [Term]
 id: UBERON:0000066
 synonym: "postnatal stage" BROAD []
 xref: OariDv:0000024
+
+[Term]
+id: UBERON:0000113
+synonym: "mature stage" BROAD []
+xref: OariDv:0000006
+
+[Term]
+id: UBERON:0034919
+synonym: "juvenile stage" BROAD []
+xref: OariDv:0000005
+
+[Term]
+id: UBERON:0007222
+synonym: "aged stage" BROAD []
+xref: OariDv:0000008
+
+[Term]
+id: UBERON:0018685
+synonym: "suckling stage" BROAD []
+xref: OariDv:0000004
+
+[Term]
+id: UBERON:0000109
+synonym: "gastrula stage" BROAD []
+xref: OariDv:0000026
+
+[Term]
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: OariDv:0000000
+
+[Term]
+id: UBERON:0000110
+synonym: "neurula stage" BROAD []
+xref: OariDv:0000027
 
 [Typedef]
 id: part_of
