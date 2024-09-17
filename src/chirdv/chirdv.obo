@@ -145,7 +145,7 @@ id: ChirDv:0000012
 name: neurula stage
 namespace: goat_developmental_stage
 def: "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel." [UBERON:0000108 "adapted from"]
-xref: UBERON:0000108
+xref: UBERON:0000110
 is_a: ChirDv:0000000 ! life cycle stage
 relationship: part_of ChirDv:0000002 ! prenatal stage
 relationship: immediately_preceded_by ChirDv:0000011 ! gastrula stage
@@ -404,6 +404,7 @@ name: juvenile stage
 namespace: goat_developmental_stage
 def: "Goat developmental stage that covers the period from 6 months old, until about 18 months old, when individuals, at least females, have reached sexual maturity." [Bgee:curator "Bgee"]
 comment: Goat reach sexual maturity by 685 days of age for male (22 months), 406 days for female (13 months) (see http://genomics.senescence.info/species/entry.php?species=Capra_hircus). We arbitrary define the limit of the immature stage to 18 months.
+xref: UBERON:0034919
 is_a: ChirDv:0000000 ! life cycle stage
 relationship: part_of ChirDv:0000015 ! immature stage
 relationship: immediately_preceded_by ChirDv:0000016 ! nursing stage
@@ -700,5 +701,4 @@ is_metadata_tag: true
 comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
 property_value: has_unit  UO:0000036 ! year
 is_a: has_end_time
-
 
