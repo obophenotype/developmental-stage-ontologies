@@ -1,0 +1,93 @@
+id: life-stages
+title: "Developmental Stages Ontology"
+github_org: obophenotype
+repo: developmental-stage-ontologies
+git_main_branch: master
+namespaces: 
+  - http://purl.obolibrary.org/obo/HP_
+  - http://purl.obolibrary.org/obo/hp
+release_artefacts: 
+  - base
+  - full
+  - custom-life-stages-minimal
+  - custom-ssso-merged-uberon
+  - custom-ssso-merged
+primary_release: simple-non-classified
+export_formats:
+  - owl
+  - obo
+  - json
+workflows:
+  - docs
+  - qc
+import_group:
+  use_base_merging: TRUE
+  exclude_iri_patterns:
+    - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_*>
+    - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://purl.obolibrary.org/obo/OBI_*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/ENVO_*>
+    - <http://purl.obolibrary.org/obo/SO_*>
+    - <http://purl.obolibrary.org/obo/cl#abbreviation*>
+    - <http://purl.obolibrary.org/obo/cl#added_for_HCA*>
+    - <http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>
+    - <http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>
+    - <http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>
+    - <http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>
+    - <http://purl.obolibrary.org/obo/uberon/core#LATIN*>
+    - <http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>
+    - <http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>
+    - <http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>
+    - <http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>
+    - <http://purl.obolibrary.org/obo/uberon/core#PLURAL*>
+    - <http://purl.obolibrary.org/obo/uberon/core#SENSU*>
+    - <http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>
+  slme_individuals: exclude
+  mirror_max_time_download: 400
+  products:
+    - id: omo
+      use_base: TRUE
+    - id: ro
+      use_base: TRUE
+components:
+  products:
+    - filename: acardv.owl
+    - filename: btaudv.owl
+    - filename: cfamdv.owl
+    - filename: cpordv.owl
+    - filename: dpsedv.owl
+    - filename: dsimdv.owl
+    - filename: ecabdv.owl
+    - filename: fcatdv.owl
+    - filename: ggaldv.owl
+    - filename: ggordv.owl
+    - filename: hsapdv.owl
+    - filename: mdomdv.owl
+    - filename: mmuldv.owl
+    - filename: mmusdv.owl
+    - filename: oanadv.owl
+    - filename: oaridv.owl
+    - filename: ocundv.owl
+    - filename: ppandv.owl
+    - filename: ptrodv.owl
+    - filename: rnordv.owl
+    - filename: sscrdv.owl
+    - filename: ssaldv.owl
+robot_java_args: '-Xmx8G'
+allow_equivalents: none
+robot_report:
+  release_reports: True
+  fail_on : ERROR
+  use_labels: False
+  custom_profile: False
+  ensure_owl2dl_profile: True
+  report_on:
+    - life-stages-full.owl
+documentation:
+  documentation_system: mkdocs
