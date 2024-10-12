@@ -128,7 +128,7 @@ components:
     - filename: life-stages-minimal.obo
 
 robot_java_args: '-Xmx8G'
-allow_equivalents: asserted-only
+allow_equivalents: all
 robot_report:
   release_reports: True
   fail_on : NONE

@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                b0b3e4b6fe294c22d7ea3368e7c143bb5b45747b38f8b5999f4b83a864f5a009
+CONFIG_HASH=                49fc9c0d4993e38f8fd6cf025cf7f9e1802a0e88f4b8da484287d5eb5b0ae3ac
 
 
 # ----------------------------------------
@@ -91,7 +91,7 @@ release_diff: $(REPORTDIR)/release-diff.md
 
 .PHONY: reason_test
 reason_test: $(EDIT_PREPROCESSED)
-	$(ROBOT) reason --input $< --reasoner ELK --equivalent-classes-allowed asserted-only \
+	$(ROBOT) reason --input $< --reasoner ELK --equivalent-classes-allowed all \
 		--exclude-tautologies structural --output test.owl && rm test.owl
 
 .PHONY: odkversion
@@ -629,7 +629,7 @@ ROBOT_RELEASE_IMPORT_MODE_BASE=$(ROBOT) remove --input $< --select imports --tri
 # base: A version of the ontology that does not include any externally imported axioms.
 $(ONT)-base.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
-	reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural --annotate-inferred-axioms False \
+	reason --reasoner ELK --equivalent-classes-allowed all --exclude-tautologies structural --annotate-inferred-axioms False \
 	relax \
 	reduce -r ELK \
 	remove --base-iri http://purl.obolibrary.org/obo/AcarDv_ --base-iri http://purl.obolibrary.org/obo/BtauDv_ --base-iri http://purl.obolibrary.org/obo/CfamDv_ --base-iri http://purl.obolibrary.org/obo/CporDv_ --base-iri http://purl.obolibrary.org/obo/DpseDv_ --base-iri http://purl.obolibrary.org/obo/DsimDv_ --base-iri http://purl.obolibrary.org/obo/EcabDv_ --base-iri http://purl.obolibrary.org/obo/FcatDv_ --base-iri http://purl.obolibrary.org/obo/GgalDv_ --base-iri http://purl.obolibrary.org/obo/GgorDv_ --base-iri http://purl.obolibrary.org/obo/HsapDv_ --base-iri http://purl.obolibrary.org/obo/MdomDv_ --base-iri http://purl.obolibrary.org/obo/MmulDv_ --base-iri http://purl.obolibrary.org/obo/MmusDv_ --base-iri http://purl.obolibrary.org/obo/OanaDv_ --base-iri http://purl.obolibrary.org/obo/OariDv_ --base-iri http://purl.obolibrary.org/obo/OcunDv_ --base-iri http://purl.obolibrary.org/obo/PpanDv_ --base-iri http://purl.obolibrary.org/obo/PtroDv_ --base-iri http://purl.obolibrary.org/obo/RnorDv_ --base-iri http://purl.obolibrary.org/obo/SsalDv_ --base-iri http://purl.obolibrary.org/obo/SscrDv_ --base-iri http://purl.obolibrary.org/obo/acardv --base-iri http://purl.obolibrary.org/obo/btaudv --base-iri http://purl.obolibrary.org/obo/cfamdv --base-iri http://purl.obolibrary.org/obo/cpordv --base-iri http://purl.obolibrary.org/obo/dpsedv --base-iri http://purl.obolibrary.org/obo/dsimdv --base-iri http://purl.obolibrary.org/obo/ecabdv --base-iri http://purl.obolibrary.org/obo/fcatdv --base-iri http://purl.obolibrary.org/obo/ggaldv --base-iri http://purl.obolibrary.org/obo/ggordv --base-iri http://purl.obolibrary.org/obo/hsapdv --base-iri http://purl.obolibrary.org/obo/mdomdv --base-iri http://purl.obolibrary.org/obo/mmuldv --base-iri http://purl.obolibrary.org/obo/mmusdv --base-iri http://purl.obolibrary.org/obo/oanadv --base-iri http://purl.obolibrary.org/obo/oaridv --base-iri http://purl.obolibrary.org/obo/ocundv --base-iri http://purl.obolibrary.org/obo/ppandv --base-iri http://purl.obolibrary.org/obo/ptrodv --base-iri http://purl.obolibrary.org/obo/rnordv --base-iri http://purl.obolibrary.org/obo/ssaldv --base-iri http://purl.obolibrary.org/obo/sscrdv --axioms external --preserve-structure false --trim false \
@@ -640,7 +640,7 @@ $(ONT)-base.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 # Full: The full artefacts with imports merged, reasoned.
 $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
-		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		reason --reasoner ELK --equivalent-classes-allowed all --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
