@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                9237fcf00bef8a6c470729d3fbc0fd2091e73f075c851c090be9ab56d35c0b6b
+CONFIG_HASH=                6ef4f88a8d4dff98dece36944c3b785b71ea9dc1ed2061eb6cb6884673e92af1
 
 
 # ----------------------------------------
@@ -53,7 +53,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/merged-manual.owl $(COMPONENTSDIR)/zfs.obo $(COMPONENTSDIR)/fbdv.owl $(COMPONENTSDIR)/wbls.owl $(COMPONENTSDIR)/xao.owl $(COMPONENTSDIR)/uberon-bridge-to-fbdv.owl $(COMPONENTSDIR)/uberon-bridge-to-wbls.owl $(COMPONENTSDIR)/uberon-bridge-to-xao.owl $(COMPONENTSDIR)/life-stages-minimal.obo 
+OTHER_SRC =                 $(COMPONENTSDIR)/merged-manual.owl $(COMPONENTSDIR)/life-stages-minimal.obo 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -159,7 +159,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  omo ro
+IMPORTS =  omo ro fbdv wbls xao uberon-bridge-to-fbdv uberon-bridge-to-wbls uberon-bridge-to-xao
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -365,6 +365,42 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
+## Module for ontology: fbdv
+
+$(IMPORTDIR)/fbdv_import.owl: $(MIRRORDIR)/fbdv.owl $(IMPORTDIR)/fbdv_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+    $(ANNOTATE_CONVERT_FILE); fi
+
+## Module for ontology: wbls
+
+$(IMPORTDIR)/wbls_import.owl: $(MIRRORDIR)/wbls.owl $(IMPORTDIR)/wbls_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+    $(ANNOTATE_CONVERT_FILE); fi
+
+## Module for ontology: xao
+
+$(IMPORTDIR)/xao_import.owl: $(MIRRORDIR)/xao.owl $(IMPORTDIR)/xao_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+    $(ANNOTATE_CONVERT_FILE); fi
+
+## Module for ontology: uberon-bridge-to-fbdv
+
+$(IMPORTDIR)/uberon-bridge-to-fbdv_import.owl: $(MIRRORDIR)/uberon-bridge-to-fbdv.owl $(IMPORTDIR)/uberon-bridge-to-fbdv_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+    $(ANNOTATE_CONVERT_FILE); fi
+
+## Module for ontology: uberon-bridge-to-wbls
+
+$(IMPORTDIR)/uberon-bridge-to-wbls_import.owl: $(MIRRORDIR)/uberon-bridge-to-wbls.owl $(IMPORTDIR)/uberon-bridge-to-wbls_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+    $(ANNOTATE_CONVERT_FILE); fi
+
+## Module for ontology: uberon-bridge-to-xao
+
+$(IMPORTDIR)/uberon-bridge-to-xao_import.owl: $(MIRRORDIR)/uberon-bridge-to-xao.owl $(IMPORTDIR)/uberon-bridge-to-xao_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+    $(ANNOTATE_CONVERT_FILE); fi
+
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -419,91 +455,6 @@ $(COMPONENTSDIR)/%.owl: | $(COMPONENTSDIR)
 
 
 
-
-
-.PHONY: component-download-fbdv.owl
-component-download-fbdv.owl: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/fbdv.owl \
-	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
-
-$(COMPONENTSDIR)/fbdv.owl: component-download-fbdv.owl
-	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-fbdv.owl.owl $(TMPDIR)/component-download-fbdv.owl.tmp.owl ; then echo "Component identical."; \
-      else echo "Component is different, updating." &&\
-		cp $(TMPDIR)/component-download-fbdv.owl.owl $(TMPDIR)/component-download-fbdv.owl.tmp.owl &&\
-		$(ROBOT) annotate -i $(TMPDIR)/component-download-fbdv.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
-
-.PRECIOUS: $(COMPONENTSDIR)/fbdv.owl
-
-
-.PHONY: component-download-wbls.owl
-component-download-wbls.owl: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/wbls.owl \
-	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
-
-$(COMPONENTSDIR)/wbls.owl: component-download-wbls.owl
-	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-wbls.owl.owl $(TMPDIR)/component-download-wbls.owl.tmp.owl ; then echo "Component identical."; \
-      else echo "Component is different, updating." &&\
-		cp $(TMPDIR)/component-download-wbls.owl.owl $(TMPDIR)/component-download-wbls.owl.tmp.owl &&\
-		$(ROBOT) annotate -i $(TMPDIR)/component-download-wbls.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
-
-.PRECIOUS: $(COMPONENTSDIR)/wbls.owl
-
-
-.PHONY: component-download-xao.owl
-component-download-xao.owl: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/xao.owl \
-	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
-
-$(COMPONENTSDIR)/xao.owl: component-download-xao.owl
-	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-xao.owl.owl $(TMPDIR)/component-download-xao.owl.tmp.owl ; then echo "Component identical."; \
-      else echo "Component is different, updating." &&\
-		cp $(TMPDIR)/component-download-xao.owl.owl $(TMPDIR)/component-download-xao.owl.tmp.owl &&\
-		$(ROBOT) annotate -i $(TMPDIR)/component-download-xao.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
-
-.PRECIOUS: $(COMPONENTSDIR)/xao.owl
-
-
-.PHONY: component-download-uberon-bridge-to-fbdv.owl
-component-download-uberon-bridge-to-fbdv.owl: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl \
-	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
-
-$(COMPONENTSDIR)/uberon-bridge-to-fbdv.owl: component-download-uberon-bridge-to-fbdv.owl
-	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.tmp.owl ; then echo "Component identical."; \
-      else echo "Component is different, updating." &&\
-		cp $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.tmp.owl &&\
-		$(ROBOT) annotate -i $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
-
-.PRECIOUS: $(COMPONENTSDIR)/uberon-bridge-to-fbdv.owl
-
-
-.PHONY: component-download-uberon-bridge-to-wbls.owl
-component-download-uberon-bridge-to-wbls.owl: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl \
-	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
-
-$(COMPONENTSDIR)/uberon-bridge-to-wbls.owl: component-download-uberon-bridge-to-wbls.owl
-	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.tmp.owl ; then echo "Component identical."; \
-      else echo "Component is different, updating." &&\
-		cp $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.tmp.owl &&\
-		$(ROBOT) annotate -i $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
-
-.PRECIOUS: $(COMPONENTSDIR)/uberon-bridge-to-wbls.owl
-
-
-.PHONY: component-download-uberon-bridge-to-xao.owl
-component-download-uberon-bridge-to-xao.owl: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl \
-	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
-
-$(COMPONENTSDIR)/uberon-bridge-to-xao.owl: component-download-uberon-bridge-to-xao.owl
-	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.tmp.owl ; then echo "Component identical."; \
-      else echo "Component is different, updating." &&\
-		cp $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.tmp.owl &&\
-		$(ROBOT) annotate -i $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
-
-.PRECIOUS: $(COMPONENTSDIR)/uberon-bridge-to-xao.owl
-
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
@@ -529,6 +480,49 @@ mirror-omo: | $(TMPDIR)
 mirror-ro: | $(TMPDIR)
 	curl -L $(OBOBASE)/ro.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) convert -i $(TMPDIR)/ro-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: fbdv
+.PHONY: mirror-fbdv
+.PRECIOUS: $(MIRRORDIR)/fbdv.owl
+mirror-fbdv: | $(TMPDIR)
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/fbdv.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: wbls
+.PHONY: mirror-wbls
+.PRECIOUS: $(MIRRORDIR)/wbls.owl
+mirror-wbls: | $(TMPDIR)
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/wbls.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: xao
+.PHONY: mirror-xao
+.PRECIOUS: $(MIRRORDIR)/xao.owl
+mirror-xao: | $(TMPDIR)
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/xao.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: uberon-bridge-to-fbdv
+.PHONY: mirror-uberon-bridge-to-fbdv
+.PRECIOUS: $(MIRRORDIR)/uberon-bridge-to-fbdv.owl
+mirror-uberon-bridge-to-fbdv: | $(TMPDIR)
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: uberon-bridge-to-wbls
+.PHONY: mirror-uberon-bridge-to-wbls
+.PRECIOUS: $(MIRRORDIR)/uberon-bridge-to-wbls.owl
+mirror-uberon-bridge-to-wbls: | $(TMPDIR)
+	curl -L $(OBOBASE)/uberon-bridge-to-wbls.owl --create-dirs -o $(TMPDIR)/uberon-bridge-to-wbls-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) convert -i $(TMPDIR)/uberon-bridge-to-wbls-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: uberon-bridge-to-xao
+.PHONY: mirror-uberon-bridge-to-xao
+.PRECIOUS: $(MIRRORDIR)/uberon-bridge-to-xao.owl
+mirror-uberon-bridge-to-xao: | $(TMPDIR)
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

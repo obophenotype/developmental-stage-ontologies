@@ -64,35 +64,37 @@ workflows:
 import_group:
   exclude_iri_patterns:
     - <http://purl.obolibrary.org/obo/GOCHE_*>
-    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
     - <http://purl.obolibrary.org/obo/NCBITaxon_*>
     - <http://www.informatics.jax.org/marker/MGI:*>
-    - <http://purl.obolibrary.org/obo/OBI_*>
-    - <http://purl.obolibrary.org/obo/CARO_*>
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/SO_*>
-    - <http://purl.obolibrary.org/obo/cl#abbreviation*>
-    - <http://purl.obolibrary.org/obo/cl#added_for_HCA*>
-    - <http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>
-    - <http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>
-    - <http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>
-    - <http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>
-    - <http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>
-    - <http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>
-    - <http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>
-    - <http://purl.obolibrary.org/obo/uberon/core#LATIN*>
-    - <http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>
-    - <http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>
-    - <http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>
-    - <http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>
-    - <http://purl.obolibrary.org/obo/uberon/core#PLURAL*>
-    - <http://purl.obolibrary.org/obo/uberon/core#SENSU*>
-    - <http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>
   slme_individuals: exclude
   mirror_max_time_download: 400
   products:
     - id: omo
     - id: ro
+     # Externally managed stage ontologies
+    - id: fbdv
+      mirror_from: http://purl.obolibrary.org/obo/fbdv.owl
+      module_type: mirror
+    - id: wbls
+      mirror_from: http://purl.obolibrary.org/obo/wbls.owl
+      module_type: mirror
+    - id: xao
+      mirror_from: http://purl.obolibrary.org/obo/xao.owl
+      module_type: mirror
+    
+    # Bridge ontologies
+    - id: uberon-bridge-to-fbdv
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl
+      module_type: mirror
+    - id: uberon-bridge-to-wbls
+      mirror_from:: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl
+      module_type: mirror
+    - id: uberon-bridge-to-xao
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
+      module_type: mirror
+    
 components:
   products:
     - filename: merged-manual.owl
@@ -120,24 +122,7 @@ components:
     # - filename: ssaldv.obo
     
     # NOTE THIS FILE SHOULD BE REPLACED BY THE ZFIN OFFICIAL FILE
-    - filename: zfs.obo
-    
-    # Externally managed stage ontologies
-    - filename: fbdv.owl
-      source: http://purl.obolibrary.org/obo/fbdv.owl
-    - filename: wbls.owl
-      source: http://purl.obolibrary.org/obo/wbls.owl
-    - filename: xao.owl
-      source: http://purl.obolibrary.org/obo/xao.owl
-    
-    # Bridge ontologies
-    - filename: uberon-bridge-to-fbdv.owl
-      source: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl
-    - filename: uberon-bridge-to-wbls.owl
-      source: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl
-    - filename: uberon-bridge-to-xao.owl
-      source: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
-    
+    #- filename: zfs.obo
     # Some minimal content that we could consider importing
 
     - filename: life-stages-minimal.obo

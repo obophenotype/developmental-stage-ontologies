@@ -3,10 +3,30 @@
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
 
   
-  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/merged_import.owl" uri="imports/merged_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/fbdv_import.owl" uri="imports/fbdv_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/wbls_import.owl" uri="imports/wbls_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/xao_import.owl" uri="imports/xao_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/uberon-bridge-to-fbdv_import.owl" uri="imports/uberon-bridge-to-fbdv_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/uberon-bridge-to-wbls_import.owl" uri="imports/uberon-bridge-to-wbls_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/uberon-bridge-to-xao_import.owl" uri="imports/uberon-bridge-to-xao_import.owl"/>
+  
   
 
 
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/components/merged-manual.owl" uri="components/merged-manual.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/life-stages/components/life-stages-minimal.obo" uri="components/life-stages-minimal.obo"/>
   
 
 </group>
