@@ -1,7 +1,7 @@
 format-version: 1.2
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dpsedv.owl>) VersionIRI(<null>))) [Axioms: 159 Logical Axioms: 23]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 76 Logical Axioms: 9]
-ontology: uberon/bridge/dpsedv/dpsedv-uberon.obo
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP.owl>) VersionIRI(<null>))) [Axioms: 78 Logical Axioms: 9]
+ontology: uberon/bridge/components/dpsedv-uberon.obo
 
 [Term]
 id: DpseDv:0000006

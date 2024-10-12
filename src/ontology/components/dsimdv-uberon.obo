@@ -1,7 +1,7 @@
 format-version: 1.2
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dsimdv.owl>) VersionIRI(<null>))) [Axioms: 159 Logical Axioms: 23]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 76 Logical Axioms: 9]
-ontology: uberon/bridge/dsimdv/dsimdv-uberon.obo
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP.owl>) VersionIRI(<null>))) [Axioms: 78 Logical Axioms: 9]
+ontology: uberon/bridge/components/dsimdv-uberon.obo
 
 [Term]
 id: DsimDv:0000006

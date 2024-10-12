@@ -1,192 +1,185 @@
-[Term]
-id: GgorDv:0000008
-property_value: IAO:0000589 "aged stage (gorilla)" xsd:string
-intersection_of: UBERON:0007222
-intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000026
-property_value: IAO:0000589 "47-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000004
-property_value: IAO:0000589 "nursing stage (gorilla)" xsd:string
-intersection_of: UBERON:0018685
-intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000023
-property_value: IAO:0000589 "44-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000019
-property_value: IAO:0000589 "40-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000012
-property_value: IAO:0000589 "33-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000007
-property_value: IAO:0000589 "adulthood stage (gorilla)" xsd:string
-intersection_of: UBERON:0018241
-intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000001
-property_value: IAO:0000589 "life cycle (gorilla)" xsd:string
-intersection_of: UBERON:0000104
-intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000015
-property_value: IAO:0000589 "36-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000027
-property_value: IAO:0000589 "48-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000021
-property_value: IAO:0000589 "42-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000006
-property_value: IAO:0000589 "mature stage (gorilla)" xsd:string
-intersection_of: UBERON:0000113
-intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000010
-property_value: IAO:0000589 "31-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000024
-property_value: IAO:0000589 "45-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000003
-property_value: IAO:0000589 "immature stage (gorilla)" xsd:string
-intersection_of: UBERON:0000112
-intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000028
-property_value: IAO:0000589 "49-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000031
-property_value: IAO:0000589 "52-year-old and over stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000016
-property_value: IAO:0000589 "37-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+format-version: 1.2
+ontology: TEMP
 
 [Term]
 id: GgorDv:0000000
-property_value: IAO:0000589 "life cycle stage (gorilla)" xsd:string
 intersection_of: UBERON:0000105
 intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "life cycle stage (gorilla)" xsd:string
 
 [Term]
-id: GgorDv:0000013
-property_value: IAO:0000589 "34-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000029
-property_value: IAO:0000589 "50-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000022
-property_value: IAO:0000589 "43-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000005
-property_value: IAO:0000589 "juvenile stage (gorilla)" xsd:string
-intersection_of: UBERON:0034919
+id: GgorDv:0000001
+intersection_of: UBERON:0000104
 intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000032
-property_value: IAO:0000589 "postnatal stage (gorilla)" xsd:string
-intersection_of: UBERON:0000066
-intersection_of: part_of NCBITaxon:9593
-
-[Term]
-id: GgorDv:0000018
-property_value: IAO:0000589 "39-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000030
-property_value: IAO:0000589 "51-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000009
-property_value: IAO:0000589 "30-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
-
-[Term]
-id: GgorDv:0000025
-property_value: IAO:0000589 "46-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+property_value: IAO:0000589 "life cycle (gorilla)" xsd:string
 
 [Term]
 id: GgorDv:0000002
-property_value: IAO:0000589 "prenatal stage (gorilla)" xsd:string
 intersection_of: UBERON:0000068
 intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "prenatal stage (gorilla)" xsd:string
 
 [Term]
-id: GgorDv:0000017
-property_value: IAO:0000589 "38-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+id: GgorDv:0000003
+intersection_of: UBERON:0000112
+intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "immature stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000004
+intersection_of: UBERON:0018685
+intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "nursing stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000005
+intersection_of: UBERON:0034919
+intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "juvenile stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000006
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "mature stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000007
+intersection_of: UBERON:0018241
+intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "adulthood stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000008
+intersection_of: UBERON:0007222
+intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "aged stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000009
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "30-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000010
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "31-year-old stage (gorilla)" xsd:string
 
 [Term]
 id: GgorDv:0000011
+relationship: only_in_taxon NCBITaxon:9593
 property_value: IAO:0000589 "32-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+
+[Term]
+id: GgorDv:0000012
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "33-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000013
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "34-year-old stage (gorilla)" xsd:string
 
 [Term]
 id: GgorDv:0000014
+relationship: only_in_taxon NCBITaxon:9593
 property_value: IAO:0000589 "35-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+
+[Term]
+id: GgorDv:0000015
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "36-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000016
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "37-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000017
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "38-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000018
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "39-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000019
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "40-year-old stage (gorilla)" xsd:string
 
 [Term]
 id: GgorDv:0000020
+relationship: only_in_taxon NCBITaxon:9593
 property_value: IAO:0000589 "41-year-old stage (gorilla)" xsd:string
-relationship: only_in_taxon NCBITaxon:9593 ! gorilla
+
+[Term]
+id: GgorDv:0000021
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "42-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000022
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "43-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000023
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "44-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000024
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "45-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000025
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "46-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000026
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "47-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000027
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "48-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000028
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "49-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000029
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "50-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000030
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "51-year-old stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000031
+relationship: only_in_taxon NCBITaxon:9593
+property_value: IAO:0000589 "52-year-old and over stage (gorilla)" xsd:string
+
+[Term]
+id: GgorDv:0000032
+intersection_of: UBERON:0000066
+intersection_of: part_of NCBITaxon:9593
+property_value: IAO:0000589 "postnatal stage (gorilla)" xsd:string
 
 [Term]
 id: UBERON:0000066
 synonym: "postnatal stage" BROAD []
 xref: GgorDv:0000032
-
-[Term]
-id: UBERON:0018685
-synonym: "nursing stage" BROAD []
-xref: GgorDv:0000004
-
-[Term]
-id: UBERON:0000105
-synonym: "life cycle stage" BROAD []
-xref: GgorDv:0000000
 
 [Term]
 id: UBERON:0000068
@@ -199,9 +192,9 @@ synonym: "life cycle" BROAD []
 xref: GgorDv:0000001
 
 [Term]
-id: UBERON:0018241
-synonym: "adulthood stage" BROAD []
-xref: GgorDv:0000007
+id: UBERON:0000105
+synonym: "life cycle stage" BROAD []
+xref: GgorDv:0000000
 
 [Term]
 id: UBERON:0000112
@@ -219,15 +212,25 @@ synonym: "aged stage" BROAD []
 xref: GgorDv:0000008
 
 [Term]
+id: UBERON:0018241
+synonym: "adulthood stage" BROAD []
+xref: GgorDv:0000007
+
+[Term]
+id: UBERON:0018685
+synonym: "nursing stage" BROAD []
+xref: GgorDv:0000004
+
+[Term]
 id: UBERON:0034919
 synonym: "juvenile stage" BROAD []
 xref: GgorDv:0000005
 
 [Typedef]
-id: part_of
-xref: BFO:0000050
-
-[Typedef]
 id: only_in_taxon
 xref: RO:0002160
+
+[Typedef]
+id: part_of
+xref: BFO:0000050
 

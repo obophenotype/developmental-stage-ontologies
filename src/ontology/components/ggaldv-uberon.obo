@@ -1,15 +1,15 @@
 format-version: 1.2
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ggaldv.owl>) VersionIRI(<null>))) [Axioms: 1199 Logical Axioms: 250]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP>) VersionIRI(<null>))) [Axioms: 452 Logical Axioms: 95]
-ontology: uberon/bridge/ggaldv/ggaldv-uberon.obo
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/TEMP.owl>) VersionIRI(<null>))) [Axioms: 454 Logical Axioms: 95]
+ontology: uberon/bridge/components/ggaldv-uberon.obo
 
 [Term]
 id: GgalDv:0000004
 name: hatchling stage (chicken)
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers." [Bgee:curator]
-comment: For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 hwith UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221
+comment: For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 with UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221
 synonym: "neonate stage" RELATED []
 synonym: "under-1-month-old chicken stage" EXACT []
 is_a: UBERON:0000105
