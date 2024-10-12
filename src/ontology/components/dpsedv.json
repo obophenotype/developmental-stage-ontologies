@@ -1,0 +1,487 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/dpsedv.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "19:06:2016 14:23"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+        "val" : "Dpseudobscura_stages_ontology"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+        "val" : "ame"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000000",
+      "lbl" : "Drosophila pseudobscura life cycle stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A spatiotemporal region encompassing some part of the life cycle of an organism.",
+          "xrefs" : [ "UBERON:0000105" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental stage"
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000105"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000001",
+      "lbl" : "Drosophila pseudobscura life cycle",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Temporal interval that defines Drosophila pseudobscura life from fertilisation to death.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBdv:00000000"
+        }, {
+          "val" : "UBERON:0000104"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000002",
+      "lbl" : "embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The stage of Drosophila pseudobscura life-cycle from fertilization to hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBdv:00005289"
+        }, {
+          "val" : "UBERON:0000068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000003",
+      "lbl" : "larval stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The stage of Drosophila pseudobscura life-cycle from hatching to the beginning of puparium formation.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBdv:00005336"
+        }, {
+          "val" : "UBERON:0000069"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000004",
+      "lbl" : "P-stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The stage of Drosophila pseudobscura life-cycle from the formation of the puparium (beginning of the prepupal stage) to eclosion.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBdv:00007001"
+        }, {
+          "val" : "UBERON:0000070"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000005",
+      "lbl" : "fully formed stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The stage of Drosophila pseudobscura life-cycle from eclosion to death.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBdv:00005369"
+        }, {
+          "val" : "UBERON:0000066"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000006",
+      "lbl" : "days 1-4 of fully formed stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The stage of Drosophila pseudobscura life-cycle from eclosion to the 4th day post-eclosion.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/dpsedv#end_dph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/dpsedv#start_dph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000007",
+      "lbl" : "days 5-8 of fully formed stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The stage of Drosophila pseudobscura life-cycle from the 5th day post-eclosion to 8th day post-eclosion.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/dpsedv#end_dph",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/dpsedv#start_dph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DpseDv_0000008",
+      "lbl" : "day 9 and more of fully formed stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The stage of Drosophila pseudobscura life-cycle from the 9th day post-eclosion to death.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/dpsedv#start_dph",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "lbl" : "part of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "lbl" : "preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)"
+        },
+        "xrefs" : [ {
+          "val" : "BFO:0000062"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "lbl" : "immediately_preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002087"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dpsedv#end_dph",
+      "lbl" : "end, days post hatching",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the end of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the organism is one day old has the value 2."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be applirabbition-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/dpsedv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dpsedv#has_end_time",
+      "lbl" : "has end time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dpsedv#has_start_time",
+      "lbl" : "has start time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dpsedv#has_unit",
+      "lbl" : "has unit",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/dpsedv#start_dph",
+      "lbl" : "start, days post hatching",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the start of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the organism is one day old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/dpsedv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dpseudobscura_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "database_cross_reference",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "lbl" : "has_exact_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "lbl" : "has_narrow_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "lbl" : "has_obo_namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "lbl" : "shorthand",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DpseDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/DpseDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000062"
+    } ]
+  } ]
+}

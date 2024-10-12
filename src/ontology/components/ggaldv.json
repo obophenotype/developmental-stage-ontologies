@@ -1,0 +1,3633 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/ggaldv.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "05:02:2021 13:48"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+        "val" : "chicken_stages_ontology"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+        "val" : "fbb"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000000",
+      "lbl" : "life cycle stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A spatiotemporal region encompassing some part of the life cycle of an organism.",
+          "xrefs" : [ "UBERON:0000105" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental stage"
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000105"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000001",
+      "lbl" : "life cycle",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Temporal interval that defines chicken life from the prenatal stage until late adult stage.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000104"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000002",
+      "lbl" : "prenatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken life cycle that starts with fertilization and ends with hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Embryo develops and hatches in 20 to 21 days (see http://php.med.unsw.edu.au/embryology/index.php?title=Chicken_Development)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000003",
+      "lbl" : "immature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that covers the period from hatching until 5 months old, when individuals reach sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Chicken reach sexual maturity by five months of age." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000112"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000004",
+      "lbl" : "hatchling stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 hwith UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "under-1-month-old chicken stage"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "neonate stage"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000005",
+      "lbl" : "juvenile stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that covers the period from 4 weeks old, when individuals are fully feathered, until 5 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Chicken reach sexual maturity by five months of age." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0034919"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000006",
+      "lbl" : "mature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that refers to a sexually mature adult chicken, which is over 5 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mature"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000113"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000007",
+      "lbl" : "early adult stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
+          "val" : "GgalDv:0000078"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000008",
+      "lbl" : "1-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 12 and under 24 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000009",
+      "lbl" : "2-year-old and over stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 24 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
+          "val" : "GgalDv:0000088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000010",
+      "lbl" : "Hamburger Hamilton stage 1",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage starting the incubation period and usually defined by the presence of the primitive streak (embryonic shield).",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Starts at day 1 post-fertilization, after laying. This stage covers the first 6 hours following laying." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH1"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.25"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000011",
+      "lbl" : "Hamburger Hamilton stages 1-2",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 6-7 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HH1-2"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
+          "val" : "GgalDv:0000060"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000012",
+      "lbl" : "Hamburger Hamilton stage 3",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by the intermediate primitive streak, while no primitive groove is visible.",
+          "xrefs" : [ "https://doi.org/10.1002/aja.1001950404" ]
+        },
+        "comments" : [ "Usually obtained after 12-13 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH3"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.75"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000013",
+      "lbl" : "Hamburger Hamilton stage 4",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by the definitive primitive streak, about 1.88 mm long. Primitive groove, primitive pir, Hensen's node are present. ",
+          "xrefs" : [ "https://doi.org/10.1002/aja.1001950404" ]
+        },
+        "comments" : [ "Usually obtained after 18-19 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH4"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.75"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000014",
+      "lbl" : "Hamburger Hamilton stages 5-6",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by head process (notochord), head fold.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 19-25 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH5-6"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
+          "val" : "GgalDv:0000061"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
+          "val" : "GgalDv:0000062"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000015",
+      "lbl" : "Hamburger Hamilton stage 7",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by the first somite and coelom, then up to 3 somites and neural folds.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 23-26 hours of incubation. Includes the stage described as '7 to 8-' at https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages." ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HH7"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000016",
+      "lbl" : "Hamburger Hamilton stages 7 to 8-",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by up to 3 somites and coelom.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 23-26 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HH7 to 8-"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
+          "val" : "GgalDv:0000015"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000017",
+      "lbl" : "Hamburger Hamilton stage 8",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 4 somites and blood islands.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 26-29 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH8"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.1"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000018",
+      "lbl" : "Hamburger Hamilton stage 9",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 7 somites and primary optic vesicles.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 29-33 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH9"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.4"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000019",
+      "lbl" : "Hamburger Hamilton stages 9+ to 10-",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 8-9 somites and anterior amniotic fold.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained at ca. 33 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HH9+ to 10-"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.4"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.3"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000020",
+      "lbl" : "Hamburger Hamilton stage 10",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 10 somites and 3 primary brain vesicles.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 33-38 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH10"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.4"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000021",
+      "lbl" : "Hamburger Hamilton stage 11",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 13 somites and 5 neuromeres of hindbrain.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 40-45 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH11"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.9"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.6"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000022",
+      "lbl" : "Hamburger Hamilton stage 12",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 16 somites and telencephalon .",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 45-49 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH12"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.9"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000023",
+      "lbl" : "Hamburger Hamilton stage 13",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 19 somites and atrioventricular canal .",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 48-52 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH13"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000024",
+      "lbl" : "Hamburger Hamilton stages 13+ to 14-",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 20-21 somites and tail bud.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after ca.50-52 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH13+ to 14-"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.1"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000025",
+      "lbl" : "Hamburger Hamilton stage 14",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 50-53 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH14"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.25"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000026",
+      "lbl" : "Hamburger Hamilton stages 14+ to 15-",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 23 somites and premandibular head cavities.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after ca.50-54 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HH14+ to 15-"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.25"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.21"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000027",
+      "lbl" : "Hamburger Hamilton stage 15",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 24-27 somites and visceral arch III, cleft 3.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 50-55 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH15"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.25"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000028",
+      "lbl" : "Hamburger Hamilton stage 16",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 226-28 somites, wing bud, posterior amniotic fold.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 51-56 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH16"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.35"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.3"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000029",
+      "lbl" : "Hamburger Hamilton stage 17",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 29-32 somites, leg bud and epiphysis.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 52-64 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH17"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.7"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.35"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000030",
+      "lbl" : "Hamburger Hamilton stage 18",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 30-36 somites extending beyond level of leg bud and allantois.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 3 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH18"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.75"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.7"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000031",
+      "lbl" : "Hamburger Hamilton stage 19",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 37- 40 somites extending into tail and maxillary process .",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 3.0-3.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH19"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "3.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.75"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000032",
+      "lbl" : "Hamburger Hamilton stage 20",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 50-53 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH20"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "GgalDv:0000034"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000033",
+      "lbl" : "Hamburger Hamilton stage 21",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 50-53 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH14"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "GgalDv:0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000034",
+      "lbl" : "Hamburger Hamilton stage 20",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 40-43 somites, rotation completed, eye pigment.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 3.0-3.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH20"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "4.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "3.8"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000035",
+      "lbl" : "Hamburger Hamilton stage 21",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 43-44 somites, visceral arch IV, cleft 4.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 3.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH21"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "4.6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "4.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000036",
+      "lbl" : "Hamburger Hamilton stage 22",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by somites extending to tip of tail.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 3.5-4.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH22"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "4.6"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000037",
+      "lbl" : "Hamburger Hamilton stage 23",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period when dorsal contour from hindbrain to tail is a curved line.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 4.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH23"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "5.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000038",
+      "lbl" : "Hamburger Hamilton stage 24",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by toe plate.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 4.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH24"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "5.6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "5.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000039",
+      "lbl" : "Hamburger Hamilton stage 25",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by elbow and knee joints.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 4.5-5.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH25"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "5.6"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000040",
+      "lbl" : "Hamburger Hamilton stage 26",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 1st 3 toes.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 5.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH26"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "6.1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000041",
+      "lbl" : "Hamburger Hamilton stage 27",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by beak.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 5.0-5.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH27"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "6.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "6.1"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000042",
+      "lbl" : "Hamburger Hamilton stage 28",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by 3 digits, 4 toes.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 5.5-6.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH28"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "6.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000043",
+      "lbl" : "Hamburger Hamilton stage 29",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by rudiment of 5th toe.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 6.0-6.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH29"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "7.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000044",
+      "lbl" : "Hamburger Hamilton stage 30",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by feather germs, scleral papillae, egg tooth.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 6.5-7.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH30"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "7.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000045",
+      "lbl" : "Hamburger Hamilton stage 31",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by web between 1st and 2nd digits.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 7.0-7.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH31"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "8.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000046",
+      "lbl" : "Hamburger Hamilton stage 32",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period when anterior tip of mandible has reached beak.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 7.5 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH32"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "8.6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "8.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000047",
+      "lbl" : "Hamburger Hamilton stage 33",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by web on radial margin of wing and 1st digit.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 7.5-8.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH33"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "8.6"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000048",
+      "lbl" : "Hamburger Hamilton stage 34",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by nictitating membrane.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 8.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH34"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "9.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000049",
+      "lbl" : "Hamburger Hamilton stage 35",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by phalanges in toes.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 8.5-9.0 days of incubation (means, 9.5 up to 10 days after fertilization. We put the upper limit to 11 days after fertilization, in sake of time continuity with the next HH stage)." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH35"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "9.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000050",
+      "lbl" : "Hamburger Hamilton stage 36",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of 3rd toe from tip to middle of metatarsal joint = 5.4 �0.3 mm, length of beak from anterior angle of nostril to tip of bill = 2.5mm, primordium of comb, labial groove, uropygial gland.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 10.0 days of incubation (means, 11 days after fertilization)." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH36"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000051",
+      "lbl" : "Hamburger Hamilton stage 37",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of 3rd toe = 7.4 �0.3mm; length of beak = 3.0 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 11.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH37"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "13.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000052",
+      "lbl" : "Hamburger Hamilton stage 38",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of 3rd toe = 8.4 � 0.3 mm; length of beak = 3.1 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 12.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH38"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "13.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000053",
+      "lbl" : "Hamburger Hamilton stage 39",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of 3rd toe = 9.8 � 0.3 mm; length of beak = 3.5 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 13.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH39"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000054",
+      "lbl" : "Hamburger Hamilton stage 40",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of beak = 4.0 mm; length of 3rd toe = 12.7 � 0.5 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 14.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH40"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000055",
+      "lbl" : "Hamburger Hamilton stage 41",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of beak from anterior angle of nostril to tip of upper bill = 4.5 mm; length of 3rd toe = 14.9 � 0.8 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 15.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH41"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000056",
+      "lbl" : "Hamburger Hamilton stage 42",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of beak = 4.8 mm; length of 3rd toe = 16.7 � 0.8 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 16.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH42"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "18.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000057",
+      "lbl" : "Hamburger Hamilton stage 43",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of beak = 5.0 mm; length of 3rd toe = 18.6 � 0.8 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 17.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH43"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "19.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "18.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000058",
+      "lbl" : "Hamburger Hamilton stage 44",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by length of beak = 5.7 mm; length of 3rd toe = 20.4 � 0.8 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 18.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH44"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "20.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "19.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000059",
+      "lbl" : "Hamburger Hamilton stage 45",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by yolk sac half enclosed in body cavity, chorio-allantoic membrane containing less blood and 'sticky' in living embryo.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 19.0-20.0 days of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH45"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "20.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000060",
+      "lbl" : "Hamburger Hamilton stages 2",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 6-7 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH2"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.25"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000061",
+      "lbl" : "Hamburger Hamilton stages 5",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by head process (notochord) formation.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 19-22 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH5"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.9"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.8"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000062",
+      "lbl" : "Hamburger Hamilton stages 6",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage on incubation period defined by head fold formation.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 23-25 hours of incubation." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH6"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.9"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000063",
+      "lbl" : "early cleavage stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Before laying stage during which the shell membrane of egg is formed in isthmus of oviduct.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "This stage covers the first 3.5-4.5 hours of development after fertilization." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH early cleavage"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "0.2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000064",
+      "lbl" : "cleavage stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken embryonic stage consisting of division of cells in the early embryo.",
+          "xrefs" : [ "UBERON:0000107" ]
+        },
+        "comments" : [ "This stage occurs during the period before laying, and encompasses the 24 first hours of embryo development (see https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000107"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000065",
+      "lbl" : "late cleavage stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Before laying stage during which the shell of egg is formed in uterus.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "This stage covers the first 4.5-24 hours of development after fertilization." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH late cleavage"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "0.2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000066",
+      "lbl" : "1-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 1 and under 2 days after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000067",
+      "lbl" : "2-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 2 and under 3 days after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000068",
+      "lbl" : "3-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 3 and under 4 days after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000069",
+      "lbl" : "4-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 4 and under 5 days after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000070",
+      "lbl" : "5-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 5 and under 6 days after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000071",
+      "lbl" : "6-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 6 and under 7 days after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000072",
+      "lbl" : "1-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 7 days and under 14 days after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_wph",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_wph",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000073",
+      "lbl" : "2-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 2 and under 3 weeks after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_wph",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_wph",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000074",
+      "lbl" : "3-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 3 and under 4 weeks after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_wph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_wph",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000075",
+      "lbl" : "4-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature chicken that is over 4 and under 5 weeks after hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_wph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_wph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000076",
+      "lbl" : "postnatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that covers the whole of chicken life post hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Chicken reach sexual maturity by five months of age." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000066"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000077",
+      "lbl" : "prime adult stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that refers to a chicken who is over 5 months and under 4 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We arbitrary consider 4 years old as the upper limit of the prime adult stage." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018241"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "48.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_yph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_yph",
+          "val" : "0.4"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000078",
+      "lbl" : "young adult stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that refers to a chicken who is over 5 months and under 2 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We define here the usual period when egg laying in females is the more active." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_yph",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_yph",
+          "val" : "0.4"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000079",
+      "lbl" : "middle adult stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that refers to a chicken who is over 2 and under 4 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We arbitrary define 4 years as the limit before senescence." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_yph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_yph",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000080",
+      "lbl" : "late adult stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chicken developmental stage that refers to a chicken who is over 4 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Chicken are considered as having a short life spans (under 6 yrs)(see https://pubmed.ncbi.nlm.nih.gov/12855282/). We arbitrary define 4 years as the limit before senescence." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "4-year-old and over stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007222"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_yph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000081",
+      "lbl" : "5-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 5 and under 6 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000082",
+      "lbl" : "6-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 6 and under 7 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000083",
+      "lbl" : "7-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 7 and under 8 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000084",
+      "lbl" : "8-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 8 and under 9 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000085",
+      "lbl" : "9-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 9 and under 10 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000086",
+      "lbl" : "10-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 10 and under 11 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000087",
+      "lbl" : "11-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 11 and under 12 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ggaldv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000088",
+      "lbl" : "2-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 2 and under 3 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_yph",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_yph",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000089",
+      "lbl" : "3-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a chicken who is over 3 and under 4 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_yph",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_yph",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000090",
+      "lbl" : "Hamburger Hamilton stage 46",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Newly-hatched chick.",
+          "xrefs" : [ "https://embryology.med.unsw.edu.au/embryology/index.php/Hamburger_Hamilton_Stages" ]
+        },
+        "comments" : [ "Usually obtained after 20.0-21.0 days of incubation. We consider this stage encompassing the first 24 hours after hatching." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HH46"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "22.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000091",
+      "lbl" : "blastula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.",
+          "xrefs" : [ "UBERON:0000108" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000108"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000092",
+      "lbl" : "gastrula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.",
+          "xrefs" : [ "UBERON:0000109" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000109"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "1.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000093",
+      "lbl" : "neurula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate.",
+          "xrefs" : [ "UBERON:0000110" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000110"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "1.8"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GgalDv_0000094",
+      "lbl" : "organogenesis stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.",
+          "xrefs" : [ "UBERON:0000111" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000111"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "lbl" : "part of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "lbl" : "preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)"
+        },
+        "xrefs" : [ {
+          "val" : "BFO:0000062"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "lbl" : "immediately_preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002087"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "lbl" : "term replaced by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#end_dpf",
+      "lbl" : "end, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#end_dph",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#end_mph",
+      "lbl" : "end, months post hatching",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#end_wph",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#end_yph",
+      "lbl" : "end, years post hatching",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the end of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the organism is one year old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pufferfish_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#granular_stage",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#has_end_time",
+      "lbl" : "has end time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#has_start_time",
+      "lbl" : "has start time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#has_unit",
+      "lbl" : "has unit",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#start_dpf",
+      "lbl" : "start, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#start_dph",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#start_mph",
+      "lbl" : "start, months post hatching",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chicken_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#start_wph",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ggaldv#start_yph",
+      "lbl" : "start, years post hatching",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the start of the stage and the time of hatching according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the organism is one year old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ggaldv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pufferfish_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+      "lbl" : "subset_property",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#consider",
+      "lbl" : "consider",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "database_cross_reference",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "lbl" : "has_exact_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "lbl" : "has_narrow_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "lbl" : "has_obo_namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "lbl" : "has_related_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "lbl" : "in_subset",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "lbl" : "shorthand",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2002/07/owl#deprecated",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000076"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000075"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000076"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000087"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000018",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000018",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000019",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000027"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000031",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000031",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000034",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000034",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000036",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000036",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000035"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000037",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000037",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000038",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000038",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000038",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000037"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000039",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000039",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000038"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000040",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000040",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000039"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000041"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000043",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000043",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000043",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000042"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000044",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000044",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000045"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000046"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000049"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000051",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000051",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000051",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000052",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000052",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000053",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000053",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000053",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000054",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000054",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000055",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000056",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000056",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000057",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000057",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000057",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000058",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000058",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000058",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000059",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000059",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000060",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000060",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000060",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000061",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000062",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000062",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000062",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000063",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000063",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000064"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000064",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000065",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000064"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000065",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000067",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000067",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000068",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000068",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000068",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000069",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000069"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000071",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000071",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000071",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000072",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000072",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000072",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000073",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000073",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000073",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000074",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000074",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000074",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000073"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000075",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000075",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000075",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000074"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000076",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000076",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000076",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000077",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000077",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000077",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000078",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000077"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000079",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000079",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000077"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000079",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000080",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000080",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000081",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000081",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000081",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000082",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000082",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000082",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000081"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000083",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000083",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000084",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000084",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000084",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000085",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000085",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000086",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000086",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000087",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000087",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000087",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000088",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000088",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000088",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000089",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000089",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000089",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000088"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000090",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000090",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000091",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000091",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000091",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000092",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000092",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000092",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000060"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000093",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000093",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000094",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GgalDv_0000094",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/GgalDv_0000062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000062"
+    } ]
+  } ]
+}

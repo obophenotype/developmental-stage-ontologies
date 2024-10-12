@@ -1,0 +1,1330 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/oaridv.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "05:02:2021 13:48"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+        "val" : "sheep_stages_ontology"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+        "val" : "ann"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000000",
+      "lbl" : "life cycle stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A spatiotemporal region encompassing some part of the life cycle of an organism.",
+          "xrefs" : [ "UBERON:0000105" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental stage"
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000105"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000001",
+      "lbl" : "life cycle",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Temporal interval that defines sheep life from the prenatal stage until late adult stage.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000104"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000002",
+      "lbl" : "prenatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Sheep life cycle that starts with fertilization and ends at birth.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Embryo develops in 146 days (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries). Bgee_curator_notes: Bgee prenatal stage definition differs from Uberon embryonic stage definition by the notion of birth for stage ending, while Uberon ends with fully formed embryo. We maybe have to correct our too precise definition." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "146.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_mpf",
+          "val" : "4.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000003",
+      "lbl" : "immature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Sheep developmental stage that covers the period from birth until about 18 months old, when individuals reach sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "sheep reach sexual maturity by 914 days of age for male, 548 days for female (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000112"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "146.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_mpf",
+          "val" : "4.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000004",
+      "lbl" : "suckling stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Sheep developmental stage that covers the period from birth until about 6 months old, at which point individuals wean.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Age of weaning is 182 days (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018685"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_mpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "146.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_mpf",
+          "val" : "4.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000005",
+      "lbl" : "juvenile stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Sheep developmental stage that covers the period from 6 months old, when individuals wean, until about 18 months old, when individuals reach sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "sheep reach sexual maturity by 914 days of age for male, 548 days for female (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0034919"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_mpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000006",
+      "lbl" : "mature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Sheep developmental stage that refers to a sexually mature adult sheep, which is usually over 18 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mature"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000113"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000007",
+      "lbl" : "adulthood stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a sheep who is over 18 months old and under about 6 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Domestic sheep exhibit gradual senescence. The onset of reproductive senescence has been shown to occur at 5 and 6 years of age. One captive specimen lived 22.8 years (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries)." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "prime adult stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018241"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_ypb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000008",
+      "lbl" : "aged stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a sheep who is over 6 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Domestic sheep exhibit gradual senescence. The onset of reproductive senescence has been shown to occur at 5 and 6 years of age. One captive specimen lived 22.8 years (see http://genomics.senescence.info/species/entry.php?species=Ovis_aries)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007222"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_ypb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000009",
+      "lbl" : "zygote stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A stage at which the organism is a single cell produced by means of sexual reproduction.",
+          "xrefs" : [ "UBERON:0000106" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000106"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000010",
+      "lbl" : "cleavage stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage consisting of division of cells in the early sheep embryo.",
+          "xrefs" : [ "UBERON:0000107" ]
+        },
+        "comments" : [ "First division occurs 24 hours after fertilisation, see http://dx.doi.org/10.1016/j.smallrumres.2016.12.016, Table 1." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000107"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000011",
+      "lbl" : "day 1-3 cleavage stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Cleavage stage during which the sheep embryo undergoes the first 3 days of development.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "At this stage, the 2-8 cells egg is still in the oviduct, and the morula (16–32 cells) stage embryo enters the uterus from the oviduct on day 4 after mating (day 0 = estrus/mating) (see doi:10.1530/rep.1.00398)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000012",
+      "lbl" : "day 4-5 morula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Cleavage stage during which the sheep embryo (16-32 cells egg) undergoes the fourth and fith days of development.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "The morula (16–32 cells) stage embryo enters the uterus from the oviduct on day 4 after mating (day 0 = estrus/mating) (see doi:10.1530/rep.1.00398)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000013",
+      "lbl" : "day 6-9 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the sheep embryo develops into a spherical blastocyst and performs zona hatching.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "comments" : [ "The blastocyst is formed on day 6, and the zona pellucida is shed between days 8 and 9. The blastocyst is spherical on day 8, measures 200 micron in diameter and contains approximately 300 cells (see doi:10.1530/rep.1.00398)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000014",
+      "lbl" : "day 10 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the sheep embryo measures 400–900 micron in diameter and contains approximately 3000 cells.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000015",
+      "lbl" : "day 11 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the sheep embryo starts to elongate into tubular blastocyst.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000016",
+      "lbl" : "day 12 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the sheep embryo has elongated markedly, reaching a length of 10–22 mm.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "comments" : [ "Formation of the primitive streak (start of the gastrula stage) occurs at day 12 (see http://dx.doi.org/10.1016/j.smallrumres.2016.12.016, Table 1)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "13.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000017",
+      "lbl" : "day 13 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the conceptus, first located in the uterine horn ipsilateral to the corpus luteum, elongates into the contralateral horn.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "13.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000018",
+      "lbl" : "day 14 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the filamentous conceptus is about 10 cm long and the primitive streak appears, with somites soon thereafter.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000019",
+      "lbl" : "day 15 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the apposition stage starts, with first intimate cellular contacts between the trophoblast and the uterine epithelium.",
+          "xrefs" : [ "doi:10.1007/978-1-4615-1881-5" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000020",
+      "lbl" : "day 16 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the trophoblast begins to adhere firmly to the endometrial lumenal epithelium.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000021",
+      "lbl" : "day 17-19 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the tubular blastocyst reaches a length of 25 cm or more by day 17 and resembles a long filament composed mainly of extraembryonic trophoblast.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "20.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000022",
+      "lbl" : "day 20 embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage during which the embryo undergoes the twentieth day of development, while adhesion is fully completed.",
+          "xrefs" : [ "doi:10.1530/rep.1.00398" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "20.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000023",
+      "lbl" : "day 21 and over embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "146.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000024",
+      "lbl" : "postnatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Sheep developmental stage that covers the period from birth until late adulthood.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000066"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "146.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_mpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000025",
+      "lbl" : "blastula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.",
+          "xrefs" : [ "UBERON:0000108" ]
+        },
+        "comments" : [ "TE Spencer (see doi:10.1530/rep.1.00398) reports formation of the sheep blastocyst at day 6." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000108"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000026",
+      "lbl" : "gastrula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.",
+          "xrefs" : [ "UBERON:0000109" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000109"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000027",
+      "lbl" : "neurula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate.",
+          "xrefs" : [ "UBERON:0000110" ]
+        },
+        "comments" : [ "Formation of the neural groove in sheep appears at day 15 (see http://dx.doi.org/10.1016/j.smallrumres.2016.12.016, Table 1)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000110"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OariDv_0000028",
+      "lbl" : "organogenesis stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.",
+          "xrefs" : [ "UBERON:0000111" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000111"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+          "val" : "146.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "lbl" : "part of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "lbl" : "preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)"
+        },
+        "xrefs" : [ {
+          "val" : "BFO:0000062"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "lbl" : "immediately_preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002087"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#end_dpf",
+      "lbl" : "end, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#end_mpb",
+      "lbl" : "end, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#end_mpf",
+      "lbl" : "end, months post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#end_ypb",
+      "lbl" : "end, years post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#granular_stage",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#has_end_time",
+      "lbl" : "has end time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#has_start_time",
+      "lbl" : "has start time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+      "lbl" : "has unit",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#start_dpf",
+      "lbl" : "start, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#start_mpb",
+      "lbl" : "start, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#start_mpf",
+      "lbl" : "start, months post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oaridv#start_ypb",
+      "lbl" : "start, years post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oaridv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+      "lbl" : "subset_property",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "database_cross_reference",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "lbl" : "has_exact_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "lbl" : "has_narrow_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "lbl" : "has_obo_namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "lbl" : "shorthand",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000009",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000016",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000016",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000018",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000018",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000019",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000027"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000019",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000027"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OariDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OariDv_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000062"
+    } ]
+  } ]
+}
