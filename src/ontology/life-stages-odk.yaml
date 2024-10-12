@@ -89,7 +89,7 @@ import_group:
       mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl
       module_type: mirror
     - id: uberon-bridge-to-wbls
-      mirror_from:: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl
       module_type: mirror
     - id: uberon-bridge-to-xao
       mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl

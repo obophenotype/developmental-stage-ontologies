@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                6ef4f88a8d4dff98dece36944c3b785b71ea9dc1ed2061eb6cb6884673e92af1
+CONFIG_HASH=                63b7fe5e59a7331bc69dcf7c86282c5b464e461eec8155f19fbe4f442eeab2b3
 
 
 # ----------------------------------------
@@ -514,8 +514,7 @@ mirror-uberon-bridge-to-fbdv: | $(TMPDIR)
 .PHONY: mirror-uberon-bridge-to-wbls
 .PRECIOUS: $(MIRRORDIR)/uberon-bridge-to-wbls.owl
 mirror-uberon-bridge-to-wbls: | $(TMPDIR)
-	curl -L $(OBOBASE)/uberon-bridge-to-wbls.owl --create-dirs -o $(TMPDIR)/uberon-bridge-to-wbls-download.owl --retry 4 --max-time 400 && \
-	$(ROBOT) convert -i $(TMPDIR)/uberon-bridge-to-wbls-download.owl -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: uberon-bridge-to-xao

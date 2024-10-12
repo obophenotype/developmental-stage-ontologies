@@ -22,7 +22,7 @@ These are the current imports in LIFE-STAGES
 | wbls | http://purl.obolibrary.org/obo/wbls.owl | mirror |
 | xao | http://purl.obolibrary.org/obo/xao.owl | mirror |
 | uberon-bridge-to-fbdv | http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl | mirror |
-| uberon-bridge-to-wbls | http://purl.obolibrary.org/obo/uberon-bridge-to-wbls.owl | mirror |
+| uberon-bridge-to-wbls | http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl | mirror |
 | uberon-bridge-to-xao | http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl | mirror |
 
 ## Components
