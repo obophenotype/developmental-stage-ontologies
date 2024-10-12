@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                ddaf3e27d55596ddbbd459eced74cae5facd7630806c8c57e9dc3c75c49f8534
+CONFIG_HASH=                9237fcf00bef8a6c470729d3fbc0fd2091e73f075c851c090be9ab56d35c0b6b
 
 
 # ----------------------------------------
@@ -40,7 +40,7 @@ SCRIPTSDIR=                 ../scripts
 UPDATEREPODIR=              target
 SPARQLDIR =                 ../sparql
 COMPONENTSDIR =             components
-REPORT_FAIL_ON =            ERROR
+REPORT_FAIL_ON =            NONE
 REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       
 OBO_FORMAT_OPTIONS =        
@@ -53,13 +53,13 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/acardv.owl $(COMPONENTSDIR)/btaudv.owl $(COMPONENTSDIR)/cfamdv.owl $(COMPONENTSDIR)/cpordv.owl $(COMPONENTSDIR)/dpsedv.owl $(COMPONENTSDIR)/dsimdv.owl $(COMPONENTSDIR)/ecabdv.owl $(COMPONENTSDIR)/fcatdv.owl $(COMPONENTSDIR)/ggaldv.owl $(COMPONENTSDIR)/ggordv.owl $(COMPONENTSDIR)/hsapdv.owl $(COMPONENTSDIR)/mdomdv.owl $(COMPONENTSDIR)/mmuldv.owl $(COMPONENTSDIR)/mmusdv.owl $(COMPONENTSDIR)/oanadv.owl $(COMPONENTSDIR)/oaridv.owl $(COMPONENTSDIR)/ocundv.owl $(COMPONENTSDIR)/ppandv.owl $(COMPONENTSDIR)/ptrodv.owl $(COMPONENTSDIR)/rnordv.owl $(COMPONENTSDIR)/sscrdv.owl $(COMPONENTSDIR)/ssaldv.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/merged-manual.owl $(COMPONENTSDIR)/zfs.obo $(COMPONENTSDIR)/fbdv.owl $(COMPONENTSDIR)/wbls.owl $(COMPONENTSDIR)/xao.owl $(COMPONENTSDIR)/uberon-bridge-to-fbdv.owl $(COMPONENTSDIR)/uberon-bridge-to-wbls.owl $(COMPONENTSDIR)/uberon-bridge-to-xao.owl $(COMPONENTSDIR)/life-stages-minimal.obo 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full life-stages-minimal ssso-merged-uberon ssso-merged )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full ssso-merged-uberon ssso-merged )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -161,7 +161,7 @@ all_main: $(MAIN_FILES)
 
 IMPORTS =  omo ro
 
-IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
+IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
 IMPORT_FILES = $(IMPORT_OWL_FILES)
 
@@ -333,13 +333,6 @@ $(PRESEED): $(SRCMERGED)
 	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@.tmp &&\
 	cat $@.tmp | sort | uniq >  $@
 
-SIMPLESEED=$(TMPDIR)/simple_seed.txt
-
-$(SIMPLESEED): $(SRCMERGED) $(ONTOLOGYTERMS)
-	$(ROBOT) query -f csv -i $< --query ../sparql/simple-seed.sparql $@.tmp &&\
-	cat $@.tmp $(ONTOLOGYTERMS) | sort | uniq >  $@ &&\
-	echo "http://www.geneontology.org/formats/oboInOwl#SubsetProperty" >> $@ &&\
-	echo "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty" >> $@
 
 
 ALLSEED = $(PRESEED) \
@@ -362,23 +355,9 @@ $(IMPORTDIR)/%_terms_combined.txt: $(IMPORTSEED) $(IMPORTDIR)/%_terms.txt
 	if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
 
 
-ALL_TERMS_COMBINED = $(patsubst %, $(IMPORTDIR)/%_terms_combined.txt, $(IMPORTS))
-$(IMPORTDIR)/merged_terms_combined.txt: $(ALL_TERMS_COMBINED)
-	if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
 
 
-$(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(IMPORTDIR)/merged_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
-		remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_*>" remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/SO_*>" remove  --select "<http://purl.obolibrary.org/obo/cl#abbreviation*>" remove  --select "<http://purl.obolibrary.org/obo/cl#added_for_HCA*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#LATIN*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#PLURAL*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SENSU*>" remove  --select "<http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>"  \
-		extract -T $(IMPORTDIR)/merged_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
-		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/merged_terms_combined.txt --select complement --select annotation-properties \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
-		$(ANNOTATE_CONVERT_FILE); fi
-
-
-
-
-$(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/merged.owl $(IMPORTDIR)/%_terms_combined.txt
+$(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
 		extract -T $(IMPORTDIR)/$*_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
@@ -442,23 +421,88 @@ $(COMPONENTSDIR)/%.owl: | $(COMPONENTSDIR)
 
 
 
+.PHONY: component-download-fbdv.owl
+component-download-fbdv.owl: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/fbdv.owl \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
+
+$(COMPONENTSDIR)/fbdv.owl: component-download-fbdv.owl
+	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-fbdv.owl.owl $(TMPDIR)/component-download-fbdv.owl.tmp.owl ; then echo "Component identical."; \
+      else echo "Component is different, updating." &&\
+		cp $(TMPDIR)/component-download-fbdv.owl.owl $(TMPDIR)/component-download-fbdv.owl.tmp.owl &&\
+		$(ROBOT) annotate -i $(TMPDIR)/component-download-fbdv.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
+
+.PRECIOUS: $(COMPONENTSDIR)/fbdv.owl
 
 
+.PHONY: component-download-wbls.owl
+component-download-wbls.owl: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/wbls.owl \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
+
+$(COMPONENTSDIR)/wbls.owl: component-download-wbls.owl
+	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-wbls.owl.owl $(TMPDIR)/component-download-wbls.owl.tmp.owl ; then echo "Component identical."; \
+      else echo "Component is different, updating." &&\
+		cp $(TMPDIR)/component-download-wbls.owl.owl $(TMPDIR)/component-download-wbls.owl.tmp.owl &&\
+		$(ROBOT) annotate -i $(TMPDIR)/component-download-wbls.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
+
+.PRECIOUS: $(COMPONENTSDIR)/wbls.owl
 
 
+.PHONY: component-download-xao.owl
+component-download-xao.owl: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/xao.owl \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
+
+$(COMPONENTSDIR)/xao.owl: component-download-xao.owl
+	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-xao.owl.owl $(TMPDIR)/component-download-xao.owl.tmp.owl ; then echo "Component identical."; \
+      else echo "Component is different, updating." &&\
+		cp $(TMPDIR)/component-download-xao.owl.owl $(TMPDIR)/component-download-xao.owl.tmp.owl &&\
+		$(ROBOT) annotate -i $(TMPDIR)/component-download-xao.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
+
+.PRECIOUS: $(COMPONENTSDIR)/xao.owl
 
 
+.PHONY: component-download-uberon-bridge-to-fbdv.owl
+component-download-uberon-bridge-to-fbdv.owl: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
+
+$(COMPONENTSDIR)/uberon-bridge-to-fbdv.owl: component-download-uberon-bridge-to-fbdv.owl
+	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.tmp.owl ; then echo "Component identical."; \
+      else echo "Component is different, updating." &&\
+		cp $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.tmp.owl &&\
+		$(ROBOT) annotate -i $(TMPDIR)/component-download-uberon-bridge-to-fbdv.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
+
+.PRECIOUS: $(COMPONENTSDIR)/uberon-bridge-to-fbdv.owl
 
 
+.PHONY: component-download-uberon-bridge-to-wbls.owl
+component-download-uberon-bridge-to-wbls.owl: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
+
+$(COMPONENTSDIR)/uberon-bridge-to-wbls.owl: component-download-uberon-bridge-to-wbls.owl
+	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.tmp.owl ; then echo "Component identical."; \
+      else echo "Component is different, updating." &&\
+		cp $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.tmp.owl &&\
+		$(ROBOT) annotate -i $(TMPDIR)/component-download-uberon-bridge-to-wbls.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
+
+.PRECIOUS: $(COMPONENTSDIR)/uberon-bridge-to-wbls.owl
 
 
+.PHONY: component-download-uberon-bridge-to-xao.owl
+component-download-uberon-bridge-to-xao.owl: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(COMP) = true ]; then $(ROBOT) merge -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl \
+	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $(TMPDIR)/$@.owl; fi
 
+$(COMPONENTSDIR)/uberon-bridge-to-xao.owl: component-download-uberon-bridge-to-xao.owl
+	if [ $(COMP) = true ]; then if cmp -s $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.tmp.owl ; then echo "Component identical."; \
+      else echo "Component is different, updating." &&\
+		cp $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.owl $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.tmp.owl &&\
+		$(ROBOT) annotate -i $(TMPDIR)/component-download-uberon-bridge-to-xao.owl.owl --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi; fi
 
-
-
-
-
-
+.PRECIOUS: $(COMPONENTSDIR)/uberon-bridge-to-xao.owl
 
 # ----------------------------------------
 # Mirroring upstream ontologies
@@ -475,7 +519,7 @@ ifeq ($(strip $(MIR)),true)
 .PHONY: mirror-omo
 .PRECIOUS: $(MIRRORDIR)/omo.owl
 mirror-omo: | $(TMPDIR)
-	curl -L $(OBOBASE)/omo/omo-base.owl --create-dirs -o $(TMPDIR)/omo-download.owl --retry 4 --max-time 400 && \
+	curl -L $(OBOBASE)/omo.owl --create-dirs -o $(TMPDIR)/omo-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) convert -i $(TMPDIR)/omo-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -483,17 +527,8 @@ mirror-omo: | $(TMPDIR)
 .PHONY: mirror-ro
 .PRECIOUS: $(MIRRORDIR)/ro.owl
 mirror-ro: | $(TMPDIR)
-	curl -L $(OBOBASE)/ro/ro-base.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 400 && \
+	curl -L $(OBOBASE)/ro.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) convert -i $(TMPDIR)/ro-download.owl -o $(TMPDIR)/$@.owl
-
-ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
-MERGE_MIRRORS = true
-
-ifeq ($(strip $(MERGE_MIRRORS)),true)
-$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
-	$(ROBOT) merge $(patsubst %, -i %, $^)  -o $@
-.PRECIOUS: $(MIRRORDIR)/merged.owl
-endif
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
@@ -558,12 +593,6 @@ $(ONT)-full.json: $(ONT)-full.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
-life-stages-minimal.obo: life-stages-minimal.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-life-stages-minimal.json: life-stages-minimal.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json &&\
-		mv $@.tmp.json $@
 ssso-merged-uberon.obo: ssso-merged-uberon.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 ssso-merged-uberon.json: ssso-merged-uberon.owl
@@ -580,7 +609,7 @@ ssso-merged.json: ssso-merged.owl
 # Release artefacts: main release artefacts
 # ----------------------------------------
 
-$(ONT).owl: $(ONT)-simple-non-classified.owl
+$(ONT).owl: $(ONT)-full.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
 
@@ -610,7 +639,7 @@ $(ONT)-base.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	reason --reasoner ELK --equivalent-classes-allowed none --exclude-tautologies structural --annotate-inferred-axioms False \
 	relax \
 	reduce -r ELK \
-	remove --base-iri http://purl.obolibrary.org/obo/HP_ --base-iri http://purl.obolibrary.org/obo/hp --axioms external --preserve-structure false --trim false \
+	remove --base-iri http://purl.obolibrary.org/obo/AcarDv_ --base-iri http://purl.obolibrary.org/obo/BtauDv_ --base-iri http://purl.obolibrary.org/obo/CfamDv_ --base-iri http://purl.obolibrary.org/obo/CporDv_ --base-iri http://purl.obolibrary.org/obo/DpseDv_ --base-iri http://purl.obolibrary.org/obo/DsimDv_ --base-iri http://purl.obolibrary.org/obo/EcabDv_ --base-iri http://purl.obolibrary.org/obo/FcatDv_ --base-iri http://purl.obolibrary.org/obo/GgalDv_ --base-iri http://purl.obolibrary.org/obo/GgorDv_ --base-iri http://purl.obolibrary.org/obo/HsapDv_ --base-iri http://purl.obolibrary.org/obo/MdomDv_ --base-iri http://purl.obolibrary.org/obo/MmulDv_ --base-iri http://purl.obolibrary.org/obo/MmusDv_ --base-iri http://purl.obolibrary.org/obo/OanaDv_ --base-iri http://purl.obolibrary.org/obo/OariDv_ --base-iri http://purl.obolibrary.org/obo/OcunDv_ --base-iri http://purl.obolibrary.org/obo/PpanDv_ --base-iri http://purl.obolibrary.org/obo/PtroDv_ --base-iri http://purl.obolibrary.org/obo/RnorDv_ --base-iri http://purl.obolibrary.org/obo/SsalDv_ --base-iri http://purl.obolibrary.org/obo/SscrDv_ --base-iri http://purl.obolibrary.org/obo/acardv --base-iri http://purl.obolibrary.org/obo/btaudv --base-iri http://purl.obolibrary.org/obo/cfamdv --base-iri http://purl.obolibrary.org/obo/cpordv --base-iri http://purl.obolibrary.org/obo/dpsedv --base-iri http://purl.obolibrary.org/obo/dsimdv --base-iri http://purl.obolibrary.org/obo/ecabdv --base-iri http://purl.obolibrary.org/obo/fcatdv --base-iri http://purl.obolibrary.org/obo/ggaldv --base-iri http://purl.obolibrary.org/obo/ggordv --base-iri http://purl.obolibrary.org/obo/hsapdv --base-iri http://purl.obolibrary.org/obo/mdomdv --base-iri http://purl.obolibrary.org/obo/mmuldv --base-iri http://purl.obolibrary.org/obo/mmusdv --base-iri http://purl.obolibrary.org/obo/oanadv --base-iri http://purl.obolibrary.org/obo/oaridv --base-iri http://purl.obolibrary.org/obo/ocundv --base-iri http://purl.obolibrary.org/obo/ppandv --base-iri http://purl.obolibrary.org/obo/ptrodv --base-iri http://purl.obolibrary.org/obo/rnordv --base-iri http://purl.obolibrary.org/obo/ssaldv --base-iri http://purl.obolibrary.org/obo/sscrdv --axioms external --preserve-structure false --trim false \
 	$(SHARED_ROBOT_COMMANDS) \
 	annotate --link-annotation http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 \
 		--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
@@ -622,19 +651,6 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		relax \
 		reduce -r ELK \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
-
-# foo-simple-non-classified (edit->relax,reduce,drop imports, drop every axiom which contains an entity outside the "namespaces of interest") - aka the HPO use case, no reason.
-# Should this be the non-classified ontology with the drop foreign axiom filter?
-# Consider adding remove --term "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
-$(ONT)-simple-non-classified.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILES)
-	$(ROBOT_RELEASE_IMPORT_MODE_BASE) \
-		remove --axioms equivalent \
-		reduce -r ELK \
-		filter --select ontology --term-file $(SIMPLESEED) --trim false \
-		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
-
-life-stages-minimal.owl:
-	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in life-stages.Makefile!" && false
 
 ssso-merged-uberon.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in life-stages.Makefile!" && false
