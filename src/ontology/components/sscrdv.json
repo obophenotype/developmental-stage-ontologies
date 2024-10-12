@@ -1,0 +1,3513 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/SscrDv.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "25:02:2014 13:00"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+        "val" : "pig_stages_ontology"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+        "val" : "fbb (ann)"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000000",
+      "lbl" : "life cycle stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A spatiotemporal region encompassing some part of the life cycle of an organism.",
+          "xrefs" : [ "UBERON:0000105" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental stage"
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000105"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000001",
+      "lbl" : "life cycle",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Temporal interval that defines pig life from the prenatal stage until late adult stage.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000104"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000002",
+      "lbl" : "prenatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig life cycle that starts with fertilization and ends at birth.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Embryo develops in 115 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa). We follow embryologic feature description as provided by https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Embryology_of_the_Pig, based on the book from BM Patten, Embryology of the Pig (1951)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpf",
+          "val" : "115.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpf",
+          "val" : "3.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000003",
+      "lbl" : "immature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig developmental stage that covers the period from birth until about 11 months old, when individuals reach sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000112"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "0.9"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+          "val" : "115.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpf",
+          "val" : "3.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000004",
+      "lbl" : "suckling stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig developmental stage that covers the period from birth until about 2 months old, at which point individuals wean.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Age of weaning is 56 days (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa). Piglets are highly precocious and neonates appear with open eyes, good muscle tone and well developed skin and hair (see http://www.ncbi.nlm.nih.gov/pubmed/?term=23874755). Within minutes of being born, or sometimes seconds, they will attempt to suckle. The piglets are born with sharp teeth and fight to develop a teat order as the anterior teats produce a greater quantity of milk (see http://en.wikipedia.org/wiki/Piglet_%28animal%29)." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nursing stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018685"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "1.85"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+          "val" : "115.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpf",
+          "val" : "3.8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000005",
+      "lbl" : "juvenile stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig developmental stage that covers the period from about 2 months old, when individuals wean, until about 11 months old, when individuals reach sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Pig reach sexual maturity by 768 days of age for male, 334 days for female. While achieving sexual maturity much earlier, males do not typically mate until they are about 5 years old (see http://genomics.senescence.info/species/entry.php?species=Sus_scrofa)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0034919"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "0.9"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "1.85"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000006",
+      "lbl" : "mature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig developmental stage that refers to a sexually mature adult pig, which is usually over 11 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mature"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000113"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "0.9"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000007",
+      "lbl" : "adulthood stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig who is over 11 months old and under 8 years old, the limit before geriatric age in the literature.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388)." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "prime adult stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018241"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "0.9"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000008",
+      "lbl" : "aged stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig who is over 8 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Geriatric pigs are usually defined as animals with 8 years of age and older (see http://www.ncbi.nlm.nih.gov/pubmed/?term=12762388)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007222"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000009",
+      "lbl" : "first 0-6 postnatal days",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a new born pig which is under 7 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0007221"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000010",
+      "lbl" : "1-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 1 and under 2 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000011",
+      "lbl" : "2-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 2 and under 3 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000012",
+      "lbl" : "3-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 3 and under 4 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000013",
+      "lbl" : "4-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 4 and under 5 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000014",
+      "lbl" : "5-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 5 and under 6 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000015",
+      "lbl" : "6-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 6 and under 7 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000016",
+      "lbl" : "7-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 7 and under 8 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000017",
+      "lbl" : "8-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "2 month-old stage that refers to a pig which is over 56 days and under 64 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000018",
+      "lbl" : "21-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 21 and under 22 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "22.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000019",
+      "lbl" : "22-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 22 and under 23 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "23.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "22.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000020",
+      "lbl" : "23-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 23 and under 24 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "23.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000021",
+      "lbl" : "24-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 24 and under 25 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "25.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000022",
+      "lbl" : "25-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 25 and under 26 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "26.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "25.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000023",
+      "lbl" : "26-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 26 and under 27 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "27.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "26.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000024",
+      "lbl" : "27-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 27 and under 28 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "28.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "27.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000025",
+      "lbl" : "28-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 28 and under 29 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "29.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "28.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000026",
+      "lbl" : "29-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 29 and under 30 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "30.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "29.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000027",
+      "lbl" : "30-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 30 and under 31 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "31.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "30.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000028",
+      "lbl" : "31-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 31 and under 32 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "32.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "31.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000029",
+      "lbl" : "32-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 32 and under 33 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "33.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "32.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000030",
+      "lbl" : "33-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 33 and under 34 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "34.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "33.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000031",
+      "lbl" : "34-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 34 and under 35 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "35.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "34.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000032",
+      "lbl" : "35-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 35 and under 36 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "36.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "35.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000033",
+      "lbl" : "36-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 36 and under 37 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "37.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "36.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000034",
+      "lbl" : "37-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 37 and under 38 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "38.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "37.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000035",
+      "lbl" : "38-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 38 and under 39 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "39.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "38.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000036",
+      "lbl" : "39-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 39 and under 40 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "40.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "39.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000037",
+      "lbl" : "40-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 40 and under 41 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "41.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "40.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000038",
+      "lbl" : "41-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a pig which is over 41 and under 42 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "42.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "41.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000039",
+      "lbl" : "2-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 2 and under 3 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000040",
+      "lbl" : "9-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "2 month-old stage that refers to a pig which is over 63 days and under 71 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000041",
+      "lbl" : "10-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "2 month-old stage that refers to a pig which is over 70 days and under 78 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000042",
+      "lbl" : "11-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "2 month-old stage that refers to a pig which is over 77 days and under 85 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000043",
+      "lbl" : "3-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 3 and under 4 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000044",
+      "lbl" : "12-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "3 month-old stage that refers to a pig which is over 84 days and under 92 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "13.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000045",
+      "lbl" : "13-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "3 month-old stage that refers to a pig which is over 91 days and under 99 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "13.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000046",
+      "lbl" : "14-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "3 month-old stage that refers to a pig which is over 98 days and under 106 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000047",
+      "lbl" : "15-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "3 month-old stage that refers to a pig which is over 105 days and under 113 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "15.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000048",
+      "lbl" : "4-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 4 and under 5 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000049",
+      "lbl" : "16-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "4 month-old stage that refers to a pig which is over 112 days and under 120 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "16.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000050",
+      "lbl" : "17-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "4 month-old stage that refers to a pig which is over 119 days and under 127 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "18.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "17.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000051",
+      "lbl" : "18-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "4 month-old stage that refers to a pig which is over 126 days and under 134 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "19.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "18.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000052",
+      "lbl" : "19-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "4 month-old stage that refers to a pig which is over 133 days and under 141 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "20.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "19.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000053",
+      "lbl" : "20-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "4 month-old stage that refers to a pig which is over 140 days and under 148 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "20.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000054",
+      "lbl" : "5-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 5 and under 6 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "25.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000055",
+      "lbl" : "21-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "5 month-old stage that refers to a pig which is over 147 days and under 155 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "22.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000056",
+      "lbl" : "22-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "5 month-old stage that refers to a pig which is over 154 days and under 162 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "23.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "22.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000057",
+      "lbl" : "23-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "5 month-old stage that refers to a pig which is over 161 days and under 169 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "23.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000058",
+      "lbl" : "24-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "5 month-old stage that refers to a pig which is over 168 days and under 176 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "25.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000059",
+      "lbl" : "6-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 6 and under 7 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "25.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000060",
+      "lbl" : "7-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 7 and under 8 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000061",
+      "lbl" : "8-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 8 and under 9 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000062",
+      "lbl" : "9-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 9 and under 10 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000063",
+      "lbl" : "10-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a pig which is over 10 and under 11 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000064",
+      "lbl" : "11-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 11 and under 12 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000065",
+      "lbl" : "1-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 1 and under 2 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+          "val" : "24.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000066",
+      "lbl" : "2-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 2 and under 3 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000067",
+      "lbl" : "3-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 3 and under 4 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000068",
+      "lbl" : "4-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 4 and under 5 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000069",
+      "lbl" : "5-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 5 and under 6 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000070",
+      "lbl" : "6-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 6 and under 7 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000071",
+      "lbl" : "7-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a pig which is over 7 and under 8 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000072",
+      "lbl" : "0-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a new born pig which is under 24 hours old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "newborn day 0"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000073",
+      "lbl" : "1-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a pig which is over 1 and under 2 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000074",
+      "lbl" : "2-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a pig which is over 2 and under 3 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000075",
+      "lbl" : "3-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a pig which is over 3 and under 4 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000076",
+      "lbl" : "4-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a pig which is over 4 and under 5 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000077",
+      "lbl" : "5-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a pig which is over 5 and under 6 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000078",
+      "lbl" : "6-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a pig which is over 6 and under 7 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000079",
+      "lbl" : "early embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage that starts at fertilization time and ends at about days 45 of gestation, when fetal weight gain accelerates.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "We define pig early and late embryonic stages based on fetal growth (see https://www.ncbi.nlm.nih.gov/pubmed/15446468). Pig embryo begins to attach to the uterus on days 13–14 of pregnancy (see https://embryology.med.unsw.edu.au/embryology/index.php/Pig_Development#Normal_Stages). At that stage, this is a 6-somite pig embryo (see https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Embryology_of_the_Pig_5)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpf",
+          "val" : "45.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000080",
+      "lbl" : "late embryonic stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage that refers to fetal pig development over 45 days of gestation.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "We define pig early and late embryonic stages based on fetal growth (see https://www.ncbi.nlm.nih.gov/pubmed/15446468)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007220"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpf",
+          "val" : "115.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+          "val" : "45.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000081",
+      "lbl" : "ridge limb stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig fetal stage when the developing limb begins to grow out from the flank.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "This stage is defined at embryonic day 20 during pig development (see https://www.ncbi.nlm.nih.gov//pubmed/28335721)." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000082",
+      "lbl" : "bud limb stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig fetal stage when the developing limb looks like a semicircle that is as long as it is wide.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "This stage is defined at embryonic day 22 during pig development (see https://www.ncbi.nlm.nih.gov//pubmed/28335721)." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000083",
+      "lbl" : "paddle limb stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig fetal stage when the developing limb looks like a hand-plate.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "This stage is defined at embryonic day 26 during pig development (see https://www.ncbi.nlm.nih.gov//pubmed/28335721)." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/SscrDv#granular_stage" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000084",
+      "lbl" : "postnatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pig developmental stage that covers the period from birth until late adulthood.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000066"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+          "val" : "115.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000085",
+      "lbl" : "infant stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Nursing stage that refers to a piglet which is over 1 week old and not weaned.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0034920"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000086",
+      "lbl" : "organogenesis stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.",
+          "xrefs" : [ "UBERON:0000111" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000111"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#end_dpf",
+          "val" : "45.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000087",
+      "lbl" : "zygote stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A stage at which the organism is a single cell produced by means of sexual reproduction.",
+          "xrefs" : [ "UBERON:0000106" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000106"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000088",
+      "lbl" : "cleavage stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage consisting of division of cells in the early embryo.",
+          "xrefs" : [ "UBERON:0000107" ]
+        },
+        "comments" : [ "The different cells derived from cleavage are called blastomeres and form a compact mass called the morula. Cleavage ends with the formation of the blastula." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000107"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000089",
+      "lbl" : "blastula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.",
+          "xrefs" : [ "UBERON:0000108" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000108"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000090",
+      "lbl" : "gastrula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage, resulting in the formation of the three primary germ layers, ectoderm, mesoderm and endoderm.",
+          "xrefs" : [ "UBERON:0000109" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000109"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv_0000091",
+      "lbl" : "neurula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate.",
+          "xrefs" : [ "UBERON:0000110" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000110"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "lbl" : "part of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "lbl" : "preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)"
+        },
+        "xrefs" : [ {
+          "val" : "BFO:0000062"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "lbl" : "immediately_preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002087"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
+      "lbl" : "end, days post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#end_dpf",
+      "lbl" : "end, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#end_mpb",
+      "lbl" : "end, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#end_mpf",
+      "lbl" : "end, months post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#end_wpb",
+      "lbl" : "end, weeks post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the mouse is one week old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000034"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#end_ypb",
+      "lbl" : "end, years post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#granular_stage",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#has_end_time",
+      "lbl" : "has end time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#has_start_time",
+      "lbl" : "has start time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+      "lbl" : "has unit",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#start_dpb",
+      "lbl" : "start, days post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#start_dpf",
+      "lbl" : "start, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#start_mpb",
+      "lbl" : "start, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#start_mpf",
+      "lbl" : "start, months post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#start_wpb",
+      "lbl" : "start, weeks post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of weeks intervening between the start of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 0 for this property, and the period during which the mouse is one week old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000034"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SscrDv#start_ypb",
+      "lbl" : "start, years post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/SscrDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "pig_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+      "lbl" : "subset_property",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "database_cross_reference",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "lbl" : "has_exact_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "lbl" : "has_narrow_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "lbl" : "has_obo_namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "lbl" : "in_subset",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "lbl" : "shorthand",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000009",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000016",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000016",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000039"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000018",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000019",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000019",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000027"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000031",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000031",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000032",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000032",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000033",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000033",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000032"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000034",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000034",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000033"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000036",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000036",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000035"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000037",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000037",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000038",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000038",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000038",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000037"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000039",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000039",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000040",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000039"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000040",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000039"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000039"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000041"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000043",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000043",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000043",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000042"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000044",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000044",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000042"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000045"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000046"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000049"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000051",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000051",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000051",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000052",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000052",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000053",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000053",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000053",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000054",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000054",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000055",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000056",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000056",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000057",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000057",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000057",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000058",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000058",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000058",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000059",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000059",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000060",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000060",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000060",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000061",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000061",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000060"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000062",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000062",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000062",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000063",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000063",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000063",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000064",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000064",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000065",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000065",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000064"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000067",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000067",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000068",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000068",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000068",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000069",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000069"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000071",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000071",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000071",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000072",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000072",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000072",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000073",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000073",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000073",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000074",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000074",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000074",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000073"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000075",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000075",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000075",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000074"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000076",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000076",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000076",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000075"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000077",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000077",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000077",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000076"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000078",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000078",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000077"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000079",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000079",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000080",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000080",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000081",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000081",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000082",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000082",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000082",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000081"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000083",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000083",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000084",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000084",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000084",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000085",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000085",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000086",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000086",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000087",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000087",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000088",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000088",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000088",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000087"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000089",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000089",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000089",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000088"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000090",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000090",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000089"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000091",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000091",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SscrDv_0000091",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/SscrDv_0000090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000062"
+    } ]
+  } ]
+}

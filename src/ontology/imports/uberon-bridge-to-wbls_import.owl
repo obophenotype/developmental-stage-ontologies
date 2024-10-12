@@ -1,0 +1,99 @@
+Prefix(:=<http://purl.obolibrary.org/obo/life-stages/imports/uberon-bridge-to-wbls_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/life-stages/imports/uberon-bridge-to-wbls_import.owl>
+<http://purl.obolibrary.org/obo/life-stages/releases/2024-10-12/imports/uberon-bridge-to-wbls_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/uberon/releases/2024-09-03/bridge/uberon-bridge-to-wbls.owl>)
+Annotation(owl:versionInfo "2024-10-12")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6237>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000108>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004729>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000103>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000589>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000002> (<http://purl.obolibrary.org/obo/WBls_0000002>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000002> "life cycle stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000003> (<http://purl.obolibrary.org/obo/WBls_0000003>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000003> "embryo stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000005> (<http://purl.obolibrary.org/obo/WBls_0000005>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000005> "blastula stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000108> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000010> (<http://purl.obolibrary.org/obo/WBls_0000010>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000010> "gastrula stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000022> (<http://purl.obolibrary.org/obo/WBls_0000022>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000022> "post-embryonic stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000023> (<http://purl.obolibrary.org/obo/WBls_0000023>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000023> "nematode larval stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004729> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000041> (<http://purl.obolibrary.org/obo/WBls_0000041>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000041> "fully formed stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000092> (<http://purl.obolibrary.org/obo/WBls_0000092>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000092> "embryo stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000092> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000093> (<http://purl.obolibrary.org/obo/WBls_0000093>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000093> "post-embryonic stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000093> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000102> (<http://purl.obolibrary.org/obo/WBls_0000102>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000102> "embryo stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000102> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000103> (<http://purl.obolibrary.org/obo/WBls_0000103>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/WBls_0000103> "post-embryonic stage (worm)")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000103> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/NCBITaxon_6237>)))
+
+
+)

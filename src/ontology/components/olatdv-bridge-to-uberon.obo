@@ -1,0 +1,249 @@
+[Term]
+id: OlatDv:0000400
+property_value: IAO:0000589 "Medaka stage 37 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000360
+property_value: IAO:0000589 "Medaka stage 33 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000180
+property_value: IAO:0000589 "Medaka stage 15 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000120
+property_value: IAO:0000589 "Medaka stage 9 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000170
+property_value: IAO:0000589 "Medaka stage 14 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000150
+property_value: IAO:0000589 "Medaka stage 12 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000230
+property_value: IAO:0000589 "Medaka stage 20 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000430
+property_value: IAO:0000589 "Medaka stage 40 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000160
+property_value: IAO:0000589 "Medaka stage 13 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000350
+property_value: IAO:0000589 "Medaka stage 32 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000370
+property_value: IAO:0000589 "Medaka stage 34 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000200
+property_value: IAO:0000589 "Medaka stage 17 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000380
+property_value: IAO:0000589 "Medaka stage 35 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000320
+property_value: IAO:0000589 "Medaka stage 29 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000040
+property_value: IAO:0000589 "Medaka stage 2a (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000090
+property_value: IAO:0000589 "Medaka stage 6 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000460
+property_value: IAO:0000589 "Medaka stage 43 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000130
+property_value: IAO:0000589 "Medaka stage 10 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000280
+property_value: IAO:0000589 "Medaka stage 25 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000220
+property_value: IAO:0000589 "Medaka stage 19 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000300
+property_value: IAO:0000589 "Medaka stage 27 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000270
+property_value: IAO:0000589 "Medaka stage 24 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000250
+property_value: IAO:0000589 "Medaka stage 22 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000260
+property_value: IAO:0000589 "Medaka stage 23 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000010
+property_value: IAO:0000589 "developmental stage (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000420
+property_value: IAO:0000589 "Medaka stage 39 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000470
+property_value: IAO:0000589 "Medaka stage 44 (medaka)" xsd:string
+intersection_of: UBERON:0000113
+intersection_of: part_of NCBITaxon:8090
+
+[Term]
+id: OlatDv:0000450
+property_value: IAO:0000589 "Medaka stage 42 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000330
+property_value: IAO:0000589 "Medaka stage 30 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000100
+property_value: IAO:0000589 "Medaka stage 7 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000240
+property_value: IAO:0000589 "Medaka stage 21 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000390
+property_value: IAO:0000589 "Medaka stage 36 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000110
+property_value: IAO:0000589 "Medaka stage 8 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000030
+property_value: IAO:0000589 "Medaka stage 1 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000440
+property_value: IAO:0000589 "Medaka stage 41 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000310
+property_value: IAO:0000589 "Medaka stage 28 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000190
+property_value: IAO:0000589 "Medaka stage 16 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000140
+property_value: IAO:0000589 "Medaka stage 11 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000210
+property_value: IAO:0000589 "Medaka stage 18 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000060
+property_value: IAO:0000589 "Medaka stage 3 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000410
+property_value: IAO:0000589 "Medaka stage 38 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000340
+property_value: IAO:0000589 "Medaka stage 31 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000050
+property_value: IAO:0000589 "Medaka stage 2b (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000070
+property_value: IAO:0000589 "Medaka stage 4 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000080
+property_value: IAO:0000589 "Medaka stage 5 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000020
+property_value: IAO:0000589 "Medaka stage 0 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: OlatDv:0000290
+property_value: IAO:0000589 "Medaka stage 26 (medaka)" xsd:string
+relationship: only_in_taxon NCBITaxon:8090 ! medaka
+
+[Term]
+id: UBERON:0000113
+synonym: "Medaka stage 44" BROAD []
+xref: OlatDv:0000470
+
+[Typedef]
+id: part_of
+xref: BFO:0000050
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
+

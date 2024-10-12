@@ -1,0 +1,190 @@
+ontology: uberon/bridge/uberon-bridge-to-fbdv
+data-version: 2021-02-16
+property_value: seeAlso "http://purl.obolibrary.org/obo/uberon/references/reference_0000026" xsd:anyURI
+
+[Term]
+id: FBdv:00005304
+property_value: IAO:0000589 "blastula stage (FBdv)" xsd:string
+intersection_of: UBERON:0000108 ! blastula stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000108
+comment: Temporal ordering number - 160. (FBdv comment)
+xref: FBdv:00005304
+
+[Term]
+id: FBdv:00005321
+property_value: IAO:0000589 "neurula stage (FBdv)" xsd:string
+intersection_of: UBERON:0000110 ! neurula stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000110
+comment: Temporal ordering number - 260. (FBdv comment)
+xref: FBdv:00005321
+
+[Term]
+id: FBdv:00005331
+property_value: IAO:0000589 "organogenesis stage (FBdv)" xsd:string
+intersection_of: UBERON:0000111 ! neurula stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000111
+comment: Temporal ordering number - 330. (FBdv comment)
+xref: FBdv:00005331
+
+[Term]
+id: FBdv:00005369 ! 
+property_value: IAO:0000589 "fully formed stage (FBdv)" xsd:string
+intersection_of: UBERON:0000066 ! fully formed stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000066
+comment: Temporal ordering number - 770. (FBdv comment)
+synonym: "adult stage" BROAD []
+xref: FBdv:00005369
+
+[Term]
+id: FBdv:00007001
+intersection_of: UBERON:0000092 ! post-embryonic stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000092
+xref: FBdv:00007001
+relationship: part_of UBERON:0000104
+
+[Term]
+id: FBdv:00005289 ! 
+property_value: IAO:0000589 "embryo stage (FBdv)" xsd:string
+intersection_of: UBERON:0000068 ! embryo stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000068
+comment: Temporal ordering number - 20. (FBdv comment)
+synonym: "embryonic stage" BROAD []
+xref: FBdv:00005289
+
+[Term]
+id: FBdv:00005349 ! 
+property_value: IAO:0000589 "pupal stage (FBdv)" xsd:string
+intersection_of: UBERON:0000070 ! pupal stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000070
+comment: Temporal ordering number - 570. (FBdv comment)
+synonym: "pupal stage" BROAD []
+xref: FBdv:00005349
+
+[Term]
+id: FBdv:00000000 ! 
+property_value: IAO:0000589 "life cycle (FBdv)" xsd:string
+intersection_of: UBERON:0000104 ! life cycle
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000104
+synonym: "Drosophila life" BROAD []
+xref: FBdv:00000000
+
+[Term]
+id: FBdv:00005259 ! 
+property_value: IAO:0000589 "life cycle stage (FBdv)" xsd:string
+intersection_of: UBERON:0000105 ! life cycle stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000105
+synonym: "developmental stage" BROAD []
+xref: FBdv:00005259
+
+[Term]
+id: FBdv:00005288 ! 
+property_value: IAO:0000589 "zygote stage (FBdv)" xsd:string
+intersection_of: UBERON:0000106 ! zygote stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000106
+comment: Temporal ordering number - 10. (FBdv comment)
+synonym: "fertilized egg stage" BROAD []
+xref: FBdv:00005288
+
+[Term]
+id: FBdv:00000054 ! 
+property_value: IAO:0000589 "cleavage stage (FBdv)" xsd:string
+intersection_of: UBERON:0000107 ! cleavage stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000107
+comment: Temporal ordering number - 25. (FBdv comment)
+synonym: "cleavage stage" BROAD []
+xref: FBdv:00000054
+
+[Term]
+id: FBdv:00005317 ! 
+property_value: IAO:0000589 "gastrula stage (FBdv)" xsd:string
+intersection_of: UBERON:0000109 ! gastrula stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0000109
+comment: Temporal ordering number - 220. (FBdv comment)
+synonym: "gastrula stage" BROAD []
+xref: FBdv:00005317
+
+[Term]
+id: FBdv:00005336 ! 
+property_value: IAO:0000589 "instar larval stage (FBdv)" xsd:string
+intersection_of: UBERON:0004730 ! instar larval stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0004730
+comment: Temporal ordering number - 400. (FBdv comment)
+synonym: "larval stage" BROAD []
+xref: FBdv:00005336
+
+[Term]
+id: FBdv:00005333 ! 
+property_value: IAO:0000589 "late embryonic stage (FBdv)" xsd:string
+intersection_of: UBERON:0007220 ! late embryonic stage
+intersection_of: part_of NCBITaxon:7227
+
+[Term]
+id: UBERON:0007220
+comment: Temporal ordering number - 370. (FBdv comment)
+synonym: "late embryonic stage" BROAD []
+xref: FBdv:00005333
+relationship: preceded_by UBERON:0000111
+
+[Term]
+id: FBdv:ENTITY
+name: FBdv entity
+intersection_of: UBERON:0001062 ! anatomical entity
+intersection_of: part_of NCBITaxon:7227
+relationship: only_in_taxon NCBITaxon:7227
+
+[Typedef]
+id: part_of
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
+
+[Typedef]
+id: http://purl.obolibrary.org/obo/fbdv#part_of
+equivalent_to: BFO:0000050
+
+[Typedef]
+id: http://purl.obolibrary.org/obo/fbdv#develops_from
+equivalent_to: RO:0002225
+

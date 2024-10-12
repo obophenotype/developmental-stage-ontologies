@@ -1,0 +1,592 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/oanadv.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "07:03:2014 15:09"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+        "val" : "platypus_stages_ontology"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+        "val" : "ann"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000000",
+      "lbl" : "life cycle stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A spatiotemporal region encompassing some part of the life cycle of an organism.",
+          "xrefs" : [ "UBERON:0000105" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental stage"
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000105"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000001",
+      "lbl" : "life cycle",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Temporal interval that defines platypus life from the prenatal stage until late adult stage.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000104"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000002",
+      "lbl" : "prenatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Platypus life cycle that starts with fertilization and ends with hatching.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Estimated gestation periods are 27 days and incubation periods are 10 days (see http://animaldiversity.ummz.umich.edu/accounts/Ornithorhynchus_anatinus/#reproduction)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#end_dpf",
+          "val" : "37.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000003",
+      "lbl" : "immature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Platypus developmental stage that covers the period from hatching until 1.5 year old, when individuals usually reach sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000112"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#end_mph",
+          "val" : "18.3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_dpf",
+          "val" : "37.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_mph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000004",
+      "lbl" : "mature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Platypus developmental stage that refers to a sexually mature adult platypus, which is over about 1.5 year old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Male and female platypus reach sexual maturity by 548 days of age (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus)." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mature"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000113"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_mph",
+          "val" : "18.3"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000005",
+      "lbl" : "adulthood stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a adult platypus which is over 1.5 and under 10 years old, the usual upper limit for breeding age.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Females are thought likely to become sexually mature in their second year, with breeding confirmed still to take place in animals over 9 years old. (see http://en.wikipedia.org/wiki/Platypus). We decided to consider 10 years the upper limit for breeding age, before aged stage." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "prime adult stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018241"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#end_mph",
+          "val" : "120.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_mph",
+          "val" : "18.3"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000006",
+      "lbl" : "aged stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a adult platypus which is over 10 years.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "There is little information on the longevity of platypuses. They can live up to 12 years in the wild (see http://www.mspca.org/programs/wildlife-resources/species-information/about-platypuss.html) and one captive specimen was at least 22.6 years old when it died (see http://genomics.senescence.info/species/entry.php?species=Ornithorhynchus_anatinus). Over 10 years old is usually no more a breeding age." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007222"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_mph",
+          "val" : "120.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OanaDv_0000007",
+      "lbl" : "postnatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Platypus developmental stage that covers the period from birth until late adulthood.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000066"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_dpf",
+          "val" : "37.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#start_mph",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "lbl" : "part of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "lbl" : "preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)"
+        },
+        "xrefs" : [ {
+          "val" : "BFO:0000062"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "lbl" : "immediately_preceded_by",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002087"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_preceded_by"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#end_dpf",
+      "lbl" : "end, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#end_mpb",
+      "lbl" : "end, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the child is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#end_mph",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#end_wpb",
+      "lbl" : "end, weeks post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the mouse is one week old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000034"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#granular_stage",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#has_end_time",
+      "lbl" : "has end time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#has_start_time",
+      "lbl" : "has start time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#has_unit",
+      "lbl" : "has unit",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#start_dpf",
+      "lbl" : "start, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#start_mpb",
+      "lbl" : "start, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the child is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#start_mph",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/oanadv#start_wpb",
+      "lbl" : "start, weeks post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of weeks intervening between the start of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 0 for this property, and the period during which the mouse is one week old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/oanadv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000034"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "platypus_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+      "lbl" : "subset_property",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "database_cross_reference",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "lbl" : "has_exact_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "lbl" : "has_narrow_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "lbl" : "has_obo_namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "lbl" : "shorthand",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000062"
+    } ]
+  } ]
+}
