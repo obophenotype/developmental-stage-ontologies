@@ -52,8 +52,6 @@ namespaces:
 release_artefacts: 
   - base
   - full
-  - custom-ssso-merged-uberon
-  - custom-ssso-merged
 primary_release: full
 export_formats:
   - owl
