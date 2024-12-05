@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/life-stages/imports/ro_import.owl>
-<http://purl.obolibrary.org/obo/life-stages/releases/2024-10-12/imports/ro_import.owl>
+<http://purl.obolibrary.org/obo/life-stages/releases/2024-12-05/imports/ro_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl>)
-Annotation(owl:versionInfo "2024-10-12")
+Annotation(owl:versionInfo "2024-12-05")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -22,21 +22,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000402>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002124>))
-Declaration(Class(<http://purl.obolibrary.org/obo/RO_0002577>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000465>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))
@@ -53,7 +44,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000092>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002007>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002013>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002014>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002015>))
@@ -63,45 +53,27 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002022>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002023>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002024>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002081>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002082>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002090>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002160>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002202>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002203>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002207>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002210>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002216>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002222>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002223>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002224>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002225>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002229>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002230>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002254>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002255>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002258>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002263>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002264>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002286>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002287>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002304>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002305>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002320>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002323>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002324>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002327>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002328>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002329>))
@@ -110,16 +82,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002333>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002334>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002335>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002336>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002350>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002375>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002376>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002380>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002384>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002385>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002387>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002388>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002405>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002407>))
@@ -141,21 +104,14 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002449>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002450>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002464>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002481>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002494>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002495>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002500>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002501>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002502>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002506>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002551>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002559>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002563>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002564>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002569>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002571>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002572>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002576>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002578>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002584>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002595>))
@@ -199,26 +155,15 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000233>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000424>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000425>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000589>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000600>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0002000>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0001900>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002161>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002171>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002173>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002174>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002259>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002475>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002575>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002579>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002581>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002582>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002604>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0004036>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0004049>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0004050>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0040042>))
@@ -227,23 +172,15 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_gp2t
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_ontology>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_gocam>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ro/subsets#ro-eco>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#common_anatomy>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#upper_level>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/publisher>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/isReferencedBy>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
-Declaration(AnnotationProperty(<http://usefulinc.com/ns/doap#SVNRepository>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
@@ -256,26 +193,14 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#source>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent>))
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(rdfs:label))
-Declaration(AnnotationProperty(rdfs:seeAlso))
 Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#closeMatch>))
 Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
 ############################
 #   Annotation Properties
 ############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000112> (example of usage)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000112> "A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000112> "PERSON:Daniel Schober"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000112> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
 
@@ -307,41 +232,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000116> (editor note)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000116> "editor note"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000116> "An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000116> "PERSON:Daniel Schober"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000116> "GROUP:OBI:<http://purl.obofoundry.org/obo/obi>"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000116> "editor note"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000232> (curator note)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000232> "curator note"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000232> "An administrative note of use for a curator but of no use for a user"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000232> "PERSON:Alan Ruttenberg"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000232> "curator note"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000425> (expand assertion to)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000425> "expand assertion to"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000425> "ObjectProperty: RO???
-Label: spatially disjoint from
-Annotations: expand_assertion_to \"DisjointClasses: (http://purl.obolibrary.org/obo/BFO_0000051 some ?X)  (http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"
-"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000425> "A macro expansion tag applied to an annotation property which can be expanded into a more detailed axiom."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000425> "Chris Mungall"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000425> "expand assertion to"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000700> (has ontology root term)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000700> "Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000700> "Nicolas Matentzoglu"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term"@en)
-
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0100001> (term replaced by)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0100001> "term replaced by"@en)
@@ -352,129 +242,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IAO_0100001> "Add as annotation triples in the granting ontology"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0100001> "term replaced by"@en)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/RO_0002161> (never in taxon)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002161> "tooth SubClassOf 'never in taxon' value 'Aves'")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002161> "x never in taxon T if and only if T is a class, and x does not instantiate the class expression \"in taxon some T\". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002161> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002161> <http://www.ncbi.nlm.nih.gov/pubmed/17921072>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002161> <http://www.ncbi.nlm.nih.gov/pubmed/20973947>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000425> <http://purl.obolibrary.org/obo/RO_0002161> "Class: ?X DisjointWith: RO_0002162 some ?Y ")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OMO_0002000> <http://purl.obolibrary.org/obo/RO_0002161> "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX in_taxon: <http://purl.obolibrary.org/obo/RO_0002162>
-PREFIX never_in_taxon: <http://purl.obolibrary.org/obo/RO_0002161>
-CONSTRUCT {
-  in_taxon: a owl:ObjectProperty .
-  ?x owl:disjointWith [
-    a owl:Restriction ;
-    owl:onProperty in_taxon: ;
-    owl:someValuesFrom ?taxon
-  ] .
-  ?x rdfs:subClassOf [
-    a owl:Restriction ;
-    owl:onProperty in_taxon: ;
-    owl:someValuesFrom [
-      a owl:Class ;
-      owl:complementOf ?taxon
-    ]
-  ] .
-}
-WHERE {
-  ?x never_in_taxon: ?taxon .
-}")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002161> "never in taxon")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002161> <https://github.com/obophenotype/uberon/wiki/Taxon-constraints>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/RO_0002171> (mutually spatially disjoint with)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002171> "A is mutually_spatially_disjoint_with B if both A and B are classes, and there exists no p such that p is part_of some A and p is part_of some B.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002171> "non-overlapping with")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002171> "shares no parts with")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002171> <http://www.ncbi.nlm.nih.gov/pubmed/22293552>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000425> <http://purl.obolibrary.org/obo/RO_0002171> "Class: <http://www.w3.org/2002/07/owl#Nothing> EquivalentTo: (BFO_0000050 some ?X) and (BFO_0000050 some ?Y)")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OMO_0002000> <http://purl.obolibrary.org/obo/RO_0002171> "PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX part_of: <http://purl.obolibrary.org/obo/BFO_0000050>
-PREFIX mutually_spatially_disjoint_with: <http://purl.obolibrary.org/obo/RO_0002171>
-CONSTRUCT {
-  part_of: a owl:ObjectProperty .
-  [
-    a owl:Restriction ;
-    owl:onProperty part_of: ;
-    owl:someValuesFrom ?x ;
-    owl:disjointWith [
-      a owl:Restriction ;
-      owl:onProperty part_of: ;
-      owl:someValuesFrom ?y
-    ]
-  ]
-}
-WHERE {
-  ?x mutually_spatially_disjoint_with: ?y .
-}")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002171> "mutually spatially disjoint with"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002171> <http://purl.obolibrary.org/obo/RO_0002163>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002171> "https://github.com/obophenotype/uberon/wiki/Part-disjointness-Design-Pattern"^^xsd:anyURI)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/RO_0002173> (ambiguous for taxon)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002173> "S ambiguous_for_taxon T if the class S does not have a clear referent in taxon T. An example would be the class 'manual digit 1', which encompasses a homology hypotheses that is accepted for some species (e.g. human and mouse), but does not have a clear referent in Aves - the referent is dependent on the hypothesis embraced, and also on the ontogenetic stage.  [PHENOSCPAE:asilomar_mtg]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002173> "ambiguous for taxon"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002173> <https://github.com/obophenotype/uberon/wiki/Taxon-constraints>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/RO_0002174> (dubious for taxon)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002174> "S dubious_for_taxon T if it is probably the case that no instances of S can be found in any instance of T.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002174> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002174> <http://www.ncbi.nlm.nih.gov/pubmed/22293552>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002174> "This relation lacks a strong logical interpretation, but can be used in place of never_in_taxon where it is desirable to state that the definition of the class is too strict for the taxon under consideration, but placing a never_in_taxon link would result in a chain of inconsistencies that will take ongoing coordinated effort to resolve. Example: metencephalon in teleost")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002174> "dubious for taxon"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002174> <https://github.com/obophenotype/uberon/wiki/Taxon-constraints>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/RO_0002175> (present in taxon)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002175> "S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002175> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002175> <http://www.ncbi.nlm.nih.gov/pubmed/22293552>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OMO_0002000> <http://purl.obolibrary.org/obo/RO_0002175> "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX in_taxon: <http://purl.obolibrary.org/obo/RO_0002162>
-PREFIX present_in_taxon: <http://purl.obolibrary.org/obo/RO_0002175>
-CONSTRUCT {
-  in_taxon: a owl:ObjectProperty .
-  ?witness rdfs:label ?label .
-  ?witness rdfs:subClassOf ?x .
-  ?witness rdfs:subClassOf [
-    a owl:Restriction ;
-    owl:onProperty in_taxon: ;
-    owl:someValuesFrom ?taxon
-  ] .
-}
-WHERE {
-  ?x present_in_taxon: ?taxon .
-  BIND(IRI(CONCAT(
-    \"http://purl.obolibrary.org/obo/RO_0002175#\",
-    MD5(STR(?x)),
-    \"-\",
-    MD5(STR(?taxon))
-  )) as ?witness)
-  BIND(CONCAT(STR(?x), \" in taxon \", STR(?taxon)) AS ?label)
-}")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002175> "The SPARQL expansion for this relation introduces new named classes into the ontology. For this reason it is likely that the expansion should only be performed during a QC pipeline; the expanded output should usually not be included in a published version of the ontology.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002175> "present in taxon"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002175> <https://github.com/obophenotype/uberon/wiki/Taxon-constraints>)
-
 # Annotation Property: <http://purl.obolibrary.org/obo/RO_0002259> (<http://purl.obolibrary.org/obo/RO_0002259>)
 
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/RO_0002259> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/RO_0002475> (has no connections with)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002475> "'pectoral appendage skeleton' has no connections with 'pelvic appendage skeleton'")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002475> "A is has_no_connections_with B if there are no parts of A or B that have a connection with the other.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002475> "shares no connection with")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000425> <http://purl.obolibrary.org/obo/RO_0002475> "Class: <http://www.w3.org/2002/07/owl#Nothing> EquivalentTo: (BFO_0000050 some ?X) and (RO_0002170 some (BFO_0000050 some ?Y))")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002475> "has no connections with")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/RO_0002581> (is a defining property chain axiom)
 
@@ -505,14 +275,6 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/valid_for_gocam> <http:/
 # Annotation Property: <http://purl.obolibrary.org/obo/ro/subsets#ro-eco> (<http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
 
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ro/subsets#ro-eco> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/uberon/core#common_anatomy> (<http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/uberon/core#common_anatomy> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/uberon/core#upper_level> (<http://purl.obolibrary.org/obo/uberon/core#upper_level>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/uberon/core#upper_level> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> (subset_property)
 
@@ -794,25 +556,6 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0000092> "Th
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000092> "disposition of"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000092> <http://purl.obolibrary.org/obo/RO_0000052>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002007> (bounding layer of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002007> "X outer_layer_of Y iff:
-. X :continuant that bearer_of some PATO:laminar
-. X part_of Y
-. exists Z :surface
-. X has_boundary Z
-. Z boundary_of Y
-
-has_boundary: http://purl.obolibrary.org/obo/RO_0002002
-boundary_of: http://purl.obolibrary.org/obo/RO_0002000")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002007> <https://orcid.org/0000-0002-7073-9172>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002007> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002007> "A relationship that applies between a continuant and its outer, bounding layer.  Examples include the relationship between a multicellular organism and its integument, between an animal cell and its plasma membrane, and between a membrane bound organelle and its outer/bounding membrane.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002007> "bounding layer of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002007> <http://purl.obolibrary.org/obo/BFO_0000050>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0002124>)))
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002007> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002013> (has regulatory component activity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002013> "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B.")
@@ -897,27 +640,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002025> "has 
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002025> <http://purl.obolibrary.org/obo/RO_0002017>)
 FunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002081> (before or simultaneous with)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002081> "David Osumi-Sutherland")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002081> "<="@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002081> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002081> "Primitive instance level timing relation between events")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002081> "before or simultaneous with"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002081> <http://purl.obolibrary.org/obo/RO_0002222>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002082> (simultaneous with)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002082> "x simultaneous with y iff ω(x) = ω(y) and ω(α ) = ω(α), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point and '=' indicates the same instance in time.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002082> <https://orcid.org/0000-0002-7073-9172>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002082> "David Osumi-Sutherland")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002082> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002082> "t1 simultaneous_with t2 iff:=  t1 before_or_simultaneous_with t2  and not (t1 before t2)"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002082> "simultaneous with"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002082> <http://purl.obolibrary.org/obo/RO_0002081>)
-SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002082>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002082>)
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002086> (ends after)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002086> "David Osumi-Sutherland")
@@ -991,18 +713,6 @@ AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002162> <ht
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/RO_0002320>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/OBI_0100026>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002170> (connected to)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002170> "a 'toe distal phalanx bone' that is connected to a 'toe medial phalanx bone' (an interphalangeal joint *connects* these two bones).")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002170> "a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002170> <http://www.ncbi.nlm.nih.gov/pubmed/22293552>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002170> "connected to"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002170> "https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern"^^xsd:anyURI)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002170> "https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern"^^xsd:anyURI)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/RO_0002323>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002577>))
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002180> (has component)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IAO_0000125>)
@@ -1014,62 +724,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002180> "has component"@en)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002180> <http://ontologydesignpatterns.org/wiki/Submissions:Componency>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/BFO_0000051>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002202> (develops from)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002202> "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002202> <https://orcid.org/0000-0001-9114-8737>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002202> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002202> <https://orcid.org/0000-0002-7073-9172>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002202> <https://orcid.org/0000-0003-1980-3228>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002202> "This is the transitive form of the develops from relation")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002202> "develops from"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/RO_0002254>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/RO_0002258>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/RO_0002203>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002202>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/BFO_0000004>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/BFO_0000004>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002203> (develops into)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002203> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002203> "inverse of develops from")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002203> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002203> <https://orcid.org/0000-0002-7073-9172>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002203> <https://orcid.org/0000-0003-1980-3228>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002203> <http://purl.obolibrary.org/obo/RO_0002259>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002203> "develops into"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002203> <http://purl.obolibrary.org/obo/RO_0002286>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002203> <http://purl.obolibrary.org/obo/RO_0002387>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002203> <http://purl.obolibrary.org/obo/RO_0002388>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002203>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002207> (directly develops from)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002207> "Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participate in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of x comes from y, and the start of x is coincident with or after the end of y.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002207> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002207> <https://orcid.org/0000-0002-7073-9172>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002207> "FBbt")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002575> <http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/RO_0002202>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_0002207> "has developmental precursor")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002207> "TODO - add child relations from DOS")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002207> "directly develops from"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/RO_0002202>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/RO_0002210>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002207> ObjectUnionOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/UBERON_0010000>))
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002207> ObjectUnionOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/UBERON_0010000>))
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002210> (directly develops into)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002210> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002210> "inverse of directly develops from")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002210> "developmental precursor of")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002210> <http://purl.obolibrary.org/obo/RO_0002259>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002210> "directly develops into"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002210> <http://purl.obolibrary.org/obo/RO_0002203>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002211> (regulates)
 
@@ -1162,66 +816,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002222> "temp
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002222> <http://purl.obolibrary.org/obo/BFO_0000003>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002222> <http://purl.obolibrary.org/obo/BFO_0000003>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002223> (starts)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002223> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002223> "inverse of starts with")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002223> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002223> "Chris Mungall")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002223> "Allen")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002223> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002223> "starts"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002223> <http://purl.obolibrary.org/obo/BFO_0000050>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002223> <http://purl.obolibrary.org/obo/RO_0002222>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002223> <http://purl.obolibrary.org/obo/RO_0002224>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002224> (starts with)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002224> "Every insulin receptor signaling pathway starts with the binding of a ligand to the insulin receptor")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002224> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002224> "x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002224> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002224> "Chris Mungall")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002224> "started by")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002224> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002224> "starts with"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002224> <http://purl.obolibrary.org/obo/BFO_0000051>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002224> <http://purl.obolibrary.org/obo/RO_0002222>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002224>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002225> (develops from part of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002225> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002225> "x develops from part of y if and only if there exists some z such that x develops from z and z is part of y")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002225> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002225> "develops from part of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002225> <http://purl.obolibrary.org/obo/RO_0002202>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002229> (ends)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002229> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002229> "inverse of ends with")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002229> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002229> "Chris Mungall")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002229> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002229> "ends"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002229> <http://purl.obolibrary.org/obo/BFO_0000050>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002229> <http://purl.obolibrary.org/obo/RO_0002222>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002229> <http://purl.obolibrary.org/obo/RO_0002230>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002230> (ends with)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002230> "x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002230> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002230> "Chris Mungall")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002230> "finished by")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002230> "ends with"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/BFO_0000051>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/RO_0002222>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002230>)
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002233> (has input)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/IAO_0000125>)
@@ -1237,42 +831,6 @@ AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002233> "ht
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0000057>)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0002352>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/BFO_0000015>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002254> (has developmental contribution from)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002254> "Mammalian thymus has developmental contribution from some pharyngeal pouch 3; Mammalian thymus has developmental contribution from some pharyngeal pouch 4 [Kardong]")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002254> "x has developmental contribution from y iff x has some part z such that z develops from y"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002254> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002254> "has developmental contribution from"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/RO_0002258>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/RO_0002255>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/UBERON_0001062>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/UBERON_0001062>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002255> (developmentally contributes to)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002255> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002255> "inverse of has developmental contribution from")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002255> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002255> <http://purl.obolibrary.org/obo/RO_0002259>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002255> "developmentally contributes to"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002255> <http://purl.obolibrary.org/obo/RO_0002286>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002255> <http://purl.obolibrary.org/obo/RO_0002385>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002258> (developmentally preceded by)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002258> "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0002258> "false"^^xsd:boolean)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002258> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002258> "In general you should not use this relation to make assertions - use one of the more specific relations below this one")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002258> "This relation groups together various other developmental relations. It is fairly generic, encompassing induction, developmental contribution and direct and transitive develops from")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002258> "developmentally preceded by"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/RO_0002324>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/RO_0002286>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/BFO_0000002>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002263> (acts upstream of)
 
@@ -1292,22 +850,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002264> "acts upstream of or within")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002264> "https://wiki.geneontology.org/Acts_upstream_of_or_within"^^xsd:anyURI)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002264> <http://purl.obolibrary.org/obo/RO_0002500>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002286> (developmentally succeeded by)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002286> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002286> "Inverse of developmentally preceded by")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002286> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002286> "developmentally succeeded by"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002286> <http://purl.obolibrary.org/obo/RO_0002384>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002287> (part of developmental precursor of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002287> "'hypopharyngeal eminence' SubClassOf 'part of precursor of' some tongue")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002287> <http://purl.obolibrary.org/obo/IAO_0000125>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002287> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002287> "part of developmental precursor of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002287> <http://purl.obolibrary.org/obo/RO_0002286>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002304> (causally upstream of, positive effect)
 
@@ -1360,13 +902,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002323> "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0002323> <http://purl.obolibrary.org/obo/RO_0001901>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002323> "mereotopologically related to"@en)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002324> (developmentally related to)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002324> "A relationship that holds between entities participating in some developmental process (GO:0032502)")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002324> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002324> "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving organismal development")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002324> "developmentally related to"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002327> (enables)
 
@@ -1449,27 +984,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002336> "positively regulated by"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002336> <http://purl.obolibrary.org/obo/RO_0002334>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002350> (member of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002350> "An organism that is a member of a population of organisms")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002350> "is member of is a mereological relation between a item and a collection.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002350> "is member of")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002350> "member part of")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002350> "SIO")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/RO_0001901>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002350> "member of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/BFO_0000050>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/RO_0002351>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002351> (has member)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002351> "has member is a mereological relation between a collection and an item.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002351> "SIO")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/RO_0001901>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002351> "has member"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/BFO_0000051>)
-IrreflexiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>)
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002352> (input of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002352> "inverse of has input")
@@ -1479,89 +993,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002352> "input of"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002352> <http://purl.obolibrary.org/obo/RO_0000056>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002352> <http://purl.obolibrary.org/obo/RO_0002328>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002375> (in branching relationship with)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002375> <http://purl.obolibrary.org/obo/IAO_0000428>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002375> "A relationship that holds between two material entities in a system of connected structures, where the branching relationship holds based on properties of the connecting network.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002375> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002375> "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving branching relationships")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002375> "This relation can be used for geographic features (e.g. rivers) as well as anatomical structures (plant branches and roots, leaf veins, animal veins, arteries, nerves)")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0004036> <http://purl.obolibrary.org/obo/RO_0002375> <http://purl.obolibrary.org/obo/BFO_0000050>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002375> "in branching relationship with"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002375> <http://purl.obolibrary.org/obo/ro/docs/branching_part_of.png>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002375> "https://github.com/obophenotype/uberon/issues/170"^^xsd:anyURI)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002375> <http://purl.obolibrary.org/obo/RO_0002323>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002375> <http://purl.obolibrary.org/obo/BFO_0000040>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002375> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002376> (tributary of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002376> "Deschutes River tributary_of Columbia River")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002376> "inferior epigastric vein tributary_of external iliac vein")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002376> <http://purl.obolibrary.org/obo/IAO_0000428>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002376> "x tributary_of y if and only if x a channel for the flow of a substance into y, where y is larger than x. If x and y are hydrographic features, then y is the main stem of a river, or a lake or bay, but not the sea or ocean. If x and y are anatomical, then y is a vein.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002376> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002376> "drains into")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002376> "drains to")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002376> "tributary channel of")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002376> "http://en.wikipedia.org/wiki/Tributary")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002376> "http://www.medindia.net/glossary/venous_tributary.htm")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002376> "This relation can be used for geographic features (e.g. rivers) as well as anatomical structures (veins, arteries)"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002376> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002376> "tributary of"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002376> <http://dbpedia.org/ontology/drainsTo>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002376> "http://en.wikipedia.org/wiki/Tributary"^^xsd:anyURI)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002376> <http://purl.obolibrary.org/obo/RO_0002170>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002376> <http://purl.obolibrary.org/obo/RO_0002375>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002380> (branching part of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002380> "In the tree T depicted in https://oborel.github.io/obo-relations/branching_part_of.png, B1 is a (direct) branching part of T. B1-1, B1-2, and B1-3 are also branching parts of T, but these are considered indirect branching parts as they do not directly connect to the main stem S")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002380> "x is a branching part of y if and only if x is part of y and x is connected directly or indirectly to the main stem of y")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002380> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002380> "branching part of"@en)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002380> <https://github.com/obophenotype/uberon/issues/2212>)
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002380> "FMA:85994")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/BFO_0000050>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/RO_0002375>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/RO_0002569>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002380> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0000402>))
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002384> (has developmental potential involving)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002384> <http://purl.obolibrary.org/obo/IAO_0000428>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002384> "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002384> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002384> "has developmental potential involving"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002384> <http://purl.obolibrary.org/obo/RO_0002324>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002384> <http://purl.obolibrary.org/obo/UBERON_0001062>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002384> <http://purl.obolibrary.org/obo/UBERON_0001062>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002385> (has potential to developmentally contribute to)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002385> <http://purl.obolibrary.org/obo/IAO_0000428>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002385> "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002385> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002385> "has potential to developmentally contribute to"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002385> <http://purl.obolibrary.org/obo/RO_0002384>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002387> (has potential to develop into)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002387> <http://purl.obolibrary.org/obo/IAO_0000428>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002387> "x has the potential to develop into y iff x develops into y or if x is capable of developing into y"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002387> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002387> "has potential to develop into"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002387> <http://purl.obolibrary.org/obo/RO_0002384>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002388> (has potential to directly develop into)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/RO_0002388> <http://purl.obolibrary.org/obo/IAO_0000428>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002388> "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002388> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002388> "has potential to directly develop into"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002388> <http://purl.obolibrary.org/obo/RO_0002387>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002404> (causally downstream of)
 
@@ -1793,23 +1224,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002481> "is kinase activity")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002481> <http://purl.obolibrary.org/obo/RO_0002564>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002494> (transformation of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002494> "x transformation of y if x is the immediate transformation of y, or is linked to y through a chain of transformation relationships")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002494> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002494> "transformation of")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002494> <http://purl.obolibrary.org/obo/RO_0002202>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002494>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002495> (immediate transformation of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002495> "x immediate transformation of y iff x immediately succeeds y temporally at a time boundary t, and all of the matter present in x at t is present in y at t, and all the matter in y at t is present in x at t")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002495> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002575> <http://purl.obolibrary.org/obo/RO_0002495> <http://purl.obolibrary.org/obo/RO_0002494>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002495> "immediate transformation of")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002495> <http://purl.obolibrary.org/obo/RO_0002207>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002495> <http://purl.obolibrary.org/obo/RO_0002494>)
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002500> (causal agent in process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002500> "A relationship between a material entity and a process where the material entity has some causal role that influences the process")
@@ -1846,21 +1260,6 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002506> <http://purl.obo
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002506> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002506> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002551> (has skeleton)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0002551> "Forelimb SubClassOf has_skeleton some 'Forelimb skeleton'")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002551> "A relation between a segment or subdivision of an organism and the maximal subdivision of material entities that provides structural support for that segment or subdivision.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002551> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0002551> "has supporting framework")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/RO_0002551> "The skeleton of a structure may be a true skeleton (for example, the bony skeleton of a hand) or any kind of support framework (the hydrostatic skeleton of a sea star, the exoskeleton of an insect, the cytoskeleton of a cell).")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002551> "has skeleton")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002551> <http://purl.obolibrary.org/obo/BFO_0000051>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002551> <http://purl.obolibrary.org/obo/RO_0002576>)
-AsymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002551>)
-IrreflexiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002551>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002551> <http://purl.obolibrary.org/obo/UBERON_0000061>)
-ObjectPropertyRange(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "This should be to a more restricted class, but not the Uberon class may be too restricted since it is a composition-based definition of skeleton rather than functional.") <http://purl.obolibrary.org/obo/RO_0002551> <http://purl.obolibrary.org/obo/UBERON_0000465>)
-
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002559> (causally influenced by)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002559> <https://orcid.org/0000-0002-6601-2165>)
@@ -1895,46 +1294,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002566> "caus
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/RO_0002506>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000002>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002569> (has branching part)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002569> "inverse of branching part of")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002569> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002569> <http://purl.obolibrary.org/obo/RO_0002259>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002569> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002569> "has branching part")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002569> <http://purl.obolibrary.org/obo/BFO_0000051>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002569> <http://purl.obolibrary.org/obo/RO_0002375>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002569>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002571> (lumen of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002571> "x lumen_of y iff x is the space or substance that is part of y and does not cross any of the inner membranes or boundaries of y that is maximal with respect to the volume of the convex hull.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002571> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002571> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002571> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002571> "lumen of")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002571> <http://purl.obolibrary.org/obo/BFO_0000050>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002571> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002572> (luminal space of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002572> "s is luminal space of x iff s is lumen_of x and s is an immaterial entity")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002572> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002572> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002572> "luminal space of")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002572> <http://purl.obolibrary.org/obo/RO_0002571>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002572> <http://purl.obolibrary.org/obo/BFO_0000141>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002576> (skeleton of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002576> "inverse of has skeleton")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002576> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002576> <http://purl.obolibrary.org/obo/RO_0002259>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002576> "skeleton of")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002576> <http://purl.obolibrary.org/obo/BFO_0000050>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002576> <http://purl.obolibrary.org/obo/UBERON_0000061>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002576> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002578> (directly regulates)
 
@@ -2244,34 +1603,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000034> <http://purl.obolibrary.
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000040> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
-DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000141>)
-DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000141>))
-
-# Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000141> "immaterial entity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000141> <http://purl.obolibrary.org/obo/BFO_0000004>)
-DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000040>))
-
-# Class: <http://purl.obolibrary.org/obo/CL_0000000> (cell)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CARO:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000000> "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000000> "A material entity that has a plasma membrane and results from cellular division.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "CALOHA:TS-2035")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "FBbt:00007002")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "FMA:68646")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "GO:0005623")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "KUPO:0000002")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "MESH:D002477")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "VHOG:0001533")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "WBbt:0004017")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CL_0000000> "XAO:0003012")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CL_0000000> "CL and GO definitions of cell differ based on inclusive or exclusive of cell wall, etc.")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CL_0000000> "The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CL_0000000> "We struggled with this definition. We are worried about circularity. We also considered requiring the capability of metabolism.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000000> "cell"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000000> "cell")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
 
@@ -2352,129 +1683,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
-# Class: <http://purl.obolibrary.org/obo/PATO_0000402> (branched)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WordNet:WordNet") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000402> "A branchiness quality inhering in a bearer by virtue of the bearer's having branches.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002604> <http://purl.obolibrary.org/obo/PATO_0000402> <http://purl.obolibrary.org/obo/PATO_0000414>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0000402> "ramified")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0000402> "ramiform")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0000402> "PATO:0000402")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000402> "branched")
-SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000402> <http://purl.obolibrary.org/obo/PATO_0000001>)
-
-# Class: <http://purl.obolibrary.org/obo/PATO_0002124> (laminar)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0002124> "A quality inhering in a bearer by virtue of the bearer's processing the form of a thin plate sheet or layer.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PATO_0002124> <https://orcid.org/0000-0002-2061-091X>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PATO_0002124> "2009-10-06T04:37:14Z")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0002124> "PATO:0002124")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0002124> "laminar")
-SubClassOf(<http://purl.obolibrary.org/obo/PATO_0002124> <http://purl.obolibrary.org/obo/PATO_0000001>)
-
-# Class: <http://purl.obolibrary.org/obo/RO_0002577> (system)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002577> "A material entity consisting of multiple components that are causally integrated.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0002577> "May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002577> <https://orcid.org/0000-0002-6601-2165>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002577> "http://www.jbiomedsem.com/content/4/1/43")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002577> "system")
-SubClassOf(<http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
-# Class: <http://purl.obolibrary.org/obo/UBERON_0000061> (anatomical structure)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CARO:0000003") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000061> "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "AAO:0010825")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "AEO:0000003")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "BILA:0000003")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "CARO:0000003")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "EHDAA2:0003003")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "EMAPA:0")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "FMA:305751")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "FMA:67135")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "GAID:781")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "HAO:0000003")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "MA:0003000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "MESH:D000825")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "SCTID:362889002")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "TAO:0000037")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "TGMA:0001823")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "VHOG:0001759")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "XAO:0003000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "ZFA:0000037")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000061> "http://dbpedia.org/ontology/AnatomicalStructure")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0000061> "biological structure")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CARO:0000003") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0000061> "connected biological structure")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000061> "UBERON:0000061")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon/core#upper_level>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000061> "anatomical structure")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/UBERON_0000465>)
-
-# Class: <http://purl.obolibrary.org/obo/UBERON_0000465> (material anatomical entity)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://orcid.org/0000-0001-9114-8737") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000465> "Anatomical entity that has mass.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "AAO:0010264")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "AEO:0000006")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "BILA:0000006")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "CARO:0000006")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "EHDAA2:0003006")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "FMA:67165")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "HAO:0000006")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "TAO:0001836")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "TGMA:0001826")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "VHOG:0001721")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000465> "UBERON:0000465")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/uberon/core#upper_level>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000465> "material anatomical entity")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/BFO_0000040>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/UBERON_0001062>)
-
-# Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomical entity)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:62955") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://orcid.org/0000-0001-9114-8737") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001062> "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "AAO:0010841")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "AEO:0000000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "BFO:0000004")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "BILA:0000000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "BIRNLEX:6")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "CARO:0000000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "EHDAA2:0002229")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "FMA:62955")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "HAO:0000000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "MA:0000001")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "NCIT:C12219")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "TAO:0100000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "TGMA:0001822")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "ncithesaurus:Anatomic_Structure_System_or_Substance") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "UMLS:C1515976")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "WBbt:0000100")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "XAO:0000000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "ZFA:0100000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001062> "UBERON:0001062")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/uberon/core#upper_level>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001062> "anatomical entity")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/BFO_0000004>)
-
-# Class: <http://purl.obolibrary.org/obo/UBERON_0010000> (multicellular anatomical structure)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CARO:0010000") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0010000> "An anatomical structure that has more than one cell as a part.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0010000> "CARO:0010000")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FBbt:00100313") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0010000> "multicellular structure")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0010000> "UBERON:0010000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/uberon/core#upper_level>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010000> "multicellular anatomical structure")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
-
 
 ############################
 #   Named Individuals
@@ -2546,19 +1754,14 @@ SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000062>) <http://purl.obolibrary.org/obo/BFO_0000062>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000063>) <http://purl.obolibrary.org/obo/BFO_0000063>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002162>) <http://purl.obolibrary.org/obo/RO_0002162>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002210>) <http://purl.obolibrary.org/obo/RO_0002287>)
 SubObjectPropertyOf(Annotation(<http://purl.obolibrary.org/obo/RO_0002581> "true"^^xsd:boolean) ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/RO_0002215>) <http://purl.obolibrary.org/obo/RO_0002329>)
 SubObjectPropertyOf(Annotation(<http://purl.obolibrary.org/obo/RO_0002582> "true"^^xsd:boolean) ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002131>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0000057>) <http://purl.obolibrary.org/obo/RO_0000057>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002131>) <http://purl.obolibrary.org/obo/RO_0002131>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002162>) <http://purl.obolibrary.org/obo/RO_0002162>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002202>) <http://purl.obolibrary.org/obo/RO_0002254>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002215>) <http://purl.obolibrary.org/obo/RO_0002584>)
 SubObjectPropertyOf(Annotation(<http://purl.obolibrary.org/obo/RO_0002582> "true"^^xsd:boolean) ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002314>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002131>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/RO_0002162>) <http://purl.obolibrary.org/obo/RO_0002162>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002203> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002255>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002225>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002025>) <http://purl.obolibrary.org/obo/RO_0002211>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0019000>) <http://purl.obolibrary.org/obo/RO_0019000>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/RO_0002212>) <http://purl.obolibrary.org/obo/RO_0002213>)
@@ -2571,14 +1774,6 @@ SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_00022
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/RO_0002212>) <http://purl.obolibrary.org/obo/RO_0002597>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/RO_0002213>) <http://purl.obolibrary.org/obo/RO_0002598>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0017001>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002224> <http://purl.obolibrary.org/obo/RO_0002230>) <http://purl.obolibrary.org/obo/RO_0002087>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002224> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002233>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002225> <http://purl.obolibrary.org/obo/RO_0002162>) <http://purl.obolibrary.org/obo/RO_0002162>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/RO_0002211>) <http://purl.obolibrary.org/obo/RO_0002211>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/RO_0002212>) <http://purl.obolibrary.org/obo/RO_0002212>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/RO_0002213>) <http://purl.obolibrary.org/obo/RO_0002213>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002230> <http://purl.obolibrary.org/obo/RO_0002224>) <http://purl.obolibrary.org/obo/RO_0002090>)
-SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/RO_0002162>) <http://purl.obolibrary.org/obo/RO_0002162>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002314>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002331>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/BFO_0000051>) <http://purl.obolibrary.org/obo/RO_0002327>)
