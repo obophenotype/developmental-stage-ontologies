@@ -15,6 +15,35 @@ $(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl
 	$(ROBOT) convert --input $< --format json --output $@
 .PRECIOUS: $(COMPONENTSDIR)/%.json
 
+
+# SSSOM Mapping set
+# Automatically generated from the xrefs
+$(MAPPINGDIR)/life-stages.sssom.tsv: $(SRC) $(OTHER_SRC) | all_robot_plugins
+	$(ROBOT) merge -i $< \
+		 sssom:xref-extract --mapping-file $@ -v \
+		                    --map-prefix-to-predicate 'UBERON semapv:crossSpeciesExactMatch' \
+		                    --prefix 'AcarDv: http://purl.obolibrary.org/obo/AcarDv_' \
+		                    --prefix 'BtauDv: http://purl.obolibrary.org/obo/BtauDv_' \
+		                    --prefix 'CfamDv: http://purl.obolibrary.org/obo/CfamDv_' \
+		                    --prefix 'CporDv: http://purl.obolibrary.org/obo/CporDv_' \
+		                    --prefix 'DanaDv: http://purl.obolibrary.org/obo/DanaDv_' \
+		                    --prefix 'DpseDv: http://purl.obolibrary.org/obo/DpseDv_' \
+		                    --prefix 'DsimDv: http://purl.obolibrary.org/obo/DsimDv_' \
+		                    --prefix 'EcabDv: http://purl.obolibrary.org/obo/EcabDv_' \
+		                    --prefix 'FcatDv: http://purl.obolibrary.org/obo/FcatDv_' \
+		                    --prefix 'GgalDv: http://purl.obolibrary.org/obo/GgalDv_' \
+		                    --prefix 'GgorDv: http://purl.obolibrary.org/obo/GgorDv_' \
+		                    --prefix 'MdomDv: http://purl.obolibrary.org/obo/MdomDv_' \
+		                    --prefix 'MmulDv: http://purl.obolibrary.org/obo/MmulDv_' \
+		                    --prefix 'OanaDv: http://purl.obolibrary.org/obo/OanaDv_' \
+		                    --prefix 'OariDv: http://purl.obolibrary.org/obo/OariDv_' \
+		                    --prefix 'OcunDv: http://purl.obolibrary.org/obo/OcunDv_' \
+		                    --prefix 'PpanDv: http://purl.obolibrary.org/obo/PpanDv_' \
+		                    --prefix 'PtroDv: http://purl.obolibrary.org/obo/PtroDv_' \
+		                    --prefix 'RnorDv: http://purl.obolibrary.org/obo/RnorDv_' \
+		                    --prefix 'SsalDv: http://purl.obolibrary.org/obo/SsalDv_' \
+		                    --prefix 'SscrDv: http://purl.obolibrary.org/obo/SscrDv_'
+
 #ALL_MANUALLY_CURATED_COMPONENTS := $(foreach f,$(ONT_PREFIXES), $(COMPONENTSDIR)/$(f).obo)
 ALL_MANUALLY_CURATED_COMPONENTS_OFN := $(foreach f,$(ONT_PREFIXES), $(COMPONENTSDIR)/$(f).owl)
 ALL_MANUALLY_CURATED_COMPONENTS_JSON := $(foreach f,$(ONT_PREFIXES), $(COMPONENTSDIR)/$(f).json)
@@ -80,7 +109,7 @@ ssso-merged-uberon.owl: $(COMPONENTSDIR)/life-stages-minimal.owl $(ALL_MANUALLY_
 
 #### Pipeline targets
 
-prepare_release: $(ALL_MANUALLY_CURATED_COMPONENTS_JSON)
+prepare_release: $(ALL_MANUALLY_CURATED_COMPONENTS_JSON) $(MAPPINGDIR)/life-stages.sssom.tsv
 
 .PHONY: github-release
 github-release:
@@ -94,7 +123,7 @@ github-release:
 			done; \
 		fi; \
 	done; \
-	FILES="$$FILES ssso-merged-uberon.obo ssso-merged.obo"; \
+	FILES="$$FILES ssso-merged-uberon.obo ssso-merged.obo $(MAPPINGDIR)/life-stages.sssom.tsv"; \
 	test $(GHVERSION); \
 	ls -alt $$FILES; \
 	gh release create $(GHVERSION) --notes "TBD." --title "$(GHVERSION)" --draft $$FILES

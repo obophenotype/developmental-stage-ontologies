@@ -3,6 +3,7 @@ title: "Developmental Stages Ontology"
 github_org: obophenotype
 repo: developmental-stage-ontologies
 git_main_branch: master
+use_mappings: True
 namespaces:
   - http://purl.obolibrary.org/obo/AcarDv_
   - http://purl.obolibrary.org/obo/BtauDv_
@@ -76,6 +77,10 @@ import_group:
     - id: life-stages-minimal
       mirror_from: http://purl.obolibrary.org/obo/uberon/subsets/life-stages-minimal.owl
       module_type: mirror
+sssom_mappingset_group:
+  products:
+    - id: life-stages
+      maintenance: manual
     
 components:
   products:
