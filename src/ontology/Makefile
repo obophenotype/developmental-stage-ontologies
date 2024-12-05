@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                d369b469ef32709b6bcd070d851bb62e5c0346cdae9e3710645084677c688afa
+CONFIG_HASH=                c86d89974cda9542a8b4c03bb893892f463421859981307ebb08330298395ef1
 
 
 # ----------------------------------------
@@ -53,7 +53,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/acardv.obo $(COMPONENTSDIR)/btaudv.obo $(COMPONENTSDIR)/cfamdv.obo $(COMPONENTSDIR)/cpordv.obo $(COMPONENTSDIR)/dpsedv.obo $(COMPONENTSDIR)/dsimdv.obo $(COMPONENTSDIR)/ecabdv.obo $(COMPONENTSDIR)/fcatdv.obo $(COMPONENTSDIR)/ggaldv.obo $(COMPONENTSDIR)/ggordv.obo $(COMPONENTSDIR)/hsapdv.obo $(COMPONENTSDIR)/mdomdv.obo $(COMPONENTSDIR)/mmuldv.obo $(COMPONENTSDIR)/mmusdv.obo $(COMPONENTSDIR)/oanadv.obo $(COMPONENTSDIR)/oaridv.obo $(COMPONENTSDIR)/ocundv.obo $(COMPONENTSDIR)/ppandv.obo $(COMPONENTSDIR)/ptrodv.obo $(COMPONENTSDIR)/rnordv.obo $(COMPONENTSDIR)/sscrdv.obo $(COMPONENTSDIR)/ssaldv.obo $(COMPONENTSDIR)/zfs.obo 
+OTHER_SRC =                 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 MAPPINGDIR=                 ../mappings
@@ -397,60 +397,6 @@ refresh-%:
 .PHONY: no-mirror-refresh-%
 no-mirror-refresh-%:
 	$(MAKE) IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl -B
-
-
-# ----------------------------------------
-# Components
-# ----------------------------------------
-# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
-
-COMP=true # Global parameter to bypass component generation
-
-.PHONY: all_components
-all_components: $(OTHER_SRC)
-
-.PHONY: recreate-components
-recreate-components:
-	$(MAKE) COMP=true IMP=false MIR=true PAT=true IMP_LARGE=false all_components -B
-
-.PHONY: no-mirror-recreate-components
-no-mirror-recreate-components:
-	$(MAKE) COMP=true IMP=false MIR=false PAT=true IMP_LARGE=false all_components -B
-
-.PHONY: recreate-%
-recreate-%:
-	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=true PAT=true $(COMPONENTSDIR)/$*.owl -B
-
-.PHONY: no-mirror-recreate-%
-no-mirror-recreate-%:
-	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=false PAT=true $(COMPONENTSDIR)/$*.owl -B
-
-$(COMPONENTSDIR)/%.owl: | $(COMPONENTSDIR)
-	test -f $@ || touch $@
-.PRECIOUS: $(COMPONENTSDIR)/%.owl
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ----------------------------------------
 # Mirroring upstream ontologies

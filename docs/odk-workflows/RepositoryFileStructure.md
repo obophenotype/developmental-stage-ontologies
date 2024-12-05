@@ -27,30 +27,4 @@ Components, in contrast to imports, are considered full members of the ontology.
 2. A part of the ontology is managed in ROBOT templates
 3. The expressivity of the component is higher than the format of the edit file. For example, people still choose to manage their ontology in OBO format (they should not) missing out on a lot of owl features. They may choose to manage logic that is beyond OBO in a specific OWL component.
 
-These are the components in LIFE-STAGES
 
-| Filename | URL |
-| -------- | --- |
-| acardv.obo | None |
-| btaudv.obo | None |
-| cfamdv.obo | None |
-| cpordv.obo | None |
-| dpsedv.obo | None |
-| dsimdv.obo | None |
-| ecabdv.obo | None |
-| fcatdv.obo | None |
-| ggaldv.obo | None |
-| ggordv.obo | None |
-| hsapdv.obo | None |
-| mdomdv.obo | None |
-| mmuldv.obo | None |
-| mmusdv.obo | None |
-| oanadv.obo | None |
-| oaridv.obo | None |
-| ocundv.obo | None |
-| ppandv.obo | None |
-| ptrodv.obo | None |
-| rnordv.obo | None |
-| sscrdv.obo | None |
-| ssaldv.obo | None |
-| zfs.obo | None |
