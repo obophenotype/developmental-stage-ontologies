@@ -1,6 +1,9 @@
 #### Components
 
 ONT_PREFIXES = acardv btaudv cfamdv cpordv dpsedv dsimdv ecabdv fcatdv ggaldv ggordv hsapdv mdomdv mmuldv mmusdv oanadv oaridv ocundv ppandv ptrodv rnordv sscrdv ssaldv zfs
+ONT_OBO_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).obo)
+ONT_OWL_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).owl)
+ONT_JSON_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).json)
 
 # The components are primary release artefacts in this repo, so they get proper versioning
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.obo
@@ -9,7 +12,7 @@ $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.obo
 		annotate \
 		-V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION) \
 		--ontology-iri $(ONTBASE)/$@ \
-		convert -o $@ --format ofn --output $@
+		convert --format ofn --output $@
 .PRECIOUS: $(COMPONENTSDIR)/%.owl
 
 $(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl
@@ -19,7 +22,7 @@ $(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl
 
 #### SSSOM Mapping set
 # Automatically generated from the xrefs
-$(MAPPINGDIR)/life-stages.sssom.tsv: $(SRC) $(OTHER_SRC) | all_robot_plugins
+$(MAPPINGDIR)/life-stages.sssom.tsv: $(SRC) $(ONT_OBO_FILES) | all_robot_plugins
 	$(ROBOT) merge -i $< \
 		 sssom:xref-extract --mapping-file $@ -v \
 		                    --map-prefix-to-predicate 'UBERON semapv:crossSpeciesExactMatch' \
@@ -57,10 +60,10 @@ $(MAPPINGDIR)/life-stages.sssom.tsv: $(SRC) $(OTHER_SRC) | all_robot_plugins
 # * the SSSOM mapping set (needs to be explicitly included because of a
 #   bug in ODK 1.5)
 MAIN_FILES_RELEASE = $(foreach n, $(RELEASE_ASSETS), ../../$(n)) \
-                     $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).obo $(COMPONENTSDIR)/$(ont).owl $(COMPONENTSDIR)/$(ont).json) \
+                     $(ONT_OBO_FILES) $(ONT_OWL_FILES) $(ONT_JSON_FILES) \
                      $(MAPPINGDIR)/life-stages.sssom.tsv
 
-prepare_release: $(MAPPINGDIR)/life-stages.sssom.tsv
+prepare_release: $(ONT_JSON_FILES) $(MAPPINGDIR)/life-stages.sssom.tsv
 
 .PHONY: github-release
 github-release:

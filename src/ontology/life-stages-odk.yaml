@@ -79,32 +79,6 @@ sssom_mappingset_group:
   products:
     - id: life-stages
       maintenance: manual
-    
-components:
-  products:
-    - filename: acardv.obo
-    - filename: btaudv.obo
-    - filename: cfamdv.obo
-    - filename: cpordv.obo
-    - filename: dpsedv.obo
-    - filename: dsimdv.obo
-    - filename: ecabdv.obo
-    - filename: fcatdv.obo
-    - filename: ggaldv.obo
-    - filename: ggordv.obo
-    - filename: hsapdv.obo
-    - filename: mdomdv.obo
-    - filename: mmuldv.obo
-    - filename: mmusdv.obo
-    - filename: oanadv.obo
-    - filename: oaridv.obo
-    - filename: ocundv.obo
-    - filename: ppandv.obo
-    - filename: ptrodv.obo
-    - filename: rnordv.obo
-    - filename: sscrdv.obo
-    - filename: ssaldv.obo
-    - filename: zfs.obo
 
 robot_java_args: '-Xmx8G'
 allow_equivalents: all
