@@ -73,59 +73,35 @@ import_group:
   products:
     - id: omo
     - id: ro
-     # Externally managed stage ontologies
-    - id: fbdv
-      mirror_from: http://purl.obolibrary.org/obo/fbdv.owl
-      module_type: mirror
-    - id: wbls
-      mirror_from: http://purl.obolibrary.org/obo/wbls.owl
-      module_type: mirror
-    - id: xao
-      mirror_from: http://purl.obolibrary.org/obo/xao.owl
-      module_type: mirror
-    
-    # Bridge ontologies
-    - id: uberon-bridge-to-fbdv
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl
-      module_type: mirror
-    - id: uberon-bridge-to-wbls
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl
-      module_type: mirror
-    - id: uberon-bridge-to-xao
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
+    - id: life-stages-minimal
+      mirror_from: http://purl.obolibrary.org/obo/uberon/subsets/life-stages-minimal.owl
       module_type: mirror
     
 components:
   products:
-    - filename: merged-manual.owl
-    # - filename: acardv.obo
-    # - filename: btaudv.obo
-    # - filename: cfamdv.obo
-    # - filename: cpordv.obo
-    # - filename: dpsedv.obo
-    # - filename: dsimdv.obo
-    # - filename: ecabdv.obo
-    # - filename: fcatdv.obo
-    # - filename: ggaldv.obo
-    # - filename: ggordv.obo
-    # - filename: hsapdv.obo
-    # - filename: mdomdv.obo
-    # - filename: mmuldv.obo
-    # - filename: mmusdv.obo
-    # - filename: oanadv.obo
-    # - filename: oaridv.obo
-    # - filename: ocundv.obo
-    # - filename: ppandv.obo
-    # - filename: ptrodv.obo
-    # - filename: rnordv.obo
-    # - filename: sscrdv.obo
-    # - filename: ssaldv.obo
-    
-    # NOTE THIS FILE SHOULD BE REPLACED BY THE ZFIN OFFICIAL FILE
-    #- filename: zfs.obo
-    # Some minimal content that we could consider importing
-
-    - filename: life-stages-minimal.obo
+    - filename: acardv.obo
+    - filename: btaudv.obo
+    - filename: cfamdv.obo
+    - filename: cpordv.obo
+    - filename: dpsedv.obo
+    - filename: dsimdv.obo
+    - filename: ecabdv.obo
+    - filename: fcatdv.obo
+    - filename: ggaldv.obo
+    - filename: ggordv.obo
+    - filename: hsapdv.obo
+    - filename: mdomdv.obo
+    - filename: mmuldv.obo
+    - filename: mmusdv.obo
+    - filename: oanadv.obo
+    - filename: oaridv.obo
+    - filename: ocundv.obo
+    - filename: ppandv.obo
+    - filename: ptrodv.obo
+    - filename: rnordv.obo
+    - filename: sscrdv.obo
+    - filename: ssaldv.obo
+    - filename: zfs.obo
 
 robot_java_args: '-Xmx8G'
 allow_equivalents: all
