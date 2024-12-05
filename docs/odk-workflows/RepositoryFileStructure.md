@@ -18,12 +18,7 @@ These are the current imports in LIFE-STAGES
 | ------ | --- | ---- |
 | omo | http://purl.obolibrary.org/obo/omo.owl | None |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
-| fbdv | http://purl.obolibrary.org/obo/fbdv.owl | mirror |
-| wbls | http://purl.obolibrary.org/obo/wbls.owl | mirror |
-| xao | http://purl.obolibrary.org/obo/xao.owl | mirror |
-| uberon-bridge-to-fbdv | http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbdv.owl | mirror |
-| uberon-bridge-to-wbls | http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl | mirror |
-| uberon-bridge-to-xao | http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl | mirror |
+| life-stages-minimal | http://purl.obolibrary.org/obo/uberon/subsets/life-stages-minimal.owl | mirror |
 
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
@@ -36,5 +31,26 @@ These are the components in LIFE-STAGES
 
 | Filename | URL |
 | -------- | --- |
-| merged-manual.owl | None |
-| life-stages-minimal.obo | None |
+| acardv.obo | None |
+| btaudv.obo | None |
+| cfamdv.obo | None |
+| cpordv.obo | None |
+| dpsedv.obo | None |
+| dsimdv.obo | None |
+| ecabdv.obo | None |
+| fcatdv.obo | None |
+| ggaldv.obo | None |
+| ggordv.obo | None |
+| hsapdv.obo | None |
+| mdomdv.obo | None |
+| mmuldv.obo | None |
+| mmusdv.obo | None |
+| oanadv.obo | None |
+| oaridv.obo | None |
+| ocundv.obo | None |
+| ppandv.obo | None |
+| ptrodv.obo | None |
+| rnordv.obo | None |
+| sscrdv.obo | None |
+| ssaldv.obo | None |
+| zfs.obo | None |
