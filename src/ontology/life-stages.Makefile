@@ -1,9 +1,15 @@
 #### Components
 
-ONT_PREFIXES = acardv btaudv cfamdv cpordv dpsedv dsimdv ecabdv fcatdv ggaldv ggordv hsapdv mdomdv mmuldv mmusdv oanadv oaridv ocundv ppandv ptrodv rnordv sscrdv ssaldv zfs
-ONT_OBO_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).obo)
-ONT_OWL_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).owl)
-ONT_JSON_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).json)
+# Active ontologies that should be released.
+# Any ontology listed here should also have a corresponding `Import`
+# statement in the -edit file, and a corresponding entry in the XML
+# catalog.
+ONT_PREFIXES = AcarDv BtauDv CfamDv CporDv DpseDv DsimDv EcabDv FcatDv GgalDv GgorDv HsapDv MdomDv MmulDv MmusDv OanaDv OariDv OcunDv PpanDv PtroDv RnorDv SsalDv SscrDv ZFS
+
+ONT_PREFIXES_LC = $(shell echo $(ONT_PREFIXES) | tr [:upper:] [:lower:])
+ONT_OBO_FILES = $(foreach ont,$(ONT_PREFIXES_LC),$(COMPONENTSDIR)/$(ont).obo)
+ONT_OWL_FILES = $(foreach ont,$(ONT_PREFIXES_LC),$(COMPONENTSDIR)/$(ont).owl)
+ONT_JSON_FILES = $(foreach ont,$(ONT_PREFIXES_LC),$(COMPONENTSDIR)/$(ont).json)
 
 # The components are primary release artefacts in this repo, so they get proper versioning
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.obo .FORCE
@@ -24,28 +30,7 @@ $(MAPPINGDIR)/life-stages.sssom.tsv: $(SRC) $(ONT_OBO_FILES) | all_robot_plugins
 	$(ROBOT) merge -i $< \
 		 sssom:xref-extract --mapping-file $@ -v \
 		                    --map-prefix-to-predicate 'UBERON semapv:crossSpeciesExactMatch' \
-		                    --prefix 'AcarDv: http://purl.obolibrary.org/obo/AcarDv_' \
-		                    --prefix 'BtauDv: http://purl.obolibrary.org/obo/BtauDv_' \
-		                    --prefix 'CfamDv: http://purl.obolibrary.org/obo/CfamDv_' \
-		                    --prefix 'CporDv: http://purl.obolibrary.org/obo/CporDv_' \
-		                    --prefix 'DanaDv: http://purl.obolibrary.org/obo/DanaDv_' \
-		                    --prefix 'DpseDv: http://purl.obolibrary.org/obo/DpseDv_' \
-		                    --prefix 'DsimDv: http://purl.obolibrary.org/obo/DsimDv_' \
-		                    --prefix 'EcabDv: http://purl.obolibrary.org/obo/EcabDv_' \
-		                    --prefix 'FcatDv: http://purl.obolibrary.org/obo/FcatDv_' \
-		                    --prefix 'GgalDv: http://purl.obolibrary.org/obo/GgalDv_' \
-		                    --prefix 'GgorDv: http://purl.obolibrary.org/obo/GgorDv_' \
-		                    --prefix 'MdomDv: http://purl.obolibrary.org/obo/MdomDv_' \
-		                    --prefix 'MmulDv: http://purl.obolibrary.org/obo/MmulDv_' \
-		                    --prefix 'OanaDv: http://purl.obolibrary.org/obo/OanaDv_' \
-		                    --prefix 'OariDv: http://purl.obolibrary.org/obo/OariDv_' \
-		                    --prefix 'OcunDv: http://purl.obolibrary.org/obo/OcunDv_' \
-		                    --prefix 'PpanDv: http://purl.obolibrary.org/obo/PpanDv_' \
-		                    --prefix 'PtroDv: http://purl.obolibrary.org/obo/PtroDv_' \
-		                    --prefix 'RnorDv: http://purl.obolibrary.org/obo/RnorDv_' \
-		                    --prefix 'SsalDv: http://purl.obolibrary.org/obo/SsalDv_' \
-		                    --prefix 'SscrDv: http://purl.obolibrary.org/obo/SscrDv_'
-
+		                    $(foreach pfx,$(ONT_PREFIXES),--prefix '$(pfx): http://purl.obolibrary.org/obo/$(pfx)_')
 
 
 #### Pipeline targets

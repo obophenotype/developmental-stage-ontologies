@@ -8,7 +8,6 @@
   <uri name="http://purl.obolibrary.org/obo/btaudv.owl" uri="components/btaudv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/cfamdv.owl" uri="components/cfamdv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/cpordv.owl" uri="components/cpordv.obo"/>
-  <uri name="http://purl.obolibrary.org/obo/danadv.owl" uri="components/danadv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/dpsedv.owl" uri="components/dpsedv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/dsimdv.owl" uri="components/dsimdv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/ecabdv.owl" uri="components/ecabdv.obo"/>
@@ -27,5 +26,6 @@
   <uri name="http://purl.obolibrary.org/obo/rnordv.owl" uri="components/rnordv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/ssaldv.owl" uri="components/ssaldv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/sscrdv.owl" uri="components/sscrdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/zfs.owl" uri="components/zfs.obo"/>
 </group>
 </catalog>
