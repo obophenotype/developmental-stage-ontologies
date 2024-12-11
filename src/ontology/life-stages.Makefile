@@ -19,6 +19,7 @@ $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.obo .FORCE
 		-V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION) \
 		--ontology-iri $(ONTBASE)/$@ \
 		convert --format ofn --output $@
+.PRECIOUS: $(COMPONENTSDIR)/%.owl
 
 $(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl .FORCE
 	$(ROBOT) convert --input $< --format json --output $@
