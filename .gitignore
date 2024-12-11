@@ -21,6 +21,8 @@ src/ontology/life-stages-basic.*
 src/ontology/life-stages-full.*
 src/ontology/life-stages-simple.*
 src/ontology/life-stages-simple-non-classified.*
+src/ontology/components/*.owl
+src/ontology/components/*.json
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log

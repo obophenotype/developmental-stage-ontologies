@@ -6,18 +6,16 @@ ONT_OWL_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).owl)
 ONT_JSON_FILES = $(foreach ont,$(ONT_PREFIXES),$(COMPONENTSDIR)/$(ont).json)
 
 # The components are primary release artefacts in this repo, so they get proper versioning
-$(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.obo
+$(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.obo .FORCE
 	$(ROBOT) \
 		merge --input $< \
 		annotate \
 		-V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION) \
 		--ontology-iri $(ONTBASE)/$@ \
 		convert --format ofn --output $@
-.PRECIOUS: $(COMPONENTSDIR)/%.owl
 
-$(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl
+$(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl .FORCE
 	$(ROBOT) convert --input $< --format json --output $@
-.PRECIOUS: $(COMPONENTSDIR)/%.json
 
 
 #### SSSOM Mapping set
