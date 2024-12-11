@@ -8,7 +8,6 @@ changes to this document in a pull request.
 
 ## Table Of Contents
 
-- [Code of Conduct](#code-of-conduct)
 - [Guidelines for Contributions and Requests](#contributions)
     * [Reporting problems with the ontology](#reporting-bugs)
     * [Requesting new terms](#requesting-terms)
@@ -16,14 +15,6 @@ changes to this document in a pull request.
 - [Best practices](#best-practices)
     * [How to write a great issue?](#great-issues)
     * [How to create a great pull/merge request?](#great-pulls)
-
-<a id="code-of-conduct"></a>
-
-## Code of Conduct
-
-The Developmental Stages Ontology team strives to create a
-welcoming environment for editors, users and other contributors.
-Please carefully read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 <a id="contributions"></a>
 
@@ -74,7 +65,8 @@ If you have never editted this ontology before, first follow a [general tutorial
 
 1. Clone the repository (In case you are not an offical team member, create a fork first)
 1. Create new branch in git, for example `git checkout -b issue123`
-1. Open src/ontology/life-stages-edit.owl in your favourite editor, i.e. [Protege](https://protege.stanford.edu/). **Careful:** double check you are editing the correct file. There are many ontology files in this repository, but only one _editors file_!
+1. Find the species-specific ontology you want to add a new term to in the `src/ontology/components` folder. For example, if you need a term for the _Drosophila simulans_ ontology, you need the `src/ontology/components/dsimdv.obo` file.
+1. Open the file from the previous step in your favourite editor, i.e. [Protege](https://protege.stanford.edu/). **Careful:** Only edit the `.obo` file! Do not touch the `.owl` and `.json` files, any modification to those files would be lost upon the next release of the ontology.
 1. Perform your edit and save your changes
 1. Commit changes to branch
 1. Push changes upstream
