@@ -16,9 +16,9 @@
         "val" : "Life Stages Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-10-12"
+        "val" : "2025-01-08"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/life-stages/releases/2024-10-12/life-stages-base.json"
+      "version" : "http://purl.obolibrary.org/obo/life-stages/releases/2025-01-08/life-stages-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/AcarDv_0000000",
@@ -3200,7 +3200,7 @@
           "val" : "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers.",
           "xrefs" : [ "Bgee:curator" ]
         },
-        "comments" : [ "For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 hwith UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221" ],
+        "comments" : [ "For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 with UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "under-1-month-old chicken stage"
@@ -3287,7 +3287,7 @@
           "val" : "5.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "GgalDv:0000078"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000078"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chicken_developmental_stage"
@@ -3328,7 +3328,7 @@
           "val" : "24.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "GgalDv:0000088"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000088"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chicken_developmental_stage"
@@ -3376,7 +3376,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "GgalDv:0000060"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000060"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chicken_developmental_stage"
@@ -3449,10 +3449,10 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "GgalDv:0000061"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000061"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "GgalDv:0000062"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000062"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chicken_developmental_stage"
@@ -3500,7 +3500,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "GgalDv:0000015"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000015"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chicken_developmental_stage"
@@ -3898,7 +3898,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "GgalDv:0000034"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000034"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chicken_developmental_stage"
@@ -3921,7 +3921,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "GgalDv:0000035"
+          "val" : "http://purl.obolibrary.org/obo/GgalDv_0000035"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chicken_developmental_stage"
@@ -6235,7 +6235,7 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "HsapDv:0000005"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000005"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8083,7 +8083,7 @@
           "val" : "0.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000264"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000264"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8111,10 +8111,10 @@
           "val" : "2.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000264"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000264"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000265"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000265"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8154,7 +8154,7 @@
           "val" : "0.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000262"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000262"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8191,7 +8191,7 @@
           "val" : "0.083"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000261"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000261"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8219,10 +8219,10 @@
           "val" : "2.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000099"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000099"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000270"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000270"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8250,7 +8250,7 @@
           "val" : "6.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000271"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000271"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8284,7 +8284,7 @@
           "val" : "13.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000268"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000268"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8309,10 +8309,10 @@
           "val" : "19.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000226"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000226"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000258"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000258"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8340,10 +8340,10 @@
           "val" : "19.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000266"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000266"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000267"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000267"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8371,7 +8371,7 @@
           "val" : "19.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000266"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000266"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8395,19 +8395,19 @@
           "val" : "25.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000237"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000237"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000238"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000238"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000239"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000239"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000266"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000266"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000267"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000267"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8435,10 +8435,10 @@
           "val" : "45.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000227"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000227"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000267"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000267"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8466,10 +8466,10 @@
           "val" : "45.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000227"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000227"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000267"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000267"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8497,7 +8497,7 @@
           "val" : "65.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000227"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000227"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -8525,7 +8525,7 @@
           "val" : "65.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000272"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000272"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -10439,7 +10439,7 @@
           "val" : "1.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000273"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000273"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -10951,11 +10951,11 @@
           "xrefs" : [ "Bgee:curator" ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-          "val" : "3.0"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#end_dpf",
           "val" : "77.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+          "val" : "3.0"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_dpf",
           "val" : "56.0"
@@ -10974,11 +10974,11 @@
           "xrefs" : [ "Bgee:curator" ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-          "val" : "4.0"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#end_dpf",
           "val" : "105.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+          "val" : "4.0"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_dpf",
           "val" : "77.0"
@@ -10997,11 +10997,11 @@
           "xrefs" : [ "Bgee:curator" ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-          "val" : "5.0"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#end_dpf",
           "val" : "133.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+          "val" : "5.0"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_dpf",
           "val" : "105.0"
@@ -11020,11 +11020,11 @@
           "xrefs" : [ "Bgee:curator" ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-          "val" : "6.0"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#end_dpf",
           "val" : "168.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+          "val" : "6.0"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_dpf",
           "val" : "133.0"
@@ -11043,11 +11043,11 @@
           "xrefs" : [ "Bgee:curator" ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-          "val" : "7.0"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#end_dpf",
           "val" : "196.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+          "val" : "7.0"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_dpf",
           "val" : "168.0"
@@ -11066,11 +11066,11 @@
           "xrefs" : [ "Bgee:curator" ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-          "val" : "8.0"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#end_dpf",
           "val" : "231.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+          "val" : "8.0"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_dpf",
           "val" : "196.0"
@@ -11089,11 +11089,11 @@
           "xrefs" : [ "Bgee:curator" ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-          "val" : "9.0"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#end_dpf",
           "val" : "266.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+          "val" : "9.0"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_dpf",
           "val" : "231.0"
@@ -11116,7 +11116,7 @@
           "val" : "13.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000258"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000258"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -11775,13 +11775,13 @@
           "val" : "0.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000260"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000260"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000265"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000265"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000271"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000271"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -11805,10 +11805,10 @@
           "val" : "10.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000268"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000268"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000271"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000271"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -12241,7 +12241,7 @@
           "val" : "0.083"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "HsapDv:0000261"
+          "val" : "http://purl.obolibrary.org/obo/HsapDv_0000261"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -12599,6 +12599,23 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_mpb",
           "val" : "0.92"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HsapDv_0000274",
+      "lbl" : "90 year-old and over stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Human stage that refers to an adult who is over 90.",
+          "xrefs" : [ "https://github.com/jahilton" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#start_ypb",
+          "val" : "90.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_developmental_stage"
@@ -15315,7 +15332,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000017"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000017"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16061,37 +16078,37 @@
           "val" : "1.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000140"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000140"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000141"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000141"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000142"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000142"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000143"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000143"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000144"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000144"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000145"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000145"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000146"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000146"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000147"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000147"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000148"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000148"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000149"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000149"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000150"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000150"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16134,7 +16151,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "MmusDv:0000110"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000110"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16225,10 +16242,10 @@
           "val" : "0.143"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000036"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000036"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000139"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000139"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16252,7 +16269,7 @@
           "val" : "1.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000140"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000140"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16276,7 +16293,7 @@
           "val" : "2.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000141"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000141"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16300,25 +16317,25 @@
           "val" : "3.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000142"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000142"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000143"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000143"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000144"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000144"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000145"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000145"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000146"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000146"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000147"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000147"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000148"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000148"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16342,7 +16359,7 @@
           "val" : "4.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000149"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000149"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16367,7 +16384,7 @@
           "val" : "5.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000150"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000150"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16392,7 +16409,7 @@
           "val" : "6.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000151"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000151"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16416,7 +16433,7 @@
           "val" : "7.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000152"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000152"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16440,7 +16457,7 @@
           "val" : "8.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000154"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000154"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16464,7 +16481,7 @@
           "val" : "9.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000155"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000155"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16488,7 +16505,7 @@
           "val" : "10.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000156"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000156"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16512,7 +16529,7 @@
           "val" : "11.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000157"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000157"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16537,7 +16554,7 @@
           "val" : "12.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000158"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000158"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16562,7 +16579,7 @@
           "val" : "13.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000159"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000159"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16587,7 +16604,7 @@
           "val" : "14.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000160"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000160"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16612,7 +16629,7 @@
           "val" : "15.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000161"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000161"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16646,7 +16663,7 @@
           "val" : "6.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000136"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000136"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16749,7 +16766,7 @@
           "val" : "16.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000162"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000162"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16774,7 +16791,7 @@
           "val" : "17.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000163"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000163"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16799,7 +16816,7 @@
           "val" : "18.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000164"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000164"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16824,7 +16841,7 @@
           "val" : "19.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000165"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000165"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16875,7 +16892,7 @@
           "val" : "20.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000166"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000166"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16900,7 +16917,7 @@
           "val" : "21.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000167"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000167"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16925,7 +16942,7 @@
           "val" : "22.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000168"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000168"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16950,7 +16967,7 @@
           "val" : "23.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000169"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000169"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -16975,7 +16992,7 @@
           "val" : "24.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000170"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000170"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17003,16 +17020,16 @@
           "val" : "30.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000078"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000078"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000079"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000079"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000080"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000080"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000135"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000135"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17033,7 +17050,7 @@
           "val" : "15.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000134"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000134"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17458,10 +17475,10 @@
           "val" : "0.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000036"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000036"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000139"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000139"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17488,10 +17505,10 @@
           "val" : "30.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000134"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000134"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000135"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000135"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17516,7 +17533,7 @@
           "val" : "25.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000171"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000171"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17541,7 +17558,7 @@
           "val" : "26.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000172"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17566,7 +17583,7 @@
           "val" : "27.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000173"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000173"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17591,7 +17608,7 @@
           "val" : "28.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000174"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000174"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17616,7 +17633,7 @@
           "val" : "29.0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000175"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000175"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17827,40 +17844,40 @@
           "val" : "0.6"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000139"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000139"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000140"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000140"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000141"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000141"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000142"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000142"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000143"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000143"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000144"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000144"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000145"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000145"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000146"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000146"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000147"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000147"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000148"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000148"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000149"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000149"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000150"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000150"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -17885,7 +17902,7 @@
           "val" : "0.6"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "MmusDv:0000139"
+          "val" : "http://purl.obolibrary.org/obo/MmusDv_0000139"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "mouse_developmental_stage"
@@ -22945,7 +22962,7 @@
         "comments" : [ "This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends when the rat becomes sexually mature (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#consider",
-          "val" : "RnorDv:0000057"
+          "val" : "http://purl.obolibrary.org/obo/RnorDv_0000057"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "rat_developmental_stage"
@@ -26700,10 +26717,6 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/acardv#end_dpf",
       "lbl" : "end, days post fertilization",
       "type" : "PROPERTY",
@@ -28601,6 +28614,27 @@
       "meta" : {
         "comments" : [ "Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)" ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/hsapdv#month_of_gestation",
+      "lbl" : "month of gestation",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Defines the start and end of a stage with a duration of 1 month, relative to either the time of fertilization or last menstrual period of the mother (to be clarified), counting from one, in terms of a reference model. Thus if month_of_gestation=3, then the stage is 2 month in."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/hsapdv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "human_stages_ontology"
         }, {
@@ -37655,7 +37689,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000244",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000095"
+      "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000274"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000244",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -37699,7 +37733,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000247",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000095"
+      "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000274"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000247",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -38020,6 +38054,22 @@
       "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000273",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000261"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000274",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000274",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000274",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000095"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HsapDv_0000274",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/HsapDv_0000243"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HsapDv_0010000",
       "pred" : "is_a",
