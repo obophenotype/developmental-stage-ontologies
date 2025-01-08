@@ -31,15 +31,14 @@
      xmlns:rnordv="http://purl.obolibrary.org/obo/rnordv#"
      xmlns:ssaldv="http://purl.obolibrary.org/obo/ssaldv.obo#"
      xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:Wikipedia="http://purl.obolibrary.org/obo/Wikipedia#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/life-stages/life-stages-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/life-stages/releases/2024-10-12/life-stages-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/life-stages/releases/2025-01-08/life-stages-base.owl"/>
         <dc:description>An ontology that collects all species specific life stage ontologies.</dc:description>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Life Stages Ontology</dcterms:title>
-        <owl:versionInfo>2024-10-12</owl:versionInfo>
+        <owl:versionInfo>2025-01-08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -136,12 +135,6 @@
     <!-- http://purl.obolibrary.org/obo/SscrDv#start_ypb -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SscrDv#start_ypb"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/Wikipedia#_Gestational_age"/>
     
 
 
@@ -1533,6 +1526,20 @@
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <rdfs:comment>Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
         <rdfs:label>has unit</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hsapdv#month_of_gestation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hsapdv#month_of_gestation">
+        <obo:IAO_0000115>Defines the start and end of a stage with a duration of 1 month, relative to either the time of fertilization or last menstrual period of the mother (to be clarified), counting from one, in terms of a reference model. Thus if month_of_gestation=3, then the stage is 2 month in.</obo:IAO_0000115>
+        <hsapdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <oboInOwl:hasOBONamespace>human_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>month_of_gestation</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment>This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <rdfs:label>month of gestation</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -7538,7 +7545,7 @@
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>neonate stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GgalDv:0000004</oboInOwl:id>
-        <rdfs:comment>For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 hwith UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221</rdfs:comment>
+        <rdfs:comment>For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 with UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221</rdfs:comment>
         <rdfs:label>hatchling stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7631,7 +7638,7 @@
         <obo:IAO_0000115>Chicken developmental stage that refers to a chicken who is over 5 and under 12 months old.</obo:IAO_0000115>
         <ggaldv:end_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</ggaldv:end_mph>
         <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</ggaldv:start_mph>
-        <oboInOwl:consider>GgalDv:0000078</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000078"/>
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GgalDv:0000007</oboInOwl:id>
         <rdfs:label>early adult stage</rdfs:label>
@@ -7684,7 +7691,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000009">
         <obo:IAO_0000115>Mature stage that refers to a chicken who is over 24 months old.</obo:IAO_0000115>
         <ggaldv:start_mph rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</ggaldv:start_mph>
-        <oboInOwl:consider>GgalDv:0000088</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000088"/>
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GgalDv:0000009</oboInOwl:id>
         <rdfs:label>2-year-old and over stage</rdfs:label>
@@ -7732,7 +7739,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000011">
         <obo:IAO_0000115>Prenatal stage on incubation period during which the initial primitive streak reaches a length of 0.3-0.5 mm.</obo:IAO_0000115>
-        <oboInOwl:consider>GgalDv:0000060</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000060"/>
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>HH1-2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GgalDv:0000011</oboInOwl:id>
@@ -7817,8 +7824,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000014">
         <obo:IAO_0000115>Prenatal stage on incubation period defined by head process (notochord), head fold.</obo:IAO_0000115>
-        <oboInOwl:consider>GgalDv:0000061</oboInOwl:consider>
-        <oboInOwl:consider>GgalDv:0000062</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000061"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000062"/>
         <oboInOwl:hasExactSynonym>HH5-6</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GgalDv:0000014</oboInOwl:id>
@@ -7868,7 +7875,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000016">
         <obo:IAO_0000115>Prenatal stage on incubation period defined by up to 3 somites and coelom.</obo:IAO_0000115>
-        <oboInOwl:consider>GgalDv:0000015</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000015"/>
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>HH7 to 8-</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GgalDv:0000016</oboInOwl:id>
@@ -8396,7 +8403,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000032">
         <obo:IAO_0000115>Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</obo:IAO_0000115>
-        <obo:IAO_0100001>GgalDv:0000034</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000034"/>
         <oboInOwl:hasExactSynonym>HH20</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GgalDv:0000032</oboInOwl:id>
@@ -8417,7 +8424,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GgalDv_0000033">
         <obo:IAO_0000115>Prenatal stage on incubation period defined by 22 somites, trunk flexure, visceral arches I and II, clefts 1 and 2.</obo:IAO_0000115>
-        <obo:IAO_0100001>GgalDv:0000035</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GgalDv_0000035"/>
         <oboInOwl:hasExactSynonym>HH14</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>chicken_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GgalDv:0000033</oboInOwl:id>
@@ -11722,7 +11729,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000004">
         <obo:IAO_0000115>Early stage of Carnegie stage 02 consisting of division of cells in the early embryo.</obo:IAO_0000115>
-        <obo:IAO_0100001>HsapDv:0000005</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000005"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000004</oboInOwl:id>
         <rdfs:label>cleavage stage</rdfs:label>
@@ -14230,7 +14237,7 @@
         <obo:IAO_0000115>Human developmental stage that covers the period from birth until 12 years old.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000264</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000264"/>
         <oboInOwl:hasExactSynonym>0-12 years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>child</oboInOwl:hasRelatedSynonym>
@@ -14253,8 +14260,8 @@
         <obo:IAO_0000115>Immature stage that refers to child who is over 2 and under 13 years old.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000264</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000265</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000264"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000265"/>
         <oboInOwl:hasExactSynonym>2-12 years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000081</oboInOwl:id>
@@ -14278,7 +14285,7 @@
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.083</hsapdv:end_ypb>
         <hsapdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hsapdv:start_mpb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000262</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000262"/>
         <oboInOwl:hasExactSynonym>0-1 month</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>neonatal stage</oboInOwl:hasRelatedSynonym>
@@ -14304,7 +14311,7 @@
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hsapdv:end_ypb>
         <hsapdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hsapdv:start_mpb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.083</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000261</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000261"/>
         <oboInOwl:hasExactSynonym>1-23 months</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>infantile stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
@@ -14327,8 +14334,8 @@
         <obo:IAO_0000115>Child stage that refers to a child who is over 24 months and under 6 years old.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000099</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000270</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000099"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000270"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>preschool child</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HsapDv:0000084</oboInOwl:id>
@@ -14350,7 +14357,7 @@
         <obo:IAO_0000115>Child stage that refers to a child who is over 6 and under 13 years old.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000271</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000271"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>prepubescent</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HsapDv:0000085</oboInOwl:id>
@@ -14372,7 +14379,7 @@
         <obo:IAO_0000115>Mature stage that refers to an adolescent who is over 13 and under 19 years old.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000268</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000268"/>
         <oboInOwl:hasExactSynonym>13-18 years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>teen</oboInOwl:hasRelatedSynonym>
@@ -14395,8 +14402,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000087">
         <obo:IAO_0000115>Human developmental stage that refers to an adult who is over 19.</obo:IAO_0000115>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000226</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000258</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000226"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000258"/>
         <oboInOwl:hasExactSynonym>19+ years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000087</oboInOwl:id>
@@ -14418,8 +14425,8 @@
         <obo:IAO_0000115>Adult stage that refers to an adult who is under 45.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000266</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000267</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000266"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000267"/>
         <oboInOwl:hasExactSynonym>19-44 years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000088</oboInOwl:id>
@@ -14441,7 +14448,7 @@
         <obo:IAO_0000115>Early adulthood that refers to an adult who is under 25.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000266</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000266"/>
         <oboInOwl:hasExactSynonym>19-24 years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000089</oboInOwl:id>
@@ -14463,11 +14470,11 @@
         <obo:IAO_0000115>Early adulthood that refers to an adult who is over 25 and under 45.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000237</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000238</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000239</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000266</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000267</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000237"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000238"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000239"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000266"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000267"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000090</oboInOwl:id>
         <rdfs:label>25-44 year-old stage</rdfs:label>
@@ -14487,8 +14494,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000091">
         <obo:IAO_0000115>Adult stage that refers to an adult who is over 45.</obo:IAO_0000115>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000227</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000267</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000227"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000267"/>
         <oboInOwl:hasExactSynonym>45+ years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Middle Aged + Aged</oboInOwl:hasRelatedSynonym>
@@ -14511,8 +14518,8 @@
         <obo:IAO_0000115>Late adulthood that refers to an adult who is over 45 and under 65.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000227</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000267</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000227"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000267"/>
         <oboInOwl:hasExactSynonym>45-64 years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000092</oboInOwl:id>
@@ -14533,7 +14540,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000093">
         <obo:IAO_0000115>Late adulthood that refers to an adult who is over 65.</obo:IAO_0000115>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000227</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000227"/>
         <oboInOwl:hasExactSynonym>65+ years</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>elderly</oboInOwl:hasRelatedSynonym>
@@ -14556,7 +14563,7 @@
         <obo:IAO_0000115>Aged stage that refers to an adult who is under 80.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000272</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000272"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>elderly</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HsapDv:0000094</oboInOwl:id>
@@ -17340,7 +17347,7 @@
         <obo:IAO_0000115>Infant stage that refers to an infant who is over 1 and under 2 months old.</obo:IAO_0000115>
         <hsapdv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hsapdv:end_mpb>
         <hsapdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hsapdv:start_mpb>
-        <oboInOwl:consider>HsapDv:0000273</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000273"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000174</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hsapdv#granular_stage"/>
@@ -18127,8 +18134,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Fetal stage that refers to the third month of gestation starting from the last menstrual period (LMP).</obo:IAO_0000115>
-        <Wikipedia:_Gestational_age rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</Wikipedia:_Gestational_age>
         <hsapdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">77.0</hsapdv:end_dpf>
+        <hsapdv:month_of_gestation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</hsapdv:month_of_gestation>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</hsapdv:start_dpf>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000197</oboInOwl:id>
@@ -18161,8 +18168,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Fetal stage that refers to the fourth month of gestation starting from the last menstrual period (LMP).</obo:IAO_0000115>
-        <Wikipedia:_Gestational_age rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</Wikipedia:_Gestational_age>
         <hsapdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">105.0</hsapdv:end_dpf>
+        <hsapdv:month_of_gestation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</hsapdv:month_of_gestation>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">77.0</hsapdv:start_dpf>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000198</oboInOwl:id>
@@ -18195,8 +18202,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Fetal stage that refers to the fifth month of gestation starting from the last menstrual period (LMP).</obo:IAO_0000115>
-        <Wikipedia:_Gestational_age rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</Wikipedia:_Gestational_age>
         <hsapdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">133.0</hsapdv:end_dpf>
+        <hsapdv:month_of_gestation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</hsapdv:month_of_gestation>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">105.0</hsapdv:start_dpf>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000199</oboInOwl:id>
@@ -18229,8 +18236,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Fetal stage that refers to the sixth month of gestation starting from the last menstrual period (LMP).</obo:IAO_0000115>
-        <Wikipedia:_Gestational_age rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</Wikipedia:_Gestational_age>
         <hsapdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">168.0</hsapdv:end_dpf>
+        <hsapdv:month_of_gestation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</hsapdv:month_of_gestation>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">133.0</hsapdv:start_dpf>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000200</oboInOwl:id>
@@ -18263,8 +18270,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Fetal stage that refers to the seventh month of gestation starting from the last menstrual period (LMP).</obo:IAO_0000115>
-        <Wikipedia:_Gestational_age rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</Wikipedia:_Gestational_age>
         <hsapdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">196.0</hsapdv:end_dpf>
+        <hsapdv:month_of_gestation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</hsapdv:month_of_gestation>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">168.0</hsapdv:start_dpf>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000201</oboInOwl:id>
@@ -18297,8 +18304,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Fetal stage that refers to the eighth month of gestation starting from the last menstrual period (LMP).</obo:IAO_0000115>
-        <Wikipedia:_Gestational_age rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</Wikipedia:_Gestational_age>
         <hsapdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">231.0</hsapdv:end_dpf>
+        <hsapdv:month_of_gestation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</hsapdv:month_of_gestation>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">196.0</hsapdv:start_dpf>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000202</oboInOwl:id>
@@ -18331,8 +18338,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Fetal stage that refers to the ninth month of gestation starting from the last menstrual period (LMP).</obo:IAO_0000115>
-        <Wikipedia:_Gestational_age rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</Wikipedia:_Gestational_age>
         <hsapdv:end_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">266.0</hsapdv:end_dpf>
+        <hsapdv:month_of_gestation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</hsapdv:month_of_gestation>
         <hsapdv:start_dpf rdf:datatype="http://www.w3.org/2001/XMLSchema#float">231.0</hsapdv:start_dpf>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000203</oboInOwl:id>
@@ -18352,7 +18359,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000204">
         <obo:IAO_0000115>Human developmental stage that refers to a sexually mature human.</obo:IAO_0000115>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000258</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000258"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000204</oboInOwl:id>
         <rdfs:label>mature stage</rdfs:label>
@@ -19376,9 +19383,9 @@
         <obo:IAO_0000115>Human stage that refers to an individual who is over 0 and under 10 years old.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000260</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000265</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000271</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000260"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000265"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000271"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000235</oboInOwl:id>
         <rdfs:label>first decade stage</rdfs:label>
@@ -19399,8 +19406,8 @@
         <obo:IAO_0000115>Human stage that refers to an individual who is over 10 and under 20 years old.</obo:IAO_0000115>
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</hsapdv:end_ypb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000268</oboInOwl:consider>
-        <oboInOwl:consider>HsapDv:0000271</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000268"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000271"/>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000236</oboInOwl:id>
         <rdfs:label>second decade stage</rdfs:label>
@@ -19654,7 +19661,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000274"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -19750,7 +19757,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000274"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20062,7 +20069,7 @@
         <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hsapdv:end_ypb>
         <hsapdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hsapdv:start_mpb>
         <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.083</hsapdv:start_ypb>
-        <oboInOwl:consider>HsapDv:0000261</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000261"/>
         <oboInOwl:hasExactSynonym>1-11 months</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HsapDv:0000256</oboInOwl:id>
@@ -20503,6 +20510,38 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Infant stage that refers to an infant who is over 28 days and under 2 months old.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Bgee:curator</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Human stage that refers to an adult who is over 90.</obo:IAO_0000115>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">90.0</hsapdv:start_ypb>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>HsapDv:0000274</oboInOwl:id>
+        <rdfs:label>90 year-old and over stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000274"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Human stage that refers to an adult who is over 90.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://github.com/jahilton</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -24419,7 +24458,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MmusDv_0000016">
         <obo:IAO_0000115>Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate.</obo:IAO_0000115>
-        <oboInOwl:consider>MmusDv:0000017</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000017"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>TheilerStage11</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>MmusDv:0000016</oboInOwl:id>
@@ -25329,17 +25368,17 @@
         <obo:IAO_0000115>Immature stage that refers to a mouse which is over 1 week and under 6 weeks old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000140</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000141</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000142</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000143</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000144</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000145</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000146</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000147</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000148</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000149</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000150</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000140"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000141"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000142"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000143"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000144"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000145"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000146"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000147"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000148"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000149"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000150"/>
         <oboInOwl:hasExactSynonym>1-5 weeks</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000038</oboInOwl:id>
@@ -25380,7 +25419,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MmusDv_0000040">
         <obo:IAO_0000115>Mouse developmental stage that refers to a mouse which is over 5 weeks old.</obo:IAO_0000115>
-        <obo:IAO_0100001>MmusDv:0000110</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000110"/>
         <oboInOwl:hasExactSynonym>mature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000040</oboInOwl:id>
@@ -25473,8 +25512,8 @@
         <obo:IAO_0000115>Early immature stage that refers to the newborn mouse which is over 1 and under 8 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.143</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.143</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000036</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000139</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000036"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000139"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000044</oboInOwl:id>
         <rdfs:comment>This term was made obsolete due to discussion at https://github.com/obophenotype/developmental-stage-ontologies/issues/23. [ANiknejad]</rdfs:comment>
@@ -25496,7 +25535,7 @@
         <obo:IAO_0000115>Premature stage that refers to a mouse which is over 7 days and under 15 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000140</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000140"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000045</oboInOwl:id>
         <rdfs:label>1 week</rdfs:label>
@@ -25517,7 +25556,7 @@
         <obo:IAO_0000115>Premature stage that refers to a mouse which is over 14 days and under 22 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000141</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000141"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000046</oboInOwl:id>
         <rdfs:label>2 weeks</rdfs:label>
@@ -25538,13 +25577,13 @@
         <obo:IAO_0000115>Premature stage that refers to a mouse which is over 21 days and under 29 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000142</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000143</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000144</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000145</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000146</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000147</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000148</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000142"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000143"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000144"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000145"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000146"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000147"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000148"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000047</oboInOwl:id>
         <rdfs:label>3-week-old stage</rdfs:label>
@@ -25565,7 +25604,7 @@
         <obo:IAO_0000115>Premature stage that refers to a mouse which is over 28 days and under 36 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000149</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000149"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000048</oboInOwl:id>
         <rdfs:label>4 weeks</rdfs:label>
@@ -25586,7 +25625,7 @@
         <obo:IAO_0000115>Premature stage that refers to a mouse which is over 35 days and under 43 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000150</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000150"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000049</oboInOwl:id>
         <rdfs:comment>This stage is usually the stage during which the sexual maturity occurs.</rdfs:comment>
@@ -25608,7 +25647,7 @@
         <obo:IAO_0000115>Early stage that refers to a mouse which is over 42 days and under 50 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000151</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000151"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000050</oboInOwl:id>
         <rdfs:comment>This stage is commonly considered in the literature as the milestone that distinguishes between sexually immmature and mature stages (see http://www.ahc.umn.edu/rar/breeding.html).</rdfs:comment>
@@ -25630,7 +25669,7 @@
         <obo:IAO_0000115>Early adult stage that refers to a mouse which is over 49 days and under 57 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000152</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000152"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000051</oboInOwl:id>
         <rdfs:label>7 weeks</rdfs:label>
@@ -25651,7 +25690,7 @@
         <obo:IAO_0000115>2 month-old stage that refers to a mouse which is over 56 days and under 64 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000154</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000154"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000052</oboInOwl:id>
         <rdfs:label>8 weeks</rdfs:label>
@@ -25672,7 +25711,7 @@
         <obo:IAO_0000115>2 month-old stage that refers to a mouse which is over 63 days and under 71 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000155</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000155"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000053</oboInOwl:id>
         <rdfs:label>9 weeks</rdfs:label>
@@ -25693,7 +25732,7 @@
         <obo:IAO_0000115>2 month-old stage that refers to a mouse which is over 70 days and under 78 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000156</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000156"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000054</oboInOwl:id>
         <rdfs:label>10 weeks</rdfs:label>
@@ -25714,7 +25753,7 @@
         <obo:IAO_0000115>2 month-old stage that refers to a mouse which is over 77 days and under 85 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000157</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000157"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000055</oboInOwl:id>
         <rdfs:label>11 weeks</rdfs:label>
@@ -25735,7 +25774,7 @@
         <obo:IAO_0000115>3 month-old stage that refers to a mouse which is over 84 days and under 92 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000158</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000158"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000056</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -25757,7 +25796,7 @@
         <obo:IAO_0000115>3 month-old stage that refers to a mouse which is over 91 days and under 99 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000159</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000159"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000057</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -25779,7 +25818,7 @@
         <obo:IAO_0000115>3 month-old stage that refers to a mouse which is over 98 days and under 106 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000160</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000160"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000058</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -25801,7 +25840,7 @@
         <obo:IAO_0000115>3 month-old stage that refers to a mouse which is over 105 days and under 113 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000161</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000161"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000059</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -25825,7 +25864,7 @@
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</mmusdv:end_wpb>
         <mmusdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</mmusdv:start_mpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000136</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000136"/>
         <oboInOwl:hasDbXref>UBERON:0018241</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000061</oboInOwl:id>
@@ -25953,7 +25992,7 @@
         <obo:IAO_0000115>4 month-old stage that refers to a mouse which is over 112 days and under 120 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000162</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000162"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000065</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -25975,7 +26014,7 @@
         <obo:IAO_0000115>4 month-old stage that refers to a mouse which is over 119 days and under 127 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000163</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000163"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000066</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -25997,7 +26036,7 @@
         <obo:IAO_0000115>4 month-old stage that refers to a mouse which is over 126 days and under 134 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000164</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000164"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000067</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26019,7 +26058,7 @@
         <obo:IAO_0000115>4 month-old stage that refers to a mouse which is over 133 days and under 141 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000165</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000165"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000068</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26076,7 +26115,7 @@
         <obo:IAO_0000115>4 month-old stage that refers to a mouse which is over 140 days and under 148 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000166</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000166"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000070</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26098,7 +26137,7 @@
         <obo:IAO_0000115>5 month-old stage that refers to a mouse which is over 147 days and under 155 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000167</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000167"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000071</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26120,7 +26159,7 @@
         <obo:IAO_0000115>5 month-old stage that refers to a mouse which is over 154 days and under 162 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000168</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000168"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000072</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26142,7 +26181,7 @@
         <obo:IAO_0000115>5 month-old stage that refers to a mouse which is over 161 days and under 169 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000169</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000169"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000073</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26164,7 +26203,7 @@
         <obo:IAO_0000115>5 month-old stage that refers to a mouse which is over 168 days and under 176 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000170</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000170"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000074</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26187,10 +26226,10 @@
         <mmusdv:end_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</mmusdv:end_mpb>
         <mmusdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</mmusdv:start_mpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000078</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000079</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000080</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000135</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000078"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000079"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000080"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000135"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000075</oboInOwl:id>
         <rdfs:comment>This stage is commonly considered in the literature as the stage during which first evidence of loss of functional capability like hearing occurs in wild type mouse strain (see http://www.ncbi.nlm.nih.gov/pubmed/18259074).</rdfs:comment>
@@ -26211,7 +26250,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MmusDv_0000076">
         <obo:IAO_0000115>Late adult stage that refers to a mouse which is over 15 months old.</obo:IAO_0000115>
         <mmusdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</mmusdv:start_mpb>
-        <oboInOwl:consider>MmusDv:0000134</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000134"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000076</oboInOwl:id>
         <rdfs:label>aged adult stage</rdfs:label>
@@ -26874,8 +26913,8 @@
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</mmusdv:end_wpb>
         <mmusdv:start_dpc rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</mmusdv:start_dpc>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000036</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000139</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000036"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000139"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000096</oboInOwl:id>
         <rdfs:comment>This term was made obsolete due to discussion at https://github.com/obophenotype/developmental-stage-ontologies/issues/23. [ANiknejad]</rdfs:comment>
@@ -26897,8 +26936,8 @@
         <obo:IAO_0000115>Mature stage that refers to an adult mouse which is over 7 months old.</obo:IAO_0000115>
         <mmusdv:start_mpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</mmusdv:start_mpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000134</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000135</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000134"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000135"/>
         <oboInOwl:hasDbXref>UBERON:0007222</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000097</oboInOwl:id>
@@ -26920,7 +26959,7 @@
         <obo:IAO_0000115>6 month-old stage that refers to a mouse which is over 175 days and under 183 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000171</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000171"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000098</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26942,7 +26981,7 @@
         <obo:IAO_0000115>6 month-old stage that refers to a mouse which is over 182 days and under 190 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000172</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000172"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000099</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26964,7 +27003,7 @@
         <obo:IAO_0000115>6 month-old stage that refers to a mouse which is over 189 days and under 197 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000173</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000173"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000100</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -26986,7 +27025,7 @@
         <obo:IAO_0000115>6 month-old stage that refers to a mouse which is over 196 days and under 204 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000174</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000174"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000101</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -27008,7 +27047,7 @@
         <obo:IAO_0000115>6 month-old stage that refers to a mouse which is over 203 days and under 211 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000175</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000175"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000102</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mmusdv#granular_stage"/>
@@ -27304,18 +27343,18 @@
         <obo:IAO_0000115>Mouse developmental stage that covers the period from P4 starting at TS28 until 5 weeks old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000139</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000140</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000141</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000142</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000143</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000144</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000145</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000146</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000147</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000148</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000149</oboInOwl:consider>
-        <oboInOwl:consider>MmusDv:0000150</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000139"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000140"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000141"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000142"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000143"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000144"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000145"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000146"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000147"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000148"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000149"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000150"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>infant stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>MmusDv:0000112</oboInOwl:id>
@@ -27338,7 +27377,7 @@
         <obo:IAO_0000115>Premature stage that refers to the newborn mouse which is over 4 days and under 8 days old.</obo:IAO_0000115>
         <mmusdv:end_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</mmusdv:end_wpb>
         <mmusdv:start_wpb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</mmusdv:start_wpb>
-        <oboInOwl:consider>MmusDv:0000139</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/MmusDv_0000139"/>
         <oboInOwl:hasOBONamespace>mouse_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MmusDv:0000113</oboInOwl:id>
         <rdfs:comment>This stage starts at P4.</rdfs:comment>
@@ -34594,7 +34633,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RnorDv_0000014">
         <obo:IAO_0000115>Immature stage that refers to a rat which is over 2 weeks and under 10 weeks old.</obo:IAO_0000115>
-        <oboInOwl:consider>RnorDv:0000057</oboInOwl:consider>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/RnorDv_0000057"/>
         <oboInOwl:hasOBONamespace>rat_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>RnorDv:0000014</oboInOwl:id>
         <rdfs:comment>This stage starts with the period at which periderm seals of ears and eyelids vanish, and ends when the rat becomes sexually mature (see http://php.med.unsw.edu.au/embryology/index.php?title=Rat_Timeline and http://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus).</rdfs:comment>

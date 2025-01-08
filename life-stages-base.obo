@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: life-stages/releases/2024-10-12/life-stages-base.owl
+data-version: life-stages/releases/2025-01-08/life-stages-base.owl
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 synonymtypedef: PLURAL "PLURAL"
 idspace: dc http://purl.org/dc/elements/1.1/ 
@@ -10,7 +10,7 @@ property_value: dc:description "An ontology that collects all species specific l
 property_value: dc:type IAO:8000001
 property_value: dcterms:license http://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Life Stages Ontology" xsd:string
-property_value: owl:versionInfo "2024-10-12" xsd:string
+property_value: owl:versionInfo "2025-01-08" xsd:string
 
 [Term]
 id: AcarDv:0000000
@@ -1756,7 +1756,7 @@ id: GgalDv:0000004
 name: hatchling stage
 namespace: chicken_developmental_stage
 def: "Chicken developmental stage that covers the period from hatching until 4 weeks old, during which individuals have no feathers." [Bgee:curator]
-comment: For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 hwith UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221
+comment: For now, in Bgee, dev. stages can have only one direct parent by part_of relation. In Uberon, UBERON:0007221 neonate stage is both part_of UBERON:0018685 nursing stage, in mammalia, and of UBERON:0000112 sexually immature stage in other species. To accomodate Bgee, for now we merge GgalDv:0000004 with UBERON:0007221 neonate, as it should. This should be reverted when Bgee updates, by adding a xref to UBERON:0007221
 synonym: "neonate stage" RELATED []
 synonym: "under-1-month-old chicken stage" EXACT []
 is_a: BFO:0000003
@@ -6037,8 +6037,8 @@ is_a: BFO:0000003
 is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000037 ! fetal stage
 property_value: end_dpf "77.0" xsd:float
+property_value: month_of_gestation "3.0" xsd:float
 property_value: start_dpf "56.0" xsd:float
-property_value: Wikipedia:Gestational_age "3.0" xsd:float
 
 [Term]
 id: HsapDv:0000198
@@ -6050,8 +6050,8 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000037 ! fetal stage
 relationship: RO:0002087 HsapDv:0000197 ! third LMP month stage
 property_value: end_dpf "105.0" xsd:float
+property_value: month_of_gestation "4.0" xsd:float
 property_value: start_dpf "77.0" xsd:float
-property_value: Wikipedia:Gestational_age "4.0" xsd:float
 
 [Term]
 id: HsapDv:0000199
@@ -6063,8 +6063,8 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000037 ! fetal stage
 relationship: RO:0002087 HsapDv:0000198 ! fourth LMP month stage
 property_value: end_dpf "133.0" xsd:float
+property_value: month_of_gestation "5.0" xsd:float
 property_value: start_dpf "105.0" xsd:float
-property_value: Wikipedia:Gestational_age "5.0" xsd:float
 
 [Term]
 id: HsapDv:0000200
@@ -6076,8 +6076,8 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000037 ! fetal stage
 relationship: RO:0002087 HsapDv:0000199 ! fifth LMP month stage
 property_value: end_dpf "168.0" xsd:float
+property_value: month_of_gestation "6.0" xsd:float
 property_value: start_dpf "133.0" xsd:float
-property_value: Wikipedia:Gestational_age "6.0" xsd:float
 
 [Term]
 id: HsapDv:0000201
@@ -6089,8 +6089,8 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000037 ! fetal stage
 relationship: RO:0002087 HsapDv:0000200 ! sixth LMP month stage
 property_value: end_dpf "196.0" xsd:float
+property_value: month_of_gestation "7.0" xsd:float
 property_value: start_dpf "168.0" xsd:float
-property_value: Wikipedia:Gestational_age "7.0" xsd:float
 
 [Term]
 id: HsapDv:0000202
@@ -6102,8 +6102,8 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000037 ! fetal stage
 relationship: RO:0002087 HsapDv:0000201 ! seventh LMP month stage
 property_value: end_dpf "231.0" xsd:float
+property_value: month_of_gestation "8.0" xsd:float
 property_value: start_dpf "196.0" xsd:float
-property_value: Wikipedia:Gestational_age "8.0" xsd:float
 
 [Term]
 id: HsapDv:0000203
@@ -6115,8 +6115,8 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000037 ! fetal stage
 relationship: RO:0002087 HsapDv:0000202 ! eighth LMP month stage
 property_value: end_dpf "266.0" xsd:float
+property_value: month_of_gestation "9.0" xsd:float
 property_value: start_dpf "231.0" xsd:float
-property_value: Wikipedia:Gestational_age "9.0" xsd:float
 
 [Term]
 id: HsapDv:0000204
@@ -6629,7 +6629,7 @@ namespace: human_developmental_stage
 def: "Human stage that refers to an individual who is over 90 and under 100 years old." [Bgee:curator]
 is_a: BFO:0000003
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: BFO:0000050 HsapDv:0000095 ! 80 year-old and over stage
+relationship: BFO:0000050 HsapDv:0000274 ! 90 year-old and over stage
 relationship: RO:0002087 HsapDv:0000243 ! ninth decade stage
 property_value: end_ypb "100.0" xsd:float
 property_value: start_ypb "90.0" xsd:float
@@ -6668,7 +6668,7 @@ def: "Aged stage that refers to an adult who is over 100 years old." [Bgee:curat
 subset: granular_stage
 is_a: BFO:0000003
 is_a: HsapDv:0000000 ! life cycle stage
-relationship: BFO:0000050 HsapDv:0000095 ! 80 year-old and over stage
+relationship: BFO:0000050 HsapDv:0000274 ! 90 year-old and over stage
 relationship: RO:0002087 HsapDv:0000225 ! 99-year-old stage
 relationship: RO:0002087 HsapDv:0000244 ! tenth decade stage
 property_value: end_ypb "101.0" xsd:float
@@ -6976,6 +6976,17 @@ is_a: HsapDv:0000000 ! life cycle stage
 relationship: BFO:0000050 HsapDv:0000261 ! infant stage
 property_value: end_mpb "2.0" xsd:float
 property_value: start_mpb "0.92" xsd:float
+
+[Term]
+id: HsapDv:0000274
+name: 90 year-old and over stage
+namespace: human_developmental_stage
+def: "Human stage that refers to an adult who is over 90." [https://github.com/jahilton]
+is_a: BFO:0000003
+is_a: HsapDv:0000000 ! life cycle stage
+relationship: BFO:0000050 HsapDv:0000095 ! 80 year-old and over stage
+relationship: BFO:0000062 HsapDv:0000243 ! ninth decade stage
+property_value: start_ypb "90.0" xsd:float
 
 [Term]
 id: HsapDv:0010000
@@ -15267,6 +15278,15 @@ namespace: rat_stages_ontology
 namespace: rhesus_macaque_stages_ontology
 namespace: sheep_stages_ontology
 comment: Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)
+is_metadata_tag: true
+
+[Typedef]
+id: month_of_gestation
+name: month of gestation
+namespace: human_stages_ontology
+def: "Defines the start and end of a stage with a duration of 1 month, relative to either the time of fertilization or last menstrual period of the mother (to be clarified), counting from one, in terms of a reference model. Thus if month_of_gestation=3, then the stage is 2 month in." []
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000035
 is_metadata_tag: true
 
 [Typedef]

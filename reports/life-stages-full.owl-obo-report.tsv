@@ -170,12 +170,11 @@ ERROR	duplicate_definition	obo:fcatdv#end_dpb	IAO:0000115	Count of number of day
 ERROR	duplicate_definition	obo:mdomdv#end_dpb	IAO:0000115	Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2
 ERROR	duplicate_definition	obo:mmusdv#end_dpb	IAO:0000115	Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2
 ERROR	duplicate_definition	obo:ocundv#end_dpb	IAO:0000115	Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2
-ERROR	duplicate_definition	UBERON:0010000	IAO:0000115	An anatomical structure that has more than one cell as a part.
-ERROR	duplicate_definition	XAO:0005002	IAO:0000115	An anatomical structure that has more than one cell as a part.
 ERROR	duplicate_definition	obo:PtroDv_0000023	IAO:0000115	Adulthood stage that refers to a chimpanzee who is over 18 and under 19 years old.
 ERROR	duplicate_definition	obo:PtroDv_0000024	IAO:0000115	Adulthood stage that refers to a chimpanzee who is over 18 and under 19 years old.
 ERROR	duplicate_definition	obo:OariDv_0000009	IAO:0000115	A stage at which the organism is a single cell produced by means of sexual reproduction.
 ERROR	duplicate_definition	obo:SscrDv_0000087	IAO:0000115	A stage at which the organism is a single cell produced by means of sexual reproduction.
+ERROR	duplicate_definition	UBERON:0000106	IAO:0000115	A stage at which the organism is a single cell produced by means of sexual reproduction.
 ERROR	duplicate_definition	obo:AcarDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:BtauDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:CfamDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
@@ -198,15 +197,15 @@ ERROR	duplicate_definition	obo:PtroDv_0000000	IAO:0000115	A spatiotemporal regio
 ERROR	duplicate_definition	obo:RnorDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:SsalDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:SscrDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
+ERROR	duplicate_definition	UBERON:0000105	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_label	obo:OariDv_0000009	rdfs:label	zygote stage
 ERROR	duplicate_label	obo:SsalDv_0000003	rdfs:label	zygote stage
 ERROR	duplicate_label	obo:SscrDv_0000087	rdfs:label	zygote stage
+ERROR	duplicate_label	UBERON:0000106	rdfs:label	zygote stage
 ERROR	duplicate_label	obo:GgalDv_0000078	rdfs:label	young adult stage
 ERROR	duplicate_label	HsapDv:0000089	rdfs:label	young adult stage
 ERROR	duplicate_label	HsapDv:0000266	rdfs:label	young adult stage
 ERROR	duplicate_label	MmusDv:0000153	rdfs:label	young adult stage
-ERROR	duplicate_label	FBdv:00005287	rdfs:label	unfertilized egg stage
-ERROR	duplicate_label	XAO:1000082	rdfs:label	unfertilized egg stage
 ERROR	duplicate_label	obo:OariDv_0000004	rdfs:label	suckling stage
 ERROR	duplicate_label	obo:SscrDv_0000004	rdfs:label	suckling stage
 ERROR	duplicate_label	obo:SscrDv#start_ypb	rdfs:label	start, years post birth
@@ -282,10 +281,13 @@ ERROR	duplicate_label	obo:fcatdv#start_dpb	rdfs:label	start, days post birth
 ERROR	duplicate_label	obo:mdomdv#start_dpb	rdfs:label	start, days post birth
 ERROR	duplicate_label	obo:mmusdv#start_dpb	rdfs:label	start, days post birth
 ERROR	duplicate_label	obo:ocundv#start_dpb	rdfs:label	start, days post birth
+ERROR	duplicate_label	obo:SsalDv_0000041	rdfs:label	sexually immature stage
+ERROR	duplicate_label	UBERON:0000112	rdfs:label	sexually immature stage
 ERROR	duplicate_label	obo:GgalDv_0000077	rdfs:label	prime adult stage
 ERROR	duplicate_label	HsapDv:0000226	rdfs:label	prime adult stage
 ERROR	duplicate_label	MmusDv:0000136	rdfs:label	prime adult stage
 ERROR	duplicate_label	obo:RnorDv_0000059	rdfs:label	prime adult stage
+ERROR	duplicate_label	UBERON:0018241	rdfs:label	prime adult stage
 ERROR	duplicate_label	obo:AcarDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:BtauDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:CfamDv_0000002	rdfs:label	prenatal stage
@@ -321,10 +323,11 @@ ERROR	duplicate_label	obo:PtroDv_0000052	rdfs:label	postnatal stage
 ERROR	duplicate_label	obo:RnorDv_0000061	rdfs:label	postnatal stage
 ERROR	duplicate_label	obo:SscrDv_0000084	rdfs:label	postnatal stage
 ERROR	duplicate_label	obo:SsalDv_0000038	rdfs:label	post-embryonic stage
-ERROR	duplicate_label	XAO:1000095	rdfs:label	post-embryonic stage
+ERROR	duplicate_label	UBERON:0000092	rdfs:label	post-embryonic stage
+ERROR	duplicate_label	obo:ssaldv.obo#PLURAL	rdfs:label	PLURAL
+ERROR	duplicate_label	obo:zfs#PLURAL	rdfs:label	PLURAL
 ERROR	duplicate_label	obo:DpseDv_0000004	rdfs:label	P-stage
 ERROR	duplicate_label	obo:DsimDv_0000004	rdfs:label	P-stage
-ERROR	duplicate_label	FBdv:00007001	rdfs:label	P-stage
 ERROR	duplicate_label	obo:GgalDv_0000094	rdfs:label	organogenesis stage
 ERROR	duplicate_label	HsapDv:0000015	rdfs:label	organogenesis stage
 ERROR	duplicate_label	MmusDv:0000018	rdfs:label	organogenesis stage
@@ -332,12 +335,14 @@ ERROR	duplicate_label	obo:OariDv_0000028	rdfs:label	organogenesis stage
 ERROR	duplicate_label	obo:RnorDv_0000055	rdfs:label	organogenesis stage
 ERROR	duplicate_label	obo:SsalDv_0000022	rdfs:label	organogenesis stage
 ERROR	duplicate_label	obo:SscrDv_0000086	rdfs:label	organogenesis stage
+ERROR	duplicate_label	UBERON:0000111	rdfs:label	organogenesis stage
 ERROR	duplicate_label	obo:GgorDv_0000004	rdfs:label	nursing stage
 ERROR	duplicate_label	obo:MdomDv_0000032	rdfs:label	nursing stage
 ERROR	duplicate_label	obo:MmulDv_0000004	rdfs:label	nursing stage
 ERROR	duplicate_label	MmusDv:0000138	rdfs:label	nursing stage
 ERROR	duplicate_label	obo:PpanDv_0000004	rdfs:label	nursing stage
 ERROR	duplicate_label	obo:PtroDv_0000004	rdfs:label	nursing stage
+ERROR	duplicate_label	UBERON:0018685	rdfs:label	nursing stage
 ERROR	duplicate_label	HsapDv:0000082	rdfs:label	newborn stage
 ERROR	duplicate_label	obo:MmulDv_0000046	rdfs:label	newborn stage
 ERROR	duplicate_label	obo:GgalDv_0000093	rdfs:label	neurula stage
@@ -346,9 +351,9 @@ ERROR	duplicate_label	MmusDv:0000016	rdfs:label	neurula stage
 ERROR	duplicate_label	obo:OariDv_0000027	rdfs:label	neurula stage
 ERROR	duplicate_label	obo:RnorDv_0000007	rdfs:label	neurula stage
 ERROR	duplicate_label	obo:SscrDv_0000091	rdfs:label	neurula stage
-ERROR	duplicate_label	XAO:1000006	rdfs:label	neurula stage
-ERROR	duplicate_label	UBERON:0010000	rdfs:label	multicellular anatomical structure
-ERROR	duplicate_label	XAO:0005002	rdfs:label	multicellular anatomical structure
+ERROR	duplicate_label	UBERON:0000110	rdfs:label	neurula stage
+ERROR	duplicate_label	obo:MdomDv_0000004	rdfs:label	neonate stage
+ERROR	duplicate_label	UBERON:0007221	rdfs:label	neonate stage
 ERROR	duplicate_label	HsapDv:0000092	rdfs:label	middle aged stage
 ERROR	duplicate_label	HsapDv:0000267	rdfs:label	middle aged stage
 ERROR	duplicate_label	MmusDv:0000075	rdfs:label	middle aged stage
@@ -388,6 +393,7 @@ ERROR	duplicate_label	obo:PtroDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:RnorDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:SsalDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:SscrDv_0000000	rdfs:label	life cycle stage
+ERROR	duplicate_label	UBERON:0000105	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:BtauDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:CfamDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:EcabDv_0000001	rdfs:label	life cycle
@@ -404,16 +410,17 @@ ERROR	duplicate_label	obo:PtroDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:RnorDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:SsalDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:SscrDv_0000001	rdfs:label	life cycle
-ERROR	duplicate_label	FBdv:00005333	rdfs:label	late embryonic stage
 ERROR	duplicate_label	obo:SscrDv_0000080	rdfs:label	late embryonic stage
+ERROR	duplicate_label	UBERON:0007220	rdfs:label	late embryonic stage
 ERROR	duplicate_label	obo:GgalDv_0000080	rdfs:label	late adult stage
 ERROR	duplicate_label	HsapDv:0000227	rdfs:label	late adult stage
 ERROR	duplicate_label	MmusDv:0000097	rdfs:label	late adult stage
 ERROR	duplicate_label	MmusDv:0000134	rdfs:label	late adult stage
 ERROR	duplicate_label	obo:RnorDv_0000060	rdfs:label	late adult stage
+ERROR	duplicate_label	UBERON:0007222	rdfs:label	late adult stage
 ERROR	duplicate_label	obo:DpseDv_0000003	rdfs:label	larval stage
 ERROR	duplicate_label	obo:DsimDv_0000003	rdfs:label	larval stage
-ERROR	duplicate_label	FBdv:00005336	rdfs:label	larval stage
+ERROR	duplicate_label	UBERON:0000069	rdfs:label	larval stage
 ERROR	duplicate_label	obo:GgalDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:GgorDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:MdomDv_0000005	rdfs:label	juvenile stage
@@ -424,6 +431,7 @@ ERROR	duplicate_label	obo:PpanDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:PtroDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:RnorDv_0000058	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:SscrDv_0000005	rdfs:label	juvenile stage
+ERROR	duplicate_label	UBERON:0034919	rdfs:label	juvenile stage
 ERROR	duplicate_label	HsapDv:0000083	rdfs:label	infant stage
 ERROR	duplicate_label	HsapDv:0000261	rdfs:label	infant stage
 ERROR	duplicate_label	obo:MdomDv_0000033	rdfs:label	infant stage
@@ -433,6 +441,7 @@ ERROR	duplicate_label	MmusDv:0000177	rdfs:label	infant stage
 ERROR	duplicate_label	obo:RnorDv_0000014	rdfs:label	infant stage
 ERROR	duplicate_label	obo:RnorDv_0000057	rdfs:label	infant stage
 ERROR	duplicate_label	obo:SscrDv_0000085	rdfs:label	infant stage
+ERROR	duplicate_label	UBERON:0034920	rdfs:label	infant stage
 ERROR	duplicate_label	obo:AcarDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:BtauDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:CfamDv_0000003	rdfs:label	immature stage
@@ -519,7 +528,6 @@ ERROR	duplicate_label	obo:GgalDv_0000033	rdfs:label	Hamburger Hamilton stage 21
 ERROR	duplicate_label	obo:GgalDv_0000035	rdfs:label	Hamburger Hamilton stage 21
 ERROR	duplicate_label	obo:GgalDv_0000032	rdfs:label	Hamburger Hamilton stage 20
 ERROR	duplicate_label	obo:GgalDv_0000034	rdfs:label	Hamburger Hamilton stage 20
-ERROR	duplicate_label	FBdv:00005317	rdfs:label	gastrula stage
 ERROR	duplicate_label	obo:GgalDv_0000092	rdfs:label	gastrula stage
 ERROR	duplicate_label	HsapDv:0000010	rdfs:label	gastrula stage
 ERROR	duplicate_label	MmusDv:0000013	rdfs:label	gastrula stage
@@ -527,10 +535,11 @@ ERROR	duplicate_label	obo:OariDv_0000026	rdfs:label	gastrula stage
 ERROR	duplicate_label	obo:RnorDv_0000005	rdfs:label	gastrula stage
 ERROR	duplicate_label	obo:SsalDv_0000016	rdfs:label	gastrula stage
 ERROR	duplicate_label	obo:SscrDv_0000090	rdfs:label	gastrula stage
-ERROR	duplicate_label	XAO:1000005	rdfs:label	gastrula stage
+ERROR	duplicate_label	UBERON:0000109	rdfs:label	gastrula stage
 ERROR	duplicate_label	obo:DpseDv_0000005	rdfs:label	fully formed stage
 ERROR	duplicate_label	obo:DsimDv_0000005	rdfs:label	fully formed stage
 ERROR	duplicate_label	obo:SsalDv_0000040	rdfs:label	fully formed stage
+ERROR	duplicate_label	UBERON:0000066	rdfs:label	fully formed stage
 ERROR	duplicate_label	obo:BtauDv_0000053	rdfs:label	first 0-6 postnatal days
 ERROR	duplicate_label	obo:SscrDv_0000009	rdfs:label	first 0-6 postnatal days
 ERROR	duplicate_label	HsapDv:0000037	rdfs:label	fetal stage
@@ -609,22 +618,19 @@ ERROR	duplicate_label	obo:mmusdv#end_dpb	rdfs:label	end, days post birth
 ERROR	duplicate_label	obo:ocundv#end_dpb	rdfs:label	end, days post birth
 ERROR	duplicate_label	obo:DpseDv_0000002	rdfs:label	embryonic stage
 ERROR	duplicate_label	obo:DsimDv_0000002	rdfs:label	embryonic stage
-ERROR	duplicate_label	FBdv:00005289	rdfs:label	embryonic stage
 ERROR	duplicate_label	HsapDv:0000002	rdfs:label	embryonic stage
 ERROR	duplicate_label	MmusDv:0000002	rdfs:label	embryonic stage
 ERROR	duplicate_label	obo:RnorDv_0000003	rdfs:label	embryonic stage
-ERROR	duplicate_label	XAO:1000012	rdfs:label	embryonic stage
+ERROR	duplicate_label	obo:SsalDv_0000002	rdfs:label	embryo stage
+ERROR	duplicate_label	UBERON:0000068	rdfs:label	embryo stage
 ERROR	duplicate_label	MmusDv:0000096	rdfs:label	early immature stage
 ERROR	duplicate_label	obo:RnorDv_0000013	rdfs:label	early immature stage
-ERROR	duplicate_label	FBdv:00007009	rdfs:label	developmental process
-ERROR	duplicate_label	GO:0032502	rdfs:label	developmental process
 ERROR	duplicate_label	obo:DpseDv_0000007	rdfs:label	days 5-8 of fully formed stage
 ERROR	duplicate_label	obo:DsimDv_0000007	rdfs:label	days 5-8 of fully formed stage
 ERROR	duplicate_label	obo:DpseDv_0000006	rdfs:label	days 1-4 of fully formed stage
 ERROR	duplicate_label	obo:DsimDv_0000006	rdfs:label	days 1-4 of fully formed stage
 ERROR	duplicate_label	obo:DpseDv_0000008	rdfs:label	day 9 and more of fully formed stage
 ERROR	duplicate_label	obo:DsimDv_0000008	rdfs:label	day 9 and more of fully formed stage
-ERROR	duplicate_label	FBdv:00000054	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:GgalDv_0000064	rdfs:label	cleavage stage
 ERROR	duplicate_label	HsapDv:0000004	rdfs:label	cleavage stage
 ERROR	duplicate_label	MmusDv:0000004	rdfs:label	cleavage stage
@@ -632,9 +638,7 @@ ERROR	duplicate_label	obo:OariDv_0000010	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:RnorDv_0000049	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:SsalDv_0000004	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:SscrDv_0000088	rdfs:label	cleavage stage
-ERROR	duplicate_label	XAO:1000004	rdfs:label	cleavage stage
-ERROR	duplicate_label	CL:0000000	rdfs:label	cell
-ERROR	duplicate_label	XAO:0003012	rdfs:label	cell
+ERROR	duplicate_label	UBERON:0000107	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:GgalDv_0000091	rdfs:label	blastula stage
 ERROR	duplicate_label	HsapDv:0000006	rdfs:label	blastula stage
 ERROR	duplicate_label	MmusDv:0000007	rdfs:label	blastula stage
@@ -642,9 +646,7 @@ ERROR	duplicate_label	obo:OariDv_0000025	rdfs:label	blastula stage
 ERROR	duplicate_label	obo:RnorDv_0000054	rdfs:label	blastula stage
 ERROR	duplicate_label	obo:SsalDv_0000012	rdfs:label	blastula stage
 ERROR	duplicate_label	obo:SscrDv_0000089	rdfs:label	blastula stage
-ERROR	duplicate_label	XAO:1000003	rdfs:label	blastula stage
-ERROR	duplicate_label	UBERON:0000061	rdfs:label	anatomical structure
-ERROR	duplicate_label	XAO:0003000	rdfs:label	anatomical structure
+ERROR	duplicate_label	UBERON:0000108	rdfs:label	blastula stage
 ERROR	duplicate_label	obo:AcarDv_0000006	rdfs:label	aged stage
 ERROR	duplicate_label	obo:BtauDv_0000006	rdfs:label	aged stage
 ERROR	duplicate_label	obo:CfamDv_0000006	rdfs:label	aged stage
@@ -676,7 +678,6 @@ ERROR	duplicate_label	obo:OcunDv_0000005	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:PpanDv_0000017	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:PtroDv_0000012	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:SscrDv_0000007	rdfs:label	adulthood stage
-ERROR	duplicate_label	FBdv:00005369	rdfs:label	adult stage
 ERROR	duplicate_label	HsapDv:0000087	rdfs:label	adult stage
 ERROR	duplicate_label	HsapDv:0000258	rdfs:label	adult stage
 ERROR	duplicate_label	MmusDv:0000040	rdfs:label	adult stage
@@ -1139,14 +1140,12 @@ ERROR	duplicate_label	obo:GgalDv_0000066	rdfs:label	1-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000073	rdfs:label	1-day-old stage
 ERROR	duplicate_label	obo:BtauDv_0000054	rdfs:label	0-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000072	rdfs:label	0-day-old stage
-ERROR	missing_label	XAO:0000194	rdfs:label	
-ERROR	missing_label	XAO:0000212	rdfs:label	
-ERROR	missing_label	XAO:0003089	rdfs:label	
-ERROR	missing_label	XAO:0004073	rdfs:label	
+ERROR	missing_label	http://owltools.org/Q	rdfs:label	
+ERROR	missing_label	OMO:0003011	rdfs:label	
+ERROR	missing_label	obo:uberon/core#INCONSISTENT	rdfs:label	
+ERROR	missing_label	obo:uberon/core#SENSU	rdfs:label	
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en
-ERROR	multiple_definitions	CL:0000000	IAO:0000115	A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.
-ERROR	multiple_definitions	CL:0000000	IAO:0000115	A material entity that has a plasma membrane and results from cellular division.
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	A process that emerges from two or more causally-connected macromolecular activities and has evolved to achieve a biological objective.
 ERROR	multiple_labels	BFO:0000017	rdfs:label	realizable@en
@@ -1155,32 +1154,24 @@ ERROR	multiple_labels	BFO:0000020	rdfs:label	characteristic@en
 ERROR	multiple_labels	BFO:0000020	rdfs:label	specifically dependent continuant@en
 ERROR	multiple_labels	BFO:0000050	rdfs:label	part of
 ERROR	multiple_labels	BFO:0000050	rdfs:label	part of@en
-ERROR	multiple_labels	BFO:0000050	rdfs:label	part_of
 ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded by@en
 ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded_by
-ERROR	multiple_labels	CL:0000000	rdfs:label	cell
-ERROR	multiple_labels	CL:0000000	rdfs:label	cell@en
 ERROR	multiple_labels	GO:0003674	rdfs:label	gene product or complex activity@en
 ERROR	multiple_labels	GO:0003674	rdfs:label	molecular_function
 ERROR	multiple_labels	GO:0008150	rdfs:label	biological process@en
 ERROR	multiple_labels	GO:0008150	rdfs:label	biological_process
-ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage
-ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage@en
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en
-ERROR	multiple_labels	IAO:0000700	rdfs:label	IAO:0000700
-ERROR	multiple_labels	IAO:0000700	rdfs:label	has ontology root term@en
 ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by
 ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by@en
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately preceded by@en
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately_preceded_by
-ERROR	multiple_labels	RO:0002087	rdfs:label	starts_at_end_of
 ERROR	multiple_labels	RO:0002160	rdfs:label	only in taxon
 ERROR	multiple_labels	RO:0002160	rdfs:label	only_in_taxon
-ERROR	multiple_labels	RO:0002202	rdfs:label	develops from
-ERROR	multiple_labels	RO:0002202	rdfs:label	develops from@en
 ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has broad synonym@en
 ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has_broad_synonym
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database_cross_reference
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	has cross-reference
 ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has exact synonym@en
 ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has_exact_synonym
 ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has narrow synonym@en
@@ -1208,18 +1199,10 @@ We don't have definitions of 'meaning' or 'expression' or 'property'. For 'refer
 Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
-WARN	annotation_whitespace	IAO:0000425	IAO:0000112	"ObjectProperty: RO???
-Label: spatially disjoint from
-Annotations: expand_assertion_to \""DisjointClasses: (http://purl.obolibrary.org/obo/BFO_0000051 some ?X)  (http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\""
-@en"
-WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). @en
-WARN	annotation_whitespace	RO:0002161	IAO:0000425	Class: ?X DisjointWith: RO_0002162 some ?Y 
 WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
 WARN	duplicate_exact_synonym	MmusDv:0000014	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	MmusDv:0000103	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	MmusDv:0000104	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0005051	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0005052	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:AcarDv_0000005	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:BtauDv_0000005	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CfamDv_0000005	oboInOwl:hasExactSynonym	
@@ -1240,8 +1223,6 @@ WARN	duplicate_exact_synonym	obo:PpanDv_0000016	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	obo:PtroDv_0000011	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:BtauDv_0000054	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:SscrDv_0000072	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	UBERON:0010000	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0005002	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:AcarDv_0000004	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:BtauDv_0000004	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CfamDv_0000004	oboInOwl:hasExactSynonym	
@@ -1262,14 +1243,8 @@ WARN	duplicate_exact_synonym	obo:SscrDv_0000006	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	obo:GgorDv_0000008	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:PpanDv_0000040	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:PtroDv_0000039	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0000366	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0005232	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	FBdv:00005317	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:1000005	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	WBls:0000006	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0000035	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0004390	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0005235	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	HsapDv:0000264	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	UBERON:0000112	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:AcarDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:BtauDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CfamDv_0000000	oboInOwl:hasExactSynonym	
@@ -1292,116 +1267,99 @@ WARN	duplicate_exact_synonym	obo:PtroDv_0000000	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	obo:RnorDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:SsalDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:SscrDv_0000000	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0004364	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	XAO:0005046	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	HsapDv:0000008	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	HsapDv:0000009	oboInOwl:hasExactSynonym	
 WARN	duplicate_label_synonym	obo:AcarDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:AcarDv_0000004	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	obo:BtauDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:BtauDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:BtauDv_0000004	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	obo:CfamDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:CfamDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:CfamDv_0000004	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:CporDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:CporDv_0000004	oboInOwl:hasExactSynonym	mature stage
+WARN	duplicate_label_synonym	obo:DpseDv_0000002	oboInOwl:hasExactSynonym	embryonic stage
 WARN	duplicate_label_synonym	obo:DpseDv_0000003	oboInOwl:hasExactSynonym	larval stage
+WARN	duplicate_label_synonym	obo:DsimDv_0000002	oboInOwl:hasExactSynonym	embryonic stage
 WARN	duplicate_label_synonym	obo:DsimDv_0000003	oboInOwl:hasExactSynonym	larval stage
-WARN	duplicate_label_synonym	obo:EcabDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:EcabDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:EcabDv_0000004	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	FBdv:00005259	oboInOwl:hasExactSynonym	developmental stage
-WARN	duplicate_label_synonym	FBdv:00005336	oboInOwl:hasExactSynonym	larval stage
-WARN	duplicate_label_synonym	FBdv:00007024	oboInOwl:hasExactSynonym	biological process
-WARN	duplicate_label_synonym	obo:FcatDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:FcatDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:FcatDv_0000004	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	obo:GgalDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:GgalDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:GgalDv_0000006	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:GgalDv_0000077	oboInOwl:hasExactSynonym	prime adult stage
 WARN	duplicate_label_synonym	obo:GgalDv_0000080	oboInOwl:hasExactSynonym	late adult stage
-WARN	duplicate_label_synonym	obo:GgorDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:GgorDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:GgorDv_0000004	oboInOwl:hasExactSynonym	nursing stage
 WARN	duplicate_label_synonym	obo:GgorDv_0000006	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	HsapDv:0000000	oboInOwl:hasExactSynonym	life cycle stage
+WARN	duplicate_label_synonym	HsapDv:0000002	oboInOwl:hasExactSynonym	embryonic stage
 WARN	duplicate_label_synonym	HsapDv:0000226	oboInOwl:hasExactSynonym	prime adult stage
 WARN	duplicate_label_synonym	HsapDv:0000227	oboInOwl:hasExactSynonym	late adult stage
 WARN	duplicate_label_synonym	obo:MdomDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:MdomDv_0000004	oboInOwl:hasExactSynonym	neonate stage
 WARN	duplicate_label_synonym	obo:MdomDv_0000006	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:MdomDv_0000032	oboInOwl:hasExactSynonym	nursing stage
-WARN	duplicate_label_synonym	obo:MmulDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:MmulDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:MmulDv_0000004	oboInOwl:hasExactSynonym	nursing stage
 WARN	duplicate_label_synonym	obo:MmulDv_0000021	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:MmulDv_0000046	oboInOwl:hasExactSynonym	newborn stage
-WARN	duplicate_label_synonym	MmusDv:0000000	oboInOwl:hasExactSynonym	life cycle stage
+WARN	duplicate_label_synonym	MmusDv:0000002	oboInOwl:hasExactSynonym	embryonic stage
 WARN	duplicate_label_synonym	MmusDv:0000043	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	MmusDv:0000110	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	MmusDv:0000134	oboInOwl:hasExactSynonym	late adult stage
 WARN	duplicate_label_synonym	MmusDv:0000136	oboInOwl:hasExactSynonym	prime adult stage
 WARN	duplicate_label_synonym	MmusDv:0000138	oboInOwl:hasExactSynonym	nursing stage
-WARN	duplicate_label_synonym	obo:OanaDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:OanaDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:OanaDv_0000004	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	obo:OariDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:OariDv_0000003	oboInOwl:hasExactSynonym	immature stage
+WARN	duplicate_label_synonym	obo:OariDv_0000004	oboInOwl:hasExactSynonym	suckling stage
 WARN	duplicate_label_synonym	obo:OariDv_0000006	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:OariDv_0000009	oboInOwl:hasExactSynonym	zygote stage
 WARN	duplicate_label_synonym	obo:OcunDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:OcunDv_0000004	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	obo:PpanDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:PpanDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:PpanDv_0000004	oboInOwl:hasExactSynonym	nursing stage
 WARN	duplicate_label_synonym	obo:PpanDv_0000016	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	obo:PtroDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:PtroDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:PtroDv_0000004	oboInOwl:hasExactSynonym	nursing stage
 WARN	duplicate_label_synonym	obo:PtroDv_0000011	oboInOwl:hasExactSynonym	mature stage
-WARN	duplicate_label_synonym	RO:0002087	IAO:0000118	starts_at_end_of
-WARN	duplicate_label_synonym	obo:RnorDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
+WARN	duplicate_label_synonym	obo:RnorDv_0000003	oboInOwl:hasExactSynonym	embryonic stage
 WARN	duplicate_label_synonym	obo:RnorDv_0000012	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:RnorDv_0000015	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:RnorDv_0000059	oboInOwl:hasExactSynonym	prime adult stage
 WARN	duplicate_label_synonym	obo:RnorDv_0000060	oboInOwl:hasExactSynonym	late adult stage
-WARN	duplicate_label_synonym	obo:SsalDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:SsalDv_0000003	oboInOwl:hasExactSynonym	zygote stage
 WARN	duplicate_label_synonym	obo:SsalDv_0000005	oboInOwl:hasExactSynonym	2-cell stage
 WARN	duplicate_label_synonym	obo:SsalDv_0000006	oboInOwl:hasExactSynonym	4-cell stage
 WARN	duplicate_label_synonym	obo:SsalDv_0000007	oboInOwl:hasExactSynonym	8-cell stage
-WARN	duplicate_label_synonym	obo:SsalDv_0000008	oboInOwl:hasExactSynonym	16-cell stage
-WARN	duplicate_label_synonym	obo:SsalDv_0000009	oboInOwl:hasExactSynonym	32-cell stage
-WARN	duplicate_label_synonym	obo:SsalDv_0000010	oboInOwl:hasExactSynonym	64-cell stage
-WARN	duplicate_label_synonym	obo:SsalDv_0000011	oboInOwl:hasExactSynonym	128-cell stage
-WARN	duplicate_label_synonym	obo:SscrDv_0000000	oboInOwl:hasExactSynonym	life cycle stage
 WARN	duplicate_label_synonym	obo:SscrDv_0000003	oboInOwl:hasExactSynonym	immature stage
+WARN	duplicate_label_synonym	obo:SscrDv_0000004	oboInOwl:hasExactSynonym	suckling stage
 WARN	duplicate_label_synonym	obo:SscrDv_0000006	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:SscrDv_0000087	oboInOwl:hasExactSynonym	zygote stage
-WARN	duplicate_label_synonym	XAO:0005322	oboInOwl:hasExactSynonym	tadpole
+WARN	duplicate_label_synonym	UBERON:0000069	oboInOwl:hasExactSynonym	larval stage
+WARN	duplicate_label_synonym	UBERON:0000106	oboInOwl:hasExactSynonym	zygote stage
+WARN	duplicate_label_synonym	UBERON:0000113	oboInOwl:hasExactSynonym	post-juvenile adult stage
+WARN	duplicate_label_synonym	UBERON:0007221	oboInOwl:hasExactSynonym	neonate stage
+WARN	duplicate_label_synonym	UBERON:0007222	oboInOwl:hasExactSynonym	late adult stage
+WARN	duplicate_label_synonym	UBERON:0018241	oboInOwl:hasExactSynonym	prime adult stage
+WARN	duplicate_label_synonym	UBERON:0018685	oboInOwl:hasExactSynonym	nursing stage
+WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasExactSynonym	fertilized egg stage
+WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasRelatedSynonym	fertilized egg stage
+WARN	equivalent_class_axiom_no_genus	http://owltools.org/Q	BFO:0000050	UBERON:0000105
+WARN	missing_definition	http://owltools.org/Q	IAO:0000115	
+WARN	missing_definition	BFO:0000001	IAO:0000115	
 WARN	missing_definition	BFO:0000016	IAO:0000115	
 WARN	missing_definition	BFO:0000019	IAO:0000115	
 WARN	missing_definition	BFO:0000034	IAO:0000115	
-WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	IAO:0000027	IAO:0000115	
 WARN	missing_definition	IAO:0000030	IAO:0000115	
-WARN	missing_definition	OMO:0003004	IAO:0000115	
+WARN	missing_definition	OMO:0003011	IAO:0000115	
 WARN	missing_definition	obo:OariDv_0000023	IAO:0000115	
 WARN	missing_definition	RO:0002017	IAO:0000115	
 WARN	missing_definition	RO:0002022	IAO:0000115	
-WARN	missing_definition	RO:0002081	IAO:0000115	
-WARN	missing_definition	RO:0002084	IAO:0000115	
-WARN	missing_definition	RO:0002085	IAO:0000115	
 WARN	missing_definition	RO:0002086	IAO:0000115	
-WARN	missing_definition	RO:0002088	IAO:0000115	
 WARN	missing_definition	RO:0002090	IAO:0000115	
-WARN	missing_definition	RO:0002091	IAO:0000115	
-WARN	missing_definition	RO:0002092	IAO:0000115	
-WARN	missing_definition	RO:0002093	IAO:0000115	
 WARN	missing_definition	RO:0002222	IAO:0000115	
-WARN	missing_definition	RO:0002287	IAO:0000115	
 WARN	missing_definition	RO:0002405	IAO:0000115	
 WARN	missing_definition	RO:0002447	IAO:0000115	
 WARN	missing_definition	RO:0002464	IAO:0000115	
@@ -1465,10 +1423,65 @@ WARN	missing_definition	obo:SsalDv_0000052	IAO:0000115
 WARN	missing_definition	obo:SscrDv#has_end_time	IAO:0000115	
 WARN	missing_definition	obo:SscrDv#has_start_time	IAO:0000115	
 WARN	missing_definition	obo:SscrDv#has_unit	IAO:0000115	
-WARN	missing_definition	XAO:0000194	IAO:0000115	
-WARN	missing_definition	XAO:0000212	IAO:0000115	
-WARN	missing_definition	XAO:0003089	IAO:0000115	
-WARN	missing_definition	XAO:0004073	IAO:0000115	
+WARN	missing_definition	UBERON:0000112	IAO:0000115	
+WARN	missing_definition	UBERON:0007222	IAO:0000115	
+WARN	missing_definition	UBERON:0007232	IAO:0000115	
+WARN	missing_definition	UBERON:0007233	IAO:0000115	
+WARN	missing_definition	UBERON:0007236	IAO:0000115	
+WARN	missing_definition	ZFS:0000000	IAO:0000115	
+WARN	missing_definition	ZFS:0000001	IAO:0000115	
+WARN	missing_definition	ZFS:0000002	IAO:0000115	
+WARN	missing_definition	ZFS:0000003	IAO:0000115	
+WARN	missing_definition	ZFS:0000004	IAO:0000115	
+WARN	missing_definition	ZFS:0000005	IAO:0000115	
+WARN	missing_definition	ZFS:0000006	IAO:0000115	
+WARN	missing_definition	ZFS:0000007	IAO:0000115	
+WARN	missing_definition	ZFS:0000008	IAO:0000115	
+WARN	missing_definition	ZFS:0000009	IAO:0000115	
+WARN	missing_definition	ZFS:0000010	IAO:0000115	
+WARN	missing_definition	ZFS:0000011	IAO:0000115	
+WARN	missing_definition	ZFS:0000012	IAO:0000115	
+WARN	missing_definition	ZFS:0000013	IAO:0000115	
+WARN	missing_definition	ZFS:0000014	IAO:0000115	
+WARN	missing_definition	ZFS:0000015	IAO:0000115	
+WARN	missing_definition	ZFS:0000016	IAO:0000115	
+WARN	missing_definition	ZFS:0000017	IAO:0000115	
+WARN	missing_definition	ZFS:0000018	IAO:0000115	
+WARN	missing_definition	ZFS:0000019	IAO:0000115	
+WARN	missing_definition	ZFS:0000020	IAO:0000115	
+WARN	missing_definition	ZFS:0000021	IAO:0000115	
+WARN	missing_definition	ZFS:0000022	IAO:0000115	
+WARN	missing_definition	ZFS:0000023	IAO:0000115	
+WARN	missing_definition	ZFS:0000024	IAO:0000115	
+WARN	missing_definition	ZFS:0000025	IAO:0000115	
+WARN	missing_definition	ZFS:0000026	IAO:0000115	
+WARN	missing_definition	ZFS:0000027	IAO:0000115	
+WARN	missing_definition	ZFS:0000028	IAO:0000115	
+WARN	missing_definition	ZFS:0000029	IAO:0000115	
+WARN	missing_definition	ZFS:0000030	IAO:0000115	
+WARN	missing_definition	ZFS:0000031	IAO:0000115	
+WARN	missing_definition	ZFS:0000032	IAO:0000115	
+WARN	missing_definition	ZFS:0000033	IAO:0000115	
+WARN	missing_definition	ZFS:0000034	IAO:0000115	
+WARN	missing_definition	ZFS:0000035	IAO:0000115	
+WARN	missing_definition	ZFS:0000036	IAO:0000115	
+WARN	missing_definition	ZFS:0000037	IAO:0000115	
+WARN	missing_definition	ZFS:0000038	IAO:0000115	
+WARN	missing_definition	ZFS:0000039	IAO:0000115	
+WARN	missing_definition	ZFS:0000040	IAO:0000115	
+WARN	missing_definition	ZFS:0000041	IAO:0000115	
+WARN	missing_definition	ZFS:0000042	IAO:0000115	
+WARN	missing_definition	ZFS:0000043	IAO:0000115	
+WARN	missing_definition	ZFS:0000044	IAO:0000115	
+WARN	missing_definition	ZFS:0000045	IAO:0000115	
+WARN	missing_definition	ZFS:0000046	IAO:0000115	
+WARN	missing_definition	ZFS:0000047	IAO:0000115	
+WARN	missing_definition	ZFS:0000048	IAO:0000115	
+WARN	missing_definition	ZFS:0000049	IAO:0000115	
+WARN	missing_definition	ZFS:0000050	IAO:0000115	
+WARN	missing_definition	ZFS:0000051	IAO:0000115	
+WARN	missing_definition	ZFS:0007000	IAO:0000115	
+WARN	missing_definition	ZFS:0100000	IAO:0000115	
 WARN	missing_definition	obo:acardv#has_end_time	IAO:0000115	
 WARN	missing_definition	obo:acardv#has_start_time	IAO:0000115	
 WARN	missing_definition	obo:acardv#has_unit	IAO:0000115	
@@ -1530,21 +1543,20 @@ WARN	missing_definition	obo:rnordv#has_end_time	IAO:0000115
 WARN	missing_definition	obo:rnordv#has_start_time	IAO:0000115	
 WARN	missing_definition	obo:rnordv#has_unit	IAO:0000115	
 WARN	missing_definition	obo:ssaldv.obo#PLURAL	IAO:0000115	
-WARN	missing_definition	obo:xao#preceded_by	IAO:0000115	
-WARN	missing_definition	oboInOwl:NamespaceIdRule	IAO:0000115	
+WARN	missing_definition	obo:uberon/core#INCONSISTENT	IAO:0000115	
+WARN	missing_definition	obo:uberon/core#SENSU	IAO:0000115	
+WARN	missing_definition	obo:zfs#PLURAL	IAO:0000115	
 WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000115	
 WARN	missing_definition	oboInOwl:SynonymTypeProperty	IAO:0000115	
 WARN	missing_definition	oboInOwl:consider	IAO:0000115	
-WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115	
-WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115	
+WARN	missing_definition	oboInOwl:created_by	IAO:0000115	
+WARN	missing_definition	oboInOwl:creation_date	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115	
-WARN	missing_definition	oboInOwl:hasSynonymType	IAO:0000115	
 WARN	missing_definition	oboInOwl:id	IAO:0000115	
 WARN	missing_definition	oboInOwl:inSubset	IAO:0000115	
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
 WARN	missing_definition	oboInOwl:treat-xrefs-as-equivalent	IAO:0000115	
-WARN	missing_definition	oboInOwl:treat-xrefs-as-genus-differentia	IAO:0000115	
 WARN	missing_obsolete_label	obo:BtauDv_0000019	rdfs:label	first 0-4 postnatal weeks
 WARN	missing_obsolete_label	obo:GgalDv_0000007	rdfs:label	early adult stage
 WARN	missing_obsolete_label	obo:GgalDv_0000009	rdfs:label	2-year-old and over stage
@@ -1654,28 +1666,15 @@ INFO	lowercase_definition	RO:0000087	IAO:0000115	a relation between an independe
 INFO	lowercase_definition	RO:0000091	IAO:0000115	a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence@en
 INFO	lowercase_definition	RO:0000092	IAO:0000115	inverse of has disposition
 INFO	lowercase_definition	RO:0002018	IAO:0000115	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
-INFO	lowercase_definition	RO:0002082	IAO:0000115	x simultaneous with y iff ω(x) = ω(y) and ω(α ) = ω(α), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point and '=' indicates the same instance in time.
 INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y
 INFO	lowercase_definition	RO:0002160	IAO:0000115	x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.
-INFO	lowercase_definition	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
 INFO	lowercase_definition	RO:0002162	IAO:0000115	x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.
-INFO	lowercase_definition	RO:0002170	IAO:0000115	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b
 INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
-INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y
-INFO	lowercase_definition	RO:0002203	IAO:0000115	inverse of develops from
-INFO	lowercase_definition	RO:0002210	IAO:0000115	inverse of directly develops from
 INFO	lowercase_definition	RO:0002211	IAO:0000115	p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q.
 INFO	lowercase_definition	RO:0002212	IAO:0000115	p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q.
 INFO	lowercase_definition	RO:0002213	IAO:0000115	p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q.
 INFO	lowercase_definition	RO:0002216	IAO:0000115	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.
-INFO	lowercase_definition	RO:0002223	IAO:0000115	inverse of starts with
-INFO	lowercase_definition	RO:0002224	IAO:0000115	x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.
-INFO	lowercase_definition	RO:0002225	IAO:0000115	x develops from part of y if and only if there exists some z such that x develops from z and z is part of y
-INFO	lowercase_definition	RO:0002229	IAO:0000115	inverse of ends with
-INFO	lowercase_definition	RO:0002230	IAO:0000115	x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.
 INFO	lowercase_definition	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.
-INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en
-INFO	lowercase_definition	RO:0002255	IAO:0000115	inverse of has developmental contribution from
 INFO	lowercase_definition	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.
 INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.
 INFO	lowercase_definition	RO:0002304	IAO:0000115	p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q.
@@ -1688,15 +1687,7 @@ INFO	lowercase_definition	RO:0002333	IAO:0000115	inverse of enables
 INFO	lowercase_definition	RO:0002334	IAO:0000115	inverse of regulates
 INFO	lowercase_definition	RO:0002335	IAO:0000115	inverse of negatively regulates
 INFO	lowercase_definition	RO:0002336	IAO:0000115	inverse of positively regulates
-INFO	lowercase_definition	RO:0002350	IAO:0000115	is member of is a mereological relation between a item and a collection.
-INFO	lowercase_definition	RO:0002351	IAO:0000115	has member is a mereological relation between a collection and an item.
 INFO	lowercase_definition	RO:0002352	IAO:0000115	inverse of has input
-INFO	lowercase_definition	RO:0002376	IAO:0000115	x tributary_of y if and only if x a channel for the flow of a substance into y, where y is larger than x. If x and y are hydrographic features, then y is the main stem of a river, or a lake or bay, but not the sea or ocean. If x and y are anatomical, then y is a vein.
-INFO	lowercase_definition	RO:0002380	IAO:0000115	x is a branching part of y if and only if x is part of y and x is connected directly or indirectly to the main stem of y
-INFO	lowercase_definition	RO:0002384	IAO:0000115	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en
-INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en
-INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en
-INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en
 INFO	lowercase_definition	RO:0002404	IAO:0000115	inverse of upstream of
 INFO	lowercase_definition	RO:0002407	IAO:0000115	p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q.
 INFO	lowercase_definition	RO:0002409	IAO:0000115	p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q.
@@ -1709,13 +1700,7 @@ INFO	lowercase_definition	RO:0002428	IAO:0000115	c involved in regulation of p i
 INFO	lowercase_definition	RO:0002429	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' positively regulates some p
 INFO	lowercase_definition	RO:0002430	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p
 INFO	lowercase_definition	RO:0002431	IAO:0000115	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p
-INFO	lowercase_definition	RO:0002494	IAO:0000115	x transformation of y if x is the immediate transformation of y, or is linked to y through a chain of transformation relationships
-INFO	lowercase_definition	RO:0002495	IAO:0000115	x immediate transformation of y iff x immediately succeeds y temporally at a time boundary t, and all of the matter present in x at t is present in y at t, and all the matter in y at t is present in x at t
 INFO	lowercase_definition	RO:0002501	IAO:0000115	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q.
-INFO	lowercase_definition	RO:0002569	IAO:0000115	inverse of branching part of
-INFO	lowercase_definition	RO:0002571	IAO:0000115	x lumen_of y iff x is the space or substance that is part of y and does not cross any of the inner membranes or boundaries of y that is maximal with respect to the volume of the convex hull.
-INFO	lowercase_definition	RO:0002572	IAO:0000115	s is luminal space of x iff s is lumen_of x and s is an immaterial entity
-INFO	lowercase_definition	RO:0002576	IAO:0000115	inverse of has skeleton
 INFO	lowercase_definition	RO:0002578	IAO:0000115	p directly regulates q iff p is immediately causally upstream of q and p regulates q.
 INFO	lowercase_definition	RO:0002584	IAO:0000115	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p
 INFO	lowercase_definition	RO:0002629	IAO:0000115	p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q.
@@ -1725,6 +1710,7 @@ INFO	lowercase_definition	RO:0004035	IAO:0000115	c 'acts upstream of, negative e
 INFO	lowercase_definition	RO:0012011	IAO:0000115	p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q.
 INFO	lowercase_definition	RO:0012012	IAO:0000115	p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q.
 INFO	missing_superclass	obo:AcarDv_0000000	rdfs:subClassOf	
+INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
 INFO	missing_superclass	obo:BtauDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:CfamDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:CporDv_0000000	rdfs:subClassOf	
@@ -1735,6 +1721,7 @@ INFO	missing_superclass	obo:FcatDv_0000000	rdfs:subClassOf
 INFO	missing_superclass	obo:GgalDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:GgorDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	HsapDv:0000000	rdfs:subClassOf	
+INFO	missing_superclass	IAO:0000030	rdfs:subClassOf	
 INFO	missing_superclass	obo:MdomDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:MmulDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	MmusDv:0000000	rdfs:subClassOf	
@@ -1746,4 +1733,4 @@ INFO	missing_superclass	obo:PtroDv_0000000	rdfs:subClassOf
 INFO	missing_superclass	obo:RnorDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:SsalDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:SscrDv_0000000	rdfs:subClassOf	
-INFO	missing_superclass	WBls:0000075	rdfs:subClassOf	
+INFO	missing_superclass	ZFS:0100000	rdfs:subClassOf	
