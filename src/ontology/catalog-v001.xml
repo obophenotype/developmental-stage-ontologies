@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public">
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/life-stages-minimal_import.owl" uri="imports/life-stages-minimal_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/acardv.owl" uri="components/acardv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/btaudv.owl" uri="components/btaudv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/cfamdv.owl" uri="components/cfamdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/cpordv.owl" uri="components/cpordv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/dpsedv.owl" uri="components/dpsedv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/dsimdv.owl" uri="components/dsimdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/ecabdv.owl" uri="components/ecabdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/fcatdv.owl" uri="components/fcatdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/ggaldv.owl" uri="components/ggaldv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/ggordv.owl" uri="components/ggordv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/hsapdv.owl" uri="components/hsapdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/mdomdv.owl" uri="components/mdomdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/mmuldv.owl" uri="components/mmuldv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/mmusdv.owl" uri="components/mmusdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/oanadv.owl" uri="components/oanadv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/oaridv.owl" uri="components/oaridv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/ocundv.owl" uri="components/ocundv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/ppandv.owl" uri="components/ppandv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/ptrodv.owl" uri="components/ptrodv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/rnordv.owl" uri="components/rnordv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/ssaldv.owl" uri="components/ssaldv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/sscrdv.owl" uri="components/sscrdv.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/zfs.owl" uri="components/zfs.obo"/>
+</group>
+</catalog>

@@ -1,0 +1,94 @@
+id: life-stages
+title: "Developmental Stages Ontology"
+github_org: obophenotype
+repo: developmental-stage-ontologies
+git_main_branch: master
+use_mappings: True
+namespaces:
+  - http://purl.obolibrary.org/obo/AcarDv_
+  - http://purl.obolibrary.org/obo/BtauDv_
+  - http://purl.obolibrary.org/obo/CfamDv_
+  - http://purl.obolibrary.org/obo/CporDv_
+  - http://purl.obolibrary.org/obo/DpseDv_
+  - http://purl.obolibrary.org/obo/DsimDv_
+  - http://purl.obolibrary.org/obo/EcabDv_
+  - http://purl.obolibrary.org/obo/FcatDv_
+  - http://purl.obolibrary.org/obo/GgalDv_
+  - http://purl.obolibrary.org/obo/GgorDv_
+  - http://purl.obolibrary.org/obo/HsapDv_
+  - http://purl.obolibrary.org/obo/MdomDv_
+  - http://purl.obolibrary.org/obo/MmulDv_
+  - http://purl.obolibrary.org/obo/MmusDv_
+  - http://purl.obolibrary.org/obo/OanaDv_
+  - http://purl.obolibrary.org/obo/OariDv_
+  - http://purl.obolibrary.org/obo/OcunDv_
+  - http://purl.obolibrary.org/obo/PpanDv_
+  - http://purl.obolibrary.org/obo/PtroDv_
+  - http://purl.obolibrary.org/obo/RnorDv_
+  - http://purl.obolibrary.org/obo/SsalDv_
+  - http://purl.obolibrary.org/obo/SscrDv_
+  - http://purl.obolibrary.org/obo/acardv
+  - http://purl.obolibrary.org/obo/btaudv
+  - http://purl.obolibrary.org/obo/cfamdv
+  - http://purl.obolibrary.org/obo/cpordv
+  - http://purl.obolibrary.org/obo/dpsedv
+  - http://purl.obolibrary.org/obo/dsimdv
+  - http://purl.obolibrary.org/obo/ecabdv
+  - http://purl.obolibrary.org/obo/fcatdv
+  - http://purl.obolibrary.org/obo/ggaldv
+  - http://purl.obolibrary.org/obo/ggordv
+  - http://purl.obolibrary.org/obo/hsapdv
+  - http://purl.obolibrary.org/obo/mdomdv
+  - http://purl.obolibrary.org/obo/mmuldv
+  - http://purl.obolibrary.org/obo/mmusdv
+  - http://purl.obolibrary.org/obo/oanadv
+  - http://purl.obolibrary.org/obo/oaridv
+  - http://purl.obolibrary.org/obo/ocundv
+  - http://purl.obolibrary.org/obo/ppandv
+  - http://purl.obolibrary.org/obo/ptrodv
+  - http://purl.obolibrary.org/obo/rnordv
+  - http://purl.obolibrary.org/obo/ssaldv
+  - http://purl.obolibrary.org/obo/sscrdv
+release_artefacts: 
+  - base
+  - full
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+workflows:
+  - docs
+  - qc
+import_group:
+  exclude_iri_patterns:
+    - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_*>
+    - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://purl.obolibrary.org/obo/ENVO_*>
+    - <http://purl.obolibrary.org/obo/SO_*>
+  slme_individuals: exclude
+  mirror_max_time_download: 400
+  products:
+    - id: omo
+    - id: ro
+    - id: life-stages-minimal
+      mirror_from: http://purl.obolibrary.org/obo/uberon/subsets/life-stages-minimal.owl
+      module_type: mirror
+sssom_mappingset_group:
+  products:
+    - id: life-stages
+      maintenance: manual
+
+robot_java_args: '-Xmx8G'
+allow_equivalents: all
+robot_report:
+  release_reports: True
+  fail_on : NONE
+  use_labels: False
+  custom_profile: False
+  ensure_owl2dl_profile: True
+  report_on:
+    - life-stages-full.owl
+documentation:
+  documentation_system: mkdocs

@@ -1,0 +1,495 @@
+format-version: 1.2
+date: 25:02:2014 13:00
+saved-by: fbb (ann)
+default-namespace: gorilla_stages_ontology
+subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
+ontology: ggordv
+
+[Term]
+id: GgorDv:0000000
+name: life cycle stage
+def: "A spatiotemporal region encompassing some part of the life cycle of an organism." [UBERON:0000105]
+synonym: "developmental stage" EXACT []
+synonym: "stage" NARROW []
+xref: UBERON:0000105
+
+[Term]
+id: GgorDv:0000001
+name: life cycle
+namespace: gorilla_developmental_stage
+def: "Temporal interval that defines gorilla life from the prenatal stage until late adult stage." [Bgee:curator "Bgee"]
+xref: UBERON:0000104
+is_a: GgorDv:0000000 !  life cycle stage
+
+[Term]
+id: GgorDv:0000002
+name: prenatal stage
+namespace: gorilla_developmental_stage
+def: "Gorilla life cycle that starts with fertilization and ends at birth." [Bgee:curator "Bgee"]
+comment: Embryo develops in 256 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+xref: UBERON:0000068
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000001 !  life cycle
+property_value: start_dpf "0.0" xsd:float
+property_value: end_dpf "256.0" xsd:float
+property_value: end_mpf "8.5" xsd:float
+
+[Term]
+id: GgorDv:0000032
+name: postnatal stage
+namespace: gorilla_developmental_stage
+def: "Gorilla developmental stage that covers the period from birth until late adulthood." [Bgee:curator "Bgee"]
+xref: UBERON:0000066
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000001 !  life cycle
+relationship: immediately_preceded_by GgorDv:0000002 ! prenatal stage
+property_value: start_dpf "256.0" xsd:float
+property_value: start_mpf "8.5" xsd:float
+property_value: start_ypb "0.0" xsd:float
+
+[Term]
+id: GgorDv:0000003
+name: immature stage
+namespace: gorilla_developmental_stage
+def: "Gorilla developmental stage that covers the period from birth until about 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Gorilla reach sexual maturity by 4015 days of age for male, 2829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+xref: UBERON:0000112
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000032 ! postnatal stage
+relationship: immediately_preceded_by GgorDv:0000002 ! prenatal stage
+property_value: start_dpf "256.0" xsd:float
+property_value: start_mpf "8.5" xsd:float
+property_value: start_ypb "0.0" xsd:float
+property_value: end_ypb "7.8" xsd:float
+
+[Term]
+id: GgorDv:0000004
+name: nursing stage
+namespace: gorilla_developmental_stage
+def: "Gorilla developmental stage that covers the period from birth until about 2 years old, at which point individuals usually wean." [Bgee:curator "Bgee"]
+comment: Age of weaning is 834 days (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla). 
+xref: UBERON:0018685
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000003 ! immature stage
+property_value: start_dpf "256.0" xsd:float
+property_value: start_mpf "8.5" xsd:float
+property_value: start_ypb "0.0" xsd:float
+property_value: end_ypb "2.3" xsd:float
+
+[Term]
+id: GgorDv:0000005
+name: juvenile stage
+namespace: gorilla_developmental_stage
+def: "Gorilla developmental stage that covers the period from about 2 years old, when individuals wean, until about 8 years old, when individuals reach sexual maturity." [Bgee:curator "Bgee"]
+comment: Gorilla reach sexual maturity by 4015 days of age for male, 2829 days for female (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+xref: UBERON:0034919
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000003 ! immature stage
+relationship: immediately_preceded_by GgorDv:0000004 ! nursing stage
+property_value: start_ypb "2.3" xsd:float
+property_value: end_ypb "7.8" xsd:float
+
+[Term]
+id: GgorDv:0000006
+name: mature stage
+namespace: gorilla_developmental_stage
+synonym: "mature" EXACT []
+synonym: "post-juvenile adult stage" EXACT []
+def: "Gorilla developmental stage that refers to a sexually mature adult gorilla, which is usually over about 8 years old." [Bgee:curator "Bgee"]
+xref: UBERON:0000113
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000032 ! postnatal stage
+relationship: preceded_by GgorDv:0000003 ! immature stage
+property_value: start_ypb "7.8" xsd:float
+
+[Term]
+id: GgorDv:0000007
+name: adulthood stage
+namespace: gorilla_developmental_stage
+def: "Mature stage that refers to a gorilla who is over about 8 and under 30 years old." [Bgee:curator "Bgee"]
+comment: Geriatric gorillas are defined as animals with 30 years of age and older (see http://link.springer.com/article/10.1007%2Fs10764-006-9097-1).
+synonym: "prime adult stage" EXACT []
+xref: UBERON:0018241
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000006 ! mature stage
+property_value: start_ypb "7.8" xsd:float
+property_value: end_ypb "30.0" xsd:float
+
+[Term]
+id: GgorDv:0000008
+name: aged stage
+namespace: gorilla_developmental_stage
+def: "Mature stage that refers to a gorilla who is over 30 years old." [Bgee:curator "Bgee"]
+comment: Geriatric gorillas are defined as animals with 30 years of age and older (see http://link.springer.com/article/10.1007%2Fs10764-006-9097-1). Maximum longevity is officially 55.4 years (see http://genomics.senescence.info/species/entry.php?species=Gorilla_gorilla).
+synonym: "late adult stage" EXACT []
+xref: UBERON:0007222
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000006 ! mature stage
+relationship: immediately_preceded_by GgorDv:0000007 ! adulthood stage
+property_value: start_ypb "30.0" xsd:float
+
+[Term]
+id: GgorDv:0000009
+name: 30-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 30 and under 31 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+property_value: start_ypb "30.0" xsd:float
+property_value: end_ypb "31.0" xsd:float
+
+[Term]
+id: GgorDv:0000010
+name: 31-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 31 and under 32 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000009 ! 30-year-old stage
+property_value: start_ypb "31.0" xsd:float
+property_value: end_ypb "32.0" xsd:float
+
+[Term]
+id: GgorDv:0000011
+name: 32-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 32 and under 33 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000010 ! 31-year-old stage
+property_value: start_ypb "32.0" xsd:float
+property_value: end_ypb "33.0" xsd:float
+
+[Term]
+id: GgorDv:0000012
+name: 33-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 33 and under 34 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000011 ! 32-year-old stage
+property_value: start_ypb "33.0" xsd:float
+property_value: end_ypb "34.0" xsd:float
+
+[Term]
+id: GgorDv:0000013
+name: 34-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 34 and under 35 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000012 ! 33-year-old stage
+property_value: start_ypb "34.0" xsd:float
+property_value: end_ypb "35.0" xsd:float
+
+[Term]
+id: GgorDv:0000014
+name: 35-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 35 and under 36 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000013 ! 34-year-old stage
+property_value: start_ypb "35.0" xsd:float
+property_value: end_ypb "36.0" xsd:float
+
+[Term]
+id: GgorDv:0000015
+name: 36-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 36 and under 37 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000014 ! 35-year-old stage
+property_value: start_ypb "36.0" xsd:float
+property_value: end_ypb "37.0" xsd:float
+
+[Term]
+id: GgorDv:0000016
+name: 37-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 37 and under 38 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000015 ! 36-year-old stage
+property_value: start_ypb "37.0" xsd:float
+property_value: end_ypb "38.0" xsd:float
+
+[Term]
+id: GgorDv:0000017
+name: 38-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 38 and under 39 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000016 ! 37-year-old stage
+property_value: start_ypb "38.0" xsd:float
+property_value: end_ypb "39.0" xsd:float
+
+[Term]
+id: GgorDv:0000018
+name: 39-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 39 and under 40 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000017 ! 38-year-old stage
+property_value: start_ypb "39.0" xsd:float
+property_value: end_ypb "40.0" xsd:float
+
+[Term]
+id: GgorDv:0000019
+name: 40-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 40 and under 41 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000018 ! 39-year-old stage
+property_value: start_ypb "40.0" xsd:float
+property_value: end_ypb "41.0" xsd:float
+
+[Term]
+id: GgorDv:0000020
+name: 41-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 41 and under 42 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000019 ! 40-year-old stage
+property_value: start_ypb "41.0" xsd:float
+property_value: end_ypb "42.0" xsd:float
+
+[Term]
+id: GgorDv:0000021
+name: 42-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 42 and under 43 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000020 ! 41-year-old stage
+property_value: start_ypb "42.0" xsd:float
+property_value: end_ypb "43.0" xsd:float
+
+[Term]
+id: GgorDv:0000022
+name: 43-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 43 and under 44 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000021 ! 42-year-old stage
+property_value: start_ypb "43.0" xsd:float
+property_value: end_ypb "44.0" xsd:float
+
+[Term]
+id: GgorDv:0000023
+name: 44-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 44 and under 45 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000022 ! 43-year-old stage
+property_value: start_ypb "44.0" xsd:float
+property_value: end_ypb "45.0" xsd:float
+
+[Term]
+id: GgorDv:0000024
+name: 45-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 45 and under 46 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000023 ! 44-year-old stage
+property_value: start_ypb "45.0" xsd:float
+property_value: end_ypb "46.0" xsd:float
+
+[Term]
+id: GgorDv:0000025
+name: 46-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 46 and under 47 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000024 ! 45-year-old stage
+property_value: start_ypb "46.0" xsd:float
+property_value: end_ypb "47.0" xsd:float
+
+[Term]
+id: GgorDv:0000026
+name: 47-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 47 and under 48 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000025 ! 46-year-old stage
+property_value: start_ypb "47.0" xsd:float
+property_value: end_ypb "48.0" xsd:float
+
+[Term]
+id: GgorDv:0000027
+name: 48-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 48 and under 49 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000026 ! 47-year-old stage
+property_value: start_ypb "48.0" xsd:float
+property_value: end_ypb "49.0" xsd:float
+
+[Term]
+id: GgorDv:0000028
+name: 49-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 49 and under 50 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000027 ! 48-year-old stage
+property_value: start_ypb "49.0" xsd:float
+property_value: end_ypb "50.0" xsd:float
+
+[Term]
+id: GgorDv:0000029
+name: 50-year-old stage
+namespace: gorilla_developmental_stage
+def: "Aged stage that refers to a gorilla who is over 50 and under 51 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000028 ! 49-year-old stage
+property_value: start_ypb "50.0" xsd:float
+property_value: end_ypb "51.0" xsd:float
+
+[Term]
+id: GgorDv:0000030
+name: 51-year-old stage
+namespace: gorilla_developmental_stage
+def: "Mature stage that refers to a gorilla who is over 51 and under 52 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000029 ! 50-year-old stage
+property_value: start_ypb "51.0" xsd:float
+property_value: end_ypb "52.0" xsd:float
+
+[Term]
+id: GgorDv:0000031
+name: 52-year-old and over stage
+namespace: gorilla_developmental_stage
+def: "Mature stage that refers to a gorilla who is over 52 years old." [Bgee:curator "Bgee"]
+subset: granular_stage
+is_a: GgorDv:0000000 !  life cycle stage
+relationship: part_of GgorDv:0000008 ! aged stage
+relationship: immediately_preceded_by GgorDv:0000030 ! 51-year-old stage
+property_value: start_ypb "52.0" xsd:float
+
+
+[Typedef]
+id: part_of
+name: part of
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+is_a: preceded_by ! preceded_by
+xref: RO:0002087 ! immediately_preceded_by
+
+[Typedef]
+id: has_unit
+name: has unit
+is_metadata_tag: true
+comment: Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)
+
+[Typedef]
+id: has_start_time
+name: has start time
+is_metadata_tag: true
+
+[Typedef]
+id: has_end_time
+name: has end time
+is_metadata_tag: true
+
+[Typedef]
+id: start_dpf
+name: start, days post fertilization
+def: "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_start_time
+
+[Typedef]
+id: end_dpf
+name: end, days post fertilization
+def: "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000033 ! day
+is_a: has_end_time
+
+[Typedef]
+id: start_mpf
+name: start, months post fertilization
+def: "Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000035 ! month
+is_a: has_start_time
+
+[Typedef]
+id: end_mpf
+name: end, months post fertilization
+def: "Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit UO:0000035 ! month
+is_a: has_end_time
+
+[Typedef]
+id: start_ypb
+name: start, years post birth
+def: "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1." []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit  UO:0000036 ! year
+is_a: has_start_time
+
+[Typedef]
+id: end_ypb
+name: end, years post birth
+def: "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2" []
+is_metadata_tag: true
+comment: This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.
+property_value: has_unit  UO:0000036 ! year
+is_a: has_end_time
+
