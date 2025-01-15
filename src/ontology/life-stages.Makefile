@@ -4,7 +4,7 @@
 # Any ontology listed here should also have a corresponding `Import`
 # statement in the -edit file, and a corresponding entry in the XML
 # catalog.
-ONT_PREFIXES = AcarDv BtauDv CfamDv CporDv DpseDv DsimDv EcabDv FcatDv GgalDv GgorDv HsapDv MdomDv MmulDv MmusDv OanaDv OariDv OcunDv PpanDv PtroDv RnorDv SsalDv SscrDv ZFS
+ONT_PREFIXES = AcarDv BtauDv CfamDv ChirDv CporDv DpseDv DsimDv EcabDv FcatDv GgalDv GgorDv HsapDv MdomDv MmulDv MmusDv OanaDv OariDv OcunDv PpanDv PtroDv RnorDv SsalDv SscrDv ZFS
 
 ONT_PREFIXES_LC = $(shell echo $(ONT_PREFIXES) | tr [:upper:] [:lower:])
 ONT_OBO_FILES = $(foreach ont,$(ONT_PREFIXES_LC),$(COMPONENTSDIR)/$(ont).obo)

@@ -8,6 +8,7 @@ namespaces:
   - http://purl.obolibrary.org/obo/AcarDv_
   - http://purl.obolibrary.org/obo/BtauDv_
   - http://purl.obolibrary.org/obo/CfamDv_
+  - http://purl.obolibrary.org/obo/ChirDv_
   - http://purl.obolibrary.org/obo/CporDv_
   - http://purl.obolibrary.org/obo/DpseDv_
   - http://purl.obolibrary.org/obo/DsimDv_

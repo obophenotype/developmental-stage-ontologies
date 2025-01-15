@@ -12,6 +12,7 @@ Ontology(<http://purl.obolibrary.org/obo/life-stages.owl>
 Import(<http://purl.obolibrary.org/obo/acardv.owl>)
 Import(<http://purl.obolibrary.org/obo/btaudv.owl>)
 Import(<http://purl.obolibrary.org/obo/cfamdv.owl>)
+Import(<http://purl.obolibrary.org/obo/chirdv.owl>)
 Import(<http://purl.obolibrary.org/obo/cpordv.owl>)
 Import(<http://purl.obolibrary.org/obo/dpsedv.owl>)
 Import(<http://purl.obolibrary.org/obo/dsimdv.owl>)
