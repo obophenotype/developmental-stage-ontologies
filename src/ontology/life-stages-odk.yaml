@@ -73,8 +73,8 @@ import_group:
   products:
     - id: omo
     - id: ro
-    - id: life-stages-minimal
-      mirror_from: http://purl.obolibrary.org/obo/uberon/subsets/life-stages-minimal.owl
+    - id: life-stages-core
+      mirror_from: http://purl.obolibrary.org/obo/uberon/subsets/life-stages-core.owl
       module_type: mirror
 sssom_mappingset_group:
   products:
