@@ -29,6 +29,8 @@ $(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl .FORCE
 # Automatically generated from the xrefs
 $(MAPPINGDIR)/life-stages.sssom.tsv: $(SRC) $(ONT_OBO_FILES) | all_robot_plugins
 	$(ROBOT) merge -i $< \
+		 remove $(foreach pfx,$(ONT_PREFIXES),--base-iri http://purl.obolibrary.org/obo/$(pfx)_) \
+		        --axioms external \
 		 sssom:xref-extract --mapping-file $@ -v \
 		                    --map-prefix-to-predicate 'UBERON semapv:crossSpeciesExactMatch' \
 		                    $(foreach pfx,$(ONT_PREFIXES),--prefix '$(pfx): http://purl.obolibrary.org/obo/$(pfx)_')
