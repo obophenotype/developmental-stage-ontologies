@@ -3,7 +3,7 @@
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public">
   <uri name="http://purl.obolibrary.org/obo/life-stages/imports/omo_import.owl" uri="imports/omo_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/life-stages/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/life-stages-minimal_import.owl" uri="imports/life-stages-minimal_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/life-stages/imports/life-stages-core_import.owl" uri="imports/life-stages-core_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/acardv.owl" uri="components/acardv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/btaudv.owl" uri="components/btaudv.obo"/>
   <uri name="http://purl.obolibrary.org/obo/cfamdv.owl" uri="components/cfamdv.obo"/>
