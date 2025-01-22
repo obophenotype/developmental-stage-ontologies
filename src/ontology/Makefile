@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                eb427d3c7e6798aad732bcad6d8dd76c62e58e144f99b21629b9c3e0183753a8
+CONFIG_HASH=                9c4742f3c28447c2e5001db4f09c314aee7cbeddfdea5ecc32a589ef295f7169
 
 
 # ----------------------------------------
@@ -165,7 +165,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  omo ro life-stages-minimal
+IMPORTS =  omo ro life-stages-core
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -371,9 +371,9 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
-## Module for ontology: life-stages-minimal
+## Module for ontology: life-stages-core
 
-$(IMPORTDIR)/life-stages-minimal_import.owl: $(MIRRORDIR)/life-stages-minimal.owl $(IMPORTDIR)/life-stages-minimal_terms_combined.txt
+$(IMPORTDIR)/life-stages-core_import.owl: $(MIRRORDIR)/life-stages-core.owl $(IMPORTDIR)/life-stages-core_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
     $(ANNOTATE_CONVERT_FILE); fi
 
@@ -425,11 +425,11 @@ mirror-ro: | $(TMPDIR)
 	$(ROBOT) convert -i $(TMPDIR)/ro-download.owl -o $(TMPDIR)/$@.owl
 
 
-## ONTOLOGY: life-stages-minimal
-.PHONY: mirror-life-stages-minimal
-.PRECIOUS: $(MIRRORDIR)/life-stages-minimal.owl
-mirror-life-stages-minimal: | $(TMPDIR)
-	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/subsets/life-stages-minimal.owl -o $(TMPDIR)/$@.owl
+## ONTOLOGY: life-stages-core
+.PHONY: mirror-life-stages-core
+.PRECIOUS: $(MIRRORDIR)/life-stages-core.owl
+mirror-life-stages-core: | $(TMPDIR)
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/subsets/life-stages-core.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

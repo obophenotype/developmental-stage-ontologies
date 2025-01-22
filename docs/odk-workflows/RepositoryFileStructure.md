@@ -18,7 +18,7 @@ These are the current imports in LIFE-STAGES
 | ------ | --- | ---- |
 | omo | http://purl.obolibrary.org/obo/omo.owl | None |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
-| life-stages-minimal | http://purl.obolibrary.org/obo/uberon/subsets/life-stages-minimal.owl | mirror |
+| life-stages-core | http://purl.obolibrary.org/obo/uberon/subsets/life-stages-core.owl | mirror |
 
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
