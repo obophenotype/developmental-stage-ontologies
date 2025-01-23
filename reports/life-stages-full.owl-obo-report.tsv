@@ -5,12 +5,16 @@ ERROR	duplicate_definition	obo:RnorDv_0000011	IAO:0000115	Prenatal stage that st
 ERROR	duplicate_definition	HsapDv:0000002	IAO:0000115	Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage.
 ERROR	duplicate_definition	MmusDv:0000002	IAO:0000115	Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage.
 ERROR	duplicate_definition	obo:RnorDv_0000003	IAO:0000115	Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage.
+ERROR	duplicate_definition	obo:ChirDv_0000021	IAO:0000115	Postnatal stage that refers to a goat which is over 3 and under 4 days old.
+ERROR	duplicate_definition	obo:ChirDv_0000028	IAO:0000115	Postnatal stage that refers to a goat which is over 3 and under 4 days old.
 ERROR	duplicate_definition	obo:BtauDv_0000064	IAO:0000115	Immature stage that refers to a calf which is over 21 and under 22 days old.
 ERROR	duplicate_definition	obo:BtauDv_0000065	IAO:0000115	Immature stage that refers to a calf which is over 21 and under 22 days old.
 ERROR	duplicate_definition	obo:BtauDv_0000066	IAO:0000115	Immature stage that refers to a calf which is over 21 and under 22 days old.
 ERROR	duplicate_definition	obo:BtauDv_0000067	IAO:0000115	Immature stage that refers to a calf which is over 21 and under 22 days old.
 ERROR	duplicate_definition	obo:BtauDv_0000068	IAO:0000115	Immature stage that refers to a calf which is over 21 and under 22 days old.
 ERROR	duplicate_definition	obo:BtauDv_0000069	IAO:0000115	Immature stage that refers to a calf which is over 21 and under 22 days old.
+ERROR	duplicate_definition	obo:ChirDv_0000010	IAO:0000115	Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.
+ERROR	duplicate_definition	obo:ChirDv_0000012	IAO:0000115	Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.
 ERROR	duplicate_definition	obo:GgalDv_0000091	IAO:0000115	Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.
 ERROR	duplicate_definition	HsapDv:0000006	IAO:0000115	Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.
 ERROR	duplicate_definition	MmusDv:0000007	IAO:0000115	Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.
@@ -21,6 +25,7 @@ ERROR	duplicate_definition	obo:GgalDv_0000093	IAO:0000115	Embryonic stage define
 ERROR	duplicate_definition	obo:OariDv_0000027	IAO:0000115	Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate.
 ERROR	duplicate_definition	obo:RnorDv_0000007	IAO:0000115	Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate.
 ERROR	duplicate_definition	obo:SscrDv_0000091	IAO:0000115	Embryonic stage defined by formation of a tube from the flat layer of ectodermal cells known as the neural plate.
+ERROR	duplicate_definition	obo:ChirDv_0000011	IAO:0000115	Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.
 ERROR	duplicate_definition	obo:GgalDv_0000092	IAO:0000115	Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.
 ERROR	duplicate_definition	MmusDv:0000013	IAO:0000115	Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.
 ERROR	duplicate_definition	obo:OariDv_0000026	IAO:0000115	Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.
@@ -28,12 +33,14 @@ ERROR	duplicate_definition	obo:RnorDv_0000005	IAO:0000115	Embryonic stage define
 ERROR	duplicate_definition	MmusDv:0000004	IAO:0000115	Embryonic stage consisting of division of cells in the early embryo.
 ERROR	duplicate_definition	obo:RnorDv_0000049	IAO:0000115	Embryonic stage consisting of division of cells in the early embryo.
 ERROR	duplicate_definition	obo:SscrDv_0000088	IAO:0000115	Embryonic stage consisting of division of cells in the early embryo.
+ERROR	duplicate_definition	obo:ChirDv_0000013	IAO:0000115	Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.
 ERROR	duplicate_definition	obo:GgalDv_0000094	IAO:0000115	Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.
 ERROR	duplicate_definition	HsapDv:0000015	IAO:0000115	Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.
 ERROR	duplicate_definition	MmusDv:0000018	IAO:0000115	Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.
 ERROR	duplicate_definition	obo:OariDv_0000028	IAO:0000115	Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.
 ERROR	duplicate_definition	obo:RnorDv_0000055	IAO:0000115	Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.
 ERROR	duplicate_definition	obo:SscrDv_0000086	IAO:0000115	Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.
+ERROR	duplicate_definition	obo:ChirDv#start_ypb	IAO:0000115	Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.
 ERROR	duplicate_definition	obo:SscrDv#start_ypb	IAO:0000115	Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.
 ERROR	duplicate_definition	obo:btaudv#start_ypb	IAO:0000115	Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.
 ERROR	duplicate_definition	obo:cfamdv#start_ypb	IAO:0000115	Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.
@@ -47,6 +54,7 @@ ERROR	duplicate_definition	obo:oaridv#start_ypb	IAO:0000115	Count of number of y
 ERROR	duplicate_definition	obo:ocundv#start_ypb	IAO:0000115	Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.
 ERROR	duplicate_definition	obo:ppandv#start_ypb	IAO:0000115	Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.
 ERROR	duplicate_definition	obo:ptrodv#start_ypb	IAO:0000115	Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.
+ERROR	duplicate_definition	obo:ChirDv#end_ypb	IAO:0000115	Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2
 ERROR	duplicate_definition	obo:SscrDv#end_ypb	IAO:0000115	Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2
 ERROR	duplicate_definition	obo:btaudv#end_ypb	IAO:0000115	Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2
 ERROR	duplicate_definition	obo:cfamdv#end_ypb	IAO:0000115	Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2
@@ -72,6 +80,7 @@ ERROR	duplicate_definition	obo:mmusdv#end_wpb	IAO:0000115	Count of number of wee
 ERROR	duplicate_definition	obo:oanadv#end_wpb	IAO:0000115	Count of number of weeks intervening between the end of the stage and the time of birth according to a reference model. Note that the first week of post-birth development has the value of 1 for this property, and the period during which the mouse is one week old has the value 2
 ERROR	duplicate_definition	obo:acardv#start_mph	IAO:0000115	Count of number of months intervening between the start of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:ggaldv#start_mph	IAO:0000115	Count of number of months intervening between the start of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.
+ERROR	duplicate_definition	obo:ChirDv#start_mpf	IAO:0000115	Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:SscrDv#start_mpf	IAO:0000115	Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:btaudv#start_mpf	IAO:0000115	Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:ggordv#start_mpf	IAO:0000115	Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.
@@ -79,6 +88,7 @@ ERROR	duplicate_definition	obo:mmuldv#start_mpf	IAO:0000115	Count of number of m
 ERROR	duplicate_definition	obo:oaridv#start_mpf	IAO:0000115	Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:ppandv#start_mpf	IAO:0000115	Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:ptrodv#start_mpf	IAO:0000115	Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1.
+ERROR	duplicate_definition	obo:ChirDv#start_mpb	IAO:0000115	Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:SscrDv#start_mpb	IAO:0000115	Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:btaudv#start_mpb	IAO:0000115	Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.
 ERROR	duplicate_definition	obo:mmuldv#start_mpb	IAO:0000115	Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1.
@@ -95,6 +105,7 @@ ERROR	duplicate_definition	obo:oanadv#start_mpb	IAO:0000115	Count of number of m
 ERROR	duplicate_definition	obo:ocundv#start_mpb	IAO:0000115	Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the child is one month old has the value 1.
 ERROR	duplicate_definition	obo:acardv#end_mph	IAO:0000115	Count of number of months intervening between the end of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:ggaldv#end_mph	IAO:0000115	Count of number of months intervening between the end of the stage and the time of hatching according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
+ERROR	duplicate_definition	obo:ChirDv#end_mpf	IAO:0000115	Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:SscrDv#end_mpf	IAO:0000115	Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:btaudv#end_mpf	IAO:0000115	Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:ggordv#end_mpf	IAO:0000115	Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
@@ -102,6 +113,7 @@ ERROR	duplicate_definition	obo:mmuldv#end_mpf	IAO:0000115	Count of number of mon
 ERROR	duplicate_definition	obo:oaridv#end_mpf	IAO:0000115	Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:ppandv#end_mpf	IAO:0000115	Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:ptrodv#end_mpf	IAO:0000115	Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
+ERROR	duplicate_definition	obo:ChirDv#end_mpb	IAO:0000115	Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:SscrDv#end_mpb	IAO:0000115	Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:btaudv#end_mpb	IAO:0000115	Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
 ERROR	duplicate_definition	obo:mmuldv#end_mpb	IAO:0000115	Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2
@@ -118,6 +130,7 @@ ERROR	duplicate_definition	obo:oanadv#end_mpb	IAO:0000115	Count of number of mon
 ERROR	duplicate_definition	obo:ocundv#end_mpb	IAO:0000115	Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the child is one month old has the value 2
 ERROR	duplicate_definition	obo:dpsedv#start_dph	IAO:0000115	Count of number of days intervening between the start of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the organism is one day old has the value 1.
 ERROR	duplicate_definition	obo:dsimdv#start_dph	IAO:0000115	Count of number of days intervening between the start of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the organism is one day old has the value 1.
+ERROR	duplicate_definition	obo:ChirDv#start_dpf	IAO:0000115	Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.
 ERROR	duplicate_definition	obo:SscrDv#start_dpf	IAO:0000115	Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.
 ERROR	duplicate_definition	obo:acardv#start_dpf	IAO:0000115	Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.
 ERROR	duplicate_definition	obo:btaudv#start_dpf	IAO:0000115	Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property.
@@ -146,6 +159,7 @@ ERROR	duplicate_definition	obo:mmusdv#start_dpb	IAO:0000115	Count of number of d
 ERROR	duplicate_definition	obo:ocundv#start_dpb	IAO:0000115	Count of number of days intervening between the start of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 0 for this property, and the period during which the child is one day old has the value 1.
 ERROR	duplicate_definition	obo:dpsedv#end_dph	IAO:0000115	Count of number of days intervening between the end of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the organism is one day old has the value 2.
 ERROR	duplicate_definition	obo:dsimdv#end_dph	IAO:0000115	Count of number of days intervening between the end of the stage and the time of hatching according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the organism is one day old has the value 2.
+ERROR	duplicate_definition	obo:ChirDv#end_dpf	IAO:0000115	Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.
 ERROR	duplicate_definition	obo:SscrDv#end_dpf	IAO:0000115	Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.
 ERROR	duplicate_definition	obo:acardv#end_dpf	IAO:0000115	Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.
 ERROR	duplicate_definition	obo:btaudv#end_dpf	IAO:0000115	Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property.
@@ -172,12 +186,14 @@ ERROR	duplicate_definition	obo:mmusdv#end_dpb	IAO:0000115	Count of number of day
 ERROR	duplicate_definition	obo:ocundv#end_dpb	IAO:0000115	Count of number of days intervening between the end of the stage and the time of birth according to a reference model. Note that the first day of post-birth development has the value of 1 for this property, and the period during which the child is one day old has the value 2
 ERROR	duplicate_definition	obo:PtroDv_0000023	IAO:0000115	Adulthood stage that refers to a chimpanzee who is over 18 and under 19 years old.
 ERROR	duplicate_definition	obo:PtroDv_0000024	IAO:0000115	Adulthood stage that refers to a chimpanzee who is over 18 and under 19 years old.
+ERROR	duplicate_definition	obo:ChirDv_0000003	IAO:0000115	A stage at which the organism is a single cell produced by means of sexual reproduction.
 ERROR	duplicate_definition	obo:OariDv_0000009	IAO:0000115	A stage at which the organism is a single cell produced by means of sexual reproduction.
 ERROR	duplicate_definition	obo:SscrDv_0000087	IAO:0000115	A stage at which the organism is a single cell produced by means of sexual reproduction.
 ERROR	duplicate_definition	UBERON:0000106	IAO:0000115	A stage at which the organism is a single cell produced by means of sexual reproduction.
 ERROR	duplicate_definition	obo:AcarDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:BtauDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:CfamDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
+ERROR	duplicate_definition	obo:ChirDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:CporDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:DpseDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:DsimDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
@@ -198,6 +214,7 @@ ERROR	duplicate_definition	obo:RnorDv_0000000	IAO:0000115	A spatiotemporal regio
 ERROR	duplicate_definition	obo:SsalDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	obo:SscrDv_0000000	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
 ERROR	duplicate_definition	UBERON:0000105	IAO:0000115	A spatiotemporal region encompassing some part of the life cycle of an organism.
+ERROR	duplicate_label	obo:ChirDv_0000003	rdfs:label	zygote stage
 ERROR	duplicate_label	obo:OariDv_0000009	rdfs:label	zygote stage
 ERROR	duplicate_label	obo:SsalDv_0000003	rdfs:label	zygote stage
 ERROR	duplicate_label	obo:SscrDv_0000087	rdfs:label	zygote stage
@@ -208,6 +225,7 @@ ERROR	duplicate_label	HsapDv:0000266	rdfs:label	young adult stage
 ERROR	duplicate_label	MmusDv:0000153	rdfs:label	young adult stage
 ERROR	duplicate_label	obo:OariDv_0000004	rdfs:label	suckling stage
 ERROR	duplicate_label	obo:SscrDv_0000004	rdfs:label	suckling stage
+ERROR	duplicate_label	obo:ChirDv#start_ypb	rdfs:label	start, years post birth
 ERROR	duplicate_label	obo:SscrDv#start_ypb	rdfs:label	start, years post birth
 ERROR	duplicate_label	obo:btaudv#start_ypb	rdfs:label	start, years post birth
 ERROR	duplicate_label	obo:cfamdv#start_ypb	rdfs:label	start, years post birth
@@ -229,6 +247,7 @@ ERROR	duplicate_label	obo:oanadv#start_wpb	rdfs:label	start, weeks post birth
 ERROR	duplicate_label	obo:rnordv#start_wpb	rdfs:label	start, weeks post birth
 ERROR	duplicate_label	obo:acardv#start_mph	rdfs:label	start, months post hatching
 ERROR	duplicate_label	obo:ggaldv#start_mph	rdfs:label	start, months post hatching
+ERROR	duplicate_label	obo:ChirDv#start_mpf	rdfs:label	start, months post fertilization
 ERROR	duplicate_label	obo:SscrDv#start_mpf	rdfs:label	start, months post fertilization
 ERROR	duplicate_label	obo:btaudv#start_mpf	rdfs:label	start, months post fertilization
 ERROR	duplicate_label	obo:ggordv#start_mpf	rdfs:label	start, months post fertilization
@@ -236,6 +255,7 @@ ERROR	duplicate_label	obo:mmuldv#start_mpf	rdfs:label	start, months post fertili
 ERROR	duplicate_label	obo:oaridv#start_mpf	rdfs:label	start, months post fertilization
 ERROR	duplicate_label	obo:ppandv#start_mpf	rdfs:label	start, months post fertilization
 ERROR	duplicate_label	obo:ptrodv#start_mpf	rdfs:label	start, months post fertilization
+ERROR	duplicate_label	obo:ChirDv#start_mpb	rdfs:label	start, months post birth
 ERROR	duplicate_label	obo:SscrDv#start_mpb	rdfs:label	start, months post birth
 ERROR	duplicate_label	obo:btaudv#start_mpb	rdfs:label	start, months post birth
 ERROR	duplicate_label	obo:cfamdv#start_mpb	rdfs:label	start, months post birth
@@ -253,6 +273,7 @@ ERROR	duplicate_label	obo:ppandv#start_mpb	rdfs:label	start, months post birth
 ERROR	duplicate_label	obo:rnordv#start_mpb	rdfs:label	start, months post birth
 ERROR	duplicate_label	obo:dpsedv#start_dph	rdfs:label	start, days post hatching
 ERROR	duplicate_label	obo:dsimdv#start_dph	rdfs:label	start, days post hatching
+ERROR	duplicate_label	obo:ChirDv#start_dpf	rdfs:label	start, days post fertilization
 ERROR	duplicate_label	obo:SscrDv#start_dpf	rdfs:label	start, days post fertilization
 ERROR	duplicate_label	obo:acardv#start_dpf	rdfs:label	start, days post fertilization
 ERROR	duplicate_label	obo:btaudv#start_dpf	rdfs:label	start, days post fertilization
@@ -291,6 +312,7 @@ ERROR	duplicate_label	UBERON:0018241	rdfs:label	prime adult stage
 ERROR	duplicate_label	obo:AcarDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:BtauDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:CfamDv_0000002	rdfs:label	prenatal stage
+ERROR	duplicate_label	obo:ChirDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:CporDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:EcabDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:FcatDv_0000002	rdfs:label	prenatal stage
@@ -309,6 +331,7 @@ ERROR	duplicate_label	obo:RnorDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:SscrDv_0000002	rdfs:label	prenatal stage
 ERROR	duplicate_label	obo:BtauDv_0000078	rdfs:label	postnatal stage
 ERROR	duplicate_label	obo:CfamDv_0000007	rdfs:label	postnatal stage
+ERROR	duplicate_label	obo:ChirDv_0000014	rdfs:label	postnatal stage
 ERROR	duplicate_label	obo:EcabDv_0000007	rdfs:label	postnatal stage
 ERROR	duplicate_label	obo:FcatDv_0000007	rdfs:label	postnatal stage
 ERROR	duplicate_label	obo:GgalDv_0000076	rdfs:label	postnatal stage
@@ -328,6 +351,7 @@ ERROR	duplicate_label	obo:ssaldv.obo#PLURAL	rdfs:label	PLURAL
 ERROR	duplicate_label	obo:zfs#PLURAL	rdfs:label	PLURAL
 ERROR	duplicate_label	obo:DpseDv_0000004	rdfs:label	P-stage
 ERROR	duplicate_label	obo:DsimDv_0000004	rdfs:label	P-stage
+ERROR	duplicate_label	obo:ChirDv_0000013	rdfs:label	organogenesis stage
 ERROR	duplicate_label	obo:GgalDv_0000094	rdfs:label	organogenesis stage
 ERROR	duplicate_label	HsapDv:0000015	rdfs:label	organogenesis stage
 ERROR	duplicate_label	MmusDv:0000018	rdfs:label	organogenesis stage
@@ -336,6 +360,7 @@ ERROR	duplicate_label	obo:RnorDv_0000055	rdfs:label	organogenesis stage
 ERROR	duplicate_label	obo:SsalDv_0000022	rdfs:label	organogenesis stage
 ERROR	duplicate_label	obo:SscrDv_0000086	rdfs:label	organogenesis stage
 ERROR	duplicate_label	UBERON:0000111	rdfs:label	organogenesis stage
+ERROR	duplicate_label	obo:ChirDv_0000016	rdfs:label	nursing stage
 ERROR	duplicate_label	obo:GgorDv_0000004	rdfs:label	nursing stage
 ERROR	duplicate_label	obo:MdomDv_0000032	rdfs:label	nursing stage
 ERROR	duplicate_label	obo:MmulDv_0000004	rdfs:label	nursing stage
@@ -345,6 +370,7 @@ ERROR	duplicate_label	obo:PtroDv_0000004	rdfs:label	nursing stage
 ERROR	duplicate_label	UBERON:0018685	rdfs:label	nursing stage
 ERROR	duplicate_label	HsapDv:0000082	rdfs:label	newborn stage
 ERROR	duplicate_label	obo:MmulDv_0000046	rdfs:label	newborn stage
+ERROR	duplicate_label	obo:ChirDv_0000012	rdfs:label	neurula stage
 ERROR	duplicate_label	obo:GgalDv_0000093	rdfs:label	neurula stage
 ERROR	duplicate_label	HsapDv:0000012	rdfs:label	neurula stage
 ERROR	duplicate_label	MmusDv:0000016	rdfs:label	neurula stage
@@ -352,6 +378,7 @@ ERROR	duplicate_label	obo:OariDv_0000027	rdfs:label	neurula stage
 ERROR	duplicate_label	obo:RnorDv_0000007	rdfs:label	neurula stage
 ERROR	duplicate_label	obo:SscrDv_0000091	rdfs:label	neurula stage
 ERROR	duplicate_label	UBERON:0000110	rdfs:label	neurula stage
+ERROR	duplicate_label	obo:ChirDv_0000017	rdfs:label	neonate stage
 ERROR	duplicate_label	obo:MdomDv_0000004	rdfs:label	neonate stage
 ERROR	duplicate_label	UBERON:0007221	rdfs:label	neonate stage
 ERROR	duplicate_label	HsapDv:0000092	rdfs:label	middle aged stage
@@ -361,6 +388,7 @@ ERROR	duplicate_label	MmusDv:0000135	rdfs:label	middle aged stage
 ERROR	duplicate_label	obo:AcarDv_0000004	rdfs:label	mature stage
 ERROR	duplicate_label	obo:BtauDv_0000004	rdfs:label	mature stage
 ERROR	duplicate_label	obo:CfamDv_0000004	rdfs:label	mature stage
+ERROR	duplicate_label	obo:ChirDv_0000035	rdfs:label	mature stage
 ERROR	duplicate_label	obo:CporDv_0000004	rdfs:label	mature stage
 ERROR	duplicate_label	obo:EcabDv_0000004	rdfs:label	mature stage
 ERROR	duplicate_label	obo:FcatDv_0000004	rdfs:label	mature stage
@@ -379,6 +407,7 @@ ERROR	duplicate_label	obo:RnorDv_0000015	rdfs:label	mature stage
 ERROR	duplicate_label	obo:SscrDv_0000006	rdfs:label	mature stage
 ERROR	duplicate_label	obo:BtauDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:CfamDv_0000000	rdfs:label	life cycle stage
+ERROR	duplicate_label	obo:ChirDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:EcabDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:FcatDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:GgalDv_0000000	rdfs:label	life cycle stage
@@ -396,6 +425,7 @@ ERROR	duplicate_label	obo:SscrDv_0000000	rdfs:label	life cycle stage
 ERROR	duplicate_label	UBERON:0000105	rdfs:label	life cycle stage
 ERROR	duplicate_label	obo:BtauDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:CfamDv_0000001	rdfs:label	life cycle
+ERROR	duplicate_label	obo:ChirDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:EcabDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:FcatDv_0000001	rdfs:label	life cycle
 ERROR	duplicate_label	obo:GgalDv_0000001	rdfs:label	life cycle
@@ -421,6 +451,7 @@ ERROR	duplicate_label	UBERON:0007222	rdfs:label	late adult stage
 ERROR	duplicate_label	obo:DpseDv_0000003	rdfs:label	larval stage
 ERROR	duplicate_label	obo:DsimDv_0000003	rdfs:label	larval stage
 ERROR	duplicate_label	UBERON:0000069	rdfs:label	larval stage
+ERROR	duplicate_label	obo:ChirDv_0000034	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:GgalDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:GgorDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:MdomDv_0000005	rdfs:label	juvenile stage
@@ -432,6 +463,7 @@ ERROR	duplicate_label	obo:PtroDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:RnorDv_0000058	rdfs:label	juvenile stage
 ERROR	duplicate_label	obo:SscrDv_0000005	rdfs:label	juvenile stage
 ERROR	duplicate_label	UBERON:0034919	rdfs:label	juvenile stage
+ERROR	duplicate_label	obo:ChirDv_0000022	rdfs:label	infant stage
 ERROR	duplicate_label	HsapDv:0000083	rdfs:label	infant stage
 ERROR	duplicate_label	HsapDv:0000261	rdfs:label	infant stage
 ERROR	duplicate_label	obo:MdomDv_0000033	rdfs:label	infant stage
@@ -445,6 +477,7 @@ ERROR	duplicate_label	UBERON:0034920	rdfs:label	infant stage
 ERROR	duplicate_label	obo:AcarDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:BtauDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:CfamDv_0000003	rdfs:label	immature stage
+ERROR	duplicate_label	obo:ChirDv_0000015	rdfs:label	immature stage
 ERROR	duplicate_label	obo:CporDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:EcabDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:FcatDv_0000003	rdfs:label	immature stage
@@ -461,6 +494,7 @@ ERROR	duplicate_label	obo:PpanDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:PtroDv_0000003	rdfs:label	immature stage
 ERROR	duplicate_label	obo:RnorDv_0000012	rdfs:label	immature stage
 ERROR	duplicate_label	obo:SscrDv_0000003	rdfs:label	immature stage
+ERROR	duplicate_label	obo:ChirDv#has_unit	rdfs:label	has unit
 ERROR	duplicate_label	obo:SscrDv#has_unit	rdfs:label	has unit
 ERROR	duplicate_label	obo:acardv#has_unit	rdfs:label	has unit
 ERROR	duplicate_label	obo:btaudv#has_unit	rdfs:label	has unit
@@ -482,6 +516,7 @@ ERROR	duplicate_label	obo:ocundv#has_unit	rdfs:label	has unit
 ERROR	duplicate_label	obo:ppandv#has_unit	rdfs:label	has unit
 ERROR	duplicate_label	obo:ptrodv#has_unit	rdfs:label	has unit
 ERROR	duplicate_label	obo:rnordv#has_unit	rdfs:label	has unit
+ERROR	duplicate_label	obo:ChirDv#has_start_time	rdfs:label	has start time
 ERROR	duplicate_label	obo:SscrDv#has_start_time	rdfs:label	has start time
 ERROR	duplicate_label	obo:acardv#has_start_time	rdfs:label	has start time
 ERROR	duplicate_label	obo:btaudv#has_start_time	rdfs:label	has start time
@@ -503,6 +538,7 @@ ERROR	duplicate_label	obo:ocundv#has_start_time	rdfs:label	has start time
 ERROR	duplicate_label	obo:ppandv#has_start_time	rdfs:label	has start time
 ERROR	duplicate_label	obo:ptrodv#has_start_time	rdfs:label	has start time
 ERROR	duplicate_label	obo:rnordv#has_start_time	rdfs:label	has start time
+ERROR	duplicate_label	obo:ChirDv#has_end_time	rdfs:label	has end time
 ERROR	duplicate_label	obo:SscrDv#has_end_time	rdfs:label	has end time
 ERROR	duplicate_label	obo:acardv#has_end_time	rdfs:label	has end time
 ERROR	duplicate_label	obo:btaudv#has_end_time	rdfs:label	has end time
@@ -528,6 +564,7 @@ ERROR	duplicate_label	obo:GgalDv_0000033	rdfs:label	Hamburger Hamilton stage 21
 ERROR	duplicate_label	obo:GgalDv_0000035	rdfs:label	Hamburger Hamilton stage 21
 ERROR	duplicate_label	obo:GgalDv_0000032	rdfs:label	Hamburger Hamilton stage 20
 ERROR	duplicate_label	obo:GgalDv_0000034	rdfs:label	Hamburger Hamilton stage 20
+ERROR	duplicate_label	obo:ChirDv_0000011	rdfs:label	gastrula stage
 ERROR	duplicate_label	obo:GgalDv_0000092	rdfs:label	gastrula stage
 ERROR	duplicate_label	HsapDv:0000010	rdfs:label	gastrula stage
 ERROR	duplicate_label	MmusDv:0000013	rdfs:label	gastrula stage
@@ -545,6 +582,7 @@ ERROR	duplicate_label	obo:SscrDv_0000009	rdfs:label	first 0-6 postnatal days
 ERROR	duplicate_label	HsapDv:0000037	rdfs:label	fetal stage
 ERROR	duplicate_label	MmusDv:0000031	rdfs:label	fetal stage
 ERROR	duplicate_label	obo:RnorDv_0000011	rdfs:label	fetal stage
+ERROR	duplicate_label	obo:ChirDv#end_ypb	rdfs:label	end, years post birth
 ERROR	duplicate_label	obo:SscrDv#end_ypb	rdfs:label	end, years post birth
 ERROR	duplicate_label	obo:btaudv#end_ypb	rdfs:label	end, years post birth
 ERROR	duplicate_label	obo:cfamdv#end_ypb	rdfs:label	end, years post birth
@@ -566,6 +604,7 @@ ERROR	duplicate_label	obo:oanadv#end_wpb	rdfs:label	end, weeks post birth
 ERROR	duplicate_label	obo:rnordv#end_wpb	rdfs:label	end, weeks post birth
 ERROR	duplicate_label	obo:acardv#end_mph	rdfs:label	end, months post hatching
 ERROR	duplicate_label	obo:ggaldv#end_mph	rdfs:label	end, months post hatching
+ERROR	duplicate_label	obo:ChirDv#end_mpf	rdfs:label	end, months post fertilization
 ERROR	duplicate_label	obo:SscrDv#end_mpf	rdfs:label	end, months post fertilization
 ERROR	duplicate_label	obo:btaudv#end_mpf	rdfs:label	end, months post fertilization
 ERROR	duplicate_label	obo:ggordv#end_mpf	rdfs:label	end, months post fertilization
@@ -573,6 +612,7 @@ ERROR	duplicate_label	obo:mmuldv#end_mpf	rdfs:label	end, months post fertilizati
 ERROR	duplicate_label	obo:oaridv#end_mpf	rdfs:label	end, months post fertilization
 ERROR	duplicate_label	obo:ppandv#end_mpf	rdfs:label	end, months post fertilization
 ERROR	duplicate_label	obo:ptrodv#end_mpf	rdfs:label	end, months post fertilization
+ERROR	duplicate_label	obo:ChirDv#end_mpb	rdfs:label	end, months post birth
 ERROR	duplicate_label	obo:SscrDv#end_mpb	rdfs:label	end, months post birth
 ERROR	duplicate_label	obo:btaudv#end_mpb	rdfs:label	end, months post birth
 ERROR	duplicate_label	obo:cfamdv#end_mpb	rdfs:label	end, months post birth
@@ -590,6 +630,7 @@ ERROR	duplicate_label	obo:ppandv#end_mpb	rdfs:label	end, months post birth
 ERROR	duplicate_label	obo:rnordv#end_mpb	rdfs:label	end, months post birth
 ERROR	duplicate_label	obo:dpsedv#end_dph	rdfs:label	end, days post hatching
 ERROR	duplicate_label	obo:dsimdv#end_dph	rdfs:label	end, days post hatching
+ERROR	duplicate_label	obo:ChirDv#end_dpf	rdfs:label	end, days post fertilization
 ERROR	duplicate_label	obo:SscrDv#end_dpf	rdfs:label	end, days post fertilization
 ERROR	duplicate_label	obo:acardv#end_dpf	rdfs:label	end, days post fertilization
 ERROR	duplicate_label	obo:btaudv#end_dpf	rdfs:label	end, days post fertilization
@@ -631,6 +672,7 @@ ERROR	duplicate_label	obo:DpseDv_0000006	rdfs:label	days 1-4 of fully formed sta
 ERROR	duplicate_label	obo:DsimDv_0000006	rdfs:label	days 1-4 of fully formed stage
 ERROR	duplicate_label	obo:DpseDv_0000008	rdfs:label	day 9 and more of fully formed stage
 ERROR	duplicate_label	obo:DsimDv_0000008	rdfs:label	day 9 and more of fully formed stage
+ERROR	duplicate_label	obo:ChirDv_0000004	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:GgalDv_0000064	rdfs:label	cleavage stage
 ERROR	duplicate_label	HsapDv:0000004	rdfs:label	cleavage stage
 ERROR	duplicate_label	MmusDv:0000004	rdfs:label	cleavage stage
@@ -639,6 +681,7 @@ ERROR	duplicate_label	obo:RnorDv_0000049	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:SsalDv_0000004	rdfs:label	cleavage stage
 ERROR	duplicate_label	obo:SscrDv_0000088	rdfs:label	cleavage stage
 ERROR	duplicate_label	UBERON:0000107	rdfs:label	cleavage stage
+ERROR	duplicate_label	obo:ChirDv_0000010	rdfs:label	blastula stage
 ERROR	duplicate_label	obo:GgalDv_0000091	rdfs:label	blastula stage
 ERROR	duplicate_label	HsapDv:0000006	rdfs:label	blastula stage
 ERROR	duplicate_label	MmusDv:0000007	rdfs:label	blastula stage
@@ -650,6 +693,7 @@ ERROR	duplicate_label	UBERON:0000108	rdfs:label	blastula stage
 ERROR	duplicate_label	obo:AcarDv_0000006	rdfs:label	aged stage
 ERROR	duplicate_label	obo:BtauDv_0000006	rdfs:label	aged stage
 ERROR	duplicate_label	obo:CfamDv_0000006	rdfs:label	aged stage
+ERROR	duplicate_label	obo:ChirDv_0000050	rdfs:label	aged stage
 ERROR	duplicate_label	obo:CporDv_0000006	rdfs:label	aged stage
 ERROR	duplicate_label	obo:EcabDv_0000006	rdfs:label	aged stage
 ERROR	duplicate_label	obo:FcatDv_0000006	rdfs:label	aged stage
@@ -666,6 +710,7 @@ ERROR	duplicate_label	obo:SscrDv_0000008	rdfs:label	aged stage
 ERROR	duplicate_label	obo:AcarDv_0000005	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:BtauDv_0000005	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:CfamDv_0000005	rdfs:label	adulthood stage
+ERROR	duplicate_label	obo:ChirDv_0000036	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:CporDv_0000005	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:EcabDv_0000005	rdfs:label	adulthood stage
 ERROR	duplicate_label	obo:FcatDv_0000005	rdfs:label	adulthood stage
@@ -689,6 +734,7 @@ ERROR	duplicate_label	obo:PtroDv_0000014	rdfs:label	9-year-old stage
 ERROR	duplicate_label	MmusDv:0000155	rdfs:label	9-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000040	rdfs:label	9-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000028	rdfs:label	9-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000040	rdfs:label	9-month-old stage
 ERROR	duplicate_label	obo:GgalDv_0000085	rdfs:label	9-month-old stage
 ERROR	duplicate_label	HsapDv:0000182	rdfs:label	9-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000013	rdfs:label	9-month-old stage
@@ -702,6 +748,7 @@ ERROR	duplicate_label	obo:PtroDv_0000013	rdfs:label	8-year-old stage
 ERROR	duplicate_label	MmusDv:0000154	rdfs:label	8-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000017	rdfs:label	8-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000027	rdfs:label	8-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000039	rdfs:label	8-month-old stage
 ERROR	duplicate_label	obo:GgalDv_0000084	rdfs:label	8-month-old stage
 ERROR	duplicate_label	HsapDv:0000181	rdfs:label	8-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000012	rdfs:label	8-month-old stage
@@ -710,6 +757,7 @@ ERROR	duplicate_label	MmusDv:0000079	rdfs:label	8-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000024	rdfs:label	8-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000061	rdfs:label	8-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000048	rdfs:label	7-year-old stage
+ERROR	duplicate_label	obo:ChirDv_0000049	rdfs:label	7-year-old stage
 ERROR	duplicate_label	HsapDv:0000101	rdfs:label	7-year-old stage
 ERROR	duplicate_label	obo:MmulDv_0000027	rdfs:label	7-year-old stage
 ERROR	duplicate_label	obo:PpanDv_0000014	rdfs:label	7-year-old stage
@@ -719,6 +767,7 @@ ERROR	duplicate_label	obo:BtauDv_0000076	rdfs:label	7-week-old stage
 ERROR	duplicate_label	MmusDv:0000152	rdfs:label	7-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000016	rdfs:label	7-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000026	rdfs:label	7-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000038	rdfs:label	7-month-old stage
 ERROR	duplicate_label	obo:GgalDv_0000083	rdfs:label	7-month-old stage
 ERROR	duplicate_label	HsapDv:0000180	rdfs:label	7-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000011	rdfs:label	7-month-old stage
@@ -727,6 +776,7 @@ ERROR	duplicate_label	MmusDv:0000078	rdfs:label	7-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000023	rdfs:label	7-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000060	rdfs:label	7-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000047	rdfs:label	6-year-old stage
+ERROR	duplicate_label	obo:ChirDv_0000048	rdfs:label	6-year-old stage
 ERROR	duplicate_label	HsapDv:0000100	rdfs:label	6-year-old stage
 ERROR	duplicate_label	obo:MmulDv_0000026	rdfs:label	6-year-old stage
 ERROR	duplicate_label	obo:PpanDv_0000013	rdfs:label	6-year-old stage
@@ -736,6 +786,7 @@ ERROR	duplicate_label	obo:BtauDv_0000075	rdfs:label	6-week-old stage
 ERROR	duplicate_label	MmusDv:0000151	rdfs:label	6-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000015	rdfs:label	6-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000025	rdfs:label	6-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000037	rdfs:label	6-month-old stage
 ERROR	duplicate_label	obo:GgalDv_0000082	rdfs:label	6-month-old stage
 ERROR	duplicate_label	HsapDv:0000179	rdfs:label	6-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000010	rdfs:label	6-month-old stage
@@ -744,6 +795,7 @@ ERROR	duplicate_label	MmusDv:0000077	rdfs:label	6-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000022	rdfs:label	6-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000059	rdfs:label	6-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000060	rdfs:label	6-day-old stage
+ERROR	duplicate_label	obo:ChirDv_0000025	rdfs:label	6-day-old stage
 ERROR	duplicate_label	obo:GgalDv_0000071	rdfs:label	6-day-old stage
 ERROR	duplicate_label	MmusDv:0000116	rdfs:label	6-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000078	rdfs:label	6-day-old stage
@@ -752,6 +804,7 @@ ERROR	duplicate_label	HsapDv:0000145	rdfs:label	51-year-old stage
 ERROR	duplicate_label	obo:GgorDv_0000029	rdfs:label	50-year-old stage
 ERROR	duplicate_label	HsapDv:0000144	rdfs:label	50-year-old stage
 ERROR	duplicate_label	obo:BtauDv_0000046	rdfs:label	5-year-old stage
+ERROR	duplicate_label	obo:ChirDv_0000047	rdfs:label	5-year-old stage
 ERROR	duplicate_label	HsapDv:0000099	rdfs:label	5-year-old stage
 ERROR	duplicate_label	obo:MmulDv_0000025	rdfs:label	5-year-old stage
 ERROR	duplicate_label	obo:PpanDv_0000012	rdfs:label	5-year-old stage
@@ -762,6 +815,7 @@ ERROR	duplicate_label	obo:MdomDv_0000037	rdfs:label	5-week-old stage
 ERROR	duplicate_label	MmusDv:0000150	rdfs:label	5-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000014	rdfs:label	5-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000024	rdfs:label	5-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000033	rdfs:label	5-month-old stage
 ERROR	duplicate_label	obo:GgalDv_0000081	rdfs:label	5-month-old stage
 ERROR	duplicate_label	HsapDv:0000178	rdfs:label	5-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000009	rdfs:label	5-month-old stage
@@ -770,6 +824,7 @@ ERROR	duplicate_label	MmusDv:0000069	rdfs:label	5-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000021	rdfs:label	5-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000054	rdfs:label	5-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000059	rdfs:label	5-day-old stage
+ERROR	duplicate_label	obo:ChirDv_0000024	rdfs:label	5-day-old stage
 ERROR	duplicate_label	obo:GgalDv_0000070	rdfs:label	5-day-old stage
 ERROR	duplicate_label	MmusDv:0000115	rdfs:label	5-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000077	rdfs:label	5-day-old stage
@@ -800,6 +855,7 @@ ERROR	duplicate_label	obo:GgorDv_0000019	rdfs:label	40-year-old stage
 ERROR	duplicate_label	HsapDv:0000134	rdfs:label	40-year-old stage
 ERROR	duplicate_label	obo:PtroDv_0000046	rdfs:label	40-year-old stage
 ERROR	duplicate_label	obo:BtauDv_0000045	rdfs:label	4-year-old stage
+ERROR	duplicate_label	obo:ChirDv_0000046	rdfs:label	4-year-old stage
 ERROR	duplicate_label	HsapDv:0000098	rdfs:label	4-year-old stage
 ERROR	duplicate_label	obo:MmulDv_0000024	rdfs:label	4-year-old stage
 ERROR	duplicate_label	obo:PpanDv_0000011	rdfs:label	4-year-old stage
@@ -811,6 +867,7 @@ ERROR	duplicate_label	obo:MdomDv_0000036	rdfs:label	4-week-old stage
 ERROR	duplicate_label	MmusDv:0000149	rdfs:label	4-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000013	rdfs:label	4-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000023	rdfs:label	4-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000032	rdfs:label	4-month-old stage
 ERROR	duplicate_label	HsapDv:0000177	rdfs:label	4-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000008	rdfs:label	4-month-old stage
 ERROR	duplicate_label	obo:MmulDv_0000008	rdfs:label	4-month-old stage
@@ -818,6 +875,7 @@ ERROR	duplicate_label	MmusDv:0000064	rdfs:label	4-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000020	rdfs:label	4-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000048	rdfs:label	4-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000058	rdfs:label	4-day-old stage
+ERROR	duplicate_label	obo:ChirDv_0000023	rdfs:label	4-day-old stage
 ERROR	duplicate_label	obo:GgalDv_0000069	rdfs:label	4-day-old stage
 ERROR	duplicate_label	MmusDv:0000114	rdfs:label	4-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000076	rdfs:label	4-day-old stage
@@ -854,23 +912,27 @@ ERROR	duplicate_label	obo:PtroDv_0000035	rdfs:label	30-year-old stage
 ERROR	duplicate_label	MmusDv:0000176	rdfs:label	30-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000047	rdfs:label	30-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000044	rdfs:label	3-year-old stage
+ERROR	duplicate_label	obo:ChirDv_0000045	rdfs:label	3-year-old stage
 ERROR	duplicate_label	obo:GgalDv_0000089	rdfs:label	3-year-old stage
 ERROR	duplicate_label	HsapDv:0000097	rdfs:label	3-year-old stage
 ERROR	duplicate_label	obo:PpanDv_0000010	rdfs:label	3-year-old stage
 ERROR	duplicate_label	obo:PtroDv_0000006	rdfs:label	3-year-old stage
 ERROR	duplicate_label	obo:SscrDv_0000067	rdfs:label	3-year-old stage
 ERROR	duplicate_label	obo:BtauDv_0000063	rdfs:label	3-week-old stage
+ERROR	duplicate_label	obo:ChirDv_0000028	rdfs:label	3-week-old stage
 ERROR	duplicate_label	obo:GgalDv_0000074	rdfs:label	3-week-old stage
 ERROR	duplicate_label	obo:MdomDv_0000035	rdfs:label	3-week-old stage
 ERROR	duplicate_label	MmusDv:0000047	rdfs:label	3-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000012	rdfs:label	3-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000022	rdfs:label	3-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000031	rdfs:label	3-month-old stage
 ERROR	duplicate_label	HsapDv:0000176	rdfs:label	3-month-old stage
 ERROR	duplicate_label	obo:MmulDv_0000007	rdfs:label	3-month-old stage
 ERROR	duplicate_label	MmusDv:0000063	rdfs:label	3-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000018	rdfs:label	3-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000043	rdfs:label	3-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000057	rdfs:label	3-day-old stage
+ERROR	duplicate_label	obo:ChirDv_0000021	rdfs:label	3-day-old stage
 ERROR	duplicate_label	obo:GgalDv_0000068	rdfs:label	3-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000075	rdfs:label	3-day-old stage
 ERROR	duplicate_label	HsapDv:0000123	rdfs:label	29-year-old stage
@@ -985,22 +1047,26 @@ ERROR	duplicate_label	obo:MdomDv_0000024	rdfs:label	20-month-old stage
 ERROR	duplicate_label	MmusDv:0000124	rdfs:label	20-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000036	rdfs:label	20-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000043	rdfs:label	2-year-old stage
+ERROR	duplicate_label	obo:ChirDv_0000044	rdfs:label	2-year-old stage
 ERROR	duplicate_label	obo:GgalDv_0000088	rdfs:label	2-year-old stage
 ERROR	duplicate_label	HsapDv:0000096	rdfs:label	2-year-old stage
 ERROR	duplicate_label	obo:MmulDv_0000019	rdfs:label	2-year-old stage
 ERROR	duplicate_label	obo:PpanDv_0000009	rdfs:label	2-year-old stage
 ERROR	duplicate_label	obo:SscrDv_0000066	rdfs:label	2-year-old stage
 ERROR	duplicate_label	obo:BtauDv_0000062	rdfs:label	2-week-old stage
+ERROR	duplicate_label	obo:ChirDv_0000027	rdfs:label	2-week-old stage
 ERROR	duplicate_label	obo:GgalDv_0000073	rdfs:label	2-week-old stage
 ERROR	duplicate_label	obo:MdomDv_0000034	rdfs:label	2-week-old stage
 ERROR	duplicate_label	MmusDv:0000141	rdfs:label	2-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000011	rdfs:label	2-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000021	rdfs:label	2-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000030	rdfs:label	2-month-old stage
 ERROR	duplicate_label	HsapDv:0000175	rdfs:label	2-month-old stage
 ERROR	duplicate_label	obo:MmulDv_0000006	rdfs:label	2-month-old stage
 ERROR	duplicate_label	MmusDv:0000062	rdfs:label	2-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000039	rdfs:label	2-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000056	rdfs:label	2-day-old stage
+ERROR	duplicate_label	obo:ChirDv_0000020	rdfs:label	2-day-old stage
 ERROR	duplicate_label	obo:GgalDv_0000067	rdfs:label	2-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000074	rdfs:label	2-day-old stage
 ERROR	duplicate_label	HsapDv:0000113	rdfs:label	19-year-old stage
@@ -1100,6 +1166,7 @@ ERROR	duplicate_label	MmusDv:0000157	rdfs:label	11-week-old stage
 ERROR	duplicate_label	obo:RnorDv_0000017	rdfs:label	11-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000042	rdfs:label	11-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000030	rdfs:label	11-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000042	rdfs:label	11-month-old stage
 ERROR	duplicate_label	obo:GgalDv_0000087	rdfs:label	11-month-old stage
 ERROR	duplicate_label	HsapDv:0000184	rdfs:label	11-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000015	rdfs:label	11-month-old stage
@@ -1116,6 +1183,7 @@ ERROR	duplicate_label	MmusDv:0000156	rdfs:label	10-week-old stage
 ERROR	duplicate_label	obo:RnorDv_0000016	rdfs:label	10-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000041	rdfs:label	10-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000029	rdfs:label	10-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000041	rdfs:label	10-month-old stage
 ERROR	duplicate_label	obo:GgalDv_0000086	rdfs:label	10-month-old stage
 ERROR	duplicate_label	HsapDv:0000183	rdfs:label	10-month-old stage
 ERROR	duplicate_label	obo:MdomDv_0000014	rdfs:label	10-month-old stage
@@ -1123,82 +1191,59 @@ ERROR	duplicate_label	obo:MmulDv_0000016	rdfs:label	10-month-old stage
 ERROR	duplicate_label	MmusDv:0000081	rdfs:label	10-month-old stage
 ERROR	duplicate_label	obo:RnorDv_0000026	rdfs:label	10-month-old stage
 ERROR	duplicate_label	obo:SscrDv_0000063	rdfs:label	10-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000043	rdfs:label	1-year-old stage
 ERROR	duplicate_label	obo:GgalDv_0000008	rdfs:label	1-year-old stage
 ERROR	duplicate_label	HsapDv:0000246	rdfs:label	1-year-old stage
 ERROR	duplicate_label	obo:MmulDv_0000018	rdfs:label	1-year-old stage
 ERROR	duplicate_label	obo:SscrDv_0000065	rdfs:label	1-year-old stage
 ERROR	duplicate_label	obo:BtauDv_0000061	rdfs:label	1-week-old stage
+ERROR	duplicate_label	obo:ChirDv_0000026	rdfs:label	1-week-old stage
 ERROR	duplicate_label	obo:GgalDv_0000072	rdfs:label	1-week-old stage
 ERROR	duplicate_label	MmusDv:0000140	rdfs:label	1-week-old stage
 ERROR	duplicate_label	obo:SscrDv_0000010	rdfs:label	1-week-old stage
 ERROR	duplicate_label	obo:BtauDv_0000020	rdfs:label	1-month-old stage
+ERROR	duplicate_label	obo:ChirDv_0000029	rdfs:label	1-month-old stage
 ERROR	duplicate_label	HsapDv:0000174	rdfs:label	1-month-old stage
 ERROR	duplicate_label	HsapDv:0000273	rdfs:label	1-month-old stage
 ERROR	duplicate_label	obo:MmulDv_0000005	rdfs:label	1-month-old stage
 ERROR	duplicate_label	obo:BtauDv_0000055	rdfs:label	1-day-old stage
+ERROR	duplicate_label	obo:ChirDv_0000019	rdfs:label	1-day-old stage
 ERROR	duplicate_label	obo:GgalDv_0000066	rdfs:label	1-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000073	rdfs:label	1-day-old stage
 ERROR	duplicate_label	obo:BtauDv_0000054	rdfs:label	0-day-old stage
+ERROR	duplicate_label	obo:ChirDv_0000018	rdfs:label	0-day-old stage
 ERROR	duplicate_label	obo:SscrDv_0000072	rdfs:label	0-day-old stage
-ERROR	missing_label	http://owltools.org/Q	rdfs:label	
 ERROR	missing_label	OMO:0003011	rdfs:label	
-ERROR	missing_label	obo:uberon/core#INCONSISTENT	rdfs:label	
 ERROR	missing_label	obo:uberon/core#SENSU	rdfs:label	
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	A process that emerges from two or more causally-connected macromolecular activities and has evolved to achieve a biological objective.
+ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y
+ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y iff they have some part in common.
 ERROR	multiple_labels	BFO:0000017	rdfs:label	realizable@en
 ERROR	multiple_labels	BFO:0000017	rdfs:label	realizable entity@en
 ERROR	multiple_labels	BFO:0000020	rdfs:label	characteristic@en
 ERROR	multiple_labels	BFO:0000020	rdfs:label	specifically dependent continuant@en
 ERROR	multiple_labels	BFO:0000050	rdfs:label	part of
 ERROR	multiple_labels	BFO:0000050	rdfs:label	part of@en
+ERROR	multiple_labels	BFO:0000051	rdfs:label	has part
+ERROR	multiple_labels	BFO:0000051	rdfs:label	has part@en
+ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded by
 ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded by@en
 ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded_by
+ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes
+ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes@en
 ERROR	multiple_labels	GO:0003674	rdfs:label	gene product or complex activity@en
 ERROR	multiple_labels	GO:0003674	rdfs:label	molecular_function
 ERROR	multiple_labels	GO:0008150	rdfs:label	biological process@en
 ERROR	multiple_labels	GO:0008150	rdfs:label	biological_process
-ERROR	multiple_labels	IAO:0000115	rdfs:label	definition
-ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en
-ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by
-ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by@en
+ERROR	multiple_labels	RO:0002087	rdfs:label	immediately preceded by
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately preceded by@en
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately_preceded_by
-ERROR	multiple_labels	RO:0002160	rdfs:label	only in taxon
-ERROR	multiple_labels	RO:0002160	rdfs:label	only_in_taxon
-ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has broad synonym@en
-ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has_broad_synonym
-ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database_cross_reference
-ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	has cross-reference
-ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has exact synonym@en
-ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has_exact_synonym
-ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has narrow synonym@en
-ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has_narrow_synonym
-ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has related synonym@en
-ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has_related_synonym
+ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps
+ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps@en
 WARN	annotation_whitespace	obo:GgalDv_0000013	IAO:0000115	Prenatal stage on incubation period defined by the definitive primitive streak, about 1.88 mm long. Primitive groove, primitive pir, Hensen's node are present. 
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
-
-On the specifics of the proposed definition:
-
-We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
 WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
 WARN	duplicate_exact_synonym	MmusDv:0000014	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	MmusDv:0000103	oboInOwl:hasExactSynonym	
@@ -1206,6 +1251,7 @@ WARN	duplicate_exact_synonym	MmusDv:0000104	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	obo:AcarDv_0000005	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:BtauDv_0000005	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CfamDv_0000005	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	obo:ChirDv_0000036	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CporDv_0000005	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:EcabDv_0000005	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:FcatDv_0000005	oboInOwl:hasExactSynonym	
@@ -1226,6 +1272,7 @@ WARN	duplicate_exact_synonym	obo:SscrDv_0000072	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	obo:AcarDv_0000004	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:BtauDv_0000004	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CfamDv_0000004	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	obo:ChirDv_0000035	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CporDv_0000004	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:EcabDv_0000004	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:FcatDv_0000004	oboInOwl:hasExactSynonym	
@@ -1248,6 +1295,7 @@ WARN	duplicate_exact_synonym	UBERON:0000112	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	obo:AcarDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:BtauDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CfamDv_0000000	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	obo:ChirDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:CporDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:DpseDv_0000000	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	obo:DsimDv_0000000	oboInOwl:hasExactSynonym	
@@ -1275,6 +1323,11 @@ WARN	duplicate_label_synonym	obo:BtauDv_0000003	oboInOwl:hasExactSynonym	immatur
 WARN	duplicate_label_synonym	obo:BtauDv_0000004	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:CfamDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:CfamDv_0000004	oboInOwl:hasExactSynonym	mature stage
+WARN	duplicate_label_synonym	obo:ChirDv_0000003	oboInOwl:hasExactSynonym	zygote stage
+WARN	duplicate_label_synonym	obo:ChirDv_0000015	oboInOwl:hasExactSynonym	immature stage
+WARN	duplicate_label_synonym	obo:ChirDv_0000016	oboInOwl:hasExactSynonym	nursing stage
+WARN	duplicate_label_synonym	obo:ChirDv_0000017	oboInOwl:hasExactSynonym	neonate stage
+WARN	duplicate_label_synonym	obo:ChirDv_0000035	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:CporDv_0000003	oboInOwl:hasExactSynonym	immature stage
 WARN	duplicate_label_synonym	obo:CporDv_0000004	oboInOwl:hasExactSynonym	mature stage
 WARN	duplicate_label_synonym	obo:DpseDv_0000002	oboInOwl:hasExactSynonym	embryonic stage
@@ -1345,20 +1398,28 @@ WARN	duplicate_label_synonym	UBERON:0018241	oboInOwl:hasExactSynonym	prime adult
 WARN	duplicate_label_synonym	UBERON:0018685	oboInOwl:hasExactSynonym	nursing stage
 WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasExactSynonym	fertilized egg stage
 WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasRelatedSynonym	fertilized egg stage
-WARN	equivalent_class_axiom_no_genus	http://owltools.org/Q	BFO:0000050	UBERON:0000105
-WARN	missing_definition	http://owltools.org/Q	IAO:0000115	
 WARN	missing_definition	BFO:0000001	IAO:0000115	
 WARN	missing_definition	BFO:0000016	IAO:0000115	
 WARN	missing_definition	BFO:0000019	IAO:0000115	
 WARN	missing_definition	BFO:0000034	IAO:0000115	
+WARN	missing_definition	obo:ChirDv#has_end_time	IAO:0000115	
+WARN	missing_definition	obo:ChirDv#has_start_time	IAO:0000115	
+WARN	missing_definition	obo:ChirDv#has_unit	IAO:0000115	
+WARN	missing_definition	obo:ChirDv_0000005	IAO:0000115	
+WARN	missing_definition	obo:ChirDv_0000006	IAO:0000115	
+WARN	missing_definition	obo:ChirDv_0000007	IAO:0000115	
+WARN	missing_definition	obo:ChirDv_0000008	IAO:0000115	
 WARN	missing_definition	IAO:0000027	IAO:0000115	
 WARN	missing_definition	IAO:0000030	IAO:0000115	
+WARN	missing_definition	IAO:0000115	IAO:0000115	
+WARN	missing_definition	IAO:0100001	IAO:0000115	
 WARN	missing_definition	OMO:0003011	IAO:0000115	
 WARN	missing_definition	obo:OariDv_0000023	IAO:0000115	
 WARN	missing_definition	RO:0002017	IAO:0000115	
 WARN	missing_definition	RO:0002022	IAO:0000115	
 WARN	missing_definition	RO:0002086	IAO:0000115	
 WARN	missing_definition	RO:0002090	IAO:0000115	
+WARN	missing_definition	RO:0002160	IAO:0000115	
 WARN	missing_definition	RO:0002222	IAO:0000115	
 WARN	missing_definition	RO:0002405	IAO:0000115	
 WARN	missing_definition	RO:0002447	IAO:0000115	
@@ -1543,7 +1604,6 @@ WARN	missing_definition	obo:rnordv#has_end_time	IAO:0000115
 WARN	missing_definition	obo:rnordv#has_start_time	IAO:0000115	
 WARN	missing_definition	obo:rnordv#has_unit	IAO:0000115	
 WARN	missing_definition	obo:ssaldv.obo#PLURAL	IAO:0000115	
-WARN	missing_definition	obo:uberon/core#INCONSISTENT	IAO:0000115	
 WARN	missing_definition	obo:uberon/core#SENSU	IAO:0000115	
 WARN	missing_definition	obo:zfs#PLURAL	IAO:0000115	
 WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000115	
@@ -1551,8 +1611,13 @@ WARN	missing_definition	oboInOwl:SynonymTypeProperty	IAO:0000115
 WARN	missing_definition	oboInOwl:consider	IAO:0000115	
 WARN	missing_definition	oboInOwl:created_by	IAO:0000115	
 WARN	missing_definition	oboInOwl:creation_date	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115	
 WARN	missing_definition	oboInOwl:id	IAO:0000115	
 WARN	missing_definition	oboInOwl:inSubset	IAO:0000115	
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
@@ -1667,8 +1732,7 @@ INFO	lowercase_definition	RO:0000091	IAO:0000115	a relation between an independe
 INFO	lowercase_definition	RO:0000092	IAO:0000115	inverse of has disposition
 INFO	lowercase_definition	RO:0002018	IAO:0000115	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
 INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y
-INFO	lowercase_definition	RO:0002160	IAO:0000115	x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.
-INFO	lowercase_definition	RO:0002162	IAO:0000115	x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.
+INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y iff they have some part in common.
 INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
 INFO	lowercase_definition	RO:0002211	IAO:0000115	p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q.
 INFO	lowercase_definition	RO:0002212	IAO:0000115	p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q.
@@ -1713,6 +1777,7 @@ INFO	missing_superclass	obo:AcarDv_0000000	rdfs:subClassOf
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
 INFO	missing_superclass	obo:BtauDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:CfamDv_0000000	rdfs:subClassOf	
+INFO	missing_superclass	obo:ChirDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:CporDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:DpseDv_0000000	rdfs:subClassOf	
 INFO	missing_superclass	obo:DsimDv_0000000	rdfs:subClassOf	
