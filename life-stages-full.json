@@ -13,14 +13,11 @@
         "val" : "Life Stages Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-01-08"
+        "val" : "2025-01-23"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/life-stages/releases/2025-01-08/life-stages-full.json"
+      "version" : "http://purl.obolibrary.org/obo/life-stages/releases/2025-01-23/life-stages-full.json"
     },
     "nodes" : [ {
-      "id" : "http://owltools.org/Q",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/AcarDv_0000000",
       "lbl" : "lizard life cycle stage",
       "type" : "CLASS",
@@ -2276,6 +2273,1105 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "dog_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000000",
+      "lbl" : "life cycle stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A spatiotemporal region encompassing some part of the life cycle of an organism.",
+          "xrefs" : [ "UBERON:0000105" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental stage"
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000105"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000001",
+      "lbl" : "life cycle",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Temporal interval that defines goat life from the prenatal stage until late adult stage.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000104"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000002",
+      "lbl" : "prenatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Goat life cycle that starts with fertilization and ends at birth.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Embryo develops in 155 days (see http://genomics.senescence.info/species/entry.php?species=Capra_hircus). Bgee_curator_notes: Bgee prenatal stage definition differs from Uberon embryonic stage definition by the notion of birth for stage ending, while Uberon ends with fully formed embryo. We maybe have to correct our too precise definition." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+          "val" : "155.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpf",
+          "val" : "5.1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000003",
+      "lbl" : "zygote stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A stage at which the organism is a single cell produced by means of sexual reproduction.",
+          "xrefs" : [ "UBERON:0000106" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000106"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000004",
+      "lbl" : "cleavage stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Prenatal stage consisting of division of cells in the early goat embryo.",
+          "xrefs" : [ "UBERON:0000107" ]
+        },
+        "comments" : [ "Unsegmented egg was observed approximately 30h after insemination, see https://embryology.med.unsw.edu.au/embryology/index.php?title=Paper_-_The_early_development_of_the_goat_(1942). We decide to start cleavage stage at day 1 post fertilization." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000107"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000005",
+      "lbl" : "2-cell stage embryo",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The first cleavage division did not occur until 24-36 h after ovulation, but the following two divisions occurred at about 12-h intervals, see PMID: 2621707. Completion of first cleavage was observed 48h after mating, see https://embryology.med.unsw.edu.au/embryology/index.php?title=Paper_-_The_early_development_of_the_goat_(1942)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0019249"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000006",
+      "lbl" : "4-cell stage embryo",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Egg at 4-cell stage was recovered from the fallopian tubes of a female killed 60h after mating, see https://embryology.med.unsw.edu.au/embryology/index.php?title=Paper_-_The_early_development_of_the_goat_(1942)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007233"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+          "val" : "2.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000007",
+      "lbl" : "8-cell stage embryo",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "60h after ovulation 23/26 (88%) embryos collected had 8-cells, see PMID: 2621707. Eggs recovered between 60h and 85h have completed the third cleavage while still in the fallopian tube, see https://embryology.med.unsw.edu.au/embryology/index.php?title=Paper_-_The_early_development_of_the_goat_(1942)." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007236"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+          "val" : "3.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "2.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000008",
+      "lbl" : "16-cell stage embryo",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The first 16-cell embryo was collected 84 h after ovulation; the 8- to 16-cell stage was prolonged compared to the previous two cell cycles and lasted about 24-36 h; embryos also began to compact at the 8 16-cell stage, see PMID: 2621707." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "3.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000009",
+      "lbl" : "day 5-6 morula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Cleavage stage during which the goat embryo develops from 16 cells up to 128 cells.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Embryos also began to compact at the 8 16-cell stage and the following 3 cell cycles occurred more rapidly lasting between 10 and 12 h, see PMID: 2621707. Fertile goat eggs enter the uterus sometime between the close of the fourth day and the beginning of the fifth day after mating, see https://embryology.med.unsw.edu.au/embryology/index.php?title=Paper_-_The_early_development_of_the_goat_(1942)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000010",
+      "lbl" : "blastula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.",
+          "xrefs" : [ "UBERON:0000108" ]
+        },
+        "comments" : [ "On the 6th day after fertilization the goat embryo shows structural changes indicative of transformation into a blastocyst. At this time the central embryonic cells exhibit signs of strong growth, and the blastocyst cavity begins to form, see https://zootechnical.com/article/148044/en." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000108"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000011",
+      "lbl" : "gastrula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage defined by complex and coordinated series of cellular movements that occurs at the end of cleavage.",
+          "xrefs" : [ "UBERON:0000109" ]
+        },
+        "comments" : [ "Further embryonic development involves the disappearance of the zona pellucida, rapid growth and development of the blastulas, and the formation of the germ layer, i.e. gastrulation. In this form the embryo is implanted in the wall of the uterus, where subsequent stages of embryonic development take place. The endoderm, ectoderm and mesoderm formed during gastrulation form most of the organs and tissues, see https://zootechnical.com/article/148044/en." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000109"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000012",
+      "lbl" : "neurula stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage that is an early stage of embryonic development in animals and is produced by cleavage of a fertilized ovum, with formation of a central fluid-filled cavity called the blastocoel.",
+          "xrefs" : [ "UBERON:0000108" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000110"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000013",
+      "lbl" : "organogenesis stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Embryonic stage at which the ectoderm, endoderm, and mesoderm develop into the internal organs of the organism.",
+          "xrefs" : [ "UBERON:0000111" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000111"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000014",
+      "lbl" : "postnatal stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Goat developmental stage that covers the period from birth until late adulthood.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0000066"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "155.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000015",
+      "lbl" : "immature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Goat developmental stage that covers the period from birth until about 18 months old, when individuals reach sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Goat reach sexual maturity by 685 days of age for male (22 months), 406 days for female (13 months) (see http://genomics.senescence.info/species/entry.php?species=Capra_hircus). We arbitrary define the limit of the immature stage to 18 months." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000112"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "155.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpf",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000016",
+      "lbl" : "nursing stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Goat developmental stage that covers the period from birth until about 5.5 months old, at which point individuals wean.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "In natural situations, goat kids become increasingly independent from around 35 days of age and are fully weaned between approximately 84 and 168 days, see PMID:37332741." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018685"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "5.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+          "val" : "155.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpf",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000017",
+      "lbl" : "neonate stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that covers the first days of the goat life.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "We arbitrary define this stage as covering the first 3 days of the goat life." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007221"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000018",
+      "lbl" : "0-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a new born goat which is under 24 hours old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "0.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000019",
+      "lbl" : "1-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 1 and under 2 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000020",
+      "lbl" : "2-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 2 and under 3 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000021",
+      "lbl" : "3-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 3 and under 4 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000022",
+      "lbl" : "infant stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Nursing stage that follows the neonate stage in goat and ends at weaning, at about 5.5 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "xrefs" : [ {
+          "val" : "UBERON:0034920"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "168.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "5.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000023",
+      "lbl" : "4-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 4 and under 5 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000024",
+      "lbl" : "5-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 5 and under 6 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000025",
+      "lbl" : "6-day-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 6 and under 7 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000026",
+      "lbl" : "1-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 1 and under 2 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_wpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_wpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000027",
+      "lbl" : "2-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 2 and under 3 weeks old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_wpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "14.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_wpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000028",
+      "lbl" : "3-week-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal stage that refers to a goat which is over 3 and under 4 days old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+          "val" : "28.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_wpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+          "val" : "21.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_wpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000029",
+      "lbl" : "1-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a goat which is over 1 and under 2 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_wpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000030",
+      "lbl" : "2-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a goat which is over 2 and under 3 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000031",
+      "lbl" : "3-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a goat which is over 3 and under 4 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000032",
+      "lbl" : "4-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a goat which is over 4 and under 5 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000033",
+      "lbl" : "5-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a goat which is over 5 and under 6 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000034",
+      "lbl" : "juvenile stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Goat developmental stage that covers the period from 6 months old, until about 18 months old, when individuals, at least females, have reached sexual maturity.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Goat reach sexual maturity by 685 days of age for male (22 months), 406 days for female (13 months) (see http://genomics.senescence.info/species/entry.php?species=Capra_hircus). We arbitrary define the limit of the immature stage to 18 months." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0034919"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000035",
+      "lbl" : "mature stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Goat developmental stage that refers to a sexually mature adult goat, which is usually over 18 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Goat reach sexual maturity by 685 days of age for male (22 months), 406 days for female (13 months), see http://genomics.senescence.info/species/entry.php?species=Capra_hircus. We arbitrary define the limit of the immature stage to 18 months." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mature"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0000113"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000036",
+      "lbl" : "adulthood stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat who is over 18 months old and under about 8 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "There signs of senescence in Orenburg goats measured by prolificacy that usually decreases from the age of 7 years, but in some animals it remains high till 8-10 years, see https://www.fao.org/4/ah759e/AH759E14.htm." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "prime adult stage"
+        } ],
+        "xrefs" : [ {
+          "val" : "UBERON:0018241"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "1.5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000037",
+      "lbl" : "6-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a goat which is over 5 and under 6 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000038",
+      "lbl" : "7-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a goat which is over 7 and under 8 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000039",
+      "lbl" : "8-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immature stage that refers to a goat which is over 8 and under 9 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000040",
+      "lbl" : "9-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a goat which is over 9 and under 10 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "9.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000041",
+      "lbl" : "10-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a goat which is over 10 and under 11 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "10.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000042",
+      "lbl" : "11-month-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a goat which is over 11 and under 12 months old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+          "val" : "12.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+          "val" : "11.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000043",
+      "lbl" : "1-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Juvenile stage that refers to a goat which is over 1 and under 2 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "1.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000044",
+      "lbl" : "2-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat which is over 2 and under 3 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "At this stage, mostly both female and male goats are sexually mature, see http://genomics.senescence.info/species/entry.php?species=Capra_hircus)" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "2.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000045",
+      "lbl" : "3-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat which is over 3 and under 4 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000046",
+      "lbl" : "4-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat which is over 4 and under 5 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "4.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "3.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000047",
+      "lbl" : "5-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat which is over 5 and under 6 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "5.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000048",
+      "lbl" : "6-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat which is over 6 and under 7 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "6.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000049",
+      "lbl" : "7-year-old stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat which is over 7 and under 8 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "7.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv_0000050",
+      "lbl" : "aged stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mature stage that refers to a goat who is over 8 years old.",
+          "xrefs" : [ "Bgee:curator" ]
+        },
+        "comments" : [ "Record longevity in captivity belongs to one female who lived 20.8 years, see https://genomics.senescence.info/species/entry.php?species=Capra_hircus." ],
+        "xrefs" : [ {
+          "val" : "UBERON:0007222"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+          "val" : "8.0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_developmental_stage"
         } ]
       }
     }, {
@@ -19764,46 +20860,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/OBI_0100026",
-      "lbl" : "organism",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "organism"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "animal"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "fungus"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "plant"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "virus"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and 'other organisms')"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "13-02-2009:\nOBI doesn't take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.\nThis issue is outside the scope of OBI."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "GROUP: OBI Biomaterial Branch"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "WEB: http://en.wikipedia.org/wiki/Organism"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/OanaDv_0000000",
       "lbl" : "life cycle stage",
       "type" : "CLASS",
@@ -27052,9 +28108,45 @@
         }, {
           "val" : "BilaDO:0000004"
         }, {
+          "val" : "BtauDv:0000078"
+        }, {
+          "val" : "CfamDv:0000007"
+        }, {
+          "val" : "DpseDv:0000005"
+        }, {
+          "val" : "DsimDv:0000005"
+        }, {
           "val" : "EFO:0001272"
         }, {
+          "val" : "EcabDv:0000007"
+        }, {
           "val" : "FBdv:00005369"
+        }, {
+          "val" : "FcatDv:0000007"
+        }, {
+          "val" : "GgalDv:0000076"
+        }, {
+          "val" : "GgorDv:0000032"
+        }, {
+          "val" : "HsapDv:0010000"
+        }, {
+          "val" : "MmulDv:0000052"
+        }, {
+          "val" : "MmusDv:0000092"
+        }, {
+          "val" : "OanaDv:0000007"
+        }, {
+          "val" : "OariDv:0000024"
+        }, {
+          "val" : "PpanDv:0000041"
+        }, {
+          "val" : "PtroDv:0000052"
+        }, {
+          "val" : "RnorDv:0000061"
+        }, {
+          "val" : "SsalDv:0000040"
+        }, {
+          "val" : "SscrDv:0000084"
         }, {
           "val" : "WBls:0000041"
         }, {
@@ -27086,23 +28178,63 @@
           "val" : "embryogenesis"
         } ],
         "xrefs" : [ {
+          "val" : "AcarDv:0000002"
+        }, {
           "val" : "BilaDO:0000002"
         }, {
+          "val" : "BtauDv:0000002"
+        }, {
+          "val" : "CfamDv:0000002"
+        }, {
+          "val" : "CporDv:0000002"
+        }, {
+          "val" : "DpseDv:0000002"
+        }, {
+          "val" : "DsimDv:0000002"
+        }, {
           "val" : "EV:0300001"
+        }, {
+          "val" : "EcabDv:0000002"
         }, {
           "val" : "FBdv:00005289"
         }, {
           "val" : "FMA:72652"
         }, {
-          "val" : "HsapDv:0000002"
+          "val" : "FcatDv:0000002"
         }, {
-          "val" : "MmusDv:0000002"
+          "val" : "GgalDv:0000002"
+        }, {
+          "val" : "GgorDv:0000002"
+        }, {
+          "val" : "HsapDv:0000045"
+        }, {
+          "val" : "MdomDv:0000002"
+        }, {
+          "val" : "MmulDv:0000002"
+        }, {
+          "val" : "MmusDv:0000042"
         }, {
           "val" : "OGES:000000"
         }, {
           "val" : "OGES:000022"
         }, {
+          "val" : "OanaDv:0000002"
+        }, {
+          "val" : "OariDv:0000002"
+        }, {
+          "val" : "OcunDv:0000002"
+        }, {
+          "val" : "PpanDv:0000002"
+        }, {
+          "val" : "PtroDv:0000002"
+        }, {
+          "val" : "RnorDv:0000002"
+        }, {
           "val" : "SCTID:296280003"
+        }, {
+          "val" : "SsalDv:0000002"
+        }, {
+          "val" : "SscrDv:0000002"
         }, {
           "val" : "WBls:0000003"
         }, {
@@ -27299,11 +28431,17 @@
         }, {
           "val" : "BTO:0000954"
         }, {
+          "val" : "DpseDv:0000003"
+        }, {
+          "val" : "DsimDv:0000003"
+        }, {
           "val" : "EFO:0001303"
         }, {
           "val" : "MIAA:0000400"
         }, {
           "val" : "OGES:000008"
+        }, {
+          "val" : "SsalDv:0000039"
         }, {
           "val" : "Wikipedia:Larva"
         }, {
@@ -27349,6 +28487,10 @@
           "xrefs" : [ "NCBITaxon:37572", "Wikipedia:Pupa" ]
         } ],
         "xrefs" : [ {
+          "val" : "DpseDv:0000004"
+        }, {
+          "val" : "DsimDv:0000004"
+        }, {
           "val" : "FBdv:00005349"
         }, {
           "val" : "Wikipedia:Pupa"
@@ -27444,6 +28586,8 @@
         }, {
           "val" : "OGES:000024"
         }, {
+          "val" : "SsalDv:0000038"
+        }, {
           "val" : "WBls:0000022"
         }, {
           "val" : "WBls:0000093"
@@ -27479,23 +28623,61 @@
           "val" : "stage"
         } ],
         "xrefs" : [ {
+          "val" : "AcarDv:0000000"
+        }, {
           "val" : "BILS:0000105"
         }, {
+          "val" : "BtauDv:0000000"
+        }, {
+          "val" : "CfamDv:0000000"
+        }, {
+          "val" : "CporDv:0000000"
+        }, {
+          "val" : "DpseDv:0000000"
+        }, {
+          "val" : "DsimDv:0000000"
+        }, {
           "val" : "EFO:0000399"
+        }, {
+          "val" : "EcabDv:0000000"
         }, {
           "val" : "FBdv:00007012"
         }, {
           "val" : "FMA:24120"
         }, {
+          "val" : "FcatDv:0000000"
+        }, {
+          "val" : "GgalDv:0000000"
+        }, {
+          "val" : "GgorDv:0000000"
+        }, {
           "val" : "HsapDv:0000000"
         }, {
           "val" : "MESH:D008018"
         }, {
+          "val" : "MdomDv:0000000"
+        }, {
+          "val" : "MmulDv:0000000"
+        }, {
           "val" : "MmusDv:0000000"
         }, {
-          "val" : "OlatDv:0000010"
+          "val" : "OanaDv:0000000"
+        }, {
+          "val" : "OariDv:0000000"
+        }, {
+          "val" : "OcunDv:0000000"
         }, {
           "val" : "PdumDv:0000090"
+        }, {
+          "val" : "PpanDv:0000000"
+        }, {
+          "val" : "PtroDv:0000000"
+        }, {
+          "val" : "RnorDv:0000000"
+        }, {
+          "val" : "SsalDv:0000000"
+        }, {
+          "val" : "SscrDv:0000000"
         }, {
           "val" : "WBls:0000002"
         }, {
@@ -27578,11 +28760,23 @@
         }, {
           "val" : "FBdv:00005288"
         }, {
+          "val" : "HsapDv:0000003"
+        }, {
           "val" : "IDOMAL:0000302"
+        }, {
+          "val" : "MmusDv:0000003"
         }, {
           "val" : "NCIT:C12601"
         }, {
+          "val" : "OariDv:0000009"
+        }, {
           "val" : "PdumDv:0000100"
+        }, {
+          "val" : "RnorDv:0000048"
+        }, {
+          "val" : "SsalDv:0000003"
+        }, {
+          "val" : "SscrDv:0000087"
         }, {
           "val" : "VHOG:0000745"
         }, {
@@ -27622,6 +28816,10 @@
         }, {
           "val" : "FBdv:00000054"
         }, {
+          "val" : "GgalDv:0000064"
+        }, {
+          "val" : "HsapDv:0000005"
+        }, {
           "val" : "MESH:D002970"
         }, {
           "val" : "MmusDv:0000004"
@@ -27630,7 +28828,15 @@
         }, {
           "val" : "OGES:000020"
         }, {
+          "val" : "OariDv:0000010"
+        }, {
           "val" : "PdumDv:0000200"
+        }, {
+          "val" : "RnorDv:0000049"
+        }, {
+          "val" : "SsalDv:0000004"
+        }, {
+          "val" : "SscrDv:0000088"
         }, {
           "val" : "Wikipedia:Cleavage_(embryo)"
         }, {
@@ -27660,6 +28866,8 @@
         }, {
           "val" : "EFO:0001282"
         }, {
+          "val" : "GgalDv:0000091"
+        }, {
           "val" : "HsapDv:0000006"
         }, {
           "val" : "MmusDv:0000007"
@@ -27669,6 +28877,14 @@
           "val" : "OGES:000016"
         }, {
           "val" : "OGES:000021"
+        }, {
+          "val" : "OariDv:0000025"
+        }, {
+          "val" : "RnorDv:0000054"
+        }, {
+          "val" : "SsalDv:0000012"
+        }, {
+          "val" : "SscrDv:0000089"
         }, {
           "val" : "WBls:0000005"
         }, {
@@ -27733,6 +28949,8 @@
         }, {
           "val" : "FBdv:00005317"
         }, {
+          "val" : "GgalDv:0000092"
+        }, {
           "val" : "HsapDv:0000010"
         }, {
           "val" : "MmusDv:0000013"
@@ -27740,6 +28958,14 @@
           "val" : "OGES:000004"
         }, {
           "val" : "OGES:000019"
+        }, {
+          "val" : "OariDv:0000026"
+        }, {
+          "val" : "RnorDv:0000005"
+        }, {
+          "val" : "SsalDv:0000016"
+        }, {
+          "val" : "SscrDv:0000090"
         }, {
           "val" : "WBls:0000010"
         }, {
@@ -27767,9 +28993,17 @@
         }, {
           "val" : "BilaDO:0000009"
         }, {
+          "val" : "GgalDv:0000093"
+        }, {
           "val" : "HsapDv:0000012"
         }, {
           "val" : "MmusDv:0000017"
+        }, {
+          "val" : "OariDv:0000027"
+        }, {
+          "val" : "RnorDv:0000007"
+        }, {
+          "val" : "SscrDv:0000091"
         }, {
           "val" : "XAO:1000006"
         } ],
@@ -27809,6 +29043,8 @@
         }, {
           "val" : "BilaDO:0000010"
         }, {
+          "val" : "GgalDv:0000094"
+        }, {
           "val" : "HsapDv:0000015"
         }, {
           "val" : "MmusDv:0000018"
@@ -27816,6 +29052,14 @@
           "val" : "OGES:000005"
         }, {
           "val" : "OGES:000032"
+        }, {
+          "val" : "OariDv:0000028"
+        }, {
+          "val" : "RnorDv:0000055"
+        }, {
+          "val" : "SsalDv:0000022"
+        }, {
+          "val" : "SscrDv:0000086"
         }, {
           "val" : "Wikipedia:Organogenesis"
         } ],
@@ -27850,17 +29094,55 @@
           "xrefs" : [ "http://eol.org/schema/terms/subadult" ]
         } ],
         "xrefs" : [ {
+          "val" : "AcarDv:0000003"
+        }, {
           "val" : "BILS:0000112"
         }, {
           "val" : "BTO:0002168"
+        }, {
+          "val" : "BtauDv:0000003"
+        }, {
+          "val" : "CfamDv:0000003"
+        }, {
+          "val" : "CporDv:0000003"
         }, {
           "val" : "EFO:0001300"
         }, {
           "val" : "EV:0300051"
         }, {
+          "val" : "EcabDv:0000003"
+        }, {
+          "val" : "FcatDv:0000003"
+        }, {
+          "val" : "GgalDv:0000003"
+        }, {
+          "val" : "GgorDv:0000003"
+        }, {
+          "val" : "HsapDv:0000264"
+        }, {
+          "val" : "MdomDv:0000003"
+        }, {
+          "val" : "MmulDv:0000003"
+        }, {
           "val" : "MmusDv:0000043"
         }, {
           "val" : "OGES:000009"
+        }, {
+          "val" : "OanaDv:0000003"
+        }, {
+          "val" : "OariDv:0000003"
+        }, {
+          "val" : "OcunDv:0000003"
+        }, {
+          "val" : "PpanDv:0000003"
+        }, {
+          "val" : "PtroDv:0000003"
+        }, {
+          "val" : "RnorDv:0000012"
+        }, {
+          "val" : "SsalDv:0000041"
+        }, {
+          "val" : "SscrDv:0000003"
         }, {
           "val" : "XAO:1000010"
         }, {
@@ -27897,19 +29179,57 @@
           "val" : "adult stage"
         } ],
         "xrefs" : [ {
+          "val" : "AcarDv:0000004"
+        }, {
           "val" : "BILS:0000113"
+        }, {
+          "val" : "BtauDv:0000004"
+        }, {
+          "val" : "CfamDv:0000004"
+        }, {
+          "val" : "CporDv:0000004"
         }, {
           "val" : "EV:0300064"
         }, {
           "val" : "EV:0300070"
         }, {
+          "val" : "EcabDv:0000004"
+        }, {
+          "val" : "FcatDv:0000004"
+        }, {
+          "val" : "GgalDv:0000006"
+        }, {
+          "val" : "GgorDv:0000006"
+        }, {
+          "val" : "HsapDv:0000258"
+        }, {
           "val" : "MIAA:0000403"
+        }, {
+          "val" : "MdomDv:0000006"
+        }, {
+          "val" : "MmulDv:0000021"
         }, {
           "val" : "MmusDv:0000110"
         }, {
           "val" : "OGES:000026"
         }, {
           "val" : "OGES:000027"
+        }, {
+          "val" : "OanaDv:0000004"
+        }, {
+          "val" : "OariDv:0000006"
+        }, {
+          "val" : "OcunDv:0000004"
+        }, {
+          "val" : "PpanDv:0000016"
+        }, {
+          "val" : "PtroDv:0000011"
+        }, {
+          "val" : "RnorDv:0000015"
+        }, {
+          "val" : "SsalDv:0000042"
+        }, {
+          "val" : "SscrDv:0000006"
         }, {
           "val" : "XAO:1000093"
         }, {
@@ -28105,13 +29425,19 @@
         }, {
           "val" : "FMA:63631"
         }, {
+          "val" : "HsapDv:0000037"
+        }, {
           "val" : "MIAA:0000399"
         }, {
           "val" : "MmusDv:0000031"
         }, {
           "val" : "OGES:000023"
         }, {
+          "val" : "RnorDv:0000011"
+        }, {
           "val" : "SCTID:367619004"
+        }, {
+          "val" : "SscrDv:0000080"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -28188,13 +29514,21 @@
         }, {
           "val" : "EV:0300037"
         }, {
-          "val" : "HsapDv:0000082"
+          "val" : "HsapDv:0000262"
         }, {
-          "val" : "MmusDv:0000096"
+          "val" : "MdomDv:0000004"
+        }, {
+          "val" : "MmulDv:0000046"
+        }, {
+          "val" : "MmusDv:0000036"
         }, {
           "val" : "NIF_Organism:birnlex_695"
         }, {
           "val" : "OGES:000025"
+        }, {
+          "val" : "RnorDv:0000013"
+        }, {
+          "val" : "SscrDv:0000009"
         }, {
           "val" : "Wikipedia:Infant"
         }, {
@@ -28237,13 +29571,49 @@
           "xrefs" : [ "EV:0300123" ]
         } ],
         "xrefs" : [ {
+          "val" : "AcarDv:0000006"
+        }, {
+          "val" : "BtauDv:0000006"
+        }, {
+          "val" : "CfamDv:0000006"
+        }, {
+          "val" : "CporDv:0000006"
+        }, {
           "val" : "EV:0300123"
         }, {
-          "val" : "HsapDv:0000093"
+          "val" : "EcabDv:0000006"
+        }, {
+          "val" : "FcatDv:0000006"
+        }, {
+          "val" : "GgalDv:0000080"
+        }, {
+          "val" : "GgorDv:0000008"
+        }, {
+          "val" : "HsapDv:0000227"
+        }, {
+          "val" : "MdomDv:0000025"
+        }, {
+          "val" : "MmulDv:0000045"
+        }, {
+          "val" : "MmusDv:0000134"
         }, {
           "val" : "NCIT:C16268"
         }, {
           "val" : "NIF_Organism:birnlex_691"
+        }, {
+          "val" : "OanaDv:0000006"
+        }, {
+          "val" : "OariDv:0000008"
+        }, {
+          "val" : "OcunDv:0000006"
+        }, {
+          "val" : "PpanDv:0000040"
+        }, {
+          "val" : "PtroDv:0000039"
+        }, {
+          "val" : "RnorDv:0000060"
+        }, {
+          "val" : "SscrDv:0000008"
         }, {
           "val" : "UMLS:C0001792"
         } ],
@@ -28280,6 +29650,8 @@
           "xrefs" : [ "XAO:1000011" ]
         } ],
         "xrefs" : [ {
+          "val" : "SsalDv:0000005"
+        }, {
           "val" : "XAO:1000011"
         }, {
           "val" : "XtroDO:0000006"
@@ -28316,6 +29688,8 @@
           "xrefs" : [ "XAO:1000013" ]
         } ],
         "xrefs" : [ {
+          "val" : "SsalDv:0000006"
+        }, {
           "val" : "XAO:1000013"
         }, {
           "val" : "XtroDO:0000007"
@@ -28352,6 +29726,8 @@
           "xrefs" : [ "XAO:1000014" ]
         } ],
         "xrefs" : [ {
+          "val" : "SsalDv:0000007"
+        }, {
           "val" : "XAO:1000014"
         }, {
           "val" : "XtroDO:0000008"
@@ -28690,6 +30066,45 @@
           "pred" : "hasRelatedSynonym",
           "val" : "adulthood stage"
         } ],
+        "xrefs" : [ {
+          "val" : "AcarDv:0000005"
+        }, {
+          "val" : "BtauDv:0000005"
+        }, {
+          "val" : "CfamDv:0000005"
+        }, {
+          "val" : "CporDv:0000005"
+        }, {
+          "val" : "EcabDv:0000005"
+        }, {
+          "val" : "FcatDv:0000005"
+        }, {
+          "val" : "GgalDv:0000077"
+        }, {
+          "val" : "GgorDv:0000007"
+        }, {
+          "val" : "HsapDv:0000226"
+        }, {
+          "val" : "MdomDv:0000007"
+        }, {
+          "val" : "MmulDv:0000022"
+        }, {
+          "val" : "MmusDv:0000136"
+        }, {
+          "val" : "OanaDv:0000005"
+        }, {
+          "val" : "OariDv:0000007"
+        }, {
+          "val" : "OcunDv:0000005"
+        }, {
+          "val" : "PpanDv:0000017"
+        }, {
+          "val" : "PtroDv:0000012"
+        }, {
+          "val" : "RnorDv:0000059"
+        }, {
+          "val" : "SscrDv:0000007"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
           "val" : "https://github.com/ANiknejad"
@@ -28732,6 +30147,27 @@
           "pred" : "hasExactSynonym",
           "val" : "suckling stage"
         } ],
+        "xrefs" : [ {
+          "val" : "GgorDv:0000004"
+        }, {
+          "val" : "HsapDv:0000260"
+        }, {
+          "val" : "MdomDv:0000032"
+        }, {
+          "val" : "MmulDv:0000004"
+        }, {
+          "val" : "MmusDv:0000138"
+        }, {
+          "val" : "OariDv:0000004"
+        }, {
+          "val" : "PpanDv:0000004"
+        }, {
+          "val" : "PtroDv:0000004"
+        }, {
+          "val" : "RnorDv:0000056"
+        }, {
+          "val" : "SscrDv:0000004"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -28747,6 +30183,29 @@
           "xrefs" : [ "Bgee:AN", "https://github.com/obophenotype/uberon/issues/645" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#human_subset", "http://purl.obolibrary.org/obo/uberon/core#mouse_subset" ],
+        "xrefs" : [ {
+          "val" : "GgalDv:0000005"
+        }, {
+          "val" : "GgorDv:0000005"
+        }, {
+          "val" : "HsapDv:0000271"
+        }, {
+          "val" : "MdomDv:0000005"
+        }, {
+          "val" : "MmulDv:0000014"
+        }, {
+          "val" : "MmusDv:0000178"
+        }, {
+          "val" : "OariDv:0000005"
+        }, {
+          "val" : "PpanDv:0000005"
+        }, {
+          "val" : "PtroDv:0000005"
+        }, {
+          "val" : "RnorDv:0000058"
+        }, {
+          "val" : "SscrDv:0000005"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
           "val" : "https://github.com/ANiknejad"
@@ -28768,6 +30227,19 @@
           "xrefs" : [ "Bgee:AN", "https://github.com/obophenotype/uberon/issues/644" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#human_subset", "http://purl.obolibrary.org/obo/uberon/core#mouse_subset" ],
+        "xrefs" : [ {
+          "val" : "HsapDv:0000261"
+        }, {
+          "val" : "MdomDv:0000033"
+        }, {
+          "val" : "MmulDv:0000053"
+        }, {
+          "val" : "MmusDv:0000177"
+        }, {
+          "val" : "RnorDv:0000057"
+        }, {
+          "val" : "SscrDv:0000085"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
           "val" : "https://github.com/ANiknejad"
@@ -28775,32 +30247,6 @@
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
           "val" : "https://github.com/cmungall"
         }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "uberon"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0035946",
-      "lbl" : "start of neonate stage",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A life cycle temporal boundary that marks the start of the neonate stage of the organism.",
-          "xrefs" : [ "https://github.com/obophenotype/uberon/issues/1204", "https://orcid.org/0000-0002-6601-2165" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#human_subset", "http://purl.obolibrary.org/obo/uberon/core#mouse_subset" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "moment of birth"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "time of birth"
-        }, {
-          "synonymType" : "http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT",
-          "pred" : "hasRelatedSynonym",
-          "val" : "birth"
-        } ],
-        "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
         } ]
@@ -29778,6 +31224,9 @@
           "val" : "dog_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "gorilla_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -29851,6 +31300,9 @@
           "val" : "a core relation that holds between a whole and its part"
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
+        "xrefs" : [ {
+          "val" : "BFO:0000051"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "has part"
@@ -29878,6 +31330,15 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
           "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "has_part"
         } ]
       }
     }, {
@@ -29937,6 +31398,9 @@
           "val" : "dog_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "gorilla_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -29976,6 +31440,9 @@
           "val" : "sheep_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "zebrafish_anatomical_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
@@ -29992,8 +31459,17 @@
           "val" : "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "xrefs" : [ {
+          "val" : "BFO:0000063"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "precedes"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
           "val" : "precedes"
         } ]
       }
@@ -30484,6 +31960,9 @@
           "val" : "dog_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "gorilla_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -30518,6 +31997,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "sheep_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "zebrafish_anatomical_ontology"
@@ -30558,9 +32040,14 @@
       "propertyType" : "OBJECT",
       "meta" : {
         "definition" : {
-          "val" : "x overlaps y if and only if there exists some z such that x has part z and z part of y"
+          "val" : "x overlaps y iff they have some part in common.",
+          "xrefs" : [ "BSPO:cjm" ]
         },
+        "comments" : [ "\"(forall (x y) (iff (overlaps x y) (exists (z) (and (part of z x) (part of z y)))))\" CLIF []" ],
         "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "xrefs" : [ {
+          "val" : "RO:0002131"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
@@ -30570,6 +32057,15 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
           "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "overlaps"
         } ]
       }
     }, {
@@ -30578,70 +32074,15 @@
       "type" : "PROPERTY",
       "propertyType" : "OBJECT",
       "meta" : {
-        "definition" : {
-          "val" : "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z."
-        },
         "xrefs" : [ {
           "val" : "RO:0002160"
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "lactation SubClassOf 'only in taxon' some 'Mammalia'"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "The original intent was to treat this as a macro that expands to 'in taxon' only ?Y - however, this is not necessary if we instead have supplemental axioms that state that each pair of sibling tax have a disjointness axiom using the 'in taxon' property - e.g.\n\n 'in taxon' some Eukaryota DisjointWith 'in taxon' some Eubacteria"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "https://orcid.org/0000-0002-6601-2165"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "http://www.ncbi.nlm.nih.gov/pubmed/17921072"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "http://www.ncbi.nlm.nih.gov/pubmed/20973947"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "rhesus_macaque_stages_ontology"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
           "val" : "only_in_taxon"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://github.com/obophenotype/uberon/wiki/Taxon-constraints"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "lbl" : "in taxon",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT",
-      "meta" : {
-        "definition" : {
-          "val" : "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed."
-        },
-        "comments" : [ "Connects a biological entity to its taxon of origin." ],
-        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "https://orcid.org/0000-0001-9227-417X"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "https://orcid.org/0000-0002-6601-2165"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "http://www.ncbi.nlm.nih.gov/pubmed/17921072"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "http://www.ncbi.nlm.nih.gov/pubmed/20973947"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://github.com/obophenotype/uberon/wiki/Taxon-constraints"
         } ]
       }
     }, {
@@ -30967,23 +32408,6 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/ro/docs/reflexivity/"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002320",
-      "lbl" : "evolutionarily related to",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT",
-      "meta" : {
-        "definition" : {
-          "val" : "A relationship that holds via some environmental process"
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "https://orcid.org/0000-0002-6601-2165"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
-          "val" : "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the process of evolution."
         } ]
       }
     }, {
@@ -32470,31 +33894,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "lbl" : "definition",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "definition"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON:Daniel Schober"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
-        } ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000116",
       "type" : "PROPERTY",
@@ -32537,32 +33937,26 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
-      "lbl" : "term replaced by",
+      "lbl" : "has ontology root term",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION",
       "meta" : {
         "definition" : {
-          "val" : "Use on obsolete terms, relating the term to another term that can be used as a substitute"
+          "val" : "Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root."
         },
-        "comments" : [ "Add as annotation triples in the granting ontology" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "term replaced by"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+          "val" : "has ontology root term"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Person:Alan Ruttenberg"
+          "val" : "Nicolas Matentzoglu"
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "lbl" : "term replaced by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OMO_0003011",
       "type" : "PROPERTY",
@@ -32659,6 +34053,240 @@
       "id" : "http://purl.obolibrary.org/obo/valid_for_gocam",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#end_dpb",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#end_dpf",
+      "lbl" : "end, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 1 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#end_mpb",
+      "lbl" : "end, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 1 for this property, and the period during which the organism is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#end_mpf",
+      "lbl" : "end, months post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the end of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#end_wpb",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#end_ypb",
+      "lbl" : "end, years post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2"
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#granular_stage",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#has_end_time",
+      "lbl" : "has end time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#has_start_time",
+      "lbl" : "has start time",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+      "lbl" : "has unit",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "comments" : [ "Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#start_dpb",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#start_dpf",
+      "lbl" : "start, days post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of days intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first day of development has the value of 0 for this property."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000033"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#start_mpb",
+      "lbl" : "start, months post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of birth according to a reference model. Note that the first month of post-birth development has the value of 0 for this property, and the period during which the organism is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#start_mpf",
+      "lbl" : "start, months post fertilization",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of months intervening between the start of the stage and the time of fertilization according to a reference model. Note that the first month of development has the value of 1 for this property, and the period during which the organism is one month old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000035"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#start_wpb",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ChirDv#start_ypb",
+      "lbl" : "start, years post birth",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1."
+        },
+        "comments" : [ "This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ChirDv#has_unit",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000036"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "goat_stages_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/SscrDv#end_dpb",
       "lbl" : "end, days post birth",
@@ -36877,10 +38505,6 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/uberon/core#SENSU",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -36934,10 +38558,6 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.org/dc/terms/contributor",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.org/dc/terms/created",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -37021,85 +38641,22 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
       "lbl" : "has_broad_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property which has a more general meaning than the preferred name/primary label."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "http://orcid.org/0000-0001-5208-3432"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/18"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/18"
-        } ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-      "lbl" : "has cross-reference",
+      "lbl" : "database_cross_reference",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An annotation property that links an ontology entity or a statement to a prefixed identifier or URI."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "disease characteristic (MONDO:0021125) has cross-reference (http://www.geneontology.org/formats/oboInOwl#hasDbXref) \"NCIT:C41009\"^^xsd:string"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/123"
-        }, {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0002-7356-1779"
-        }, {
-          "pred" : "http://purl.org/dc/terms/created",
-          "val" : "2024-03-18"
-        } ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
       "lbl" : "has_exact_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property which has the exact same meaning than the preferred name/primary label."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "http://orcid.org/0000-0001-5208-3432"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/20"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/20"
-        } ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
       "lbl" : "has_narrow_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property which has a more specific meaning than the preferred name/primary label."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "http://orcid.org/0000-0001-5208-3432"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/19"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/19"
-        } ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
       "lbl" : "has_obo_format_version",
@@ -37114,22 +38671,7 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "lbl" : "has_related_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property that has been used synonymously with the primary term name, but the usage is not strictly correct."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "http://orcid.org/0000-0001-5208-3432"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/21"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/21"
-        } ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
       "type" : "PROPERTY",
@@ -37212,10 +38754,6 @@
       "propertyType" : "ANNOTATION"
     } ],
     "edges" : [ {
-      "sub" : "http://owltools.org/Q",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/AcarDv_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/AcarDv_0000000"
@@ -38603,6 +40141,770 @@
       "sub" : "http://purl.obolibrary.org/obo/CfamDv_0000007",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/CfamDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000009",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000009",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000016",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000018",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000019",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000019",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000020",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000021",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000022",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000023",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000025",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000027"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000031",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000031",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000032",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000032",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000033",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000033",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000032"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000034",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000034",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000036",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000035"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000037",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000037",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000033"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000038",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000038",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000038",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000038",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000037"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000039",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000039",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000038"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000040",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000040",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000039"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000041"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000043",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000043",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000043",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000034"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000043",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000042"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000044",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000044",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000045"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000046"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000035"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ChirDv_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/ChirDv_0000049"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CporDv_0000001",
       "pred" : "is_a",
@@ -48222,10 +50524,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/MmusDv_0000177"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0100026",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OanaDv_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OanaDv_0000000"
@@ -53272,23 +55570,31 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000066",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000066",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000066",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000111"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000071"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000068",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000069",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000068",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000068",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000092"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000069",
       "pred" : "is_a",
@@ -53298,9 +55604,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000070",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000070",
       "pred" : "is_a",
@@ -53309,6 +55615,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000070",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000069"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000071",
       "pred" : "is_a",
@@ -53318,16 +55628,16 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000092",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000105",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000106",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000106",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000106",
@@ -53336,19 +55646,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000107",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000107",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000107",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000108",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000107",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000106"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000108",
       "pred" : "is_a",
@@ -53358,9 +55664,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000109",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000108",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000107"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000109",
       "pred" : "is_a",
@@ -53370,9 +55676,15 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000110",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000109",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000108",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#source",
+          "val" : "BILS"
+        } ]
+      }
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000110",
       "pred" : "is_a",
@@ -53382,9 +55694,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000111",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000110",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000111",
       "pred" : "is_a",
@@ -53393,10 +55705,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000111",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000112",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000112",
       "pred" : "is_a",
@@ -53408,19 +55716,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000113",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000113",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000113",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000066"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004707",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000113",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000112"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004707",
       "pred" : "is_a",
@@ -53429,6 +55733,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004707",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000111"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004707",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000110"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004728",
       "pred" : "is_a",
@@ -53444,19 +55752,19 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007220",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007220",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007220",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007221",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007220",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000111"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007220",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004707"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007221",
       "pred" : "is_a",
@@ -53468,19 +55776,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007222",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007222",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007222",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000113"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007232",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007222",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0018241"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007232",
       "pred" : "is_a",
@@ -53490,9 +55794,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000107"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007233",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007232",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000106"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007233",
       "pred" : "is_a",
@@ -53502,9 +55806,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000107"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007236",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007233",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0007232"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007236",
       "pred" : "is_a",
@@ -53513,6 +55817,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007236",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000107"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007236",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0007233"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0008264",
       "pred" : "is_a",
@@ -53526,25 +55834,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0012101",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0012101",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000092"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014405",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000069"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014406",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014406",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014406",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0018378"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014856",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014856",
       "pred" : "is_a",
@@ -53556,19 +55864,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014857",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014857",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014857",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0018378"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014858",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014857",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0014406"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014858",
       "pred" : "is_a",
@@ -53584,19 +55888,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014860",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014860",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014860",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0018378"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014861",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014860",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0014406"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014861",
       "pred" : "is_a",
@@ -53605,10 +55905,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014861",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0018378"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014862",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014862",
       "pred" : "is_a",
@@ -53617,10 +55913,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014862",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000069"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0014863",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0014863",
       "pred" : "is_a",
@@ -53636,10 +55928,6 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0018241",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0018241",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0018241",
@@ -53652,19 +55940,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0018685",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0018685",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0018685",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0034919",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0018685",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0007221"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0034919",
       "pred" : "is_a",
@@ -53676,22 +55960,14 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0034920",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0034920",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0034920",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0018685"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0035946",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0035946",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0034920",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0007221"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8000000",
@@ -53712,19 +55988,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200002",
       "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200002",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200002",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0014860"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200003",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0014406"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200003",
       "pred" : "is_a",
@@ -53734,9 +56006,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0014860"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200004",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8200002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200004",
       "pred" : "is_a",
@@ -53746,9 +56018,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0014860"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200005",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200004",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8200003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200005",
       "pred" : "is_a",
@@ -53758,9 +56030,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0014860"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200006",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200005",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8200004"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200006",
       "pred" : "is_a",
@@ -53770,9 +56042,9 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000113"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200007",
-      "pred" : "is_a",
-      "obj" : "http://owltools.org/Q"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200006",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8200005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200007",
       "pred" : "is_a",
@@ -53781,6 +56053,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8200007",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8200007",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8200006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZFS_0000000",
       "pred" : "is_a",
@@ -54678,14 +56954,6 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002323"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002160",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002162"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002320"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002180",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -55269,9 +57537,6 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000086",
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000019" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/OBI_0100026" ]
     } ],
     "propertyChainAxioms" : [ {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
@@ -55282,9 +57547,6 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000063",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/BFO_0000063" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/RO_0002162" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002329",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/RO_0002215" ]
@@ -55297,9 +57559,6 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/RO_0002131" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/RO_0002162" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002584",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/RO_0002215" ]
@@ -55330,9 +57589,6 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002216",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002215", "http://purl.obolibrary.org/obo/BFO_0000050" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002215", "http://purl.obolibrary.org/obo/RO_0002162" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002596",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002215", "http://purl.obolibrary.org/obo/RO_0002211" ]
