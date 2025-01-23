@@ -17,8 +17,7 @@ $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.obo .FORCE
 		merge --input $< \
 		annotate \
 		-V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION) \
-		--ontology-iri $(ONTBASE)/$@ \
-		convert --format ofn --output $@
+		--ontology-iri $(ONTBASE)/$@ --output $@
 .PRECIOUS: $(COMPONENTSDIR)/%.owl
 
 $(COMPONENTSDIR)/%.json: $(COMPONENTSDIR)/%.owl .FORCE
