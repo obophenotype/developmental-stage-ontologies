@@ -3,6 +3,7 @@ date: 05:02:2021 13:48
 saved-by: fbb
 auto-generated-by: OBO-Edit 1.101
 default-namespace: human_stages_ontology
+treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:9606
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 treat-xrefs-as-equivalent: EV
 treat-xrefs-as-equivalent: XUO
