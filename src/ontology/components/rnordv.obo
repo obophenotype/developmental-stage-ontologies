@@ -2,6 +2,7 @@ format-version: 1.2
 date: 24:02:2014 12:30
 saved-by: ann
 default-namespace: rat_stages_ontology
+treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:10116
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 ontology: rnordv
 
