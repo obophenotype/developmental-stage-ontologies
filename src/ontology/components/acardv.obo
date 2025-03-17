@@ -2,6 +2,7 @@ format-version: 1.2
 date: 07:03:2014 10:00
 saved-by: ann
 default-namespace: lizard_stages_ontology
+treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:28377
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 ontology: acardv
 property_value: IAO:0000700 AcarDv:0000000
