@@ -2,6 +2,7 @@ format-version: 1.2
 date: 19:06:2016 14:23
 saved-by: ame
 default-namespace: Dmojavensis_stages_ontology
+treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:7230
 ontology: dmojdv
 
 [Term]
