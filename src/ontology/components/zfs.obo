@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_stages
+treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:7955
 ontology: zfs
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/3.0/
 
