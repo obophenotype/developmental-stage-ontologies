@@ -2,7 +2,7 @@ format-version: 1.2
 date: 25:03:2014 17:05
 saved-by: fbb
 default-namespace: pufferfish_stages_ontology
-treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:1220759
+treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:99883
 subsetdef: granular_stage "Subset consisting of classes describing highly granular developmental stages (for instance, '23-year-old'). Such stages might be useful for annotation purpose, but might be folded into less granular parents for display purpose."
 ontology: tnigdv
 
