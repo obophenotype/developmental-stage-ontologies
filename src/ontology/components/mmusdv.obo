@@ -1940,7 +1940,6 @@ id: MmusDv:0000097
 name: late adult stage
 namespace: mouse_developmental_stage
 def: "Mature stage that refers to an adult mouse which is over 7 months old." [http://research.jax.org/faculty/harrison/ger1vLifespan1.html#VD "adapted from"]
-xref: UBERON:0007222
 property_value: start_wpb "30.0" xsd:float
 property_value: start_mpb "7.0" xsd:float
 is_obsolete: true
