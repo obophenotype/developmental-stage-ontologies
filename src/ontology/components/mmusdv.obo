@@ -1235,7 +1235,6 @@ name: early adult stage
 namespace: mouse_developmental_stage
 def: "Mature stage that refers to a adult mouse which is over 6 weeks and under 7 months old." [http://research.jax.org/faculty/harrison/ger1vLifespan1.html#VD "adapted from"]
 comment: Mice under 7 months of age are commonly considered as young adult in the literature, without loss of functional capability like hearing (see http://www.ncbi.nlm.nih.gov/pubmed/18259074).
-xref: UBERON:0018241
 property_value: start_wpb "6.0" xsd:float
 property_value: end_wpb "30.0" xsd:float
 property_value: start_mpb "1.5" xsd:float
