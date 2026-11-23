@@ -138,8 +138,8 @@ comment: The eyelashes are more developed. The foetus is about 46 cm. long. The 
 is_a: BtauDv:0000000 ! life cycle stage
 relationship: part_of BtauDv:0000008 ! second trimester of gestation
 relationship: immediately_preceded_by BtauDv:0000014 ! fifth month of gestation
-property_value: start_dpf "120.0" xsd:float
-property_value: end_dpf "150.0" xsd:float
+property_value: start_dpf "150.0" xsd:float
+property_value: end_dpf "180.0" xsd:float
 property_value: start_mpf "5.0" xsd:float
 property_value: end_mpf "6.0" xsd:float
 
