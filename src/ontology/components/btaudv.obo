@@ -382,59 +382,55 @@ property_value: end_dpb "22.0" xsd:float
 id: BtauDv:0000065
 name: 22-day-old stage
 namespace: cow_developmental_stage
-def: "Immature stage that refers to a calf which is over 21 and under 22 days old." [Bgee:curator "Bgee"]
+def: "Immature stage that refers to a calf which is over 22 and under 23 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: BtauDv:0000000 ! life cycle stage
 relationship: part_of BtauDv:0000063 ! 3-week-old stage
 relationship: immediately_preceded_by BtauDv:0000064 ! 21-day-old stage
-property_value: start_wpb "3.0" xsd:float
-property_value: start_dpb "21.0" xsd:float
-property_value: end_dpb "22.0" xsd:float
+property_value: start_dpb "22.0" xsd:float
+property_value: end_dpb "23.0" xsd:float
 
 [Term]
 id: BtauDv:0000066
 name: 23-day-old stage
 namespace: cow_developmental_stage
-def: "Immature stage that refers to a calf which is over 21 and under 22 days old." [Bgee:curator "Bgee"]
+def: "Immature stage that refers to a calf which is over 23 and under 24 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: BtauDv:0000000 ! life cycle stage
 relationship: part_of BtauDv:0000063 ! 3-week-old stage
 relationship: immediately_preceded_by BtauDv:0000065 ! 22-day-old stage
-property_value: start_wpb "3.0" xsd:float
-property_value: start_dpb "21.0" xsd:float
-property_value: end_dpb "22.0" xsd:float
+property_value: start_dpb "23.0" xsd:float
+property_value: end_dpb "24.0" xsd:float
 
 [Term]
 id: BtauDv:0000067
 name: 24-day-old stage
 namespace: cow_developmental_stage
-def: "Immature stage that refers to a calf which is over 21 and under 22 days old." [Bgee:curator "Bgee"]
+def: "Immature stage that refers to a calf which is over 24 and under 25 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: BtauDv:0000000 ! life cycle stage
 relationship: part_of BtauDv:0000063 ! 3-week-old stage
 relationship: immediately_preceded_by BtauDv:0000066 ! 23-day-old stage
-property_value: start_wpb "3.0" xsd:float
-property_value: start_dpb "21.0" xsd:float
-property_value: end_dpb "22.0" xsd:float
+property_value: start_dpb "24.0" xsd:float
+property_value: end_dpb "25.0" xsd:float
 
 [Term]
 id: BtauDv:0000068
 name: 25-day-old stage
 namespace: cow_developmental_stage
-def: "Immature stage that refers to a calf which is over 21 and under 22 days old." [Bgee:curator "Bgee"]
+def: "Immature stage that refers to a calf which is over 25 and under 26 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: BtauDv:0000000 ! life cycle stage
 relationship: part_of BtauDv:0000063 ! 3-week-old stage
 relationship: immediately_preceded_by BtauDv:0000067 ! 24-day-old stage
-property_value: start_wpb "3.0" xsd:float
-property_value: start_dpb "21.0" xsd:float
-property_value: end_dpb "22.0" xsd:float
+property_value: start_dpb "25.0" xsd:float
+property_value: end_dpb "26.0" xsd:float
 
 [Term]
 id: BtauDv:0000069
 name: 26-day-old stage
 namespace: cow_developmental_stage
-def: "Immature stage that refers to a calf which is over 21 and under 22 days old." [Bgee:curator "Bgee"]
+def: "Immature stage that refers to a calf which is over 26 and under 27 days old." [Bgee:curator "Bgee"]
 subset: granular_stage
 is_a: BtauDv:0000000 ! life cycle stage
 relationship: part_of BtauDv:0000063 ! 3-week-old stage
