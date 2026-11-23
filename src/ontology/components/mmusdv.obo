@@ -1090,7 +1090,6 @@ is_a: MmusDv:0000000 ! life cycle stage
 relationship: part_of MmusDv:0000043 ! immature stage
 relationship: immediately_preceded_by MmusDv:0000177 ! infant stage
 property_value: start_dpb "23.0" xsd:float
-property_value: end_dpb "24.0" xsd:float
 
 [Term]
 id: MmusDv:0000144
