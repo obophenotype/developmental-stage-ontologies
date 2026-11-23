@@ -3065,7 +3065,6 @@ relationship: immediately_preceded_by HsapDv:0000224 ! 98-year-old stage
 id: HsapDv:0000247
 name: centenarian stage
 property_value: start_ypb "100.0" xsd:float
-property_value: end_ypb "101.0" xsd:float
 subset: granular_stage
 namespace: human_developmental_stage
 def: "Aged stage that refers to an adult who is over 100 years old." [Bgee:curator "Bgee"]
