@@ -63,7 +63,7 @@ id: ChirDv:0000005
 name: 2-cell stage embryo
 namespace: goat_developmental_stage
 comment: The first cleavage division did not occur until 24-36 h after ovulation, but the following two divisions occurred at about 12-h intervals, see PMID: 2621707. Completion of first cleavage was observed 48h after mating, see https://embryology.med.unsw.edu.au/embryology/index.php?title=Paper_-_The_early_development_of_the_goat_(1942).
-xref: UBERON:0019249
+xref: UBERON:0007232
 is_a: ChirDv:0000000 ! life cycle stage
 relationship: part_of ChirDv:0000004 ! cleavage stage
 relationship: immediately_preceded_by ChirDv:0000003 ! zygote stage
