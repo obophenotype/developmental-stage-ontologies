@@ -1125,8 +1125,8 @@ subset: granular_stage
 is_a: MmusDv:0000000 ! life cycle stage
 relationship: part_of MmusDv:0000178 ! juvenile stage
 relationship: immediately_preceded_by MmusDv:0000145 ! 24-day-old stage
-property_value: start_dpb "21.0" xsd:float
-property_value: end_dpb "22.0" xsd:float
+property_value: start_dpb "25.0" xsd:float
+property_value: end_dpb "26.0" xsd:float
 
 [Term]
 id: MmusDv:0000147
